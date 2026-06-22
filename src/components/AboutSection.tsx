@@ -1,14 +1,19 @@
 import Link from "next/link";
 
+const credentials = [
+  { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
+  { label: "Babyschlafberaterin", detail: "15+ Jahre Praxis" },
+  { label: "Mutter von 7", detail: "Alle Phasen aus erster Hand" },
+  { label: "Autorin", detail: "Wer liebt, führt" },
+];
+
 export default function AboutSection() {
   return (
     <section className="section-padding bg-cream-dark">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Left: Photo placeholder */}
           <div className="order-2 lg:order-1">
             <div className="relative">
-              {/* Frame effect */}
               <div
                 className="absolute inset-0 border border-terra/30"
                 style={{ transform: "translate(16px, 16px)" }}
@@ -41,21 +46,19 @@ export default function AboutSection() {
                     </p>
                   </div>
                 </div>
-                {/* Bottom overlay with quote */}
                 <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-midnight via-midnight/80 to-transparent">
-                  <p className="font-serif text-cream/85 italic text-sm">
-                    „Mit sieben Kindern und fünfzehn Jahren Beratungspraxis
-                    habe ich gelernt: Perfektion ist nicht das Ziel.
-                    Verlässlichkeit ist das Ziel."
+                  <p className="font-serif text-cream/85 italic text-sm leading-relaxed">
+                    &bdquo;Mit sieben Kindern und f&uuml;nfzehn Jahren
+                    Beratungspraxis habe ich gelernt: Perfektion ist nicht das
+                    Ziel. Zuverl&auml;ssigkeit ist das Ziel.&ldquo;
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right: Text */}
           <div className="order-1 lg:order-2">
-            <p className="text-overline text-terra mb-6">Über Sarah Mann</p>
+            <p className="text-overline text-terra mb-6">&Uuml;ber Sarah Mann</p>
             <h2
               className="heading-section text-deep"
               style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)" }}
@@ -68,33 +71,24 @@ export default function AboutSection() {
 
             <div className="space-y-5 text-deep/70 leading-relaxed mt-8">
               <p>
-                Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von
-                sieben Kindern. Seit über fünfzehn Jahren begleitet sie Familien
-                in der Schlafberatung und Erziehungsbegleitung — zuerst mit
-                dem Idealismus einer jungen Mutter, dann mit der wachsenden
-                Erfahrung von jemandem, der das Leben mit Kindern aus jeder
-                Phase kennt.
+                Sarah Mann ist P&auml;dagogin, Babyschlafberaterin und Mutter
+                von sieben Kindern. Seit &uuml;ber f&uuml;nfzehn Jahren
+                begleitet sie Familien in der Schlafberatung und
+                Erziehungsbegleitung.
               </p>
               <p>
                 Als deutschsprachige Pionierin des{" "}
                 <span className="text-deep font-medium">Balanced Parenting</span>{" "}
                 verbindet sie wissenschaftliche Fundierung (Baumrind, Bowlby,
-                Ainsworth) mit dem echten Alltag. Keine Theorie, die an der
-                Praxis scheitert. Keine Praxis ohne wissenschaftliche Grundlage.
+                Ainsworth) mit dem echten Alltag.
               </p>
               <p>
                 Sarah lebt mit ihrem Mann und ihren sieben Kindern in Israel.
               </p>
             </div>
 
-            {/* Credential cards */}
             <div className="grid grid-cols-2 gap-4 mt-10">
-              {[
-                { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
-                { label: "Babyschlafberaterin", detail: "15+ Jahre Praxis" },
-                { label: "Mutter von 7", detail: "Alle Phasen aus erster Hand" },
-                { label: "Autorin", detail: "„Wer liebt, führt"" },
-              ].map((cred) => (
+              {credentials.map((cred) => (
                 <div key={cred.label} className="bg-cream p-5">
                   <p className="text-deep font-medium text-sm">{cred.label}</p>
                   <p className="text-terra text-xs mt-1 tracking-wide">
@@ -105,7 +99,7 @@ export default function AboutSection() {
             </div>
 
             <Link href="/ueber-sarah/" className="btn-primary mt-10 inline-flex">
-              Mehr über Sarah
+              Mehr &uuml;ber Sarah
               <svg
                 width="16"
                 height="16"
