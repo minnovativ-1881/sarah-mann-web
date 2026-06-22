@@ -204,3 +204,9 @@ body {
   backdrop-filter: blur(8px);
   box-shadow: 0 1px 0 rgba(245, 239, 230, 0.1);
 }
+
+.nav-scrolled-light {
+  background-color: rgba(245, 239, 230, 0.97);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 0 rgba(28, 45, 63, 0.08);
+}
