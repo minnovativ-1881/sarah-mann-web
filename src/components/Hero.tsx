@@ -95,41 +95,20 @@ export default function Hero() {
 
           {/* Right: Photo */}
           <div className="flex justify-center lg:justify-end">
-            <div className="relative" style={{ maxWidth: "460px", width: "100%" }}>
-              {/* Terra accent frame behind photo */}
-              <div
-                className="absolute rounded-sm"
+            <div style={{ maxWidth: "460px", width: "100%" }}>
+              <Image
+                src="/sarah-mann.png"
+                alt="Expertin fuer Balanced Parenting"
+                width={460}
+                height={560}
+                priority
                 style={{
-                  inset: 0,
-                  transform: "translate(14px, 14px)",
-                  background: "rgba(196,122,90,0.12)",
-                  border: "1px solid rgba(196,122,90,0.3)",
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  mixBlendMode: "multiply",
                 }}
               />
-              {/* Photo */}
-              <div className="relative overflow-hidden" style={{ borderRadius: "2px" }}>
-                <Image
-                  src="/sarah-mann.png"
-                  alt="Sarah Mann, Expertin fuer Balanced Parenting"
-                  width={460}
-                  height={560}
-                  priority
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    display: "block",
-                    mixBlendMode: "multiply",
-                  }}
-                />
-              </div>
-              {/* Caption below photo */}
-              <div className="mt-4 flex items-center gap-3">
-                <div className="h-px flex-1 bg-terra/20" />
-                <p className="text-deep/40 text-xs tracking-widest uppercase">
-                  Sarah Mann
-                </p>
-                <div className="h-px flex-1 bg-terra/20" />
-              </div>
             </div>
           </div>
 
