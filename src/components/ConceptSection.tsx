@@ -5,16 +5,10 @@ const pillars = [
     number: "01",
     title: "Warm",
     subtitle: "Echte Verbindung",
-    description:
-      "Sichere Bindung entsteht nicht durch Omnipräsenz, sondern durch Verlässlichkeit. Ein Kind, das weiß, dass es geliebt wird — unabhängig davon, was gerade passiert — kann sich sicher entwickeln.",
+    desc: "Sichere Bindung entsteht durch Verlässlichkeit — nicht durch Omnipräsenz.",
     icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <path
-          d="M14 24s-9-5.5-9-12a6 6 0 0 1 9-5.2A6 6 0 0 1 23 12c0 6.5-9 12-9 12Z"
-          stroke="#C47A5A"
-          strokeWidth="1.5"
-          strokeLinejoin="round"
-        />
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M16 27s-10-6-10-13a7 7 0 0 1 10-6.3A7 7 0 0 1 26 14c0 7-10 13-10 13Z" stroke="#C47A5A" strokeWidth="1.5" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -22,42 +16,23 @@ const pillars = [
     number: "02",
     title: "Klar",
     subtitle: "Verlässliche Struktur",
-    description:
-      "Grenzen sind keine Liebesentzug — sie sind Liebesbeweis. Ein Kind braucht ein Geländer, bevor es eigenständig die Treppe steigen kann. Konsequenz erzeugt Vorhersehbarkeit. Vorhersehbarkeit erzeugt Sicherheit.",
+    desc: "Grenzen sind kein Liebesentzug — sie sind Liebesbeweis. Konsequenz erzeugt Sicherheit.",
     icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <circle cx="14" cy="14" r="10" stroke="#C47A5A" strokeWidth="1.5" />
-        <path
-          d="M14 8v6l4 2"
-          stroke="#C47A5A"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <path d="M16 5 L22 9 L22 18 C22 23 16 27 16 27 C16 27 10 23 10 18 L10 9 Z" stroke="#C47A5A" strokeWidth="1.5" strokeLinejoin="round" />
+        <path d="M13 17l2 2 4-4" stroke="#C47A5A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
   {
     number: "03",
     title: "Verlässlich",
-    subtitle: "Konsequente Führung",
-    description:
-      "Führung bedeutet: Ich handle aus Überzeugung, nicht aus Angst. Ich sage Nein, wenn ich Nein meine — und Ja, wenn ich Ja meine. Auch wenn das Kind dagegen ist. Auch wenn es schwer ist.",
+    subtitle: "Klare Führung",
+    desc: "Ich handle aus Überzeugung, nicht aus Angst. Ich sage Nein, wenn ich Nein meine.",
     icon: (
-      <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-        <path
-          d="M14 4 L20 8 L20 16 C20 20 14 24 14 24 C14 24 8 20 8 16 L8 8 Z"
-          stroke="#C47A5A"
-          strokeWidth="1.5"
-          strokeLinejoin="round"
-        />
-        <path
-          d="M11 14l2 2 4-4"
-          stroke="#C47A5A"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
+      <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+        <circle cx="16" cy="16" r="11" stroke="#C47A5A" strokeWidth="1.5" />
+        <path d="M16 10v6l4 2" stroke="#C47A5A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -67,10 +42,11 @@ export default function ConceptSection() {
   return (
     <section className="section-padding bg-cream">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
+
         {/* Header */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 mb-20">
-          <div>
-            <p className="text-overline text-terra mb-6">Das Konzept</p>
+        <div className="mb-16">
+          <p className="text-overline text-terra mb-6">Das Konzept</p>
+          <div className="grid lg:grid-cols-2 gap-10 items-end">
             <h2
               className="heading-section text-deep"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)" }}
@@ -79,77 +55,53 @@ export default function ConceptSection() {
               <br />
               Balanced Parenting?
             </h2>
-            <div className="divider-terra" />
-          </div>
-          <div className="flex flex-col justify-end">
-            <p className="text-deep/70 text-lg leading-relaxed">
-              Balanced Parenting ist kein neuer Erziehungstrend. Es ist die
-              wissenschaftlich am besten bestätigte Antwort auf die Frage,
-              was Kinder wirklich brauchen — kombiniert mit dem, was Eltern
-              wirklich leisten können.
-            </p>
-            <p className="text-deep/60 text-base leading-relaxed mt-4">
-              Sechzig Jahre Forschung, von Diana Baumrind bis heute, zeigen
-              dasselbe Ergebnis: Hohe Wärme{" "}
+            <p className="text-deep/60 text-lg leading-relaxed">
+              Die wissenschaftlich am besten bestätigte Antwort auf die Frage,
+              was Kinder wirklich brauchen. Hohe Wärme{" "}
               <em className="font-serif font-medium text-terra">und</em> hohe
-              Anforderungen. Beides. Gleichzeitig. Nicht abwechselnd.
+              Klarheit. Beides. Gleichzeitig.
             </p>
           </div>
+          <div className="divider-terra mt-8" />
         </div>
 
         {/* Three pillars */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {pillars.map((pillar, i) => (
-            <div
-              key={pillar.number}
-              className="card-hover bg-white p-8 lg:p-10"
-              style={{ borderTop: "2px solid #C47A5A" }}
-            >
-              <div className="flex items-start justify-between mb-8">
-                {pillar.icon}
-                <span
-                  className="font-serif text-cream-dark font-light"
-                  style={{ fontSize: "3.5rem", lineHeight: 1 }}
-                >
-                  {pillar.number}
+        <div className="grid md:grid-cols-3 gap-6">
+          {pillars.map((p) => (
+            <div key={p.number} className="bg-white p-10 card-hover" style={{ borderTop: "2px solid #C47A5A" }}>
+              <div className="flex items-start justify-between mb-10">
+                {p.icon}
+                <span className="font-serif text-cream-dark font-light" style={{ fontSize: "3.5rem", lineHeight: 1 }}>
+                  {p.number}
                 </span>
               </div>
-              <h3
-                className="heading-section text-deep mb-1"
-                style={{ fontSize: "2rem" }}
-              >
-                {pillar.title}
+              <h3 className="heading-section text-deep mb-1" style={{ fontSize: "2rem" }}>
+                {p.title}
               </h3>
-              <p className="text-terra text-sm font-medium tracking-wide mb-5">
-                {pillar.subtitle}
+              <p className="text-terra text-xs font-medium tracking-widest uppercase mb-5">
+                {p.subtitle}
               </p>
-              <p className="text-deep/65 text-sm leading-relaxed">
-                {pillar.description}
-              </p>
+              <p className="text-deep/55 text-sm leading-relaxed">{p.desc}</p>
             </div>
           ))}
         </div>
 
-        {/* Bottom quote + CTA */}
-        <div className="mt-20 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
+        {/* Baumrind quote */}
+        <div className="mt-16 pt-12 border-t border-cream-mid flex flex-col lg:flex-row items-start lg:items-center justify-between gap-8">
           <blockquote
-            className="font-serif text-2xl lg:text-3xl italic text-deep/80 max-w-2xl"
+            className="font-serif text-xl lg:text-2xl italic text-deep/70 max-w-xl"
             style={{ fontWeight: 300 }}
           >
-            „Das authoritative Modell — warm und fordernd — erzeugt in sechzig
-            Jahren Forschung, in dutzenden Kulturen, immer dasselbe Ergebnis:
-            die resilientesten, sozial kompetentesten Kinder."
+            &bdquo;Das authoritative Modell — warm und fordernd — erzeugt in sechzig Jahren Forschung immer dasselbe Ergebnis: die resilientesten Kinder.&ldquo;
           </blockquote>
           <div className="flex-shrink-0">
-            <p className="text-overline text-terra mb-3">Diana Baumrind, 1971</p>
-            <Link
-              href="/balanced-parenting/"
-              className="btn-outline btn-outline-dark text-xs"
-            >
+            <p className="text-overline text-terra mb-4">Diana Baumrind, 1971</p>
+            <Link href="/balanced-parenting/" className="btn-outline btn-outline-dark text-xs">
               Mehr zum Konzept
             </Link>
           </div>
         </div>
+
       </div>
     </section>
   );

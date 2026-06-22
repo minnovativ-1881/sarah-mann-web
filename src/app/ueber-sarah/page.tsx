@@ -77,7 +77,6 @@ export default function UeberSarahPage() {
                     "Erziehungsbegleiterin",
                     "Mutter von sieben Kindern",
                     "Autorin",
-                    "Wohnhaft in Israel",
                   ].map((c) => (
                     <div key={c} className="flex gap-3 items-center text-sm text-deep/70">
                       <span className="text-terra">—</span>
