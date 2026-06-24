@@ -43,19 +43,19 @@ export default function BalancedParentingPage() {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="bg-midnight pt-40 pb-24 px-6 lg:px-12">
+        <section className="bg-cream-dark pt-44 pb-28 px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <p className="text-overline text-terra mb-8">Das Konzept</p>
             <h1
-              className="heading-display text-cream"
+              className="heading-display text-deep"
               style={{ fontSize: "clamp(3rem, 7vw, 6rem)" }}
             >
               Balanced
               <br />
-              <em className="text-terra">Parenting</em>
+              <em className="text-terra italic">Parenting</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-cream/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
               Der wissenschaftlich fundierte Mittelweg zwischen Erschöpfung und
               Entfremdung. Warm. Klar. Verlässlich.
             </p>
@@ -69,13 +69,13 @@ export default function BalancedParentingPage() {
               <div>
                 <h2
                   className="heading-section text-deep mb-6"
-                  style={{ fontSize: "2.25rem" }}
+                  style={{ fontSize: "2.5rem" }}
                 >
                   Kein Trend. Eine Haltung.
                 </h2>
                 <div className="divider-terra" />
               </div>
-              <div className="space-y-5 text-deep/70 leading-relaxed">
+              <div className="space-y-5 text-deep/70 leading-relaxed font-light">
                 <p>
                   Balanced Parenting ist nicht der nächste Erziehungstrend —
                   es ist die Rückkehr zu dem, was sechzig Jahre Forschung
@@ -86,7 +86,7 @@ export default function BalancedParentingPage() {
                   es mit Bindungsforschung unterlegt. Megan Gunnar hat es
                   neurobiologisch erklärt. Das Ergebnis ist immer das gleiche:
                 </p>
-                <p className="text-deep font-medium text-lg">
+                <p className="text-deep font-normal text-lg">
                   Hohe Wärme und hohe Anforderungen. Beides. Gleichzeitig.
                 </p>
               </div>
@@ -95,26 +95,24 @@ export default function BalancedParentingPage() {
         </section>
 
         {/* Vs comparison */}
-        <section className="section-padding bg-deep">
+        <section className="section-padding bg-cream-dark">
           <div className="max-w-5xl mx-auto px-6 lg:px-12">
-            <p className="text-overline text-terra mb-10 text-center">
+            <p className="text-overline text-terra mb-12 text-center">
               Warum Balanced Parenting anders ist
             </p>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-px bg-cream-mid">
               {[
                 {
                   style: "Autoritär",
                   warmth: "Niedrig",
                   structure: "Hoch",
                   result: "Gehorcht, aber vertraut nicht. Befolgt Regeln aus Angst, nicht aus Überzeugung.",
-                  color: "rgba(245,239,230,0.1)",
                 },
                 {
                   style: "Balanced (Autoritativ)",
                   warmth: "Hoch",
                   structure: "Hoch",
                   result: "Liebt und respektiert. Sucht Nähe und akzeptiert Führung. Resilient, sozial kompetent, psychisch gesund.",
-                  color: "rgba(196,122,90,0.15)",
                   highlight: true,
                 },
                 {
@@ -122,43 +120,43 @@ export default function BalancedParentingPage() {
                   warmth: "Hoch",
                   structure: "Niedrig",
                   result: "Liebt, aber respektiert nicht. Sucht Nähe, akzeptiert keine Führung.",
-                  color: "rgba(245,239,230,0.1)",
                 },
               ].map((item) => (
                 <div
                   key={item.style}
-                  className="p-8"
-                  style={{
-                    background: item.color,
-                    border: item.highlight ? "1px solid rgba(196,122,90,0.4)" : "1px solid rgba(245,239,230,0.08)",
-                  }}
+                  className="p-8 bg-cream"
+                  style={
+                    item.highlight
+                      ? { boxShadow: "inset 0 2px 0 #4A4F3C" }
+                      : undefined
+                  }
                 >
                   <p
-                    className={`font-medium text-lg mb-4 ${item.highlight ? "text-terra" : "text-cream/60"}`}
+                    className={`font-serif text-2xl mb-5 ${item.highlight ? "text-terra" : "text-deep/55"}`}
                   >
                     {item.style}
                   </p>
                   <div className="space-y-2 mb-6">
                     <div className="flex justify-between text-xs">
-                      <span className="text-cream/40">Wärme</span>
-                      <span className={item.highlight ? "text-terra" : "text-cream/50"}>
+                      <span className="text-deep/40 tracking-wide uppercase">Wärme</span>
+                      <span className={item.highlight ? "text-terra" : "text-deep/55"}>
                         {item.warmth}
                       </span>
                     </div>
                     <div className="flex justify-between text-xs">
-                      <span className="text-cream/40">Struktur</span>
-                      <span className={item.highlight ? "text-terra" : "text-cream/50"}>
+                      <span className="text-deep/40 tracking-wide uppercase">Struktur</span>
+                      <span className={item.highlight ? "text-terra" : "text-deep/55"}>
                         {item.structure}
                       </span>
                     </div>
                   </div>
-                  <p className={`text-sm leading-relaxed ${item.highlight ? "text-cream/80" : "text-cream/45"}`}>
+                  <p className={`text-sm leading-relaxed font-light ${item.highlight ? "text-deep/75" : "text-deep/45"}`}>
                     {item.result}
                   </p>
                 </div>
               ))}
             </div>
-            <p className="text-cream/30 text-xs text-center mt-6">
+            <p className="text-deep/35 text-xs text-center mt-6">
               Nach Diana Baumrind (1971) und Maccoby & Martin (1983)
             </p>
           </div>
@@ -181,14 +179,14 @@ export default function BalancedParentingPage() {
                   className="flex gap-8 py-10 border-t border-cream-mid first:border-t-0"
                 >
                   <span
-                    className="font-serif text-cream-mid flex-shrink-0 font-light"
-                    style={{ fontSize: "2rem", lineHeight: 1, minWidth: "2.5rem" }}
+                    className="font-serif text-stone/50 flex-shrink-0 font-light"
+                    style={{ fontSize: "2.25rem", lineHeight: 1, minWidth: "2.5rem" }}
                   >
                     {i + 1}
                   </span>
                   <div>
-                    <h3 className="text-deep font-medium text-lg mb-3">{p.title}</h3>
-                    <p className="text-deep/65 text-sm leading-relaxed">{p.content}</p>
+                    <h3 className="font-serif text-deep text-2xl mb-3">{p.title}</h3>
+                    <p className="text-deep/65 text-sm leading-relaxed font-light">{p.content}</p>
                   </div>
                 </div>
               ))}
@@ -197,15 +195,22 @@ export default function BalancedParentingPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-terra">
-          <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
+        <section className="section-padding bg-deep relative overflow-hidden">
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                "radial-gradient(ellipse 60% 50% at 80% 20%, rgba(168,155,140,0.10) 0%, transparent 60%)",
+            }}
+          />
+          <div className="relative max-w-3xl mx-auto px-6 lg:px-12 text-center">
             <h2
               className="heading-section text-cream mb-6"
               style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}
             >
               Tiefer einsteigen?
             </h2>
-            <p className="text-cream/80 leading-relaxed mb-10">
+            <p className="text-cream/70 leading-relaxed mb-10 font-light">
               Im Buch „Wer liebt, führt" entfaltet Sarah Mann das Konzept
               vollständig — mit wissenschaftlicher Fundierung, persönlichen
               Geschichten und konkreten Praxis-Werkzeugen für jede
@@ -220,7 +225,7 @@ export default function BalancedParentingPage() {
               </Link>
               <Link
                 href="/kontakt/"
-                className="border border-cream/40 text-cream px-8 py-4 text-xs font-medium tracking-widest uppercase hover:bg-cream/10 transition-colors"
+                className="btn-outline btn-outline-light"
               >
                 Vortrag anfragen
               </Link>

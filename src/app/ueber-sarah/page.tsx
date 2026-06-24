@@ -24,19 +24,19 @@ export default function UeberSarahPage() {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="bg-midnight pt-40 pb-24 px-6 lg:px-12">
+        <section className="bg-cream-dark pt-44 pb-28 px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <p className="text-overline text-terra mb-8">Die Expertin</p>
             <h1
-              className="heading-display text-cream"
+              className="heading-display text-deep"
               style={{ fontSize: "clamp(3rem, 7vw, 6rem)" }}
             >
               Sarah
               <br />
-              <em className="text-terra">Mann</em>
+              <em className="text-terra italic">Mann</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-cream/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
               Autorin. Und die führende deutschsprachige Stimme für Balanced
               Parenting.
@@ -52,25 +52,29 @@ export default function UeberSarahPage() {
               <div className="lg:col-span-2">
                 <div className="photo-frame">
                   <div
-                    className="bg-deep overflow-hidden"
-                    style={{ aspectRatio: "3/4" }}
+                    className="overflow-hidden"
+                    style={{
+                      aspectRatio: "3/4",
+                      background:
+                        "linear-gradient(160deg, #FBF9F5 0%, #ECE8E0 100%)",
+                    }}
                   >
-                    <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-b from-deep to-midnight">
+                    <div className="w-full h-full flex flex-col items-center justify-center">
                       <div className="text-center px-8">
-                        <div className="w-20 h-20 rounded-full bg-terra/15 border border-terra/30 mx-auto mb-4 flex items-center justify-center">
-                          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" className="text-terra/50">
-                            <circle cx="14" cy="10" r="5" stroke="currentColor" strokeWidth="1.5" />
-                            <path d="M4 26c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                          </svg>
+                        <div
+                          className="font-serif text-stone mb-3"
+                          style={{ fontSize: "3.5rem", lineHeight: 1, fontWeight: 300, letterSpacing: "0.05em" }}
+                        >
+                          SM
                         </div>
-                        <p className="text-cream/20 text-xs tracking-widest uppercase">Foto Sarah Mann</p>
+                        <p className="text-deep/35 text-xs tracking-widest uppercase">Portrait Sarah Mann</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 {/* Credential list */}
-                <div className="mt-8 space-y-4">
+                <div className="mt-10 space-y-4">
                   {[
                     "Pädagogin",
                     "Zertifizierte Babyschlafberaterin",
@@ -78,7 +82,7 @@ export default function UeberSarahPage() {
                     "Mutter von sieben Kindern",
                     "Autorin",
                   ].map((c) => (
-                    <div key={c} className="flex gap-3 items-center text-sm text-deep/70">
+                    <div key={c} className="flex gap-3 items-center text-sm text-deep/70 font-light">
                       <span className="text-terra">—</span>
                       {c}
                     </div>
@@ -87,10 +91,10 @@ export default function UeberSarahPage() {
               </div>
 
               {/* Bio text */}
-              <div className="lg:col-span-3 space-y-6 text-deep/70 leading-relaxed">
+              <div className="lg:col-span-3 space-y-6 text-deep/70 leading-relaxed font-light">
                 <h2
                   className="heading-section text-deep mb-8"
-                  style={{ fontSize: "2.25rem" }}
+                  style={{ fontSize: "2.5rem" }}
                 >
                   Die Geschichte hinter
                   <br />
@@ -122,9 +126,9 @@ export default function UeberSarahPage() {
                 </p>
 
                 <blockquote
-                  className="pl-6 border-l-2 border-terra my-8"
+                  className="pl-6 border-l border-terra my-8"
                 >
-                  <p className="font-serif text-xl italic text-deep/80">
+                  <p className="font-serif text-2xl italic text-deep/80">
                     „Was Eltern fehlt, ist nicht mehr Wissen. Was Eltern fehlt,
                     ist die Erlaubnis, sich selbst zu vertrauen."
                   </p>
@@ -154,7 +158,7 @@ export default function UeberSarahPage() {
         </section>
 
         {/* Stats */}
-        <section className="bg-deep py-20 px-6 lg:px-12">
+        <section className="bg-cream-dark py-24 px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
@@ -165,12 +169,12 @@ export default function UeberSarahPage() {
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div
-                    className="font-serif text-terra"
+                    className="font-serif text-deep"
                     style={{ fontSize: "3.5rem", fontWeight: 300, lineHeight: 1 }}
                   >
                     {s.num}
                   </div>
-                  <p className="text-cream/50 text-xs mt-3 leading-tight">{s.label}</p>
+                  <p className="text-deep/55 text-xs mt-3 leading-tight">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -178,19 +182,19 @@ export default function UeberSarahPage() {
         </section>
 
         {/* Timeline */}
-        <section className="section-padding bg-cream-dark">
+        <section className="section-padding bg-cream">
           <div className="max-w-4xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-10">Stationen</p>
             <div className="space-y-0">
-              {milestones.map((m, i) => (
+              {milestones.map((m) => (
                 <div
                   key={m.year}
                   className="flex gap-8 py-8 border-t border-cream-mid items-start"
                 >
-                  <span className="font-serif text-terra/70 flex-shrink-0 w-16 text-sm">
+                  <span className="font-serif text-terra flex-shrink-0 w-16 text-lg">
                     {m.year}
                   </span>
-                  <p className="text-deep/70 text-sm leading-relaxed">{m.event}</p>
+                  <p className="text-deep/70 text-sm leading-relaxed font-light pt-1">{m.event}</p>
                 </div>
               ))}
             </div>
@@ -198,7 +202,7 @@ export default function UeberSarahPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-cream">
+        <section className="section-padding bg-cream-dark">
           <div className="max-w-4xl mx-auto px-6 lg:px-12 text-center">
             <h2
               className="heading-section text-deep mb-6"
@@ -206,7 +210,7 @@ export default function UeberSarahPage() {
             >
               Mit Sarah arbeiten
             </h2>
-            <p className="text-deep/65 leading-relaxed mb-10 max-w-xl mx-auto">
+            <p className="text-deep/65 leading-relaxed mb-10 max-w-xl mx-auto font-light">
               Für Vorträge, Workshops, Medienanfragen und Beratungsprojekte
               steht Sarah Mann zur Verfügung.
             </p>

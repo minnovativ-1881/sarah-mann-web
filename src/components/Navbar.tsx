@@ -32,13 +32,13 @@ export default function Navbar() {
             <span className="font-serif text-xl font-medium text-deep tracking-wide group-hover:text-terra transition-colors duration-200">
               Sarah Mann
             </span>
-            <span className="text-overline text-terra mt-0.5">
+            <span className="text-overline text-terra mt-1" style={{ fontSize: "0.6rem" }}>
               Balanced Parenting
             </span>
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-9">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -48,7 +48,10 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Link href="/kontakt/" className="btn-primary ml-4 text-xs">
+            <Link
+              href="/kontakt/"
+              className="nav-link text-deep border-b border-deep/40 pb-1 hover:border-deep transition-colors ml-2"
+            >
               Anfrage stellen
             </Link>
           </div>

@@ -9,17 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        deep: "#1C2D3F",
-        midnight: "#0F1A24",
-        terra: "#C47A5A",
-        "terra-light": "#D4896A",
-        cream: "#F5EFE6",
-        "cream-dark": "#EDE5D8",
-        "cream-mid": "#E8DDD0",
+        // Galerie Blanc — quiet luxury, viel Weiss
+        deep: "#1C1B18", // ink / dark closing sections
+        midnight: "#141310", // deepest (footer)
+        terra: "#4A4F3C", // olive accent (auf hellem Grund)
+        "terra-light": "#5E6349", // olive hover
+        stone: "#A89B8C", // taupe (Akzent auf dunklem Grund, Platzhalter)
+        cream: "#FFFFFF", // gallery white (Haupt-Hintergrund)
+        "cream-dark": "#F6F4EF", // warmweiss (alternierende Sektionen)
+        "cream-mid": "#E7E4DE", // Haarlinien / zarte Ziffern
       },
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["var(--font-jost)", "system-ui", "sans-serif"],
       },
       fontSize: {
         "8xl": ["6rem", { lineHeight: "1.05" }],

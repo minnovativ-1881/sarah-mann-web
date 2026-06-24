@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sarah Mann — 3 Design-Entwürfe zur Auswahl</title>
+<meta name="description" content="Übersicht der drei Premium-Design-Richtungen für die Autorinnen-Website von Sarah Mann." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --paper:#F6F2EA; --paper-2:#EFE9DD; --ink:#1E1B16; --ink-soft:#4A453C;
+    --mute:#857C6E; --line:rgba(30,27,22,.12); --accent:#9A6A48;
+    --serif:"Fraunces","Iowan Old Style",Palatino,Georgia,serif;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --ease:cubic-bezier(.22,.61,.20,1);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{margin:0;font-family:var(--sans);color:var(--ink);line-height:1.65;
+    background:
+      radial-gradient(circle at 85% -10%, rgba(154,106,72,.10), transparent 40%),
+      linear-gradient(160deg,var(--paper),#FBF8F2 55%,var(--paper-2));
+    -webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{width:min(1120px,calc(100% - 48px));margin:0 auto;}
+  h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.02em;line-height:1.08;margin:0;}
+  .eyebrow{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--accent);
+    font-weight:500;display:inline-flex;align-items:center;gap:14px;}
+  .eyebrow::before{content:"";width:34px;height:1px;background:currentColor;opacity:.7;}
+
+  header.top{padding:88px 0 18px;}
+  header.top h1{font-size:clamp(40px,6vw,76px);max-width:18ch;margin:26px 0 0;}
+  header.top h1 em{font-style:italic;color:var(--accent);}
+  header.top p.lead{font-size:clamp(17px,1.7vw,20px);color:var(--ink-soft);max-width:60ch;margin:24px 0 0;}
+  .meta{margin-top:30px;display:flex;flex-wrap:wrap;gap:0;border-top:1px solid var(--line);padding-top:18px;}
+  .meta span{font-size:13px;color:var(--mute);padding-right:20px;margin-right:20px;border-right:1px solid var(--line);}
+  .meta span:last-child{border-right:0;}
+
+  section{padding:60px 0;}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .card{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:14px;overflow:hidden;
+    background:rgba(255,255,255,.5);transition:transform .5s var(--ease),box-shadow .5s var(--ease);}
+  .card:hover{transform:translateY(-6px);box-shadow:0 30px 70px rgba(38,31,22,.13);}
+  .swatch{height:168px;position:relative;display:flex;align-items:flex-end;padding:18px;}
+  .swatch .num{font-family:var(--serif);font-size:64px;line-height:.8;opacity:.9;}
+  .sw1{background:linear-gradient(150deg,#FBF8F2,#EFE3D2);color:#172131;}
+  .sw1 .num{color:#C0714F;}
+  .sw2{background:linear-gradient(150deg,#FFFFFF,#FCFCFA);color:#1A1A18;border-bottom:1px solid var(--line);}
+  .sw2 .num{color:#4A4F3C;}
+  .sw3{background:linear-gradient(150deg,#15140F,#0B0A09);color:#F3ECE0;}
+  .sw3 .num{color:#C9A86A;}
+  .dots{position:absolute;top:16px;right:16px;display:flex;gap:7px;}
+  .dot{width:14px;height:14px;border-radius:50%;border:1px solid rgba(0,0,0,.12);}
+  .card-body{padding:24px 24px 26px;flex:1;display:flex;flex-direction:column;}
+  .card-body h3{font-size:25px;}
+  .card-body .kicker{font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-bottom:12px;}
+  .card-body p{color:var(--ink-soft);font-size:14.5px;margin:12px 0 0;}
+  .card-body .fonts{margin-top:16px;font-size:12.5px;color:var(--mute);border-top:1px solid var(--line);padding-top:14px;}
+  .open{margin-top:22px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:500;color:var(--ink);
+    display:inline-flex;align-items:center;gap:9px;align-self:flex-start;}
+  .open .arw{transition:transform .4s var(--ease);}
+  .card:hover .open .arw{transform:translateX(6px);}
+
+  .note{margin-top:18px;border:1px solid var(--line);border-radius:14px;padding:34px;background:rgba(255,255,255,.42);}
+  .note h2{font-size:clamp(26px,3vw,38px);max-width:24ch;}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:26px;}
+  .cols h4{font-family:var(--sans);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 12px;}
+  .cols ul{margin:0;padding:0;list-style:none;}
+  .cols li{font-size:14.5px;color:var(--ink-soft);padding:9px 0;border-bottom:1px solid var(--line);}
+  .cols li:last-child{border-bottom:0;}
+
+  .open-pts{margin-top:18px;}
+  .open-pts ul{margin:14px 0 0;padding:0;list-style:none;}
+  .open-pts li{font-size:14.5px;color:var(--ink-soft);padding:10px 0 10px 22px;position:relative;border-bottom:1px solid var(--line);}
+  .open-pts li::before{content:"";position:absolute;left:0;top:18px;width:7px;height:7px;border:1px solid var(--accent);border-radius:50%;}
+
+  footer{padding:50px 0 70px;color:var(--mute);font-size:13px;border-top:1px solid var(--line);margin-top:30px;}
+
+  @media(max-width:860px){ .grid{grid-template-columns:1fr;} .cols{grid-template-columns:1fr;} }
+</style>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <span class="eyebrow">Webdesign · Auswahl</span>
+      <h1>Drei Design-Richtungen für <em>Sarah Mann</em>.</h1>
+      <p class="lead">Gleicher Inhalt, drei Handschriften. So kannst du nur das Gefühl vergleichen: warm, hell oder dunkel. Klick auf einen Entwurf, um die ganze Seite zu sehen. Alles sind Platzhaltertexte, die Formulierung kommt später mit Sarah.</p>
+      <div class="meta">
+        <span>Stand 2026-06-23</span>
+        <span>Standalone HTML</span>
+        <span>Voll responsiv</span>
+        <span>Noch kein finaler Buchtitel</span>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <div class="grid">
+
+        <a class="card" href="entwurf-1-creme-editoriale.html">
+          <div class="swatch sw1">
+            <div class="dots"><span class="dot" style="background:#172131"></span><span class="dot" style="background:#C0714F"></span><span class="dot" style="background:#B99452"></span></div>
+            <div class="num">01</div>
+          </div>
+          <div class="card-body">
+            <div class="kicker">Deine Idee, verfeinert</div>
+            <h3>Crème Éditoriale</h3>
+            <p>Warm und literarisch. Cremefarbenes Papier, tiefes Warmblau, gedämpftes Terrakotta und Gold. Wie ein hochwertiger Verlag, der Wärme ausstrahlt.</p>
+            <div class="fonts">Fraunces · Spline Sans</div>
+            <span class="open">Entwurf öffnen <span class="arw">→</span></span>
+          </div>
+        </a>
+
+        <a class="card" href="entwurf-2-galerie-blanc.html">
+          <div class="swatch sw2">
+            <div class="dots"><span class="dot" style="background:#1A1A18"></span><span class="dot" style="background:#4A4F3C"></span><span class="dot" style="background:#A89B8C"></span></div>
+            <div class="num">02</div>
+          </div>
+          <div class="card-body">
+            <div class="kicker">Viel Weiß · Quiet Luxury</div>
+            <h3>Galerie Blanc</h3>
+            <p>Museums-Minimalismus wie eine Luxus-Modemarke. Sehr viel Weißraum, hauchdünne hohe Serife, fast kein Akzent. Wirkt teuer durch Reduktion. Die Antwort auf deine „viel Weiß?"-Frage.</p>
+            <div class="fonts">Cormorant Garamond · Jost</div>
+            <span class="open">Entwurf öffnen <span class="arw">→</span></span>
+          </div>
+        </a>
+
+        <a class="card" href="entwurf-3-nuit-noble.html">
+          <div class="swatch sw3">
+            <div class="dots"><span class="dot" style="background:#F3ECE0"></span><span class="dot" style="background:#C9A86A"></span><span class="dot" style="background:#1B1A17;border-color:rgba(255,255,255,.2)"></span></div>
+            <div class="num">03</div>
+          </div>
+          <div class="card-body">
+            <div class="kicker">Dunkel · exklusiv</div>
+            <h3>Nuit Noble</h3>
+            <p>Der dunkle Gegenpol, damit du die ganze Spannweite siehst. Mitternacht und Espresso, cremefarbene Schrift, dezentes Champagner-Gold. Wirkt sofort exklusiv wie eine Luxusmarke bei Nacht.</p>
+            <div class="fonts">Bodoni Moda · Inter</div>
+            <span class="open">Entwurf öffnen <span class="arw">→</span></span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:20px;">
+    <div class="wrap">
+      <div class="note">
+        <span class="eyebrow">Worauf der Premium-Eindruck beruht</span>
+        <h2>Exklusiv wirkt eine Seite nicht durch mehr, sondern durch weniger.</h2>
+        <div class="cols">
+          <div>
+            <h4>Das hebt sie</h4>
+            <ul>
+              <li>Großzügiger Weißraum. Eine Aussage pro Bildschirm, viel Luft.</li>
+              <li>Strenge Farbdisziplin. Eine Basis, ein einziger sparsamer Akzent.</li>
+              <li>Warmes Off-White statt grellem Reinweiß, Text nicht reines Schwarz.</li>
+              <li>Edle Serife groß, feine getrackte Versalien klein. Großer Kontrast.</li>
+              <li>Feine 1px-Haarlinien statt Kästen und schwerer Schatten.</li>
+              <li>Ruhige, langsame Bewegung. Kaum spürbar.</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Das macht sie billig</h4>
+            <ul>
+              <li>Lila/Blau-Verläufe, Neon, Glas-Effekte überall.</li>
+              <li>Abgenutzte Schriften wie Playfair, Montserrat, Poppins.</li>
+              <li>Gleichförmige Karten-Raster mit bunten Drop-Shadows.</li>
+              <li>Stockfoto-Optik und lachende Headset-Menschen.</li>
+              <li>Emojis als Icons, alles mittig zentriert.</li>
+              <li>Zu viele Farben, zu hohe Sättigung.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="note open-pts">
+        <span class="eyebrow">Bewusst noch offen</span>
+        <h2>Was diese Entwürfe noch brauchen.</h2>
+        <ul>
+          <li>Echte Fotos von Sarah. Aktuell edle Platzhalter mit Monogramm. Ein gutes, ruhiges Portrait hebt den Eindruck am stärksten.</li>
+          <li>Finaler Buchtitel und Cover. Steht bewusst auf „Arbeitstitel folgt", bis die Entscheidung mit Sarah fällt.</li>
+          <li>Echte, namentliche Stimmen statt „Elternstimme". Glaubwürdiger Social Proof.</li>
+          <li>Alle Texte sind Platzhalter. Formulierung kommt später.</li>
+          <li>Die Zahl „über 10.000 verkaufte Bücher" vor Live-Gang auf Belastbarkeit prüfen.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">Sarah Mann · Design-Entwürfe · intern zur Auswahl</div>
+  </footer>
+</body>
+</html>

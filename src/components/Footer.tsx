@@ -9,18 +9,18 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex flex-col leading-none mb-5 group">
-              <span className="font-serif text-2xl font-medium text-cream group-hover:text-terra transition-colors">
+              <span className="font-serif text-2xl font-medium text-cream group-hover:text-stone transition-colors">
                 Sarah Mann
               </span>
-              <span className="text-overline text-terra mt-1">
+              <span className="text-overline text-stone mt-1">
                 Balanced Parenting
               </span>
             </Link>
-            <p className="text-sm leading-relaxed max-w-xs">
+            <p className="text-sm leading-relaxed max-w-xs font-light">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
               Die führende deutschsprachige Expertin für Balanced Parenting.
             </p>
-            <p className="font-serif italic text-terra/70 text-sm mt-4">
+            <p className="font-serif italic text-stone/80 text-sm mt-4">
               „Warm genug, um zu lieben. Klar genug, um zu führen."
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-cream/50 hover:text-cream transition-colors link-underline"
+                    className="text-cream/50 hover:text-cream transition-colors link-underline font-light"
                   >
                     {item.label}
                   </Link>
@@ -54,7 +54,7 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:hallo@sarahmann.de"
-                  className="text-cream/50 hover:text-terra transition-colors link-underline"
+                  className="text-cream/50 hover:text-stone transition-colors link-underline font-light"
                 >
                   hallo@sarahmann.de
                 </a>
@@ -62,13 +62,13 @@ export default function Footer() {
               <li>
                 <Link
                   href="/kontakt/"
-                  className="text-cream/50 hover:text-cream transition-colors link-underline"
+                  className="text-cream/50 hover:text-cream transition-colors link-underline font-light"
                 >
                   Anfrage stellen
                 </Link>
               </li>
               <li className="mt-5">
-                <p className="text-cream/30 text-xs leading-relaxed">
+                <p className="text-cream/30 text-xs leading-relaxed font-light">
                   Für Vorträge, Workshops,
                   <br />
                   Medienanfragen & Beratung
@@ -80,17 +80,17 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
-          <p>© {new Date().getFullYear()} Sarah Mann. Alle Rechte vorbehalten.</p>
+          <p className="font-light">© {new Date().getFullYear()} Sarah Mann. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <Link
               href="/impressum/"
-              className="text-cream/40 hover:text-cream transition-colors"
+              className="text-cream/40 hover:text-cream transition-colors font-light"
             >
               Impressum
             </Link>
             <Link
               href="/datenschutz/"
-              className="text-cream/40 hover:text-cream transition-colors"
+              className="text-cream/40 hover:text-cream transition-colors font-light"
             >
               Datenschutz
             </Link>

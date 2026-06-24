@@ -12,22 +12,18 @@ const options = [
   {
     title: "Vortrag & Keynote",
     desc: "Balanced Parenting als Keynote auf Elternabenden, Fachkonferenzen oder Unternehmensveranstaltungen. 30–90 Minuten, live oder digital.",
-    icon: "🎤",
   },
   {
     title: "Workshop",
     desc: "Interaktive Workshops für Elterngruppen, Familieneinrichtungen, Kindergärten und Schulen. Halb- und ganztägig.",
-    icon: "👥",
   },
   {
     title: "Medienanfrage",
     desc: "Podcast-Interview, Printartikel, TV oder Radio. Sarah Mann steht als Expertin für Balanced Parenting zur Verfügung.",
-    icon: "📻",
   },
   {
     title: "Buchinfos & Leseprobe",
     desc: "Interesse an 'Wer liebt, führt'? Leseprobe, Rezensionsexemplar oder Presseinformationen.",
-    icon: "📖",
   },
 ];
 
@@ -37,19 +33,19 @@ export default function KontaktPage() {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="bg-midnight pt-40 pb-24 px-6 lg:px-12">
+        <section className="bg-cream-dark pt-44 pb-28 px-6 lg:px-12">
           <div className="max-w-5xl mx-auto">
             <p className="text-overline text-terra mb-8">Kontakt</p>
             <h1
-              className="heading-display text-cream"
+              className="heading-display text-deep"
               style={{ fontSize: "clamp(3rem, 7vw, 5rem)" }}
             >
               Anfrage
               <br />
-              <em className="text-terra">stellen</em>
+              <em className="text-terra italic">stellen</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-cream/65 text-xl leading-relaxed mt-8 max-w-xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-xl font-light">
               Für Vorträge, Workshops, Medienanfragen, Buchinfos und
               Beratungsprojekte.
             </p>
@@ -60,16 +56,19 @@ export default function KontaktPage() {
         <section className="section-padding bg-cream">
           <div className="max-w-5xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-10">Was passt zu Ihnen?</p>
-            <div className="grid md:grid-cols-2 gap-6 mb-16">
-              {options.map((opt) => (
+            <div className="grid md:grid-cols-2 gap-px bg-cream-mid mb-20">
+              {options.map((opt, i) => (
                 <div
                   key={opt.title}
-                  className="bg-white p-8 card-hover"
-                  style={{ borderTop: "2px solid #C47A5A" }}
+                  className="bg-cream p-10 card-hover"
                 >
-                  <div className="text-3xl mb-4" aria-hidden="true">{opt.icon}</div>
-                  <h3 className="text-deep font-medium text-lg mb-3">{opt.title}</h3>
-                  <p className="text-deep/60 text-sm leading-relaxed">{opt.desc}</p>
+                  <div className="flex items-baseline justify-between mb-6">
+                    <h3 className="font-serif text-deep text-2xl">{opt.title}</h3>
+                    <span className="font-serif text-stone/50 font-light" style={{ fontSize: "1.75rem", lineHeight: 1 }}>
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <p className="text-deep/60 text-sm leading-relaxed font-light">{opt.desc}</p>
                 </div>
               ))}
             </div>

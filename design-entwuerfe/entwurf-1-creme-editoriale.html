@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Sarah Mann — Pädagogin & Autorin · Erziehung mit Wärme und Klarheit</title>
+<meta name="description" content="Sarah Mann, Pädagogin (M.Ed.), Autorin und Mutter von sieben Kindern. Eine neue Stimme für Erziehung mit Wärme und Klarheit. Balanced Parenting: Beziehung und Führung verbinden." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,400;1,9..144,500&family=Spline+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<style>
+  :root{
+    /* Surfaces — warm paper, deep ink. Two-tone foundation. */
+    --paper:        #FBF7F0;
+    --paper-deep:   #F2EBDF;
+    --ink:          #1A2230;
+    --ink-soft:     #353D49;
+    --ink-mute:     #6A6F78;
+
+    /* ONE accent. Terracotta, used sparingly. Gold is reserved for the dark
+       sections only (it reads as warmth on ink, not as a second colour on paper). */
+    --terra:        #B5683F;
+    --terra-soft:   rgba(181,104,63,.16);
+    --gold:         #C7A765;
+
+    /* Hairlines — finer than before */
+    --line:         rgba(26,34,48,.10);
+    --line-strong:  rgba(26,34,48,.18);
+    --line-paper:   rgba(251,247,240,.16);
+
+    --serif: "Fraunces", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    --sans:  "Spline Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+
+    --maxw: 1240px;
+    --gut:  clamp(28px, 5vw, 64px);
+    --ease: cubic-bezier(.2,.7,.2,1);
+  }
+
+  *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:18px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    font-feature-settings:"kern" 1, "liga" 1;
+    overflow-x:hidden;
+  }
+
+  ::selection{ background:rgba(192,113,79,.18); color:var(--ink); }
+
+  /* ---------- Shared atoms ---------- */
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 var(--gut); }
+
+  .eyebrow{
+    font-family:var(--sans);
+    font-size:11px;
+    font-weight:600;
+    letter-spacing:.32em;
+    text-transform:uppercase;
+    color:var(--terra);
+    margin:0 0 30px;
+    display:inline-flex;
+    align-items:center;
+    gap:16px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:32px;
+    height:1px;
+    background:currentColor;
+    opacity:.55;
+  }
+  .eyebrow.center{ justify-content:center; }
+
+  h1,h2,h3,h4{
+    font-family:var(--serif);
+    font-weight:400;
+    letter-spacing:-.018em;
+    line-height:1.03;
+    color:var(--ink);
+    margin:0;
+    font-optical-sizing:auto;
+  }
+
+  p{ margin:0 0 1.1em; }
+  .lead{
+    font-size:clamp(19px, 1.5vw, 22px);
+    line-height:1.74;
+    color:var(--ink-soft);
+    max-width:33em;
+    font-weight:400;
+  }
+
+  a{ color:inherit; }
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    font-family:var(--sans);
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    border:none;
+    background:none;
+    transition:color .5s var(--ease), border-color .5s var(--ease), background .5s var(--ease);
+  }
+  .btn-primary{
+    color:var(--paper);
+    background:var(--ink);
+    padding:17px 32px;
+    border:1px solid var(--ink);
+  }
+  .btn-primary:hover{ background:var(--terra); border-color:var(--terra); }
+  .btn-line{
+    color:var(--ink);
+    padding:17px 2px;
+    border-bottom:1px solid var(--line-strong);
+  }
+  .btn-line .arr{ transition:transform .5s var(--ease); color:var(--terra); }
+  .btn-line:hover{ border-color:var(--terra); }
+  .btn-line:hover .arr{ transform:translateX(6px); }
+
+  .btn-onDark.btn-primary{
+    background:var(--paper); color:var(--ink); border-color:var(--paper);
+  }
+  .btn-onDark.btn-primary:hover{ background:var(--gold); border-color:var(--gold); color:var(--ink); }
+  .btn-onDark.btn-line{ color:var(--paper); border-color:var(--line-paper); }
+  .btn-onDark.btn-line .arr{ color:var(--gold); }
+  .btn-onDark.btn-line:hover{ border-color:var(--gold); }
+
+  :focus-visible{ outline:2px solid var(--terra); outline-offset:4px; border-radius:1px; }
+
+  /* ---------- Navigation ---------- */
+  header.nav{
+    position:sticky; top:0; z-index:60;
+    background:rgba(251,248,242,.82);
+    backdrop-filter:saturate(140%) blur(12px);
+    -webkit-backdrop-filter:saturate(140%) blur(12px);
+    border-bottom:1px solid transparent;
+    transition:border-color .5s var(--ease), background .5s var(--ease);
+  }
+  header.nav.scrolled{ border-color:var(--line); }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto; padding:20px var(--gut);
+    display:flex; align-items:center; justify-content:space-between; gap:24px;
+  }
+  .brand{ text-decoration:none; display:flex; flex-direction:column; line-height:1; }
+  .brand .name{
+    font-family:var(--serif); font-weight:400; font-size:24px; letter-spacing:0; color:var(--ink);
+  }
+  .brand .role{
+    font-family:var(--sans); font-size:10px; font-weight:600; letter-spacing:.26em;
+    text-transform:uppercase; color:var(--ink-mute); margin-top:7px;
+  }
+  .nav-links{ display:flex; align-items:center; gap:38px; list-style:none; margin:0; padding:0; }
+  .nav-links a{
+    font-family:var(--sans); font-size:13px; font-weight:500; letter-spacing:.02em;
+    text-decoration:none; color:var(--ink-soft); position:relative; padding:4px 0;
+  }
+  .nav-links a::after{
+    content:""; position:absolute; left:0; bottom:0; height:1px; width:100%;
+    background:var(--terra); transform:scaleX(0); transform-origin:left;
+    transition:transform .45s var(--ease);
+  }
+  .nav-links a:hover{ color:var(--ink); }
+  .nav-links a:hover::after{ transform:scaleX(1); }
+  .nav-cta{ display:flex; align-items:center; gap:22px; }
+
+  .burger{
+    display:none; background:none; border:none; cursor:pointer; padding:8px; width:42px; height:42px;
+  }
+  .burger span{ display:block; width:22px; height:1.5px; background:var(--ink); margin:5px auto; transition:.4s var(--ease); }
+  .burger.open span:nth-child(1){ transform:translateY(6.5px) rotate(45deg); }
+  .burger.open span:nth-child(2){ opacity:0; }
+  .burger.open span:nth-child(3){ transform:translateY(-6.5px) rotate(-45deg); }
+
+  .mobile-menu{
+    position:fixed; inset:0; z-index:55; background:var(--paper);
+    transform:translateY(-100%); transition:transform .6s var(--ease);
+    display:flex; flex-direction:column; justify-content:center; padding:40px;
+  }
+  .mobile-menu.open{ transform:translateY(0); }
+  .mobile-menu a{
+    font-family:var(--serif); font-size:34px; font-weight:400; color:var(--ink);
+    text-decoration:none; padding:14px 0; border-bottom:1px solid var(--line);
+  }
+  .mobile-menu .btn{ margin-top:34px; align-self:flex-start; }
+
+  /* ---------- Hero ---------- */
+  .hero{ padding:112px 0 104px; position:relative; }
+  .hero-grid{
+    display:grid; grid-template-columns:1.12fr .88fr; gap:clamp(56px,7vw,104px); align-items:center;
+  }
+  .hero h1{
+    font-size:clamp(52px, 7vw, 104px);
+    font-weight:300;
+    line-height:.98;
+    letter-spacing:-.028em;
+    margin:0 0 34px;
+  }
+  .hero h1 em{ font-style:italic; font-weight:400; color:var(--terra); }
+  .hero .lead{ margin-bottom:44px; }
+  .hero-actions{ display:flex; align-items:center; gap:38px; flex-wrap:wrap; margin-bottom:56px; }
+
+  /* Credentials — editorial inline list with hairline dividers, no pills */
+  .creds{
+    list-style:none; margin:0; padding:24px 0 0; border-top:1px solid var(--line);
+    display:flex; flex-wrap:wrap; gap:0;
+  }
+  .creds li{
+    font-family:var(--sans); font-size:12.5px; font-weight:500; letter-spacing:.02em;
+    color:var(--ink-soft); padding:0 22px; line-height:1.4;
+    border-left:1px solid var(--line);
+  }
+  .creds li:first-child{ border-left:none; padding-left:0; }
+
+  /* Portrait — framed placeholder with a fine inner keyline and quiet monogram.
+     No drawn figure. Treated like a plated photographic print awaiting an image. */
+  .portrait{ position:relative; }
+  .portrait-frame{
+    position:relative;
+    aspect-ratio:4/5;
+    background:
+      radial-gradient(130% 100% at 28% 16%, rgba(181,104,63,.08), transparent 58%),
+      linear-gradient(158deg, #EFE6D7 0%, #E6DACA 50%, #DBCBB6 100%);
+    border:1px solid var(--line-strong);
+    box-shadow:0 1px 0 rgba(255,255,255,.6) inset;
+  }
+  .portrait-frame::before{
+    content:""; position:absolute; inset:13px;
+    border:1px solid rgba(26,34,48,.14);
+  }
+  .portrait-mono{
+    position:absolute; inset:0; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; gap:18px;
+  }
+  .portrait-mono span{
+    font-family:var(--serif); font-weight:400; font-size:clamp(64px,8vw,112px);
+    font-style:italic; letter-spacing:.01em; line-height:1;
+    color:transparent;
+    background:linear-gradient(165deg, rgba(26,34,48,.20), rgba(181,104,63,.30));
+    -webkit-background-clip:text; background-clip:text;
+  }
+  .portrait-mono em{
+    font-family:var(--sans); font-style:normal; font-size:10px; font-weight:600;
+    letter-spacing:.3em; text-transform:uppercase; color:var(--ink-mute);
+  }
+  .portrait-cap{
+    margin-top:18px; display:flex; align-items:baseline; justify-content:space-between; gap:16px;
+  }
+  .portrait-cap .label{
+    font-family:var(--sans); font-size:10.5px; font-weight:600; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--ink-mute);
+  }
+  .portrait-cap .meta{
+    font-family:var(--serif); font-size:13px; font-style:italic; color:var(--ink-mute);
+  }
+
+  /* ---------- Trust strip ---------- */
+  .trust{ border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .trust-grid{
+    display:grid; grid-template-columns:repeat(4,1fr);
+  }
+  .trust-item{
+    padding:56px var(--gut) 52px; border-left:1px solid var(--line);
+  }
+  .trust-item:first-child{ border-left:none; padding-left:0; }
+  .trust-item:last-child{ padding-right:0; }
+  .trust-item .num{
+    font-family:var(--serif); font-weight:400; font-size:clamp(38px,4vw,56px);
+    color:var(--ink); line-height:.95; letter-spacing:-.02em;
+    font-feature-settings:"onum" 1, "ss01" 1;
+  }
+  .trust-item .num .u{
+    font-size:.46em; font-style:italic; color:var(--terra); margin-left:.12em;
+  }
+  .trust-item .cap{
+    margin-top:18px; font-family:var(--sans); font-size:11px; font-weight:600;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--ink-mute);
+  }
+
+  /* ---------- Generic section rhythm ---------- */
+  section{ position:relative; }
+  .pad{ padding:clamp(96px,12vw,144px) 0; }
+  .pad-lg{ padding:clamp(112px,14vw,184px) 0; }
+
+  .sec-head{ max-width:780px; }
+  .sec-head h2{ font-size:clamp(34px,4.4vw,60px); line-height:1.04; margin-bottom:28px; }
+
+  /* ---------- Ansatz ---------- */
+  .ansatz .sec-head{ margin-bottom:clamp(72px,9vw,108px); }
+  .ansatz .lead{ max-width:40em; }
+  .approach-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:0;
+    border-top:1px solid var(--line);
+  }
+  .approach-card{
+    padding:56px clamp(32px,4vw,52px) 64px 0; border-right:1px solid var(--line);
+  }
+  .approach-card:last-child{ border-right:none; padding-right:0; }
+  .approach-card:not(:first-child){ padding-left:clamp(32px,4vw,52px); }
+  .approach-card .idx{
+    font-family:var(--serif); font-weight:400; font-size:clamp(34px,3vw,44px);
+    font-style:italic; color:var(--terra);
+    font-feature-settings:"onum" 1; display:block; margin-bottom:34px;
+    letter-spacing:0; line-height:1;
+  }
+  .approach-card h3{ font-size:25px; font-weight:400; margin-bottom:18px; letter-spacing:-.01em; }
+  .approach-card p{ font-size:16px; color:var(--ink-soft); margin:0; line-height:1.7; }
+
+  /* ---------- Kern / quote split ---------- */
+  .kern{ background:var(--ink); color:var(--paper); }
+  .kern-grid{
+    display:grid; grid-template-columns:1.15fr .85fr; gap:80px; align-items:center;
+  }
+  .kern .eyebrow{ color:var(--gold); }
+  .kern blockquote{
+    margin:0; font-family:var(--serif); font-weight:300;
+    font-size:clamp(36px,5vw,64px); line-height:1.1; letter-spacing:-.022em;
+    color:var(--paper);
+  }
+  .kern blockquote .gold{ color:var(--gold); font-style:italic; font-weight:400; }
+  .kern .mark{
+    font-family:var(--serif); font-size:60px; line-height:0; color:var(--gold);
+    display:block; height:34px;
+  }
+  .kern-right h3{ color:var(--paper); font-size:27px; margin-bottom:32px; }
+  .checklist{ list-style:none; margin:0; padding:0; }
+  .checklist li{
+    position:relative; padding:0 0 22px 38px; margin-bottom:22px;
+    border-bottom:1px solid var(--line-paper);
+    color:rgba(251,248,242,.86); font-size:16.5px; line-height:1.55;
+  }
+  .checklist li:last-child{ border-bottom:none; margin-bottom:0; padding-bottom:0; }
+  .checklist li::before{
+    content:""; position:absolute; left:0; top:9px; width:13px; height:8px;
+    border-left:1.5px solid var(--gold); border-bottom:1.5px solid var(--gold);
+    transform:rotate(-45deg);
+  }
+
+  /* ---------- Über Sarah ---------- */
+  .about-grid{
+    display:grid; grid-template-columns:.9fr 1.1fr; gap:84px; align-items:center;
+  }
+  .about-text h2{ font-size:clamp(30px,3.6vw,46px); margin-bottom:30px; }
+  .about-text p{ color:var(--ink-soft); max-width:34em; }
+  .about-sign{
+    margin-top:34px; font-family:var(--serif); font-style:italic; font-size:22px; color:var(--ink);
+  }
+  .about-sign .where{
+    display:block; font-family:var(--sans); font-style:normal; font-size:11px; font-weight:600;
+    letter-spacing:.18em; text-transform:uppercase; color:var(--ink-mute); margin-top:8px;
+  }
+
+  .about-portrait .portrait-frame{
+    aspect-ratio:5/6;
+    background:
+      radial-gradient(115% 85% at 72% 22%, rgba(181,104,63,.07), transparent 60%),
+      linear-gradient(150deg, #F1E8DA 0%, #E8DCCB 50%, #DECFBA 100%);
+  }
+
+  /* ---------- Angebote ---------- */
+  .offers .sec-head{ margin-bottom:clamp(56px,6vw,80px); }
+  .offer-list{ border-top:1px solid var(--line-strong); }
+  .offer-row{
+    display:grid; grid-template-columns:64px 1fr auto; gap:clamp(28px,4vw,56px); align-items:baseline;
+    padding:clamp(36px,4vw,52px) 0; border-bottom:1px solid var(--line);
+    transition:padding-left .55s var(--ease);
+  }
+  .offer-row .o-idx{
+    font-family:var(--serif); font-weight:400; font-style:italic; font-size:18px; color:var(--terra);
+    font-feature-settings:"onum" 1;
+  }
+  .offer-row .o-body{ max-width:none; }
+  .offer-row h3{ font-size:clamp(26px,2.8vw,38px); font-weight:400; letter-spacing:-.015em; margin-bottom:12px; transition:color .5s var(--ease); }
+  .offer-row p{ margin:0; color:var(--ink-soft); font-size:16px; max-width:46em; line-height:1.65; }
+  .offer-row .o-arr{
+    font-family:var(--serif); font-size:24px; color:var(--ink-mute);
+    transition:transform .55s var(--ease), color .5s var(--ease);
+  }
+  .offer-row:hover{ padding-left:20px; }
+  .offer-row:hover h3{ color:var(--terra); }
+  .offer-row:hover .o-arr{ transform:translateX(8px); color:var(--terra); }
+
+  /* ---------- Buch ---------- */
+  .book{ background:var(--paper-deep); }
+  .book-grid{
+    display:grid; grid-template-columns:.8fr 1.2fr; gap:88px; align-items:center;
+  }
+  .book-cover-wrap{ perspective:2000px; }
+  .book-cover{
+    aspect-ratio:2/3; position:relative;
+    background:linear-gradient(158deg,#222C3C 0%, #1A2230 56%, #141B27 100%);
+    box-shadow:
+      -14px 20px 44px -30px rgba(26,34,48,.45),
+      0 1px 0 rgba(255,255,255,.05) inset;
+    border:1px solid rgba(26,34,48,.5);
+    transform:rotateY(-5deg) rotateX(1deg);
+    transform-style:preserve-3d;
+    display:flex; flex-direction:column; justify-content:space-between;
+    padding:clamp(34px,3vw,46px) clamp(28px,2.6vw,40px);
+    transition:transform .9s var(--ease);
+  }
+  .book-cover::before{
+    content:""; position:absolute; left:0; top:0; bottom:0; width:14px;
+    background:linear-gradient(90deg, rgba(255,255,255,.08), rgba(0,0,0,.18));
+  }
+  .book-cover:hover{ transform:rotateY(-1.5deg) rotateX(0); }
+  .book-cover .bc-top{
+    font-family:var(--sans); font-size:10px; font-weight:600; letter-spacing:.28em;
+    text-transform:uppercase; color:var(--gold);
+  }
+  .book-cover .bc-mid{
+    font-family:var(--serif); font-style:italic; font-weight:400; font-size:21px;
+    color:rgba(251,248,242,.62); line-height:1.4;
+  }
+  .book-cover .bc-mid::before{
+    content:""; display:block; width:40px; height:1px; background:var(--line-paper); margin-bottom:22px;
+  }
+  .book-cover .bc-name{
+    font-family:var(--serif); font-weight:500; font-size:27px; color:var(--paper); letter-spacing:.01em;
+  }
+  .book-cover .bc-name small{
+    display:block; font-family:var(--sans); font-size:10px; font-weight:600; letter-spacing:.22em;
+    text-transform:uppercase; color:rgba(251,248,242,.5); margin-top:10px;
+  }
+
+  .book-text h2{ font-size:clamp(30px,3.6vw,48px); margin-bottom:26px; }
+  .book-text p{ color:var(--ink-soft); max-width:36em; }
+  .book-actions{ display:flex; align-items:center; gap:32px; flex-wrap:wrap; margin-top:38px; }
+
+  /* ---------- Stimmen ---------- */
+  .voices .sec-head{ margin-bottom:72px; }
+  .voice-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:64px;
+  }
+  .voice{ border-top:1px solid var(--line-strong); padding-top:36px; }
+  .voice .q-mark{
+    font-family:var(--serif); font-size:46px; line-height:0; color:var(--terra);
+    display:block; height:26px;
+  }
+  .voice blockquote{
+    margin:0 0 28px; font-family:var(--serif); font-weight:400; font-style:italic;
+    font-size:clamp(22px,2.4vw,28px); line-height:1.38; color:var(--ink);
+  }
+  .voice .who{
+    font-family:var(--sans); font-size:11px; font-weight:600; letter-spacing:.18em;
+    text-transform:uppercase; color:var(--ink-mute);
+  }
+
+  /* ---------- Kontakt / Final CTA ---------- */
+  .contact{ background:var(--ink); color:var(--paper); text-align:left; }
+  .contact .eyebrow{ color:var(--gold); }
+  .contact-grid{ display:grid; grid-template-columns:1.3fr .7fr; gap:64px; align-items:end; }
+  .contact h2{
+    color:var(--paper); font-weight:300; font-size:clamp(34px,4.8vw,64px);
+    line-height:1.06; letter-spacing:-.022em; margin-bottom:0;
+  }
+  .contact .lead{ color:rgba(251,248,242,.8); max-width:32em; margin:0 0 4px; }
+  .contact-actions{ display:flex; align-items:center; gap:32px; flex-wrap:wrap; }
+
+  /* ---------- Footer ---------- */
+  footer.foot{ background:var(--ink); color:rgba(251,248,242,.7); border-top:1px solid var(--line-paper); }
+  .foot-inner{
+    max-width:var(--maxw); margin:0 auto; padding:38px 40px;
+    display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;
+  }
+  .foot-inner .f-brand{ font-family:var(--serif); font-size:18px; color:var(--paper); letter-spacing:.01em; }
+  .foot-inner .f-meta{ font-family:var(--sans); font-size:12px; letter-spacing:.04em; }
+
+  /* ---------- Reveal animation ---------- */
+  .reveal{ opacity:0; transform:translateY(18px); transition:opacity 1s var(--ease), transform 1s var(--ease); }
+  .reveal.in{ opacity:1; transform:none; }
+  /* gentle stagger within editorial groups */
+  .approach-card.reveal:nth-child(2){ transition-delay:.08s; }
+  .approach-card.reveal:nth-child(3){ transition-delay:.16s; }
+  .trust-item.reveal:nth-child(2){ transition-delay:.07s; }
+  .trust-item.reveal:nth-child(3){ transition-delay:.14s; }
+  .trust-item.reveal:nth-child(4){ transition-delay:.21s; }
+  .offer-row.reveal:nth-child(2){ transition-delay:.06s; }
+  .offer-row.reveal:nth-child(3){ transition-delay:.12s; }
+  .offer-row.reveal:nth-child(4){ transition-delay:.18s; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:1024px){
+    .hero-grid{ grid-template-columns:1fr; gap:56px; }
+    .portrait{ max-width:440px; }
+    .kern-grid{ grid-template-columns:1fr; gap:54px; }
+    .about-grid{ grid-template-columns:1fr; gap:54px; }
+    .about-portrait{ max-width:460px; }
+    .book-grid{ grid-template-columns:1fr; gap:60px; }
+    .book-cover-wrap{ max-width:300px; }
+    .contact-grid{ grid-template-columns:1fr; gap:40px; align-items:start; }
+  }
+  @media (max-width:820px){
+    body{ font-size:17px; }
+    .wrap{ padding:0 28px; }
+    .nav-inner{ padding:16px 28px; }
+    .nav-links, .nav-cta .btn{ display:none; }
+    .burger{ display:block; }
+    .nav-cta{ gap:0; }
+    .pad, .pad-lg{ padding:92px 0; }
+    .hero{ padding:64px 0 72px; }
+    .approach-grid{ grid-template-columns:1fr; border-top:none; }
+    .approach-card{ border-right:none; border-top:1px solid var(--line); padding:44px 0 !important; }
+    .approach-card .idx{ margin-bottom:20px; }
+    .trust-grid{ grid-template-columns:1fr 1fr; }
+    .trust-item{ border-top:1px solid var(--line); padding:40px var(--gut); }
+    .trust-item:nth-child(-n+2){ border-top:none; }
+    .trust-item:nth-child(odd){ border-left:none; padding-left:0; }
+    .trust-item:nth-child(even){ padding-right:0; }
+    .voice-grid{ grid-template-columns:1fr; gap:48px; }
+    .offer-row{ grid-template-columns:40px 1fr; gap:18px 22px; }
+    .offer-row .o-arr{ display:none; }
+    .creds{ gap:12px 24px; }
+    .creds li{ border-left:none; padding:0; }
+  }
+  @media (max-width:480px){
+    .wrap{ padding:0 20px; }
+    .nav-inner{ padding:14px 20px; }
+    .foot-inner{ padding:30px 20px; flex-direction:column; align-items:flex-start; }
+    .trust-grid{ grid-template-columns:1fr; }
+    .trust-item{ border-left:none; border-top:1px solid var(--line); padding:32px 0; }
+    .trust-item:first-child{ border-top:none; }
+    .hero-actions{ gap:22px; }
+    .creds{ flex-direction:column; gap:14px; }
+    .creds li{ border-left:none; padding:0; font-size:13px; }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{ scroll-behavior:auto !important; }
+    .reveal{ opacity:1 !important; transform:none !important; transition:none !important; }
+    .book-cover{ transition:none; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top" aria-label="Sarah Mann, Startseite">
+      <span class="name">Sarah Mann</span>
+      <span class="role">Pädagogin · Autorin</span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <ul class="nav-links">
+        <li><a href="#ansatz">Ansatz</a></li>
+        <li><a href="#ueber">Über Sarah</a></li>
+        <li><a href="#buch">Das Buch</a></li>
+        <li><a href="#angebote">Vorträge</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="#kontakt">Kontakt aufnehmen</a>
+      <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <a href="#ansatz">Ansatz</a>
+  <a href="#ueber">Über Sarah</a>
+  <a href="#buch">Das Buch</a>
+  <a href="#angebote">Vorträge</a>
+  <a href="#kontakt">Kontakt</a>
+  <a class="btn btn-primary" href="#kontakt">Kontakt aufnehmen</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Wärme und Klarheit</p>
+          <h1 id="hero-h">Eltern dürfen<br>wieder <em>führen.</em></h1>
+          <p class="lead">Für Eltern, die ihre Kinder nicht kontrollieren, sondern ihnen wieder Halt geben möchten. Pädagogisch fundiert, menschlich nah und mit der ruhigen Souveränität echter Erfahrung.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#ansatz">Den Ansatz entdecken</a>
+            <a class="btn btn-line" href="#ueber">Über Sarah <span class="arr">&rarr;</span></a>
+          </div>
+          <ul class="creds" aria-label="Qualifikationen">
+            <li>Master of Education</li>
+            <li>Mutter von sieben Kindern</li>
+            <li>Zertifizierte Schlafberaterin</li>
+            <li>Über 10.000 verkaufte Bücher</li>
+          </ul>
+        </div>
+
+        <div class="portrait reveal">
+          <div class="portrait-frame" role="img" aria-label="Platzhalter für ein Porträtfoto von Sarah Mann">
+            <div class="portrait-mono"><span>SM</span><em>Sarah Mann</em></div>
+          </div>
+          <div class="portrait-cap">
+            <span class="label">Porträt</span>
+            <span class="meta">Aufnahme folgt</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="trust" aria-label="Kennzahlen">
+    <div class="wrap">
+      <div class="trust-grid">
+        <div class="trust-item reveal"><div class="num">M.Ed.</div><div class="cap">Pädagogin mit akademischer Tiefe</div></div>
+        <div class="trust-item reveal"><div class="num">15<span class="u">Jahre</span></div><div class="cap">Begleitung von Familien</div></div>
+        <div class="trust-item reveal"><div class="num">10.000<span class="u">+</span></div><div class="cap">Verkaufte Bücher</div></div>
+        <div class="trust-item reveal"><div class="num">7<span class="u">Kinder</span></div><div class="cap">Erfahrung aus erster Hand</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANSATZ -->
+  <section class="ansatz pad-lg" id="ansatz" aria-labelledby="ansatz-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Warum diese Arbeit</p>
+        <h2 id="ansatz-h">Viele Eltern lieben sehr und verlieren trotzdem die Orientierung.</h2>
+        <p class="lead">Zwischen Ratgeberwissen, Alltagsdruck und widersprüchlichen Stimmen entsteht Unsicherheit. Kinder brauchen Nähe. Und sie brauchen Erwachsene, die führen, ordnen und liebevoll Grenzen halten.</p>
+      </div>
+
+      <div class="approach-grid">
+        <article class="approach-card reveal">
+          <span class="idx" aria-hidden="true">i</span>
+          <h3>Emotionale Sicherheit</h3>
+          <p>Beziehung, Wärme und das tiefe Gefühl: Ich werde gesehen, gehalten und verstanden.</p>
+        </article>
+        <article class="approach-card reveal">
+          <span class="idx" aria-hidden="true">ii</span>
+          <h3>Klare Führung</h3>
+          <p>Gute Erziehung ist keine Härte. Sie ist Orientierung, Verantwortung und liebevolle Konsequenz.</p>
+        </article>
+        <article class="approach-card reveal">
+          <span class="idx" aria-hidden="true">iii</span>
+          <h3>Starke Eltern</h3>
+          <p>Eltern brauchen keinen weiteren Druck. Sie brauchen Klarheit, innere Stabilität und einen tragfähigen Weg.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- KERN / ZITAT -->
+  <section class="kern pad-lg" aria-labelledby="kern-h">
+    <div class="wrap">
+      <div class="kern-grid">
+        <div class="kern-left reveal">
+          <span class="mark" aria-hidden="true">&ldquo;</span>
+          <blockquote id="kern-h">Wärme gibt Kindern Sicherheit. <span class="gold">Führung gibt ihnen Halt.</span></blockquote>
+        </div>
+        <div class="kern-right reveal">
+          <p class="eyebrow">Der Ansatz</p>
+          <h3>Ein moderner Ansatz ohne Extreme.</h3>
+          <ul class="checklist">
+            <li>Keine autoritäre Härte, die Kinder klein macht.</li>
+            <li>Keine Grenzenlosigkeit, die Eltern erschöpft und Kinder überfordert.</li>
+            <li>Sondern Erziehung, die Beziehung und Führung verbindet.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÜBER SARAH -->
+  <section class="about pad-lg" id="ueber" aria-labelledby="ueber-h">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-portrait reveal">
+          <div class="portrait-frame" role="img" aria-label="Platzhalter für ein zweites Porträtfoto von Sarah Mann">
+            <div class="portrait-mono"><em>Im Gespräch</em></div>
+          </div>
+          <div class="portrait-cap">
+            <span class="label">Porträt · Israel</span>
+            <span class="meta">Aufnahme folgt</span>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="eyebrow">Über Sarah</p>
+          <h2 id="ueber-h">Pädagogische Tiefe. Erfahrung aus der Praxis. Ein Blick für das ganze Kind.</h2>
+          <p>Sarah Mann ist Pädagogin (Master of Education), zertifizierte Schlafberaterin und Mutter von sieben Kindern. Ihre Arbeit verbindet fundierte Wissenschaft mit klarer Sprache und einem tiefen Verständnis für die Realität moderner Familien.</p>
+          <p class="about-sign">Sie lebt mit ihrer Familie in Israel.
+            <span class="where">Pädagogin · Autorin · Mutter von sieben</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANGEBOTE -->
+  <section class="offers pad-lg" id="angebote" aria-labelledby="angebote-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Begegnung &amp; Zusammenarbeit</p>
+        <h2 id="angebote-h">Wo diese Arbeit Familien erreicht.</h2>
+      </div>
+      <div class="offer-list">
+        <a class="offer-row reveal" href="#buch">
+          <span class="o-idx" aria-hidden="true">i</span>
+          <span class="o-body">
+            <h3>Das Buch</h3>
+            <p>Das neue Buch über Wärme, Klarheit und Haltung. Erscheint 2027.</p>
+          </span>
+          <span class="o-arr" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="offer-row reveal" href="#kontakt">
+          <span class="o-idx" aria-hidden="true">ii</span>
+          <span class="o-body">
+            <h3>Vorträge</h3>
+            <p>Für Schulen, Kitas, Unternehmen und Elternabende mit Anspruch an Tiefe.</p>
+          </span>
+          <span class="o-arr" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="offer-row reveal" href="#kontakt">
+          <span class="o-idx" aria-hidden="true">iii</span>
+          <span class="o-body">
+            <h3>Elternbegleitung</h3>
+            <p>Für konkrete Familiensituationen, in denen Klarheit und ein neuer Blick gebraucht werden.</p>
+          </span>
+          <span class="o-arr" aria-hidden="true">&rarr;</span>
+        </a>
+        <a class="offer-row reveal" href="#kontakt">
+          <span class="o-idx" aria-hidden="true">iv</span>
+          <span class="o-body">
+            <h3>Impulse und Newsletter</h3>
+            <p>Gedanken zu Wärme und Klarheit, regelmäßig und fundiert.</p>
+          </span>
+          <span class="o-arr" aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUCH-FEATURE -->
+  <section class="book pad-lg" id="buch" aria-labelledby="buch-h">
+    <div class="wrap">
+      <div class="book-grid">
+        <div class="book-cover-wrap reveal">
+          <div class="book-cover" role="img" aria-label="Platzhalter für das Buchcover. Der Arbeitstitel folgt.">
+            <span class="bc-top">Das neue Buch · 2027</span>
+            <span class="bc-mid">Über Wärme, Klarheit und Haltung in der Erziehung.</span>
+            <span class="bc-name">Sarah Mann<small>Arbeitstitel folgt</small></span>
+          </div>
+        </div>
+        <div class="book-text reveal">
+          <p class="eyebrow">Autorin · 10.000+ Bücher</p>
+          <h2 id="buch-h">Eine Stimme, die bereits viele Familien erreicht hat.</h2>
+          <p>Bücher sind hier nicht nur Produkte, sondern Vertrauenselemente. Sie zeigen Tiefe, Erfahrung und eine Haltung, der Eltern folgen.</p>
+          <div class="book-actions">
+            <a class="btn btn-primary" href="#kontakt">Medien- und Vortragsanfrage</a>
+            <a class="btn btn-line" href="#buch">Mehr zum Buch <span class="arr">&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STIMMEN -->
+  <section class="voices pad-lg" aria-labelledby="voices-h">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Stimmen</p>
+        <h2 id="voices-h">Was andere erlebt haben.</h2>
+      </div>
+      <div class="voice-grid">
+        <figure class="voice reveal">
+          <span class="q-mark" aria-hidden="true">&ldquo;</span>
+          <blockquote>Zum ersten Mal hatten wir nicht nur einen Tipp, sondern eine klare Haltung für unseren Familienalltag.</blockquote>
+          <figcaption class="who">Elternstimme</figcaption>
+        </figure>
+        <figure class="voice reveal">
+          <span class="q-mark" aria-hidden="true">&ldquo;</span>
+          <blockquote>Fachlich tief, menschlich warm und zugleich klar. Genau diese Mischung hat uns gefehlt.</blockquote>
+          <figcaption class="who">Veranstalterin</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT / FINAL CTA -->
+  <section class="contact pad-lg" id="kontakt" aria-labelledby="kontakt-h">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div class="reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="kontakt-h">Für Eltern, die wieder führen möchten, ohne die Beziehung zu verlieren.</h2>
+        </div>
+        <div class="reveal">
+          <p class="lead">Schreiben Sie für Beratung, Vorträge oder Medienanfragen.</p>
+          <div class="contact-actions">
+            <a class="btn btn-onDark btn-primary" href="mailto:kontakt@sarah-mann.de">Anfrage senden</a>
+            <a class="btn btn-onDark btn-line" href="#top">Nach oben <span class="arr">&uarr;</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="foot">
+  <div class="foot-inner">
+    <span class="f-brand">Sarah Mann</span>
+    <span class="f-meta">&copy; 2026 Sarah Mann · Erziehung mit Wärme und Klarheit</span>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var nav = document.getElementById('nav');
+    var burger = document.getElementById('burger');
+    var menu = document.getElementById('mobileMenu');
+
+    // Nav border on scroll
+    var onScroll = function(){
+      if(window.scrollY > 8){ nav.classList.add('scrolled'); }
+      else{ nav.classList.remove('scrolled'); }
+    };
+    window.addEventListener('scroll', onScroll, { passive:true });
+    onScroll();
+
+    // Mobile menu toggle
+    var toggle = function(open){
+      burger.classList.toggle('open', open);
+      menu.classList.toggle('open', open);
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+      document.body.style.overflow = open ? 'hidden' : '';
+    };
+    burger.addEventListener('click', function(){
+      toggle(!burger.classList.contains('open'));
+    });
+    Array.prototype.forEach.call(menu.querySelectorAll('a'), function(a){
+      a.addEventListener('click', function(){ toggle(false); });
+    });
+
+    // Scroll reveal
+    var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var items = document.querySelectorAll('.reveal');
+    if(reduce || !('IntersectionObserver' in window)){
+      Array.prototype.forEach.call(items, function(el){ el.classList.add('in'); });
+    } else {
+      var io = new IntersectionObserver(function(entries){
+        entries.forEach(function(e){
+          if(e.isIntersecting){
+            e.target.classList.add('in');
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold:0.12, rootMargin:'0px 0px -8% 0px' });
+      Array.prototype.forEach.call(items, function(el){ io.observe(el); });
+    }
+  })();
+</script>
+</body>
+</html>

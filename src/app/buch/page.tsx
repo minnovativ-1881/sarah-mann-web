@@ -29,21 +29,21 @@ export default function BuchPage() {
     <>
       <Navbar />
       <main>
-        <section className="bg-midnight pt-40 pb-0 px-6 lg:px-12">
+        <section className="bg-cream-dark pt-44 pb-0 px-6 lg:px-12">
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-end">
-              <div className="pb-24">
+              <div className="pb-28">
                 <p className="text-overline text-terra mb-8">Das Buch</p>
                 <h1
-                  className="heading-display text-cream"
+                  className="heading-display text-deep"
                   style={{ fontSize: "clamp(3rem, 7vw, 6rem)" }}
                 >
                   Wer liebt,
                   <br />
-                  <em className="text-terra">f&uuml;hrt.</em>
+                  <em className="text-terra italic">f&uuml;hrt.</em>
                 </h1>
                 <div className="divider-terra mt-8" />
-                <p className="text-cream/50 italic font-serif text-xl mt-6 leading-relaxed">
+                <p className="text-deep/55 italic font-serif text-xl mt-6 leading-relaxed">
                   Warum Kinder Grenzen brauchen &mdash;
                   <br />
                   und Eltern die Erlaubnis, sie zu setzen
@@ -60,28 +60,31 @@ export default function BuchPage() {
 
               <div className="flex justify-center lg:justify-end">
                 <div className="relative" style={{ maxWidth: "300px", width: "100%" }}>
-                  <div className="relative overflow-hidden shadow-2xl" style={{ aspectRatio: "2/3" }}>
+                  <div
+                    className="relative overflow-hidden"
+                    style={{ aspectRatio: "2/3", boxShadow: "0 30px 60px rgba(28,27,24,0.20)" }}
+                  >
                     <div
                       className="absolute inset-0 flex flex-col"
-                      style={{ background: "linear-gradient(160deg, #1C2D3F 0%, #0F1A24 100%)" }}
+                      style={{ background: "linear-gradient(160deg, #25241F 0%, #141310 100%)" }}
                     >
-                      <div className="h-1 bg-terra" />
+                      <div className="h-px bg-terra" />
                       <div className="flex-1 flex flex-col justify-between p-8 lg:p-10">
-                        <p className="text-terra text-xs tracking-widest uppercase">
+                        <p className="text-stone text-xs tracking-widest uppercase">
                           Sarah Mann
                         </p>
                         <div>
                           <h3
                             className="font-serif text-cream leading-none"
-                            style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 600 }}
+                            style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 500 }}
                           >
                             Wer
                             <br />
                             liebt,
                             <br />
-                            <em className="text-terra">f&uuml;hrt.</em>
+                            <em className="text-stone italic">f&uuml;hrt.</em>
                           </h3>
-                          <div className="h-px bg-terra/40 my-5" />
+                          <div className="h-px bg-stone/40 my-5" />
                           <p className="text-cream/40 text-xs leading-relaxed">
                             Warum Kinder Grenzen brauchen
                           </p>
@@ -94,7 +97,6 @@ export default function BuchPage() {
                       </div>
                     </div>
                   </div>
-                  <div className="absolute top-2 left-2 right-0 bottom-0 -z-10" style={{ background: "#C47A5A", opacity: 0.12 }} />
                 </div>
               </div>
             </div>
@@ -106,13 +108,13 @@ export default function BuchPage() {
             <div className="grid md:grid-cols-2 gap-16">
               <div>
                 <p className="text-overline text-terra mb-6">Worum es geht</p>
-                <h2 className="heading-section text-deep mb-6" style={{ fontSize: "2rem" }}>
+                <h2 className="heading-section text-deep mb-6" style={{ fontSize: "2.25rem" }}>
                   Das Buch, das Eltern Erlaubnis gibt
                 </h2>
                 <div className="divider-terra" />
               </div>
-              <div className="space-y-5 text-deep/70 leading-relaxed">
-                <p className="font-medium text-deep text-lg">
+              <div className="space-y-5 text-deep/70 leading-relaxed font-light">
+                <p className="font-normal text-deep text-lg">
                   Viele Eltern tun heute mehr f&uuml;r ihre Kinder als je zuvor
                   &mdash; und f&uuml;hlen sich trotzdem wie Versager.
                 </p>
@@ -125,21 +127,21 @@ export default function BuchPage() {
                   Sarah Mann gibt eine klare Antwort &mdash; und die Erlaubnis,
                   die viele Eltern nie bekommen haben: Kinder brauchen nicht
                   weniger Grenzen, weil wir sie mehr lieben. Sie brauchen Grenzen,
-                  <strong> weil</strong> wir sie lieben.
+                  <strong className="font-normal text-deep"> weil</strong> wir sie lieben.
                 </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="bg-terra py-20 px-6 lg:px-12">
+        <section className="bg-cream-dark py-24 px-6 lg:px-12">
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12">
-              <blockquote className="font-serif text-xl italic text-cream/90 leading-relaxed">
+              <blockquote className="font-serif text-2xl lg:text-3xl italic text-deep/80 leading-relaxed">
                 &bdquo;Kein Nein erzeugt kein Trauma. Aber ein Kind ohne Grenzen
                 &mdash; das erzeugt eines.&ldquo;
               </blockquote>
-              <blockquote className="font-serif text-xl italic text-cream/90 leading-relaxed">
+              <blockquote className="font-serif text-2xl lg:text-3xl italic text-deep/80 leading-relaxed">
                 &bdquo;Sichere Bindung entsteht durch Zuverl&auml;ssigkeit &mdash;
                 nicht durch Omnipr&auml;senz.&ldquo;
               </blockquote>
@@ -147,10 +149,10 @@ export default function BuchPage() {
           </div>
         </section>
 
-        <section className="section-padding bg-cream-dark">
+        <section className="section-padding bg-cream">
           <div className="max-w-4xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-10">Inhalt</p>
-            <h2 className="heading-section text-deep mb-12" style={{ fontSize: "2rem" }}>
+            <h2 className="heading-section text-deep mb-12" style={{ fontSize: "2.25rem" }}>
               12 Kapitel. Alle Entwicklungsphasen.
             </h2>
             <div className="space-y-0">
@@ -159,12 +161,12 @@ export default function BuchPage() {
                   key={ch.num}
                   className="flex gap-6 py-6 border-t border-cream-mid items-baseline"
                 >
-                  <span className="font-serif text-cream-mid flex-shrink-0 text-sm" style={{ fontWeight: 300 }}>
+                  <span className="font-serif text-stone/60 flex-shrink-0 text-sm" style={{ fontWeight: 300 }}>
                     {ch.num}
                   </span>
                   <div>
-                    <p className="text-deep font-medium text-sm">{ch.title}</p>
-                    <p className="text-terra/70 text-xs mt-1 italic">{ch.sub}</p>
+                    <p className="font-serif text-deep text-lg">{ch.title}</p>
+                    <p className="text-terra/80 text-xs mt-1 italic">{ch.sub}</p>
                   </div>
                 </div>
               ))}
@@ -172,16 +174,26 @@ export default function BuchPage() {
           </div>
         </section>
 
-        <section className="section-padding bg-deep">
-          <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
+        <section className="section-padding bg-deep relative overflow-hidden">
+          <div
+            className="absolute inset-0 pointer-events-none"
+            style={{
+              background:
+                "radial-gradient(ellipse 60% 50% at 20% 20%, rgba(168,155,140,0.10) 0%, transparent 60%)",
+            }}
+          />
+          <div className="relative max-w-3xl mx-auto px-6 lg:px-12 text-center">
             <h2 className="heading-section text-cream mb-6" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
               Wer liebt, f&uuml;hrt.
             </h2>
-            <p className="text-cream/65 leading-relaxed mb-10">
+            <p className="text-cream/70 leading-relaxed mb-10 font-light">
               F&uuml;r alle Eltern, die aufgeh&ouml;rt haben, sich selbst zu
               vertrauen &mdash; und wieder anfangen m&ouml;chten.
             </p>
-            <Link href="/kontakt/" className="btn-primary">
+            <Link
+              href="/kontakt/"
+              className="bg-cream text-deep px-8 py-4 text-xs font-medium tracking-widest uppercase hover:bg-cream-dark transition-colors inline-flex items-center gap-3"
+            >
               Leseprobe und Bezugsinfo anfragen
             </Link>
           </div>

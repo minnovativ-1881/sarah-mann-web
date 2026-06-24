@@ -27,14 +27,14 @@ const topics = [
 
 export default function ExpertiseSection() {
   return (
-    <section className="section-padding bg-cream">
+    <section className="section-padding bg-cream-dark">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
-        <div className="mb-16">
+        <div className="mb-20">
           <p className="text-overline text-terra mb-6">Expertise</p>
           <h2
             className="heading-section text-deep"
-            style={{ fontSize: "clamp(2.5rem, 4vw, 3.5rem)" }}
+            style={{ fontSize: "clamp(2.5rem, 4vw, 3.75rem)" }}
           >
             Themen &amp; Schwerpunkte
           </h2>
@@ -43,10 +43,10 @@ export default function ExpertiseSection() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-cream-mid">
           {topics.map((topic, i) => (
-            <div key={topic.title} className="bg-cream p-10 group card-hover">
-              <div className="flex items-start justify-between mb-8">
+            <div key={topic.title} className="bg-cream-dark p-12 group card-hover">
+              <div className="flex items-start justify-between mb-10">
                 <span
-                  className="font-serif text-cream-mid font-light"
+                  className="font-serif text-stone/50 font-light"
                   style={{ fontSize: "2.5rem", lineHeight: 1 }}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -56,16 +56,16 @@ export default function ExpertiseSection() {
                   height="18"
                   viewBox="0 0 18 18"
                   fill="none"
-                  className="text-terra opacity-0 group-hover:opacity-100 transition-opacity duration-200 mt-1"
+                  className="text-terra opacity-0 group-hover:opacity-100 transition-opacity duration-300 mt-1"
                   aria-hidden="true"
                 >
                   <path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <h3 className="text-deep font-medium text-lg mb-3 group-hover:text-terra transition-colors duration-200">
+              <h3 className="font-serif text-deep text-2xl mb-3 group-hover:text-terra transition-colors duration-300">
                 {topic.title}
               </h3>
-              <p className="text-deep/55 text-sm leading-relaxed">{topic.desc}</p>
+              <p className="text-deep/55 text-sm leading-relaxed font-light">{topic.desc}</p>
             </div>
           ))}
         </div>

@@ -20,49 +20,49 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen bg-cream flex items-center overflow-hidden">
-      {/* Subtle warm gradient in background */}
+      {/* Whisper of warmth */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 70% 100%, rgba(196,122,90,0.07) 0%, transparent 70%)",
+            "radial-gradient(ellipse 70% 55% at 75% 100%, rgba(74,79,60,0.04) 0%, transparent 70%)",
         }}
       />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-12 pt-28 pb-16 w-full">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-12 pt-32 pb-20 w-full">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
           {/* Left: Text */}
           <div>
-            <p className="text-overline text-terra mb-6 tracking-widest">
+            <p className="text-overline text-terra mb-8">
               Balanced Parenting &middot; Expertin &amp; Autorin
             </p>
 
             <h1
               ref={headlineRef}
               className="heading-display text-deep"
-              style={{ fontSize: "clamp(3.5rem, 7vw, 6.5rem)" }}
+              style={{ fontSize: "clamp(3.75rem, 7.5vw, 7rem)" }}
             >
               Wer liebt,
               <br />
-              <em className="text-terra not-italic">f&uuml;hrt.</em>
+              <em className="text-terra italic">f&uuml;hrt.</em>
             </h1>
 
-            <div className="divider-terra mt-8" />
+            <div className="divider-terra mt-10" />
 
-            <p className="text-deep/65 text-lg leading-relaxed mt-6 max-w-lg font-light">
+            <p className="text-deep/60 text-lg leading-relaxed mt-8 max-w-lg font-light">
               Sarah Mann ist die f&uuml;hrende deutschsprachige Expertin
               f&uuml;r{" "}
-              <span className="text-deep font-medium">Balanced Parenting</span>{" "}
+              <span className="text-deep font-normal">Balanced Parenting</span>{" "}
               &mdash; den Weg zwischen Ersch&ouml;pfung und Entfremdung.
               P&auml;dagogin. Babyschlafberaterin. Mutter von sieben Kindern.
             </p>
 
-            <p className="text-deep/40 text-base leading-relaxed mt-4 max-w-lg font-light italic font-serif">
+            <p className="text-deep/40 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
               &bdquo;Warm genug, um zu lieben. Klar genug, um zu f&uuml;hren.&ldquo;
             </p>
 
-            <div className="flex flex-wrap gap-4 mt-10">
+            <div className="flex flex-wrap gap-4 mt-12">
               <Link href="/buch/" className="btn-primary">
                 Das Buch entdecken
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
@@ -75,17 +75,17 @@ export default function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="flex gap-10 mt-14 pt-10 border-t border-deep/10">
+            <div className="flex gap-12 mt-16 pt-10 border-t border-deep/10">
               {[
                 { num: "15+", label: "Jahre Erfahrung" },
                 { num: "7", label: "eigene Kinder" },
                 { num: "1.000+", label: "Familien begleitet" },
               ].map((stat) => (
                 <div key={stat.label}>
-                  <div className="font-serif text-terra" style={{ fontSize: "2rem", lineHeight: 1, fontWeight: 300 }}>
+                  <div className="font-serif text-terra" style={{ fontSize: "2.25rem", lineHeight: 1, fontWeight: 300 }}>
                     {stat.num}
                   </div>
-                  <div className="text-deep/45 text-xs mt-1 tracking-wide">
+                  <div className="text-deep/45 text-xs mt-2 tracking-wide">
                     {stat.label}
                   </div>
                 </div>
@@ -98,7 +98,7 @@ export default function Hero() {
             <div style={{ maxWidth: "460px", width: "100%" }}>
               <Image
                 src="/sarah-mann.png"
-                alt="Expertin fuer Balanced Parenting"
+                alt="Sarah Mann, Expertin fuer Balanced Parenting"
                 width={460}
                 height={560}
                 priority

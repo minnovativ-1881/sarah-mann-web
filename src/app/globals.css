@@ -4,7 +4,10 @@
 
 :root {
   --font-cormorant: "Cormorant Garamond", Georgia, serif;
-  --font-inter: "Inter", system-ui, sans-serif;
+  --font-jost: "Jost", system-ui, sans-serif;
+  --ink: #1C1B18;
+  --olive: #4A4F3C;
+  --line: rgba(28, 27, 24, 0.12);
 }
 
 html {
@@ -12,33 +15,34 @@ html {
 }
 
 body {
-  font-family: var(--font-inter);
-  color: #1C2D3F;
-  background-color: #F5EFE6;
+  font-family: var(--font-jost);
+  font-weight: 300;
+  color: #1C1B18;
+  background-color: #FFFFFF;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography */
+/* Typography — Galerie Blanc: grosse, duenne Serife gegen feine getrackte Sans */
 .heading-display {
   font-family: var(--font-cormorant);
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  line-height: 1.05;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 1.03;
 }
 
 .heading-section {
   font-family: var(--font-cormorant);
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.01em;
-  line-height: 1.1;
+  line-height: 1.08;
 }
 
 .text-overline {
-  font-family: var(--font-inter);
+  font-family: var(--font-jost);
   font-weight: 500;
   font-size: 0.7rem;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
 }
 
@@ -54,7 +58,7 @@ body {
   width: 0;
   height: 1px;
   background-color: currentColor;
-  transition: width 0.3s ease;
+  transition: width 0.4s cubic-bezier(0.22, 0.61, 0.2, 1);
 }
 .link-underline:hover::after {
   width: 100%;
@@ -66,118 +70,131 @@ body {
   font-style: italic;
   font-size: 1.5rem;
   line-height: 1.5;
-  color: #C47A5A;
+  color: var(--olive);
 }
 
-/* Divider */
+/* Divider — feine Haarlinie mit Olive */
 .divider-terra {
   width: 3rem;
-  height: 2px;
-  background-color: #C47A5A;
+  height: 1px;
+  background-color: var(--olive);
   margin: 1.5rem 0;
 }
 
 /* Scroll reveal - JS controlled */
 .reveal {
   opacity: 0;
-  transform: translateY(28px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transform: translateY(20px);
+  transition: opacity 0.8s cubic-bezier(0.22, 0.61, 0.2, 1),
+    transform 0.8s cubic-bezier(0.22, 0.61, 0.2, 1);
 }
 .reveal.visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Hover card effect */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Hover card — flach, keine schweren Schatten; nur Haarlinie + zarter Lift */
 .card-hover {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.2, 1),
+    border-color 0.4s ease, background-color 0.4s ease;
 }
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(28, 45, 63, 0.15);
 }
 
-/* Button styles */
+/* Buttons — minimal, gallery */
 .btn-primary {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background-color: #C47A5A;
-  color: #F5EFE6;
-  padding: 0.875rem 2rem;
-  font-size: 0.875rem;
+  gap: 0.6rem;
+  background-color: var(--ink);
+  color: #FFFFFF;
+  padding: 0.95rem 2rem;
+  font-family: var(--font-jost);
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .btn-primary:hover {
-  background-color: #D4896A;
+  background-color: var(--olive);
   transform: translateY(-1px);
 }
 
 .btn-outline {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   border: 1px solid currentColor;
-  padding: 0.875rem 2rem;
-  font-size: 0.875rem;
+  padding: 0.95rem 2rem;
+  font-family: var(--font-jost);
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 .btn-outline-light {
-  border-color: #F5EFE6;
-  color: #F5EFE6;
+  border-color: rgba(255, 255, 255, 0.5);
+  color: #FFFFFF;
 }
 .btn-outline-light:hover {
-  background-color: #F5EFE6;
-  color: #1C2D3F;
+  background-color: #FFFFFF;
+  color: var(--ink);
   transform: translateY(-1px);
 }
 .btn-outline-dark {
-  border-color: #1C2D3F;
-  color: #1C2D3F;
+  border-color: rgba(28, 27, 24, 0.4);
+  color: var(--ink);
 }
 .btn-outline-dark:hover {
-  background-color: #1C2D3F;
-  color: #F5EFE6;
+  background-color: var(--ink);
+  color: #FFFFFF;
   transform: translateY(-1px);
 }
 
 /* Nav */
 .nav-link {
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
+  font-family: var(--font-jost);
+  font-size: 0.74rem;
+  font-weight: 400;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   transition: color 0.2s;
 }
 
-/* Section padding */
+/* Section padding — viel Weissraum */
 .section-padding {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
 }
 
 @media (max-width: 768px) {
   .section-padding {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
 }
 
-/* Photo frame */
+/* Photo frame — feine Haarlinie statt kraeftiger Rahmen */
 .photo-frame {
   position: relative;
 }
 .photo-frame::before {
   content: '';
   position: absolute;
-  inset: -12px -12px 12px 12px;
-  border: 1px solid #C47A5A;
+  inset: -14px -14px 14px 14px;
+  border: 1px solid var(--olive);
+  opacity: 0.5;
   z-index: 0;
 }
 .photo-frame > * {
@@ -191,7 +208,7 @@ body {
   font-size: 4rem;
   font-weight: 300;
   line-height: 1;
-  color: #C47A5A;
+  color: var(--olive);
 }
 
 @keyframes slideDown {
@@ -200,13 +217,13 @@ body {
 }
 
 .nav-scrolled {
-  background-color: rgba(15, 26, 36, 0.97);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 1px 0 rgba(245, 239, 230, 0.1);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 rgba(28, 27, 24, 0.08);
 }
 
 .nav-scrolled-light {
-  background-color: rgba(245, 239, 230, 0.97);
-  backdrop-filter: blur(8px);
-  box-shadow: 0 1px 0 rgba(28, 45, 63, 0.08);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 rgba(28, 27, 24, 0.07);
 }
