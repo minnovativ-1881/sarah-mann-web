@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const credentials = [
   { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
@@ -27,28 +28,20 @@ export default function AboutSection() {
                     "linear-gradient(160deg, #FBF9F5 0%, #ECE8E0 100%)",
                 }}
               >
-                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <div className="text-center px-8">
-                    <div
-                      className="font-serif text-stone mb-4"
-                      style={{ fontSize: "3.5rem", lineHeight: 1, fontWeight: 300, letterSpacing: "0.05em" }}
-                    >
-                      SM
-                    </div>
-                    <p className="text-deep/35 text-xs tracking-widest uppercase">
-                      Portrait Sarah Mann
-                    </p>
-                  </div>
-                </div>
-                <div className="absolute bottom-0 left-0 right-0 p-8">
-                  <p className="font-serif text-deep/70 italic text-sm leading-relaxed">
-                    &bdquo;Mit sieben Kindern und f&uuml;nfzehn Jahren
-                    Beratungspraxis habe ich gelernt: Perfektion ist nicht das
-                    Ziel. Zuverl&auml;ssigkeit ist das Ziel.&ldquo;
-                  </p>
-                </div>
+                <Image
+                  src="/sarah-mann-about.png"
+                  alt="Sarah Mann, Pädagogin und Mutter von sieben Kindern"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 42vw"
+                  style={{ objectFit: "cover", objectPosition: "center top" }}
+                />
               </div>
             </div>
+            <p className="font-serif text-deep/70 italic text-sm leading-relaxed mt-6 max-w-sm">
+              &bdquo;Mit sieben Kindern und f&uuml;nfzehn Jahren
+              Beratungspraxis habe ich gelernt: Perfektion ist nicht das
+              Ziel. Zuverl&auml;ssigkeit ist das Ziel.&ldquo;
+            </p>
           </div>
 
           <div className="order-1 lg:order-2">
