@@ -56,7 +56,7 @@ export default function AboutSection() {
             </h2>
             <div className="divider-terra" />
 
-            <div className="space-y-5 text-deep/70 leading-relaxed mt-8 font-light">
+            <div className="space-y-5 text-deep/70 leading-relaxed mt-8 font-normal">
               <p>
                 Sarah Mann ist P&auml;dagogin, Babyschlafberaterin und Mutter
                 von sieben Kindern. Seit &uuml;ber f&uuml;nfzehn Jahren
@@ -70,7 +70,8 @@ export default function AboutSection() {
                 Ainsworth) mit dem echten Alltag.
               </p>
               <p>
-                Sarah lebt mit ihrem Mann und ihren sieben Kindern in Israel.
+                Sarah und ihr Mann haben sieben gemeinsame Kinder, und sie
+                lieben und leben das Gro&szlig;familienleben.
               </p>
             </div>
 

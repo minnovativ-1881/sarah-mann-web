@@ -16,8 +16,7 @@ export default function ImpressumPage() {
               <p className="font-medium text-deep">Angaben gemäß § 5 TMG</p>
               <p className="mt-2">
                 Sarah Mann<br />
-                [Adresse einfügen]<br />
-                Israel
+                [Adresse einfügen]
               </p>
             </div>
             <div>
@@ -33,7 +32,7 @@ export default function ImpressumPage() {
               <p className="font-medium text-deep">Verantwortlich für den Inhalt</p>
               <p className="mt-2">Sarah Mann (Anschrift wie oben)</p>
             </div>
-            <div className="pt-4 text-deep/40 text-xs">
+            <div className="pt-4 text-deep/58 text-xs">
               <p>Placeholder — vollständige Angaben vor Go-Live einfügen.</p>
             </div>
           </div>

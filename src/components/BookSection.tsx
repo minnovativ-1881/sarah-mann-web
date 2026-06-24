@@ -61,7 +61,7 @@ function CoverSchlaf() {
               Bindungsbewusst und klar
             </p>
           </div>
-          <p className="text-deep/35 text-[0.6rem]">Babyschlaf, sanft und mit Plan</p>
+          <p className="text-deep/55 text-[0.6rem]">Babyschlaf, sanft und mit Plan</p>
         </div>
       </div>
     </div>
@@ -97,7 +97,7 @@ export default function BookSection() {
             Mehrere Bücher.
           </h2>
           <div className="divider-terra" />
-          <p className="text-deep/60 leading-relaxed mt-8 font-light text-lg">
+          <p className="text-deep/60 leading-relaxed mt-8 font-normal text-lg">
             Sarah Mann schreibt nicht ein Buch, sondern baut eine Bewegung für Erziehung mit
             Wärme und Klarheit. Den Anfang machen zwei Bücher.
           </p>
@@ -110,8 +110,8 @@ export default function BookSection() {
               {b.cover}
               <div className="mt-10 text-center">
                 <p className="text-overline text-terra mb-3">{b.label}</p>
-                <p className="font-serif italic text-deep/45 text-sm mb-4">Erscheint September 2026</p>
-                <p className="text-deep/60 text-sm leading-relaxed font-light max-w-xs mx-auto">
+                <p className="font-serif italic text-deep/62 text-sm mb-4">Erscheint September 2026</p>
+                <p className="text-deep/60 text-sm leading-relaxed font-normal max-w-xs mx-auto">
                   {b.desc}
                 </p>
               </div>
@@ -120,7 +120,7 @@ export default function BookSection() {
         </div>
 
         {/* Coming */}
-        <p className="text-center font-serif italic text-deep/55 text-lg mt-12 max-w-2xl mx-auto">
+        <p className="text-center font-serif italic text-deep/68 text-lg mt-12 max-w-2xl mx-auto">
           Und Kinderbücher, die Kinder stark machen, und die sie selbst lesen. In Vorbereitung.
         </p>
 

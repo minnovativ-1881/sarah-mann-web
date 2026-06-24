@@ -82,7 +82,7 @@ function CoverSchlaf({ small = false }: { small?: boolean }) {
             <div className="h-px bg-terra/30 my-5" />
             <p className="text-deep/50 text-xs leading-relaxed">Bindungsbewusst und klar</p>
           </div>
-          <p className="text-deep/35 text-xs">Babyschlaf, sanft und mit Plan</p>
+          <p className="text-deep/55 text-xs">Babyschlaf, sanft und mit Plan</p>
         </div>
       </div>
     </div>
@@ -109,7 +109,7 @@ export default function BuchPage() {
                   Eltern <em className="text-terra italic">stärken.</em>
                 </h1>
                 <div className="divider-terra mt-8" />
-                <p className="text-deep/65 text-lg leading-relaxed mt-8 max-w-xl font-light">
+                <p className="text-deep/65 text-lg leading-relaxed mt-8 max-w-xl font-normal">
                   Sarah Mann schreibt nicht ein Buch, sondern baut eine Bewegung für Erziehung mit
                   Wärme und Klarheit. Den Anfang machen zwei Bücher.
                 </p>
@@ -149,7 +149,7 @@ export default function BuchPage() {
                   und Eltern die Erlaubnis, sie zu setzen
                 </p>
                 <div className="divider-terra" />
-                <div className="space-y-5 text-deep/70 leading-relaxed mt-6 font-light">
+                <div className="space-y-5 text-deep/70 leading-relaxed mt-6 font-normal">
                   <p className="text-deep font-normal text-lg">
                     Viele Eltern tun heute mehr für ihre Kinder als je zuvor — und fühlen sich
                     trotzdem wie Versager.
@@ -217,14 +217,14 @@ export default function BuchPage() {
                   ohne Schreienlassen
                 </p>
                 <div className="divider-terra" />
-                <p className="text-deep/70 leading-relaxed mt-6 font-light">
+                <p className="text-deep/70 leading-relaxed mt-6 font-normal">
                   Du musst dich nicht entscheiden zwischen Schreienlassen und dich selbst aufgeben.
                   Es gibt einen dritten Weg, warm und klar zugleich. Schlaf ist die erste
                   Führungsaufgabe.
                 </p>
                 <ul className="space-y-3 mt-8">
                   {schlafInside.map((p) => (
-                    <li key={p} className="flex gap-3 text-deep/65 text-sm font-light">
+                    <li key={p} className="flex gap-3 text-deep/65 text-sm font-normal">
                       <span className="text-terra flex-shrink-0 mt-0.5">—</span>
                       <span className="leading-relaxed">{p}</span>
                     </li>
@@ -261,7 +261,7 @@ export default function BuchPage() {
             <h2 className="heading-section text-cream mb-6" style={{ fontSize: "clamp(2rem, 4vw, 3rem)" }}>
               Sei dabei, wenn die Bücher erscheinen.
             </h2>
-            <p className="text-cream/70 leading-relaxed mb-10 font-light">
+            <p className="text-cream/70 leading-relaxed mb-10 font-normal">
               Leseprobe, Erscheinungstermine und Bezugsinfos zu beiden Büchern, direkt von Sarah.
             </p>
             <Link

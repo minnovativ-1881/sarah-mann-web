@@ -69,7 +69,7 @@ export default function ProblemSection() {
               </div>
 
               {/* Label */}
-              <p className="text-deep/65 text-base mt-6 leading-snug font-light">
+              <p className="text-deep/65 text-base mt-6 leading-snug font-normal">
                 {s.label}
               </p>
 

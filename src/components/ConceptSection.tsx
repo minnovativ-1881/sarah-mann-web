@@ -55,7 +55,7 @@ export default function ConceptSection() {
               <br />
               Balanced Parenting?
             </h2>
-            <p className="text-deep/60 text-lg leading-relaxed font-light">
+            <p className="text-deep/60 text-lg leading-relaxed font-normal">
               Die wissenschaftlich am besten bestätigte Antwort auf die Frage,
               was Kinder wirklich brauchen. Hohe Wärme{" "}
               <em className="font-serif text-terra not-italic">und</em> hohe
@@ -71,7 +71,7 @@ export default function ConceptSection() {
             <div key={p.number} className="bg-cream p-12 card-hover">
               <div className="flex items-start justify-between mb-12">
                 {p.icon}
-                <span className="font-serif text-cream-mid font-light" style={{ fontSize: "3.5rem", lineHeight: 1 }}>
+                <span className="font-serif text-cream-mid font-normal" style={{ fontSize: "3.5rem", lineHeight: 1 }}>
                   {p.number}
                 </span>
               </div>
@@ -81,7 +81,7 @@ export default function ConceptSection() {
               <p className="text-terra text-xs font-medium tracking-widest uppercase mb-6">
                 {p.subtitle}
               </p>
-              <p className="text-deep/55 text-sm leading-relaxed font-light">{p.desc}</p>
+              <p className="text-deep/68 text-sm leading-relaxed font-normal">{p.desc}</p>
             </div>
           ))}
         </div>

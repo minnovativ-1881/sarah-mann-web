@@ -43,14 +43,14 @@ export default function Hero() {
               className="heading-display text-deep"
               style={{ fontSize: "clamp(3.75rem, 7.5vw, 7rem)" }}
             >
-              Wer liebt,
+              W&auml;rme
               <br />
-              <em className="text-terra italic">f&uuml;hrt.</em>
+              und <em className="text-terra italic">Klarheit.</em>
             </h1>
 
             <div className="divider-terra mt-10" />
 
-            <p className="text-deep/60 text-lg leading-relaxed mt-8 max-w-lg font-light">
+            <p className="text-deep/60 text-lg leading-relaxed mt-8 max-w-lg font-normal">
               Sarah Mann ist die f&uuml;hrende deutschsprachige Expertin
               f&uuml;r{" "}
               <span className="text-deep font-normal">Balanced Parenting</span>{" "}
@@ -58,7 +58,7 @@ export default function Hero() {
               P&auml;dagogin. Babyschlafberaterin. Mutter von sieben Kindern.
             </p>
 
-            <p className="text-deep/40 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
+            <p className="text-deep/58 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
               &bdquo;Warm genug, um zu lieben. Klar genug, um zu f&uuml;hren.&ldquo;
             </p>
 
@@ -85,7 +85,7 @@ export default function Hero() {
                   <div className="font-serif text-terra" style={{ fontSize: "2.25rem", lineHeight: 1, fontWeight: 300 }}>
                     {stat.num}
                   </div>
-                  <div className="text-deep/45 text-xs mt-2 tracking-wide">
+                  <div className="text-deep/62 text-xs mt-2 tracking-wide">
                     {stat.label}
                   </div>
                 </div>

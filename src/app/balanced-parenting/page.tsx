@@ -55,7 +55,7 @@ export default function BalancedParentingPage() {
               <em className="text-terra italic">Parenting</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-normal">
               Der wissenschaftlich fundierte Mittelweg zwischen Erschöpfung und
               Entfremdung. Warm. Klar. Verlässlich.
             </p>
@@ -75,7 +75,7 @@ export default function BalancedParentingPage() {
                 </h2>
                 <div className="divider-terra" />
               </div>
-              <div className="space-y-5 text-deep/70 leading-relaxed font-light">
+              <div className="space-y-5 text-deep/70 leading-relaxed font-normal">
                 <p>
                   Balanced Parenting ist nicht der nächste Erziehungstrend —
                   es ist die Rückkehr zu dem, was sechzig Jahre Forschung
@@ -132,31 +132,31 @@ export default function BalancedParentingPage() {
                   }
                 >
                   <p
-                    className={`font-serif text-2xl mb-5 ${item.highlight ? "text-terra" : "text-deep/55"}`}
+                    className={`font-serif text-2xl mb-5 ${item.highlight ? "text-terra" : "text-deep/68"}`}
                   >
                     {item.style}
                   </p>
                   <div className="space-y-2 mb-6">
                     <div className="flex justify-between text-xs">
-                      <span className="text-deep/40 tracking-wide uppercase">Wärme</span>
-                      <span className={item.highlight ? "text-terra" : "text-deep/55"}>
+                      <span className="text-deep/58 tracking-wide uppercase">Wärme</span>
+                      <span className={item.highlight ? "text-terra" : "text-deep/68"}>
                         {item.warmth}
                       </span>
                     </div>
                     <div className="flex justify-between text-xs">
-                      <span className="text-deep/40 tracking-wide uppercase">Struktur</span>
-                      <span className={item.highlight ? "text-terra" : "text-deep/55"}>
+                      <span className="text-deep/58 tracking-wide uppercase">Struktur</span>
+                      <span className={item.highlight ? "text-terra" : "text-deep/68"}>
                         {item.structure}
                       </span>
                     </div>
                   </div>
-                  <p className={`text-sm leading-relaxed font-light ${item.highlight ? "text-deep/75" : "text-deep/45"}`}>
+                  <p className={`text-sm leading-relaxed font-normal ${item.highlight ? "text-deep/75" : "text-deep/62"}`}>
                     {item.result}
                   </p>
                 </div>
               ))}
             </div>
-            <p className="text-deep/35 text-xs text-center mt-6">
+            <p className="text-deep/55 text-xs text-center mt-6">
               Nach Diana Baumrind (1971) und Maccoby & Martin (1983)
             </p>
           </div>
@@ -179,14 +179,14 @@ export default function BalancedParentingPage() {
                   className="flex gap-8 py-10 border-t border-cream-mid first:border-t-0"
                 >
                   <span
-                    className="font-serif text-stone/50 flex-shrink-0 font-light"
+                    className="font-serif text-stone/50 flex-shrink-0 font-normal"
                     style={{ fontSize: "2.25rem", lineHeight: 1, minWidth: "2.5rem" }}
                   >
                     {i + 1}
                   </span>
                   <div>
                     <h3 className="font-serif text-deep text-2xl mb-3">{p.title}</h3>
-                    <p className="text-deep/65 text-sm leading-relaxed font-light">{p.content}</p>
+                    <p className="text-deep/65 text-sm leading-relaxed font-normal">{p.content}</p>
                   </div>
                 </div>
               ))}
@@ -210,7 +210,7 @@ export default function BalancedParentingPage() {
             >
               Tiefer einsteigen?
             </h2>
-            <p className="text-cream/70 leading-relaxed mb-10 font-light">
+            <p className="text-cream/70 leading-relaxed mb-10 font-normal">
               Im Buch „Wer liebt, führt" entfaltet Sarah Mann das Konzept
               vollständig — mit wissenschaftlicher Fundierung, persönlichen
               Geschichten und konkreten Praxis-Werkzeugen für jede

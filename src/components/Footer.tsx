@@ -16,7 +16,7 @@ export default function Footer() {
                 Balanced Parenting
               </span>
             </Link>
-            <p className="text-sm leading-relaxed max-w-xs font-light">
+            <p className="text-sm leading-relaxed max-w-xs font-normal">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
               Die führende deutschsprachige Expertin für Balanced Parenting.
             </p>
@@ -38,7 +38,7 @@ export default function Footer() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className="text-cream/50 hover:text-cream transition-colors link-underline font-light"
+                    className="text-cream/50 hover:text-cream transition-colors link-underline font-normal"
                   >
                     {item.label}
                   </Link>
@@ -54,7 +54,7 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:hallo@sarahmann.de"
-                  className="text-cream/50 hover:text-stone transition-colors link-underline font-light"
+                  className="text-cream/50 hover:text-stone transition-colors link-underline font-normal"
                 >
                   hallo@sarahmann.de
                 </a>
@@ -62,13 +62,13 @@ export default function Footer() {
               <li>
                 <Link
                   href="/kontakt/"
-                  className="text-cream/50 hover:text-cream transition-colors link-underline font-light"
+                  className="text-cream/50 hover:text-cream transition-colors link-underline font-normal"
                 >
                   Anfrage stellen
                 </Link>
               </li>
               <li className="mt-5">
-                <p className="text-cream/30 text-xs leading-relaxed font-light">
+                <p className="text-cream/30 text-xs leading-relaxed font-normal">
                   Für Vorträge, Workshops,
                   <br />
                   Medienanfragen & Beratung
@@ -80,17 +80,17 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs">
-          <p className="font-light">© {new Date().getFullYear()} Sarah Mann. Alle Rechte vorbehalten.</p>
+          <p className="font-normal">© {new Date().getFullYear()} Sarah Mann. Alle Rechte vorbehalten.</p>
           <div className="flex gap-6">
             <Link
               href="/impressum/"
-              className="text-cream/40 hover:text-cream transition-colors font-light"
+              className="text-cream/40 hover:text-cream transition-colors font-normal"
             >
               Impressum
             </Link>
             <Link
               href="/datenschutz/"
-              className="text-cream/40 hover:text-cream transition-colors font-light"
+              className="text-cream/40 hover:text-cream transition-colors font-normal"
             >
               Datenschutz
             </Link>

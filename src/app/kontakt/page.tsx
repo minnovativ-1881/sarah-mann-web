@@ -45,7 +45,7 @@ export default function KontaktPage() {
               <em className="text-terra italic">stellen</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-xl font-normal">
               Für Vorträge, Workshops, Medienanfragen, Buchinfos und
               Beratungsprojekte.
             </p>
@@ -64,11 +64,11 @@ export default function KontaktPage() {
                 >
                   <div className="flex items-baseline justify-between mb-6">
                     <h3 className="font-serif text-deep text-2xl">{opt.title}</h3>
-                    <span className="font-serif text-stone/50 font-light" style={{ fontSize: "1.75rem", lineHeight: 1 }}>
+                    <span className="font-serif text-stone/50 font-normal" style={{ fontSize: "1.75rem", lineHeight: 1 }}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
                   </div>
-                  <p className="text-deep/60 text-sm leading-relaxed font-light">{opt.desc}</p>
+                  <p className="text-deep/60 text-sm leading-relaxed font-normal">{opt.desc}</p>
                 </div>
               ))}
             </div>
@@ -151,7 +151,7 @@ export default function KontaktPage() {
                 </button>
               </form>
 
-              <p className="text-deep/40 text-xs mt-6">
+              <p className="text-deep/58 text-xs mt-6">
                 Oder direkt per E-Mail:{" "}
                 <a href="mailto:hallo@sarahmann.de" className="text-terra hover:underline">
                   hallo@sarahmann.de

@@ -23,7 +23,7 @@ export default function DatenschutzPage() {
               maximal 30 Tage gespeichert.
             </p>
             <p>Verantwortliche: Sarah Mann, hallo@sarahmann.de</p>
-            <div className="pt-4 text-deep/40 text-xs">
+            <div className="pt-4 text-deep/58 text-xs">
               <p>Vollständige Datenschutzerklärung vor Go-Live ergänzen.</p>
             </div>
           </div>

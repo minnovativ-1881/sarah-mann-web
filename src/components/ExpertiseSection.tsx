@@ -46,7 +46,7 @@ export default function ExpertiseSection() {
             <div key={topic.title} className="bg-cream-dark p-12 group card-hover">
               <div className="flex items-start justify-between mb-10">
                 <span
-                  className="font-serif text-stone/50 font-light"
+                  className="font-serif text-stone/50 font-normal"
                   style={{ fontSize: "2.5rem", lineHeight: 1 }}
                 >
                   {String(i + 1).padStart(2, "0")}
@@ -65,7 +65,7 @@ export default function ExpertiseSection() {
               <h3 className="font-serif text-deep text-2xl mb-3 group-hover:text-terra transition-colors duration-300">
                 {topic.title}
               </h3>
-              <p className="text-deep/55 text-sm leading-relaxed font-light">{topic.desc}</p>
+              <p className="text-deep/68 text-sm leading-relaxed font-normal">{topic.desc}</p>
             </div>
           ))}
         </div>

@@ -36,7 +36,7 @@ export default function UeberSarahPage() {
               <em className="text-terra italic">Mann</em>
             </h1>
             <div className="divider-terra mt-8" />
-            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-light">
+            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-normal">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
               Autorin. Und die führende deutschsprachige Stimme für Balanced
               Parenting.
@@ -67,7 +67,7 @@ export default function UeberSarahPage() {
                         >
                           SM
                         </div>
-                        <p className="text-deep/35 text-xs tracking-widest uppercase">Portrait Sarah Mann</p>
+                        <p className="text-deep/55 text-xs tracking-widest uppercase">Portrait Sarah Mann</p>
                       </div>
                     </div>
                   </div>
@@ -82,7 +82,7 @@ export default function UeberSarahPage() {
                     "Mutter von sieben Kindern",
                     "Autorin",
                   ].map((c) => (
-                    <div key={c} className="flex gap-3 items-center text-sm text-deep/70 font-light">
+                    <div key={c} className="flex gap-3 items-center text-sm text-deep/70 font-normal">
                       <span className="text-terra">—</span>
                       {c}
                     </div>
@@ -91,7 +91,7 @@ export default function UeberSarahPage() {
               </div>
 
               {/* Bio text */}
-              <div className="lg:col-span-3 space-y-6 text-deep/70 leading-relaxed font-light">
+              <div className="lg:col-span-3 space-y-6 text-deep/70 leading-relaxed font-normal">
                 <h2
                   className="heading-section text-deep mb-8"
                   style={{ fontSize: "2.5rem" }}
@@ -174,7 +174,7 @@ export default function UeberSarahPage() {
                   >
                     {s.num}
                   </div>
-                  <p className="text-deep/55 text-xs mt-3 leading-tight">{s.label}</p>
+                  <p className="text-deep/68 text-xs mt-3 leading-tight">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -194,7 +194,7 @@ export default function UeberSarahPage() {
                   <span className="font-serif text-terra flex-shrink-0 w-16 text-lg">
                     {m.year}
                   </span>
-                  <p className="text-deep/70 text-sm leading-relaxed font-light pt-1">{m.event}</p>
+                  <p className="text-deep/70 text-sm leading-relaxed font-normal pt-1">{m.event}</p>
                 </div>
               ))}
             </div>
@@ -210,7 +210,7 @@ export default function UeberSarahPage() {
             >
               Mit Sarah arbeiten
             </h2>
-            <p className="text-deep/65 leading-relaxed mb-10 max-w-xl mx-auto font-light">
+            <p className="text-deep/65 leading-relaxed mb-10 max-w-xl mx-auto font-normal">
               Für Vorträge, Workshops, Medienanfragen und Beratungsprojekte
               steht Sarah Mann zur Verfügung.
             </p>
