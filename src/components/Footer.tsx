@@ -32,7 +32,7 @@ export default function Footer() {
               {[
                 { label: "Balanced Parenting", href: "/balanced-parenting/" },
                 { label: "Über Sarah", href: "/ueber-sarah/" },
-                { label: "Das Buch", href: "/buch/" },
+                { label: "Bücher", href: "/buch/" },
                 { label: "Kontakt", href: "/kontakt/" },
               ].map((item) => (
                 <li key={item.href}>

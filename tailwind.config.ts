@@ -9,12 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Galerie Blanc — quiet luxury, viel Weiss
-        deep: "#1C1B18", // ink / dark closing sections
-        midnight: "#141310", // deepest (footer)
-        terra: "#4A4F3C", // olive accent (auf hellem Grund)
-        "terra-light": "#5E6349", // olive hover
-        stone: "#A89B8C", // taupe (Akzent auf dunklem Grund, Platzhalter)
+        // Galerie Blanc — quiet luxury, viel Weiss, Signatur-Petrol
+        deep: "#1C1B18", // ink (nur Text)
+        midnight: "#0C3A40", // deep petrol (dunkle Sektionen: CTA + Footer)
+        terra: "#136B73", // Signatur-Petrol (Akzent, Eyebrows, Buttons)
+        "terra-light": "#0E565D", // Petrol Hover
+        petrol: "#136B73",
+        "petrol-deep": "#0C3A40",
+        stone: "#A89B8C", // taupe (Akzent auf Petrol, Platzhalter)
         cream: "#FFFFFF", // gallery white (Haupt-Hintergrund)
         "cream-dark": "#F6F4EF", // warmweiss (alternierende Sektionen)
         "cream-mid": "#E7E4DE", // Haarlinien / zarte Ziffern

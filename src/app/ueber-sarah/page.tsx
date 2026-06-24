@@ -14,8 +14,8 @@ const milestones = [
   { year: "2010", event: "Beginn der eigenen Beratungspraxis" },
   { year: "2015", event: "Erweiterung auf Erziehungsbegleitung und Familiencoaching" },
   { year: "2020", event: "Babyschlummerland — über 1.000 Familien begleitet" },
-  { year: "2025", event: "Buchveröffentlichung 'Wer liebt, führt'" },
-  { year: "2026", event: "Pionierarbeit für Balanced Parenting im deutschsprachigen Raum" },
+  { year: "2025", event: "Aufbau der Autorinnen-Marke und der Bewegung Balanced Parenting" },
+  { year: "2026", event: "Erste Bücher erscheinen: 'Wer liebt, führt' und 'Dein Baby darf schlafen' (September)" },
 ];
 
 export default function UeberSarahPage() {
@@ -165,7 +165,7 @@ export default function UeberSarahPage() {
                 { num: "15+", label: "Jahre Erfahrung" },
                 { num: "7", label: "eigene Kinder" },
                 { num: "1.000+", label: "Familien begleitet" },
-                { num: "1", label: "Buch — erschienen 2025" },
+                { num: "2", label: "Bücher — ab September 2026" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div

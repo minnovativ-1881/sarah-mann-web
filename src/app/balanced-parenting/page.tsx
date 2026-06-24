@@ -127,7 +127,7 @@ export default function BalancedParentingPage() {
                   className="p-8 bg-cream"
                   style={
                     item.highlight
-                      ? { boxShadow: "inset 0 2px 0 #4A4F3C" }
+                      ? { boxShadow: "inset 0 2px 0 #136B73" }
                       : undefined
                   }
                 >
@@ -195,7 +195,7 @@ export default function BalancedParentingPage() {
         </section>
 
         {/* CTA */}
-        <section className="section-padding bg-deep relative overflow-hidden">
+        <section className="section-padding bg-midnight relative overflow-hidden">
           <div
             className="absolute inset-0 pointer-events-none"
             style={{

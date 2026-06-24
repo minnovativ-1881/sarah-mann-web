@@ -8,7 +8,7 @@ const pillars = [
     desc: "Sichere Bindung entsteht durch Verlässlichkeit — nicht durch Omnipräsenz.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-        <path d="M16 27s-10-6-10-13a7 7 0 0 1 10-6.3A7 7 0 0 1 26 14c0 7-10 13-10 13Z" stroke="#4A4F3C" strokeWidth="1.25" strokeLinejoin="round" />
+        <path d="M16 27s-10-6-10-13a7 7 0 0 1 10-6.3A7 7 0 0 1 26 14c0 7-10 13-10 13Z" stroke="#136B73" strokeWidth="1.25" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -19,8 +19,8 @@ const pillars = [
     desc: "Grenzen sind kein Liebesentzug — sie sind Liebesbeweis. Konsequenz erzeugt Sicherheit.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-        <path d="M16 5 L22 9 L22 18 C22 23 16 27 16 27 C16 27 10 23 10 18 L10 9 Z" stroke="#4A4F3C" strokeWidth="1.25" strokeLinejoin="round" />
-        <path d="M13 17l2 2 4-4" stroke="#4A4F3C" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M16 5 L22 9 L22 18 C22 23 16 27 16 27 C16 27 10 23 10 18 L10 9 Z" stroke="#136B73" strokeWidth="1.25" strokeLinejoin="round" />
+        <path d="M13 17l2 2 4-4" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },
@@ -31,8 +31,8 @@ const pillars = [
     desc: "Ich handle aus Überzeugung, nicht aus Angst. Ich sage Nein, wenn ich Nein meine.",
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-        <circle cx="16" cy="16" r="11" stroke="#4A4F3C" strokeWidth="1.25" />
-        <path d="M16 10v6l4 2" stroke="#4A4F3C" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
+        <circle cx="16" cy="16" r="11" stroke="#136B73" strokeWidth="1.25" />
+        <path d="M16 10v6l4 2" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
       </svg>
     ),
   },

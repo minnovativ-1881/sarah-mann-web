@@ -5,7 +5,7 @@ import Link from "next/link";
 const navItems = [
   { label: "Balanced Parenting", href: "/balanced-parenting/" },
   { label: "Ueber Sarah", href: "/ueber-sarah/" },
-  { label: "Das Buch", href: "/buch/" },
+  { label: "Bücher", href: "/buch/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
 

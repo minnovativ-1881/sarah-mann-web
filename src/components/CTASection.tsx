@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CTASection() {
   return (
     <section
-      className="section-padding relative overflow-hidden bg-deep"
+      className="section-padding relative overflow-hidden bg-midnight"
     >
       {/* Sehr dezenter warmer Lichtschein */}
       <div

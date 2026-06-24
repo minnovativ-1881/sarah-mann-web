@@ -1,138 +1,140 @@
 import Link from "next/link";
 
-const insights = [
-  "Wie Social Media aus einer Erziehungsphilosophie eine Schuldindustrie gemacht hat",
-  "Was John Bowlby wirklich gemeint hat — und was Instagram daraus gemacht hat",
-  "Warum das kindliche Gehirn Grenzen braucht, bevor es selbst führen kann",
-  "Wie Balanced Parenting in jeder Entwicklungsphase konkret aussieht (0–Pubertät)",
-  "Warum Schlaf die erste Führungsaufgabe ist",
+function CoverHaupt() {
+  return (
+    <div
+      className="relative overflow-hidden mx-auto"
+      style={{ aspectRatio: "2/3", maxWidth: "240px", width: "100%", boxShadow: "0 30px 60px rgba(12,58,64,0.22)" }}
+    >
+      <div
+        className="absolute inset-0 flex flex-col"
+        style={{ background: "linear-gradient(160deg, #15727B 0%, #0C3A40 100%)" }}
+      >
+        <div className="h-px bg-stone" />
+        <div className="flex-1 flex flex-col justify-between p-7">
+          <p className="text-stone text-[0.6rem] tracking-widest uppercase">Sarah Mann</p>
+          <div>
+            <h3 className="font-serif text-cream leading-none" style={{ fontSize: "2.4rem", fontWeight: 500 }}>
+              Wer
+              <br />
+              liebt,
+              <br />
+              <em className="text-stone italic">führt.</em>
+            </h3>
+            <div className="h-px bg-stone/40 my-4" />
+            <p className="text-cream/50 text-[0.65rem] leading-relaxed">
+              Warum Kinder Grenzen brauchen
+            </p>
+          </div>
+          <p className="text-cream/30 text-[0.6rem]">Mutter von sieben Kindern</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CoverSchlaf() {
+  return (
+    <div
+      className="relative overflow-hidden mx-auto border border-cream-mid"
+      style={{ aspectRatio: "2/3", maxWidth: "240px", width: "100%", boxShadow: "0 30px 60px rgba(28,27,24,0.12)" }}
+    >
+      <div
+        className="absolute inset-0 flex flex-col"
+        style={{ background: "linear-gradient(160deg, #FBF9F5 0%, #ECE8E0 100%)" }}
+      >
+        <div className="h-px bg-terra" />
+        <div className="flex-1 flex flex-col justify-between p-7">
+          <p className="text-terra text-[0.6rem] tracking-widest uppercase">Sarah Mann</p>
+          <div>
+            <h3 className="font-serif text-deep leading-none" style={{ fontSize: "2.4rem", fontWeight: 500 }}>
+              Dein
+              <br />
+              Baby
+              <br />
+              darf
+              <br />
+              <em className="text-terra italic">schlafen</em>
+            </h3>
+            <div className="h-px bg-terra/30 my-4" />
+            <p className="text-deep/50 text-[0.65rem] leading-relaxed">
+              Bindungsbewusst und klar
+            </p>
+          </div>
+          <p className="text-deep/35 text-[0.6rem]">Babyschlaf, sanft und mit Plan</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+const books = [
+  {
+    cover: <CoverHaupt />,
+    label: "Das Hauptbuch",
+    desc: "Das Manifest der Bewegung. Warum Kinder Grenzen brauchen, und Eltern die Erlaubnis, sie zu setzen.",
+  },
+  {
+    cover: <CoverSchlaf />,
+    label: "Der Babyschlaf-Ratgeber",
+    desc: "Bindungsbewusst und klar zu ruhigen Nächten. Ohne Schreienlassen, und ohne dich selbst aufzugeben.",
+  },
 ];
 
 export default function BookSection() {
   return (
     <section className="section-padding bg-cream">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-          {/* Left: Book visual */}
-          <div className="flex justify-center">
-            <div className="relative" style={{ maxWidth: "340px", width: "100%" }}>
-              {/* Book mockup */}
-              <div
-                className="relative overflow-hidden"
-                style={{ aspectRatio: "2/3", boxShadow: "0 30px 60px rgba(28,27,24,0.18)" }}
-              >
-                {/* Book cover */}
-                <div
-                  className="absolute inset-0 flex flex-col"
-                  style={{ background: "linear-gradient(160deg, #25241F 0%, #141310 100%)" }}
-                >
-                  {/* Subtle top accent */}
-                  <div className="h-px bg-terra" />
+        {/* Header */}
+        <div className="max-w-2xl mb-16">
+          <p className="text-overline text-terra mb-6">Balanced Parenting &middot; Die Bücher</p>
+          <h2
+            className="heading-section text-deep"
+            style={{ fontSize: "clamp(2.5rem, 4.5vw, 4rem)" }}
+          >
+            Eine Bewegung.
+            <br />
+            Mehrere Bücher.
+          </h2>
+          <div className="divider-terra" />
+          <p className="text-deep/60 leading-relaxed mt-8 font-light text-lg">
+            Sarah Mann schreibt nicht ein Buch, sondern baut eine Bewegung für Erziehung mit
+            Wärme und Klarheit. Den Anfang machen zwei Bücher.
+          </p>
+        </div>
 
-                  <div className="flex-1 flex flex-col justify-between p-8 lg:p-10">
-                    {/* Top: Overline */}
-                    <div>
-                      <p
-                        className="text-stone text-xs tracking-widest uppercase mb-6"
-                      >
-                        Sarah Mann
-                      </p>
-                    </div>
-
-                    {/* Center: Title */}
-                    <div>
-                      <h3
-                        className="font-serif text-cream leading-none"
-                        style={{ fontSize: "clamp(2.5rem, 6vw, 4rem)", fontWeight: 500 }}
-                      >
-                        Wer
-                        <br />
-                        liebt,
-                        <br />
-                        <em className="text-stone italic">führt.</em>
-                      </h3>
-                      <div className="h-px bg-stone/40 my-5" />
-                      <p className="text-cream/50 text-xs leading-relaxed">
-                        Warum Kinder Grenzen brauchen —<br />
-                        und Eltern die Erlaubnis, sie zu setzen
-                      </p>
-                    </div>
-
-                    {/* Bottom: Credential */}
-                    <div>
-                      <p className="text-cream/30 text-xs">
-                        Pädagogin · Babyschlafberaterin
-                        <br />
-                        Mutter von sieben Kindern
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        {/* Two books */}
+        <div className="grid md:grid-cols-2 gap-px bg-cream-mid">
+          {books.map((b) => (
+            <div key={b.label} className="bg-cream p-10 lg:p-12">
+              {b.cover}
+              <div className="mt-10 text-center">
+                <p className="text-overline text-terra mb-3">{b.label}</p>
+                <p className="font-serif italic text-deep/45 text-sm mb-4">Erscheint September 2026</p>
+                <p className="text-deep/60 text-sm leading-relaxed font-light max-w-xs mx-auto">
+                  {b.desc}
+                </p>
               </div>
             </div>
-          </div>
+          ))}
+        </div>
 
-          {/* Right: Book info */}
-          <div>
-            <p className="text-overline text-terra mb-6">Das Buch</p>
-            <h2
-              className="heading-section text-deep"
-              style={{ fontSize: "clamp(2.5rem, 4vw, 3.75rem)" }}
-            >
-              Wer liebt, führt.
-            </h2>
-            <p className="text-deep/50 italic font-serif text-lg mt-2">
-              Warum Kinder Grenzen brauchen —<br />
-              und Eltern die Erlaubnis, sie zu setzen
-            </p>
-            <div className="divider-terra" />
+        {/* Coming */}
+        <p className="text-center font-serif italic text-deep/55 text-lg mt-12 max-w-2xl mx-auto">
+          Und Kinderbücher, die Kinder stark machen, und die sie selbst lesen. In Vorbereitung.
+        </p>
 
-            <p className="text-deep/65 leading-relaxed mt-6 font-light">
-              Viele Eltern tun heute mehr für ihre Kinder als je zuvor — und
-              fühlen sich trotzdem wie Versager. Dieses Buch gibt zurück, was
-              zu viele Eltern verloren haben: das Vertrauen, Nein zu sagen.
-            </p>
-
-            {/* What you learn */}
-            <div className="mt-8">
-              <p className="text-overline text-terra mb-5">Im Buch</p>
-              <ul className="space-y-3">
-                {insights.map((insight) => (
-                  <li key={insight} className="flex gap-3 text-deep/65 text-sm font-light">
-                    <span className="text-terra flex-shrink-0 mt-0.5">—</span>
-                    <span className="leading-relaxed">{insight}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="flex flex-wrap gap-4 mt-10">
-              <Link href="/buch/" className="btn-primary">
-                Zum Buch
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M3 8h10M9 4l4 4-4 4"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </Link>
-              <Link
-                href="/kontakt/"
-                className="btn-outline btn-outline-dark text-xs"
-              >
-                Leseprobe anfragen
-              </Link>
-            </div>
-          </div>
+        {/* Actions */}
+        <div className="flex flex-wrap gap-4 justify-center mt-12">
+          <Link href="/buch/" className="btn-primary">
+            Zu den Büchern
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
+          <Link href="/kontakt/" className="btn-outline btn-outline-dark">
+            Leseprobe anfragen
+          </Link>
         </div>
       </div>
     </section>

@@ -25,7 +25,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 70% 55% at 75% 100%, rgba(74,79,60,0.04) 0%, transparent 70%)",
+            "radial-gradient(ellipse 70% 55% at 75% 100%, rgba(19,107,115,0.05) 0%, transparent 70%)",
         }}
       />
 
@@ -64,7 +64,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4 mt-12">
               <Link href="/buch/" className="btn-primary">
-                Das Buch entdecken
+                Die Bücher entdecken
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
