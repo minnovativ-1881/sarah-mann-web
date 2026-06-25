@@ -80,7 +80,7 @@ function CoverSchlaf({ small = false }: { small?: boolean }) {
               <em className="text-terra italic">schlafen</em>
             </h3>
             <div className="h-px bg-terra/30 my-5" />
-            <p className="text-deep/50 text-xs leading-relaxed">Bindungsbewusst und klar</p>
+            <p className="text-deep/50 text-xs leading-relaxed">Warm und klar durch die Nacht</p>
           </div>
           <p className="text-deep/55 text-xs">Babyschlaf, sanft und mit Plan</p>
         </div>
@@ -213,8 +213,7 @@ export default function BuchPage() {
                   Dein Baby darf schlafen
                 </h2>
                 <p className="text-deep/50 italic font-serif text-lg mt-2">
-                  Bindungsbewusst und klar zu ruhigen Nächten,<br />
-                  ohne Schreienlassen
+                  Warm und klar durch die Nacht
                 </p>
                 <div className="divider-terra" />
                 <p className="text-deep/70 leading-relaxed mt-6 font-normal">

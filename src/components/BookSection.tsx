@@ -58,7 +58,7 @@ function CoverSchlaf() {
             </h3>
             <div className="h-px bg-terra/30 my-4" />
             <p className="text-deep/50 text-[0.65rem] leading-relaxed">
-              Bindungsbewusst und klar
+              Warm und klar durch die Nacht
             </p>
           </div>
           <p className="text-deep/55 text-[0.6rem]">Babyschlaf, sanft und mit Plan</p>
