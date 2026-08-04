@@ -31,8 +31,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               {[
                 { label: "Balanced Parenting", href: "/balanced-parenting/" },
+                { label: "Der Test", href: "/quiz/" },
                 { label: "Über Sarah", href: "/ueber-sarah/" },
-                { label: "Bücher", href: "/buch/" },
                 { label: "Kontakt", href: "/kontakt/" },
               ].map((item) => (
                 <li key={item.href}>

@@ -20,7 +20,7 @@ const jost = Jost({
 export const metadata: Metadata = {
   title: "Sarah Mann — Balanced Parenting | Expertin für liebevolle Führung",
   description:
-    "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Als führende deutschsprachige Expertin für Balanced Parenting zeigt sie, wie Wärme und Klarheit zusammengehören. Autorin von 'Wer liebt, führt'.",
+    "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Als führende deutschsprachige Expertin für Balanced Parenting zeigt sie, wie Wärme und Klarheit zusammengehören.",
   keywords: [
     "Balanced Parenting",
     "Erziehung",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "Erziehungsexpertin",
     "Gentle Parenting",
     "Autoritative Erziehung",
-    "Wer liebt führt",
+    "Wärme und Klarheit",
     "Eltern Grenzen",
     "Kinder Erziehung",
   ],

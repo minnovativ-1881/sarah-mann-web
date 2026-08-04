@@ -22,8 +22,8 @@ const options = [
     desc: "Podcast-Interview, Printartikel, TV oder Radio. Sarah Mann steht als Expertin für Balanced Parenting zur Verfügung.",
   },
   {
-    title: "Buchinfos & Leseprobe",
-    desc: "Interesse an 'Wer liebt, führt'? Leseprobe, Rezensionsexemplar oder Presseinformationen.",
+    title: "Beratung",
+    desc: "1:1-Begleitung für Eltern und Fachkräfte, die Wärme und Klarheit im Familienalltag konkret umsetzen wollen.",
   },
 ];
 
@@ -46,8 +46,7 @@ export default function KontaktPage() {
             </h1>
             <div className="divider-terra mt-8" />
             <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-xl font-normal">
-              Für Vorträge, Workshops, Medienanfragen, Buchinfos und
-              Beratungsprojekte.
+              Für Vorträge, Workshops, Medienanfragen und Beratungsprojekte.
             </p>
           </div>
         </section>
@@ -124,7 +123,7 @@ export default function KontaktPage() {
                     <option value="vortrag">Vortrag / Keynote</option>
                     <option value="workshop">Workshop</option>
                     <option value="medien">Medienanfrage</option>
-                    <option value="buch">Buch / Leseprobe</option>
+                    <option value="beratung">Beratung</option>
                     <option value="sonstiges">Sonstiges</option>
                   </select>
                 </div>

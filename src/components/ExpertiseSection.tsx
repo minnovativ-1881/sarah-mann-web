@@ -27,7 +27,7 @@ const topics = [
 
 export default function ExpertiseSection() {
   return (
-    <section className="section-padding bg-cream-dark">
+    <section className="section-padding bg-cream">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         <div className="mb-20">

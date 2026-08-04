@@ -25,7 +25,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 70% 55% at 75% 100%, rgba(19,107,115,0.05) 0%, transparent 70%)",
+            "radial-gradient(ellipse 48% 42% at 96% 6%, rgba(19,107,115,0.11) 0%, transparent 62%), radial-gradient(ellipse 70% 58% at 72% 100%, rgba(19,107,115,0.055) 0%, transparent 72%)",
         }}
       />
 
@@ -35,9 +35,11 @@ export default function Hero() {
           {/* Left: Text */}
           <div>
             <p className="text-overline text-terra mb-8">
-              Balanced Parenting &middot; Expertin &amp; Autorin
+              Balanced Parenting &middot; P&auml;dagogin &amp; Expertin
             </p>
 
+            {/* TODO: Sobald der Bewegungsname aus der Recherche steht, hier als
+                Kern-Claim verstaerken. Aktuell traegt der bestehende Claim. */}
             <h1
               ref={headlineRef}
               className="heading-display text-deep"
@@ -50,27 +52,26 @@ export default function Hero() {
 
             <div className="divider-terra mt-10" />
 
-            <p className="text-deep/60 text-lg leading-relaxed mt-8 max-w-lg font-normal">
-              Sarah Mann ist die f&uuml;hrende deutschsprachige Expertin
-              f&uuml;r{" "}
-              <span className="text-deep font-normal">Balanced Parenting</span>{" "}
-              &mdash; den Weg zwischen Ersch&ouml;pfung und Entfremdung.
+            <p className="body-text text-deep/80 mt-8 max-w-lg">
+              Sarah Mann ist die f&uuml;hrende deutschsprachige Stimme f&uuml;r{" "}
+              <span className="text-deep font-normal">Balanced Parenting</span>,
+              den Weg zwischen Ersch&ouml;pfung und Entfremdung.
               P&auml;dagogin. Babyschlafberaterin. Mutter von sieben Kindern.
             </p>
 
-            <p className="text-deep/58 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
+            <p className="text-deep/60 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
               &bdquo;Warm genug, um zu lieben. Klar genug, um zu f&uuml;hren.&ldquo;
             </p>
 
             <div className="flex flex-wrap gap-4 mt-12">
-              <Link href="/buch/" className="btn-primary">
-                Die Bücher entdecken
+              <Link href="/quiz/" className="btn-primary">
+                Mach den Test
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </Link>
-              <Link href="/kontakt/" className="btn-outline btn-outline-dark">
-                Anfrage stellen
+              <Link href="/balanced-parenting/" className="btn-outline btn-outline-dark">
+                Das Konzept
               </Link>
             </div>
 

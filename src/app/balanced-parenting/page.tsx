@@ -211,23 +211,21 @@ export default function BalancedParentingPage() {
               Tiefer einsteigen?
             </h2>
             <p className="text-cream/70 leading-relaxed mb-10 font-normal">
-              Im Buch „Wer liebt, führt" entfaltet Sarah Mann das Konzept
-              vollständig — mit wissenschaftlicher Fundierung, persönlichen
-              Geschichten und konkreten Praxis-Werkzeugen für jede
-              Entwicklungsphase.
+              Finde in zwei Minuten heraus, wo du zwischen Wärme und Klarheit
+              stehst, und bekomme Impulse, die dich als Elternteil stärken.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
-                href="/buch/"
+                href="/quiz/"
                 className="bg-cream text-deep px-8 py-4 text-xs font-medium tracking-widest uppercase hover:bg-cream-dark transition-colors inline-flex items-center gap-3"
               >
-                Das Buch entdecken
+                Mach den Test
               </Link>
               <Link
                 href="/kontakt/"
                 className="btn-outline btn-outline-light"
               >
-                Vortrag anfragen
+                Kontakt
               </Link>
             </div>
           </div>

@@ -5,7 +5,7 @@ const credentials = [
   { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
   { label: "Babyschlafberaterin", detail: "15+ Jahre Praxis" },
   { label: "Mutter von 7", detail: "Alle Phasen aus erster Hand" },
-  { label: "Autorin", detail: "Wer liebt, führt" },
+  { label: "Balanced Parenting", detail: "Deutschsprachige Stimme" },
 ];
 
 export default function AboutSection() {
@@ -56,7 +56,7 @@ export default function AboutSection() {
             </h2>
             <div className="divider-terra" />
 
-            <div className="space-y-5 text-deep/70 leading-relaxed mt-8 font-normal">
+            <div className="space-y-5 body-text text-deep/85 mt-8">
               <p>
                 Sarah Mann ist P&auml;dagogin, Babyschlafberaterin und Mutter
                 von sieben Kindern. Seit &uuml;ber f&uuml;nfzehn Jahren

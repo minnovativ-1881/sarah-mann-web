@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ImageSlot from "@/components/ImageSlot";
 
 const pillars = [
   {
@@ -55,7 +56,7 @@ export default function ConceptSection() {
               <br />
               Balanced Parenting?
             </h2>
-            <p className="text-deep/60 text-lg leading-relaxed font-normal">
+            <p className="body-text text-deep/85">
               Die wissenschaftlich am besten bestätigte Antwort auf die Frage,
               was Kinder wirklich brauchen. Hohe Wärme{" "}
               <em className="font-serif text-terra not-italic">und</em> hohe
@@ -63,6 +64,16 @@ export default function ConceptSection() {
             </p>
           </div>
           <div className="divider-terra mt-10" />
+        </div>
+
+        {/* Konzept-Bild */}
+        <div className="mb-16">
+          <ImageSlot
+            src="/bilder/augenhoehe.webp"
+            alt="Mutter kniet auf Augenhöhe mit ihrem Kind, ruhiger Blickkontakt am Abend"
+            aspect="16/6"
+            position="center 32%"
+          />
         </div>
 
         {/* Three pillars */}
@@ -81,7 +92,7 @@ export default function ConceptSection() {
               <p className="text-terra text-xs font-medium tracking-widest uppercase mb-6">
                 {p.subtitle}
               </p>
-              <p className="text-deep/68 text-sm leading-relaxed font-normal">{p.desc}</p>
+              <p className="text-deep/80 text-base leading-relaxed font-normal">{p.desc}</p>
             </div>
           ))}
         </div>

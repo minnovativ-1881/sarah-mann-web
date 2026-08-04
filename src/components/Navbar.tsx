@@ -5,7 +5,6 @@ import Link from "next/link";
 const navItems = [
   { label: "Balanced Parenting", href: "/balanced-parenting/" },
   { label: "Ueber Sarah", href: "/ueber-sarah/" },
-  { label: "Bücher", href: "/buch/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
 
@@ -49,10 +48,10 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/kontakt/"
+              href="/quiz/"
               className="nav-link text-deep border-b border-deep/40 pb-1 hover:border-deep transition-colors ml-2"
             >
-              Anfrage stellen
+              Test starten
             </Link>
           </div>
 
@@ -86,11 +85,11 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/kontakt/"
+              href="/quiz/"
               onClick={() => setMenuOpen(false)}
               className="btn-primary mt-2 text-center justify-center"
             >
-              Anfrage stellen
+              Test starten
             </Link>
           </div>
         </div>

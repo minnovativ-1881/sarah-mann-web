@@ -1,11 +1,11 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import ConceptSection from "@/components/ConceptSection";
+import ImageBand from "@/components/ImageBand";
 import ProblemSection from "@/components/ProblemSection";
-import AboutSection from "@/components/AboutSection";
-import BookSection from "@/components/BookSection";
+import ConceptSection from "@/components/ConceptSection";
+import QuizTeaser from "@/components/QuizTeaser";
 import ExpertiseSection from "@/components/ExpertiseSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
+import AboutSection from "@/components/AboutSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 
@@ -15,12 +15,29 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <ConceptSection />
+        <ImageBand
+          src="/bilder/geborgen.webp"
+          alt="Mutter umarmt ihr Kind auf dem Sofa, warmes Licht"
+          position="center 32%"
+          quote="Wärme ist kein Gegenteil von Führung. Sie ist ihre Voraussetzung."
+        />
         <ProblemSection />
-        <AboutSection />
-        <BookSection />
+        <ConceptSection />
+        <ImageBand
+          src="/bilder/naehe.webp"
+          alt="Mutter und Kind lachen sich an, warmes Tageslicht"
+          position="center 30%"
+          quote="Ein Kind, das Halt spürt, muss ihn nicht bei Peergroup und Bildschirm suchen."
+        />
+        <QuizTeaser />
         <ExpertiseSection />
-        <TestimonialsSection />
+        <ImageBand
+          src="/bilder/familie.webp"
+          alt="Mutter spielt mit ihren Kindern am Boden, ruhiger Familienalltag"
+          position="center 42%"
+          height="46vh"
+        />
+        <AboutSection />
         <CTASection />
       </main>
       <Footer />

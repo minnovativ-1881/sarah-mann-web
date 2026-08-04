@@ -228,3 +228,46 @@ body {
   backdrop-filter: blur(10px);
   box-shadow: 0 1px 0 rgba(28, 27, 24, 0.07);
 }
+
+/* ---- Lesbarkeit: Fliesstext, Masse, Inhaltselemente ---- */
+
+/* Tragfaehiger Fliesstext: groesser, hoeherer Kontrast als die Galerie-Defaults */
+.body-text {
+  font-size: 1.15rem;
+  line-height: 1.75;
+  font-weight: 400;
+}
+@media (min-width: 1024px) {
+  .body-text {
+    font-size: 1.2rem;
+  }
+}
+
+/* Spaltenbreite fuer angenehmes Lesen (~66-70 Zeichen) */
+.measure {
+  max-width: 40rem;
+}
+.measure-narrow {
+  max-width: 34rem;
+}
+
+/* Studien-/Faktenbox — hebt Belege sichtbar aus dem Fliesstext heraus */
+.study-box {
+  border-left: 2px solid var(--olive);
+  background-color: #F6F4EF;
+  padding: 1.75rem 2rem;
+}
+.study-source {
+  font-family: var(--font-jost);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--olive);
+}
+
+/* Beispiel-Szene — eigenes Format fuer konkrete Alltagsgeschichten */
+.scene-block {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 2.25rem 0;
+}

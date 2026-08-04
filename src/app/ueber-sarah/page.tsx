@@ -15,7 +15,7 @@ const milestones = [
   { year: "2015", event: "Erweiterung auf Erziehungsbegleitung und Familiencoaching" },
   { year: "2020", event: "Babyschlummerland — über 1.000 Familien begleitet" },
   { year: "2025", event: "Aufbau der Autorinnen-Marke und der Bewegung Balanced Parenting" },
-  { year: "2026", event: "Erste Bücher erscheinen: 'Wer liebt, führt' und 'Dein Baby darf schlafen' (September)" },
+  { year: "2026", event: "Start des kostenlosen Eltern-Typ-Tests und der Wissens-Plattform" },
 ];
 
 export default function UeberSarahPage() {
@@ -38,8 +38,7 @@ export default function UeberSarahPage() {
             <div className="divider-terra mt-8" />
             <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-normal">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
-              Autorin. Und die führende deutschsprachige Stimme für Balanced
-              Parenting.
+              Und die führende deutschsprachige Stimme für Balanced Parenting.
             </p>
           </div>
         </section>
@@ -80,7 +79,6 @@ export default function UeberSarahPage() {
                     "Zertifizierte Babyschlafberaterin",
                     "Erziehungsbegleiterin",
                     "Mutter von sieben Kindern",
-                    "Autorin",
                   ].map((c) => (
                     <div key={c} className="flex gap-3 items-center text-sm text-deep/70 font-normal">
                       <span className="text-terra">—</span>
@@ -107,7 +105,7 @@ export default function UeberSarahPage() {
                   gegen das Bettgestell, und ich bin todmüde. Nicht die normale
                   Müdigkeit einer Mutter von sieben Kindern. Eine andere
                   Müdigkeit. Ich habe heute Abend alles richtig gemacht. Alles.
-                  Genau so, wie es in den Büchern steht.
+                  Genau so, wie es in den Ratgebern steht.
                 </p>
 
                 <p>
@@ -165,7 +163,7 @@ export default function UeberSarahPage() {
                 { num: "15+", label: "Jahre Erfahrung" },
                 { num: "7", label: "eigene Kinder" },
                 { num: "1.000+", label: "Familien begleitet" },
-                { num: "2", label: "Bücher — ab September 2026" },
+                { num: "60", label: "Jahre Forschung dahinter" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div
@@ -215,11 +213,11 @@ export default function UeberSarahPage() {
               steht Sarah Mann zur Verfügung.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <Link href="/kontakt/" className="btn-primary">
-                Anfrage stellen
+              <Link href="/quiz/" className="btn-primary">
+                Mach den Test
               </Link>
-              <Link href="/buch/" className="btn-outline btn-outline-dark">
-                Das Buch
+              <Link href="/kontakt/" className="btn-outline btn-outline-dark">
+                Kontakt
               </Link>
             </div>
           </div>
