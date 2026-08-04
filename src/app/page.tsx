@@ -24,18 +24,18 @@ export default function Home() {
         <ProblemSection />
         <ConceptSection />
         <ImageBand
-          src="/bilder/naehe.webp"
-          alt="Mutter und Kind lachen sich an, warmes Tageslicht"
-          position="center 30%"
+          src="/bilder/vater-kind.webp"
+          alt="Vater mit seinen beiden Kindern auf dem Boden, ruhiger Blickkontakt"
+          position="center 38%"
           quote="Ein Kind, das Halt spürt, muss ihn nicht bei Peergroup und Bildschirm suchen."
         />
         <QuizTeaser />
         <ExpertiseSection />
         <ImageBand
-          src="/bilder/familie.webp"
-          alt="Mutter spielt mit ihren Kindern am Boden, ruhiger Familienalltag"
-          position="center 42%"
-          height="46vh"
+          src="/bilder/schlaf.webp"
+          alt="Mutter am Bett ihres schlafenden Kindes im warmen Nachtlicht"
+          position="center 45%"
+          quote="Schlaf ist die erste Führungsaufgabe."
         />
         <AboutSection />
         <CTASection />
