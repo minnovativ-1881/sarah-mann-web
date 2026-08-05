@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ImageBand from "@/components/ImageBand";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -75,7 +76,7 @@ export default function BalancedParentingPage() {
                 </h2>
                 <div className="divider-terra" />
               </div>
-              <div className="space-y-5 text-deep/70 leading-relaxed font-normal">
+              <div className="space-y-5 body-text text-deep/85">
                 <p>
                   Balanced Parenting ist nicht der nächste Erziehungstrend —
                   es ist die Rückkehr zu dem, was sechzig Jahre Forschung
@@ -93,6 +94,14 @@ export default function BalancedParentingPage() {
             </div>
           </div>
         </section>
+
+        {/* Bild-Band: gelebte Balance */}
+        <ImageBand
+          src="/bilder/familie-eltern.webp"
+          alt="Kind spielt vertieft, beide Eltern ruhig und präsent im Hintergrund"
+          position="center 45%"
+          quote="Warm und klar ist kein Kompromiss. Es ist das Beste aus beiden Welten."
+        />
 
         {/* Vs comparison */}
         <section className="section-padding bg-cream-dark">
@@ -186,13 +195,21 @@ export default function BalancedParentingPage() {
                   </span>
                   <div>
                     <h3 className="font-serif text-deep text-2xl mb-3">{p.title}</h3>
-                    <p className="text-deep/65 text-sm leading-relaxed font-normal">{p.content}</p>
+                    <p className="text-deep/80 text-base leading-relaxed font-normal">{p.content}</p>
                   </div>
                 </div>
               ))}
             </div>
           </div>
         </section>
+
+        {/* Bild-Band: aktive Familie */}
+        <ImageBand
+          src="/bilder/draussen.webp"
+          alt="Familie draußen unterwegs, Kinder auf Fahrrädern im Abendlicht"
+          position="center 50%"
+          height="46vh"
+        />
 
         {/* CTA */}
         <section className="section-padding bg-midnight relative overflow-hidden">
