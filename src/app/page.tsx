@@ -1,8 +1,10 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ImageBand from "@/components/ImageBand";
+import StimmenSection from "@/components/StimmenSection";
 import ProblemSection from "@/components/ProblemSection";
 import ConceptSection from "@/components/ConceptSection";
+import MethodeSection from "@/components/MethodeSection";
 import QuizTeaser from "@/components/QuizTeaser";
 import ExpertiseSection from "@/components/ExpertiseSection";
 import AboutSection from "@/components/AboutSection";
@@ -21,6 +23,7 @@ export default function Home() {
           position="center 32%"
           quote="Wärme ist kein Gegenteil von Führung. Sie ist ihre Voraussetzung."
         />
+        <StimmenSection />
         <ProblemSection />
         <ConceptSection />
         <ImageBand
@@ -29,6 +32,7 @@ export default function Home() {
           position="center 38%"
           quote="Ein Kind, das Halt spürt, muss ihn nicht bei Peergroup und Bildschirm suchen."
         />
+        <MethodeSection />
         <QuizTeaser />
         <ExpertiseSection />
         <ImageBand
