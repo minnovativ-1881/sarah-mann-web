@@ -5,7 +5,7 @@ const credentials = [
   { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
   { label: "Babyschlafberaterin", detail: "15+ Jahre Praxis" },
   { label: "Mutter von 7", detail: "Alle Phasen aus erster Hand" },
-  { label: "Balanced Parenting", detail: "Deutschsprachige Stimme" },
+  { label: "Klare Führung", detail: "Volle Liebe" },
 ];
 
 export default function AboutSection() {
@@ -14,7 +14,7 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="order-2 lg:order-1">
-            <div className="relative">
+            <div className="relative max-w-sm mx-auto lg:max-w-none lg:mx-0">
               {/* Feine Haarlinie als versetzter Rahmen */}
               <div
                 className="absolute inset-0 border border-terra/40"
@@ -52,7 +52,7 @@ export default function AboutSection() {
             >
               Die Frau hinter
               <br />
-              Balanced Parenting
+              der Methode
             </h2>
             <div className="divider-terra" />
 
@@ -64,10 +64,8 @@ export default function AboutSection() {
                 Erziehungsbegleitung.
               </p>
               <p>
-                Als deutschsprachige Pionierin des{" "}
-                <span className="text-deep font-normal">Balanced Parenting</span>{" "}
-                verbindet sie wissenschaftliche Fundierung (Baumrind, Bowlby,
-                Ainsworth) mit dem echten Alltag.
+                Sie verbindet wissenschaftliche Fundierung (Baumrind, Bowlby,
+                Ainsworth) mit dem echten Alltag einer Großfamilie.
               </p>
               <p>
                 Sarah und ihr Mann haben sieben gemeinsame Kinder, und sie

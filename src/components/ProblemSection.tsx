@@ -51,6 +51,11 @@ export default function ProblemSection() {
             Mehr Wissen. Mehr Schuld.{" "}
             <em className="text-terra italic">Weniger Vertrauen.</em>
           </h2>
+          <p className="body-text text-deep/75 max-w-2xl mx-auto mt-8">
+            Eltern haben heute mehr Zugang zu Erziehungswissen als jede Generation
+            vor ihnen. Und trotzdem fühlen sie sich unsicherer denn je. Diese drei
+            Zahlen zeigen, was dabei auf der Strecke bleibt.
+          </p>
         </div>
 
         {/* Stats row */}

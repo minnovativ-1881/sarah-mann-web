@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 const navItems = [
-  { label: "Balanced Parenting", href: "/balanced-parenting/" },
+  { label: "Das Konzept", href: "/balanced-parenting/" },
   { label: "Ueber Sarah", href: "/ueber-sarah/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
@@ -32,7 +32,7 @@ export default function Navbar() {
               Sarah Mann
             </span>
             <span className="text-overline text-terra mt-1" style={{ fontSize: "0.6rem" }}>
-              Balanced Parenting
+              Klare Führung, volle Liebe
             </span>
           </Link>
 

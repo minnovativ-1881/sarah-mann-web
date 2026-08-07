@@ -52,9 +52,9 @@ export default function ConceptSection() {
               className="heading-section text-deep"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4.25rem)" }}
             >
-              Was ist
+              Was Kinder
               <br />
-              Balanced Parenting?
+              wirklich brauchen.
             </h2>
             <p className="body-text text-deep/85">
               Die wissenschaftlich am besten bestätigte Antwort auf die Frage,

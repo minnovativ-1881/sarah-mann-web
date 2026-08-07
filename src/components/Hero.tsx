@@ -30,37 +30,37 @@ export default function Hero() {
       />
 
       <div className="relative max-w-7xl mx-auto px-6 lg:px-12 pt-32 pb-20 w-full">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+        <div className="grid md:grid-cols-2 gap-10 md:gap-12 lg:gap-24 items-center">
 
           {/* Left: Text */}
           <div>
             <p className="text-overline text-terra mb-8">
-              Balanced Parenting &middot; P&auml;dagogin &amp; Expertin
+              Sarah Mann &middot; P&auml;dagogin und Mutter von sieben
             </p>
 
-            {/* TODO: Sobald der Bewegungsname aus der Recherche steht, hier als
-                Kern-Claim verstaerken. Aktuell traegt der bestehende Claim. */}
             <h1
               ref={headlineRef}
               className="heading-display text-deep"
-              style={{ fontSize: "clamp(3.75rem, 7.5vw, 7rem)" }}
+              style={{ fontSize: "clamp(2.75rem, 5.5vw, 5rem)" }}
             >
-              W&auml;rme
+              Liebevoll erziehen,
               <br />
-              und <em className="text-terra italic">Klarheit.</em>
+              ohne dich selbst
+              <br />
+              zu <em className="text-terra italic">verlieren.</em>
             </h1>
 
             <div className="divider-terra mt-10" />
 
             <p className="body-text text-deep/80 mt-8 max-w-lg">
-              Sarah Mann ist die f&uuml;hrende deutschsprachige Stimme f&uuml;r{" "}
-              <span className="text-deep font-normal">Balanced Parenting</span>,
-              den Weg zwischen Ersch&ouml;pfung und Entfremdung.
-              P&auml;dagogin. Babyschlafberaterin. Mutter von sieben Kindern.
+              Du gibst alles f&uuml;r dein Kind und f&uuml;hlst dich trotzdem oft
+              ersch&ouml;pft, unsicher, zerrissen. Sarah Mann zeigt dir einen Weg,
+              der beides verbindet: die W&auml;rme, die dein Kind braucht, und die
+              Klarheit, die euch beiden Halt gibt.
             </p>
 
-            <p className="text-deep/60 text-base leading-relaxed mt-5 max-w-lg italic font-serif">
-              &bdquo;Warm genug, um zu lieben. Klar genug, um zu f&uuml;hren.&ldquo;
+            <p className="text-terra text-base leading-relaxed mt-5 max-w-lg font-serif italic">
+              Klare F&uuml;hrung, volle Liebe.
             </p>
 
             <div className="flex flex-wrap gap-4 mt-12">
@@ -71,12 +71,12 @@ export default function Hero() {
                 </svg>
               </Link>
               <Link href="/balanced-parenting/" className="btn-outline btn-outline-dark">
-                Das Konzept
+                Sarahs Weg
               </Link>
             </div>
 
             {/* Stats */}
-            <div className="flex gap-12 mt-16 pt-10 border-t border-deep/10">
+            <div className="flex gap-8 sm:gap-12 mt-16 pt-10 border-t border-deep/10">
               {[
                 { num: "15+", label: "Jahre Erfahrung" },
                 { num: "7", label: "eigene Kinder" },
@@ -95,11 +95,11 @@ export default function Hero() {
           </div>
 
           {/* Right: Photo */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center md:justify-end">
             <div style={{ maxWidth: "460px", width: "100%" }}>
               <Image
                 src="/sarah-mann.png"
-                alt="Sarah Mann, Expertin fuer Balanced Parenting"
+                alt="Sarah Mann, Pädagogin und Mutter von sieben Kindern"
                 width={460}
                 height={560}
                 priority

@@ -13,15 +13,15 @@ export default function Footer() {
                 Sarah Mann
               </span>
               <span className="text-overline text-stone mt-1">
-                Balanced Parenting
+                Klare Führung, volle Liebe
               </span>
             </Link>
             <p className="text-sm leading-relaxed max-w-xs font-normal">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
-              Die führende deutschsprachige Expertin für Balanced Parenting.
+              Erziehung mit klarer Führung und voller Liebe.
             </p>
             <p className="font-serif italic text-stone/80 text-sm mt-4">
-              „Warm genug, um zu lieben. Klar genug, um zu führen."
+              „Klare Führung, volle Liebe."
             </p>
           </div>
 
@@ -30,7 +30,7 @@ export default function Footer() {
             <p className="text-overline text-cream/30 mb-5">Navigation</p>
             <ul className="space-y-3 text-sm">
               {[
-                { label: "Balanced Parenting", href: "/balanced-parenting/" },
+                { label: "Das Konzept", href: "/balanced-parenting/" },
                 { label: "Der Test", href: "/quiz/" },
                 { label: "Über Sarah", href: "/ueber-sarah/" },
                 { label: "Kontakt", href: "/kontakt/" },
@@ -69,9 +69,9 @@ export default function Footer() {
               </li>
               <li className="mt-5">
                 <p className="text-cream/30 text-xs leading-relaxed font-normal">
-                  Für Vorträge, Workshops,
+                  Für Medien, Podcasts
                   <br />
-                  Medienanfragen & Beratung
+                  und Presse
                 </p>
               </li>
             </ul>

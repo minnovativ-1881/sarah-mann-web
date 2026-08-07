@@ -18,26 +18,26 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
-  title: "Sarah Mann — Balanced Parenting | Expertin für liebevolle Führung",
+  title: "Sarah Mann — Klare Führung, volle Liebe",
   description:
-    "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Als führende deutschsprachige Expertin für Balanced Parenting zeigt sie, wie Wärme und Klarheit zusammengehören.",
+    "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sie zeigt Eltern einen Weg, der Wärme und Klarheit verbindet: liebevoll erziehen, ohne sich selbst zu verlieren.",
   keywords: [
-    "Balanced Parenting",
-    "Erziehung",
     "Sarah Mann",
-    "Babyschlafberaterin",
+    "Erziehung",
+    "klare Führung",
+    "Grenzen setzen",
     "Erziehungsexpertin",
-    "Gentle Parenting",
-    "Autoritative Erziehung",
-    "Wärme und Klarheit",
-    "Eltern Grenzen",
+    "Babyschlafberaterin",
+    "autoritative Erziehung",
+    "Eltern Erschöpfung",
     "Kinder Erziehung",
+    "Balanced Parenting",
   ],
   authors: [{ name: "Sarah Mann" }],
   openGraph: {
-    title: "Sarah Mann — Balanced Parenting",
+    title: "Sarah Mann — Klare Führung, volle Liebe",
     description:
-      "Warm genug, um zu lieben. Klar genug, um zu führen. Die führende deutschsprachige Expertin für Balanced Parenting.",
+      "Liebevoll erziehen, ohne dich selbst zu verlieren. Der Weg, der Wärme und Klarheit verbindet.",
     type: "website",
     locale: "de_DE",
   },

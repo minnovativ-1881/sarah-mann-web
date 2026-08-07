@@ -1,7 +1,7 @@
 const topics = [
   {
-    title: "Balanced Parenting",
-    desc: "Das wissenschaftliche Gegenmodell zu anxious, child-focused Erziehung.",
+    title: "Klare Führung, volle Liebe",
+    desc: "Das wissenschaftlich fundierte Gegenmodell zur Erziehung aus Angst und Schuld.",
   },
   {
     title: "Schlaf als Führungsaufgabe",
@@ -72,10 +72,7 @@ export default function ExpertiseSection() {
 
         <div className="flex flex-col sm:flex-row gap-4 mt-12">
           <a href="/kontakt/" className="btn-primary">
-            Vortrag oder Workshop anfragen
-          </a>
-          <a href="/kontakt/" className="btn-outline btn-outline-dark">
-            Medienanfrage
+            Für Podcasts und Interviews
           </a>
         </div>
 

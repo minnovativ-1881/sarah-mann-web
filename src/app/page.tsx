@@ -39,7 +39,7 @@ export default function Home() {
           src="/bilder/schlaf.webp"
           alt="Mutter am Bett ihres schlafenden Kindes im warmen Nachtlicht"
           position="center 45%"
-          quote="Schlaf ist die erste Führungsaufgabe."
+          quote="Dein Kind braucht keine perfekte Mutter. Es braucht eine, die bei sich bleibt."
         />
         <AboutSection />
         <CTASection />
