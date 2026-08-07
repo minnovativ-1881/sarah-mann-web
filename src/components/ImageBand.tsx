@@ -39,7 +39,7 @@ export default function ImageBand({
                   "linear-gradient(90deg, rgba(12,58,64,0.64) 0%, rgba(12,58,64,0.22) 42%, rgba(12,58,64,0) 68%)",
               }}
             />
-            <div className="relative h-full max-w-7xl mx-auto px-6 lg:px-12 flex items-center">
+            <div className="relative h-full max-w-6xl mx-auto px-6 lg:px-12 flex items-center">
               <div className="max-w-md">
                 <p
                   className="font-serif italic text-cream leading-snug"

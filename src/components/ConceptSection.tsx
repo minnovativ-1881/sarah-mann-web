@@ -42,7 +42,7 @@ const pillars = [
 export default function ConceptSection() {
   return (
     <section className="section-padding bg-cream-dark">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
         <div className="mb-20">
@@ -103,7 +103,7 @@ export default function ConceptSection() {
             className="font-serif text-2xl lg:text-3xl italic text-deep/70 max-w-xl"
             style={{ fontWeight: 300 }}
           >
-            &bdquo;Das autoritative Modell — warm und fordernd — erzeugt in sechzig Jahren Forschung immer dasselbe Ergebnis: die resilientesten Kinder.&ldquo;
+            &bdquo;Kinder, die gleichzeitig viel W&auml;rme und klare F&uuml;hrung erleben, werden seit sechzig Jahren Forschung immer wieder als die St&auml;rksten beschrieben. Selbstsicher, seelisch stabil, gl&uuml;cklich.&ldquo;
           </blockquote>
           <div className="flex-shrink-0">
             <p className="text-overline text-terra mb-4">Diana Baumrind, 1971</p>

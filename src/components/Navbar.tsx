@@ -24,7 +24,7 @@ export default function Navbar() {
         scrolled ? "nav-scrolled-light" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col leading-none group">

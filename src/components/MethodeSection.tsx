@@ -27,8 +27,8 @@ export default function MethodeSection() {
   return (
     <>
       {/* Teil 1: Die Methode und die Kern-Frage */}
-      <section className="section-padding bg-cream-dark">
-        <div className="max-w-4xl mx-auto px-6 lg:px-12">
+      <section id="methode" className="section-padding bg-cream-dark scroll-mt-24">
+        <div className="max-w-6xl mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-14">
             <p className="text-overline text-terra mb-6">Sarahs Methode</p>
             <h2

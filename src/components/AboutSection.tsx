@@ -11,7 +11,7 @@ const credentials = [
 export default function AboutSection() {
   return (
     <section className="section-padding bg-cream-dark">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="order-2 lg:order-1">
             <div className="relative max-w-sm mx-auto lg:max-w-none lg:mx-0">

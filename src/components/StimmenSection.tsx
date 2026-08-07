@@ -24,9 +24,8 @@ export default function StimmenSection() {
           </h2>
           <div className="divider-terra" />
           <p className="text-deep/70 leading-relaxed mt-8 font-normal">
-            Das sind keine erfundenen Sätze. Es sind echte Gedanken von Eltern, aus
-            Foren, aus Beratungen, aus schlaflosen Nächten. Vielleicht ist einer
-            davon deiner.
+            Das sind keine erfundenen Sätze. Es sind echte Gedanken von Eltern.
+            Vielleicht ist einer davon deiner.
           </p>
         </div>
 
@@ -57,7 +56,7 @@ export default function StimmenSection() {
           <div className="space-y-6 text-deep/80" style={{ fontSize: "1.2rem", lineHeight: 1.75 }}>
             <p>
               Wenn du dich in diesen Sätzen wiederfindest, dann lies bitte langsam
-              weiter.
+              weiter. Und ja, das gilt für Mütter wie für Väter.
             </p>
             <p className="font-serif italic text-deep" style={{ fontSize: "1.75rem", lineHeight: 1.4 }}>
               Du machst nichts falsch.
@@ -69,23 +68,32 @@ export default function StimmenSection() {
               funktioniert, dann warst du eben noch nicht geduldig genug.
             </p>
             <p>
-              Niemand hat dir gesagt, wohin dieser Weg führt. Er führt dazu, dass{" "}
-              <strong className="text-deep font-medium">du langsam verschwindest</strong>.
-              Immer verfügbar, immer erklärend, immer schuld. Bis du selbst nicht
-              mehr weißt, wo du in all dem noch vorkommst.
+              Niemand hat euch gesagt, wohin dieser Weg führt. Er führt dazu, dass{" "}
+              <strong className="text-deep font-medium">ihr langsam verschwindet</strong>.
+              Immer verfügbar, immer erklärend, immer schuld. Bis ihr selbst nicht
+              mehr wisst, wo ihr in all dem noch vorkommt.
             </p>
             <p className="text-deep font-normal">
               Das ist keine Liebe. Das ist Selbstaufgabe.
             </p>
             <p>
-              Dein Kind braucht keine Mutter, die sich selbst verliert. Es braucht
-              eine, die{" "}
-              <strong className="text-deep font-medium">da ist, klar ist und bei sich bleibt</strong>.
-              Ein Kind, das spürt, dass jemand ruhig die Führung hält, muss sie
+              Euer Kind braucht keine Eltern, die sich selbst verlieren. Es braucht
+              welche, die{" "}
+              <strong className="text-deep font-medium">da sind, klar sind und bei sich bleiben</strong>.
+              Denn ein Kind, das spürt, dass jemand ruhig die Führung hält, muss sie
               nicht selbst übernehmen. Es darf endlich Kind sein.
             </p>
+            <p>
+              Und genau davon profitiert euer Kind, jetzt und ein Leben lang.{" "}
+              <strong className="text-deep font-medium">
+                Heute wird es ruhiger und sicherer. Und später wird es
+                widerstandsfähiger, selbstbewusster, beziehungsfähiger.
+              </strong>{" "}
+              Klare Führung und volle Liebe sind das Stärkste, was ihr eurem Kind
+              mitgeben könnt.
+            </p>
             <p className="font-serif italic text-terra" style={{ fontSize: "1.6rem", lineHeight: 1.4 }}>
-              Es geht auch anders. Wärmer für dich, klarer für dein Kind.
+              Es geht auch anders. Wärmer für euch, klarer für euer Kind.
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ export default function ProblemSection() {
       label: "Eltern berichten Versagensgefühle",
       sub: "Edelstein et al., PLOS ONE 2024",
       icon: (
-        <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <svg width="44" height="44" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <path d="M18 30s-11-7-11-15a8 8 0 0 1 11-7.4A8 8 0 0 1 29 15c0 8-11 15-11 15Z" stroke="#136B73" strokeWidth="1.25" strokeLinejoin="round" />
           <path d="M18 20v-6M18 23v1" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" />
         </svg>
@@ -16,7 +16,7 @@ export default function ProblemSection() {
       label: "Jugendliche chronisch erschöpft",
       sub: "DAK Jugendreport 2025",
       icon: (
-        <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <svg width="44" height="44" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <circle cx="18" cy="14" r="7" stroke="#136B73" strokeWidth="1.25" />
           <path d="M8 30c0-5.523 4.477-10 10-10s10 4.477 10 10" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" />
           <path d="M13 13.5c1-2 7-2 8 0" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" />
@@ -29,7 +29,7 @@ export default function ProblemSection() {
       label: "Kinder psychisch auffällig",
       sub: "RKI KiGGS Welle 2",
       icon: (
-        <svg width="34" height="34" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+        <svg width="44" height="44" viewBox="0 0 36 36" fill="none" aria-hidden="true">
           <path d="M18 6 L32 30 L4 30 Z" stroke="#136B73" strokeWidth="1.25" strokeLinejoin="round" />
           <path d="M18 16v6M18 25v1" stroke="#136B73" strokeWidth="1.25" strokeLinecap="round" />
         </svg>
@@ -39,7 +39,7 @@ export default function ProblemSection() {
 
   return (
     <section className="section-padding bg-cream">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <div className="max-w-6xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
         <div className="text-center mb-20">
@@ -63,7 +63,11 @@ export default function ProblemSection() {
           {stats.map((s) => (
             <div key={s.num} className="bg-cream text-center px-10 py-16">
               {/* Icon */}
-              <div className="flex justify-center mb-8">{s.icon}</div>
+              <div className="flex justify-center mb-8">
+                <div className="w-20 h-20 rounded-full bg-cream-dark border border-terra/25 flex items-center justify-center">
+                  {s.icon}
+                </div>
+              </div>
 
               {/* Big number */}
               <div
