@@ -71,7 +71,7 @@ export default function ExpertiseSection() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-12">
-          <a href="/kontakt/" className="btn-primary">
+          <a href="/#kontakt" className="btn-primary">
             Für Podcasts und Interviews
           </a>
         </div>

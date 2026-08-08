@@ -233,13 +233,13 @@ export default function BalancedParentingPage() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
-                href="/quiz/"
+                href="/#quiz"
                 className="bg-cream text-deep px-8 py-4 text-xs font-medium tracking-widest uppercase hover:bg-cream-dark transition-colors inline-flex items-center gap-3"
               >
                 Mach den Test
               </Link>
               <Link
-                href="/kontakt/"
+                href="/#kontakt"
                 className="btn-outline btn-outline-light"
               >
                 Kontakt

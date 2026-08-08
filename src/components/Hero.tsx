@@ -64,7 +64,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 mt-12">
-              <Link href="/quiz/" className="btn-primary">
+              <Link href="/#quiz" className="btn-primary">
                 Mach den Test
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

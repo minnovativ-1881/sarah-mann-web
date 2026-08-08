@@ -10,7 +10,7 @@ const credentials = [
 
 export default function AboutSection() {
   return (
-    <section className="section-padding bg-cream-dark">
+    <section id="ueber-sarah" className="section-padding bg-cream-dark scroll-mt-24">
       <div className="max-w-6xl mx-auto px-6 lg:px-12">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <div className="order-2 lg:order-1">
@@ -84,8 +84,8 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <Link href="/ueber-sarah/" className="btn-primary mt-10 inline-flex">
-              Mehr &uuml;ber Sarah
+            <Link href="/#quiz" className="btn-primary mt-10 inline-flex">
+              Mach den Test
               <svg
                 width="16"
                 height="16"

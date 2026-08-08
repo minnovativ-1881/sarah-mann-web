@@ -31,9 +31,9 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               {[
                 { label: "Das Konzept", href: "/balanced-parenting/" },
-                { label: "Der Test", href: "/quiz/" },
-                { label: "Über Sarah", href: "/ueber-sarah/" },
-                { label: "Kontakt", href: "/kontakt/" },
+                { label: "Der Test", href: "/#quiz" },
+                { label: "Über Sarah", href: "/#ueber-sarah" },
+                { label: "Kontakt", href: "/#kontakt" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -61,7 +61,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/kontakt/"
+                  href="/#kontakt"
                   className="text-cream/50 hover:text-cream transition-colors link-underline font-normal"
                 >
                   Anfrage stellen

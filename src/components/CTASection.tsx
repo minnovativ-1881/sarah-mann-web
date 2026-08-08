@@ -46,7 +46,7 @@ export default function CTASection() {
 
           <div className="flex flex-wrap gap-4 mt-12">
             <Link
-              href="/quiz/"
+              href="/#quiz"
               className="bg-cream text-deep px-8 py-4 text-xs font-medium tracking-widest uppercase hover:bg-cream-dark transition-colors duration-300 inline-flex items-center gap-3"
             >
               Test starten
@@ -54,7 +54,7 @@ export default function CTASection() {
                 <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </Link>
-            <Link href="/kontakt/" className="btn-outline btn-outline-light">
+            <Link href="/#kontakt" className="btn-outline btn-outline-light">
               Kontakt
             </Link>
           </div>

@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const navItems = [
   { label: "Das Konzept", href: "/balanced-parenting/" },
-  { label: "Ueber Sarah", href: "/ueber-sarah/" },
-  { label: "Kontakt", href: "/kontakt/" },
+  { label: "Ueber Sarah", href: "/#ueber-sarah" },
+  { label: "Kontakt", href: "/#kontakt" },
 ];
 
 export default function Navbar() {
@@ -48,7 +48,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/quiz/"
+              href="/#quiz"
               className="nav-link text-deep border-b border-deep/40 pb-1 hover:border-deep transition-colors ml-2"
             >
               Test starten
@@ -85,7 +85,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/quiz/"
+              href="/#quiz"
               onClick={() => setMenuOpen(false)}
               className="btn-primary mt-2 text-center justify-center"
             >

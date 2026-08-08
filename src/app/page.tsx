@@ -9,6 +9,7 @@ import QuizTeaser from "@/components/QuizTeaser";
 import ExpertiseSection from "@/components/ExpertiseSection";
 import AboutSection from "@/components/AboutSection";
 import CTASection from "@/components/CTASection";
+import KontaktSection from "@/components/KontaktSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -43,6 +44,7 @@ export default function Home() {
         />
         <AboutSection />
         <CTASection />
+        <KontaktSection />
       </main>
       <Footer />
     </>
