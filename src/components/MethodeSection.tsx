@@ -28,7 +28,7 @@ export default function MethodeSection() {
     <>
       {/* Teil 1: Die Methode und die Kern-Frage */}
       <section id="methode" className="section-padding bg-cream-dark scroll-mt-24">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-14">
             <p className="text-overline text-terra mb-6">Sarahs Methode</p>
             <h2
@@ -74,7 +74,7 @@ export default function MethodeSection() {
 
       {/* Teil 2: Die vier Schritte */}
       <section className="section-padding bg-cream">
-        <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-2xl mb-12">
             <p className="text-overline text-terra mb-5">Der Weg durch den Moment</p>
             <h2

@@ -9,8 +9,12 @@ const quadranten = [
 
 export default function QuizTeaser() {
   return (
-    <section id="quiz" className="section-padding bg-cream-dark scroll-mt-24">
-      <div className="max-w-6xl mx-auto px-6 lg:px-12">
+    <section
+      id="quiz"
+      className="section-padding scroll-mt-24"
+      style={{ background: "linear-gradient(180deg, #EDF4F4 0%, #D6E8E8 100%)" }}
+    >
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="mb-14">
           <p className="text-overline text-terra mb-6">Der kostenlose Test</p>
@@ -23,7 +27,8 @@ export default function QuizTeaser() {
           <div className="divider-terra" />
           <p className="body-text text-deep/85 mt-8 measure">
             Zwischen Wärme und Klarheit gibt es vier Wege. Drei führen in Erschöpfung
-            oder Distanz. Einer macht Kinder stark. Finde heraus, wo du gerade stehst.
+            oder Distanz. Einer macht Kinder stark. Acht kurze Situationen, zwei
+            Minuten, und du weißt, wo du gerade stehst.
           </p>
         </div>
 

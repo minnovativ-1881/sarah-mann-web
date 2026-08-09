@@ -1,3 +1,5 @@
+import ImageSlot from "@/components/ImageSlot";
+
 const gedanken = [
   "Ich kann nicht mehr.",
   "Seine Bedürfnisse gehen immer über meine, und das will ich nicht mehr.",
@@ -12,7 +14,7 @@ const gedanken = [
 export default function StimmenSection() {
   return (
     <section className="section-padding bg-cream-dark">
-      <div className="max-w-6xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="max-w-2xl mb-14">
           <p className="text-overline text-terra mb-6">Was viele Eltern denken</p>
@@ -24,8 +26,7 @@ export default function StimmenSection() {
           </h2>
           <div className="divider-terra" />
           <p className="text-deep/70 leading-relaxed mt-8 font-normal">
-            Das sind keine erfundenen Sätze. Es sind echte Gedanken von Eltern.
-            Vielleicht ist einer davon deiner.
+            Du bist damit nicht allein. Vielleicht ist einer davon deiner.
           </p>
         </div>
 
@@ -51,50 +52,61 @@ export default function StimmenSection() {
           ))}
         </div>
 
-        {/* Der Abhol-Text, volle Breite */}
-        <div className="mt-20 border-t-2 border-terra pt-14 max-w-4xl">
-          <div className="space-y-6 text-deep/80" style={{ fontSize: "1.2rem", lineHeight: 1.75 }}>
-            <p>
-              Wenn du dich in diesen Sätzen wiederfindest, dann lies bitte langsam
-              weiter. Und ja, das gilt für Mütter wie für Väter.
-            </p>
-            <p className="font-serif italic text-deep" style={{ fontSize: "1.75rem", lineHeight: 1.4 }}>
-              Du machst nichts falsch.
-            </p>
-            <p>
-              Dir wurde ein Erziehungsmodell verkauft, das nur eine Richtung kennt:
-              das Kind zuerst, immer. Spiegle seine Gefühle, erfülle seine
-              Bedürfnisse, erkläre jede Grenze, bleib geduldig. Und wenn es nicht
-              funktioniert, dann warst du eben noch nicht geduldig genug.
-            </p>
-            <p>
-              Niemand hat euch gesagt, wohin dieser Weg führt. Er führt dazu, dass{" "}
-              <strong className="text-deep font-medium">ihr langsam verschwindet</strong>.
-              Immer verfügbar, immer erklärend, immer schuld. Bis ihr selbst nicht
-              mehr wisst, wo ihr in all dem noch vorkommt.
-            </p>
-            <p className="text-deep font-normal">
-              Das ist keine Liebe. Das ist Selbstaufgabe.
-            </p>
-            <p>
-              Euer Kind braucht keine Eltern, die sich selbst verlieren. Es braucht
-              welche, die{" "}
-              <strong className="text-deep font-medium">da sind, klar sind und bei sich bleiben</strong>.
-              Denn ein Kind, das spürt, dass jemand ruhig die Führung hält, muss sie
-              nicht selbst übernehmen. Es darf endlich Kind sein.
-            </p>
-            <p>
-              Und genau davon profitiert euer Kind, jetzt und ein Leben lang.{" "}
-              <strong className="text-deep font-medium">
-                Heute wird es ruhiger und sicherer. Und später wird es
-                widerstandsfähiger, selbstbewusster, beziehungsfähiger.
-              </strong>{" "}
-              Klare Führung und volle Liebe sind das Stärkste, was ihr eurem Kind
-              mitgeben könnt.
-            </p>
-            <p className="font-serif italic text-terra" style={{ fontSize: "1.6rem", lineHeight: 1.4 }}>
-              Es geht auch anders. Wärmer für euch, klarer für euer Kind.
-            </p>
+        {/* Der Abhol-Text mit hochkant-Bild */}
+        <div className="mt-20 border-t-2 border-terra pt-14">
+          <div className="grid lg:grid-cols-[1.55fr_1fr] gap-12 lg:gap-16 items-center">
+            <div className="space-y-6 text-deep/80" style={{ fontSize: "1.2rem", lineHeight: 1.75 }}>
+              <p>
+                Wenn du dich in diesen Sätzen wiederfindest, dann lies bitte langsam
+                weiter. Und ja, das gilt für Mütter wie für Väter.
+              </p>
+              <p className="font-serif italic text-deep" style={{ fontSize: "1.75rem", lineHeight: 1.4 }}>
+                Du machst nichts falsch.
+              </p>
+              <p>
+                Dir wurde ein Erziehungsmodell verkauft, das nur eine Richtung kennt:
+                das Kind zuerst, immer. Spiegle seine Gefühle, erfülle seine
+                Bedürfnisse, erkläre jede Grenze, bleib geduldig. Und wenn es nicht
+                funktioniert, dann warst du eben noch nicht geduldig genug.
+              </p>
+              <p>
+                Niemand hat euch gesagt, wohin dieser Weg führt. Er führt dazu, dass{" "}
+                <strong className="text-deep font-medium">ihr langsam verschwindet</strong>.
+                Immer verfügbar, immer erklärend, immer schuld. Bis ihr selbst nicht
+                mehr wisst, wo ihr in all dem noch vorkommt.
+              </p>
+              <p className="text-deep font-normal">
+                Das ist keine Liebe. Das ist Selbstaufgabe.
+              </p>
+              <p>
+                Euer Kind braucht keine Eltern, die sich selbst verlieren. Es braucht
+                welche, die{" "}
+                <strong className="text-deep font-medium">da sind, klar sind und bei sich bleiben</strong>.
+                Denn ein Kind, das spürt, dass jemand ruhig die Führung hält, muss sie
+                nicht selbst übernehmen. Es darf endlich Kind sein.
+              </p>
+              <p>
+                Und genau davon profitiert euer Kind, jetzt und ein Leben lang.{" "}
+                <strong className="text-deep font-medium">
+                  Heute wird es ruhiger und sicherer. Und später wird es
+                  widerstandsfähiger, selbstbewusster, beziehungsfähiger.
+                </strong>{" "}
+                Klare Führung und volle Liebe sind das Stärkste, was ihr eurem Kind
+                mitgeben könnt.
+              </p>
+              <p className="font-serif italic text-terra" style={{ fontSize: "1.6rem", lineHeight: 1.4 }}>
+                Es geht auch anders. Wärmer für euch, klarer für euer Kind.
+              </p>
+            </div>
+
+            {/* Hochkant-Bild (folgt) */}
+            <div className="hidden lg:block">
+              <ImageSlot
+                alt="Elternteil und Kind in einem ruhigen, verbundenen Moment"
+                label="Eltern & Kind"
+                aspect="2/3"
+              />
+            </div>
           </div>
         </div>
       </div>

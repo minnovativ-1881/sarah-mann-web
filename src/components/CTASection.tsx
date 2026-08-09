@@ -21,7 +21,7 @@ export default function CTASection() {
             "linear-gradient(90deg, rgba(12,58,64,0.92) 0%, rgba(12,58,64,0.72) 45%, rgba(12,58,64,0.4) 100%)",
         }}
       />
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-12">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-12">
         <div className="max-w-2xl">
           {/* TODO: Bewegungsname einsetzen, sobald aus der Recherche entschieden. */}
           <p className="text-overline text-stone mb-8">Die Bewegung wächst</p>

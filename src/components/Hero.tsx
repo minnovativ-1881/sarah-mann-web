@@ -25,11 +25,11 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 60% 55% at 94% 4%, rgba(19,107,115,0.24) 0%, transparent 56%), radial-gradient(ellipse 90% 72% at 66% 110%, rgba(19,107,115,0.15) 0%, transparent 64%)",
+            "radial-gradient(ellipse 68% 62% at 92% 0%, rgba(19,107,115,0.34) 0%, transparent 55%), radial-gradient(ellipse 100% 78% at 62% 114%, rgba(19,107,115,0.22) 0%, transparent 62%)",
         }}
       />
 
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-12 pt-32 pb-20 w-full">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-12 pt-32 pb-20 w-full">
         <div className="grid md:grid-cols-2 gap-10 md:gap-12 lg:gap-24 items-center">
 
           {/* Left: Text */}

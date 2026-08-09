@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ImageBand from "@/components/ImageBand";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -44,19 +45,35 @@ export default function BalancedParentingPage() {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="bg-cream-dark pt-44 pb-28 px-6 lg:px-12">
-          <div className="max-w-5xl mx-auto">
-            <p className="text-overline text-terra mb-8">Das Konzept</p>
+        <section className="relative pt-44 pb-28 px-6 lg:px-12 overflow-hidden">
+          <Image
+            src="/bilder/naehe.webp"
+            alt=""
+            fill
+            sizes="100vw"
+            priority
+            aria-hidden="true"
+            style={{ objectFit: "cover", objectPosition: "center 28%" }}
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(90deg, rgba(12,58,64,0.9) 0%, rgba(12,58,64,0.62) 55%, rgba(12,58,64,0.35) 100%)",
+            }}
+          />
+          <div className="relative max-w-7xl mx-auto">
+            <p className="text-overline text-stone mb-8">Das Konzept</p>
             <h1
-              className="heading-display text-deep"
+              className="heading-display text-cream"
               style={{ fontSize: "clamp(3rem, 7vw, 6rem)" }}
             >
               Balanced
               <br />
-              <em className="text-terra italic">Parenting</em>
+              <em className="text-stone italic">Parenting</em>
             </h1>
-            <div className="divider-terra mt-8" />
-            <p className="text-deep/65 text-xl leading-relaxed mt-8 max-w-2xl font-normal">
+            <div className="mt-8" style={{ width: "3rem", height: "1px", backgroundColor: "#A89B8C" }} />
+            <p className="text-cream/85 text-xl leading-relaxed mt-8 max-w-2xl font-normal">
               Der wissenschaftlich fundierte Mittelweg zwischen Erschöpfung und
               Entfremdung. Warm. Klar. Verlässlich.
             </p>
@@ -65,7 +82,7 @@ export default function BalancedParentingPage() {
 
         {/* Intro text */}
         <section className="section-padding bg-cream">
-          <div className="max-w-4xl mx-auto px-6 lg:px-12">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <h2
@@ -105,7 +122,7 @@ export default function BalancedParentingPage() {
 
         {/* Vs comparison */}
         <section className="section-padding bg-cream-dark">
-          <div className="max-w-5xl mx-auto px-6 lg:px-12">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-12 text-center">
               Warum Balanced Parenting anders ist
             </p>
@@ -173,7 +190,7 @@ export default function BalancedParentingPage() {
 
         {/* Five principles */}
         <section className="section-padding bg-cream">
-          <div className="max-w-4xl mx-auto px-6 lg:px-12">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-8">Die Prinzipien</p>
             <h2
               className="heading-section text-deep mb-14"

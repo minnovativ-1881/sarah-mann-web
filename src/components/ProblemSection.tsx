@@ -39,7 +39,7 @@ export default function ProblemSection() {
 
   return (
     <section className="section-padding bg-cream">
-      <div className="max-w-6xl mx-auto px-6 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
         {/* Header */}
         <div className="text-center mb-20">

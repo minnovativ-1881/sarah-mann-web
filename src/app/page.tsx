@@ -39,7 +39,8 @@ export default function Home() {
         <ImageBand
           src="/bilder/schlaf.webp"
           alt="Mutter am Bett ihres schlafenden Kindes im warmen Nachtlicht"
-          position="center 45%"
+          position="center 62%"
+          height="72vh"
           quote="Dein Kind braucht keine perfekte Mutter. Es braucht eine, die bei sich bleibt."
         />
         <AboutSection />

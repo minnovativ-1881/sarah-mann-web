@@ -39,8 +39,11 @@ const typen = {
   },
 };
 
+const boxClass = "bg-cream p-8 lg:p-12 border-2 border-terra";
+const boxShadow = { boxShadow: "0 24px 60px rgba(19,107,115,0.18)" };
+
 export default function ElternTypQuiz() {
-  const [step, setStep] = useState(-1); // -1 = Start, 0..7 = Fragen, 8 = Ergebnis
+  const [step, setStep] = useState(0); // 0..7 = Fragen, 8 = Ergebnis
   const [answers, setAnswers] = useState<number[]>([]);
   const [mail, setMail] = useState("");
   const [mailDone, setMailDone] = useState(false);
@@ -61,31 +64,12 @@ export default function ElternTypQuiz() {
     setMailDone(false);
   };
 
-  // Startbildschirm
-  if (step === -1) {
-    return (
-      <div className="bg-cream p-8 lg:p-12 text-center">
-        <p className="text-deep/75 leading-relaxed max-w-md mx-auto mb-8" style={{ fontSize: "1.1rem" }}>
-          Acht kurze Aussagen aus dem echten Familienalltag. Am Ende siehst du, wo
-          du zwischen Wärme und Klarheit stehst, und was dein nächster Schritt ist.
-        </p>
-        <button onClick={() => setStep(0)} className="btn-primary">
-          Test starten
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
-        <p className="text-deep/50 text-xs mt-4 tracking-wide">Dauert zwei Minuten. Kostenlos.</p>
-      </div>
-    );
-  }
-
   // Fragen
   if (step < fragen.length) {
     const f = fragen[step];
     const pct = Math.round((step / fragen.length) * 100);
     return (
-      <div className="bg-cream p-8 lg:p-12">
+      <div className={boxClass} style={boxShadow}>
         {/* Fortschritt */}
         <div className="flex items-center justify-between mb-8">
           <p className="text-overline text-terra">Frage {step + 1} von {fragen.length}</p>
@@ -113,7 +97,7 @@ export default function ElternTypQuiz() {
             <button
               key={val}
               onClick={() => answer(val)}
-              className="text-left border border-cream-mid bg-cream px-6 py-4 text-deep/80 hover:border-terra hover:text-deep transition-colors duration-200"
+              className="text-left border border-cream-mid bg-cream px-6 py-4 text-deep/80 hover:border-terra hover:bg-cream-dark hover:text-deep transition-colors duration-200"
             >
               {label}
             </button>
@@ -136,7 +120,7 @@ export default function ElternTypQuiz() {
   const typ = typen[key];
 
   return (
-    <div className="bg-cream p-8 lg:p-12">
+    <div className={boxClass} style={boxShadow}>
       <p className="text-overline text-terra mb-5">Dein Ergebnis</p>
       <h3 className="font-serif text-deep" style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.15 }}>
         {typ.name}
