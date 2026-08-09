@@ -225,16 +225,24 @@ export default function BalancedParentingPage() {
           src="/bilder/draussen.webp"
           alt="Familie draußen unterwegs, Kinder auf Fahrrädern im Abendlicht"
           position="center 50%"
-          height="46vh"
+          height="72vh"
         />
 
         {/* CTA */}
         <section className="section-padding bg-midnight relative overflow-hidden">
+          <Image
+            src="/bilder/hand-in-hand.webp"
+            alt=""
+            fill
+            sizes="100vw"
+            aria-hidden="true"
+            style={{ objectFit: "cover", objectPosition: "center 45%", opacity: 0.28 }}
+          />
           <div
             className="absolute inset-0 pointer-events-none"
             style={{
               background:
-                "radial-gradient(ellipse 60% 50% at 80% 20%, rgba(168,155,140,0.10) 0%, transparent 60%)",
+                "linear-gradient(90deg, rgba(12,58,64,0.92) 0%, rgba(12,58,64,0.72) 45%, rgba(12,58,64,0.4) 100%)",
             }}
           />
           <div className="relative max-w-3xl mx-auto px-6 lg:px-12 text-center">

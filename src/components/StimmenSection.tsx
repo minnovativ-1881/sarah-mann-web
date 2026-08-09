@@ -102,9 +102,10 @@ export default function StimmenSection() {
             {/* Hochkant-Bild (folgt) */}
             <div className="hidden lg:block">
               <ImageSlot
-                alt="Elternteil und Kind in einem ruhigen, verbundenen Moment"
-                label="Eltern & Kind"
+                src="/bilder/eltern-kind-hochkant.webp"
+                alt="Mutter hält ihr Kind eng und ruhig im Arm"
                 aspect="2/3"
+                position="center"
               />
             </div>
           </div>
