@@ -8,7 +8,7 @@ const navItems = [
   { label: "Kontakt", href: "/#kontakt" },
 ];
 
-export default function Navbar() {
+export default function Navbar({ overlay = false }: { overlay?: boolean }) {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,6 +17,9 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Heller Text, wenn die Nav über einem dunklen Hero liegt und noch nicht gescrollt ist
+  const light = overlay && !scrolled;
 
   return (
     <nav
@@ -28,10 +31,17 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col leading-none group">
-            <span className="font-serif text-xl font-medium text-deep tracking-wide group-hover:text-terra transition-colors duration-200">
+            <span
+              className={`font-serif text-xl font-medium tracking-wide transition-colors duration-200 ${
+                light ? "text-cream group-hover:text-stone" : "text-deep group-hover:text-terra"
+              }`}
+            >
               Sarah Mann
             </span>
-            <span className="text-overline text-terra mt-1" style={{ fontSize: "0.6rem" }}>
+            <span
+              className={`text-overline mt-1 ${light ? "text-stone" : "text-terra"}`}
+              style={{ fontSize: "0.6rem" }}
+            >
               Klare Führung, volle Liebe
             </span>
           </Link>
@@ -42,14 +52,18 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="nav-link text-deep/65 hover:text-deep link-underline"
+                className={`nav-link link-underline ${
+                  light ? "text-cream/85 hover:text-cream" : "text-deep/65 hover:text-deep"
+                }`}
               >
                 {item.label}
               </Link>
             ))}
             <Link
               href="/#quiz"
-              className="nav-link text-deep border-b border-deep/40 pb-1 hover:border-deep transition-colors ml-2"
+              className={`nav-link border-b pb-1 transition-colors ml-2 ${
+                light ? "text-cream border-cream/50 hover:border-cream" : "text-deep border-deep/40 hover:border-deep"
+              }`}
             >
               Test starten
             </Link>
@@ -58,13 +72,13 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-deep p-2"
+            className={`md:hidden p-2 ${light ? "text-cream" : "text-deep"}`}
             aria-label="Menue"
           >
             <div className="w-6 flex flex-col gap-1.5">
-              <span className={`block h-px bg-deep transition-transform duration-200 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-              <span className={`block h-px bg-deep transition-opacity duration-200 ${menuOpen ? "opacity-0" : ""}`} />
-              <span className={`block h-px bg-deep transition-transform duration-200 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+              <span className={`block h-px transition-transform duration-200 ${light ? "bg-cream" : "bg-deep"} ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+              <span className={`block h-px transition-opacity duration-200 ${light ? "bg-cream" : "bg-deep"} ${menuOpen ? "opacity-0" : ""}`} />
+              <span className={`block h-px transition-transform duration-200 ${light ? "bg-cream" : "bg-deep"} ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
             </div>
           </button>
         </div>

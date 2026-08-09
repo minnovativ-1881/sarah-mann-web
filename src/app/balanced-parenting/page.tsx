@@ -42,7 +42,7 @@ const principles = [
 export default function BalancedParentingPage() {
   return (
     <>
-      <Navbar />
+      <Navbar overlay />
       <main>
         {/* Hero */}
         <section className="relative pt-44 pb-28 px-6 lg:px-12 overflow-hidden">
