@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,20 +9,18 @@ export default function Footer() {
         <div className="py-16 grid md:grid-cols-4 gap-12 border-b border-cream/10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="flex flex-col leading-none mb-5 group">
-              <span className="font-serif text-2xl font-medium text-cream group-hover:text-stone transition-colors">
-                Sarah Mann
-              </span>
-              <span className="text-overline text-stone mt-1">
-                Klare Führung, volle Liebe
-              </span>
+            <Link href="/" className="inline-block mb-6 group" aria-label="Sarah Mann, zur Startseite">
+              <Image
+                src="/bilder/logo-full-light.webp"
+                alt="Sarah Mann — Klare Führung, volle Liebe"
+                width={740}
+                height={268}
+                className="h-20 w-auto"
+              />
             </Link>
             <p className="text-sm leading-relaxed max-w-xs font-normal">
               Pädagogin. Babyschlafberaterin. Mutter von sieben Kindern.
               Erziehung mit klarer Führung und voller Liebe.
-            </p>
-            <p className="font-serif italic text-stone/80 text-sm mt-4">
-              „Klare Führung, volle Liebe."
             </p>
           </div>
 

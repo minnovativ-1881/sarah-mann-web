@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const navItems = [
   { label: "Das Konzept", href: "/balanced-parenting/" },
@@ -30,19 +31,36 @@ export default function Navbar({ overlay = false }: { overlay?: boolean }) {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex flex-col leading-none group">
+          <Link
+            href="/"
+            aria-label="Sarah Mann, zur Startseite"
+            className="group inline-flex items-center"
+          >
             <span
-              className={`font-serif text-xl font-medium tracking-wide transition-colors duration-200 ${
-                light ? "text-cream group-hover:text-stone" : "text-deep group-hover:text-terra"
-              }`}
+              className="relative inline-block h-9"
+              style={{ aspectRatio: "708 / 171" }}
             >
-              Sarah Mann
-            </span>
-            <span
-              className={`text-overline mt-1 ${light ? "text-stone" : "text-terra"}`}
-              style={{ fontSize: "0.6rem" }}
-            >
-              Klare Führung, volle Liebe
+              <Image
+                src="/bilder/logo-nav.webp"
+                alt="Sarah Mann"
+                fill
+                sizes="160px"
+                priority
+                className={`object-contain object-left transition-opacity duration-300 ${
+                  light ? "opacity-0" : "opacity-100"
+                }`}
+              />
+              <Image
+                src="/bilder/logo-nav-light.webp"
+                alt=""
+                aria-hidden="true"
+                fill
+                sizes="160px"
+                priority
+                className={`object-contain object-left transition-opacity duration-300 ${
+                  light ? "opacity-100" : "opacity-0"
+                }`}
+              />
             </span>
           </Link>
 
