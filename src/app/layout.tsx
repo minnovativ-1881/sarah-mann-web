@@ -50,7 +50,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de" className={`${cormorant.variable} ${jost.variable}`}>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        {/* Besucherzaehlung (eigene Umami-Instanz, cookielos, keine
+            personenbezogenen Daten). */}
+        <script
+          defer
+          src="https://analyse.minnovativ.de/script.js"
+          data-website-id="9ed8a901-90d1-4018-a414-8265499a9c6e"
+        />
+      </body>
     </html>
   );
 }
