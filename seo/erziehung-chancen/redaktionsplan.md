@@ -46,8 +46,8 @@ Der größte Schmerz-Cluster im Datensatz.
 | 9 | `grenzen-setzen-kleinkind` | **P** Grenzen, die halten, ohne zu drücken | grenzen setzen kleinkind | ✅ |
 | 10 | `kind-hoert-nicht-trotz-konsequenz` | Zehnmal nett, dann schreie ich | kind hört nicht trotz konsequenz | ✅ |
 | 11 | `kind-testet-grenzen-nur-bei-mir` | Bei allen anderen klappt es | kind testet grenzen nur bei mama | ✅ |
-| 12 | `wenn-die-grenze-ueberschritten-ist` | Was tun, wenn Erklären nicht mehr reicht | kind hält sich nicht an regeln | offen |
-| 13 | `konsequenz-oder-strafe` | Der Unterschied, den kaum jemand erklärt | konsequenz oder strafe | offen |
+| 12 | `wenn-die-grenze-ueberschritten-ist` | Was tun, wenn Erklären nicht mehr reicht | kind hält sich nicht an regeln | ✅ |
+| 13 | `konsequenz-oder-strafe` | Der Unterschied, den kaum jemand erklärt | konsequenz oder strafe | ✅ |
 | 14 | `nachgeben-oder-durchhalten` | Die ehrliche Entscheidungsregel | nachgeben oder nicht | offen |
 | 15 | `wie-viele-regeln-braucht-ein-kind` | Weniger, als du denkst | wie viele regeln kleinkind | offen |
 | 16 | `nein-sagen-ohne-schlechtes-gewissen` | Wenn jedes Nein wehtut | nein sagen ohne schlechtes gewissen | offen |
@@ -78,9 +78,9 @@ Sarahs Heimterrain und die Brücke zur Schlafberatung. Einschlafbegleitung hatte
 |---|---|---|---|---|
 | 27 | `schlaf-als-fuehrungsaufgabe` | **P** Warum der Abend alles zeigt | schlaf erziehung führung | ✅ |
 | 28 | `einschlafbegleitung-wie-lange` | Was normal ist und was nicht | einschlafbegleitung wie lange | offen |
-| 29 | `einschlafbegleitung-macht-wuetend` | Die Frage, die niemand beantwortet | warum macht einschlafbegleitung wütend | offen |
+| 29 | `einschlafbegleitung-macht-wuetend` | Die Frage, die niemand beantwortet | warum macht einschlafbegleitung wütend | ✅ |
 | 30 | `abendroutine-die-haelt` | Der Ablauf, der auch mit mehreren Kindern trägt | abendroutine kind | offen |
-| 31 | `kind-steht-abends-immer-auf` | Der Nochmal-Kreislauf | kind steht abends immer wieder auf | offen |
+| 31 | `kind-steht-abends-immer-auf` | Der Nochmal-Kreislauf | kind steht abends immer wieder auf | ✅ |
 | 32 | `nochmal-wuensche-am-abend` | Wie viele sind genug? | wie viele nochmal wünsche | offen |
 | 33 | `kind-will-nur-mit-mama-einschlafen` | Wenn nur eine Person geht | kind will nur mit mama einschlafen | offen |
 | 34 | `zeitumstellung-mit-kind` | Die vier Tage, die den Unterschied machen | zeitumstellung kind | ⏰ **bis 12.10.** |
@@ -93,11 +93,11 @@ Der gesamte Ast Eltern-Selbstregulation liegt im deutschen Markt brach.
 |---|---|---|---|---|
 | 35 | `elterliche-erschoepfung` | **P** Wenn die Kraft nicht mehr reicht | eltern erschöpft was tun | ✅ |
 | 36 | `kind-angeschrien-was-jetzt` | Die vier Schritte danach | kind angeschrien was tun | ✅ |
-| 37 | `nicht-konsequent-sein-koennen` | Ich schaffe es einfach nicht | wie lerne ich konsequent zu sein | offen |
+| 37 | `nicht-konsequent-sein-koennen` | Ich schaffe es einfach nicht | wie lerne ich konsequent zu sein | ✅ |
 | 38 | `wenn-ihr-unterschiedlich-erzieht` | Der Abgleich zu zweit | eltern uneinig erziehung | offen |
-| 39 | `ich-mag-mein-kind-gerade-nicht` | Der Satz, den kaum jemand ausspricht | ich mag mein kind nicht | offen |
+| 39 | `ich-mag-mein-kind-gerade-nicht` | Der Satz, den kaum jemand ausspricht | ich mag mein kind nicht | ✅ |
 | 40 | `eigene-wut-regulieren` | Bevor du dein Kind regulierst | eltern eigene wut | offen |
-| 41 | `wo-bleiben-meine-beduerfnisse` | Bedürfnisorientiert ohne auszubrennen | bedürfnisorientiert ohne burnout | offen |
+| 41 | `wo-bleiben-meine-beduerfnisse` | Bedürfnisorientiert ohne auszubrennen | bedürfnisorientiert ohne burnout | ✅ |
 
 ## Silo 6 — Übergänge im Familienjahr (7)
 
