@@ -173,10 +173,19 @@ export default function TestEngine({ test }: { test: Test }) {
       }
       setFehler("");
       setSendet(true);
+
+      // Das Ergebnis lebt ab jetzt auf der Bestaetigungsseite. Der Weg dorthin
+      // traegt Test und Ergebnis in der URL, damit die Seite ohne Server-Sitzung
+      // auskommt und der Link teilbar bleibt.
+      const ziel =
+        "/danke-bestaetige-deinen-eintrag/?test=" +
+        encodeURIComponent(test.slug) +
+        "&typ=" +
+        encodeURIComponent(erg.key) +
+        (vorname ? "&name=" + encodeURIComponent(vorname) : "");
+
+      // Ein Fehler beim Eintragen darf den Weg zum Ergebnis nicht blockieren.
       try {
-        // Anbindung an KlickTipp folgt. Bis dahin wird das Ergebnis nur
-        // freigeschaltet. Die Daten, die spaeter uebergeben werden:
-        // { mail, vorname, test: test.slug, typ: erg.key, punkte }
         await eintragen({
           mail,
           vorname,
@@ -184,11 +193,15 @@ export default function TestEngine({ test }: { test: Test }) {
           typ: erg.key,
           punkte,
         });
-        setFreigegeben(true);
       } catch {
-        // Kein Lead darf still verloren gehen: im Zweifel freischalten.
+        /* absichtlich still */
+      }
+
+      try {
+        window.location.assign(ziel);
+      } catch {
+        // Falls die Weiterleitung nicht greift, das Ergebnis hier zeigen.
         setFreigegeben(true);
-      } finally {
         setSendet(false);
       }
     };
@@ -207,8 +220,8 @@ export default function TestEngine({ test }: { test: Test }) {
           className="text-deep/80 leading-relaxed mt-6 max-w-xl"
           style={{ fontSize: "1.1rem" }}
         >
-          Sag mir, wohin ich es schicken darf. Du siehst es danach sofort hier
-          auf der Seite und bekommst es zusätzlich per E-Mail, damit du in Ruhe
+          Sag mir, wohin ich es schicken darf. Du kommst direkt danach zu deiner
+          Auswertung und bekommst sie zusätzlich per E-Mail, damit du sie in Ruhe
           nachlesen kannst.
         </p>
 
@@ -347,13 +360,11 @@ export default function TestEngine({ test }: { test: Test }) {
 /**
  * Eintragung in die Liste.
  *
- * Solange KLICKTIPP_FORM_URL nicht gesetzt ist, passiert hier nichts weiter,
- * damit die Tests schon vollstaendig durchgespielt werden koennen. Sobald das
- * KlickTipp-Direktformular vorliegt, wird hier hin gepostet: die Feldnamen
- * kommen dann aus dem Formular-Schnipsel (typischerweise "email", "fields[…]").
+ * Geht ueber die eigene Route /api/eintrag, damit der KlickTipp-Schluessel auf
+ * dem Server bleibt und wir eine echte Antwort bekommen. Die Route antwortet
+ * auch dann mit ok, wenn KlickTipp gerade nicht erreichbar ist: kein Fehler
+ * darf dazu fuehren, dass jemand sein Ergebnis nicht sieht.
  */
-const KLICKTIPP_FORM_URL = "";
-
 async function eintragen(daten: {
   mail: string;
   vorname: string;
@@ -361,19 +372,9 @@ async function eintragen(daten: {
   typ: string;
   punkte: Record<string, number>;
 }) {
-  if (!KLICKTIPP_FORM_URL) return;
-  const body = new URLSearchParams();
-  body.set("email", daten.mail);
-  if (daten.vorname) body.set("firstname", daten.vorname);
-  body.set("test", daten.test);
-  body.set("typ", daten.typ);
-  for (const [k, v] of Object.entries(daten.punkte)) {
-    body.set(`punkte_${k}`, String(v));
-  }
-  await fetch(KLICKTIPP_FORM_URL, {
+  await fetch("/api/eintrag/", {
     method: "POST",
-    mode: "no-cors",
-    headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    body,
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(daten),
   });
 }
