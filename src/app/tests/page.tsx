@@ -9,7 +9,7 @@ import { SITE_URL } from "@/lib/artikel";
 export const metadata: Metadata = {
   title: "Kostenlose Tests für Eltern | Sarah Mann",
   description:
-    "Kurze, ehrliche Selbsttests rund um Erziehung: Welcher Eltern-Typ bist du? Bedürfnis oder Wunsch? Ergebnis sofort, ohne Anmeldung.",
+    "Kurze, ehrliche Selbsttests rund um Erziehung: Welcher Eltern-Typ bist du? Bedürfnis oder Wunsch? Kostenlos, mit ausführlicher Auswertung per E-Mail.",
   alternates: { canonical: `${SITE_URL}/tests/` },
 };
 
@@ -29,8 +29,9 @@ export default function TestsSeite() {
             <em className="text-terra italic">gerade wirklich?</em>
           </h1>
           <p className="text-deep/75 leading-relaxed mt-8 max-w-2xl" style={{ fontSize: "1.2rem" }}>
-            Kurze Tests mit echten Alltagssituationen. Ergebnis sofort, ohne
-            Anmeldung, ohne dass du etwas eintragen musst.
+            Kurze Tests mit echten Alltagssituationen. Kostenlos, und du
+            bekommst deine Auswertung direkt zu sehen und zusätzlich per
+            E-Mail.
           </p>
         </div>
       </header>

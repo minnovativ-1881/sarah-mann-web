@@ -106,7 +106,7 @@ export default async function TestSeite({ params }: Props) {
             {t.intro}
           </p>
           <p className="text-deep/45 text-xs tracking-wide mt-7">
-            {t.fragen.length} Fragen · {t.dauer} · kostenlos, ohne Anmeldung
+            {t.fragen.length} Fragen · {t.dauer} · kostenlos
           </p>
         </div>
       </header>

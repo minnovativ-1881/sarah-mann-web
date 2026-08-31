@@ -239,7 +239,7 @@ const elternTyp: Test = {
     {
       frage: "Kostet der Test etwas?",
       antwort:
-        "Nein. Der Test ist kostenlos, und du siehst dein Ergebnis sofort, ohne dass du etwas eintragen musst.",
+        "Nein, der Test ist kostenlos. Am Ende trägst du deine E-Mail-Adresse ein, damit du die Auswertung in Ruhe nachlesen kannst. Danach siehst du dein Ergebnis sofort auf der Seite.",
     },
   ],
 };

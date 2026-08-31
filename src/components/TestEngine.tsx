@@ -10,7 +10,10 @@ function ermittleErgebnis(test: Test, punkte: Record<string, number>): Ergebnis 
   if (test.art === "matrix") {
     const lage: Record<string, "hoch" | "niedrig"> = {};
     for (const a of test.achsen) {
-      lage[a.key] = (punkte[a.key] ?? 0) >= (a.schwelle ?? Math.ceil(a.max * 0.67)) ? "hoch" : "niedrig";
+      lage[a.key] =
+        (punkte[a.key] ?? 0) >= (a.schwelle ?? Math.ceil(a.max * 0.67))
+          ? "hoch"
+          : "niedrig";
     }
     const treffer = test.ergebnisse.find((e) =>
       e.lage ? Object.entries(e.lage).every(([k, v]) => lage[k] === v) : false,
@@ -28,6 +31,11 @@ export default function TestEngine({ test }: { test: Test }) {
   const [schritt, setSchritt] = useState(0);
   const [werte, setWerte] = useState<number[]>([]);
   const [gezeigt, setGezeigt] = useState<number | null>(null);
+  const [mail, setMail] = useState("");
+  const [vorname, setVorname] = useState("");
+  const [freigegeben, setFreigegeben] = useState(false);
+  const [sendet, setSendet] = useState(false);
+  const [fehler, setFehler] = useState("");
 
   const antworten = (wert: number, index: number) => {
     if (test.art === "zuordnung" && gezeigt === null) {
@@ -55,6 +63,8 @@ export default function TestEngine({ test }: { test: Test }) {
     setWerte([]);
     setSchritt(0);
     setGezeigt(null);
+    setFreigegeben(false);
+    setFehler("");
   };
 
   /* ----------------------------- Fragen ----------------------------- */
@@ -146,16 +156,115 @@ export default function TestEngine({ test }: { test: Test }) {
     );
   }
 
-  /* ---------------------------- Ergebnis ---------------------------- */
+  /* --------------------------- Auswertung --------------------------- */
   const punkte: Record<string, number> = {};
   test.fragen.forEach((f, i) => {
     punkte[f.achse] = (punkte[f.achse] ?? 0) + (werte[i] ?? 0);
   });
   const erg = ermittleErgebnis(test, punkte);
 
+  /* --------------------- Schranke vor dem Ergebnis ------------------- */
+  if (!freigegeben) {
+    const absenden = async (e: React.FormEvent) => {
+      e.preventDefault();
+      if (!mail.includes("@") || !mail.includes(".")) {
+        setFehler("Bitte prüf die E-Mail-Adresse noch einmal.");
+        return;
+      }
+      setFehler("");
+      setSendet(true);
+      try {
+        // Anbindung an KlickTipp folgt. Bis dahin wird das Ergebnis nur
+        // freigeschaltet. Die Daten, die spaeter uebergeben werden:
+        // { mail, vorname, test: test.slug, typ: erg.key, punkte }
+        await eintragen({
+          mail,
+          vorname,
+          test: test.slug,
+          typ: erg.key,
+          punkte,
+        });
+        setFreigegeben(true);
+      } catch {
+        // Kein Lead darf still verloren gehen: im Zweifel freischalten.
+        setFreigegeben(true);
+      } finally {
+        setSendet(false);
+      }
+    };
+
+    return (
+      <div className={box} style={schatten}>
+        <p className="text-overline text-terra mb-5">Geschafft</p>
+        <h2
+          className="font-serif text-deep"
+          style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", lineHeight: 1.2 }}
+        >
+          Dein Ergebnis ist fertig.
+        </h2>
+        <div className="divider-terra" />
+        <p
+          className="text-deep/80 leading-relaxed mt-6 max-w-xl"
+          style={{ fontSize: "1.1rem" }}
+        >
+          Sag mir, wohin ich es schicken darf. Du siehst es danach sofort hier
+          auf der Seite und bekommst es zusätzlich per E-Mail, damit du in Ruhe
+          nachlesen kannst.
+        </p>
+
+        <form onSubmit={absenden} className="mt-9 max-w-xl">
+          <div className="grid sm:grid-cols-2 gap-3">
+            <input
+              type="text"
+              value={vorname}
+              onChange={(e) => setVorname(e.target.value)}
+              placeholder="Dein Vorname"
+              autoComplete="given-name"
+              className="border border-cream-mid bg-cream px-4 py-3 text-deep text-sm focus:outline-none focus:border-terra transition-colors"
+            />
+            <input
+              type="email"
+              required
+              value={mail}
+              onChange={(e) => setMail(e.target.value)}
+              placeholder="deine@email.de"
+              autoComplete="email"
+              className="border border-cream-mid bg-cream px-4 py-3 text-deep text-sm focus:outline-none focus:border-terra transition-colors"
+            />
+          </div>
+          {fehler && (
+            <p className="text-terra text-sm mt-3">{fehler}</p>
+          )}
+          <button
+            type="submit"
+            disabled={sendet}
+            className="btn-primary justify-center mt-4 w-full sm:w-auto disabled:opacity-60"
+          >
+            {sendet ? "Einen Moment …" : "Ergebnis ansehen"}
+          </button>
+          <p className="text-deep/50 text-xs leading-relaxed mt-5">
+            Du bekommst dein Ergebnis und danach Sarahs Impulse für klare
+            Führung und volle Liebe. Jederzeit mit einem Klick abbestellbar.
+            Deine Adresse geht an niemanden weiter.
+          </p>
+        </form>
+
+        <button
+          onClick={neu}
+          className="text-deep/40 text-xs tracking-wide hover:text-deep transition-colors mt-8"
+        >
+          Antworten noch einmal durchgehen
+        </button>
+      </div>
+    );
+  }
+
+  /* ---------------------------- Ergebnis ---------------------------- */
   return (
     <div className={box} style={schatten}>
-      <p className="text-overline text-terra mb-5">Dein Ergebnis</p>
+      <p className="text-overline text-terra mb-5">
+        {vorname ? `${vorname}, dein Ergebnis` : "Dein Ergebnis"}
+      </p>
       <h2
         className="font-serif text-deep"
         style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.15 }}
@@ -167,7 +276,6 @@ export default function TestEngine({ test }: { test: Test }) {
       </p>
       <div className="divider-terra" />
 
-      {/* Punktestand, damit sich das Ergebnis persoenlich anfuehlt */}
       <div className="flex flex-wrap gap-8 mt-7 mb-8">
         {test.achsen.map((a) => (
           <div key={a.key}>
@@ -179,7 +287,9 @@ export default function TestEngine({ test }: { test: Test }) {
             <div className="h-1 bg-cream-mid mt-2" style={{ width: "9rem" }}>
               <div
                 className="h-1 bg-terra"
-                style={{ width: `${Math.round(((punkte[a.key] ?? 0) / a.max) * 100)}%` }}
+                style={{
+                  width: `${Math.round(((punkte[a.key] ?? 0) / a.max) * 100)}%`,
+                }}
               />
             </div>
           </div>
@@ -195,11 +305,16 @@ export default function TestEngine({ test }: { test: Test }) {
 
       {erg.schritte && erg.schritte.length > 0 && (
         <div className="mt-8 max-w-2xl">
-          <p className="text-overline text-terra mb-4">Was jetzt konkret hilft</p>
+          <p className="text-overline text-terra mb-4">
+            Was jetzt konkret hilft
+          </p>
           <ul className="space-y-3">
             {erg.schritte.map((s, i) => (
               <li key={i} className="flex gap-4 text-deep/80 leading-relaxed">
-                <span className="font-serif text-stone flex-shrink-0" style={{ fontSize: "1.4rem", lineHeight: 1.2 }}>
+                <span
+                  className="font-serif text-stone flex-shrink-0"
+                  style={{ fontSize: "1.4rem", lineHeight: 1.2 }}
+                >
                   {i + 1}
                 </span>
                 <span>{s}</span>
@@ -211,7 +326,10 @@ export default function TestEngine({ test }: { test: Test }) {
 
       <div className="flex flex-wrap gap-6 items-center mt-10">
         {test.artikel && (
-          <Link href={`/wissen/${test.artikel}/`} className="btn-outline btn-outline-dark">
+          <Link
+            href={`/wissen/${test.artikel}/`}
+            className="btn-outline btn-outline-dark"
+          >
             Mehr dazu lesen
           </Link>
         )}
@@ -224,4 +342,38 @@ export default function TestEngine({ test }: { test: Test }) {
       </div>
     </div>
   );
+}
+
+/**
+ * Eintragung in die Liste.
+ *
+ * Solange KLICKTIPP_FORM_URL nicht gesetzt ist, passiert hier nichts weiter,
+ * damit die Tests schon vollstaendig durchgespielt werden koennen. Sobald das
+ * KlickTipp-Direktformular vorliegt, wird hier hin gepostet: die Feldnamen
+ * kommen dann aus dem Formular-Schnipsel (typischerweise "email", "fields[…]").
+ */
+const KLICKTIPP_FORM_URL = "";
+
+async function eintragen(daten: {
+  mail: string;
+  vorname: string;
+  test: string;
+  typ: string;
+  punkte: Record<string, number>;
+}) {
+  if (!KLICKTIPP_FORM_URL) return;
+  const body = new URLSearchParams();
+  body.set("email", daten.mail);
+  if (daten.vorname) body.set("firstname", daten.vorname);
+  body.set("test", daten.test);
+  body.set("typ", daten.typ);
+  for (const [k, v] of Object.entries(daten.punkte)) {
+    body.set(`punkte_${k}`, String(v));
+  }
+  await fetch(KLICKTIPP_FORM_URL, {
+    method: "POST",
+    mode: "no-cors",
+    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    body,
+  });
 }
