@@ -111,6 +111,10 @@ Was dagegen wirklich hilft: euch auf wenige Regeln zu einigen, die bei beiden ge
 
 **Beim Übergang.** Vom Spielen zum Essen, vom Draußen ins Haus, vom Wachsein ins Bett. Übergänge sind für kleine Kinder die schwierigsten Momente überhaupt, weil sie etwas Schönes beenden müssen, ohne zu wissen, was kommt. Eine kurze Vorwarnung verändert hier oft mehr als jede Konsequenz danach.
 
+Der Hebel liegt dabei fast nie in mehr Strenge, sondern in mehr Verlässlichkeit.
+Wie das praktisch aussieht, steht in
+[Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).
+
 ## Was du daraus nicht schließen solltest
 
 Dass dein Kind bei dir mehr prüft, heißt nicht, dass du inkonsequent bist. Und es heißt auch nicht, dass die anderen es besser können.

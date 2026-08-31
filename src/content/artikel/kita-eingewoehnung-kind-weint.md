@@ -109,6 +109,11 @@ Fällt dir die Struktur auf? Das Gefühl wird anerkannt, **und** die Sache bleib
 
 **Die eigene Unsicherheit im Gesicht.** Kinder lesen uns unglaublich gut. Wenn du zögerst, dreimal ansetzt und mit Sorge im Blick schaust, dann sagt dein Gesicht: Hier stimmt etwas nicht. Deine ruhige Sicherheit ist das Stärkste, was du in diesem Moment mitgeben kannst, selbst wenn du sie innerlich nicht ganz fühlst.
 
+Die Kita-Eingewöhnung ist dabei nur der sichtbarste Fall eines Musters, das
+sich in jedem Wechsel wiederholt, vom Spielplatz bis zum Schulanfang. Warum
+Übergänge Kinder grundsätzlich so viel kosten, steht in
+[Warum Übergänge so schwer sind](/wissen/uebergaenge-begleiten/).
+
 ## Und das schlechte Gewissen?
 
 Das bleibt erst mal. Ich glaube, man wird es auch nicht ganz los, und das muss man vielleicht auch nicht.

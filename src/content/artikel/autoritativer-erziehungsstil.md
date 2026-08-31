@@ -135,6 +135,13 @@ Hier sind konkrete Situationen, jeweils in drei Varianten. Nicht, um dich zu bew
 
 Fällt dir das Muster auf? In der warmen und klaren Variante taucht fast immer ein **und** auf. Das Gefühl gilt, und die Sache gilt auch. Beides ist wahr, gleichzeitig.
 
+Drei Fragen tauchen an dieser Stelle regelmäßig auf, und jede hat einen eigenen
+Text: der Unterschied zu [autoritär](/wissen/autoritativ-oder-autoritaer/), den ein
+einziger Buchstabe verdeckt. Die Frage, wann etwas ein Bedürfnis ist und wann ein
+[Wunsch](/wissen/beduerfnis-oder-wunsch/). Und was an der
+[Kritik an der bedürfnisorientierten Erziehung](/wissen/beduerfnisorientierte-erziehung-kritik/)
+tatsächlich dran ist.
+
 ## Die zwei häufigsten Missverständnisse
 
 **Erstens: Warm und klar bedeutet nicht, dass dein Kind nie unglücklich ist.**
@@ -146,6 +153,17 @@ Im Gegenteil. Wenn eine Grenze steht, ist ein Kind manchmal enttäuscht, wütend
 Ein ruhiges, verlässliches Nein ist für ein Kind oft leichter auszuhalten als ein Vielleicht, das heute so und morgen anders aussieht. Kinder, die in verlässlichen Verhältnissen aufwachsen, tragen offenbar sogar eine niedrigere Grundanspannung durch ihren Alltag. Klarheit ist für ein Kind also nicht Härte. Klarheit ist Entlastung.
 
 Denn Kinder müssen nicht nur wissen, dass wir sie lieben. Sie müssen auch wissen, **woran sie sind**.
+
+## Wo das im Alltag konkret wird
+
+Dieser Text ist der Überblick. Für die fünf Bereiche, in denen sich das Prinzip
+täglich entscheidet, gibt es jeweils einen eigenen Leitfaden:
+
+- [Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/) für alles, was mit Regeln, Nein und Durchhalten zu tun hat
+- [Wie Kinder lernen, sich selbst zu halten](/wissen/selbstregulation-kind/) für Wut, Frust und Beruhigung
+- [Warum der Abend zeigt, wie es tagsüber läuft](/wissen/schlaf-als-fuehrungsaufgabe/) für das Einschlafen und die Stunde davor
+- [Warum Übergänge so schwer sind](/wissen/uebergaenge-begleiten/) für Kita, Schule und jeden Wechsel dazwischen
+- [Wenn die Kraft nicht mehr reicht](/wissen/elterliche-erschoepfung/) für die Seite, die dich selbst betrifft
 
 ## Wozu das Ganze eigentlich gut ist
 

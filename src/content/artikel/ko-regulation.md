@@ -124,6 +124,10 @@ Das ist kein Ausweichen. Es ist die Reihenfolge, die funktioniert.
 
 Und was auch dazugehört: Diese Fähigkeit hängt stark davon ab, wie voll dein eigener Tank ist. Deshalb ist Schlaf kein Luxus und Erschöpfung kein Charakterproblem. Wer über Wochen zu wenig schläft, verliert genau die Reserve, aus der Ruhe kommt.
 
+Wohin das Ganze führt, also was Selbstregulation eigentlich ist, was in welchem
+Alter davon möglich ist und welche fünf Dinge sie tatsächlich fördern, steht in
+[Wie Kinder lernen, sich selbst zu halten](/wissen/selbstregulation-kind/).
+
 ## Das Geländer
 
 Wenn du dir ein Bild dafür merken willst, dann dieses.

@@ -113,6 +113,11 @@ Was danach hilft, ist ziemlich schlicht. Geh noch einmal hin. Sag, dass du laut 
 
 Damit lernt dein Kind zwei Dinge gleichzeitig, die beide wertvoll sind: Erwachsene machen Fehler und stehen dazu. Und eine Entscheidung kippt nicht, nur weil es laut wurde.
 
+Was hier für den einzelnen Moment gilt, gilt für den ganzen Bereich: wie viele
+Regeln ein Kind überhaupt braucht, was in welchem Alter möglich ist und wie eine
+Grenze im Alltag steht, steht in
+[Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).
+
 ## Warum es bei dir schlimmer ist als bei anderen
 
 Fast alle Eltern erleben das: Bei der Oma, in der Kita, beim Papa scheint es besser zu klappen. Und das nagt.

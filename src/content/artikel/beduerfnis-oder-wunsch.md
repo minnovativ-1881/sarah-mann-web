@@ -116,6 +116,10 @@ Wenn jeder geäußerte Wille als unverhandelbares Bedürfnis gilt, dann gibt es 
 
 Deine Bedürfnisse sind auch Bedürfnisse. Schlaf. In Ruhe essen. Ein zusammenhängender Gedanke. Zeit zu zweit. Das ist kein Egoismus, den du dir verdienen musst. Ein erschöpfter Mensch kann nicht ruhig bleiben, und Ruhe ist das Wichtigste, was du deinem Kind in einem schwierigen Moment geben kannst.
 
+Diese Unterscheidung ist die halbe Miete. Die andere Hälfte ist die Frage, wie
+eine Grenze dann tatsächlich stehen bleibt, wenn dein Kind sie nicht akzeptiert.
+Darum geht es in [Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).
+
 ## Die Faustregel für den Alltag
 
 Wenn es schnell gehen muss, hilft eine einzige Frage:

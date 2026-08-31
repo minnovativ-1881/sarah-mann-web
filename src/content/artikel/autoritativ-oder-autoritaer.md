@@ -125,6 +125,10 @@ Die Theorie ist schnell verstanden. Schwieriger ist es, im Moment zu merken, in 
 
 **„Ich sehe, dass du wütend bist. Und es bleibt trotzdem dabei.“** Das ist die Mitte, in einem Satz. Beide Hälften gehören zusammen. Lässt man die erste weg, wird es kühl. Lässt man die zweite weg, wird es beliebig.
 
+Was der autoritative Stil im Alltag praktisch heißt, an einem gewöhnlichen
+Dienstagabend und nicht in der Theorie, steht ausführlich in
+[Autoritativ erziehen](/wissen/autoritativer-erziehungsstil/).
+
 ## Warum das nicht nur eine akademische Unterscheidung ist
 
 Man könnte einwenden, dass es ziemlich egal ist, wie man das Ganze nennt. Aber die Begriffe haben eine praktische Folge.

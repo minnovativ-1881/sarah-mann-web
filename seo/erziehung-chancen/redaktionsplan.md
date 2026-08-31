@@ -43,7 +43,7 @@ Der größte Schmerz-Cluster im Datensatz.
 
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
-| 9 | `grenzen-setzen-kleinkind` | **P** Grenzen, die halten, ohne zu drücken | grenzen setzen kleinkind | offen |
+| 9 | `grenzen-setzen-kleinkind` | **P** Grenzen, die halten, ohne zu drücken | grenzen setzen kleinkind | ✅ |
 | 10 | `kind-hoert-nicht-trotz-konsequenz` | Zehnmal nett, dann schreie ich | kind hört nicht trotz konsequenz | ✅ |
 | 11 | `kind-testet-grenzen-nur-bei-mir` | Bei allen anderen klappt es | kind testet grenzen nur bei mama | ✅ |
 | 12 | `wenn-die-grenze-ueberschritten-ist` | Was tun, wenn Erklären nicht mehr reicht | kind hält sich nicht an regeln | offen |
@@ -60,7 +60,7 @@ Der Land-Grab-Bereich. Ko-Regulation hatte bei 26 Wettbewerbern genau einen Arti
 
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
-| 19 | `selbstregulation-kind` | **P** Wie Kinder lernen, sich selbst zu halten | selbstregulation kind fördern | offen |
+| 19 | `selbstregulation-kind` | **P** Wie Kinder lernen, sich selbst zu halten | selbstregulation kind fördern | ✅ |
 | 20 | `ko-regulation` | Bevor ein Kind es selbst kann | co-regulation kind | ✅ |
 | 21 | `wutanfall-begleiten` | Was in der Hochphase wirkt | wutanfall begleiten | offen |
 | 22 | `frustrationstoleranz-kind` | Warum Frust nötig ist | frustrationstoleranz kind stärken | offen |
@@ -76,7 +76,7 @@ Sarahs Heimterrain und die Brücke zur Schlafberatung. Einschlafbegleitung hatte
 
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
-| 27 | `schlaf-als-fuehrungsaufgabe` | **P** Warum der Abend alles zeigt | schlaf erziehung führung | offen |
+| 27 | `schlaf-als-fuehrungsaufgabe` | **P** Warum der Abend alles zeigt | schlaf erziehung führung | ✅ |
 | 28 | `einschlafbegleitung-wie-lange` | Was normal ist und was nicht | einschlafbegleitung wie lange | offen |
 | 29 | `einschlafbegleitung-macht-wuetend` | Die Frage, die niemand beantwortet | warum macht einschlafbegleitung wütend | offen |
 | 30 | `abendroutine-die-haelt` | Der Ablauf, der auch mit mehreren Kindern trägt | abendroutine kind | offen |
@@ -91,7 +91,7 @@ Der gesamte Ast Eltern-Selbstregulation liegt im deutschen Markt brach.
 
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
-| 35 | `elterliche-erschoepfung` | **P** Wenn die Kraft nicht mehr reicht | eltern erschöpft was tun | offen |
+| 35 | `elterliche-erschoepfung` | **P** Wenn die Kraft nicht mehr reicht | eltern erschöpft was tun | ✅ |
 | 36 | `kind-angeschrien-was-jetzt` | Die vier Schritte danach | kind angeschrien was tun | ✅ |
 | 37 | `nicht-konsequent-sein-koennen` | Ich schaffe es einfach nicht | wie lerne ich konsequent zu sein | offen |
 | 38 | `wenn-ihr-unterschiedlich-erzieht` | Der Abgleich zu zweit | eltern uneinig erziehung | offen |
@@ -105,9 +105,9 @@ Saisonal getaktet, jährlich aktualisierbar statt neu geschrieben.
 
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
-| 42 | `uebergaenge-begleiten` | **P** Warum Übergänge so schwer sind | übergänge kind begleiten | offen |
+| 42 | `uebergaenge-begleiten` | **P** Warum Übergänge so schwer sind | übergänge kind begleiten | ✅ |
 | 43 | `kita-eingewoehnung-kind-weint` | Der Moment an der Kita-Tür | kita eingewöhnung kind weint | ✅ |
-| 44 | `erste-schulwochen` | Struktur, die trägt, ohne zu drücken | schulstart tipps | ⏰ läuft |
+| 44 | `erste-schulwochen` | Struktur, die trägt, ohne zu drücken | schulstart tipps | ✅ |
 | 45 | `morgens-ohne-geschrei` | Der Familienmorgen, der hält | kind steht morgens nicht auf | offen |
 | 46 | `geschenke-und-konsum` | Wie viele Geschenke braucht ein Kind? | wie viele geschenke kinder | ⏰ **bis 20.10.** |
 | 47 | `familienregeln-jahreswechsel` | Der Reset für den Alltag | familienregeln | ⏰ bis 15.12. |

@@ -141,6 +141,10 @@ Wenn Lautwerden bei euch das Hauptwerkzeug geworden ist, wenn du merkst, dass de
 
 Dafür gibt es Erziehungsberatungsstellen, in Deutschland meist kostenlos und ohne großen Aufwand erreichbar. Sich dort Unterstützung zu holen ist kein Eingeständnis von Versagen. Es ist dasselbe wie zum Arzt zu gehen, wenn etwas weh tut.
 
+Und wenn du beim Lesen gemerkt hast, dass es nicht an einem einzelnen schlechten
+Tag liegt, sondern daran, dass seit Monaten nichts mehr nachfüllt: Genau darum
+geht es in [Wenn die Kraft nicht mehr reicht](/wissen/elterliche-erschoepfung/).
+
 ## Was heute Abend noch geht
 
 Falls dein Kind schon schläft und du das alles gerade erst liest: Es ist nicht zu spät.

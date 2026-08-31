@@ -144,6 +144,11 @@ Bei einem Bedürfnis erfüllst du es, auch wenn es gerade unpassend ist. Bei ein
 
 Mehr braucht es im ersten Schritt nicht. Diese eine Unterscheidung nimmt aus dem Familienalltag eine ganze Menge Druck heraus, ohne dass irgendjemand strenger werden muss.
 
+Wie die Alternative aussieht, also viel Wärme und viel Klarheit zugleich statt
+eines von beidem, steht in [Autoritativ erziehen](/wissen/autoritativer-erziehungsstil/).
+Und wie eine Grenze dabei konkret gehalten wird, in
+[Grenzen, die halten](/wissen/grenzen-setzen-kleinkind/).
+
 ## Eine ehrliche Schlussbemerkung
 
 Ich schreibe das nicht als jemand, der von außen auf eine Bewegung schaut. Vieles von dem, was heute bedürfnisorientiert heißt, halte ich für richtig, und ich möchte keinen Schritt davon zurück.
