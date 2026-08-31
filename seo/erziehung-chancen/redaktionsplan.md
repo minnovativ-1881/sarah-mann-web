@@ -1,5 +1,8 @@
 # Redaktionsplan sarahmann.de — 48 Artikel in 6 Silos
 
+> **Stand 2026-08-31: alle 48 Artikel geschrieben und live.** ~50.200 Wörter,
+> 101 interne Textlinks, jedes Silo mit Pillar und Clustern.
+
 > Stand 2026-08-30. Aufbau nach dem Pillar-und-Cluster-Prinzip.
 > Jedes Silo hat **einen Pillar** (2000+ Wörter, breites Thema, verlinkt auf alle
 > Cluster) und **Cluster-Artikel** (spitzes Thema, verlinken zurück zum Pillar).
@@ -65,9 +68,9 @@ Der Land-Grab-Bereich. Ko-Regulation hatte bei 26 Wettbewerbern genau einen Arti
 | 21 | `wutanfall-begleiten` | Was in der Hochphase wirkt | wutanfall begleiten | ✅ |
 | 22 | `frustrationstoleranz-kind` | Warum Frust nötig ist | frustrationstoleranz kind stärken | ✅ |
 | 23 | `kind-beruhigt-sich-nicht` | Wenn nichts mehr hilft | kind lässt sich nicht beruhigen | ✅ |
-| 24 | `gefuehle-benennen` | Wie Kinder Worte für Gefühle finden | kind gefühle benennen | offen |
-| 25 | `wann-wutanfall-nicht-normal` | Wann fachliche Hilfe sinnvoll ist | wann trotzphase nicht mehr normal | offen, YMYL |
-| 26 | `wutanfall-in-der-oeffentlichkeit` | Wenn alle schauen | wutanfall supermarkt | offen |
+| 24 | `gefuehle-benennen` | Wie Kinder Worte für Gefühle finden | kind gefühle benennen | ✅ |
+| 25 | `wann-wutanfall-nicht-normal` | Wann fachliche Hilfe sinnvoll ist | wann trotzphase nicht mehr normal | ✅ |
+| 26 | `wutanfall-in-der-oeffentlichkeit` | Wenn alle schauen | wutanfall supermarkt | ✅ |
 
 ## Silo 4 — Schlaf und Abend (8)
 
@@ -77,12 +80,12 @@ Sarahs Heimterrain und die Brücke zur Schlafberatung. Einschlafbegleitung hatte
 | # | Slug | Thema | Zielbegriff | Status |
 |---|---|---|---|---|
 | 27 | `schlaf-als-fuehrungsaufgabe` | **P** Warum der Abend alles zeigt | schlaf erziehung führung | ✅ |
-| 28 | `einschlafbegleitung-wie-lange` | Was normal ist und was nicht | einschlafbegleitung wie lange | offen |
+| 28 | `einschlafbegleitung-wie-lange` | Was normal ist und was nicht | einschlafbegleitung wie lange | ✅ |
 | 29 | `einschlafbegleitung-macht-wuetend` | Die Frage, die niemand beantwortet | warum macht einschlafbegleitung wütend | ✅ |
-| 30 | `abendroutine-die-haelt` | Der Ablauf, der auch mit mehreren Kindern trägt | abendroutine kind | offen |
+| 30 | `abendroutine-die-haelt` | Der Ablauf, der auch mit mehreren Kindern trägt | abendroutine kind | ✅ |
 | 31 | `kind-steht-abends-immer-auf` | Der Nochmal-Kreislauf | kind steht abends immer wieder auf | ✅ |
-| 32 | `nochmal-wuensche-am-abend` | Wie viele sind genug? | wie viele nochmal wünsche | offen |
-| 33 | `kind-will-nur-mit-mama-einschlafen` | Wenn nur eine Person geht | kind will nur mit mama einschlafen | offen |
+| 32 | `mittagsschlaf-wann-vorbei` | Der unterschätzte Hebel für den Abend | mittagsschlaf wann aufhören | ✅ |
+| 33 | `kind-will-nur-mit-mama-einschlafen` | Wenn nur eine Person geht | kind will nur mit mama einschlafen | ✅ |
 | 34 | `zeitumstellung-mit-kind` | Die vier Tage, die den Unterschied machen | zeitumstellung kind | ✅ |
 
 ## Silo 5 — Für dich als Elternteil (7)
@@ -94,9 +97,9 @@ Der gesamte Ast Eltern-Selbstregulation liegt im deutschen Markt brach.
 | 35 | `elterliche-erschoepfung` | **P** Wenn die Kraft nicht mehr reicht | eltern erschöpft was tun | ✅ |
 | 36 | `kind-angeschrien-was-jetzt` | Die vier Schritte danach | kind angeschrien was tun | ✅ |
 | 37 | `nicht-konsequent-sein-koennen` | Ich schaffe es einfach nicht | wie lerne ich konsequent zu sein | ✅ |
-| 38 | `wenn-ihr-unterschiedlich-erzieht` | Der Abgleich zu zweit | eltern uneinig erziehung | offen |
+| 38 | `wenn-ihr-unterschiedlich-erzieht` | Der Abgleich zu zweit | eltern uneinig erziehung | ✅ |
 | 39 | `ich-mag-mein-kind-gerade-nicht` | Der Satz, den kaum jemand ausspricht | ich mag mein kind nicht | ✅ |
-| 40 | `eigene-wut-regulieren` | Bevor du dein Kind regulierst | eltern eigene wut | offen |
+| 40 | `eigene-wut-regulieren` | Bevor du dein Kind regulierst | eltern eigene wut | ✅ |
 | 41 | `wo-bleiben-meine-beduerfnisse` | Bedürfnisorientiert ohne auszubrennen | bedürfnisorientiert ohne burnout | ✅ |
 
 ## Silo 6 — Übergänge im Familienjahr (7)
@@ -110,8 +113,8 @@ Saisonal getaktet, jährlich aktualisierbar statt neu geschrieben.
 | 44 | `erste-schulwochen` | Struktur, die trägt, ohne zu drücken | schulstart tipps | ✅ |
 | 45 | `morgens-ohne-geschrei` | Der Familienmorgen, der hält | kind steht morgens nicht auf | ✅ |
 | 46 | `geschenke-und-konsum` | Wie viele Geschenke braucht ein Kind? | wie viele geschenke kinder | ✅ |
-| 47 | `familienregeln-jahreswechsel` | Der Reset für den Alltag | familienregeln | ⏰ bis 15.12. |
-| 48 | `wenn-oma-anders-erzieht` | Deine Mama erlaubt das nicht | großeltern erziehung einmischen | offen |
+| 47 | `familienregeln-jahreswechsel` | Der Reset für den Alltag | familienregeln | ✅ |
+| 48 | `wenn-oma-anders-erzieht` | Deine Mama erlaubt das nicht | großeltern erziehung einmischen | ✅ |
 
 ---
 
