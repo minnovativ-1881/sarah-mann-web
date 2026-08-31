@@ -3,6 +3,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Brotkrumen } from "@/components/ArtikelExtras";
+import { findeBild } from "@/lib/artikel";
+import { KachelBild } from "@/components/ArtikelBild";
 import { TESTS, testUrl } from "@/lib/tests";
 import { SITE_URL } from "@/lib/artikel";
 
@@ -42,16 +44,19 @@ export default function TestsSeite() {
               <Link
                 key={t.slug}
                 href={testUrl(t.slug)}
-                className="bg-cream p-8 lg:p-11 group hover:bg-cream-dark transition-colors flex flex-col"
+                className="bg-cream group hover:bg-cream-dark transition-colors flex flex-col"
               >
-                <p className="text-overline text-terra/70 mb-4">
-                  {t.fragen.length} Fragen · {t.dauer}
-                </p>
-                <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
-                  {t.titel}
-                </h2>
-                <p className="text-deep/70 leading-relaxed flex-1">{t.intro}</p>
-                <span className="text-terra text-sm tracking-wide mt-7">Test starten</span>
+                <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="15rem" />
+                <div className="p-8 lg:p-11 flex flex-col flex-1">
+                  <p className="text-overline text-terra/70 mb-4">
+                    {t.fragen.length} Fragen · {t.dauer}
+                  </p>
+                  <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
+                    {t.titel}
+                  </h2>
+                  <p className="text-deep/70 leading-relaxed flex-1">{t.intro}</p>
+                  <span className="text-terra text-sm tracking-wide mt-7">Test starten</span>
+                </div>
               </Link>
             ))}
           </div>

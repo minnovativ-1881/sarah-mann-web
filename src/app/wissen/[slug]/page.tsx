@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { ArtikelHeroBild } from "@/components/ArtikelBild";
 import ArtikelBody from "@/components/ArtikelBody";
 import {
   Inhaltsverzeichnis,
@@ -145,6 +146,8 @@ export default async function ArtikelSeite({ params }: Props) {
             </p>
           </div>
         </header>
+
+        <ArtikelHeroBild src={a.bild} alt={a.bildAlt} />
 
         {/* Text */}
         <div className="section-padding bg-cream">

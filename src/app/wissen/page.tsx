@@ -3,7 +3,8 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Brotkrumen } from "@/components/ArtikelExtras";
-import { alleArtikel, artikelUrl, SILOS, SITE_URL, type SiloSlug } from "@/lib/artikel";
+import { alleArtikel, artikelUrl, findeBild, SILOS, SITE_URL, type SiloSlug } from "@/lib/artikel";
+import { KachelBild, SiloBand } from "@/components/ArtikelBild";
 import { TESTS, testUrl } from "@/lib/tests";
 
 export const metadata: Metadata = {
@@ -66,13 +67,16 @@ export default function WissenSeite() {
                 <Link
                   key={t.slug}
                   href={testUrl(t.slug)}
-                  className="bg-cream p-8 lg:p-10 group hover:bg-cream-dark transition-colors"
+                  className="bg-cream group hover:bg-cream-dark transition-colors"
                 >
-                  <p className="text-overline text-terra/70 mb-4">{t.dauer}</p>
-                  <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
-                    {t.titel}
-                  </h2>
-                  <p className="text-deep/70 leading-relaxed">{t.intro}</p>
+                  <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="13rem" />
+                  <div className="p-8 lg:p-10">
+                    <p className="text-overline text-terra/70 mb-4">{t.dauer}</p>
+                    <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
+                      {t.titel}
+                    </h2>
+                    <p className="text-deep/70 leading-relaxed">{t.intro}</p>
+                  </div>
                 </Link>
               ))}
             </div>
@@ -87,6 +91,7 @@ export default function WissenSeite() {
         if (!liste.length) return null;
         return (
           <section key={key} className="section-padding bg-cream-dark odd:bg-cream">
+            <SiloBand src={findeBild("silos", key)} titel={silo.name} />
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
               <div className="max-w-2xl mb-12">
                 <h2
@@ -103,17 +108,20 @@ export default function WissenSeite() {
                   <Link
                     key={a.slug}
                     href={artikelUrl(a.slug)}
-                    className="bg-cream p-8 group hover:bg-cream-dark transition-colors flex flex-col"
+                    className="bg-cream group hover:bg-cream-dark transition-colors flex flex-col"
                   >
-                    <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
-                      {a.titel}
-                    </h3>
-                    <p className="text-deep/65 text-sm leading-relaxed flex-1">
-                      {a.beschreibung}
-                    </p>
-                    <p className="text-deep/40 text-xs tracking-wide mt-6">
-                      {a.lesezeit} Min. Lesezeit
-                    </p>
+                    <KachelBild src={a.bild} alt={a.bildAlt} />
+                    <div className="p-8 flex flex-col flex-1">
+                      <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
+                        {a.titel}
+                      </h3>
+                      <p className="text-deep/65 text-sm leading-relaxed flex-1">
+                        {a.beschreibung}
+                      </p>
+                      <p className="text-deep/40 text-xs tracking-wide mt-6">
+                        {a.lesezeit} Min. Lesezeit
+                      </p>
+                    </div>
                   </Link>
                 ))}
               </div>

@@ -91,14 +91,33 @@ function leseDatei(datei: string): Artikel | null {
     datum: data.datum ?? new Date().toISOString().slice(0, 10),
     aktualisiert: data.aktualisiert,
     lesezeit: data.lesezeit ?? schaetzeLesezeit(content),
-    bild: data.bild,
-    bildAlt: data.bildAlt,
+    // Bild wird automatisch gefunden, sobald public/bilder/artikel/<slug>.webp
+    // existiert. Ein bild: im Frontmatter hat Vorrang, ist aber nicht noetig.
+    bild: data.bild ?? findeBild("artikel", slug),
+    bildAlt: data.bildAlt ?? data.titel,
     verwandt: data.verwandt,
     test: data.test,
     faq: data.faq,
     entwurf: data.entwurf === true,
     inhalt: content,
   };
+}
+
+/**
+ * Sucht ein Bild nach Namenskonvention. Gibt undefined zurueck, wenn keins da
+ * ist, damit die Seite ohne Fotos vollstaendig funktioniert.
+ *
+ *   findeBild("artikel", "ko-regulation")  ->  "/bilder/artikel/ko-regulation.webp"
+ */
+export function findeBild(
+  ordner: "artikel" | "silos" | "tests",
+  name: string,
+): string | undefined {
+  for (const endung of [".webp", ".jpg", ".png"]) {
+    const rel = `/bilder/${ordner}/${name}${endung}`;
+    if (fs.existsSync(path.join(process.cwd(), "public", rel))) return rel;
+  }
+  return undefined;
 }
 
 function schaetzeLesezeit(text: string): number {
