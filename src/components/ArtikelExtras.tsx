@@ -111,13 +111,15 @@ export function VerwandteArtikel({ artikel }: { artikel: Artikel[] }) {
 export function AutorinBox() {
   return (
     <aside className="mt-14 pt-10 border-t border-cream-mid flex flex-col sm:flex-row gap-7 items-start">
+      {/* Freigestelltes Portraet, die Kreisfarbe kommt aus dem CSS.
+          Dadurch laesst sie sich aendern, ohne ein neues Bild zu erzeugen. */}
       <div
-        className="flex-shrink-0 bg-cream-dark"
+        className="flex-shrink-0 bg-tint"
         style={{ width: "5.5rem", height: "5.5rem", borderRadius: "50%", overflow: "hidden" }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/bilder/sarah.webp"
+          src="/bilder/sarah-portrait.webp"
           alt="Sarah Mann"
           width={110}
           height={110}

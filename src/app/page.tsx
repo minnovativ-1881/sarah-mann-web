@@ -30,7 +30,7 @@ const startJsonLd = {
       description:
         "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sie verbindet Wärme und Klarheit zu einer alltagstauglichen Haltung.",
       url: "https://www.sarahmann.de/",
-      image: "https://www.sarahmann.de/bilder/sarah.webp",
+      image: "https://www.sarahmann.de/bilder/og-sarah.jpg",
       knowsAbout: [
         "Autoritativer Erziehungsstil",
         "Grenzen setzen",

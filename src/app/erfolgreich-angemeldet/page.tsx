@@ -30,20 +30,20 @@ export default function AngemeldetSeite() {
         <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
           {/* Rundes Foto: hier ist der Moment, in dem ein Gesicht zählt */}
           <div
-            className="relative mx-auto mb-10 overflow-hidden rounded-full"
+            className="relative mx-auto mb-10 overflow-hidden rounded-full bg-tint"
             style={{
               width: "clamp(8rem, 22vw, 11rem)",
               height: "clamp(8rem, 22vw, 11rem)",
-              boxShadow: "0 18px 44px rgba(19,107,115,0.22)",
+              border: "1px solid #E3EDEE",
             }}
           >
             <Image
-              src="/bilder/sarah.webp"
+              src="/bilder/sarah-portrait.webp"
               alt="Sarah Mann"
               fill
               sizes="180px"
               priority
-              style={{ objectFit: "cover", objectPosition: "center 22%" }}
+              style={{ objectFit: "cover" }}
             />
           </div>
 

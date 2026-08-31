@@ -18,7 +18,7 @@ export const metadata: Metadata = {
       "Pädagogin, Babyschlafberaterin, Mutter von sieben Kindern. Warum sie über Wärme und Klarheit schreibt.",
     url: "/ueber-sarah/",
     type: "profile",
-    images: [{ url: "/bilder/sarah.webp", alt: "Sarah Mann" }],
+    images: [{ url: "/bilder/og-sarah.jpg", width: 1200, height: 630, alt: "Sarah Mann" }],
   },
 };
 
@@ -53,7 +53,7 @@ export default function UeberSarahSeite() {
         description:
           "Pädagogin, zertifizierte Babyschlafberaterin und Mutter von sieben Kindern. Begleitet seit über fünfzehn Jahren Familien in Schlafberatung und Erziehungsfragen.",
         url: `${SITE_URL}/ueber-sarah/`,
-        image: `${SITE_URL}/bilder/sarah.webp`,
+        image: `${SITE_URL}/bilder/og-sarah.jpg`,
         knowsAbout: [
           "Autoritativer Erziehungsstil",
           "Grenzen setzen",
@@ -88,20 +88,20 @@ export default function UeberSarahSeite() {
           <Brotkrumen punkte={[{ href: "/", label: "Start" }, { label: "Über Sarah" }]} />
           <div className="flex flex-col sm:flex-row gap-9 items-start mt-8">
             <div
-              className="relative flex-shrink-0 overflow-hidden rounded-full"
+              className="relative flex-shrink-0 overflow-hidden rounded-full bg-tint"
               style={{
-                width: "clamp(7rem, 20vw, 9.5rem)",
-                height: "clamp(7rem, 20vw, 9.5rem)",
-                boxShadow: "0 16px 40px rgba(19,107,115,0.2)",
+                width: "clamp(7.5rem, 21vw, 10.5rem)",
+                height: "clamp(7.5rem, 21vw, 10.5rem)",
+                border: "1px solid #E3EDEE",
               }}
             >
               <Image
-                src="/bilder/sarah.webp"
+                src="/bilder/sarah-portrait.webp"
                 alt="Sarah Mann"
                 fill
-                sizes="160px"
+                sizes="180px"
                 priority
-                style={{ objectFit: "cover", objectPosition: "center 22%" }}
+                style={{ objectFit: "cover" }}
               />
             </div>
             <div>
