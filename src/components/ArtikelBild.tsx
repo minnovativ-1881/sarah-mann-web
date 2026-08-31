@@ -24,7 +24,7 @@ export function ArtikelHeroBild({
 }) {
   if (!src) return null;
   return (
-    <div className="relative w-full bg-cream-dark" style={{ height: "clamp(18rem, 42vw, 34rem)" }}>
+    <div className="relative w-full bg-cream-dark" style={{ height: "clamp(17rem, 40vw, 38rem)" }}>
       <Image
         src={src}
         alt={alt ?? ""}
@@ -79,20 +79,20 @@ export function SiloBand({
 }) {
   if (!src) return null;
   return (
-    <div className="relative w-full overflow-hidden mb-12" style={{ height: "clamp(11rem, 22vw, 18rem)" }}>
+    /* Das Band war mit hoechstens 288px viel zu flach: bei voller Breite ergab
+       das ein Verhaeltnis von fast 7:1 und schnitt mitten durch die Personen.
+       Jetzt rund 3:1, damit die Szene erkennbar bleibt. Der dunkle Verlauf ist
+       raus, er lag ohne Text darueber nur als Schleier auf den warmen Fotos. */
+    <div
+      className="relative w-full overflow-hidden mb-12"
+      style={{ height: "clamp(15rem, 38vw, 36rem)" }}
+    >
       <Image
         src={src}
         alt={alt ?? titel}
         fill
         sizes="100vw"
-        style={{ objectFit: "cover", objectPosition: "center 40%" }}
-      />
-      <div
-        className="absolute inset-0"
-        style={{
-          background:
-            "linear-gradient(90deg, rgba(12,58,64,0.78) 0%, rgba(12,58,64,0.42) 60%, rgba(12,58,64,0.18) 100%)",
-        }}
+        style={{ objectFit: "cover", objectPosition: "center 48%" }}
       />
     </div>
   );

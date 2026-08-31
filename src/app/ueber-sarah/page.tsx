@@ -88,11 +88,11 @@ export default function UeberSarahSeite() {
           <Brotkrumen punkte={[{ href: "/", label: "Start" }, { label: "Über Sarah" }]} />
           <div className="flex flex-col sm:flex-row gap-9 items-start mt-8">
             <div
-              className="relative flex-shrink-0 overflow-hidden rounded-full bg-tint"
+              className="relative flex-shrink-0 overflow-hidden rounded-full bg-sand"
               style={{
                 width: "clamp(7.5rem, 21vw, 10.5rem)",
                 height: "clamp(7.5rem, 21vw, 10.5rem)",
-                border: "1px solid #E3EDEE",
+                border: "1px solid rgba(19,107,115,0.3)",
               }}
             >
               <Image

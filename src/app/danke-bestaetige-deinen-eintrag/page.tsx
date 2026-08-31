@@ -23,7 +23,7 @@ export default function BestaetigenSeite() {
         {/* Logo statt Menü, damit die Seite trotzdem zugehörig wirkt */}
         <span
           className="relative inline-block h-9 mb-16"
-          style={{ aspectRatio: "708 / 171" }}
+          style={{ aspectRatio: "692 / 185" }}
         >
           <Image
             src="/bilder/logo-nav.webp"

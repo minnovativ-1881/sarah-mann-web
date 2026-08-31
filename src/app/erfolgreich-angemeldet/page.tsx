@@ -30,11 +30,11 @@ export default function AngemeldetSeite() {
         <div className="max-w-3xl mx-auto px-6 lg:px-12 text-center">
           {/* Rundes Foto: hier ist der Moment, in dem ein Gesicht zählt */}
           <div
-            className="relative mx-auto mb-10 overflow-hidden rounded-full bg-tint"
+            className="relative mx-auto mb-10 overflow-hidden rounded-full bg-sand"
             style={{
               width: "clamp(8rem, 22vw, 11rem)",
               height: "clamp(8rem, 22vw, 11rem)",
-              border: "1px solid #E3EDEE",
+              border: "1px solid rgba(19,107,115,0.3)",
             }}
           >
             <Image

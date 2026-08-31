@@ -114,8 +114,14 @@ export function AutorinBox() {
       {/* Freigestelltes Portraet, die Kreisfarbe kommt aus dem CSS.
           Dadurch laesst sie sich aendern, ohne ein neues Bild zu erzeugen. */}
       <div
-        className="flex-shrink-0 bg-tint"
-        style={{ width: "5.5rem", height: "5.5rem", borderRadius: "50%", overflow: "hidden" }}
+        className="flex-shrink-0 bg-sand"
+        style={{
+          width: "5.5rem",
+          height: "5.5rem",
+          borderRadius: "50%",
+          overflow: "hidden",
+          border: "1px solid rgba(19,107,115,0.3)",
+        }}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

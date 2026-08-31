@@ -25,6 +25,9 @@ const config: Config = {
         // verschmilzt und der Hover eine eigene Farbe bekommt.
         tint: "#F1F6F7",
         "tint-dark": "#E3EDEE",
+        // Warmer Sand fuer das Portraet. Timons Wunsch: der Kreis soll
+        // warm wirken, nicht kuehl wie die Kacheln.
+        sand: "#F2EAE0",
       },
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],

@@ -39,7 +39,7 @@ export default function Navbar({ overlay = false }: { overlay?: boolean }) {
           >
             <span
               className="relative inline-block h-9"
-              style={{ aspectRatio: "708 / 171" }}
+              style={{ aspectRatio: "692 / 185" }}
             >
               <Image
                 src="/bilder/logo-nav.webp"
