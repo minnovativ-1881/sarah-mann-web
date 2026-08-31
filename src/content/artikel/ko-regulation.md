@@ -139,3 +139,9 @@ Ko-Regulation ist genau das. Du bist für eine Zeit lang die Regulation deines K
 Und dann passiert nach und nach etwas Wunderbares: Es braucht dich immer weniger dafür.
 
 Wir geben Kindern zuerst unsere Ruhe, damit daraus irgendwann ihre eigene werden kann.
+
+## Quellen und weiterführende Informationen
+
+- [Center on the Developing Child, Harvard University: Serve and Return](https://developingchild.harvard.edu/resources/briefs/5-steps-for-brain-building-serve-and-return/), wie Beruhigung von außen die Hirnentwicklung prägt
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung

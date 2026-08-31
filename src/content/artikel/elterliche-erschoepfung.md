@@ -162,3 +162,9 @@ Die Seite, die dich selbst betrifft, hat mehrere Gesichter:
 - [Ich schaffe es einfach nicht, konsequent zu sein](/wissen/nicht-konsequent-sein-koennen/), warum Vorsätze daran scheitern
 - [Wenn ihr unterschiedlich erzieht](/wissen/wenn-ihr-unterschiedlich-erzieht/), der Abgleich zu zweit
 - [Und wo bleiben deine Bedürfnisse?](/wissen/wo-bleiben-meine-beduerfnisse/), bedürfnisorientiert, ohne auszubrennen
+
+## Quellen und weiterführende Informationen
+
+- [Roskam u. a.: Parental Burnout Around the Globe, Studie aus 42 Ländern](https://link.springer.com/article/10.1007/s42761-020-00028-4), wie verbreitet elterliches Burnout in 42 Ländern ist
+- [Systematische Übersichtsarbeit zu elterlichem Burnout, BMC Public Health](https://link.springer.com/article/10.1186/s12889-024-17829-y), der Forschungsstand zu Ursachen und Folgen
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit

@@ -128,3 +128,8 @@ Die Einschlafbegleitung ist eine der wenigen Aufgaben im Familienalltag, bei den
 Für Menschen, die den ganzen Tag Dinge erledigen, ist genau das die schwerste Aufgabe des Tages. Nicht weil sie anstrengend wäre, sondern weil sie leer aussieht.
 
 Sie ist es nicht. Aber es ist völlig verständlich, dass sie sich so anfühlt.
+
+## Quellen und weiterführende Informationen
+
+- [Roskam u. a.: Parental Burnout Around the Globe, Studie aus 42 Ländern](https://link.springer.com/article/10.1007/s42761-020-00028-4), wie verbreitet elterliches Burnout in 42 Ländern ist
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafprobleme](https://www.kindergesundheit-info.de/themen/schlafen/schlafprobleme/), wann Schlafprobleme behandlungsbedürftig sind

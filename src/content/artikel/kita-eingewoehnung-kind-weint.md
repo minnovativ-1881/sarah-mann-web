@@ -137,3 +137,8 @@ Jedes Mal dieselbe Frage: Wie halte ich fest, was gilt, ohne die Wärme zu verli
 Und jedes Mal dieselbe Antwort. Das Gefühl anerkennen. Die Sache halten. Verlässlich bleiben.
 
 Dein Kind lernt in diesen Wochen nicht, dass du gehst. Es lernt, dass du **wiederkommst**. Und das ist etwas, das ein Kind nur erfahren kann, wenn du tatsächlich gehst.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann

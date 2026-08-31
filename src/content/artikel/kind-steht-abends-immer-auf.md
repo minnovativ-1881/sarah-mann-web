@@ -149,3 +149,8 @@ Wenn du nur eine Sache aus diesem Text mitnimmst, dann diese:
 Zwei Bücher, entschieden am Nachmittag, sind ein Rahmen. Zwei Bücher, entschieden im Bett, sind ein Angebot, über das man reden kann.
 
 Fast alles andere folgt daraus.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafprobleme](https://www.kindergesundheit-info.de/themen/schlafen/schlafprobleme/), wann Schlafprobleme behandlungsbedürftig sind
+- [American Academy of Pediatrics: Bedtime Routines for School-Aged Children](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Bedtime-Routines-for-School-Aged-Children.aspx), warum eine feste Abendroutine wirkt

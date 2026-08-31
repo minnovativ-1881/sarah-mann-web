@@ -145,3 +145,8 @@ Wenn du aus diesem Text nur eine Sache mitnimmst, dann diese:
 Die Energie, die du in die Wiederholungen fünf bis neun steckst, ist die Energie, die dir später zum Ruhigbleiben fehlt. Wer bei Nummer zwei aufsteht und hingeht, braucht Nummer neun nie.
 
 Und rechne damit, dass die ersten Tage schwieriger werden. Dein Kind hat gelernt, dass der Ernstfall spät kommt, und wird prüfen, ob das noch stimmt. Dieses Prüfen ist kein Rückschlag. Es ist der Beweis, dass es die Veränderung bemerkt hat.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt
+- [National Health Service: Dealing with child behaviour problems](https://www.nhs.uk/conditions/baby/babys-development/behaviour/dealing-with-child-behaviour-problems/), der Umgang mit schwierigem Verhalten

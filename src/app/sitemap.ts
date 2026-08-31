@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/wissen/`, lastModified: heute, changeFrequency: "weekly", priority: 0.9 },
     { url: `${SITE_URL}/tests/`, lastModified: heute, changeFrequency: "monthly", priority: 0.9 },
     { url: `${SITE_URL}/balanced-parenting/`, lastModified: heute, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${SITE_URL}/ueber-sarah/`, lastModified: heute, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/impressum/`, lastModified: heute, changeFrequency: "yearly", priority: 0.1 },
     { url: `${SITE_URL}/datenschutz/`, lastModified: heute, changeFrequency: "yearly", priority: 0.1 },
   ];

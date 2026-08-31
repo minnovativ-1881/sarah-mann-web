@@ -140,3 +140,8 @@ Nicht alles auf einmal. Nimm dir eine Situation vor, in der dir das Nein besonde
 **Und danach: normal weitermachen.** Kein Nachgespräch, keine Wiedergutmachung. Ein Nein braucht keine Entschuldigung.
 
 Nach ein paar Wochen fällt vielen Eltern auf, dass das Ziehen im Bauch nachlässt. Nicht weil sie härter geworden wären, sondern weil sie hundertmal erlebt haben, dass nichts kaputtgeht.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt

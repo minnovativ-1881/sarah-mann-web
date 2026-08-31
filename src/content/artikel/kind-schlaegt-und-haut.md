@@ -139,3 +139,9 @@ Ein Kind, das haut, braucht zwei Dinge gleichzeitig, und keines davon ist Streng
 Es braucht jemanden, der es zuverlässig stoppt. Und es braucht jemanden, der ihm nach und nach das gibt, was ihm fehlt: Worte, Zeit und die Erfahrung, dass große Gefühle einen anderen Ausgang haben.
 
 Beides zusammen wirkt. Eines allein nicht.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Top Tips for Surviving Tantrums](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Temper-Tantrums.aspx), praktische Hinweise für den Moment des Wutanfalls
+- [National Health Service: Dealing with child behaviour problems](https://www.nhs.uk/conditions/baby/babys-development/behaviour/dealing-with-child-behaviour-problems/), der Umgang mit schwierigem Verhalten
+- [American Academy of Pediatrics: Aktualisierte Leitlinie zu körperlicher Bestrafung](https://www.healthychildren.org/English/news/Pages/AAP-Updates-Corporal-Punishment-Policy.aspx), warum die Fachgesellschaft körperliche Strafen und Anschreien ablehnt

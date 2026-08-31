@@ -120,3 +120,8 @@ Bei Schlafmangel bricht die Selbstregulation als Erstes zusammen. Ein Kind, das 
 Sehr viele Familien arbeiten an Verhalten, wo sie eigentlich an der Uhr hätten arbeiten müssen.
 
 Ein Abend, der eine Stunde kürzer wird, ist deshalb nicht nur eine Zeitersparnis. Er verändert die Stimmung des ganzen Tages, für alle. Warum der Abend so viel offenlegt, steht in [Warum der Abend zeigt, wie es tagsüber läuft](/wissen/schlaf-als-fuehrungsaufgabe/).
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Wie viel Schlaf Kinder in welchem Alter brauchen](https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx), empfohlene Schlafdauer je Altersgruppe
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter

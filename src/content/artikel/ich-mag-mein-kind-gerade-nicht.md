@@ -135,3 +135,8 @@ Du musst dein Kind nicht jeden Tag mögen, um ein gutes Elternteil zu sein. Du m
 Ein Kind braucht jemanden, der da ist, wenn es schwierig wird, der wiederkommt, wenn etwas schiefging, und auf den es sich verlassen kann. Nichts davon setzt voraus, dass du dich in dieser Woche warm fühlst.
 
 Und das Gefühl kommt zurück. Fast immer über Erholung, manchmal über Zeit, gelegentlich über Hilfe von außen. Aber es kommt zurück.
+
+## Quellen und weiterführende Informationen
+
+- [Roskam u. a.: Parental Burnout Around the Globe, Studie aus 42 Ländern](https://link.springer.com/article/10.1007/s42761-020-00028-4), wie verbreitet elterliches Burnout in 42 Ländern ist
+- [Systematische Übersichtsarbeit zu elterlichem Burnout, BMC Public Health](https://link.springer.com/article/10.1186/s12889-024-17829-y), der Forschungsstand zu Ursachen und Folgen

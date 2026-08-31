@@ -135,3 +135,9 @@ Der Drang, dass danach noch etwas folgen müsste, kommt fast immer aus dem eigen
 Wer sich eine Folge erst ausdenken muss, damit sie logisch wirkt, denkt sich eine Strafe aus. Und wer nichts findet, hat nichts übersehen. Er ist einfach fertig.
 
 Wie eine Grenze gehalten wird, ohne dass danach etwas kommen muss, steht in [Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich
+- [American Academy of Pediatrics: Aktualisierte Leitlinie zu körperlicher Bestrafung](https://www.healthychildren.org/English/news/Pages/AAP-Updates-Corporal-Punishment-Policy.aspx), warum die Fachgesellschaft körperliche Strafen und Anschreien ablehnt
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln

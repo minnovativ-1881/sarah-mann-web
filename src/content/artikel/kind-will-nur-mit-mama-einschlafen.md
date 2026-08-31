@@ -135,3 +135,8 @@ Die Frage ist nur, ob es tragbar ist. Und dafür gibt es zwei Prüfpunkte:
 **Was passiert, wenn diese Person krank oder verreist ist?** Wenn das zum Notfall wird, lohnt es sich, jetzt in einer ruhigen Phase daran zu arbeiten statt später unter Druck.
 
 Alles andere ist eine Frage dessen, was für euch funktioniert. Und wenn es funktioniert, ist es richtig.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafprobleme](https://www.kindergesundheit-info.de/themen/schlafen/schlafprobleme/), wann Schlafprobleme behandlungsbedürftig sind
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter

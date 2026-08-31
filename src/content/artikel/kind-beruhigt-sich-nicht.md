@@ -132,3 +132,9 @@ Wenn du mitten drin steckst und nichts hilft, ist das nicht dein Versagen.
 Es gibt Zustände, aus denen man ein Kind nicht herausholen kann. Man kann nur dabei sein, während sie vorbeigehen.
 
 Und das ist keine kleine Sache. Ein Kind, das in seinem schlimmsten Zustand nicht allein war, lernt etwas darüber, ob es sich auf jemanden verlassen kann. Diese Erfahrung ist wichtiger als alles, was du in der Situation hättest sagen können.
+
+## Quellen und weiterführende Informationen
+
+- [National Health Service: Temper tantrums](https://www.nhs.uk/conditions/baby/babys-development/behaviour/temper-tantrums/), die Einordnung des britischen Gesundheitsdienstes
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen

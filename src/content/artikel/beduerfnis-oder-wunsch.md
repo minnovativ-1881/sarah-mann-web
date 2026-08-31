@@ -135,3 +135,8 @@ Bleibt eine Enttäuschung, war es ein Wunsch. Dann darfst du Nein sagen. Und dan
 Du sagst Nein zum zweiten Eis. Du sagst nicht Nein zu der Traurigkeit, die daraufhin kommt. Die darf laut sein, die darf dauern, und du bleibst dabei.
 
 Genau das ist gemeint, wenn von Wärme und Klarheit zugleich die Rede ist. Die Klarheit steckt in der Sache. Die Wärme steckt darin, dass dein Kind mit dem Gefühl nicht allein bleibt.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt

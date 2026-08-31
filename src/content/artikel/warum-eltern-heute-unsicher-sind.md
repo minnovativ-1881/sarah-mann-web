@@ -125,3 +125,8 @@ Die Unsicherheit dieser Elterngeneration hat eine Ursache, die selten genannt wi
 Wer nichts falsch machen will, spürt jede offene Frage. Wer es egal fände, hätte das Problem nicht.
 
 Das ist kein Trost im leeren Sinn. Es ist eine Einordnung. Die Unsicherheit ist kein Zeichen von Unfähigkeit, sondern die Nebenwirkung von Sorgfalt in einer Zeit ohne gemeinsamen Maßstab.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört
+- [American Psychological Association: Themenseite Parenting](https://www.apa.org/topics/parenting), Übersicht zur Forschungslage rund um Erziehung

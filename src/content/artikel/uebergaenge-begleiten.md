@@ -173,3 +173,8 @@ Zu den einzelnen Übergängen gibt es jeweils einen eigenen Text:
 - [Der Morgen, der ohne Geschrei funktioniert](/wissen/morgens-ohne-geschrei/), der Familienmorgen, der hält
 - [Wenn die Großeltern anders erziehen](/wissen/wenn-oma-anders-erzieht/), wenn die Großeltern anders erziehen
 - [Zeitumstellung mit Kind: die vier Tage davor](/wissen/zeitumstellung-mit-kind/), die vier Tage vor der Umstellung
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann

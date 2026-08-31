@@ -133,3 +133,8 @@ Das heißt praktisch: Du kannst morgen anders anfangen, ohne heute etwas gutzuma
 Rechne dabei mit ein paar anstrengenden Tagen. Dein Kind hat gelernt, dass der Ernstfall spät kommt, und wird prüfen, ob das noch stimmt. Dieses Prüfen ist kein Rückschlag, sondern der Beweis, dass es die Veränderung bemerkt hat.
 
 Nach einer bis zwei Wochen wird es in aller Regel deutlich ruhiger.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört

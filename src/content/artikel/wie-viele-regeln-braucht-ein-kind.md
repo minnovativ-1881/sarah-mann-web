@@ -127,3 +127,8 @@ Und daraus folgt auch der Umgang unter Erwachsenen: Nicht versuchen, alle gleich
 Fünf Regeln, die immer gelten, geben einem Kind mehr Orientierung als zwanzig, von denen die Hälfte je nach Tagesform ausgesetzt wird.
 
 Das ist keine Nachgiebigkeit. Es ist die einzige Version von Klarheit, die im echten Leben durchzuhalten ist.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört

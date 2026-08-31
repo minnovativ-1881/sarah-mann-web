@@ -140,3 +140,8 @@ Nicht mit allem. Das scheitert immer.
 **Und rechne mit ein paar anstrengenden Tagen.** Dein Kind hat gelernt, dass der Ernstfall spät kommt, und wird prüfen, ob das noch stimmt.
 
 Nach ein bis zwei Wochen wird es in aller Regel ruhiger. Und dann kannst du die nächste Situation nehmen. Wie eine Grenze dabei konkret steht, ohne dass du hart wirst, steht in [Grenzen, die halten](/wissen/grenzen-setzen-kleinkind/).
+
+## Quellen und weiterführende Informationen
+
+- [Systematische Übersichtsarbeit zu elterlichem Burnout, BMC Public Health](https://link.springer.com/article/10.1186/s12889-024-17829-y), der Forschungsstand zu Ursachen und Folgen
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt

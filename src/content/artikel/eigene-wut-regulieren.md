@@ -145,3 +145,9 @@ Der Schaden entsteht nicht durch den lauten Moment, sondern durch das, was danac
 Und ein Gedanke zum Schluss: Ein Kind, das erlebt, dass ein Erwachsener die Beherrschung verliert, sich danach entschuldigt und beim nächsten Mal früher aussteigt, lernt daraus etwas Wertvolles über Menschen.
 
 Nicht so viel, dass man es anstreben sollte. Aber genug, dass ein schlechter Abend nicht das Ende von etwas ist.
+
+## Quellen und weiterführende Informationen
+
+- [Systematische Übersichtsarbeit zu elterlichem Burnout, BMC Public Health](https://link.springer.com/article/10.1186/s12889-024-17829-y), der Forschungsstand zu Ursachen und Folgen
+- [American Academy of Pediatrics: Aktualisierte Leitlinie zu körperlicher Bestrafung](https://www.healthychildren.org/English/news/Pages/AAP-Updates-Corporal-Punishment-Policy.aspx), warum die Fachgesellschaft körperliche Strafen und Anschreien ablehnt
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit

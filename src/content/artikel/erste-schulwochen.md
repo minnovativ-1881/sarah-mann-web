@@ -143,3 +143,8 @@ Die ersten Schulwochen sind auch für Eltern anstrengend. Neue Zeiten, neue Zust
 Deine eigene Verfassung ist dabei kein Nebenschauplatz. Dein Kind reguliert sich an dir, gerade jetzt, wo es selbst am Anschlag ist. Ein ruhiger Erwachsener ist in dieser Phase das Wirksamste, was du anbieten kannst, und Ruhe hängt an deiner Reserve, nicht an deinem Vorsatz. Mehr dazu in [Wenn die Kraft nicht mehr reicht](/wissen/elterliche-erschoepfung/).
 
 Praktisch heißt das: Halte auch deine eigenen Nachmittage in diesen Wochen leerer als sonst. Nicht als Belohnung, sondern weil das der Teil des Systems ist, der am ehesten hält.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann
+- [Center on the Developing Child, Harvard University: Executive Function und Selbstregulation](https://developingchild.harvard.edu/science/key-concepts/executive-function/), die wissenschaftliche Grundlage zur Selbstregulation

@@ -208,3 +208,9 @@ Dieser Text ist der Überblick. Für die Fragen, die daraus folgen, gibt es jewe
 - [Gentle Parenting und Grenzen: geht das zusammen?](/wissen/gentle-parenting-und-grenzen/), ob beides zusammengeht
 - [Das Pendel: warum Eltern heute so unsicher sind](/wissen/warum-eltern-heute-unsicher-sind/), warum diese Elterngeneration so unsicher ist
 - [Was Kindern wirklich Sicherheit gibt](/wissen/was-kinder-sicher-macht/), die vier Dinge, aus denen Sicherheit entsteht
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Themenseite Parenting](https://www.apa.org/topics/parenting), Übersicht zur Forschungslage rund um Erziehung
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln

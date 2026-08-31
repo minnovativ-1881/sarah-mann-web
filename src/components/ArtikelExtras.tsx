@@ -130,7 +130,7 @@ export function AutorinBox() {
           statt sich zwischen beidem entscheiden zu müssen.
         </p>
         <Link
-          href="/#ueber-sarah"
+          href="/ueber-sarah/"
           className="text-terra text-sm underline underline-offset-4 hover:text-terra-light mt-3 inline-block"
         >
           Mehr über Sarah

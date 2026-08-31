@@ -120,3 +120,8 @@ Was zählt, ist nicht die Abwesenheit von Lücken. Es ist die Verlässlichkeit d
 **Und daraus folgt etwas Praktisches:** Die Zeit, die du dir nimmst, geht deinem Kind nicht verloren. Sie kommt ihm zugute, weil ein erholter Erwachsener ruhiger ist, und weil Ruhe genau das ist, woran ein Kind sich reguliert.
 
 Deine Bedürfnisse sind kein Abzug vom Konto deines Kindes. Sie sind Teil dessen, was das Konto überhaupt füllt.
+
+## Quellen und weiterführende Informationen
+
+- [Roskam u. a.: Parental Burnout Around the Globe, Studie aus 42 Ländern](https://link.springer.com/article/10.1007/s42761-020-00028-4), wie verbreitet elterliches Burnout in 42 Ländern ist
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit

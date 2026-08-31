@@ -117,3 +117,9 @@ Von dort kann es weitergehen zu einer Frühförderstelle, einer Erziehungsberatu
 **Und ein Wort dazu, weil es viele Eltern zögern lässt:** Ein Termin ist keine Diagnose und keine Vorentscheidung. Er ist eine Frage. Sehr oft lautet die Antwort, dass alles im Rahmen liegt, und diese Auskunft ist ihren Aufwand wert.
 
 Wenn tatsächlich etwas gefunden wird, gilt in fast allen Fällen: früher ist deutlich besser. Nicht, weil es dann dramatischer wäre, sondern weil der Alltag für alle leichter wird, sobald man weiß, womit man es zu tun hat.
+
+## Quellen und weiterführende Informationen
+
+- [National Health Service: Temper tantrums](https://www.nhs.uk/conditions/baby/babys-development/behaviour/temper-tantrums/), die Einordnung des britischen Gesundheitsdienstes
+- [American Academy of Pediatrics: Top Tips for Surviving Tantrums](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Temper-Tantrums.aspx), praktische Hinweise für den Moment des Wutanfalls
+- [Bundeszentrale für gesundheitliche Aufklärung: Kindliche Trotzphase](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/trotzverhalten/), warum Trotzreaktionen ein Entwicklungsschritt sind

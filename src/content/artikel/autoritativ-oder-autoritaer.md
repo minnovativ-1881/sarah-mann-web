@@ -146,3 +146,9 @@ Wenn du dir aus diesem Text einen Satz mitnehmen willst, dann diesen:
 > **Autoritär nimmt dem Kind die Gefühle. Permissiv nimmt ihm die Orientierung. Autoritativ lässt ihm beides.**
 
 Und wenn du wissen willst, wo du selbst gerade stehst: Das lässt sich in zwei Minuten herausfinden, ehrlicher als jede Selbsteinschätzung im Kopf.
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich
+- [American Academy of Pediatrics: Aktualisierte Leitlinie zu körperlicher Bestrafung](https://www.healthychildren.org/English/news/Pages/AAP-Updates-Corporal-Punishment-Policy.aspx), warum die Fachgesellschaft körperliche Strafen und Anschreien ablehnt
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört

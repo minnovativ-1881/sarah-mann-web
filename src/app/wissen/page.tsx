@@ -24,11 +24,25 @@ export default function WissenSeite() {
     name: "Wissen",
     url: `${SITE_URL}/wissen/`,
     inLanguage: "de-DE",
-    hasPart: artikel.map((a) => ({
-      "@type": "Article",
-      headline: a.titel,
-      url: `${SITE_URL}${artikelUrl(a.slug)}`,
-    })),
+    // ItemList statt hasPart: Google liest daraus die Reihenfolge und kann
+    // die Uebersicht als Sammlung erkennen.
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: artikel.length,
+      itemListElement: artikel.map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}${artikelUrl(a.slug)}`,
+        name: a.titel,
+      })),
+    },
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Start", item: SITE_URL },
+        { "@type": "ListItem", position: 2, name: "Wissen", item: `${SITE_URL}/wissen/` },
+      ],
+    },
   };
 
   return (

@@ -140,3 +140,8 @@ Was belastet, ist etwas anderes: die Abwertung des anderen Haushalts vor dem Kin
 Der Satz, der hier trägt: **Bei Papa gelten andere Regeln. Das ist in Ordnung.**
 
 Ohne Zusatz, ohne Augenrollen, ohne Ausnahme.
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Themenseite Parenting](https://www.apa.org/topics/parenting), Übersicht zur Forschungslage rund um Erziehung
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört

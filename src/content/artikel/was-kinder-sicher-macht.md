@@ -131,3 +131,9 @@ Zum Schluss die praktische Übersetzung, weil die vier Säulen sonst abstrakt bl
 **Und nach jedem schwierigen Moment: wiederkommen.** Kurz, ohne großes Gespräch. Das ist der Teil, der zählt.
 
 Sicherheit ist am Ende nichts Besonderes. Sie ist die Summe vieler gewöhnlicher Tage, an denen ein Kind vorhersehen konnte, was kommt, und an denen jemand wiedergekommen ist.
+
+## Quellen und weiterführende Informationen
+
+- [Center on the Developing Child, Harvard University: Serve and Return](https://developingchild.harvard.edu/resources/briefs/5-steps-for-brain-building-serve-and-return/), wie Beruhigung von außen die Hirnentwicklung prägt
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit

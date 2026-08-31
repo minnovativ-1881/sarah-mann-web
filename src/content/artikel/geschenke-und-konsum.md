@@ -133,3 +133,8 @@ Was wirkt, ist Vorleben. Kinder, die erleben, dass Erwachsene sich freuen, bedan
 Und was ebenfalls wirkt, ist Weniger. Ein Kind, das vier Geschenke bekommt, kann sich an alle vier erinnern. Ein Kind, das fünfzehn bekommt, an keines.
 
 Das ist am Ende der eigentliche Grund für dieses ganze Thema. Es geht nicht um Sparsamkeit oder um Erziehung zur Bescheidenheit. Es geht darum, dass Freude eine Grenze hat, jenseits derer sie nicht mehr wächst.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann

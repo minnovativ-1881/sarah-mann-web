@@ -170,3 +170,9 @@ Zu den einzelnen Stellen, an denen der Abend hakt, gibt es jeweils einen eigenen
 - [Der Nochmal-Kreislauf am Abend](/wissen/kind-steht-abends-immer-auf/), der Nochmal-Kreislauf und wie er endet
 - [Wenn nur eine Person geht](/wissen/kind-will-nur-mit-mama-einschlafen/), wenn nur eine Person geht
 - [Mittagsschlaf: wann er endet und was danach kommt](/wissen/mittagsschlaf-wann-vorbei/), der unterschätzte Hebel für den Abend
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter
+- [American Academy of Pediatrics: Wie viel Schlaf Kinder in welchem Alter brauchen](https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx), empfohlene Schlafdauer je Altersgruppe
+- [American Academy of Pediatrics: Bedtime Routines for School-Aged Children](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Bedtime-Routines-for-School-Aged-Children.aspx), warum eine feste Abendroutine wirkt

@@ -118,3 +118,8 @@ Warum Übergänge grundsätzlich so viel kosten, steht in [Warum Übergänge so 
 - In dieser Woche weniger vornehmen
 
 Und wenn du gar nichts davon machst: Auch das geht. Die meisten Kinder gleichen die Stunde innerhalb einer Woche von selbst aus.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter
+- [American Academy of Pediatrics: Wie viel Schlaf Kinder in welchem Alter brauchen](https://www.healthychildren.org/English/healthy-living/sleep/Pages/healthy-sleep-habits-how-many-hours-does-your-child-need.aspx), empfohlene Schlafdauer je Altersgruppe

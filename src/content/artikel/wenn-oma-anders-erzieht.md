@@ -121,3 +121,8 @@ Es lernt, sich auf unterschiedliche Bedingungen einzustellen. Es erlebt eine and
 Und es hat einen zusätzlichen Menschen, bei dem es sicher ist. Davon hat kaum ein Kind zu viele.
 
 Das ist die Abwägung, um die es eigentlich geht. Die Regeln sind selten so wichtig, wie sie sich im Moment anfühlen. Die Beziehung ist es fast immer.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln

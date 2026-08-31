@@ -131,3 +131,8 @@ Meistens ist der Abschluss der beste Anfang, weil er sofort einführbar ist und 
 Rechne mit zwei bis drei Abenden, die schlechter werden als vorher. Dein Kind hat gelernt, dass der Abend verhandelbar ist, und wird prüfen, ob das noch stimmt.
 
 Nach sieben bis vierzehn Tagen ist der Abend in aller Regel deutlich kürzer. Nicht weil dein Kind resigniert hat, sondern weil es nicht mehr herausfinden muss, woran es ist.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Bedtime Routines for School-Aged Children](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Bedtime-Routines-for-School-Aged-Children.aspx), warum eine feste Abendroutine wirkt
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter

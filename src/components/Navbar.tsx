@@ -7,7 +7,7 @@ const navItems = [
   { label: "Wissen", href: "/wissen/" },
   { label: "Tests", href: "/tests/" },
   { label: "Das Konzept", href: "/balanced-parenting/" },
-  { label: "Über Sarah", href: "/#ueber-sarah" },
+  { label: "Über Sarah", href: "/ueber-sarah/" },
 ];
 
 export default function Navbar({ overlay = false }: { overlay?: boolean }) {

@@ -141,3 +141,8 @@ Was du erwarten kannst, ist Fortschritt in kleinen Schritten: Der Zusammenbruch 
 Ein Kind, das über Monate an fast jeder Kleinigkeit scheitert, sich nicht beruhigen lässt und auch in ruhigen Phasen ständig überfordert wirkt, sollte kinderärztlich angeschaut werden. Nicht, weil das gleich etwas Schlimmes bedeutet, sondern weil es Ursachen gibt, die man kennen sollte.
 
 Für alles andere gilt der unspektakuläre Satz: Es dauert Jahre, es geht in Wellen, und es wächst genau dort, wo etwas nicht sofort klappt und trotzdem jemand danebensitzt.
+
+## Quellen und weiterführende Informationen
+
+- [Center on the Developing Child, Harvard University: Executive Function und Selbstregulation](https://developingchild.harvard.edu/science/key-concepts/executive-function/), die wissenschaftliche Grundlage zur Selbstregulation
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen

@@ -130,3 +130,8 @@ Es gibt keinen Entwicklungsschritt, der davon abhängt, dass ein Kind allein ein
 Die einzige Frage, die wirklich zählt, ist die nach der Tragbarkeit: **Hält euer Abend so, wie er ist, über die nächsten Monate?**
 
 Wenn ja, ändere nichts. Wenn nein, fang beim Ablauf an, nicht bei der Begleitung.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafprobleme](https://www.kindergesundheit-info.de/themen/schlafen/schlafprobleme/), wann Schlafprobleme behandlungsbedürftig sind

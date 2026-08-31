@@ -160,3 +160,9 @@ Wenn die Grenze regelmäßig überschritten wird, liegt es fast nie daran, dass 
 Ein Kind, das weiß, dass eine Regel immer gilt, prüft sie seltener. Ein Kind, bei dem sie mal gilt und mal nicht, muss jedes Mal neu herausfinden, woran es heute ist.
 
 Deshalb ist die eigentliche Arbeit nicht der Moment danach, sondern die Verlässlichkeit davor. Sie steht in [Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).
+
+## Quellen und weiterführende Informationen
+
+- [Neue Autorität nach Haim Omer](https://www.newauthority.net/), das Modell von Präsenz und Beharrlichkeit statt Druck
+- [American Academy of Pediatrics: How to Shape and Manage Your Young Child’s Behavior](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/How-to-Shape-Manage-Young-Child-Behavior.aspx), wie sich Verhalten bei kleinen Kindern formen lässt
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich

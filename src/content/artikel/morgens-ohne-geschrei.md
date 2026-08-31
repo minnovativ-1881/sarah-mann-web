@@ -113,3 +113,8 @@ Ein Morgen wird nicht besser, indem alle sich mehr anstrengen.
 Er wird besser, indem er länger wird und weniger Entscheidungen enthält.
 
 Zwanzig Minuten Puffer und fünf am Vorabend getroffene Entscheidungen verändern mehr als jede Methode, jedes System und jedes gute Zureden. Es ist unspektakulär und es wirkt ab dem ersten Tag.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Bedtime Routines for School-Aged Children](https://www.healthychildren.org/English/healthy-living/sleep/Pages/Bedtime-Routines-for-School-Aged-Children.aspx), warum eine feste Abendroutine wirkt
+- [Bundeszentrale für gesundheitliche Aufklärung: Schlafen](https://www.kindergesundheit-info.de/themen/schlafen/), Schlafbedarf und Schlafgewohnheiten nach Alter

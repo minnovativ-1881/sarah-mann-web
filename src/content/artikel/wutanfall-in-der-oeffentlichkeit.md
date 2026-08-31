@@ -122,3 +122,8 @@ Wenn es vorbei ist, gilt dasselbe wie zu Hause: kurz, ruhig, ohne Auswertung.
 Keine Lehre, keine Ermahnung, keine Erklärung, warum das Verhalten nicht in Ordnung war. Ein Kind lernt aus einem Wutanfall nichts über Selbstbeherrschung. Es lernt etwas darüber, ob man mit ihm verbunden bleibt, wenn es außer sich ist.
 
 Und für dich: Es war ein anstrengender Nachmittag, kein Urteil über deine Erziehung. Diese beiden Dinge fühlen sich im Moment gleich an und sind es nicht.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Top Tips for Surviving Tantrums](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Temper-Tantrums.aspx), praktische Hinweise für den Moment des Wutanfalls
+- [National Health Service: Temper tantrums](https://www.nhs.uk/conditions/baby/babys-development/behaviour/temper-tantrums/), die Einordnung des britischen Gesundheitsdienstes

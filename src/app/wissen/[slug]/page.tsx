@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ArtikelHeroBild } from "@/components/ArtikelBild";
@@ -79,9 +80,10 @@ export default async function ArtikelSeite({ params }: Props) {
         mainEntityOfPage: { "@type": "WebPage", "@id": url },
         author: {
           "@type": "Person",
+          "@id": `${SITE_URL}/#sarah`,
           name: "Sarah Mann",
           jobTitle: "Pädagogin und zertifizierte Babyschlafberaterin",
-          url: `${SITE_URL}/#ueber-sarah`,
+          url: `${SITE_URL}/ueber-sarah/`,
         },
         publisher: { "@type": "Person", name: "Sarah Mann", url: SITE_URL },
         ...(a.bild ? { image: `${SITE_URL}${a.bild}` } : {}),
@@ -141,7 +143,11 @@ export default async function ArtikelSeite({ params }: Props) {
               {a.beschreibung}
             </p>
             <p className="text-deep/45 text-xs tracking-wide mt-8">
-              Von Sarah Mann · {a.lesezeit} Minuten Lesezeit
+              Von{" "}
+              <Link href="/ueber-sarah/" className="underline underline-offset-2 hover:text-deep">
+                Sarah Mann
+              </Link>{" "}
+              · {a.lesezeit} Minuten Lesezeit
               {a.aktualisiert ? ` · aktualisiert ${formatiere(a.aktualisiert)}` : ""}
             </p>
           </div>

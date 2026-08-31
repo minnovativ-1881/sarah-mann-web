@@ -192,3 +192,9 @@ Zu den einzelnen Situationen, in denen sich das entscheidet, gibt es jeweils ein
 - [Wenn jedes Nein wehtut](/wissen/nein-sagen-ohne-schlechtes-gewissen/), wenn jedes Nein innerlich zieht
 - [Wenn Erklären nicht mehr reicht](/wissen/wenn-die-grenze-ueberschritten-ist/), was im Moment danach wirkt
 - [Wie viele Regeln braucht ein Kind?](/wissen/wie-viele-regeln-braucht-ein-kind/), warum weniger Regeln klarer sind
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln
+- [National Health Service: Dealing with child behaviour problems](https://www.nhs.uk/conditions/baby/babys-development/behaviour/dealing-with-child-behaviour-problems/), der Umgang mit schwierigem Verhalten

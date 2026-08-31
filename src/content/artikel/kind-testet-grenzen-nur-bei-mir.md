@@ -136,3 +136,8 @@ Das ist kein fairer Vergleich. Und er sagt vor allem nichts darüber aus, wie eu
 Dass dein Kind bei dir schwierig ist, heißt nicht, dass du versagst. Es heißt, dass du der Ort bist, an dem es nicht perfekt sein muss.
 
 Und das ist, wenn man ehrlich ist, ziemlich genau das, was wir uns alle für unsere Kinder wünschen.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Kindliche Trotzphase](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/trotzverhalten/), warum Trotzreaktionen ein Entwicklungsschritt sind
+- [American Academy of Pediatrics: Why Kids Act Out](https://www.healthychildren.org/English/healthy-living/emotional-wellness/Building-Resilience/Pages/why-kids-act-out-tips-to-help-your-child-cope-with-stress.aspx), was hinter auffälligem Verhalten stecken kann

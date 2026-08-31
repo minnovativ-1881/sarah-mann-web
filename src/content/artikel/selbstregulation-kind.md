@@ -176,3 +176,9 @@ Für die Momente, in denen das konkret wird, gibt es jeweils einen eigenen Text:
 - [Wann Wutanfälle nicht mehr normal sind](/wissen/wann-wutanfall-nicht-normal/), wann ein Gespräch mit der Ärztin sinnvoll ist
 - [Was in der Hochphase eines Wutanfalls wirkt](/wissen/wutanfall-begleiten/), was in der Hochphase wirkt
 - [Wenn alle schauen](/wissen/wutanfall-in-der-oeffentlichkeit/), wenn alle schauen
+
+## Quellen und weiterführende Informationen
+
+- [Center on the Developing Child, Harvard University: Executive Function und Selbstregulation](https://developingchild.harvard.edu/science/key-concepts/executive-function/), die wissenschaftliche Grundlage zur Selbstregulation
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung
+- [Center on the Developing Child, Harvard University: Serve and Return](https://developingchild.harvard.edu/resources/briefs/5-steps-for-brain-building-serve-and-return/), wie Beruhigung von außen die Hirnentwicklung prägt

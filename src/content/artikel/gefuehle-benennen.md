@@ -135,3 +135,9 @@ Was sich verändert, ist subtiler:
 - Es benennt Gefühle bei anderen
 
 Das dauert Monate, nicht Tage. Und es ist einer der Schritte, an denen man später merkt, wie viel Arbeit unbemerkt gewirkt hat.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Emotionale Entwicklung des Kindes](https://www.kindergesundheit-info.de/themen/entwicklung/entwicklungsschritte/emotionale-entwicklung/), der Verlauf der emotionalen Entwicklung
+- [Bundeszentrale für gesundheitliche Aufklärung: Mit Gefühlen zurechtkommen](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/starke-gefuehle/), wie Kinder mit starken Gefühlen zurechtkommen lernen
+- [Center on the Developing Child, Harvard University: Serve and Return](https://developingchild.harvard.edu/resources/briefs/5-steps-for-brain-building-serve-and-return/), wie Beruhigung von außen die Hirnentwicklung prägt

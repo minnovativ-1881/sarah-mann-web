@@ -156,3 +156,8 @@ Ich schreibe das nicht als jemand, der von außen auf eine Bewegung schaut. Viel
 Was ich mir wünsche, ist etwas anderes: dass die Vollversion wieder sichtbar wird. Die, in der Bedürfnisse ernst genommen werden und Führung trotzdem erlaubt ist. Die, in der Eltern vorkommen.
 
 Denn die aktuelle Debatte hat ein Risiko. Wenn niemand die Vollversion beschreibt, gewinnen am Ende diejenigen, die einfach zurück zur Strenge wollen. Und das wäre für die Kinder das schlechteste aller möglichen Ergebnisse.
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Themenseite Parenting](https://www.apa.org/topics/parenting), Übersicht zur Forschungslage rund um Erziehung
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört

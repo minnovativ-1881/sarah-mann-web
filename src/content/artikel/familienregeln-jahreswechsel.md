@@ -143,3 +143,8 @@ Ein Familienreset ist keine Neuerfindung. Es ist Aufräumen.
 Weniger Regeln, klarer gehalten. Ein Ablauf, der zwanzig Minuten mehr Luft hat. Eine Sache, die verändert wird, statt zehn, die gedacht werden.
 
 Das klingt nach wenig für einen Jahreswechsel. Und es ist mehr, als die meisten Vorsätze am Ende schaffen.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Stichwort Erziehung](https://www.kindergesundheit-info.de/themen/entwicklung/psychische-gesundheit/erziehung/), was aus Sicht der Bundeszentrale zu einer guten Erziehung gehört
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln

@@ -135,3 +135,8 @@ Denk an die letzten drei Konflikte. Was ist mit dem Gefühl deines Kindes passie
 - Nichts von beidem: dann geht es meistens nicht um Erziehung, sondern um Erschöpfung
 
 Und das Letzte ist häufiger, als in Lehrbüchern steht.
+
+## Quellen und weiterführende Informationen
+
+- [American Psychological Association: Themenseite Parenting](https://www.apa.org/topics/parenting), Übersicht zur Forschungslage rund um Erziehung
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich

@@ -154,3 +154,9 @@ Ein Wutanfall ist kein Problem, das gelöst werden muss. Er ist ein Sturm, der v
 Deine Aufgabe ist nicht, ihn zu beenden. Sie ist, dabei zu sein, während er vorbeigeht, und danach noch dieselbe Person zu sein.
 
 Genau daraus wächst über Jahre die Fähigkeit, sich selbst zu beruhigen. Wie, steht in [Wie Kinder lernen, sich selbst zu halten](/wissen/selbstregulation-kind/).
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: Top Tips for Surviving Tantrums](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Temper-Tantrums.aspx), praktische Hinweise für den Moment des Wutanfalls
+- [National Health Service: Temper tantrums](https://www.nhs.uk/conditions/baby/babys-development/behaviour/temper-tantrums/), die Einordnung des britischen Gesundheitsdienstes
+- [Bundeszentrale für gesundheitliche Aufklärung: Kindliche Trotzphase](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/trotzverhalten/), warum Trotzreaktionen ein Entwicklungsschritt sind

@@ -130,3 +130,9 @@ Wenn du mitten in einer solchen Situation steckst, hilft eine einzige Frage weit
 Bei Kann-nicht hilft Beruhigung, Nähe und weniger Reiz. Bei Will-nicht hilft ruhige Klarheit.
 
 Und wenn du dir unsicher bist: Schau auf die Uhr und auf den letzten Snack. Die meisten vermeintlichen Machtkämpfe finden zwischen sechzehn und zwanzig Uhr statt, und das ist kein Zufall.
+
+## Quellen und weiterführende Informationen
+
+- [Bundeszentrale für gesundheitliche Aufklärung: Kindliche Trotzphase](https://www.kindergesundheit-info.de/themen/entwicklung/alltagstipps/entwicklungsschritte/trotzverhalten/), warum Trotzreaktionen ein Entwicklungsschritt sind
+- [National Health Service: Dealing with child behaviour problems](https://www.nhs.uk/conditions/baby/babys-development/behaviour/dealing-with-child-behaviour-problems/), der Umgang mit schwierigem Verhalten
+- [Neue Autorität nach Haim Omer](https://www.newauthority.net/), das Modell von Präsenz und Beharrlichkeit statt Druck

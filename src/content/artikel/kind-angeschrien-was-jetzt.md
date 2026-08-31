@@ -156,3 +156,9 @@ Wiedergutmachung hat kein Verfallsdatum. Morgen früh reicht völlig.
 Kinder verzeihen erstaunlich schnell und erstaunlich vollständig. Meistens deutlich schneller als wir uns selbst.
 
 Und das ist vielleicht der Satz, den du heute am nötigsten brauchst: **Dein Kind braucht dich nicht perfekt. Es braucht dich, wie du wiederkommst.**
+
+## Quellen und weiterführende Informationen
+
+- [Parent-Child Repair Processes and Preschoolers’ Regulatory Skills](https://pmc.ncbi.nlm.nih.gov/articles/PMC5298208/), warum die Wiedergutmachung nach einem Bruch mehr zählt als Fehlerfreiheit
+- [American Academy of Pediatrics: Aktualisierte Leitlinie zu körperlicher Bestrafung](https://www.healthychildren.org/English/news/Pages/AAP-Updates-Corporal-Punishment-Policy.aspx), warum die Fachgesellschaft körperliche Strafen und Anschreien ablehnt
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich

@@ -131,3 +131,8 @@ Statt zu fragen, welchem Ansatz du folgst, helfen zwei andere Fragen weiter:
 **Und hältst du das, was du tust, über Monate durch?**
 
 Was beide Fragen besteht, passt zu euch. Wie es heißt, ist dann ziemlich gleichgültig.
+
+## Quellen und weiterführende Informationen
+
+- [American Academy of Pediatrics: What’s the Best Way to Discipline My Child?](https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Disciplining-Your-Child.aspx), die Empfehlungen der amerikanischen Kinderärzte zu Grenzen und Regeln
+- [American Psychological Association: Positive Discipline](https://www.apa.org/act/resources/fact-sheets/positive-discipline), die Faktenlage zu Strafen im Vergleich
