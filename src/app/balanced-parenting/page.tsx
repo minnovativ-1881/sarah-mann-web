@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ImageBand from "@/components/ImageBand";
 import Image from "next/image";
+import { SITE_URL } from "@/lib/artikel";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -48,10 +49,43 @@ const principles = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      headline: "Balanced Parenting: viel Wärme und viel Klarheit zugleich",
+      description:
+        "Der Mittelweg zwischen Erschöpfung und Entfremdung: viel Wärme und viel Klarheit zugleich.",
+      inLanguage: "de-DE",
+      mainEntityOfPage: { "@type": "WebPage", "@id": `${SITE_URL}/balanced-parenting/` },
+      author: { "@type": "Person", "@id": `${SITE_URL}/#sarah`, name: "Sarah Mann" },
+      publisher: { "@type": "Person", name: "Sarah Mann", url: SITE_URL },
+      image: `${SITE_URL}/bilder/og-standard.jpg`,
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Start", item: SITE_URL },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Das Konzept",
+          item: `${SITE_URL}/balanced-parenting/`,
+        },
+      ],
+    },
+  ],
+};
+
 export default function BalancedParentingPage() {
   return (
     <>
       <Navbar overlay />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <main>
         {/* Hero */}
         <section className="relative pt-44 pb-28 overflow-hidden">
