@@ -52,7 +52,7 @@ Der größte Schmerz-Cluster im Datensatz.
 | 15 | `wie-viele-regeln-braucht-ein-kind` | Weniger, als du denkst | wie viele regeln kleinkind | offen |
 | 16 | `nein-sagen-ohne-schlechtes-gewissen` | Wenn jedes Nein wehtut | nein sagen ohne schlechtes gewissen | offen |
 | 17 | `machtkampf-kleinkind` | Alters-Reihe 2 bis 6 Jahre | machtkampf kind X jahre | offen |
-| 18 | `kind-schlaegt-und-haut` | Was in dem Moment wirklich hilft | kind haut was tun | offen |
+| 18 | `kind-schlaegt-und-haut` | Was in dem Moment wirklich hilft | kind haut was tun | ✅ |
 
 ## Silo 3 — Gefühle und Selbstregulation (8)
 
@@ -62,9 +62,9 @@ Der Land-Grab-Bereich. Ko-Regulation hatte bei 26 Wettbewerbern genau einen Arti
 |---|---|---|---|---|
 | 19 | `selbstregulation-kind` | **P** Wie Kinder lernen, sich selbst zu halten | selbstregulation kind fördern | ✅ |
 | 20 | `ko-regulation` | Bevor ein Kind es selbst kann | co-regulation kind | ✅ |
-| 21 | `wutanfall-begleiten` | Was in der Hochphase wirkt | wutanfall begleiten | offen |
-| 22 | `frustrationstoleranz-kind` | Warum Frust nötig ist | frustrationstoleranz kind stärken | offen |
-| 23 | `kind-beruhigt-sich-nicht` | Wenn nichts mehr hilft | kind lässt sich nicht beruhigen | offen |
+| 21 | `wutanfall-begleiten` | Was in der Hochphase wirkt | wutanfall begleiten | ✅ |
+| 22 | `frustrationstoleranz-kind` | Warum Frust nötig ist | frustrationstoleranz kind stärken | ✅ |
+| 23 | `kind-beruhigt-sich-nicht` | Wenn nichts mehr hilft | kind lässt sich nicht beruhigen | ✅ |
 | 24 | `gefuehle-benennen` | Wie Kinder Worte für Gefühle finden | kind gefühle benennen | offen |
 | 25 | `wann-wutanfall-nicht-normal` | Wann fachliche Hilfe sinnvoll ist | wann trotzphase nicht mehr normal | offen, YMYL |
 | 26 | `wutanfall-in-der-oeffentlichkeit` | Wenn alle schauen | wutanfall supermarkt | offen |
@@ -83,7 +83,7 @@ Sarahs Heimterrain und die Brücke zur Schlafberatung. Einschlafbegleitung hatte
 | 31 | `kind-steht-abends-immer-auf` | Der Nochmal-Kreislauf | kind steht abends immer wieder auf | ✅ |
 | 32 | `nochmal-wuensche-am-abend` | Wie viele sind genug? | wie viele nochmal wünsche | offen |
 | 33 | `kind-will-nur-mit-mama-einschlafen` | Wenn nur eine Person geht | kind will nur mit mama einschlafen | offen |
-| 34 | `zeitumstellung-mit-kind` | Die vier Tage, die den Unterschied machen | zeitumstellung kind | ⏰ **bis 12.10.** |
+| 34 | `zeitumstellung-mit-kind` | Die vier Tage, die den Unterschied machen | zeitumstellung kind | ✅ |
 
 ## Silo 5 — Für dich als Elternteil (7)
 
@@ -108,8 +108,8 @@ Saisonal getaktet, jährlich aktualisierbar statt neu geschrieben.
 | 42 | `uebergaenge-begleiten` | **P** Warum Übergänge so schwer sind | übergänge kind begleiten | ✅ |
 | 43 | `kita-eingewoehnung-kind-weint` | Der Moment an der Kita-Tür | kita eingewöhnung kind weint | ✅ |
 | 44 | `erste-schulwochen` | Struktur, die trägt, ohne zu drücken | schulstart tipps | ✅ |
-| 45 | `morgens-ohne-geschrei` | Der Familienmorgen, der hält | kind steht morgens nicht auf | offen |
-| 46 | `geschenke-und-konsum` | Wie viele Geschenke braucht ein Kind? | wie viele geschenke kinder | ⏰ **bis 20.10.** |
+| 45 | `morgens-ohne-geschrei` | Der Familienmorgen, der hält | kind steht morgens nicht auf | ✅ |
+| 46 | `geschenke-und-konsum` | Wie viele Geschenke braucht ein Kind? | wie viele geschenke kinder | ✅ |
 | 47 | `familienregeln-jahreswechsel` | Der Reset für den Alltag | familienregeln | ⏰ bis 15.12. |
 | 48 | `wenn-oma-anders-erzieht` | Deine Mama erlaubt das nicht | großeltern erziehung einmischen | offen |
 
