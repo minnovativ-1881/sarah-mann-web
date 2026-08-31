@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url,
       type: "website",
       locale: "de_DE",
+      images: [
+        { url: `${SITE_URL}/bilder/og-standard.jpg`, width: 1200, height: 630, alt: "Sarah Mann" },
+      ],
     },
   };
 }

@@ -13,7 +13,7 @@ export const konsequenzOderStrafe: Test = {
   intro:
     "Viele sogenannte Konsequenzen sind in Wahrheit Strafen mit besserem Namen. Acht Situationen aus dem Alltag. Erkennst du, was was ist?",
   beschreibung:
-    "Konsequenz oder Strafe? Acht konkrete Beispiele mit Auflösung. Der Unterschied liegt nicht im Ton, sondern darin, ob es einen echten Zusammenhang zur Sache gibt.",
+    "Konsequenz oder Strafe? Acht konkrete Beispiele mit Auflösung. Der Unterschied liegt nicht im Ton, sondern darin, ob es einen echten Zusammenhang zur Sache.",
   dauer: "3 Minuten",
   achsen: [{ key: "treffer", name: "Treffer", max: 8 }],
   artikel: "kind-hoert-nicht-trotz-konsequenz",
@@ -485,7 +485,7 @@ export const neinTest: Test = {
   intro:
     "Nicht wie streng du bist. Sondern wie verlässlich. Sieben Situationen, in denen sich zeigt, ob deine Grenze steht oder wandert.",
   beschreibung:
-    "Ein Test zur Verlässlichkeit von Grenzen: Wie oft wird aus einem Nein doch ein Ja, wie schnell gehst du vom Reden ins Handeln, und was passiert nach dem dritten Nachfragen?",
+    "Ein Test zur Verlässlichkeit von Grenzen: Wie oft wird aus einem Nein doch ein Ja, wie schnell gehst du vom Reden ins Handeln, und was passiert nach dem.",
   dauer: "2 Minuten",
   achsen: [{ key: "klarheit", name: "Verlässlichkeit", max: 21 }],
   artikel: "kind-hoert-nicht-trotz-konsequenz",

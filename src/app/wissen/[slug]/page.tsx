@@ -47,7 +47,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: a.datum,
       modifiedTime: a.aktualisiert ?? a.datum,
       authors: ["Sarah Mann"],
-      images: a.bild ? [{ url: `${SITE_URL}${a.bild}` }] : undefined,
+      // Ein eigener openGraph-Block ersetzt den aus dem Layout vollstaendig.
+      // Ohne Rueckfall haetten alle Artikel ohne Foto gar kein Vorschaubild.
+      images: a.bild
+        ? [{ url: `${SITE_URL}${a.bild}` }]
+        : [{ url: `${SITE_URL}/bilder/og-standard.jpg`, width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",

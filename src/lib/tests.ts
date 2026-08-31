@@ -71,7 +71,7 @@ const elternTyp: Test = {
   intro:
     "Acht ganz normale Situationen aus dem Familienalltag. Keine Theorie, keine Fachbegriffe. Am Ende siehst du, wo du zwischen Wärme und Klarheit gerade stehst.",
   beschreibung:
-    "Kostenloser Erziehungsstil-Test auf den beiden Achsen, die die Forschung seit sechzig Jahren untersucht: Wärme und Klarheit. Acht Alltagssituationen, zwei Minuten, danach die ausführliche Auswertung.",
+    "Kostenloser Erziehungsstil-Test auf den beiden Achsen, die die Forschung seit sechzig Jahren untersucht: Wärme und Klarheit. Acht Situationen, zwei Minuten.",
   dauer: "2 Minuten",
   achsen: [
     { key: "waerme", name: "Wärme", max: 12, schwelle: 8 },
@@ -257,7 +257,7 @@ const bedWunsch: Test = {
   intro:
     "Ein Bedürfnis ist nicht verhandelbar. Ein Wunsch schon. Genau an dieser Unterscheidung entscheidet sich im Alltag fast alles. Acht Situationen, ordne sie zu.",
   beschreibung:
-    "Bedürfnis oder Wunsch? Acht ganz normale Familiensituationen zum Zuordnen, mit Auflösung. Die Unterscheidung, an der bedürfnisorientierte Erziehung im Alltag oft scheitert.",
+    "Bedürfnis oder Wunsch? Acht ganz normale Familiensituationen zum Zuordnen, mit Auflösung.",
   dauer: "3 Minuten",
   achsen: [{ key: "treffer", name: "Treffer", max: 8 }],
   artikel: "beduerfnis-oder-wunsch",

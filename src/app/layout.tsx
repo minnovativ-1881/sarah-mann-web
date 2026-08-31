@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   title: "Sarah Mann — Klare Führung, volle Liebe",
   description:
-    "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sie zeigt Eltern einen Weg, der Wärme und Klarheit verbindet: liebevoll erziehen, ohne sich selbst zu verlieren.",
+    "Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sarah Mann zeigt einen Weg, der Wärme und Klarheit verbindet.",
   keywords: [
     "Sarah Mann",
     "Erziehung",

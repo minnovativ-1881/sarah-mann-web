@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     description: "Viel Wärme und viel Klarheit zugleich. Was das im Alltag bedeutet.",
     url: "/balanced-parenting/",
     type: "article",
+    images: [{ url: "/bilder/og-standard.jpg", width: 1200, height: 630, alt: "Sarah Mann" }],
   },
 };
 

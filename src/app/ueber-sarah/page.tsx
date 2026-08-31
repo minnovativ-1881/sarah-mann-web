@@ -18,6 +18,7 @@ export const metadata: Metadata = {
       "Pädagogin, Babyschlafberaterin, Mutter von sieben Kindern. Warum sie über Wärme und Klarheit schreibt.",
     url: "/ueber-sarah/",
     type: "profile",
+    images: [{ url: "/bilder/sarah.webp", alt: "Sarah Mann" }],
   },
 };
 
