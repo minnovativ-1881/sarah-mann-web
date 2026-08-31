@@ -6,16 +6,15 @@ import { NextResponse } from "next/server";
  * Laeuft bewusst auf dem Server, damit der API-Schluessel nicht im Browser
  * landet und damit wir eine echte Antwort bekommen statt ins Leere zu senden.
  *
- * Schluessel kommen aus den Umgebungsvariablen. Pro Test kann ein eigener
- * Opt-In-Prozess hinterlegt werden, sonst greift der allgemeine:
+ * Format nach der Listbuilding-API: POST mit JSON, "fields" als verschachteltes
+ * Objekt. Feldschluessel sind entweder Standardnamen wie fieldFirstName oder
+ * die IDs eigener Felder aus KlickTipp.
  *
- *   KLICKTIPP_APIKEY_ELTERN_TEST      (Test-Slug in Grossbuchstaben, - wird zu _)
- *   KLICKTIPP_APIKEY                  (Rueckfallebene fuer alle uebrigen Tests)
- *
- * Optional lassen sich Ergebnis und Punkte in KlickTipp-Felder schreiben:
- *
- *   KLICKTIPP_FELD_TEST=fieldXXXXXX
- *   KLICKTIPP_FELD_TYP=fieldXXXXXX
+ * Umgebungsvariablen:
+ *   KLICKTIPP_APIKEY_<SLUG>   Schluessel je Test, Slug gross, - wird zu _
+ *   KLICKTIPP_APIKEY          Rueckfallebene fuer alle uebrigen Tests
+ *   KLICKTIPP_FELD_TYP        Feld-ID fuer das Testergebnis, z. B. field1001135
+ *   KLICKTIPP_FELD_TEST       Feld-ID fuer den Testnamen, optional
  */
 
 const ENDPUNKT = "https://api.klicktipp.com/subscriber/signin";
@@ -44,6 +43,8 @@ export async function POST(anfrage: Request) {
   const mail = daten.mail;
   const vorname = typeof daten.vorname === "string" ? daten.vorname.slice(0, 80) : "";
   const test = typeof daten.test === "string" ? daten.test.slice(0, 60) : "";
+  // Klartext des Ergebnisses, damit in KlickTipp lesbar steht, was herauskam.
+  const ergebnis = typeof daten.ergebnis === "string" ? daten.ergebnis.slice(0, 120) : "";
   const typ = typeof daten.typ === "string" ? daten.typ.slice(0, 60) : "";
 
   if (!istMail(mail)) {
@@ -52,37 +53,37 @@ export async function POST(anfrage: Request) {
 
   const apikey = schluesselFuer(test);
   if (!apikey) {
-    // Noch kein Schluessel hinterlegt. Kein Fehler nach aussen: der Test soll
-    // trotzdem durchlaufen, damit kein Interessent vor einer Wand steht.
     console.warn(`[eintrag] Kein KlickTipp-Schluessel fuer Test "${test}"`);
     return NextResponse.json({ ok: true, eingetragen: false });
   }
 
-  const koerper = new URLSearchParams();
-  koerper.set("apikey", apikey);
-  koerper.set("email", mail);
-  if (vorname) koerper.set("fields[fieldFirstName]", vorname);
-  if (process.env.KLICKTIPP_FELD_TEST && test) {
-    koerper.set(`fields[${process.env.KLICKTIPP_FELD_TEST}]`, test);
+  const fields: Record<string, string> = {};
+  if (vorname) fields.fieldFirstName = vorname;
+  if (process.env.KLICKTIPP_FELD_TYP) {
+    fields[process.env.KLICKTIPP_FELD_TYP] = ergebnis || typ;
   }
-  if (process.env.KLICKTIPP_FELD_TYP && typ) {
-    koerper.set(`fields[${process.env.KLICKTIPP_FELD_TYP}]`, typ);
+  if (process.env.KLICKTIPP_FELD_TEST && test) {
+    fields[process.env.KLICKTIPP_FELD_TEST] = test;
   }
 
   try {
     const antwort = await fetch(ENDPUNKT, {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: koerper,
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        apikey,
+        email: mail,
+        ...(Object.keys(fields).length ? { fields } : {}),
+      }),
       cache: "no-store",
-      signal: AbortSignal.timeout(8000),
+      signal: AbortSignal.timeout(10000),
     });
 
     if (!antwort.ok) {
       const text = await antwort.text().catch(() => "");
-      console.error(`[eintrag] KlickTipp antwortete ${antwort.status}: ${text.slice(0, 300)}`);
-      // Auch hier: der Nutzer bekommt sein Ergebnis. Ein Fehler auf unserer
-      // Seite darf keinen Lead kosten und niemanden blockieren.
+      console.error(`[eintrag] KlickTipp ${antwort.status} bei "${test}": ${text.slice(0, 300)}`);
+      // Der Nutzer bekommt trotzdem seine Bestaetigungsseite. Ein Fehler auf
+      // unserer Seite darf keinen Interessenten kosten.
       return NextResponse.json({ ok: true, eingetragen: false });
     }
 

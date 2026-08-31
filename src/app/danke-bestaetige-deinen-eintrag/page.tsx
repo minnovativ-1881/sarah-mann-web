@@ -1,131 +1,78 @@
 import type { Metadata } from "next";
-import { Suspense } from "react";
-import Link from "next/link";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import ErgebnisAusUrl from "@/components/ErgebnisAusUrl";
+import Image from "next/image";
 import { SITE_URL } from "@/lib/artikel";
-import { TESTS, testUrl } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Fast geschafft: bestätige deinen Eintrag | Sarah Mann",
-  description:
-    "Dein Ergebnis liegt bereit. Bestätige noch kurz die E-Mail, dann geht es los.",
+  description: "Dein Ergebnis wartet. Bestätige noch kurz die E-Mail.",
   robots: { index: false, follow: false },
   alternates: { canonical: `${SITE_URL}/danke-bestaetige-deinen-eintrag/` },
 };
 
+/**
+ * Bewusst ohne Menü, ohne Fußzeile, ohne Weiterlesen-Angebote.
+ *
+ * Wer hier ist, hat genau eine Aufgabe: die E-Mail bestätigen. Jeder weitere
+ * Link auf dieser Seite kostet Bestätigungen. Und das Ergebnis steht nirgends,
+ * auch nicht in Teilen: es kommt ausschließlich per E-Mail.
+ */
 export default function BestaetigenSeite() {
   return (
-    <>
-      <Navbar />
+    <main className="min-h-screen bg-cream-dark flex items-center justify-center px-6 py-20">
+      <div className="w-full max-w-2xl text-center">
+        {/* Logo statt Menü, damit die Seite trotzdem zugehörig wirkt */}
+        <span
+          className="relative inline-block h-9 mb-16"
+          style={{ aspectRatio: "708 / 171" }}
+        >
+          <Image
+            src="/bilder/logo-nav.webp"
+            alt="Sarah Mann"
+            fill
+            sizes="180px"
+            priority
+            className="object-contain"
+          />
+        </span>
 
-      <header className="pt-36 pb-14 bg-cream-dark">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12">
-          <p className="text-overline text-terra mb-6">Noch ein Schritt</p>
-          <h1
-            className="font-serif text-deep"
-            style={{ fontSize: "clamp(2.2rem, 5.5vw, 4rem)", lineHeight: 1.08 }}
-          >
-            Schau bitte kurz
-            <br />
-            <em className="text-terra italic">in dein Postfach.</em>
-          </h1>
-          <p className="text-deep/75 leading-relaxed mt-8" style={{ fontSize: "1.2rem" }}>
-            Ich habe dir gerade eine E-Mail geschickt. Ein Klick auf den Link
-            darin, und du bist dabei. Das ist gesetzlich vorgeschrieben und
-            dauert zehn Sekunden.
+        <p className="text-overline text-terra mb-7">Noch ein Schritt</p>
+
+        <h1
+          className="font-serif text-deep"
+          style={{ fontSize: "clamp(2.3rem, 6vw, 4rem)", lineHeight: 1.06 }}
+        >
+          Schau bitte kurz
+          <br />
+          <em className="text-terra italic">in dein Postfach.</em>
+        </h1>
+
+        <div
+          className="mx-auto mt-9"
+          style={{ width: "3rem", height: "1px", backgroundColor: "#136B73" }}
+        />
+
+        <p
+          className="text-deep/80 leading-relaxed mt-9 mx-auto"
+          style={{ fontSize: "1.15rem", maxWidth: "34rem" }}
+        >
+          Ich habe dir gerade eine E-Mail geschickt. Klick auf den Link darin,
+          dann bekommst du dein Ergebnis. Das ist gesetzlich vorgeschrieben und
+          dauert zehn Sekunden.
+        </p>
+
+        <div className="mt-14 border border-cream-mid bg-cream px-7 py-6 text-left mx-auto" style={{ maxWidth: "34rem" }}>
+          <p className="text-deep/75 text-sm leading-relaxed">
+            <strong className="font-medium text-deep">Nichts angekommen?</strong>{" "}
+            Gib der Mail zwei Minuten. Danach lohnt ein Blick in den Spam-Ordner
+            und bei Gmail in den Reiter Werbung. Wenn sie dort liegt, zieh sie
+            einmal in den Posteingang, dann kommen die nächsten richtig an.
           </p>
         </div>
-      </header>
 
-      {/* Was zu tun ist */}
-      <section className="section-padding bg-cream">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12">
-          <ol className="space-y-7">
-            {[
-              {
-                titel: "E-Mail öffnen",
-                text: "Absenderin ist Sarah Mann. Betreff: Bitte bestätige deine E-Mail-Adresse.",
-              },
-              {
-                titel: "Auf den Link klicken",
-                text: "Damit bestätigst du, dass die Adresse wirklich dir gehört.",
-              },
-              {
-                titel: "Fertig",
-                text: "Ab dann bekommst du Sarahs Impulse. Die erste Mail kommt am nächsten Morgen.",
-              },
-            ].map((s, i) => (
-              <li key={i} className="flex gap-6">
-                <span
-                  className="font-serif text-stone flex-shrink-0"
-                  style={{ fontSize: "2rem", lineHeight: 1 }}
-                >
-                  {i + 1}
-                </span>
-                <div>
-                  <p className="font-serif text-deep text-xl mb-1">{s.titel}</p>
-                  <p className="text-deep/70 leading-relaxed">{s.text}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-
-          <div className="border-l-2 border-terra pl-6 mt-12">
-            <p className="text-deep/75 leading-relaxed">
-              <strong className="font-medium text-deep">Nichts angekommen?</strong>{" "}
-              Gib der Mail zwei Minuten. Danach lohnt ein Blick in den
-              Spam-Ordner und bei Gmail in den Reiter Werbung. Wenn sie dort
-              liegt, zieh sie einmal in den Posteingang, dann kommen die
-              nächsten richtig an.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Das Ergebnis, falls die URL es mitbringt */}
-      <section className="section-padding bg-cream-dark">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12">
-          <Suspense fallback={null}>
-            <ErgebnisAusUrl eyebrow="Deine Auswertung" />
-          </Suspense>
-        </div>
-      </section>
-
-      {/* Weiterlesen, damit die Seite kein Ende ist */}
-      <section className="section-padding bg-cream">
-        <div className="max-w-3xl mx-auto px-6 lg:px-12">
-          <p className="text-overline text-terra mb-8">Solange du wartest</p>
-          <h2
-            className="font-serif text-deep mb-8"
-            style={{ fontSize: "clamp(1.6rem, 3vw, 2.2rem)" }}
-          >
-            Es gibt noch {TESTS.length - 1} weitere Tests.
-          </h2>
-          <div className="grid sm:grid-cols-2 gap-px bg-cream-mid">
-            {TESTS.slice(0, 4).map((t) => (
-              <Link
-                key={t.slug}
-                href={testUrl(t.slug)}
-                className="bg-cream p-6 group hover:bg-cream-dark transition-colors"
-              >
-                <p className="text-overline text-terra/70 mb-2">{t.dauer}</p>
-                <p className="font-serif text-deep text-lg group-hover:text-terra transition-colors">
-                  {t.titel}
-                </p>
-              </Link>
-            ))}
-          </div>
-          <p className="mt-10">
-            <Link href="/wissen/" className="btn-outline btn-outline-dark">
-              Zu den Artikeln
-            </Link>
-          </p>
-        </div>
-      </section>
-
-      <Footer />
-    </>
+        <p className="text-deep/40 text-xs tracking-wide mt-16">
+          Sarah Mann &nbsp;·&nbsp; Klare Führung, volle Liebe
+        </p>
+      </div>
+    </main>
   );
 }

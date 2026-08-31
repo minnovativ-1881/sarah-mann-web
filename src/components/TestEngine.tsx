@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Link from "next/link";
 import type { Test, Ergebnis } from "@/lib/tests";
 
 const box = "bg-cream p-8 lg:p-12 border-2 border-terra";
@@ -174,15 +173,9 @@ export default function TestEngine({ test }: { test: Test }) {
       setFehler("");
       setSendet(true);
 
-      // Das Ergebnis lebt ab jetzt auf der Bestaetigungsseite. Der Weg dorthin
-      // traegt Test und Ergebnis in der URL, damit die Seite ohne Server-Sitzung
-      // auskommt und der Link teilbar bleibt.
-      const ziel =
-        "/danke-bestaetige-deinen-eintrag/?test=" +
-        encodeURIComponent(test.slug) +
-        "&typ=" +
-        encodeURIComponent(erg.key) +
-        (vorname ? "&name=" + encodeURIComponent(vorname) : "");
+      // Das Ergebnis geht ausschliesslich per E-Mail. Auf der Seite danach
+      // steht deshalb nichts davon, auch nicht in Teilen.
+      const ziel = "/danke-bestaetige-deinen-eintrag/";
 
       // Ein Fehler beim Eintragen darf den Weg zum Ergebnis nicht blockieren.
       try {
@@ -191,6 +184,7 @@ export default function TestEngine({ test }: { test: Test }) {
           vorname,
           test: test.slug,
           typ: erg.key,
+          ergebnis: erg.name,
           punkte,
         });
       } catch {
@@ -200,7 +194,8 @@ export default function TestEngine({ test }: { test: Test }) {
       try {
         window.location.assign(ziel);
       } catch {
-        // Falls die Weiterleitung nicht greift, das Ergebnis hier zeigen.
+        // Falls die Weiterleitung nicht greift, wenigstens die Bestaetigung
+        // zeigen. Das Ergebnis bleibt auch dann der E-Mail vorbehalten.
         setFreigegeben(true);
         setSendet(false);
       }
@@ -213,16 +208,18 @@ export default function TestEngine({ test }: { test: Test }) {
           className="font-serif text-deep"
           style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", lineHeight: 1.2 }}
         >
-          Dein Ergebnis ist fertig.
+          Wohin soll ich dein
+          <br />
+          <em className="text-terra italic">Ergebnis schicken?</em>
         </h2>
         <div className="divider-terra" />
         <p
           className="text-deep/80 leading-relaxed mt-6 max-w-xl"
           style={{ fontSize: "1.1rem" }}
         >
-          Sag mir, wohin ich es schicken darf. Du kommst direkt danach zu deiner
-          Auswertung und bekommst sie zusätzlich per E-Mail, damit du sie in Ruhe
-          nachlesen kannst.
+          Deine Auswertung ist fertig. Ich schicke sie dir per E-Mail, mit der
+          Einordnung und den nächsten Schritten, damit du sie in Ruhe lesen
+          kannst und später wiederfindest.
         </p>
 
         <form onSubmit={absenden} className="mt-9 max-w-xl">
@@ -253,7 +250,7 @@ export default function TestEngine({ test }: { test: Test }) {
             disabled={sendet}
             className="btn-primary justify-center mt-4 w-full sm:w-auto disabled:opacity-60"
           >
-            {sendet ? "Einen Moment …" : "Ergebnis ansehen"}
+            {sendet ? "Einen Moment …" : "Ergebnis zuschicken"}
           </button>
           <p className="text-deep/50 text-xs leading-relaxed mt-5">
             Du bekommst dein Ergebnis und danach Sarahs Impulse für klare
@@ -272,87 +269,29 @@ export default function TestEngine({ test }: { test: Test }) {
     );
   }
 
-  /* ---------------------------- Ergebnis ---------------------------- */
+  /* ------------- Rueckfall, wenn die Weiterleitung nicht greift ------------- */
+  /* Auch hier steht das Ergebnis NICHT. Es geht ausschliesslich per E-Mail. */
   return (
     <div className={box} style={schatten}>
-      <p className="text-overline text-terra mb-5">
-        {vorname ? `${vorname}, dein Ergebnis` : "Dein Ergebnis"}
-      </p>
+      <p className="text-overline text-terra mb-5">Unterwegs</p>
       <h2
         className="font-serif text-deep"
-        style={{ fontSize: "clamp(2rem, 4vw, 3rem)", lineHeight: 1.15 }}
+        style={{ fontSize: "clamp(1.8rem, 3.5vw, 2.6rem)", lineHeight: 1.2 }}
       >
-        {erg.name}
+        Deine Auswertung ist raus.
       </h2>
-      <p className="font-serif italic text-terra text-lg lg:text-xl mt-3">
-        {erg.unter}
-      </p>
       <div className="divider-terra" />
-
-      <div className="flex flex-wrap gap-8 mt-7 mb-8">
-        {test.achsen.map((a) => (
-          <div key={a.key}>
-            <p className="text-overline text-terra/70 mb-2">{a.name}</p>
-            <p className="font-serif text-deep text-2xl">
-              {punkte[a.key] ?? 0}
-              <span className="text-deep/40 text-base"> von {a.max}</span>
-            </p>
-            <div className="h-1 bg-cream-mid mt-2" style={{ width: "9rem" }}>
-              <div
-                className="h-1 bg-terra"
-                style={{
-                  width: `${Math.round(((punkte[a.key] ?? 0) / a.max) * 100)}%`,
-                }}
-              />
-            </div>
-          </div>
-        ))}
-      </div>
-
       <p
-        className="text-deep/80 leading-relaxed max-w-2xl"
+        className="text-deep/80 leading-relaxed mt-6 max-w-xl"
         style={{ fontSize: "1.1rem" }}
       >
-        {erg.text}
+        Schau bitte in dein Postfach. Dort liegt eine E-Mail mit der Bitte, deine
+        Adresse zu bestätigen. Ein Klick darauf, und du bekommst dein Ergebnis.
       </p>
-
-      {erg.schritte && erg.schritte.length > 0 && (
-        <div className="mt-8 max-w-2xl">
-          <p className="text-overline text-terra mb-4">
-            Was jetzt konkret hilft
-          </p>
-          <ul className="space-y-3">
-            {erg.schritte.map((s, i) => (
-              <li key={i} className="flex gap-4 text-deep/80 leading-relaxed">
-                <span
-                  className="font-serif text-stone flex-shrink-0"
-                  style={{ fontSize: "1.4rem", lineHeight: 1.2 }}
-                >
-                  {i + 1}
-                </span>
-                <span>{s}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      <div className="flex flex-wrap gap-6 items-center mt-10">
-        {test.artikel && (
-          <Link
-            href={`/wissen/${test.artikel}/`}
-            className="btn-outline btn-outline-dark"
-          >
-            Mehr dazu lesen
-          </Link>
-        )}
-        <button
-          onClick={neu}
-          className="text-deep/50 text-sm tracking-wide hover:text-deep transition-colors"
-        >
-          Test wiederholen
-        </button>
-      </div>
+      <p className="text-deep/55 text-sm leading-relaxed mt-6 max-w-xl">
+        Nichts angekommen? Gib der Mail zwei Minuten und schau danach im
+        Spam-Ordner nach.
+      </p>
     </div>
   );
 }
@@ -370,6 +309,7 @@ async function eintragen(daten: {
   vorname: string;
   test: string;
   typ: string;
+  ergebnis: string;
   punkte: Record<string, number>;
 }) {
   await fetch("/api/eintrag/", {
