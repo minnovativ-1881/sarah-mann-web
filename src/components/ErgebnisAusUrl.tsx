@@ -25,13 +25,16 @@ export default function ErgebnisAusUrl({ eyebrow }: { eyebrow?: string }) {
   const ergebnis = test.ergebnisse.find((e) => e.key === typ);
   if (!ergebnis) return null;
 
+  // Mit Vorname wird die Zeile persoenlich, sonst bleibt der uebergebene Text.
+  const zeile = name && eyebrow ? `${name}, ${eyebrow.charAt(0).toLowerCase()}${eyebrow.slice(1)}` : eyebrow;
+
   return (
     <div className="bg-cream border-2 border-terra p-8 lg:p-12" style={{ boxShadow: "0 24px 60px rgba(19,107,115,0.14)" }}>
       <ErgebnisAnzeige
         test={test}
         ergebnis={ergebnis}
         vorname={name ?? undefined}
-        eyebrow={eyebrow}
+        eyebrow={zeile}
       />
     </div>
   );
