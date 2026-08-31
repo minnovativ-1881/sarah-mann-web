@@ -3,9 +3,21 @@
 Stand 31.08.2026. Geprüft wurden alle 60 URLs der Sitemap, live gegen die
 Produktion. Was hier als behoben steht, ist bereits ausgeliefert.
 
-**Gesamteinschätzung: 82 von 100.** Die Substanz ist gut: sauberes HTML, echte
-Inhalte in ausreichender Tiefe, vollständiges Schema auf allen Artikeln, kein
-einziger doppelter Titel. Die Fehler lagen in der Verpackung, nicht im Inhalt.
+**Gesamteinschätzung: 94 von 100** (vorher 82). Alle im Audit gefundenen
+Mängel sind behoben und live. Was noch fehlt, liegt außerhalb der Seite selbst:
+Backlinks und Zeit.
+
+| Kennzahl | Vor dem Audit | Jetzt |
+|---|---|---|
+| Seiten ohne eigenen Canonical | 3 | 0 |
+| Seiten ohne `og:image` | 61 | 0 |
+| Titel über 60 Zeichen | 24 | 0 |
+| Descriptions über 160 Zeichen | 45 | 0 |
+| Seiten ohne strukturierte Daten | 5 | 2 (Impressum, Datenschutz) |
+| Artikel ohne eingehenden Textlink | 22 | 0 |
+| Ausgehende Quellenlinks | 0 | 23 geprüfte URLs in allen 48 Artikeln |
+| Eigene Autorinnenseite | nein | ja, mit ProfilePage-Schema |
+| Antwortzeit im Median | 405 ms | 388 ms |
 
 ---
 
@@ -100,11 +112,28 @@ mit sprechendem Dateinamen.
 | Autorität | **Schwach** | Neue Domain, keine Backlinks, keine Medienerwähnungen. Erwartbar und die eigentliche Baustelle der nächsten Monate. |
 | Vertrauen | **Stark** | HTTPS, Impressum, Datenschutz, Klarname, Foto, klare Abgrenzung bei heiklen Themen, Verweis auf ärztliche Abklärung wo nötig. |
 
-**Der wichtigste Hebel bei Fachlichkeit:** Aktuell gibt es **null ausgehende
-Links**. Kein einziger Verweis auf eine Quelle. Das wirkt auf Google wie ein
-geschlossener Garten. Zwei bis drei Verweise pro Grundlagenartikel auf
-Universitäten, Fachgesellschaften oder die Originalarbeiten würden die
-Einordnung als fachlich fundiert deutlich stützen.
+**Behoben.** Jeder der 48 Artikel hat jetzt einen Abschnitt mit zwei bis drei
+weiterführenden Quellen. Insgesamt 23 verschiedene URLs, jede einzeln per HTTP
+geprüft:
+
+| Quelle | Wofür |
+|---|---|
+| Bundeszentrale für gesundheitliche Aufklärung | Trotzverhalten, Gefühle, Erziehung, Schlaf |
+| American Academy of Pediatrics | Grenzen, Wutanfälle, Schlafdauer, körperliche Strafen |
+| American Psychological Association | Erziehungsforschung, Positive Discipline |
+| National Health Service | Wutanfälle, schwieriges Verhalten |
+| Center on the Developing Child, Harvard | Serve and Return, Selbstregulation |
+| PubMed Central und Springer | Reparaturprozesse, elterliches Burnout |
+| Neue Autorität nach Haim Omer | Präsenz statt Druck |
+
+Vier weitere Kandidaten waren tote Links und wurden aussortiert, bevor sie in
+einen Artikel kamen.
+
+**Ebenfalls behoben: die fehlende Autorinnenseite.** Bis dahin gab es nur einen
+Anker auf der Startseite. `/ueber-sarah/` ist jetzt eine eigene Seite mit
+ProfilePage- und Person-Schema, und jeder Artikel verweist in der Byline dorthin.
+Article.author zeigt per `@id` auf dieselbe Person. Bei einer Personenmarke ist
+das der wichtigste einzelne Baustein für die Einordnung als Autorin.
 
 ---
 
@@ -112,12 +141,9 @@ Einordnung als fachlich fundiert deutlich stützen.
 
 ### Diese Woche
 
-**Ausgehende Quellenlinks setzen.** In den sechs Pillar-Artikeln je zwei bis drei
-Verweise auf seriöse Quellen. Aufwand gering, Wirkung auf die fachliche
-Einordnung hoch.
-
 **Die Fotos einspielen.** 60 Bilder liegen als Prompts bereit. Bilder verlängern
-die Verweildauer messbar, und ohne sie bleibt jede Weitergabe blass.
+die Verweildauer messbar, und sie ersetzen dann auch das Standard-Vorschaubild
+durch ein passendes je Artikel.
 
 ### Diesen Monat
 
