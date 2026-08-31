@@ -1,0 +1,542 @@
+<title>Bildstrecke sarahmann.de</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --grund:#F6F4EF; --flaeche:#FFFFFF; --kante:#E3DFD6; --kante-stark:#CFC9BC;
+  --schrift:#211F1B; --schrift-leise:#6B655C; --schrift-still:#948D82;
+  --petrol:#136B73; --petrol-tief:#0C3A40; --stein:#A89B8C;
+  --erledigt:#EDF2F0; --knopfschrift:#FFFFFF;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Jost","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --grund:#14150F; --flaeche:#1D1E18; --kante:#2E3029; --kante-stark:#43463C;
+    --schrift:#F0EDE4; --schrift-leise:#A9A398; --schrift-still:#7C766B;
+    --petrol:#5FB3B8; --petrol-tief:#8FCBCE; --stein:#B6A995;
+    --erledigt:#1A2422; --knopfschrift:#11201E;
+  }
+}
+:root[data-theme="dark"]{
+  --grund:#14150F; --flaeche:#1D1E18; --kante:#2E3029; --kante-stark:#43463C;
+  --schrift:#F0EDE4; --schrift-leise:#A9A398; --schrift-still:#7C766B;
+  --petrol:#5FB3B8; --petrol-tief:#8FCBCE; --stein:#B6A995;
+  --erledigt:#1A2422; --knopfschrift:#11201E;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--grund); color:var(--schrift);
+  font-family:var(--sans); font-weight:300; font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.huelle{max-width:1180px; margin:0 auto; padding:0 24px 96px}
+
+header.seite{padding:72px 0 40px}
+h1{
+  font-family:var(--serif); font-weight:400; font-size:clamp(2.4rem,5vw,3.8rem);
+  line-height:1.05; margin:0 0 18px; text-wrap:balance; letter-spacing:-.01em;
+}
+h1 em{font-style:italic; color:var(--petrol)}
+.vorspann{max-width:62ch; color:var(--schrift-leise); font-size:1.05rem; margin:0}
+.marke{
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--petrol); margin:0 0 20px;
+}
+
+.stil{background:var(--flaeche); border:1px solid var(--kante); padding:26px}
+.stil h2{
+  font-family:var(--sans); font-weight:500; font-size:.76rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--schrift-leise); margin:0 0 14px;
+}
+.stil pre{
+  font-family:var(--mono); font-size:.78rem; line-height:1.7; color:var(--schrift-leise);
+  margin:0; white-space:pre-wrap; max-width:80ch;
+}
+.stil .hinweis{font-size:.88rem; color:var(--schrift-still); margin:16px 0 0; max-width:70ch}
+
+.leiste{
+  position:sticky; top:0; z-index:10; background:var(--grund);
+  border-bottom:1px solid var(--kante); padding:14px 0; margin-top:44px;
+  display:flex; flex-wrap:wrap; gap:14px 26px; align-items:center;
+}
+.zaehler{font-family:var(--mono); font-size:.9rem; font-variant-numeric:tabular-nums}
+.zaehler b{color:var(--petrol); font-weight:500}
+.balken{flex:1; min-width:150px; height:3px; background:var(--kante); position:relative; overflow:hidden}
+.balken i{position:absolute; top:0; bottom:0; left:0; background:var(--petrol); width:0; transition:width .4s ease}
+.leiste button{
+  font-family:var(--sans); font-size:.82rem; color:var(--schrift-leise);
+  background:none; border:1px solid var(--kante-stark); padding:7px 14px; cursor:pointer;
+  transition:color .2s, border-color .2s;
+}
+.leiste button:hover{color:var(--schrift); border-color:var(--schrift-leise)}
+.leiste button:focus-visible,.karte button:focus-visible,.haken:focus-visible{
+  outline:2px solid var(--petrol); outline-offset:2px;
+}
+
+section.gruppe{margin-top:60px}
+section.gruppe > h2{
+  font-family:var(--serif); font-weight:400; font-size:2rem; margin:0 0 8px; letter-spacing:-.005em;
+}
+.gruppenzeile{
+  display:flex; flex-wrap:wrap; gap:6px 20px;
+  font-family:var(--mono); font-size:.73rem; color:var(--schrift-still);
+  padding-bottom:16px; border-bottom:1px solid var(--kante-stark); margin:0;
+}
+
+.karte{
+  display:grid; grid-template-columns:34px 1fr auto; gap:0 20px; align-items:start;
+  padding:22px 0; border-bottom:1px solid var(--kante);
+}
+.karte[data-fertig="ja"]{background:var(--erledigt)}
+.karte[data-fertig="ja"] .szene{color:var(--schrift-still)}
+.karte[data-fertig="ja"] .datei{text-decoration:line-through}
+.haken{
+  appearance:none; -webkit-appearance:none; width:19px; height:19px; margin:4px 0 0 6px;
+  cursor:pointer; border:1px solid var(--kante-stark); background:var(--flaeche);
+  display:grid; place-items:center;
+}
+.haken:checked{background:var(--petrol); border-color:var(--petrol)}
+.haken:checked::after{content:"x"; color:var(--knopfschrift); font-size:11px; line-height:1; font-family:var(--mono)}
+.datei{
+  font-family:var(--mono); font-size:.86rem; font-weight:500; color:var(--petrol);
+  margin:0 0 7px; word-break:break-all;
+}
+.szene{margin:0; max-width:66ch; color:var(--schrift-leise); font-size:.95rem}
+.karte button{
+  font-family:var(--sans); font-size:.8rem; letter-spacing:.02em;
+  background:var(--petrol); color:var(--knopfschrift); border:0; padding:10px 17px;
+  cursor:pointer; white-space:nowrap; transition:background .2s;
+}
+.karte button:hover{background:var(--petrol-tief)}
+.karte button.fertig{background:var(--stein)}
+
+.schluss{margin-top:72px; padding-top:34px; border-top:1px solid var(--kante-stark); max-width:70ch}
+.schluss h2{font-family:var(--serif); font-weight:400; font-size:1.7rem; margin:0 0 14px}
+.schluss p{color:var(--schrift-leise); font-size:.95rem}
+.schluss pre{
+  font-family:var(--mono); font-size:.8rem; background:var(--flaeche);
+  border:1px solid var(--kante); padding:16px; overflow-x:auto; line-height:1.6; margin:18px 0;
+}
+
+@media (max-width:720px){
+  .karte{grid-template-columns:28px 1fr; gap:0 12px}
+  .karte button{grid-column:2; justify-self:start; margin-top:14px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+<div class="huelle">
+<header class="seite">
+  <p class="marke">sarahmann.de &nbsp;&middot;&nbsp; Bildproduktion</p>
+  <h1>Sechzig Bilder,<br><em>ein Blick.</em></h1>
+  <p class="vorspann">Jede Zeile ergibt ein fertiges Bild. Kopieren, in ChatGPT einf&uuml;gen,
+  Ergebnis unter dem angegebenen Dateinamen in den passenden Ordner legen. Die Website findet
+  die Datei von selbst, eingetragen werden muss nichts.</p>
+</header>
+<div class="stil">
+  <h2>Der Stil-Block, der in jedem Prompt steckt</h2>
+  <pre>Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.</pre>
+  <p class="hinweis">Er steckt in jedem Kopieren-Knopf schon drin, du musst ihn nicht separat
+  einf&uuml;gen. Er sorgt daf&uuml;r, dass die sechzig Bilder wie eine Serie wirken und nicht
+  wie sechzig Stockfotos.</p>
+</div>
+<div class="leiste">
+  <span class="zaehler"><b id="fertig">0</b> von 60 erzeugt</span>
+  <span class="balken"><i id="balken"></i></span>
+  <button type="button" id="zuruecksetzen">Fortschritt zur&uuml;cksetzen</button>
+</div>
+<section class="gruppe"><h2>Silo-Bänder</h2>
+<p class="gruppenzeile"><span>6 Bilder</span><span>1920 x 1080 (16:9)</span><span>public/bilder/silos/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_grundlagen.webp" aria-label="grundlagen.webp als erzeugt markieren"><div><p class="datei">grundlagen.webp</p><p class="szene">Weite Küche im Morgenlicht, eine erwachsene Person und zwei Kinder in unterschiedlichen Ecken des Raums beschäftigt, viel Luft im Bild, ruhige Alltagsszene ohne Mittelpunkt.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Weite Küche im Morgenlicht, eine erwachsene Person und zwei Kinder in unterschiedlichen Ecken des Raums beschäftigt, viel Luft im Bild, ruhige Alltagsszene ohne Mittelpunkt.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_grenzen.webp" aria-label="grenzen.webp als erzeugt markieren"><div><p class="datei">grenzen.webp</p><p class="szene">Flur einer Wohnung, eine erwachsene Person kniet vor einem Kleinkind an der Wohnungstür, Jacken an Haken, Nachmittagslicht von der Seite.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Flur einer Wohnung, eine erwachsene Person kniet vor einem Kleinkind an der Wohnungstür, Jacken an Haken, Nachmittagslicht von der Seite.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_gefuehle.webp" aria-label="gefuehle.webp als erzeugt markieren"><div><p class="datei">gefuehle.webp</p><p class="szene">Wohnzimmerteppich von oben, ein Kind liegt zusammengerollt, eine erwachsene Person sitzt in ruhigem Abstand daneben, keine Berührung, warmes Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Wohnzimmerteppich von oben, ein Kind liegt zusammengerollt, eine erwachsene Person sitzt in ruhigem Abstand daneben, keine Berührung, warmes Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_schlaf.webp" aria-label="schlaf.webp als erzeugt markieren"><div><p class="datei">schlaf.webp</p><p class="szene">Kinderzimmer nach Sonnenuntergang, nur eine kleine Nachttischlampe brennt, eine erwachsene Silhouette sitzt am Bettrand, sehr ruhig, viel Dunkelheit.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kinderzimmer nach Sonnenuntergang, nur eine kleine Nachttischlampe brennt, eine erwachsene Silhouette sitzt am Bettrand, sehr ruhig, viel Dunkelheit.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_eltern.webp" aria-label="eltern.webp als erzeugt markieren"><div><p class="datei">eltern.webp</p><p class="szene">Küche am späten Abend, eine Person allein am Tisch, Tasse in beiden Händen, Spielzeug im unscharfen Vordergrund, gedämpftes Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Küche am späten Abend, eine Person allein am Tisch, Tasse in beiden Händen, Spielzeug im unscharfen Vordergrund, gedämpftes Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_uebergaenge.webp" aria-label="uebergaenge.webp als erzeugt markieren"><div><p class="datei">uebergaenge.webp</p><p class="szene">Haustür von innen, Herbstlicht fällt herein, ein Kind mit Rucksack geht hinaus, eine erwachsene Person steht im Türrahmen und schaut hinterher.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Haustür von innen, Herbstlicht fällt herein, ein Kind mit Rucksack geht hinaus, eine erwachsene Person steht im Türrahmen und schaut hinterher.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Test-Kacheln</h2>
+<p class="gruppenzeile"><span>6 Bilder</span><span>1200 x 800 (3:2)</span><span>public/bilder/tests/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_eltern-test.webp" aria-label="eltern-test.webp als erzeugt markieren"><div><p class="datei">eltern-test.webp</p><p class="szene">Zwei Erwachsene und zwei Kinder am Esstisch, Alltagsmoment mitten in einer Bewegung, warmes Licht, freundliche ruhige Stimmung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Zwei Erwachsene und zwei Kinder am Esstisch, Alltagsmoment mitten in einer Bewegung, warmes Licht, freundliche ruhige Stimmung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wie-klar-ist-dein-nein.webp" aria-label="wie-klar-ist-dein-nein.webp als erzeugt markieren"><div><p class="datei">wie-klar-ist-dein-nein.webp</p><p class="szene">Erwachsene Person kniet vor einem Kleinkind im Wohnzimmer, ruhige aufrechte Haltung, offene Handfläche, Kind schaut zu ihr auf.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person kniet vor einem Kleinkind im Wohnzimmer, ruhige aufrechte Haltung, offene Handfläche, Kind schaut zu ihr auf.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_beduerfnis-oder-wunsch.webp" aria-label="beduerfnis-oder-wunsch.webp als erzeugt markieren"><div><p class="datei">beduerfnis-oder-wunsch.webp</p><p class="szene">Supermarktgang, Kind steht vor einem Regal, erwachsene Person daneben in der Hocke auf Augenhöhe, Einkaufswagen halb voll.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Supermarktgang, Kind steht vor einem Regal, erwachsene Person daneben in der Hocke auf Augenhöhe, Einkaufswagen halb voll.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_konsequenz-oder-strafe.webp" aria-label="konsequenz-oder-strafe.webp als erzeugt markieren"><div><p class="datei">konsequenz-oder-strafe.webp</p><p class="szene">Küchenboden, ein umgekipptes Glas Wasser, Kind und erwachsene Person wischen gemeinsam mit einem Tuch auf, beide von der Seite.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Küchenboden, ein umgekipptes Glas Wasser, Kind und erwachsene Person wischen gemeinsam mit einem Tuch auf, beide von der Seite.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_abend-test.webp" aria-label="abend-test.webp als erzeugt markieren"><div><p class="datei">abend-test.webp</p><p class="szene">Kinderzimmer im Halbdunkel, aufgeschlagenes Bilderbuch auf der Bettdecke, eine erwachsene Hand am Rand des Bildes, sehr ruhig.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kinderzimmer im Halbdunkel, aufgeschlagenes Bilderbuch auf der Bettdecke, eine erwachsene Hand am Rand des Bildes, sehr ruhig.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kraft-test.webp" aria-label="kraft-test.webp als erzeugt markieren"><div><p class="datei">kraft-test.webp</p><p class="szene">Frau sitzt auf der untersten Treppenstufe eines Hausflurs, Ellenbogen auf den Knien, ruhiger nachdenklicher Moment, weiches Seitenlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau sitzt auf der untersten Treppenstufe eines Hausflurs, Ellenbogen auf den Knien, ruhiger nachdenklicher Moment, weiches Seitenlicht.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 1: Die Grundlagen</h2>
+<p class="gruppenzeile"><span>8 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_autoritativer-erziehungsstil.webp" aria-label="autoritativer-erziehungsstil.webp als erzeugt markieren"><div><p class="datei">autoritativer-erziehungsstil.webp</p><p class="szene">Mutter kniet im Flur vor einem vierjährigen Kind, eine Hand auf dessen Schulter, die andere hält eine Jacke, ruhiger Blickkontakt zwischen beiden.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Mutter kniet im Flur vor einem vierjährigen Kind, eine Hand auf dessen Schulter, die andere hält eine Jacke, ruhiger Blickkontakt zwischen beiden.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_autoritativ-oder-autoritaer.webp" aria-label="autoritativ-oder-autoritaer.webp als erzeugt markieren"><div><p class="datei">autoritativ-oder-autoritaer.webp</p><p class="szene">Vater sitzt im Schneidersitz auf dem Küchenboden, auf Augenhöhe mit einem Vierjährigen, offene entspannte Körperhaltung, Vormittagslicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Vater sitzt im Schneidersitz auf dem Küchenboden, auf Augenhöhe mit einem Vierjährigen, offene entspannte Körperhaltung, Vormittagslicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_beduerfnis-oder-wunsch.webp" aria-label="beduerfnis-oder-wunsch.webp als erzeugt markieren"><div><p class="datei">beduerfnis-oder-wunsch.webp</p><p class="szene">Kleines Kind hält im Supermarkt eine Packung in der Hand, eine erwachsene Person daneben in der Hocke, ruhige Miene, keine Anspannung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kleines Kind hält im Supermarkt eine Packung in der Hand, eine erwachsene Person daneben in der Hocke, ruhige Miene, keine Anspannung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_beduerfnisorientierte-erziehung-kritik.webp" aria-label="beduerfnisorientierte-erziehung-kritik.webp als erzeugt markieren"><div><p class="datei">beduerfnisorientierte-erziehung-kritik.webp</p><p class="szene">Frau sitzt am Küchentisch, Laptop zugeklappt, ein Kind spielt im unscharfen Vordergrund am Boden, Morgenlicht, nachdenklicher Blick zur Seite.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau sitzt am Küchentisch, Laptop zugeklappt, ein Kind spielt im unscharfen Vordergrund am Boden, Morgenlicht, nachdenklicher Blick zur Seite.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_erziehungsstile-fuer-eltern.webp" aria-label="erziehungsstile-fuer-eltern.webp als erzeugt markieren"><div><p class="datei">erziehungsstile-fuer-eltern.webp</p><p class="szene">Esstisch von schräg oben, zwei Erwachsene und drei Kinder, jeder in einer anderen Bewegung, lebendiger unaufgeräumter Familienmoment.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Esstisch von schräg oben, zwei Erwachsene und drei Kinder, jeder in einer anderen Bewegung, lebendiger unaufgeräumter Familienmoment.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_warum-eltern-heute-unsicher-sind.webp" aria-label="warum-eltern-heute-unsicher-sind.webp als erzeugt markieren"><div><p class="datei">warum-eltern-heute-unsicher-sind.webp</p><p class="szene">Frau sitzt abends allein auf dem Sofa, ein Handy leuchtet in ihrer Hand, im Hintergrund eine angelehnte Kinderzimmertür mit Lichtspalt.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau sitzt abends allein auf dem Sofa, ein Handy leuchtet in ihrer Hand, im Hintergrund eine angelehnte Kinderzimmertür mit Lichtspalt.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_was-kinder-sicher-macht.webp" aria-label="was-kinder-sicher-macht.webp als erzeugt markieren"><div><p class="datei">was-kinder-sicher-macht.webp</p><p class="szene">Kind läuft auf einem Feldweg ein Stück voraus und dreht sich nach den Eltern um, die weiter hinten gehen, weites Abendlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kind läuft auf einem Feldweg ein Stück voraus und dreht sich nach den Eltern um, die weiter hinten gehen, weites Abendlicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_gentle-parenting-und-grenzen.webp" aria-label="gentle-parenting-und-grenzen.webp als erzeugt markieren"><div><p class="datei">gentle-parenting-und-grenzen.webp</p><p class="szene">Am Ausgang eines Spielplatzes, erwachsene Person hält ruhig die Hand eines protestierenden Kleinkindes, entspannte Schultern, kein Zerren.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Am Ausgang eines Spielplatzes, erwachsene Person hält ruhig die Hand eines protestierenden Kleinkindes, entspannte Schultern, kein Zerren.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 2: Grenzen und Führung</h2>
+<p class="gruppenzeile"><span>10 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_grenzen-setzen-kleinkind.webp" aria-label="grenzen-setzen-kleinkind.webp als erzeugt markieren"><div><p class="datei">grenzen-setzen-kleinkind.webp</p><p class="szene">Vater kniet an der Wohnungstür vor einem Zweijährigen, hält behutsam dessen Hand, ruhiger Gesichtsausdruck, Nachmittagslicht von der Seite.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Vater kniet an der Wohnungstür vor einem Zweijährigen, hält behutsam dessen Hand, ruhiger Gesichtsausdruck, Nachmittagslicht von der Seite.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-hoert-nicht-trotz-konsequenz.webp" aria-label="kind-hoert-nicht-trotz-konsequenz.webp als erzeugt markieren"><div><p class="datei">kind-hoert-nicht-trotz-konsequenz.webp</p><p class="szene">Mutter steht im Türrahmen eines Kinderzimmers, das Kind spielt weiter und schaut nicht auf, Abendlicht, ruhige abwartende Haltung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Mutter steht im Türrahmen eines Kinderzimmers, das Kind spielt weiter und schaut nicht auf, Abendlicht, ruhige abwartende Haltung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-testet-grenzen-nur-bei-mir.webp" aria-label="kind-testet-grenzen-nur-bei-mir.webp als erzeugt markieren"><div><p class="datei">kind-testet-grenzen-nur-bei-mir.webp</p><p class="szene">Kita-Garderobe beim Abholen, ein Kind klammert sich an das Bein seiner Mutter, andere Kinder unscharf im Hintergrund.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kita-Garderobe beim Abholen, ein Kind klammert sich an das Bein seiner Mutter, andere Kinder unscharf im Hintergrund.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wenn-die-grenze-ueberschritten-ist.webp" aria-label="wenn-die-grenze-ueberschritten-ist.webp als erzeugt markieren"><div><p class="datei">wenn-die-grenze-ueberschritten-ist.webp</p><p class="szene">Nahaufnahme: eine Erwachsenenhand umfasst behutsam ein Kinderhandgelenk, weicher unscharfer Hintergrund, ruhig, keine Gewalt, keine Anspannung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Nahaufnahme: eine Erwachsenenhand umfasst behutsam ein Kinderhandgelenk, weicher unscharfer Hintergrund, ruhig, keine Gewalt, keine Anspannung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_konsequenz-oder-strafe.webp" aria-label="konsequenz-oder-strafe.webp als erzeugt markieren"><div><p class="datei">konsequenz-oder-strafe.webp</p><p class="szene">Küchenboden, Kind und erwachsene Person wischen zusammen verschüttetes Wasser auf, beide von der Seite fotografiert, beiläufig.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Küchenboden, Kind und erwachsene Person wischen zusammen verschüttetes Wasser auf, beide von der Seite fotografiert, beiläufig.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_nachgeben-oder-durchhalten.webp" aria-label="nachgeben-oder-durchhalten.webp als erzeugt markieren"><div><p class="datei">nachgeben-oder-durchhalten.webp</p><p class="szene">Erwachsene Person sitzt auf der Kante eines Kinderbetts, das Kind streckt die Arme aus, gedämpftes Abendlicht, ruhiger Moment der Entscheidung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person sitzt auf der Kante eines Kinderbetts, das Kind streckt die Arme aus, gedämpftes Abendlicht, ruhiger Moment der Entscheidung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wie-viele-regeln-braucht-ein-kind.webp" aria-label="wie-viele-regeln-braucht-ein-kind.webp als erzeugt markieren"><div><p class="datei">wie-viele-regeln-braucht-ein-kind.webp</p><p class="szene">Küchenwand mit einer Magnettafel, darauf nur drei handgeschriebene Zettel, im unscharfen Vordergrund eine Familie am Tisch.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Küchenwand mit einer Magnettafel, darauf nur drei handgeschriebene Zettel, im unscharfen Vordergrund eine Familie am Tisch.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_nein-sagen-ohne-schlechtes-gewissen.webp" aria-label="nein-sagen-ohne-schlechtes-gewissen.webp als erzeugt markieren"><div><p class="datei">nein-sagen-ohne-schlechtes-gewissen.webp</p><p class="szene">Erwachsene Person in der Hocke vor einem enttäuschten Kind, eine Hand auf dessen Rücken, ruhiges Gesicht, kein Streit, warmes Innenlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person in der Hocke vor einem enttäuschten Kind, eine Hand auf dessen Rücken, ruhiges Gesicht, kein Streit, warmes Innenlicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_machtkampf-kleinkind.webp" aria-label="machtkampf-kleinkind.webp als erzeugt markieren"><div><p class="datei">machtkampf-kleinkind.webp</p><p class="szene">Dreijähriges Kind sitzt mit verschränkten Armen auf dem Wohnzimmerboden, eine erwachsene Person sitzt geduldig in einigem Abstand daneben.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Dreijähriges Kind sitzt mit verschränkten Armen auf dem Wohnzimmerboden, eine erwachsene Person sitzt geduldig in einigem Abstand daneben.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-schlaegt-und-haut.webp" aria-label="kind-schlaegt-und-haut.webp als erzeugt markieren"><div><p class="datei">kind-schlaegt-und-haut.webp</p><p class="szene">Erwachsene Person kniet zwischen zwei Geschwisterkindern auf einem Teppich, eine ruhige Hand auf jeder Schulter, entspannte Haltung, deeskalierend.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person kniet zwischen zwei Geschwisterkindern auf einem Teppich, eine ruhige Hand auf jeder Schulter, entspannte Haltung, deeskalierend.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 3: Gefühle und Selbstregulation</h2>
+<p class="gruppenzeile"><span>8 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_selbstregulation-kind.webp" aria-label="selbstregulation-kind.webp als erzeugt markieren"><div><p class="datei">selbstregulation-kind.webp</p><p class="szene">Kind sitzt allein auf einer breiten Fensterbank und sortiert konzentriert kleine Gegenstände, ruhiges Tageslicht von außen.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kind sitzt allein auf einer breiten Fensterbank und sortiert konzentriert kleine Gegenstände, ruhiges Tageslicht von außen.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_ko-regulation.webp" aria-label="ko-regulation.webp als erzeugt markieren"><div><p class="datei">ko-regulation.webp</p><p class="szene">Erwachsene Person hält ein weinendes Kleinkind eng an sich, Wange an dessen Kopf, Augen geschlossen, sehr ruhig, warmes Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person hält ein weinendes Kleinkind eng an sich, Wange an dessen Kopf, Augen geschlossen, sehr ruhig, warmes Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wutanfall-begleiten.webp" aria-label="wutanfall-begleiten.webp als erzeugt markieren"><div><p class="datei">wutanfall-begleiten.webp</p><p class="szene">Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, eine erwachsene Person sitzt ruhig in kurzer Entfernung daneben und wartet, nicht bedrängend.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, eine erwachsene Person sitzt ruhig in kurzer Entfernung daneben und wartet, nicht bedrängend.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_frustrationstoleranz-kind.webp" aria-label="frustrationstoleranz-kind.webp als erzeugt markieren"><div><p class="datei">frustrationstoleranz-kind.webp</p><p class="szene">Kind versucht konzentriert, einen Reißverschluss zu schließen, eine erwachsene Person sitzt daneben und greift bewusst nicht ein, Hände im Schoß.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kind versucht konzentriert, einen Reißverschluss zu schließen, eine erwachsene Person sitzt daneben und greift bewusst nicht ein, Hände im Schoß.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-beruhigt-sich-nicht.webp" aria-label="kind-beruhigt-sich-nicht.webp als erzeugt markieren"><div><p class="datei">kind-beruhigt-sich-nicht.webp</p><p class="szene">Abgedunkeltes Zimmer, ein Kind liegt zusammengerollt am Boden, eine erwachsene Person sitzt mit Abstand an der Wand, sehr still, wenig Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Abgedunkeltes Zimmer, ein Kind liegt zusammengerollt am Boden, eine erwachsene Person sitzt mit Abstand an der Wand, sehr still, wenig Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_gefuehle-benennen.webp" aria-label="gefuehle-benennen.webp als erzeugt markieren"><div><p class="datei">gefuehle-benennen.webp</p><p class="szene">Erwachsene Person und Kind sitzen Stirn an Stirn auf dem Sofa, leises Gespräch, weiches Nachmittagslicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person und Kind sitzen Stirn an Stirn auf dem Sofa, leises Gespräch, weiches Nachmittagslicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wann-wutanfall-nicht-normal.webp" aria-label="wann-wutanfall-nicht-normal.webp als erzeugt markieren"><div><p class="datei">wann-wutanfall-nicht-normal.webp</p><p class="szene">Helles ruhiges Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind auf dem Schoß, sachlich und freundlich, keine Dramatik.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Helles ruhiges Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind auf dem Schoß, sachlich und freundlich, keine Dramatik.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wutanfall-in-der-oeffentlichkeit.webp" aria-label="wutanfall-in-der-oeffentlichkeit.webp als erzeugt markieren"><div><p class="datei">wutanfall-in-der-oeffentlichkeit.webp</p><p class="szene">Supermarktgang von hinten fotografiert, eine erwachsene Person in der Hocke bei einem Kind, andere Menschen weit unscharf im Hintergrund.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Supermarktgang von hinten fotografiert, eine erwachsene Person in der Hocke bei einem Kind, andere Menschen weit unscharf im Hintergrund.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 4: Schlaf und Abend</h2>
+<p class="gruppenzeile"><span>7 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_schlaf-als-fuehrungsaufgabe.webp" aria-label="schlaf-als-fuehrungsaufgabe.webp als erzeugt markieren"><div><p class="datei">schlaf-als-fuehrungsaufgabe.webp</p><p class="szene">Kinderzimmer am Abend, eine erwachsene Person steht in der halboffenen Tür, warmes Licht aus dem Flur, das Kind liegt schon im Bett.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kinderzimmer am Abend, eine erwachsene Person steht in der halboffenen Tür, warmes Licht aus dem Flur, das Kind liegt schon im Bett.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_einschlafbegleitung-wie-lange.webp" aria-label="einschlafbegleitung-wie-lange.webp als erzeugt markieren"><div><p class="datei">einschlafbegleitung-wie-lange.webp</p><p class="szene">Erwachsene Person sitzt im Halbdunkel am Bettrand, das Kind ist fast eingeschlafen, nur eine kleine Lampe brennt.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person sitzt im Halbdunkel am Bettrand, das Kind ist fast eingeschlafen, nur eine kleine Lampe brennt.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_einschlafbegleitung-macht-wuetend.webp" aria-label="einschlafbegleitung-macht-wuetend.webp als erzeugt markieren"><div><p class="datei">einschlafbegleitung-macht-wuetend.webp</p><p class="szene">Dunkles Kinderzimmer, eine erwachsene Person sitzt auf dem Boden an die Wand gelehnt, Kopf zurückgelegt, erschöpft, das Kinderbett unscharf daneben.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Dunkles Kinderzimmer, eine erwachsene Person sitzt auf dem Boden an die Wand gelehnt, Kopf zurückgelegt, erschöpft, das Kinderbett unscharf daneben.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_abendroutine-die-haelt.webp" aria-label="abendroutine-die-haelt.webp als erzeugt markieren"><div><p class="datei">abendroutine-die-haelt.webp</p><p class="szene">Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die Zähne, eine erwachsene Person steht ruhig daneben, warmes Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die Zähne, eine erwachsene Person steht ruhig daneben, warmes Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-steht-abends-immer-auf.webp" aria-label="kind-steht-abends-immer-auf.webp als erzeugt markieren"><div><p class="datei">kind-steht-abends-immer-auf.webp</p><p class="szene">Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der beleuchtete Flur, davor das dunkle Wohnzimmer.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der beleuchtete Flur, davor das dunkle Wohnzimmer.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-will-nur-mit-mama-einschlafen.webp" aria-label="kind-will-nur-mit-mama-einschlafen.webp als erzeugt markieren"><div><p class="datei">kind-will-nur-mit-mama-einschlafen.webp</p><p class="szene">Vater sitzt im Halbdunkel am Kinderbett, das Kind liegt wach und schaut zur Tür, ruhige geduldige Stimmung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Vater sitzt im Halbdunkel am Kinderbett, das Kind liegt wach und schaut zur Tür, ruhige geduldige Stimmung.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_mittagsschlaf-wann-vorbei.webp" aria-label="mittagsschlaf-wann-vorbei.webp als erzeugt markieren"><div><p class="datei">mittagsschlaf-wann-vorbei.webp</p><p class="szene">Abgedunkeltes Kinderzimmer am Nachmittag, ein Kind liegt wach im Bett, ein heller Lichtstreifen fällt zwischen den Vorhängen hindurch.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Abgedunkeltes Kinderzimmer am Nachmittag, ein Kind liegt wach im Bett, ein heller Lichtstreifen fällt zwischen den Vorhängen hindurch.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 5: Für dich als Elternteil</h2>
+<p class="gruppenzeile"><span>7 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_elterliche-erschoepfung.webp" aria-label="elterliche-erschoepfung.webp als erzeugt markieren"><div><p class="datei">elterliche-erschoepfung.webp</p><p class="szene">Frau sitzt in der Küche, beide Hände um eine Tasse, Blick aus dem Fenster, Spielzeug am Boden im unscharfen Vordergrund, Morgenlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau sitzt in der Küche, beide Hände um eine Tasse, Blick aus dem Fenster, Spielzeug am Boden im unscharfen Vordergrund, Morgenlicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kind-angeschrien-was-jetzt.webp" aria-label="kind-angeschrien-was-jetzt.webp als erzeugt markieren"><div><p class="datei">kind-angeschrien-was-jetzt.webp</p><p class="szene">Erwachsene Person und Kind sitzen wieder nebeneinander auf dem Sofa, Schulter an Schulter, ruhige Versöhnung nach einem Sturm.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person und Kind sitzen wieder nebeneinander auf dem Sofa, Schulter an Schulter, ruhige Versöhnung nach einem Sturm.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_nicht-konsequent-sein-koennen.webp" aria-label="nicht-konsequent-sein-koennen.webp als erzeugt markieren"><div><p class="datei">nicht-konsequent-sein-koennen.webp</p><p class="szene">Erwachsene Person steht im Flur, eine Hand an der Stirn, im unscharfen Hintergrund ein spielendes Kind, Abendlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person steht im Flur, eine Hand an der Stirn, im unscharfen Hintergrund ein spielendes Kind, Abendlicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wenn-ihr-unterschiedlich-erzieht.webp" aria-label="wenn-ihr-unterschiedlich-erzieht.webp als erzeugt markieren"><div><p class="datei">wenn-ihr-unterschiedlich-erzieht.webp</p><p class="szene">Zwei Erwachsene stehen abends in der Küche und sprechen leise miteinander, zugewandt, nur die Dunstabzugslampe brennt.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Zwei Erwachsene stehen abends in der Küche und sprechen leise miteinander, zugewandt, nur die Dunstabzugslampe brennt.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_ich-mag-mein-kind-gerade-nicht.webp" aria-label="ich-mag-mein-kind-gerade-nicht.webp als erzeugt markieren"><div><p class="datei">ich-mag-mein-kind-gerade-nicht.webp</p><p class="szene">Frau sitzt auf einer Treppenstufe im Hausflur, Arme um die Knie, im Hintergrund eine angelehnte Kinderzimmertür, ruhig, nicht dramatisch.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau sitzt auf einer Treppenstufe im Hausflur, Arme um die Knie, im Hintergrund eine angelehnte Kinderzimmertür, ruhig, nicht dramatisch.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_eigene-wut-regulieren.webp" aria-label="eigene-wut-regulieren.webp als erzeugt markieren"><div><p class="datei">eigene-wut-regulieren.webp</p><p class="szene">Erwachsene Person steht allein im Flur, eine Hand flach an der Wand, Augen geschlossen, tief ausatmend, gedämpftes Licht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Erwachsene Person steht allein im Flur, eine Hand flach an der Wand, Augen geschlossen, tief ausatmend, gedämpftes Licht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wo-bleiben-meine-beduerfnisse.webp" aria-label="wo-bleiben-meine-beduerfnisse.webp als erzeugt markieren"><div><p class="datei">wo-bleiben-meine-beduerfnisse.webp</p><p class="szene">Frau geht allein einen Weg zwischen Bäumen entlang, von hinten fotografiert, frühes Morgenlicht, weiter Raum.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frau geht allein einen Weg zwischen Bäumen entlang, von hinten fotografiert, frühes Morgenlicht, weiter Raum.">Prompt kopieren</button></div>
+</section>
+<section class="gruppe"><h2>Silo 6: Übergänge im Familienjahr</h2>
+<p class="gruppenzeile"><span>8 Bilder</span><span>1600 x 1067 (3:2)</span><span>public/bilder/artikel/</span></p>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_uebergaenge-begleiten.webp" aria-label="uebergaenge-begleiten.webp als erzeugt markieren"><div><p class="datei">uebergaenge-begleiten.webp</p><p class="szene">Wohnungsflur, ein Kind zieht sich die Schuhe an, eine erwachsene Person steht geduldig daneben und wartet, Jacke schon in der Hand.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Wohnungsflur, ein Kind zieht sich die Schuhe an, eine erwachsene Person steht geduldig daneben und wartet, Jacke schon in der Hand.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_kita-eingewoehnung-kind-weint.webp" aria-label="kita-eingewoehnung-kind-weint.webp als erzeugt markieren"><div><p class="datei">kita-eingewoehnung-kind-weint.webp</p><p class="szene">Kita-Garderobe, Mutter kniet vor ihrem Kind, eine Erzieherin steht unscharf im Hintergrund, ruhiger Abschied, Morgenlicht.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kita-Garderobe, Mutter kniet vor ihrem Kind, eine Erzieherin steht unscharf im Hintergrund, ruhiger Abschied, Morgenlicht.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_erste-schulwochen.webp" aria-label="erste-schulwochen.webp als erzeugt markieren"><div><p class="datei">erste-schulwochen.webp</p><p class="szene">Kind mit großem Schulranzen geht einen Gehweg entlang, von hinten fotografiert, Herbstlicht, Laub am Boden.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kind mit großem Schulranzen geht einen Gehweg entlang, von hinten fotografiert, Herbstlicht, Laub am Boden.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_morgens-ohne-geschrei.webp" aria-label="morgens-ohne-geschrei.webp als erzeugt markieren"><div><p class="datei">morgens-ohne-geschrei.webp</p><p class="szene">Frühstückstisch am frühen Morgen, ein noch verschlafenes Kind sitzt davor, eine erwachsene Person legt Kleidung auf einen Stuhl.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Frühstückstisch am frühen Morgen, ein noch verschlafenes Kind sitzt davor, eine erwachsene Person legt Kleidung auf einen Stuhl.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_zeitumstellung-mit-kind.webp" aria-label="zeitumstellung-mit-kind.webp als erzeugt markieren"><div><p class="datei">zeitumstellung-mit-kind.webp</p><p class="szene">Kinderzimmer im sehr frühen Morgenlicht, ein Kind sitzt wach im Bett, auf dem Nachttisch ein einfacher Wecker, blaue Stunde.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kinderzimmer im sehr frühen Morgenlicht, ein Kind sitzt wach im Bett, auf dem Nachttisch ein einfacher Wecker, blaue Stunde.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_geschenke-und-konsum.webp" aria-label="geschenke-und-konsum.webp als erzeugt markieren"><div><p class="datei">geschenke-und-konsum.webp</p><p class="szene">Kind sitzt auf dem Wohnzimmerboden vor einem einzigen ausgepackten Geschenk, Papier daneben, ruhige konzentrierte Freude, kein Geschenkeberg.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Kind sitzt auf dem Wohnzimmerboden vor einem einzigen ausgepackten Geschenk, Papier daneben, ruhige konzentrierte Freude, kein Geschenkeberg.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_familienregeln-jahreswechsel.webp" aria-label="familienregeln-jahreswechsel.webp als erzeugt markieren"><div><p class="datei">familienregeln-jahreswechsel.webp</p><p class="szene">Küchenwand mit einem Familienkalender, kaltes klares Januarlicht, im unscharfen Vordergrund eine Tasse und ein Stift.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Küchenwand mit einem Familienkalender, kaltes klares Januarlicht, im unscharfen Vordergrund eine Tasse und ein Stift.">Prompt kopieren</button></div>
+<div class="karte" data-fertig="nein"><input class="haken" type="checkbox" id="h_wenn-oma-anders-erzieht.webp" aria-label="wenn-oma-anders-erzieht.webp als erzeugt markieren"><div><p class="datei">wenn-oma-anders-erzieht.webp</p><p class="szene">Großmutter und Enkelkind sitzen zusammen am Küchentisch, ein Kuchen zwischen ihnen, warmes Licht, vertraute Stimmung.</p></div><button type="button" data-prompt="Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR, echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel Raum im Bild, Querformat.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+
+Großmutter und Enkelkind sitzen zusammen am Küchentisch, ein Kuchen zwischen ihnen, warmes Licht, vertraute Stimmung.">Prompt kopieren</button></div>
+</section>
+<div class="schluss">
+  <h2>Wenn die Bilder da sind</h2>
+  <p>ChatGPT gibt meist PNG aus. Ein Aufruf wandelt alles um, schneidet mittig auf das richtige
+  Verh&auml;ltnis und l&ouml;scht die Originale:</p>
+  <pre>python werkzeuge/bilder-webp.py</pre>
+  <p>Danach bauen und pushen. Was noch fehlt, bleibt einfach leer: die Seite funktioniert
+  vollst&auml;ndig, auch wenn erst zehn Bilder da sind.</p>
+</div>
+</div>
+<script>
+(function(){
+  var SP = "bildstrecke.sarahmann";
+  function lade(){ try { return JSON.parse(localStorage.getItem(SP) || "{}"); } catch(e){ return {}; } }
+  function sichere(o){ try { localStorage.setItem(SP, JSON.stringify(o)); } catch(e){} }
+
+  var stand = lade();
+  var haken = Array.prototype.slice.call(document.querySelectorAll(".haken"));
+  var fertigEl = document.getElementById("fertig");
+  var balken = document.getElementById("balken");
+
+  function male(){
+    var n = 0;
+    for (var i = 0; i < haken.length; i++){ if (haken[i].checked) n++; }
+    fertigEl.textContent = n;
+    balken.style.width = (n / haken.length * 100) + "%";
+  }
+
+  haken.forEach(function(h){
+    var k = h.id.slice(2);
+    if (stand[k]) { h.checked = true; h.closest(".karte").dataset.fertig = "ja"; }
+    h.addEventListener("change", function(){
+      h.closest(".karte").dataset.fertig = h.checked ? "ja" : "nein";
+      if (h.checked) { stand[k] = true; } else { delete stand[k]; }
+      sichere(stand); male();
+    });
+  });
+  male();
+
+  document.getElementById("zuruecksetzen").addEventListener("click", function(){
+    haken.forEach(function(h){ h.checked = false; h.closest(".karte").dataset.fertig = "nein"; });
+    stand = {}; sichere(stand); male();
+  });
+
+  document.querySelectorAll(".karte button").forEach(function(b){
+    b.addEventListener("click", function(){
+      var text = b.getAttribute("data-prompt");
+      function gelungen(){
+        b.textContent = "Kopiert";
+        b.classList.add("fertig");
+        setTimeout(function(){ b.textContent = "Prompt kopieren"; b.classList.remove("fertig"); }, 1400);
+      }
+      function ersatz(){
+        var t = document.createElement("textarea");
+        t.value = text; t.style.position = "fixed"; t.style.opacity = "0";
+        document.body.appendChild(t); t.focus(); t.select();
+        try { document.execCommand("copy"); gelungen(); }
+        catch(e){ b.textContent = "Bitte von Hand kopieren"; }
+        document.body.removeChild(t);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(gelungen, ersatz);
+      } else { ersatz(); }
+    });
+  });
+})();
+</script>
