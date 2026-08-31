@@ -4,9 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navItems = [
+  { label: "Wissen", href: "/wissen/" },
+  { label: "Tests", href: "/tests/" },
   { label: "Das Konzept", href: "/balanced-parenting/" },
   { label: "Ueber Sarah", href: "/#ueber-sarah" },
-  { label: "Kontakt", href: "/#kontakt" },
 ];
 
 export default function Navbar({ overlay = false }: { overlay?: boolean }) {
@@ -78,7 +79,7 @@ export default function Navbar({ overlay = false }: { overlay?: boolean }) {
               </Link>
             ))}
             <Link
-              href="/#quiz"
+              href="/tests/eltern-test/"
               className={`nav-link border-b pb-1 transition-colors ml-2 ${
                 light ? "text-cream border-cream/50 hover:border-cream" : "text-deep border-deep/40 hover:border-deep"
               }`}
@@ -117,7 +118,7 @@ export default function Navbar({ overlay = false }: { overlay?: boolean }) {
               </Link>
             ))}
             <Link
-              href="/#quiz"
+              href="/tests/eltern-test/"
               onClick={() => setMenuOpen(false)}
               className="btn-primary mt-2 text-center justify-center"
             >

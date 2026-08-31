@@ -18,6 +18,8 @@ const jost = Jost({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.sarahmann.de"),
+  alternates: { canonical: "/" },
   title: "Sarah Mann — Klare Führung, volle Liebe",
   description:
     "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sie zeigt Eltern einen Weg, der Wärme und Klarheit verbindet: liebevoll erziehen, ohne sich selbst zu verlieren.",

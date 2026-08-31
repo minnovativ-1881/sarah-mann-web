@@ -29,8 +29,9 @@ export default function Footer() {
             <p className="text-overline text-cream/30 mb-5">Navigation</p>
             <ul className="space-y-3 text-sm">
               {[
+                { label: "Wissen", href: "/wissen/" },
+                { label: "Tests", href: "/tests/" },
                 { label: "Das Konzept", href: "/balanced-parenting/" },
-                { label: "Der Test", href: "/#quiz" },
                 { label: "Über Sarah", href: "/#ueber-sarah" },
                 { label: "Kontakt", href: "/#kontakt" },
               ].map((item) => (
