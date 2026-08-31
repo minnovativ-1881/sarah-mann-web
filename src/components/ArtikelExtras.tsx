@@ -134,8 +134,9 @@ export function AutorinBox() {
         />
       </div>
       <div>
-        <p className="text-overline text-terra mb-2">Geschrieben von</p>
-        <p className="font-serif text-deep text-xl mb-2">Sarah Mann</p>
+        {/* Kein "Geschrieben von" davor: der Name traegt die Box selbst,
+            in der Signaturfarbe. */}
+        <p className="font-serif text-terra text-xl mb-2">Sarah Mann</p>
         <p className="text-deep/75 leading-relaxed text-sm max-w-lg">
           Pädagogin, zertifizierte Babyschlafberaterin und Mutter von sieben
           Kindern. Sie zeigt Eltern einen Weg, der Wärme und Klarheit verbindet,
