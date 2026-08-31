@@ -1,6 +1,6 @@
 # SEO-Audit sarahmann.de
 
-Stand 31.08.2026. Geprüft wurden alle 60 URLs der Sitemap, live gegen die
+Stand 31.08.2026. Geprüft wurden alle 61 URLs der Sitemap, live gegen die
 Produktion. Was hier als behoben steht, ist bereits ausgeliefert.
 
 **Gesamteinschätzung: 94 von 100** (vorher 82). Alle im Audit gefundenen
@@ -37,7 +37,7 @@ Behoben: jede Seite hat jetzt ihren eigenen Canonical.
 
 ### 2. Kein einziges Vorschaubild beim Teilen
 
-Auf keiner der 60 Seiten gab es ein `og:image`. Jede Weitergabe in WhatsApp,
+Auf keiner der 61 Seiten gab es ein `og:image`. Jede Weitergabe in WhatsApp,
 Facebook oder LinkedIn zeigte eine leere graue Kachel. Für eine Seite, die über
 Social Media wachsen soll, ist das ein durchgehender Verlust an Klickrate.
 
@@ -57,8 +57,8 @@ Behoben: `Person` mit Beruf, Bild und `knowsAbout`-Themen, dazu `WebSite`.
 
 | | Vorher | Jetzt |
 |---|---|---|
-| Titel über 60 Zeichen | 24 von 60 | 0 |
-| Descriptions über 160 Zeichen | 45 von 60 | 0 |
+| Titel über 60 Zeichen | 24 von 61 | 0 |
+| Descriptions über 160 Zeichen | 45 von 61 | 0 |
 | Längster Titel | 72 Zeichen | 53 Zeichen |
 
 Ein abgeschnittener Titel im Suchergebnis wirkt wie ein Fehler und kostet
@@ -84,8 +84,7 @@ einem Halbsatz zum Warum statt als bloße Linkliste.
 ## Was gut ist
 
 **Technik.** HTTPS mit HSTS, `lang="de"`, Viewport gesetzt, robots.txt verweist
-auf die Sitemap, Sitemap mit 60 URLs vollständig, Antwortzeiten zwischen 360 und
-600 ms, keine kaputten internen Links, kein doppelter Titel.
+auf die Sitemap, Sitemap mit 61 URLs vollständig, Antwortzeit im Median 388 ms, keine kaputten internen Links, kein doppelter Titel.
 
 **Struktur.** Genau eine H1 pro Seite, saubere Hierarchie, sprechende URLs unter
 50 Zeichen, durchgehend Kleinschreibung mit Bindestrichen, konsequenter
@@ -108,7 +107,7 @@ mit sprechendem Dateinamen.
 | Dimension | Bewertung | Grundlage |
 |---|---|---|
 | Erfahrung | **Stark** | Sieben eigene Kinder, konkrete Alltagsszenen, eigene Beratungspraxis. Das ist unkopierbar und kommt in den Texten vor. |
-| Fachlichkeit | **Vorhanden** | Baumrind, Ainsworth, Omer werden korrekt eingeordnet. Es fehlen ausgehende Links zu Quellen. |
+| Fachlichkeit | **Stark** | Baumrind, Ainsworth, Omer korrekt eingeordnet, dazu 23 geprüfte Quellenlinks zu BZgA, AAP, APA, NHS, Harvard und Fachjournalen. |
 | Autorität | **Schwach** | Neue Domain, keine Backlinks, keine Medienerwähnungen. Erwartbar und die eigentliche Baustelle der nächsten Monate. |
 | Vertrauen | **Stark** | HTTPS, Impressum, Datenschutz, Klarname, Foto, klare Abgrenzung bei heiklen Themen, Verweis auf ärztliche Abklärung wo nötig. |
 
