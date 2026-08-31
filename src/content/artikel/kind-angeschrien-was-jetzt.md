@@ -13,7 +13,7 @@ faq:
   - frage: 'Ich habe mein Kind angeschrien. Habe ich ihm geschadet?'
     antwort: 'Ein einzelner lauter Moment schadet einem Kind nicht. Was zählt, ist das Muster über Monate und Jahre und vor allem, ob danach eine Wiedergutmachung stattfindet. Kinder brauchen keine fehlerfreien Eltern. Sie brauchen Eltern, die zurückkommen.'
   - frage: 'Was sage ich meinem Kind nach dem Schreien?'
-    antwort: 'Vier Dinge, kurz und in dieser Reihenfolge: benennen, was passiert ist, es bedauern, ohne Erklärung hinterherzuschieben, das Gefühl des Kindes anerkennen, und die Sache selbst nicht zurücknehmen. Also: „Ich war laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei der Sache bleibt es trotzdem."'
+    antwort: 'Vier Dinge, kurz und in dieser Reihenfolge: benennen, was passiert ist, es bedauern, ohne Erklärung hinterherzuschieben, das Gefühl des Kindes anerkennen, und die Sache selbst nicht zurücknehmen. Also: „Ich war laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei der Sache bleibt es trotzdem.“'
   - frage: 'Soll ich mich bei meinem Kind entschuldigen?'
     antwort: 'Ja, aber für das Wie, nicht für das Was. Entschuldige dich dafür, dass du laut geworden bist, nicht dafür, dass du eine Grenze gesetzt hast. Sonst lernt dein Kind, dass Grenzen verhandelbar werden, wenn genug Aufregung entsteht.'
   - frage: 'Warum raste ich immer abends aus?'
@@ -48,21 +48,21 @@ Sie dauern zusammen keine zwei Minuten. Die Reihenfolge ist wichtiger als die ge
 
 Ohne Beschönigung, ohne Fachsprache.
 
-> „Ich war eben laut."
+> „Ich war eben laut.“
 
-Nicht: „Es ist eskaliert." Nicht: „Wir hatten beide einen schlechten Moment." Du warst laut. Dass du es benennst, ist für dein Kind die Bestätigung, dass es sich das nicht eingebildet hat.
+Nicht: „Es ist eskaliert.“ Nicht: „Wir hatten beide einen schlechten Moment.“ Du warst laut. Dass du es benennst, ist für dein Kind die Bestätigung, dass es sich das nicht eingebildet hat.
 
 ### 2. Es bedauern, ohne Erklärung hinterherzuschieben
 
-> „Das tut mir leid. Das hattest du nicht verdient."
+> „Das tut mir leid. Das hattest du nicht verdient.“
 
-Und jetzt der schwerste Teil: kein *weil* danach. Kein „aber ich hatte auch einen anstrengenden Tag", kein „du hast mich ja auch dreimal ignoriert".
+Und jetzt der schwerste Teil: kein *weil* danach. Kein „aber ich hatte auch einen anstrengenden Tag“, kein „du hast mich ja auch dreimal ignoriert“.
 
 Sobald eine Erklärung kommt, wird aus der Entschuldigung eine Rechtfertigung, und dein Kind hört den zweiten Teil. Die Erklärung ist für dich, nicht für dein Kind.
 
 ### 3. Das Gefühl deines Kindes anerkennen
 
-> „Du bist erschrocken, oder?"
+> „Du bist erschrocken, oder?“
 
 Und dann warten. Auch wenn nichts kommt. Kleine Kinder brauchen oft eine Weile, manchmal nicken sie nur.
 
@@ -74,13 +74,13 @@ Damit lernt dein Kind aber etwas Ungünstiges: Wenn es laut genug wird, kippen E
 
 Deshalb:
 
-> „Und bei den Zähnen bleibt es trotzdem."
+> „Und bei den Zähnen bleibt es trotzdem.“
 
 Du entschuldigst dich für das **Wie**, nicht für das **Was**. Für die Lautstärke, nicht für die Grenze.
 
 Ganz zusammen klingt das so:
 
-> „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei den Zähnen bleibt es trotzdem."
+> „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei den Zähnen bleibt es trotzdem.“
 
 Vier Sätze. Mehr braucht es nicht.
 
@@ -147,7 +147,7 @@ Falls dein Kind schon schläft und du das alles gerade erst liest: Es ist nicht 
 
 Wiedergutmachung hat kein Verfallsdatum. Morgen früh reicht völlig.
 
-> „Du, gestern Abend war ich laut. Das tut mir leid. Ich hab die ganze Nacht daran gedacht."
+> „Du, gestern Abend war ich laut. Das tut mir leid. Ich hab die ganze Nacht daran gedacht.“
 
 Kinder verzeihen erstaunlich schnell und erstaunlich vollständig. Meistens deutlich schneller als wir uns selbst.
 

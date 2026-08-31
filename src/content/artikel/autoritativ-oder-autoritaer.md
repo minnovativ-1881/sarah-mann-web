@@ -55,7 +55,7 @@ Aus diesen beiden Achsen entstehen vier Kombinationen. Das vierte Feld, der vern
 |---|---|---|---|
 | **Wärme** | niedrig | **hoch** | hoch |
 | **Führung** | hoch | **hoch** | niedrig |
-| Leitsatz | „Weil ich es sage." | „Ich sehe dich, und es bleibt dabei." | „Wenn du unbedingt möchtest." |
+| Leitsatz | „Weil ich es sage.“ | „Ich sehe dich, und es bleibt dabei.“ | „Wenn du unbedingt möchtest.“ |
 | Gefühle des Kindes | stören | dürfen sein | entscheiden mit |
 | Erklärungen | unnötig | ja, aber kurz | endlos |
 | Wer entscheidet | die Eltern allein | die Eltern, mit Blick aufs Kind | oft das Kind |
@@ -73,19 +73,19 @@ Theorie ist das eine. Hier ist eine ganz normale Situation in drei Varianten.
 
 ### Autoritär
 
-> „Jetzt ist Schluss. Ich habe es dir dreimal gesagt. Wenn du nicht sofort kommst, gibt es morgen kein Fernsehen. Und hör auf zu heulen, das ist doch albern."
+> „Jetzt ist Schluss. Ich habe es dir dreimal gesagt. Wenn du nicht sofort kommst, gibt es morgen kein Fernsehen. Und hör auf zu heulen, das ist doch albern.“
 
 Die Grenze steht. Das Gefühl wird abgewertet, und es kommt Druck dazu, der mit der Sache nichts zu tun hat.
 
 ### Permissiv
 
-> „Ach, na gut. Aber wirklich nur noch zehn Minuten, ja? … Also gut, noch fünf. … Komm, jetzt aber. … Na, dann eben noch das eine."
+> „Ach, na gut. Aber wirklich nur noch zehn Minuten, ja? … Also gut, noch fünf. … Komm, jetzt aber. … Na, dann eben noch das eine.“
 
 Das Gefühl wird gesehen. Die Grenze verschwindet. Und das Kind geht am Ende noch später ins Bett als geplant, übermüdet und aufgedreht.
 
 ### Autoritativ
 
-> „Du würdest so gern weiterspielen. Das verstehe ich, das macht gerade richtig Spaß." *(kurze Pause)* „Und trotzdem gehen wir jetzt ins Bett. Komm, ich trage dich."
+> „Du würdest so gern weiterspielen. Das verstehe ich, das macht gerade richtig Spaß.“ *(kurze Pause)* „Und trotzdem gehen wir jetzt ins Bett. Komm, ich trage dich.“
 
 Und dann aufstehen und mitgehen. Nicht noch dreimal wiederholen.
 
@@ -117,13 +117,13 @@ Wichtig bleibt: Das sind Zusammenhänge, keine Garantien. Und Durchschnitte sage
 
 Die Theorie ist schnell verstanden. Schwieriger ist es, im Moment zu merken, in welchem Feld man gerade steht. Diese vier Sätze helfen dabei, weil sie fast jeder von uns schon einmal gesagt hat.
 
-**„Weil ich es sage."** Das ist der reine Autoritätsanspruch ohne Begründung. Er kommt fast immer aus Erschöpfung, und er ist auch nicht das Weltende. Problematisch wird er erst, wenn er die Regel ist und nicht die Ausnahme.
+**„Weil ich es sage.“** Das ist der reine Autoritätsanspruch ohne Begründung. Er kommt fast immer aus Erschöpfung, und er ist auch nicht das Weltende. Problematisch wird er erst, wenn er die Regel ist und nicht die Ausnahme.
 
-**„Ist ja gut, dann eben."** Hier fällt die Grenze, meist nach mehrfachem Nachfragen. Auch das passiert allen. Der Punkt ist nicht, dass man nie nachgibt. Der Punkt ist, ob dein Kind daraus lernt, dass Ausdauer sich lohnt.
+**„Ist ja gut, dann eben.“** Hier fällt die Grenze, meist nach mehrfachem Nachfragen. Auch das passiert allen. Der Punkt ist nicht, dass man nie nachgibt. Der Punkt ist, ob dein Kind daraus lernt, dass Ausdauer sich lohnt.
 
-**„Stell dich nicht so an."** Das ist die Abwertung des Gefühls, und sie ist die eigentlich heikle Zutat der autoritären Seite. Denn hier lernt ein Kind nicht nur, dass es sich fügen muss, sondern dass seine Wahrnehmung nicht stimmt.
+**„Stell dich nicht so an.“** Das ist die Abwertung des Gefühls, und sie ist die eigentlich heikle Zutat der autoritären Seite. Denn hier lernt ein Kind nicht nur, dass es sich fügen muss, sondern dass seine Wahrnehmung nicht stimmt.
 
-**„Ich sehe, dass du wütend bist. Und es bleibt trotzdem dabei."** Das ist die Mitte, in einem Satz. Beide Hälften gehören zusammen. Lässt man die erste weg, wird es kühl. Lässt man die zweite weg, wird es beliebig.
+**„Ich sehe, dass du wütend bist. Und es bleibt trotzdem dabei.“** Das ist die Mitte, in einem Satz. Beide Hälften gehören zusammen. Lässt man die erste weg, wird es kühl. Lässt man die zweite weg, wird es beliebig.
 
 ## Warum das nicht nur eine akademische Unterscheidung ist
 
@@ -131,7 +131,7 @@ Man könnte einwenden, dass es ziemlich egal ist, wie man das Ganze nennt. Aber 
 
 Wer glaubt, es gäbe nur die Wahl zwischen streng und nachgiebig, sucht die Lösung immer auf einer Skala. Ein bisschen strenger, ein bisschen weicher, immer hin und her. Und genau dieses Pendeln erschöpft, weil es nie ankommt.
 
-Sobald man versteht, dass es zwei getrennte Achsen sind, verändert sich die Frage. Sie lautet dann nicht mehr „soll ich strenger oder lockerer sein", sondern: **Welche der beiden Seiten fehlt bei uns gerade?**
+Sobald man versteht, dass es zwei getrennte Achsen sind, verändert sich die Frage. Sie lautet dann nicht mehr „soll ich strenger oder lockerer sein“, sondern: **Welche der beiden Seiten fehlt bei uns gerade?**
 
 Und das ist eine Frage, die man beantworten kann. Oft fehlt nämlich gar nicht das, was man vermutet. Eltern, die sich für zu streng halten, geben in Wahrheit häufig zu wenig Orientierung und werden nur laut, wenn nichts mehr geht. Und Eltern, die sich für zu weich halten, sind manchmal in der Wärme längst da und brauchen nur ein verlässliches Nein.
 

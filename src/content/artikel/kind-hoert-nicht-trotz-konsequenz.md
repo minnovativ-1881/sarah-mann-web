@@ -37,7 +37,7 @@ Wenn du das kennst, möchte ich dir zuerst etwas sagen: Das ist kein Zeichen daf
 
 Stell dir vor, du sagst zu deinem Kind, es soll die Schuhe anziehen.
 
-Beim ersten Mal passiert nichts. Beim zweiten Mal auch nicht. Beim dritten wirst du deutlicher. Beim fünften seufzt du. Beim siebten sagst du: „Jetzt mal wirklich." Und beim neunten wirst du laut, und dann bewegt sich etwas.
+Beim ersten Mal passiert nichts. Beim zweiten Mal auch nicht. Beim dritten wirst du deutlicher. Beim fünften seufzt du. Beim siebten sagst du: „Jetzt mal wirklich.“ Und beim neunten wirst du laut, und dann bewegt sich etwas.
 
 Dein Kind hat daraus etwas gelernt, und zwar völlig zu Recht: **Der Ernstfall beginnt bei Nummer neun.**
 
@@ -65,41 +65,41 @@ Das klingt paradox, ist aber der häufigste Grund. Jede Wiederholung schiebt den
 
 **2. Zwischen Ankündigung und Handeln liegt zu viel Zeit.**
 
-„Wenn du das nicht aufräumst, dann gibt es heute Abend kein Hörspiel." Bis zum Abend sind sechs Stunden. Für ein vierjähriges Kind ist das eine Ewigkeit, in der die Ankündigung ihre Bedeutung verliert. Und für dich ist es sechs Stunden Gelegenheit, es dir anders zu überlegen.
+„Wenn du das nicht aufräumst, dann gibt es heute Abend kein Hörspiel.“ Bis zum Abend sind sechs Stunden. Für ein vierjähriges Kind ist das eine Ewigkeit, in der die Ankündigung ihre Bedeutung verliert. Und für dich ist es sechs Stunden Gelegenheit, es dir anders zu überlegen.
 
 **3. Die Aufforderung ist keine.**
 
-„Wollen wir jetzt die Zähne putzen?" ist eine Frage. „Wir putzen jetzt die Zähne" ist eine Ansage. Wenn du keine Wahl anbieten willst, dann stell auch keine Frage. Sonst nimmt dein Kind die Frage ernst und antwortet mit Nein, und dann bist du sauer über eine Antwort, nach der du gefragt hast.
+„Wollen wir jetzt die Zähne putzen?“ ist eine Frage. „Wir putzen jetzt die Zähne“ ist eine Ansage. Wenn du keine Wahl anbieten willst, dann stell auch keine Frage. Sonst nimmt dein Kind die Frage ernst und antwortet mit Nein, und dann bist du sauer über eine Antwort, nach der du gefragt hast.
 
 **4. Sie ist zu groß.**
 
-„Räum bitte dein Zimmer auf" ist für ein Kind unter sechs ungefähr so konkret wie „Bring dein Leben in Ordnung". Es weiß nicht, wo es anfangen soll, und tut deshalb gar nichts. Das sieht aus wie Verweigerung und ist Überforderung.
+„Räum bitte dein Zimmer auf“ ist für ein Kind unter sechs ungefähr so konkret wie „Bring dein Leben in Ordnung“. Es weiß nicht, wo es anfangen soll, und tut deshalb gar nichts. Das sieht aus wie Verweigerung und ist Überforderung.
 
 **5. Es liegt gar nicht am Hören.**
 
 Das ist der wichtigste Punkt. Manchmal hört ein Kind sehr gut und **kann** trotzdem nicht folgen. Ein müdes, hungriges, überreiztes Kind hat keinen Zugriff auf die Fähigkeit, sich zu bremsen. Sie ist in diesem Moment schlicht nicht verfügbar.
 
-Es hilft ungemein, diese beiden Dinge zu unterscheiden: Will mein Kind gerade nicht, oder kann es gerade nicht? Bei „will nicht" braucht es Klarheit. Bei „kann nicht" braucht es zuerst Beruhigung. Wenn man das verwechselt, wird jede Maßnahme falsch.
+Es hilft ungemein, diese beiden Dinge zu unterscheiden: Will mein Kind gerade nicht, oder kann es gerade nicht? Bei „will nicht“ braucht es Klarheit. Bei „kann nicht“ braucht es zuerst Beruhigung. Wenn man das verwechselt, wird jede Maßnahme falsch.
 
 ## Was stattdessen wirkt: einmal sagen, dann handeln
 
 Der Wechsel ist unspektakulär und ziemlich anstrengend, weil er von dir mehr verlangt als vom Kind.
 
-**Sag es einmal.** Ruhig, kurz, in Aussageform. „Wir ziehen jetzt die Schuhe an."
+**Sag es einmal.** Ruhig, kurz, in Aussageform. „Wir ziehen jetzt die Schuhe an.“
 
 **Dann geh hin.** Nicht rufen aus der Küche. Hingehen, auf Augenhöhe, Blickkontakt.
 
-**Sag es ein zweites und letztes Mal, verbunden mit dem, was du tust.** „Ich helfe dir jetzt dabei." Und dann hilfst du tatsächlich. Freundlich, ohne Ärger, ohne Vortrag.
+**Sag es ein zweites und letztes Mal, verbunden mit dem, was du tust.** „Ich helfe dir jetzt dabei.“ Und dann hilfst du tatsächlich. Freundlich, ohne Ärger, ohne Vortrag.
 
 Das ist der ganze Trick, und er fühlt sich am Anfang seltsam an, weil man das Gefühl hat, dem Kind etwas wegzunehmen. In Wahrheit nimmst du ihm etwas ab: die Unklarheit darüber, was jetzt eigentlich gilt.
 
 | Statt | Besser |
 |---|---|
-| „Zieh bitte die Schuhe an." (aus dem Nebenzimmer, viermal) | Hingehen, einmal sagen, dann helfen |
-| „Wollen wir jetzt gehen?" | „Wir gehen jetzt." |
-| „Wenn du nicht aufräumst, gibt es heute Abend nichts." | „Wenn die Bausteine drin sind, gehen wir raus." |
-| „Wie oft soll ich das noch sagen?" | Nichts sagen. Aufstehen. Handeln. |
-| „Räum dein Zimmer auf." | „Leg zuerst die Autos in die Kiste." |
+| „Zieh bitte die Schuhe an.“ (aus dem Nebenzimmer, viermal) | Hingehen, einmal sagen, dann helfen |
+| „Wollen wir jetzt gehen?“ | „Wir gehen jetzt.“ |
+| „Wenn du nicht aufräumst, gibt es heute Abend nichts.“ | „Wenn die Bausteine drin sind, gehen wir raus.“ |
+| „Wie oft soll ich das noch sagen?“ | Nichts sagen. Aufstehen. Handeln. |
+| „Räum dein Zimmer auf.“ | „Leg zuerst die Autos in die Kiste.“ |
 
 ## Und wenn du schon geschrien hast?
 
@@ -109,7 +109,7 @@ Ein einzelner lauter Moment macht kein Kind kaputt. Was zählt, ist das Muster �
 
 Was danach hilft, ist ziemlich schlicht. Geh noch einmal hin. Sag, dass du laut warst und dass dir das leidtut. Und dann, ganz wichtig, nimm die Sache nicht zurück.
 
-> „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Und bei den Schuhen bleibt es trotzdem."
+> „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Und bei den Schuhen bleibt es trotzdem.“
 
 Damit lernt dein Kind zwei Dinge gleichzeitig, die beide wertvoll sind: Erwachsene machen Fehler und stehen dazu. Und eine Entscheidung kippt nicht, nur weil es laut wurde.
 
@@ -122,6 +122,14 @@ Aber es ist meistens kein Autoritätsproblem. Kinder testen dort, wo die Beziehu
 Das ist im Kern ein Vertrauensbeweis, auch wenn er sich um halb acht morgens überhaupt nicht so anfühlt.
 
 Trotzdem heißt es nicht, dass du es hinnehmen musst. Was in diesen Situationen fehlt, ist meistens nicht Strenge. Es ist Vorhersehbarkeit.
+
+## Was sich mit mehreren Kindern verändert
+
+Vielleicht fragst du dich, ob das mit sieben Kindern nicht ganz anders ist. Die ehrliche Antwort: Das Prinzip ist dasselbe, aber der Spielraum ist kleiner.
+
+Wer viermal wiederholt, hat bei einem Kind einen anstrengenden Abend. Bei mehreren Kindern bricht dabei der ganze Ablauf zusammen, weil man nirgends fertig wird. Deshalb ist das frühe Handeln keine Härte, sondern schlicht die einzige Variante, die trägt.
+
+Und es hat einen Nebeneffekt, den ich anfangs nicht erwartet hätte: Es ist ruhiger. Nicht kälter, sondern ruhiger. Weil das lange Verhandeln wegfällt, das für alle Beteiligten das Anstrengendste daran war.
 
 ## Der eine Satz, der die meiste Arbeit macht
 

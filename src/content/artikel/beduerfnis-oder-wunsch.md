@@ -75,7 +75,7 @@ Und das ist der entscheidende Unterschied. **Enttäuschung ist unangenehm, aber 
 | Die Schuhe nicht anziehen wollen | Wunsch | Ins Handeln gehen, nicht ins vierte Erklären |
 | Im Elternbett schlafen | Grenzfall | Das Bedürfnis ist Nähe. Wo geschlafen wird, entscheidet ihr |
 | Noch zehn Minuten spielen | Wunsch | Sehr verständlich. Und trotzdem endet der Tag |
-| Trost nach einem Sturz | **Bedürfnis** | Immer. Ohne Bewertung, wie schlimm es „wirklich" war |
+| Trost nach einem Sturz | **Bedürfnis** | Immer. Ohne Bewertung, wie schlimm es „wirklich“ war |
 | Nicht in den Kindergarten wollen | Grenzfall | Erst klären, ob echte Not dahintersteckt. Sonst gilt der Rahmen |
 | Zähneputzen verweigern | Wunsch | Gesundheit ist nicht verhandelbar. Die Art, wie, schon |
 | Aufmerksamkeit, während du telefonierst | **Bedürfnis** | Und du darfst trotzdem telefonieren. Vorher ankündigen hilft |
@@ -90,7 +90,7 @@ Fällt dir etwas auf? Bei fast jedem Wunsch steckt ein echtes Bedürfnis dahinte
 
 Dein Kind will das Spielzeug im Laden. Der Wunsch ist das Spielzeug. Das Bedürfnis dahinter ist oft: Ich will auch etwas zu sagen haben. Ich will, dass du mich siehst.
 
-Du kannst also Nein zum Spielzeug sagen **und** trotzdem das Bedürfnis erfüllen. Indem dein Kind aussucht, welches Brot ihr mitnehmt. Indem du sagst: „Das ist wirklich schön. Schreiben wir es auf deine Wunschliste?"
+Du kannst also Nein zum Spielzeug sagen **und** trotzdem das Bedürfnis erfüllen. Indem dein Kind aussucht, welches Brot ihr mitnehmt. Indem du sagst: „Das ist wirklich schön. Schreiben wir es auf deine Wunschliste?“
 
 Dein Kind will noch eine Folge. Der Wunsch ist die Folge. Das Bedürfnis dahinter ist oft Nähe und Runterkommen. Das bekommt es auch, wenn ihr stattdessen zusammen auf dem Sofa sitzt.
 

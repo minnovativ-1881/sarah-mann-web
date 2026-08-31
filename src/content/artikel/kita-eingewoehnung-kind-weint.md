@@ -94,9 +94,9 @@ Ein langer Abschied verlängert den Schmerz, er verkürzt ihn nicht. Jede zusät
 So sieht ein tragfähiger Abschied aus:
 
 1. **Immer gleich.** Dasselbe Ritual, dieselbe Reihenfolge, möglichst derselbe Ort. Jacke aufhängen, kurz zusammen zum Fenster, zwei Küsse, winken. Was ihr wählt, ist egal. Dass es immer gleich ist, nicht.
-2. **Angekündigt.** „Ich bringe dich zur Gruppe, dann gehe ich, und nach dem Mittagessen hole ich dich ab." Kinder brauchen keine Uhrzeit, sie brauchen einen Anker im Tagesablauf.
-3. **Das Gefühl darf sein.** „Du bist traurig, dass ich gehe. Das verstehe ich." Nicht wegreden, nicht kleinreden, nicht mit Süßigkeiten überdecken.
-4. **Und dann die Klarheit.** „Und ich gehe jetzt. Ich komme nach dem Essen wieder." Ein Satz, ruhig gesagt.
+2. **Angekündigt.** „Ich bringe dich zur Gruppe, dann gehe ich, und nach dem Mittagessen hole ich dich ab.“ Kinder brauchen keine Uhrzeit, sie brauchen einen Anker im Tagesablauf.
+3. **Das Gefühl darf sein.** „Du bist traurig, dass ich gehe. Das verstehe ich.“ Nicht wegreden, nicht kleinreden, nicht mit Süßigkeiten überdecken.
+4. **Und dann die Klarheit.** „Und ich gehe jetzt. Ich komme nach dem Essen wieder.“ Ein Satz, ruhig gesagt.
 5. **Gehen.** Nicht noch einmal umdrehen. Nicht zurückkommen, wenn es lauter wird. Das ist der schwerste Teil und der wichtigste.
 
 Fällt dir die Struktur auf? Das Gefühl wird anerkannt, **und** die Sache bleibt. Genau das ist gemeint mit Wärme und Klarheit zugleich.
@@ -105,7 +105,7 @@ Fällt dir die Struktur auf? Das Gefühl wird anerkannt, **und** die Sache bleib
 
 **Heimlich verschwinden.** Das ist gut gemeint und der folgenreichste Fehler. Es erspart dir die Tränen und lehrt dein Kind, dass du jederzeit unbemerkt weg sein kannst. Danach wird es an dir kleben, auch zu Hause, weil es dich nicht mehr aus den Augen lassen kann.
 
-**Zurückkommen, wenn es weint.** Verständlich, und trotzdem ungünstig. Dein Kind lernt daraus nicht „Mama tröstet mich", sondern „wenn ich laut genug bin, kommt sie zurück". Und dann wird der Abschied morgen lauter, nicht leiser.
+**Zurückkommen, wenn es weint.** Verständlich, und trotzdem ungünstig. Dein Kind lernt daraus nicht „Mama tröstet mich“, sondern „wenn ich laut genug bin, kommt sie zurück“. Und dann wird der Abschied morgen lauter, nicht leiser.
 
 **Die eigene Unsicherheit im Gesicht.** Kinder lesen uns unglaublich gut. Wenn du zögerst, dreimal ansetzt und mit Sorge im Blick schaust, dann sagt dein Gesicht: Hier stimmt etwas nicht. Deine ruhige Sicherheit ist das Stärkste, was du in diesem Moment mitgeben kannst, selbst wenn du sie innerlich nicht ganz fühlst.
 
@@ -117,7 +117,7 @@ Aber es hilft, es richtig einzuordnen. Dein schlechtes Gewissen ist ein Zeichen 
 
 Was hilft: **Entscheide nicht im Moment.** Überleg dir am Abend vorher, wie euer Abschied morgen abläuft. Dann musst du an der Tür nicht abwägen, während dein Kind weint und du übermüdet bist. Du machst einfach das, was ihr vereinbart habt.
 
-Und noch etwas: Frag in der Kita gezielt nach. Nicht „war er brav", sondern: **Wie lange hat er geweint? Von wem hat er sich trösten lassen? Was hat er danach gemacht?** Diese Antworten helfen dir mehr als jede Beruhigung.
+Und noch etwas: Frag in der Kita gezielt nach. Nicht „war er brav“, sondern: **Wie lange hat er geweint? Von wem hat er sich trösten lassen? Was hat er danach gemacht?** Diese Antworten helfen dir mehr als jede Beruhigung.
 
 ## Warum dieser Moment größer ist, als er aussieht
 

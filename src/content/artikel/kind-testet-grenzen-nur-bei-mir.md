@@ -27,7 +27,7 @@ faq:
 
 Es gibt einen Satz, der Eltern still zusetzt, und er wird meistens freundlich gesagt.
 
-> „Also bei mir macht er das nie."
+> „Also bei mir macht er das nie.“
 
 Die Oma sagt es. Die Erzieherin sagt es. Manchmal der Partner. Und danach bleibt dieses Gefühl hängen: Wenn es bei allen anderen funktioniert, dann liegt es wohl an mir.
 
@@ -102,6 +102,22 @@ Fast immer erklären zwei Dinge den Unterschied, und beide haben nichts mit Char
 **Zweitens die eigene Kraft.** Ruhigbleiben ist eine Leistung, die Energie kostet. Wer frisch dazukommt, hat mehr davon.
 
 Was dagegen wirklich hilft: euch auf wenige Regeln zu einigen, die bei beiden gelten. Und Unterschiede unter vier Augen zu klären, nicht vor dem Kind. Denn ein Kind, das erlebt, dass Eltern sich vor ihm widersprechen, prüft danach umso mehr. Nicht aus Berechnung, sondern weil die Lage tatsächlich unklar geworden ist.
+
+## Drei Situationen, in denen es besonders auffällt
+
+**Nach dem Abholen.** Der Klassiker, und aus dem oben beschriebenen Grund: Der Vorrat ist leer. Hilfreich ist, die ersten Minuten bewusst freizuhalten. Kein Einkauf, keine Fragen zum Tag, kein Termin direkt danach. Wenn das nicht geht, hilft schon, es zu wissen, denn dann nimmst du es nicht mehr persönlich.
+
+**Wenn Besuch da ist.** Viele Kinder prüfen genau dann besonders, und das hat einen einfachen Grund: Sie merken, dass du gerade nicht so entschieden reagieren willst wie sonst. Kinder lesen das sehr genau. Am besten hilft, sich vorher zu überlegen, was auch mit Besuch gilt, und es dann genauso ruhig zu sagen wie sonst.
+
+**Beim Übergang.** Vom Spielen zum Essen, vom Draußen ins Haus, vom Wachsein ins Bett. Übergänge sind für kleine Kinder die schwierigsten Momente überhaupt, weil sie etwas Schönes beenden müssen, ohne zu wissen, was kommt. Eine kurze Vorwarnung verändert hier oft mehr als jede Konsequenz danach.
+
+## Was du daraus nicht schließen solltest
+
+Dass dein Kind bei dir mehr prüft, heißt nicht, dass du inkonsequent bist. Und es heißt auch nicht, dass die anderen es besser können.
+
+Es heißt in aller Regel nur eines: Du bist die Person, bei der dein Kind sich nicht zusammenreißen muss.
+
+Trotzdem ist das kein Grund, alles hinzunehmen. Denn Kinder, die ständig prüfen müssen, wo die Grenze heute liegt, verbrauchen dafür Energie. Diese Energie steht ihnen dann nicht mehr fürs Spielen, Lernen und Entdecken zur Verfügung. Verlässlichkeit ist deshalb kein Machtinstrument, sondern eine Entlastung für dein Kind.
 
 ## Und der Vergleich?
 

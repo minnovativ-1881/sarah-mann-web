@@ -1,5 +1,5 @@
 ---
-titel: 'Autoritativ erziehen: Was „warm und klar" im Alltag wirklich heißt'
+titel: 'Autoritativ erziehen: Was „warm und klar“ im Alltag wirklich heißt'
 seoTitel: 'Autoritativer Erziehungsstil: Definition, Beispiele, Alltag | Sarah Mann'
 beschreibung: 'Der autoritative Erziehungsstil verbindet viel Wärme mit klarer Führung. Was das konkret bedeutet, warum er nichts mit autoritär zu tun hat, und wie er an einem ganz normalen Dienstagabend aussieht.'
 eyebrow: 'Die Grundlage'
@@ -13,7 +13,7 @@ faq:
   - frage: 'Was ist der autoritative Erziehungsstil?'
     antwort: 'Der autoritative Erziehungsstil verbindet zwei Dinge, die viele für Gegensätze halten: viel Wärme und viel klare Führung. Eltern gehen liebevoll auf die Gefühle ihres Kindes ein und halten trotzdem an dem fest, was gerade gilt. Die Psychologin Diana Baumrind hat das Muster in den Sechzigerjahren beschrieben, nachdem sie über hundert Vorschulkinder in ihrem Alltag beobachtet hatte.'
   - frage: 'Was ist der Unterschied zwischen autoritativ und autoritär?'
-    antwort: 'Die beiden Wörter klingen fast gleich und meinen das Gegenteil voneinander. Autoritär heißt vereinfacht: viel Kontrolle, wenig Wärme, also „ich bestimme, du gehorchst". Autoritativ heißt: viel Wärme und viel Führung zugleich, also „ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen". Der Unterschied liegt nicht in der Klarheit, sondern darin, ob die Beziehung dabei warm bleibt.'
+    antwort: 'Die beiden Wörter klingen fast gleich und meinen das Gegenteil voneinander. Autoritär heißt vereinfacht: viel Kontrolle, wenig Wärme, also „ich bestimme, du gehorchst“. Autoritativ heißt: viel Wärme und viel Führung zugleich, also „ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen“. Der Unterschied liegt nicht in der Klarheit, sondern darin, ob die Beziehung dabei warm bleibt.'
   - frage: 'Welche vier Erziehungsstile gibt es?'
     antwort: 'Aus den beiden Achsen Wärme und Führung ergeben sich vier Kombinationen: viel Wärme und wenig Führung (permissiv), wenig Wärme und viel Führung (autoritär), wenig von beidem (vernachlässigend) und viel von beidem (autoritativ). Baumrind selbst beschrieb zunächst drei Muster, das vierte kam 1983 durch Maccoby und Martin dazu.'
   - frage: 'Ist der autoritative Erziehungsstil wissenschaftlich der beste?'
@@ -26,7 +26,7 @@ faq:
 
 Es gibt zwei Wörter in der Erziehung, die fast gleich klingen und genau das Gegenteil voneinander meinen. **Autoritär** und **autoritativ**. Ein einziger Buchstabe Unterschied, und dazwischen liegen sechzig Jahre Forschung und ungefähr jedes zweite missglückte Gespräch über Erziehung.
 
-Wenn du bis hierher gelesen hast, kennst du das Gefühl vermutlich: Du willst nicht die strenge Mutter sein, die vor allem Regeln hat. Aber du willst auch nicht die sein, die abends um halb neun zum vierten Mal verhandelt und sich dabei selbst verliert. Und irgendwo dazwischen soll es einen Weg geben, den dir nur niemand zeigt.
+Vermutlich geht es dir wie den meisten Eltern, die zu mir finden: Du willst nicht die strenge Mutter sein, die vor allem Regeln hat. Aber du willst auch nicht die sein, die abends um halb neun zum vierten Mal verhandelt und sich dabei selbst verliert. Und irgendwo dazwischen soll es einen Weg geben, den dir nur niemand zeigt.
 
 Den gibt es. Er hat sogar einen Namen.
 
@@ -42,7 +42,9 @@ Und irgendwann fiel ihr ein Muster auf. Fast alles, was diese Eltern taten, lie�
 
 Zwei Fragen, mehr nicht. Daraus wurde ein Modell, mit dem die Erziehungsforschung bis heute arbeitet.
 
-Und jetzt kommt der Punkt, an dem es interessant wird. Baumrind hat nicht gefragt, ob Eltern liebevoll **oder** konsequent sind. Sie hat beides gleichzeitig angeschaut. Die entscheidende Frage lautet nämlich nicht „welches von beidem?", sondern:
+Ich bin selbst Mutter von sieben Kindern, und ich sage das hier aus einem bestimmten Grund: Was ich beschreibe, muss nicht nur in der Theorie stimmen. Es muss auch dann noch funktionieren, wenn die Zeit knapp ist, die Nerven dünn sind und mehrere Kinder gleichzeitig etwas wollen.
+
+Und jetzt kommt der Punkt, an dem es interessant wird. Baumrind hat nicht gefragt, ob Eltern liebevoll **oder** konsequent sind. Sie hat beides gleichzeitig angeschaut. Die entscheidende Frage lautet nämlich nicht „welches von beidem?“, sondern:
 
 > Wie viel Wärme **und** wie viel Führung erlebt ein Kind?
 
@@ -69,9 +71,9 @@ Ausgeschrieben sieht das so aus:
 
 Weil dieses Wort so oft missverstanden wird, sage ich es ausdrücklich dazu.
 
-**Autoritär** heißt vereinfacht: „Ich bestimme, du gehorchst." Die Regel steht über der Beziehung. Gefühle spielen keine große Rolle. Wer nicht folgt, bekommt Druck.
+**Autoritär** heißt vereinfacht: „Ich bestimme, du gehorchst.“ Die Regel steht über der Beziehung. Gefühle spielen keine große Rolle. Wer nicht folgt, bekommt Druck.
 
-**Autoritativ** heißt: „Ich sehe dich. Ich liebe dich. Und ich weiß, wohin wir gehen." Die Beziehung trägt, und die Richtung ist trotzdem klar.
+**Autoritativ** heißt: „Ich sehe dich. Ich liebe dich. Und ich weiß, wohin wir gehen.“ Die Beziehung trägt, und die Richtung ist trotzdem klar.
 
 Das ist ein gewaltiger Unterschied, und ich glaube, an dieser einen Verwechslung scheitern unglaublich viele Gespräche über Erziehung. Sobald jemand das Wort Führung in den Mund nimmt, hören viele Eltern Strenge. Sobald jemand Wärme sagt, hören andere Beliebigkeit. Dabei geht es genau darum, dass beides zusammen kann.
 
@@ -101,35 +103,35 @@ Hier sind konkrete Situationen, jeweils in drei Varianten. Nicht, um dich zu bew
 
 ### Das Kind will nicht ins Bett
 
-*Wenig Führung:* „Na gut, aber nur noch zehn Minuten." Und danach noch mal zehn.
+*Wenig Führung:* „Na gut, aber nur noch zehn Minuten.“ Und danach noch mal zehn.
 
-*Wenig Wärme:* „Jetzt reicht es. Ins Bett, sofort."
+*Wenig Wärme:* „Jetzt reicht es. Ins Bett, sofort.“
 
-*Warm und klar:* „Ich weiß, du würdest gern weiterspielen. Das verstehe ich. Und trotzdem gehen wir jetzt ins Bett." Dann aufstehen und mitgehen, nicht noch dreimal wiederholen.
+*Warm und klar:* „Ich weiß, du würdest gern weiterspielen. Das verstehe ich. Und trotzdem gehen wir jetzt ins Bett.“ Dann aufstehen und mitgehen, nicht noch dreimal wiederholen.
 
 ### Es gibt keinen Nachtisch mehr
 
-*Wenig Führung:* „Also gut, aber nur ein kleines Stück."
+*Wenig Führung:* „Also gut, aber nur ein kleines Stück.“
 
-*Wenig Wärme:* „Hör auf zu betteln, du hast genug gehabt."
+*Wenig Wärme:* „Hör auf zu betteln, du hast genug gehabt.“
 
-*Warm und klar:* „Du hättest so gern noch was Süßes. Heute gibt es nichts mehr." Und dann die Enttäuschung aushalten, ohne sie wegreden zu müssen.
+*Warm und klar:* „Du hättest so gern noch was Süßes. Heute gibt es nichts mehr.“ Und dann die Enttäuschung aushalten, ohne sie wegreden zu müssen.
 
 ### Dein Kind haut
 
-*Wenig Führung:* „Bitte hör auf, das tut weh, das magst du doch auch nicht."
+*Wenig Führung:* „Bitte hör auf, das tut weh, das magst du doch auch nicht.“
 
-*Wenig Wärme:* „Wenn du noch einmal haust, gehst du auf dein Zimmer."
+*Wenig Wärme:* „Wenn du noch einmal haust, gehst du auf dein Zimmer.“
 
-*Warm und klar:* Die Hand ruhig festhalten. „Ich lasse nicht zu, dass du mich haust." Und danach: „Du warst richtig wütend. Erzähl mir, was los war."
+*Warm und klar:* Die Hand ruhig festhalten. „Ich lasse nicht zu, dass du mich haust.“ Und danach: „Du warst richtig wütend. Erzähl mir, was los war.“
 
 ### Du bist laut geworden
 
 *Wenig Führung:* Man tut so, als wäre nichts gewesen.
 
-*Wenig Wärme:* „Das hast du dir selbst zuzuschreiben."
+*Wenig Wärme:* „Das hast du dir selbst zuzuschreiben.“
 
-*Warm und klar:* Später hingehen. „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Bei der Sache selbst bleibt es trotzdem."
+*Warm und klar:* Später hingehen. „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Bei der Sache selbst bleibt es trotzdem.“
 
 Fällt dir das Muster auf? In der warmen und klaren Variante taucht fast immer ein **und** auf. Das Gefühl gilt, und die Sache gilt auch. Beides ist wahr, gleichzeitig.
 

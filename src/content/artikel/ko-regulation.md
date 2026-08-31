@@ -67,7 +67,7 @@ Ein Kind braucht in einem schwierigen Moment nicht, dass die Grenze verschwindet
 
 Die wichtigste Regel zuerst: **In der Hochphase ist Reden wirkungslos.**
 
-Ein Kind, das gerade schreit, tobt oder sich auf den Boden wirft, hat keinen Zugriff auf den denkenden Teil seines Gehirns. Erklärungen kommen dort nicht an. Fragen wie „Was ist denn los?" auch nicht. Das ist keine Trotzhaltung, das ist Biologie.
+Ein Kind, das gerade schreit, tobt oder sich auf den Boden wirft, hat keinen Zugriff auf den denkenden Teil seines Gehirns. Erklärungen kommen dort nicht an. Fragen wie „Was ist denn los?“ auch nicht. Das ist keine Trotzhaltung, das ist Biologie.
 
 Was in dieser Phase wirkt, ist nicht sprachlich:
 
@@ -77,9 +77,9 @@ Was in dieser Phase wirkt, ist nicht sprachlich:
 
 **Leiser werden statt lauter.** Das ist gegen jeden Instinkt und wirkt am stärksten.
 
-**Kurze Sätze.** „Ich bin da." „Ich bleibe hier." Mehr nicht. Zwei bis drei Worte pro Satz.
+**Kurze Sätze.** „Ich bin da.“ „Ich bleibe hier.“ Mehr nicht. Zwei bis drei Worte pro Satz.
 
-**Nähe anbieten, nicht aufdrängen.** Manche Kinder wollen gehalten werden, andere ertragen Berührung in diesem Moment nicht. Beides ist normal. „Ich setze mich hierhin" reicht.
+**Nähe anbieten, nicht aufdrängen.** Manche Kinder wollen gehalten werden, andere ertragen Berührung in diesem Moment nicht. Beides ist normal. „Ich setze mich hierhin“ reicht.
 
 Und dann kommt der Teil, der am meisten kostet: **warten**. Ein Wutanfall hat einen Verlauf, und man kann ihn nicht abkürzen. Man kann ihn nur begleiten oder verschlimmern.
 
