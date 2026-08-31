@@ -11,3 +11,7 @@ out/
 
 # Original-Bilder (nur optimierte WebP in public/bilder werden deployed)
 /bilder/
+
+# Zugangsdaten, niemals ins Repo
+zugaenge-*.env
+*.secret
