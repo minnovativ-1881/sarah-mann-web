@@ -68,15 +68,15 @@ export default function TestsSeite() {
 
       <section className="section-padding bg-cream">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="grid md:grid-cols-2 gap-px bg-cream-mid">
+          <div className="grid md:grid-cols-2 gap-6">
             {TESTS.map((t) => (
               <Link
                 key={t.slug}
                 href={testUrl(t.slug)}
-                className="bg-cream group hover:bg-cream-dark transition-colors flex flex-col"
+                className="kachel group flex flex-col"
               >
                 <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="15rem" />
-                <div className="p-8 lg:p-11 flex flex-col flex-1">
+                <div className="px-5 pt-7 pb-5 lg:px-6 flex flex-col flex-1">
                   <p className="text-overline text-terra/70 mb-4">
                     {t.fragen.length} Fragen · {t.dauer}
                   </p>

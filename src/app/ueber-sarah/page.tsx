@@ -180,7 +180,7 @@ export default function UeberSarahSeite() {
             {artikel.length} Artikel in sechs Bereichen, dazu {TESTS.length}{" "}
             kostenlose Tests.
           </p>
-          <div className="grid sm:grid-cols-2 gap-px bg-cream-mid">
+          <div className="grid sm:grid-cols-2 gap-4">
             {silos.map((key) => {
               const anzahl = artikel.filter((a) => a.silo === key).length;
               if (!anzahl) return null;
@@ -188,7 +188,7 @@ export default function UeberSarahSeite() {
                 <Link
                   key={key}
                   href="/wissen/"
-                  className="bg-cream p-6 group hover:bg-cream-dark transition-colors"
+                  className="kachel group p-6"
                 >
                   <p className="font-serif text-deep text-lg group-hover:text-terra transition-colors">
                     {SILOS[key].name}
@@ -216,7 +216,7 @@ export default function UeberSarahSeite() {
           >
             Wo du anfangen kannst
           </h2>
-          <div className="grid gap-px bg-cream-mid">
+          <div className="grid gap-4">
             {["autoritativer-erziehungsstil", "grenzen-setzen-kleinkind", "elterliche-erschoepfung"]
               .map((slug) => artikel.find((a) => a.slug === slug))
               .filter((a): a is NonNullable<typeof a> => Boolean(a))
@@ -224,7 +224,7 @@ export default function UeberSarahSeite() {
                 <Link
                   key={a.slug}
                   href={artikelUrl(a.slug)}
-                  className="bg-cream p-6 group hover:bg-cream-dark transition-colors"
+                  className="kachel group p-6"
                 >
                   <p className="font-serif text-deep text-lg group-hover:text-terra transition-colors mb-1">
                     {a.titel}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { KachelBild } from "@/components/ArtikelBild";
 import { SILOS, artikelUrl, type Artikel } from "@/lib/artikel";
 import { testNachSlug, testUrl } from "@/lib/tests";
 
@@ -82,18 +83,21 @@ export function VerwandteArtikel({ artikel }: { artikel: Artikel[] }) {
     <section className="bg-cream-dark section-padding">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <p className="text-overline text-terra mb-8">Weiterlesen</p>
-        <div className="grid md:grid-cols-3 gap-px bg-cream-mid">
+        <div className="grid md:grid-cols-3 gap-6">
           {artikel.map((a) => (
             <Link
               key={a.slug}
               href={artikelUrl(a.slug)}
-              className="bg-cream p-8 group hover:bg-cream-dark transition-colors"
+              className="kachel group flex flex-col"
             >
-              <p className="text-overline text-terra/70 mb-4">{SILOS[a.silo].name}</p>
-              <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
-                {a.titel}
-              </h3>
-              <p className="text-deep/65 text-sm leading-relaxed">{a.beschreibung}</p>
+              <KachelBild src={a.bild} alt={a.bildAlt} hoehe="10rem" />
+              <div className="px-4 pt-6 pb-4 flex flex-col flex-1">
+                <p className="text-overline text-terra/70 mb-4">{SILOS[a.silo].name}</p>
+                <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
+                  {a.titel}
+                </h3>
+                <p className="text-deep/65 text-sm leading-relaxed">{a.beschreibung}</p>
+              </div>
             </Link>
           ))}
         </div>

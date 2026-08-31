@@ -20,6 +20,11 @@ const config: Config = {
         cream: "#FFFFFF", // gallery white (Haupt-Hintergrund)
         "cream-dark": "#F6F4EF", // warmweiss (alternierende Sektionen)
         "cream-mid": "#E7E4DE", // Haarlinien / zarte Ziffern
+        // Dritte Flaeche fuer Kacheln: sehr helles Petrol. Hebt sich von BEIDEN
+        // Sektionsfarben ab, damit eine Kachel nie mit ihrem Untergrund
+        // verschmilzt und der Hover eine eigene Farbe bekommt.
+        tint: "#F1F6F7",
+        "tint-dark": "#E3EDEE",
       },
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],

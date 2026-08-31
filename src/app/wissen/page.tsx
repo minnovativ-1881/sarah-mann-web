@@ -76,15 +76,15 @@ export default function WissenSeite() {
         <section className="section-padding bg-cream">
           <div className="max-w-7xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-terra mb-8">Die kostenlosen Tests</p>
-            <div className="grid md:grid-cols-2 gap-px bg-cream-mid">
+            <div className="grid md:grid-cols-2 gap-6">
               {TESTS.map((t) => (
                 <Link
                   key={t.slug}
                   href={testUrl(t.slug)}
-                  className="bg-cream group hover:bg-cream-dark transition-colors"
+                  className="kachel group"
                 >
                   <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="13rem" />
-                  <div className="p-8 lg:p-10">
+                  <div className="px-4 pt-6 pb-4 lg:px-5">
                     <p className="text-overline text-terra/70 mb-4">{t.dauer}</p>
                     <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
                       {t.titel}
@@ -117,15 +117,15 @@ export default function WissenSeite() {
                 <div className="divider-terra" />
                 <p className="text-deep/70 leading-relaxed mt-6">{silo.beschreibung}</p>
               </div>
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-cream-mid">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {liste.map((a) => (
                   <Link
                     key={a.slug}
                     href={artikelUrl(a.slug)}
-                    className="bg-cream group hover:bg-cream-dark transition-colors flex flex-col"
+                    className="kachel group flex flex-col"
                   >
                     <KachelBild src={a.bild} alt={a.bildAlt} />
-                    <div className="p-8 flex flex-col flex-1">
+                    <div className="px-4 pt-6 pb-4 flex flex-col flex-1">
                       <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
                         {a.titel}
                       </h3>

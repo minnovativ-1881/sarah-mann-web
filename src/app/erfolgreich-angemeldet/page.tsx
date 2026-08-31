@@ -76,12 +76,12 @@ export default function AngemeldetSeite() {
       <section className="section-padding bg-cream">
         <div className="max-w-3xl mx-auto px-6 lg:px-12">
           <p className="text-overline text-terra mb-8">Womit die meisten anfangen</p>
-          <div className="grid gap-px bg-cream-mid">
+          <div className="grid gap-4">
             {empfehlungen.map((a) => (
               <Link
                 key={a.slug}
                 href={artikelUrl(a.slug)}
-                className="bg-cream p-7 group hover:bg-cream-dark transition-colors"
+                className="kachel group p-7"
               >
                 <p className="font-serif text-deep text-xl group-hover:text-terra transition-colors mb-2">
                   {a.titel}

@@ -108,7 +108,7 @@ export default function TestEngine({ test }: { test: Test }) {
               <button
                 key={i}
                 onClick={() => antworten(a.wert, i)}
-                className="text-left border border-cream-mid bg-cream px-6 py-4 text-deep/80 hover:border-terra hover:bg-cream-dark hover:text-deep transition-colors duration-200"
+                className="text-left border border-cream-mid bg-cream px-6 py-4 text-deep/80 hover:border-terra hover:bg-tint hover:text-deep transition-colors duration-200"
               >
                 {a.text}
               </button>
