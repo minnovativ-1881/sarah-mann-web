@@ -14,6 +14,17 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/wissen/` },
 };
 
+/**
+ * Bildausschnitt der Silo-Baender.
+ *
+ * Standard ist "center 48%". Zwei Fotos haben die Person so weit oben im
+ * Bild, dass dabei der Kopf angeschnitten wird, darum eigene Werte.
+ */
+const BILDPOSITION: Record<string, string> = {
+  gefuehle: "center 32%",
+  uebergaenge: "center 8%",
+};
+
 export default function WissenSeite() {
   const artikel = alleArtikel();
   const reihenfolge = Object.keys(SILOS) as SiloSlug[];
@@ -83,7 +94,12 @@ export default function WissenSeite() {
                   href={testUrl(t.slug)}
                   className="kachel group"
                 >
-                  <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="13rem" />
+                  <KachelBild
+                    src={findeBild("tests", t.slug)}
+                    alt={t.titel}
+                    hoehe="16.5rem"
+                    position="center 30%"
+                  />
                   <div className="px-4 pt-6 pb-4 lg:px-5">
                     <p className="text-overline text-terra/70 mb-4">{t.dauer}</p>
                     <h2 className="font-serif text-deep text-2xl lg:text-3xl mb-4 group-hover:text-terra transition-colors">
@@ -105,7 +121,11 @@ export default function WissenSeite() {
         if (!liste.length) return null;
         return (
           <section key={key} className="section-padding bg-cream-dark odd:bg-cream">
-            <SiloBand src={findeBild("silos", key)} titel={silo.name} />
+            <SiloBand
+              src={findeBild("silos", key)}
+              titel={silo.name}
+              position={BILDPOSITION[key] ?? "center 48%"}
+            />
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
               <div className="max-w-2xl mb-12">
                 <h2

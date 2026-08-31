@@ -75,7 +75,12 @@ export default function TestsSeite() {
                 href={testUrl(t.slug)}
                 className="kachel group flex flex-col"
               >
-                <KachelBild src={findeBild("tests", t.slug)} alt={t.titel} hoehe="15rem" />
+                <KachelBild
+                  src={findeBild("tests", t.slug)}
+                  alt={t.titel}
+                  hoehe="16.5rem"
+                  position="center 30%"
+                />
                 <div className="px-5 pt-7 pb-5 lg:px-6 flex flex-col flex-1">
                   <p className="text-overline text-terra/70 mb-4">
                     {t.fragen.length} Fragen · {t.dauer}

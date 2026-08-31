@@ -24,14 +24,14 @@ export function ArtikelHeroBild({
 }) {
   if (!src) return null;
   return (
-    <div className="relative w-full bg-cream-dark" style={{ height: "clamp(17rem, 40vw, 38rem)" }}>
+    <div className="relative w-full bg-cream-dark" style={{ height: "clamp(19rem, 50vw, 44rem)" }}>
       <Image
         src={src}
         alt={alt ?? ""}
         fill
         sizes="100vw"
         priority
-        style={{ objectFit: "cover", objectPosition: "center 40%" }}
+        style={{ objectFit: "cover", objectPosition: "center 18%" }}
       />
       {/* Sehr dezent, damit der Uebergang zur Textspalte nicht hart bricht */}
       <div
@@ -47,10 +47,13 @@ export function KachelBild({
   src,
   alt,
   hoehe = "12rem",
+  position = "center 42%",
 }: {
   src?: string;
   alt?: string;
   hoehe?: string;
+  /** Testfotos sind breiter beschnitten, dort muss der Ausschnitt hoeher sitzen. */
+  position?: string;
 }) {
   if (!src) return null;
   return (
@@ -61,7 +64,7 @@ export function KachelBild({
         fill
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
         className="transition-transform duration-700 group-hover:scale-105"
-        style={{ objectFit: "cover", objectPosition: "center 42%" }}
+        style={{ objectFit: "cover", objectPosition: position }}
       />
     </div>
   );
@@ -72,10 +75,14 @@ export function SiloBand({
   src,
   alt,
   titel,
+  position = "center 48%",
 }: {
   src?: string;
   alt?: string;
   titel: string;
+  /** Bildausschnitt je Foto. Bei zwei Motiven sitzt der Kopf so weit oben,
+   *  dass der Standardwert ihn anschneidet. */
+  position?: string;
 }) {
   if (!src) return null;
   return (
@@ -92,7 +99,7 @@ export function SiloBand({
         alt={alt ?? titel}
         fill
         sizes="100vw"
-        style={{ objectFit: "cover", objectPosition: "center 48%" }}
+        style={{ objectFit: "cover", objectPosition: position }}
       />
     </div>
   );
