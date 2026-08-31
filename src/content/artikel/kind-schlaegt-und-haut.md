@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn dein Kind haut'
-seoTitel: 'Kind haut: was in dem Moment wirklich hilft'
+seoTitel: 'Kind haut: was in dem Moment hilft'
 beschreibung: 'Warum kleine Kinder hauen, was in dem Moment wirkt, warum die Entschuldigung erzwungen nichts bringt und wie du das Muster über Wochen veränderst.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen

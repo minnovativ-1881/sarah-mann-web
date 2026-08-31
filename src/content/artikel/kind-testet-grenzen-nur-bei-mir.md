@@ -1,7 +1,7 @@
 ---
 titel: 'Bei allen anderen klappt es. Nur bei dir nicht.'
-seoTitel: 'Kind testet Grenzen nur bei Mama: warum das so ist'
-beschreibung: 'Warum Kinder ausgerechnet bei der Person schwierig sind, die sie am liebsten haben, was in Wahrheit dahintersteckt und was in dieser Situation tatsächlich hilft.'
+seoTitel: 'Kind testet Grenzen nur bei Mama'
+beschreibung: 'Warum Kinder ausgerechnet bei der Person schwierig sind, die sie am liebsten haben, was in Wahrheit dahintersteckt.'
 eyebrow: 'Der Vergleich, der wehtut'
 silo: grenzen
 datum: '2026-08-30'

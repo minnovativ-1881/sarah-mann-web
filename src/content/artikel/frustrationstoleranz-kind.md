@@ -1,7 +1,7 @@
 ---
 titel: 'Warum Frust dazugehört'
-seoTitel: 'Frustrationstoleranz beim Kind stärken: was sie wirklich aufbaut'
-beschreibung: 'Frustrationstoleranz lässt sich nicht erklären, nur üben. Warum das Wegnehmen von Frust ihn nicht verringert, was in welchem Alter geht und wie die richtige Dosis aussieht.'
+seoTitel: 'Frustrationstoleranz beim Kind stärken'
+beschreibung: 'Frustrationstoleranz lässt sich nicht erklären, nur üben. Warum das Wegnehmen von Frust ihn nicht verringert, was in welchem Alter geht.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-08-31'

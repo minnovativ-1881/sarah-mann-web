@@ -1,7 +1,7 @@
 ---
 titel: 'Zeitumstellung mit Kind: die vier Tage davor'
-seoTitel: 'Zeitumstellung mit Kind: der Plan für die Umstellung im Herbst'
-beschreibung: 'Am 25. Oktober 2026 wird zurückgestellt. Warum Kinder eine Stunde mehr Schlaf nicht einfach mitnehmen, welcher Plan funktioniert und was zu tun ist, wenn es nicht klappt.'
+seoTitel: 'Zeitumstellung mit Kind: der Plan'
+beschreibung: 'Am 25. Oktober 2026 wird zurückgestellt. Warum Kinder eine Stunde mehr Schlaf nicht einfach mitnehmen, welcher Plan funktioniert und was zu tun ist.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'

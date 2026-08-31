@@ -1,7 +1,7 @@
 ---
 titel: 'Die vier Erziehungsstile, für Eltern erklärt'
-seoTitel: 'Erziehungsstile: die vier Typen und was sie im Alltag bedeuten'
-beschreibung: 'Die vier Erziehungsstile stehen in jedem Lehrbuch, meist als Prüfungsstoff. Hier stehen sie so, wie sie im Familienalltag aussehen, mit derselben Szene viermal durchgespielt.'
+seoTitel: 'Die vier Erziehungsstile im Alltag'
+beschreibung: 'Die vier Erziehungsstile stehen in jedem Lehrbuch, meist als Prüfungsstoff. Hier stehen sie so, wie sie im Familienalltag aussehen.'
 eyebrow: 'Die Grundlagen'
 silo: grundlagen
 datum: '2026-08-31'

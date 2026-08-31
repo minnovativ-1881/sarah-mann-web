@@ -1,7 +1,7 @@
 ---
 titel: 'Grenzen, die halten, ohne dass du hart wirst'
-seoTitel: 'Grenzen setzen beim Kleinkind: der komplette Leitfaden'
-beschreibung: 'Wie viele Grenzen ein Kleinkind wirklich braucht, wie eine Grenze im Alltag steht, was zu tun ist, wenn sie überschritten wird, und warum das Kind sie immer wieder prüft.'
+seoTitel: 'Grenzen setzen beim Kleinkind: der Leitfaden'
+beschreibung: 'Wie viele Grenzen ein Kleinkind wirklich braucht, wie eine Grenze im Alltag steht und was zu tun ist, wenn sie überschritten wird.'
 eyebrow: 'Der Leitfaden'
 silo: grenzen
 datum: '2026-08-30'

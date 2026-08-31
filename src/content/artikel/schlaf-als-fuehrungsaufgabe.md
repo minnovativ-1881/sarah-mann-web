@@ -1,7 +1,7 @@
 ---
 titel: 'Warum der Abend zeigt, wie es tagsüber läuft'
-seoTitel: 'Schlaf und Erziehung: warum der Abend alles offenlegt'
-beschreibung: 'Der Abend ist keine eigene Baustelle, sondern der Ort, an dem sich zeigt, wie klar der Tag war. Warum Schlafprobleme oft Führungsfragen sind, und was das praktisch heißt.'
+seoTitel: 'Schlaf und Erziehung: was der Abend zeigt'
+beschreibung: 'Der Abend ist keine eigene Baustelle, sondern der Ort, an dem sich zeigt, wie klar der Tag war.'
 eyebrow: 'Der Leitfaden'
 silo: schlaf
 datum: '2026-08-30'

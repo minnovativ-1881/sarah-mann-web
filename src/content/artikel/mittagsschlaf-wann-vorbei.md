@@ -1,7 +1,7 @@
 ---
 titel: 'Mittagsschlaf: wann er endet und was danach kommt'
-seoTitel: 'Mittagsschlaf: wann hört er auf? Die Zeichen und der Übergang'
-beschreibung: 'Der Mittagsschlaf ist der am meisten unterschätzte Hebel für den Abend. Woran du erkennst, dass er zu lang, zu spät oder vorbei ist, und wie der Übergang gelingt.'
+seoTitel: 'Mittagsschlaf: wann hört er auf?'
+beschreibung: 'Der Mittagsschlaf ist der unterschätzteste Hebel für den Abend. Woran du erkennst, dass er zu lang, zu spät oder vorbei ist.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
 datum: '2026-08-31'

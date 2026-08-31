@@ -1,6 +1,6 @@
 ---
 titel: 'Machtkampf mit dem Kleinkind: was von zwei bis sechs passiert'
-seoTitel: 'Machtkampf mit dem Kind: was in welchem Alter dahintersteckt'
+seoTitel: 'Machtkampf mit dem Kind: was dahintersteckt'
 beschreibung: 'Was wie ein Machtkampf aussieht, ist meistens keiner. Was in welchem Alter tatsächlich dahintersteckt, von zwei bis sechs, und was in jeder Phase hilft.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen

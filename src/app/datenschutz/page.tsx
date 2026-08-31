@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/datenschutz/" },
   title: "Datenschutzerklärung | Sarah Mann",
   robots: { index: false, follow: false },
 };

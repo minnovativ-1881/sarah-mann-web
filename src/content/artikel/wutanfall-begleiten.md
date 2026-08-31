@@ -1,6 +1,6 @@
 ---
 titel: 'Was in der Hochphase eines Wutanfalls wirkt'
-seoTitel: 'Wutanfall begleiten: was im Moment hilft und was ihn verlängert'
+seoTitel: 'Wutanfall begleiten: was wirklich wirkt'
 beschreibung: 'In der Hochphase kommt keine Erklärung an. Was stattdessen wirkt, warum Leiserwerden stärker ist als Lauterwerden und wie das Gespräch danach aussieht.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle

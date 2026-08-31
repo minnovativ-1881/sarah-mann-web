@@ -1,6 +1,6 @@
 ---
 titel: 'Und wo bleiben deine Bedürfnisse?'
-seoTitel: 'Bedürfnisorientiert erziehen, ohne selbst auszubrennen'
+seoTitel: 'Bedürfnisorientiert ohne auszubrennen'
 beschreibung: 'Bedürfnisorientierung meint alle Bedürfnisse in der Familie, nicht nur die des Kindes. Wie die Verwechslung entstanden ist und wie man sie im Alltag auflöst.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern

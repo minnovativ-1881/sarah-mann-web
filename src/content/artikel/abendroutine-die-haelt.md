@@ -1,7 +1,7 @@
 ---
 titel: 'Die Abendroutine, die auch mit mehreren Kindern trägt'
-seoTitel: 'Abendroutine für Kinder: der Ablauf, der wirklich hält'
-beschreibung: 'Eine Abendroutine ist kein Zeitplan, sondern eine Reihenfolge. Welche fünf Bausteine sie braucht, warum der Abschluss der wichtigste ist und wie es mit mehreren Kindern funktioniert.'
+seoTitel: 'Abendroutine für Kinder, die wirklich hält'
+beschreibung: 'Eine Abendroutine ist kein Zeitplan, sondern eine Reihenfolge. Welche fünf Bausteine sie braucht, warum der Abschluss der wichtigste ist.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
 datum: '2026-08-31'

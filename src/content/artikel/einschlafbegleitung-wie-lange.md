@@ -1,7 +1,7 @@
 ---
 titel: 'Einschlafbegleitung: wie lange ist normal?'
-seoTitel: 'Einschlafbegleitung: wie lange ist normal und wann zu lang?'
-beschreibung: 'Bis wann Kinder Begleitung beim Einschlafen brauchen, wie lange ein Abend dauern darf und woran du erkennst, dass nicht die Begleitung das Problem ist, sondern der Ablauf davor.'
+seoTitel: 'Einschlafbegleitung: wie lange ist normal?'
+beschreibung: 'Bis wann Kinder Begleitung beim Einschlafen brauchen, wie lange ein Abend dauern darf und woran du erkennst, dass nicht die Begleitung das Problem ist.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
 datum: '2026-08-31'

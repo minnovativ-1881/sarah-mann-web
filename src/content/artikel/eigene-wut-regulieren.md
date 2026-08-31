@@ -1,7 +1,7 @@
 ---
 titel: 'Bevor du dein Kind regulierst'
-seoTitel: 'Eigene Wut als Elternteil regulieren: was im Moment funktioniert'
-beschreibung: 'Wut bei Eltern ist normal und sie ist steuerbar, aber nicht durch Vorsätze. Die drei Punkte, an denen man eingreifen kann, und was im Moment selbst tatsächlich wirkt.'
+seoTitel: 'Eigene Wut als Elternteil regulieren'
+beschreibung: 'Wut bei Eltern ist normal und steuerbar, nur nicht durch Vorsätze. Die drei Punkte, an denen du wirklich eingreifen kannst.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern
 datum: '2026-08-31'

@@ -12,10 +12,53 @@ import CTASection from "@/components/CTASection";
 import KontaktSection from "@/components/KontaktSection";
 import Footer from "@/components/Footer";
 
+/**
+ * Person und WebSite als strukturierte Daten.
+ *
+ * Ohne das weiß Google nicht, dass hinter der Domain ein Mensch mit einer
+ * Qualifikation steht. Bei einer Personenmarke ist das der wichtigste
+ * Baustein für die Einordnung als Autorin.
+ */
+const startJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://www.sarahmann.de/#sarah",
+      name: "Sarah Mann",
+      jobTitle: "Pädagogin und zertifizierte Babyschlafberaterin",
+      description:
+        "Sarah Mann ist Pädagogin, Babyschlafberaterin und Mutter von sieben Kindern. Sie verbindet Wärme und Klarheit zu einer alltagstauglichen Haltung.",
+      url: "https://www.sarahmann.de/",
+      image: "https://www.sarahmann.de/bilder/sarah.webp",
+      knowsAbout: [
+        "Autoritativer Erziehungsstil",
+        "Grenzen setzen",
+        "Ko-Regulation",
+        "Selbstregulation bei Kindern",
+        "Kinderschlaf",
+        "Elterliche Erschöpfung",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.sarahmann.de/#website",
+      url: "https://www.sarahmann.de/",
+      name: "Sarah Mann",
+      inLanguage: "de-DE",
+      publisher: { "@id": "https://www.sarahmann.de/#sarah" },
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
       <Navbar />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(startJsonLd) }}
+      />
       <main>
         <Hero />
         <ImageBand

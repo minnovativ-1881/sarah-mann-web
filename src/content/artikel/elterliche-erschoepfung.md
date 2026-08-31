@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn die Kraft nicht mehr reicht'
-seoTitel: 'Als Eltern erschöpft: was wirklich hilft, wenn nichts mehr geht'
-beschreibung: 'Elterliche Erschöpfung ist kein Charakterfehler und geht nicht durch einen Wellness-Abend weg. Woran du sie erkennst, warum sie entsteht und was tatsächlich etwas ändert.'
+seoTitel: 'Als Eltern erschöpft: was wirklich hilft'
+beschreibung: 'Elterliche Erschöpfung ist kein Charakterfehler und geht nicht durch einen Wellness-Abend weg.'
 eyebrow: 'Der Leitfaden'
 silo: eltern
 datum: '2026-08-30'

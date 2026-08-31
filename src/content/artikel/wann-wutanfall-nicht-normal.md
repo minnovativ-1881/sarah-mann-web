@@ -1,7 +1,7 @@
 ---
 titel: 'Wann Wutanfälle nicht mehr normal sind'
-seoTitel: 'Wann ist ein Wutanfall nicht mehr normal? Die Warnzeichen'
-beschreibung: 'Das meiste, was Eltern beunruhigt, ist altersgemäß. Es gibt aber Signale, bei denen sich ein ärztliches Gespräch lohnt. Eine nüchterne Einordnung ohne Alarmismus.'
+seoTitel: 'Wann ist ein Wutanfall nicht mehr normal?'
+beschreibung: 'Das meiste, was Eltern beunruhigt, ist altersgemäß. Es gibt aber Signale, bei denen sich ein ärztliches Gespräch lohnt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-08-31'

@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn jedes Nein wehtut'
-seoTitel: 'Nein sagen ohne schlechtes Gewissen: warum es so schwer ist'
-beschreibung: 'Manche Eltern können kaum ein Nein aussprechen, ohne dass es innerlich zieht. Woher das kommt, warum ein Kind Enttäuschung verträgt und wie ein Nein leichter wird.'
+seoTitel: 'Nein sagen ohne schlechtes Gewissen'
+beschreibung: 'Manche Eltern können kaum ein Nein aussprechen, ohne dass es innerlich zieht. Woher das kommt, warum ein Kind Enttäuschung verträgt.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
 datum: '2026-08-31'

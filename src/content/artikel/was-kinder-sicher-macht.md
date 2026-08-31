@@ -1,7 +1,7 @@
 ---
 titel: 'Was Kindern wirklich Sicherheit gibt'
-seoTitel: 'Was gibt Kindern Sicherheit? Die vier Dinge, die tragen'
-beschreibung: 'Sicherheit entsteht nicht durch Dauerverfügbarkeit und nicht durch Perfektion. Vier Dinge machen den Unterschied, und drei davon werden im Alltag meist unterschätzt.'
+seoTitel: 'Was gibt Kindern Sicherheit? Vier Dinge'
+beschreibung: 'Sicherheit entsteht nicht durch Dauerverfügbarkeit und nicht durch Perfektion. Vier Dinge machen den Unterschied, drei davon werden unterschätzt.'
 eyebrow: 'Die Grundlagen'
 silo: grundlagen
 datum: '2026-08-31'

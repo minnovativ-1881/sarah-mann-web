@@ -42,6 +42,15 @@ export const metadata: Metadata = {
       "Liebevoll erziehen, ohne dich selbst zu verlieren. Der Weg, der Wärme und Klarheit verbindet.",
     type: "website",
     locale: "de_DE",
+    siteName: "Sarah Mann",
+    // Ohne Bild zeigt jede Weitergabe in WhatsApp und Facebook eine leere Kachel.
+    images: [{ url: "/bilder/og-standard.jpg", width: 1200, height: 630, alt: "Sarah Mann" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sarah Mann — Klare Führung, volle Liebe",
+    description: "Liebevoll erziehen, ohne dich selbst zu verlieren.",
+    images: ["/bilder/og-standard.jpg"],
   },
 };
 

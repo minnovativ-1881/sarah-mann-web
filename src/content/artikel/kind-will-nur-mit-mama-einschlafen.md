@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn nur eine Person geht'
-seoTitel: 'Kind will nur mit Mama einschlafen: warum und was hilft'
-beschreibung: 'Wenn ein Kind ausschließlich mit einer Person einschläft, ist das keine Ablehnung des anderen. Was tatsächlich dahintersteckt und wie sich die Verknüpfung in kleinen Schritten löst.'
+seoTitel: 'Kind will nur mit Mama einschlafen'
+beschreibung: 'Wenn ein Kind ausschließlich mit einer Person einschläft, ist das keine Ablehnung des anderen.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
 datum: '2026-08-31'

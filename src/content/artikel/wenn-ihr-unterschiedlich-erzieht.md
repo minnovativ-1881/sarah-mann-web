@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn ihr unterschiedlich erzieht'
-seoTitel: 'Eltern uneinig in der Erziehung: was Kinder wirklich brauchen'
-beschreibung: 'Unterschiedliche Erwachsene sind kein Problem für Kinder. Was tatsächlich schadet, wo die Grenze verläuft und wie ein Abgleich zu zweit funktioniert, der nicht im Streit endet.'
+seoTitel: 'Eltern uneinig in der Erziehung: was tun'
+beschreibung: 'Unterschiedliche Erwachsene sind kein Problem für Kinder. Was tatsächlich schadet, wo die Grenze verläuft und wie ein Abgleich zu zweit funktioniert.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern
 datum: '2026-08-31'

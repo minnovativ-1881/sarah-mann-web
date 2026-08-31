@@ -1,7 +1,7 @@
 ---
 titel: 'Wie viele Geschenke braucht ein Kind?'
-seoTitel: 'Wie viele Geschenke für Kinder? Eine ehrliche Antwort'
-beschreibung: 'Warum der große Geschenkeberg Kinder überfordert statt zu beglücken, welche Zahl in der Praxis funktioniert und wie man mit Großeltern und Wunschzetteln umgeht.'
+seoTitel: 'Wie viele Geschenke braucht ein Kind?'
+beschreibung: 'Warum der große Geschenkeberg Kinder überfordert statt zu beglücken, welche Zahl in der Praxis funktioniert und wie das Gespräch mit den Großeltern gelingt.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'

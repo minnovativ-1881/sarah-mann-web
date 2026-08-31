@@ -6,9 +6,17 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Was ist Balanced Parenting? | Sarah Mann",
+  title: "Balanced Parenting: das Konzept | Sarah Mann",
   description:
-    "Balanced Parenting ist der wissenschaftlich fundierte Mittelweg zwischen Erschöpfung und Entfremdung. Sarah Mann erklärt das Konzept — und warum es die Erziehungsdiskussion verändert.",
+    "Der Mittelweg zwischen Erschöpfung und Entfremdung: viel Wärme und viel Klarheit zugleich. Was hinter dem Konzept steckt und was es im Alltag bedeutet.",
+  // Ohne eigenen Canonical erbt die Seite den der Startseite und rankt nie.
+  alternates: { canonical: "/balanced-parenting/" },
+  openGraph: {
+    title: "Balanced Parenting: das Konzept",
+    description: "Viel Wärme und viel Klarheit zugleich. Was das im Alltag bedeutet.",
+    url: "/balanced-parenting/",
+    type: "article",
+  },
 };
 
 const principles = [

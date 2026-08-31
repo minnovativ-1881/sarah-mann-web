@@ -1,7 +1,7 @@
 ---
 titel: 'Warum Übergänge so schwer sind'
-seoTitel: 'Übergänge mit Kindern begleiten: Kita, Schule, Alltagswechsel'
-beschreibung: 'Aufhören, wechseln, anfangen: An Übergängen scheitert der Familienalltag am häufigsten. Warum das so ist, was in welchem Alter geht und wie ein Wechsel gelingt.'
+seoTitel: 'Übergänge mit Kindern gut begleiten'
+beschreibung: 'Aufhören, wechseln, anfangen: An Übergängen scheitert der Familienalltag am häufigsten. Warum das so ist, was in welchem Alter geht.'
 eyebrow: 'Der Leitfaden'
 silo: uebergaenge
 datum: '2026-08-30'

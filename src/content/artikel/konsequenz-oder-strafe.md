@@ -1,7 +1,7 @@
 ---
 titel: 'Konsequenz oder Strafe: der Unterschied, den kaum jemand erklärt'
-seoTitel: 'Konsequenz oder Strafe? Der Unterschied und die drei Prüffragen'
-beschreibung: 'Fast jeder Ratgeber sagt, Strafen seien schlecht und Konsequenzen gut. Fast keiner erklärt, woran man sie unterscheidet. Drei Prüffragen und zwanzig Beispiele.'
+seoTitel: 'Konsequenz oder Strafe? Drei Prüffragen'
+beschreibung: 'Fast jeder Ratgeber sagt, Strafen seien schlecht und Konsequenzen gut. Fast keiner erklärt, woran man sie unterscheidet.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
 datum: '2026-08-31'

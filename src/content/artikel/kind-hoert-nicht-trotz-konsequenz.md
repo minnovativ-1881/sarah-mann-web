@@ -1,6 +1,6 @@
 ---
 titel: 'Ich sage es zehnmal nett. Und dann schreie ich.'
-seoTitel: 'Kind hört nicht trotz Konsequenz: die 5 häufigsten Gründe'
+seoTitel: 'Kind hört nicht trotz Konsequenz'
 beschreibung: 'Warum ruhiges Erklären irgendwann nicht mehr wirkt, warum ausgerechnet Lautwerden funktioniert und was zwischen Erklären und Schimpfen tatsächlich liegt.'
 eyebrow: 'Wenn nichts mehr ankommt'
 silo: grenzen

@@ -1,6 +1,6 @@
 ---
 titel: 'Warum mich das Einschlafbegleiten so wütend macht'
-seoTitel: 'Wütend beim Einschlafbegleiten: warum das passiert und was hilft'
+seoTitel: 'Wütend beim Einschlafbegleiten: warum'
 beschreibung: 'Neben einem müden Kind zu sitzen und Aggression zu spüren, ist häufiger, als jemand zugibt. Die fünf Gründe dafür und was sich tatsächlich ändern lässt.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf

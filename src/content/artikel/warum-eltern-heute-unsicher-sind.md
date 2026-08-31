@@ -1,7 +1,7 @@
 ---
 titel: 'Das Pendel: warum Eltern heute so unsicher sind'
-seoTitel: 'Warum sind Eltern heute so unsicher? Das Pendel der Erziehung'
-beschreibung: 'Erziehungsstile schlagen von einem Extrem ins andere. Wie Deutschland von der Strenge zur Bedürfnisorientierung kam, warum die Mitte so schwer zu halten ist und was daraus folgt.'
+seoTitel: 'Warum Eltern heute so unsicher sind'
+beschreibung: 'Erziehungsstile schlagen von einem Extrem ins andere. Wie Deutschland von der Strenge zur Bedürfnisorientierung kam.'
 eyebrow: 'Die Grundlagen'
 silo: grundlagen
 datum: '2026-08-31'

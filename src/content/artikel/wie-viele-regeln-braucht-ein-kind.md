@@ -1,7 +1,7 @@
 ---
 titel: 'Wie viele Regeln braucht ein Kind?'
-seoTitel: 'Wie viele Regeln braucht ein Kleinkind? Weniger, als du denkst'
-beschreibung: 'Die meisten Familien haben zwanzig bis dreißig Regeln, ohne es zu wissen. Warum weniger mehr Orientierung gibt, welche drei Bereiche wirklich zählen und wie man ausmistet.'
+seoTitel: 'Wie viele Regeln braucht ein Kleinkind?'
+beschreibung: 'Die meisten Familien haben zwanzig bis dreißig Regeln, ohne es zu wissen. Warum weniger mehr Orientierung gibt, welche drei Bereiche wirklich zählen.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
 datum: '2026-08-31'

@@ -1,6 +1,6 @@
 ---
 titel: 'Gentle Parenting und Grenzen: geht das zusammen?'
-seoTitel: 'Gentle Parenting und Grenzen: passt das zusammen?'
+seoTitel: 'Gentle Parenting und Grenzen: geht das?'
 beschreibung: 'Gentle Parenting hat kein Grenzenproblem, sondern ein Übersetzungsproblem. Was der Ansatz tatsächlich sagt, wo er im Alltag kippt und wie beides zusammengeht.'
 eyebrow: 'Die Grundlagen'
 silo: grundlagen

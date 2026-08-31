@@ -1,7 +1,7 @@
 ---
 titel: 'Wie Kinder lernen, sich selbst zu halten'
-seoTitel: 'Selbstregulation bei Kindern fördern: was wirklich hilft (2 bis 6)'
-beschreibung: 'Selbstregulation entsteht nicht von allein und auch nicht durch Alleinlassen. Was in welchem Alter möglich ist, welche fünf Dinge sie tatsächlich fördern und warum Frust dazugehört.'
+seoTitel: 'Selbstregulation beim Kind fördern'
+beschreibung: 'Selbstregulation entsteht nicht von allein und auch nicht durch Alleinlassen. Was in welchem Alter möglich ist, welche fünf Dinge sie tatsächlich fördern.'
 eyebrow: 'Der Leitfaden'
 silo: gefuehle
 datum: '2026-08-30'

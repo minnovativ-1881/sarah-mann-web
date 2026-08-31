@@ -1,7 +1,7 @@
 ---
 titel: 'Der Satz, den kaum jemand ausspricht'
-seoTitel: 'Ich mag mein Kind gerade nicht: was dahintersteckt'
-beschreibung: 'Es gibt Phasen, in denen Eltern ihr eigenes Kind anstrengend finden und sich zutiefst dafür schämen. Woher das kommt, was es bedeutet und was es ausdrücklich nicht bedeutet.'
+seoTitel: 'Ich mag mein Kind gerade nicht'
+beschreibung: 'Es gibt Phasen, in denen Eltern ihr eigenes Kind anstrengend finden und sich zutiefst dafür schämen.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern
 datum: '2026-08-31'

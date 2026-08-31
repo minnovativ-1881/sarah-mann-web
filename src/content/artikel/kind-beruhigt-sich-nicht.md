@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn gar nichts mehr hilft'
-seoTitel: 'Kind lässt sich nicht beruhigen: was dann noch geht'
-beschreibung: 'Manche Zusammenbrüche gehen über den normalen Wutanfall hinaus. Woran du sie erkennst, was in dieser Situation noch wirkt und wann fachliche Hilfe sinnvoll ist.'
+seoTitel: 'Kind lässt sich nicht beruhigen: was tun'
+beschreibung: 'Manche Zusammenbrüche gehen über den normalen Wutanfall hinaus. Woran du sie erkennst, was in dieser Situation noch wirkt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-08-31'

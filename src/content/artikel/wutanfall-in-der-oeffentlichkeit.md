@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn alle schauen'
-seoTitel: 'Wutanfall im Supermarkt: was in der Öffentlichkeit hilft'
-beschreibung: 'Ein Wutanfall vor Publikum ist derselbe Wutanfall, nur unter Beobachtung. Warum das alles schwerer macht, was praktisch hilft und was man auf Kommentare antwortet.'
+seoTitel: 'Wutanfall im Supermarkt: was hilft'
+beschreibung: 'Ein Wutanfall vor Publikum ist derselbe Wutanfall, nur unter Beobachtung. Warum das alles schwerer macht, was praktisch hilft.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-08-31'

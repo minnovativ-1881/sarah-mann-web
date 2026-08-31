@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn Erklären nicht mehr reicht'
-seoTitel: 'Kind hält sich nicht an Regeln: was im Moment danach wirklich wirkt'
-beschreibung: 'Alle erklären, warum Strafen schaden. Kaum jemand sagt, was man stattdessen tut, wenn die Grenze gerade überschritten wurde. Ein Handlungsmodell für den Moment danach.'
+seoTitel: 'Kind hält sich nicht an Regeln: was hilft'
+beschreibung: 'Alle erklären, warum Strafen schaden. Kaum jemand sagt, was man stattdessen tut, wenn die Grenze gerade überschritten wurde.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
 datum: '2026-08-31'

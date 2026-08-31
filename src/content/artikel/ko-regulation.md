@@ -1,7 +1,7 @@
 ---
 titel: 'Dein Kind kann sich noch nicht beruhigen. Deshalb tust du es.'
-seoTitel: 'Ko-Regulation bei Kindern: was sie ist und wie sie konkret geht'
-beschreibung: 'Ko-Regulation heißt, dass ein Kind sich an deiner Ruhe orientiert, bis es das selbst kann. Was das im Wutanfall konkret bedeutet, in welchem Alter was möglich ist, und warum sie kein Gegenteil von Führung ist.'
+seoTitel: 'Ko-Regulation: wie Kinder sich beruhigen'
+beschreibung: 'Ko-Regulation heißt, dass ein Kind sich an deiner Ruhe orientiert, bis es das selbst kann.'
 eyebrow: 'Bevor ein Kind es selbst kann'
 silo: gefuehle
 datum: '2026-08-30'

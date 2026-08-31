@@ -1,6 +1,6 @@
 ---
 titel: 'Nachgeben oder durchhalten?'
-seoTitel: 'Nachgeben oder durchhalten: die ehrliche Entscheidungsregel'
+seoTitel: 'Nachgeben oder durchhalten? Die Regel'
 beschreibung: 'Nicht jede Grenze muss gehalten werden. Aber es macht einen Unterschied, warum man nachgibt. Eine Entscheidungsregel für den Moment und für die Zeit danach.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen

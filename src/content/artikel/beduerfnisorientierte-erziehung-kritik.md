@@ -1,7 +1,7 @@
 ---
 titel: 'Bedürfnisorientiert am Limit: Was an der Kritik dran ist'
-seoTitel: 'Bedürfnisorientierte Erziehung: Kritik, Nachteile und was stimmt'
-beschreibung: 'Seit Monaten wird über falsch verstandene Bedürfnisorientierung diskutiert. Was an der Kritik berechtigt ist, was nicht, und warum das Problem nicht der Ansatz ist, sondern eine Verwechslung.'
+seoTitel: 'Bedürfnisorientierte Erziehung: die Kritik'
+beschreibung: 'Was an der Kritik an bedürfnisorientierter Erziehung berechtigt ist, was nicht, und wo im Alltag die eine Verwechslung passiert, an der alles hängt.'
 eyebrow: 'Eine faire Zwischenbilanz'
 silo: grundlagen
 datum: '2026-08-30'

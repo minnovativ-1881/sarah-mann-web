@@ -1,7 +1,7 @@
 ---
 titel: 'Der Nochmal-Kreislauf am Abend'
-seoTitel: 'Kind steht abends immer wieder auf: warum und was hilft'
-beschreibung: 'Noch einmal Wasser, noch einmal aufs Klo, noch einmal in den Arm. Warum der Kreislauf entsteht, warum er sich jeden Abend verlängert und wie er in ein bis zwei Wochen endet.'
+seoTitel: 'Kind steht abends immer wieder auf'
+beschreibung: 'Noch einmal Wasser, noch einmal aufs Klo, noch einmal in den Arm. Warum der Kreislauf entsteht, warum er sich jeden Abend verlängert.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
 datum: '2026-08-31'

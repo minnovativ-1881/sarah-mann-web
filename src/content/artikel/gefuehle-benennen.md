@@ -1,7 +1,7 @@
 ---
 titel: 'Wie Kinder Worte für Gefühle finden'
-seoTitel: 'Gefühle benennen mit Kindern: wann es wirkt und wann nicht'
-beschreibung: 'Gefühle zu benennen hilft, aber nicht in jedem Moment. Warum es im Wutanfall nichts bringt, wann der richtige Zeitpunkt ist und wie man es sagt, ohne zu therapeutisch zu klingen.'
+seoTitel: 'Gefühle benennen mit Kindern: wann es wirkt'
+beschreibung: 'Gefühle zu benennen hilft, aber nicht in jedem Moment. Warum es im Wutanfall nichts bringt, wann der richtige Zeitpunkt ist und wie man es sagt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-08-31'

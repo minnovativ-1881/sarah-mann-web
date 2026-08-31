@@ -1,7 +1,7 @@
 ---
 titel: 'Wenn die Großeltern anders erziehen'
-seoTitel: 'Großeltern mischen sich ein: was gilt und was nicht'
-beschreibung: 'Bei Oma gelten andere Regeln, und das ist unproblematisch. Wo trotzdem eine Grenze verläuft, wie man sie zieht, ohne die Beziehung zu beschädigen, und was man am Ende hinnehmen muss.'
+seoTitel: 'Großeltern erziehen anders: was gilt'
+beschreibung: 'Bei Oma gelten andere Regeln, und das ist unproblematisch. Wo trotzdem eine Grenze verläuft und wie du sie ziehst, ohne die Beziehung zu belasten.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'

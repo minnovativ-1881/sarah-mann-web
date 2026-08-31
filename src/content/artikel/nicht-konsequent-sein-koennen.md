@@ -1,7 +1,7 @@
 ---
 titel: 'Ich schaffe es einfach nicht, konsequent zu sein'
-seoTitel: 'Wie lerne ich, konsequent zu sein? Die vier echten Gründe'
-beschreibung: 'Konsequenz scheitert fast nie an fehlendem Willen. Sie scheitert an vier konkreten Gründen, und für jeden gibt es eine andere Lösung als sich mehr vorzunehmen.'
+seoTitel: 'Wie lerne ich, konsequent zu sein?'
+beschreibung: 'Konsequenz scheitert fast nie am Willen, sondern an vier konkreten Gründen. Für jeden gibt es eine andere Lösung als sich mehr vorzunehmen.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern
 datum: '2026-08-31'

@@ -1,7 +1,7 @@
 ---
 titel: 'Der Morgen, der ohne Geschrei funktioniert'
-seoTitel: 'Kind will morgens nicht aufstehen: der Familienmorgen, der hält'
-beschreibung: 'Der Morgen ist der Übergang mit dem meisten Zeitdruck und den wenigsten Reserven. Was tatsächlich hilft, welche fünf Dinge am Abend vorher entschieden werden und warum Eile alles verschlimmert.'
+seoTitel: 'Kind will morgens nicht aufstehen'
+beschreibung: 'Der Morgen ist der Übergang mit dem meisten Zeitdruck und den wenigsten Reserven. Was tatsächlich hilft.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'

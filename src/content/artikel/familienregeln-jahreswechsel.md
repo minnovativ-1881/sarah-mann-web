@@ -1,7 +1,7 @@
 ---
 titel: 'Der Reset für den Familienalltag'
-seoTitel: 'Familienregeln aufstellen: der Reset, der wirklich hält'
-beschreibung: 'Zwischen den Jahren ist der beste Zeitpunkt, den Familienalltag einmal zu sortieren. Wie man Regeln ausmistet statt neue zu erfinden, und was danach tatsächlich bleibt.'
+seoTitel: 'Familienregeln aufstellen: der Reset'
+beschreibung: 'Zwischen den Jahren ist der beste Zeitpunkt, den Familienalltag zu sortieren. Warum Ausmisten mehr bringt als neue Regeln zu erfinden.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'

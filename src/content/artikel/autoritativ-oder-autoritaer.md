@@ -1,7 +1,7 @@
 ---
 titel: 'Autoritativ oder autoritär? Ein Buchstabe, zwei Welten'
-seoTitel: 'Autoritativ vs. autoritär: Unterschied einfach erklärt (Tabelle)'
-beschreibung: 'Autoritativ und autoritär klingen fast gleich und meinen das Gegenteil. Die Unterschiede in einer Tabelle, dazu dieselbe Alltagsszene dreimal durchgespielt, mit echten Sätzen.'
+seoTitel: 'Autoritativ oder autoritär? Der Unterschied'
+beschreibung: 'Autoritativ und autoritär klingen fast gleich und meinen das Gegenteil. Die Unterschiede in einer Tabelle, dazu dieselbe Alltagsszene dreimal durchgespielt.'
 eyebrow: 'Ein Buchstabe Unterschied'
 silo: grundlagen
 datum: '2026-08-30'

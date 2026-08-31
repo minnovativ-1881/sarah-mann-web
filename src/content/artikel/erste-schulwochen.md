@@ -1,6 +1,6 @@
 ---
 titel: 'Die ersten Schulwochen, ohne dass alle zusammenbrechen'
-seoTitel: 'Schulanfang: die ersten Wochen gut begleiten (Struktur statt Druck)'
+seoTitel: 'Schulanfang: die ersten Wochen begleiten'
 beschreibung: 'Warum Schulkinder in den ersten Wochen zu Hause aus allen Nähten platzen, was ein Nachmittag aushält und welche vier Dinge den Unterschied machen.'
 eyebrow: 'Schulstart'
 silo: uebergaenge

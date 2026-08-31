@@ -1,7 +1,7 @@
 ---
 titel: 'Bedürfnis oder Wunsch? Die Unterscheidung, die alles leichter macht'
-seoTitel: 'Bedürfnis oder Wunsch: Unterschied und 20 Beispiele | Sarah Mann'
-beschreibung: 'Ein Bedürfnis ist nicht verhandelbar, ein Wunsch schon. An dieser Unterscheidung entscheidet sich im Familienalltag fast alles. Mit zwanzig konkreten Situationen, klar zugeordnet.'
+seoTitel: 'Bedürfnis oder Wunsch? So unterscheidest du sie'
+beschreibung: 'Ein Bedürfnis ist nicht verhandelbar, ein Wunsch schon. An dieser Unterscheidung entscheidet sich im Familienalltag fast alles.'
 eyebrow: 'Wenn bedürfnisorientiert uferlos wird'
 silo: grundlagen
 datum: '2026-08-30'

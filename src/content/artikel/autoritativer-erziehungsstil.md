@@ -1,7 +1,7 @@
 ---
 titel: 'Autoritativ erziehen: Was „warm und klar“ im Alltag wirklich heißt'
-seoTitel: 'Autoritativer Erziehungsstil: Definition, Beispiele, Alltag | Sarah Mann'
-beschreibung: 'Der autoritative Erziehungsstil verbindet viel Wärme mit klarer Führung. Was das konkret bedeutet, warum er nichts mit autoritär zu tun hat, und wie er an einem ganz normalen Dienstagabend aussieht.'
+seoTitel: 'Autoritativer Erziehungsstil: einfach erklärt'
+beschreibung: 'Der autoritative Erziehungsstil verbindet viel Wärme mit klarer Führung. Was das im Alltag heißt und warum er nichts mit autoritär zu tun hat.'
 eyebrow: 'Die Grundlage'
 silo: grundlagen
 datum: '2026-08-30'

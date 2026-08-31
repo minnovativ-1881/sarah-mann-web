@@ -1,7 +1,7 @@
 ---
 titel: 'Dein Kind weint beim Abgeben. Und du gehst trotzdem.'
-seoTitel: 'Kita-Eingewöhnung: Kind weint beim Abgeben, was hilft wirklich'
-beschreibung: 'Warum ein kurzer, verlässlicher Abschied liebevoller ist als ein langer, wie die Eingewöhnungsmodelle wirklich funktionieren und woran du erkennst, ob es gut läuft.'
+seoTitel: 'Kita-Eingewöhnung: Kind weint beim Abschied'
+beschreibung: 'Warum ein kurzer, verlässlicher Abschied liebevoller ist als ein langer, und woran du erkennst, dass die Eingewöhnung gut läuft.'
 eyebrow: 'Der Moment an der Kita-Tür'
 silo: uebergaenge
 datum: '2026-08-30'

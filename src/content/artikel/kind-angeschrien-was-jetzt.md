@@ -1,6 +1,6 @@
 ---
 titel: 'Du hast dein Kind angeschrien. Und weinst seitdem.'
-seoTitel: 'Kind angeschrien: die 4 Schritte danach, die wirklich helfen'
+seoTitel: 'Kind angeschrien: die vier Schritte danach'
 beschreibung: 'Was nach einem lauten Moment tatsächlich hilft, warum Wiedergutmachung wichtiger ist als Fehlerfreiheit und wie du aus der Schuldspirale wieder herauskommst.'
 eyebrow: 'Der Moment danach'
 silo: eltern
