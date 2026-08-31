@@ -86,8 +86,8 @@ export default async function TestSeite({ params }: Props) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <header className="pt-36 pb-12 px-6 lg:px-12 bg-cream-dark">
-        <div className="max-w-3xl mx-auto">
+      <header className="pt-36 pb-12 bg-cream-dark">
+        <div className="max-w-3xl mx-auto px-6 lg:px-12">
           <Brotkrumen
             punkte={[
               { href: "/", label: "Start" },

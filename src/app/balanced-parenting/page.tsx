@@ -45,7 +45,7 @@ export default function BalancedParentingPage() {
       <Navbar overlay />
       <main>
         {/* Hero */}
-        <section className="relative pt-44 pb-28 px-6 lg:px-12 overflow-hidden">
+        <section className="relative pt-44 pb-28 overflow-hidden">
           <Image
             src="/bilder/naehe.webp"
             alt=""
@@ -62,7 +62,7 @@ export default function BalancedParentingPage() {
                 "linear-gradient(90deg, rgba(12,58,64,0.9) 0%, rgba(12,58,64,0.62) 55%, rgba(12,58,64,0.35) 100%)",
             }}
           />
-          <div className="relative max-w-7xl mx-auto">
+          <div className="relative max-w-7xl mx-auto px-6 lg:px-12">
             <p className="text-overline text-stone mb-8">Das Konzept</p>
             <h1
               className="heading-display text-cream"

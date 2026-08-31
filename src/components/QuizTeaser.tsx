@@ -1,4 +1,8 @@
-import ElternTypQuiz from "@/components/ElternTypQuiz";
+import Link from "next/link";
+import TestEngine from "@/components/TestEngine";
+import { TESTS } from "@/lib/tests";
+
+const elternTest = TESTS.find((t) => t.slug === "eltern-test")!;
 
 const quadranten = [
   { waerme: "hoch", name: "Warm, aber nachgiebig" },
@@ -69,8 +73,19 @@ export default function QuizTeaser() {
 
         {/* Der Test, direkt startbar */}
         <div className="mt-12">
-          <ElternTypQuiz />
+          <TestEngine test={elternTest} />
         </div>
+
+        {/* Verweis auf die weiteren Tests */}
+        <p className="text-deep/70 mt-10 text-center">
+          Es gibt {TESTS.length} Tests zu unterschiedlichen Alltagsfragen.{" "}
+          <Link
+            href="/tests/"
+            className="text-terra underline underline-offset-4 hover:text-midnight transition-colors"
+          >
+            Alle Tests ansehen
+          </Link>
+        </p>
       </div>
     </section>
   );

@@ -38,8 +38,8 @@ export default function WissenSeite() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <header className="pt-36 pb-14 px-6 lg:px-12 bg-cream-dark">
-        <div className="max-w-7xl mx-auto">
+      <header className="pt-36 pb-14 bg-cream-dark">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <Brotkrumen punkte={[{ href: "/", label: "Start" }, { label: "Wissen" }]} />
           <h1
             className="font-serif text-deep mt-8"

@@ -17,8 +17,8 @@ export default function TestsSeite() {
   return (
     <>
       <Navbar />
-      <header className="pt-36 pb-14 px-6 lg:px-12 bg-cream-dark">
-        <div className="max-w-7xl mx-auto">
+      <header className="pt-36 pb-14 bg-cream-dark">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <Brotkrumen punkte={[{ href: "/", label: "Start" }, { label: "Tests" }]} />
           <h1
             className="font-serif text-deep mt-8"
@@ -29,9 +29,8 @@ export default function TestsSeite() {
             <em className="text-terra italic">gerade wirklich?</em>
           </h1>
           <p className="text-deep/75 leading-relaxed mt-8 max-w-2xl" style={{ fontSize: "1.2rem" }}>
-            Kurze Tests mit echten Alltagssituationen. Kostenlos, und du
-            bekommst deine Auswertung direkt zu sehen und zusätzlich per
-            E-Mail.
+            Kurze Tests mit echten Alltagssituationen aus dem Familienalltag.
+            Kostenlos. Am Ende bekommst du deine ausführliche Auswertung.
           </p>
         </div>
       </header>

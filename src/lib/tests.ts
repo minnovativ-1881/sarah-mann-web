@@ -71,7 +71,7 @@ const elternTyp: Test = {
   intro:
     "Acht ganz normale Situationen aus dem Familienalltag. Keine Theorie, keine Fachbegriffe. Am Ende siehst du, wo du zwischen Wärme und Klarheit gerade stehst.",
   beschreibung:
-    "Kostenloser Erziehungsstil-Test auf den beiden Achsen, die die Forschung seit sechzig Jahren untersucht: Wärme und Klarheit. Acht Alltagssituationen, zwei Minuten, sofort ein Ergebnis.",
+    "Kostenloser Erziehungsstil-Test auf den beiden Achsen, die die Forschung seit sechzig Jahren untersucht: Wärme und Klarheit. Acht Alltagssituationen, zwei Minuten, danach die ausführliche Auswertung.",
   dauer: "2 Minuten",
   achsen: [
     { key: "waerme", name: "Wärme", max: 12, schwelle: 8 },

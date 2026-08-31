@@ -7,7 +7,7 @@ const navItems = [
   { label: "Wissen", href: "/wissen/" },
   { label: "Tests", href: "/tests/" },
   { label: "Das Konzept", href: "/balanced-parenting/" },
-  { label: "Ueber Sarah", href: "/#ueber-sarah" },
+  { label: "Über Sarah", href: "/#ueber-sarah" },
 ];
 
 export default function Navbar({ overlay = false }: { overlay?: boolean }) {
@@ -78,11 +78,15 @@ export default function Navbar({ overlay = false }: { overlay?: boolean }) {
                 {item.label}
               </Link>
             ))}
+            {/* Auffaellig: gefuellter Button statt Textlink, in beiden Nav-Zustaenden kontraststark */}
             <Link
               href="/tests/eltern-test/"
-              className={`nav-link border-b pb-1 transition-colors ml-2 ${
-                light ? "text-cream border-cream/50 hover:border-cream" : "text-deep border-deep/40 hover:border-deep"
+              className={`ml-3 inline-flex items-center px-6 py-3 text-sm tracking-wide font-medium transition-all duration-300 hover:-translate-y-px ${
+                light
+                  ? "bg-cream text-deep hover:bg-white"
+                  : "bg-terra text-cream hover:bg-midnight"
               }`}
+              style={{ boxShadow: "0 6px 20px rgba(19,107,115,0.28)" }}
             >
               Test starten
             </Link>

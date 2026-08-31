@@ -118,8 +118,8 @@ export default async function ArtikelSeite({ params }: Props) {
 
       <article>
         {/* Kopf */}
-        <header className="pt-36 pb-12 px-6 lg:px-12 bg-cream-dark">
-          <div className="max-w-3xl mx-auto">
+        <header className="pt-36 pb-12 bg-cream-dark">
+          <div className="max-w-3xl mx-auto px-6 lg:px-12">
             <Brotkrumen
               punkte={[
                 { href: "/", label: "Start" },
