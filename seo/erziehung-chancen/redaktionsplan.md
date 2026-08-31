@@ -32,10 +32,10 @@ Zielbegriffe rund um Erziehungsstile, das Modell, die Debatte.
 | 2 | `autoritativ-oder-autoritaer` | Ein Buchstabe, zwei Welten | autoritativ vs autoritär | ✅ |
 | 3 | `beduerfnis-oder-wunsch` | Die Unterscheidung, die alles leichter macht | bedürfnis oder wunsch | ✅ |
 | 4 | `beduerfnisorientierte-erziehung-kritik` | Was an der Kritik dran ist | bedürfnisorientierte erziehung kritik | ✅ |
-| 5 | `erziehungsstile-fuer-eltern` | Die vier Stile, für Eltern statt für Prüfungen | erziehungsstile | offen |
-| 6 | `warum-eltern-heute-unsicher-sind` | Das Pendel zwischen den Extremen | warum sind eltern heute unsicher | offen |
-| 7 | `was-kinder-sicher-macht` | Vorhersehbarkeit, Ruhe, verlässliche Nähe | was gibt kindern sicherheit | offen |
-| 8 | `gentle-parenting-und-grenzen` | Geht beides zusammen? | gentle parenting grenzen | offen |
+| 5 | `erziehungsstile-fuer-eltern` | Die vier Stile, für Eltern statt für Prüfungen | erziehungsstile | ✅ |
+| 6 | `warum-eltern-heute-unsicher-sind` | Das Pendel zwischen den Extremen | warum sind eltern heute unsicher | ✅ |
+| 7 | `was-kinder-sicher-macht` | Vorhersehbarkeit, Ruhe, verlässliche Nähe | was gibt kindern sicherheit | ✅ |
+| 8 | `gentle-parenting-und-grenzen` | Geht beides zusammen? | gentle parenting grenzen | ✅ |
 
 ## Silo 2 — Grenzen und Führung (10)
 
@@ -48,10 +48,10 @@ Der größte Schmerz-Cluster im Datensatz.
 | 11 | `kind-testet-grenzen-nur-bei-mir` | Bei allen anderen klappt es | kind testet grenzen nur bei mama | ✅ |
 | 12 | `wenn-die-grenze-ueberschritten-ist` | Was tun, wenn Erklären nicht mehr reicht | kind hält sich nicht an regeln | ✅ |
 | 13 | `konsequenz-oder-strafe` | Der Unterschied, den kaum jemand erklärt | konsequenz oder strafe | ✅ |
-| 14 | `nachgeben-oder-durchhalten` | Die ehrliche Entscheidungsregel | nachgeben oder nicht | offen |
-| 15 | `wie-viele-regeln-braucht-ein-kind` | Weniger, als du denkst | wie viele regeln kleinkind | offen |
-| 16 | `nein-sagen-ohne-schlechtes-gewissen` | Wenn jedes Nein wehtut | nein sagen ohne schlechtes gewissen | offen |
-| 17 | `machtkampf-kleinkind` | Alters-Reihe 2 bis 6 Jahre | machtkampf kind X jahre | offen |
+| 14 | `nachgeben-oder-durchhalten` | Die ehrliche Entscheidungsregel | nachgeben oder nicht | ✅ |
+| 15 | `wie-viele-regeln-braucht-ein-kind` | Weniger, als du denkst | wie viele regeln kleinkind | ✅ |
+| 16 | `nein-sagen-ohne-schlechtes-gewissen` | Wenn jedes Nein wehtut | nein sagen ohne schlechtes gewissen | ✅ |
+| 17 | `machtkampf-kleinkind` | Alters-Reihe 2 bis 6 Jahre | machtkampf kind X jahre | ✅ |
 | 18 | `kind-schlaegt-und-haut` | Was in dem Moment wirklich hilft | kind haut was tun | ✅ |
 
 ## Silo 3 — Gefühle und Selbstregulation (8)
