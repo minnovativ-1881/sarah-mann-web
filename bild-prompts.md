@@ -12,328 +12,325 @@ es muss nichts eingetragen werden.
 | Silo-Bänder | `public/bilder/silos/` | 16:9 quer, 1920 × 1080 |
 | Test-Kacheln | `public/bilder/tests/` | 3:2 quer, 1200 × 800 |
 
-`.webp` ist am besten, `.jpg` und `.png` gehen auch. Umwandeln geht am Ende
-dieses Dokuments in einem Rutsch.
-
 ---
 
 ## Der Stil-Block
 
-**Dieser Absatz kommt vor jede einzelne Szene.** Er sorgt dafür, dass alle 60
-Bilder wie eine Serie aussehen und nicht wie 60 Stockfotos.
+**Dieser Absatz kommt vor jede einzelne Szene.** Er sorgt dafür, dass die neuen
+Bilder zu den vorhandenen auf der Website passen: hell, sonnig, warm, zart.
 
 ```
-Fotorealistische Dokumentarfotografie, 35mm, natürliches Fensterlicht, weiche
-Schatten, ruhige gedeckte Farbpalette aus warmem Creme, Sand, Steingrau und
-einem gedämpften Petrolton, leichte Filmkörnung, geringe Sättigung, kein HDR,
-echte europäische Familie, normale unperfekte Wohnung, Alltagskleidung in
-Naturtönen, niemand schaut in die Kamera, ruhiger unaufgeregter Moment, viel
-Raum im Bild, Querformat.
+Fotorealistische Familienfotografie, 35mm, weiches warmes Sonnenlicht durch ein
+großes Fenster, späte Nachmittagssonne, helle luftige Wohnung in Creme und
+hellem Holz, warme Farbpalette aus Creme, Honig, Sand und weichem Grün von
+Zimmerpflanzen, zarte zugewandte Stimmung, geringe Schärfentiefe mit weichem
+Bokeh, unscharfe Blätter oder Stoff im Vordergrund, natürliche warme Hauttöne,
+hell und freundlich, viel Licht.
 
 Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil,
-Collage, grelle Farben, gestellte Lächel-Posen, Designer-Wohnung, glatte
-Werbe-Ästhetik, übertriebene Schärfe, direkter Blick in die Kamera.
+Collage, düstere oder graue Bildstimmung, kaltes blaues Licht, harte Schatten,
+traurige oder leere Gesichter, Unordnung, überfüllte Räume, grelle Buntheit,
+Werbe-Hochglanz, direkter Blick in die Kamera.
 ```
 
 Danach eine Leerzeile, dann die Szene.
 
-**Zwei Regeln, die wichtig sind:**
+**Drei Regeln:**
 
-Erstens, in keinem Bild wird ein Kind bloßgestellt. Kein schreiendes Gesicht in
-Großaufnahme, kein weinendes Kind allein im Bild. Die schwierigen Themen werden
-über die Haltung der Erwachsenen erzählt, nicht über kindliches Leid.
+Die Bilder zeigen immer die **gelungene** Version. Auch bei schwierigen Themen.
+Der Artikel über Erschöpfung bekommt kein trauriges Bild, sondern einen ruhigen
+Morgen. Der Artikel über Anschreien zeigt die Versöhnung danach.
 
-Zweitens, kein Bild zeigt Sarah. Die Artikelbilder sind Alltagsszenen, keine
-Autorinnenporträts. Für Sarah gibt es eigene Fotos.
+In keinem Bild wird ein Kind bloßgestellt. Kein schreiendes Gesicht in
+Großaufnahme, kein weinendes Kind allein im Bild.
+
+Kein Bild zeigt Sarah. Die Artikelbilder sind Alltagsszenen, keine
+Autorinnenporträts.
 
 ---
 
 ## Silo-Bänder (6)
 
-Breite, atmosphärische Bilder. Sie liegen unter einem dunklen Farbverlauf,
-deshalb dürfen sie ruhig und detailarm sein.
+Breit und atmosphärisch. Sie liegen unter einem Farbverlauf, brauchen also viel
+Licht und wenig kleinteilige Details.
 
 **`grundlagen.webp`**
-> Weite Küche im Morgenlicht, eine erwachsene Person und zwei Kinder in
-> unterschiedlichen Ecken des Raums beschäftigt, viel Luft im Bild, ruhige
-> Alltagsszene ohne Mittelpunkt.
+> Helle große Küche am Vormittag, Sonnenlicht liegt auf einem hellen Holztisch,
+> eine Mutter und zwei Kinder frühstücken entspannt, Zimmerpflanze am Fenster,
+> viel Luft und Helligkeit im Bild.
 
 **`grenzen.webp`**
-> Flur einer Wohnung, eine erwachsene Person kniet vor einem Kleinkind an der
-> Wohnungstür, Jacken an Haken, Nachmittagslicht von der Seite.
+> Heller Flur, warme Sonne fällt durch die offene Haustür herein, eine Mutter
+> kniet freundlich vor einem Kleinkind und hilft ihm in die Jacke, beide ruhig
+> und zugewandt.
 
 **`gefuehle.webp`**
-> Wohnzimmerteppich von oben, ein Kind liegt zusammengerollt, eine erwachsene
-> Person sitzt in ruhigem Abstand daneben, keine Berührung, warmes Licht.
+> Wohnzimmer im goldenen Nachmittagslicht, ein Vater hält sein Kind im Arm auf
+> dem Sofa, Wange an Kopf, sehr weich und warm, unscharfe Pflanze im Vordergrund.
 
 **`schlaf.webp`**
-> Kinderzimmer nach Sonnenuntergang, nur eine kleine Nachttischlampe brennt,
-> eine erwachsene Silhouette sitzt am Bettrand, sehr ruhig, viel Dunkelheit.
+> Kinderzimmer in der Dämmerung, eine kleine Nachttischlampe wirft warmes
+> goldenes Licht, eine Mutter sitzt am Bettrand und streicht dem Kind über den
+> Rücken, sanfte honigfarbene Töne.
 
 **`eltern.webp`**
-> Küche am späten Abend, eine Person allein am Tisch, Tasse in beiden Händen,
-> Spielzeug im unscharfen Vordergrund, gedämpftes Licht.
+> Frau steht am Küchenfenster mit einer Tasse in beiden Händen, Morgensonne im
+> Gesicht, entspannter Moment für sich, weiches Gegenlicht.
 
 **`uebergaenge.webp`**
-> Haustür von innen, Herbstlicht fällt herein, ein Kind mit Rucksack geht
-> hinaus, eine erwachsene Person steht im Türrahmen und schaut hinterher.
+> Haustür von innen gesehen, warmes Herbstlicht strömt herein, ein Kind mit
+> Rucksack geht hinaus, die Mutter steht im Türrahmen und lächelt ihm nach.
 
 ---
 
 ## Test-Kacheln (6)
 
-Etwas heller und einladender als die Artikelbilder, weil sie zum Klicken bewegen.
+Hell und einladend, sie sollen zum Klicken bewegen.
 
 **`eltern-test.webp`**
-> Zwei Erwachsene und zwei Kinder am Esstisch, Alltagsmoment mitten in einer
-> Bewegung, warmes Licht, freundliche ruhige Stimmung.
+> Zwei Erwachsene und zwei Kinder am sonnigen Esstisch, lebendiger fröhlicher
+> Alltagsmoment mitten in einer Bewegung, warmes Licht von der Seite.
 
 **`wie-klar-ist-dein-nein.webp`**
-> Erwachsene Person kniet vor einem Kleinkind im Wohnzimmer, ruhige aufrechte
-> Haltung, offene Handfläche, Kind schaut zu ihr auf.
+> Mutter kniet im hellen Wohnzimmer vor einem Kleinkind, freundliches ruhiges
+> Gesicht, offene Handfläche, das Kind schaut zu ihr auf, warmes Fensterlicht.
 
 **`beduerfnis-oder-wunsch.webp`**
-> Supermarktgang, Kind steht vor einem Regal, erwachsene Person daneben in der
-> Hocke auf Augenhöhe, Einkaufswagen halb voll.
+> Heller Supermarkt, ein Kind steht vor einem Regal, die Mutter daneben in der
+> Hocke auf Augenhöhe, beide entspannt, freundliche Stimmung.
 
 **`konsequenz-oder-strafe.webp`**
-> Küchenboden, ein umgekipptes Glas Wasser, Kind und erwachsene Person wischen
-> gemeinsam mit einem Tuch auf, beide von der Seite.
+> Sonnige Küche, ein umgekipptes Glas Wasser auf dem Holzboden, Kind und Mutter
+> wischen zusammen mit einem Tuch auf, beide gelassen, fast heiter.
 
 **`abend-test.webp`**
-> Kinderzimmer im Halbdunkel, aufgeschlagenes Bilderbuch auf der Bettdecke,
-> eine erwachsene Hand am Rand des Bildes, sehr ruhig.
+> Kinderzimmer im warmen Abendlicht, ein aufgeschlagenes Bilderbuch auf der
+> Bettdecke, eine Hand blättert um, goldene ruhige Stimmung.
 
 **`kraft-test.webp`**
-> Frau sitzt auf der untersten Treppenstufe eines Hausflurs, Ellenbogen auf den
-> Knien, ruhiger nachdenklicher Moment, weiches Seitenlicht.
+> Frau sitzt in warmem Morgenlicht auf einer Fensterbank, Tasse in der Hand,
+> entspannt und bei sich, weiches Gegenlicht, Zimmerpflanze daneben.
 
 ---
 
 ## Artikelbilder (48)
 
-Sortiert nach Silo. Dateiname ist immer der Artikel-Slug.
+Dateiname ist immer der Artikel-Slug.
 
 ### Silo 1: Die Grundlagen
 
 **`autoritativer-erziehungsstil.webp`**
-> Mutter kniet im Flur vor einem vierjährigen Kind, eine Hand auf dessen
-> Schulter, die andere hält eine Jacke, ruhiger Blickkontakt zwischen beiden.
+> Mutter kniet im sonnigen Flur vor einem vierjährigen Kind, eine Hand auf
+> dessen Schulter, warmer Blickkontakt, beide entspannt.
 
 **`autoritativ-oder-autoritaer.webp`**
-> Vater sitzt im Schneidersitz auf dem Küchenboden, auf Augenhöhe mit einem
-> Vierjährigen, offene entspannte Körperhaltung, Vormittagslicht.
+> Vater sitzt im Schneidersitz auf dem hellen Küchenboden, auf Augenhöhe mit
+> einem Vierjährigen, offene freundliche Haltung, Vormittagssonne.
 
 **`beduerfnis-oder-wunsch.webp`**
-> Kleines Kind hält im Supermarkt eine Packung in der Hand, eine erwachsene
-> Person daneben in der Hocke, ruhige Miene, keine Anspannung.
+> Kleines Kind hält im hellen Supermarkt eine Packung in der Hand, die Mutter
+> daneben in der Hocke, freundlich und gelassen.
 
 **`beduerfnisorientierte-erziehung-kritik.webp`**
-> Frau sitzt am Küchentisch, Laptop zugeklappt, ein Kind spielt im
-> unscharfen Vordergrund am Boden, Morgenlicht, nachdenklicher Blick zur Seite.
+> Frau sitzt in warmem Morgenlicht am Küchentisch mit einer Tasse, ein Kind
+> spielt zufrieden im unscharfen Vordergrund, ruhige helle Stimmung.
 
 **`erziehungsstile-fuer-eltern.webp`**
-> Esstisch von schräg oben, zwei Erwachsene und drei Kinder, jeder in einer
-> anderen Bewegung, lebendiger unaufgeräumter Familienmoment.
+> Sonniger Esstisch von schräg oben, zwei Erwachsene und drei Kinder, alle in
+> Bewegung, fröhliches lebendiges Familienbild.
 
 **`warum-eltern-heute-unsicher-sind.webp`**
-> Frau sitzt abends allein auf dem Sofa, ein Handy leuchtet in ihrer Hand, im
-> Hintergrund eine angelehnte Kinderzimmertür mit Lichtspalt.
+> Frau sitzt am Abend mit einem Buch auf dem Sofa, warme Stehlampe daneben,
+> nachdenklich aber entspannt, im Hintergrund eine angelehnte Kinderzimmertür.
 
 **`was-kinder-sicher-macht.webp`**
-> Kind läuft auf einem Feldweg ein Stück voraus und dreht sich nach den Eltern
-> um, die weiter hinten gehen, weites Abendlicht.
+> Kind läuft auf einem sonnigen Feldweg voraus und dreht sich lachend nach den
+> Eltern um, goldenes Abendlicht, weites warmes Bild.
 
 **`gentle-parenting-und-grenzen.webp`**
-> Am Ausgang eines Spielplatzes, erwachsene Person hält ruhig die Hand eines
-> protestierenden Kleinkindes, entspannte Schultern, kein Zerren.
+> Am Ausgang eines sonnigen Spielplatzes hält eine Mutter freundlich die Hand
+> eines Kleinkindes, beide in Bewegung, warmes Licht durch Blätter.
 
 ### Silo 2: Grenzen und Führung
 
 **`grenzen-setzen-kleinkind.webp`**
-> Vater kniet an der Wohnungstür vor einem Zweijährigen, hält behutsam dessen
-> Hand, ruhiger Gesichtsausdruck, Nachmittagslicht von der Seite.
+> Vater kniet im hellen Flur vor einem Zweijährigen und hält behutsam dessen
+> Hand, freundliches ruhiges Gesicht, Sonne durch die Tür.
 
 **`kind-hoert-nicht-trotz-konsequenz.webp`**
-> Mutter steht im Türrahmen eines Kinderzimmers, das Kind spielt weiter und
-> schaut nicht auf, Abendlicht, ruhige abwartende Haltung.
+> Mutter steht gelassen im Türrahmen eines sonnigen Kinderzimmers, das Kind
+> spielt vertieft am Boden, warmes Nachmittagslicht.
 
 **`kind-testet-grenzen-nur-bei-mir.webp`**
-> Kita-Garderobe beim Abholen, ein Kind klammert sich an das Bein seiner
-> Mutter, andere Kinder unscharf im Hintergrund.
+> Helle Kita-Garderobe beim Abholen, ein Kind schmiegt sich an seine Mutter,
+> sie lächelt, andere Kinder unscharf im warmen Hintergrund.
 
 **`wenn-die-grenze-ueberschritten-ist.webp`**
-> Nahaufnahme: eine Erwachsenenhand umfasst behutsam ein Kinderhandgelenk,
-> weicher unscharfer Hintergrund, ruhig, keine Gewalt, keine Anspannung.
+> Nahaufnahme: eine Erwachsenenhand hält behutsam eine Kinderhand, warmes
+> Sonnenlicht auf der Haut, weicher heller Hintergrund.
 
 **`konsequenz-oder-strafe.webp`**
-> Küchenboden, Kind und erwachsene Person wischen zusammen verschüttetes
-> Wasser auf, beide von der Seite fotografiert, beiläufig.
+> Sonnige Küche, Kind und Mutter wischen gemeinsam verschüttetes Wasser vom
+> Holzboden auf, beide gelassen, fast heiter.
 
 **`nachgeben-oder-durchhalten.webp`**
-> Erwachsene Person sitzt auf der Kante eines Kinderbetts, das Kind streckt die
-> Arme aus, gedämpftes Abendlicht, ruhiger Moment der Entscheidung.
+> Mutter sitzt auf der Kante eines Kinderbetts im warmen Abendlicht, das Kind
+> streckt die Arme aus, zugewandter ruhiger Moment.
 
 **`wie-viele-regeln-braucht-ein-kind.webp`**
-> Küchenwand mit einer Magnettafel, darauf nur drei handgeschriebene Zettel,
-> im unscharfen Vordergrund eine Familie am Tisch.
+> Helle Küchenwand mit einer kleinen Magnettafel und wenigen handgeschriebenen
+> Zetteln, im unscharfen Vordergrund eine Familie am sonnigen Tisch.
 
 **`nein-sagen-ohne-schlechtes-gewissen.webp`**
-> Erwachsene Person in der Hocke vor einem enttäuschten Kind, eine Hand auf
-> dessen Rücken, ruhiges Gesicht, kein Streit, warmes Innenlicht.
+> Mutter in der Hocke vor ihrem Kind im hellen Wohnzimmer, eine Hand auf dessen
+> Rücken, warmes freundliches Gesicht, Sonnenlicht von der Seite.
 
 **`machtkampf-kleinkind.webp`**
-> Dreijähriges Kind sitzt mit verschränkten Armen auf dem Wohnzimmerboden, eine
-> erwachsene Person sitzt geduldig in einigem Abstand daneben.
+> Dreijähriges Kind sitzt entschlossen mit verschränkten Armen auf dem sonnigen
+> Wohnzimmerboden, die Mutter sitzt gelassen und freundlich daneben.
 
 **`kind-schlaegt-und-haut.webp`**
-> Erwachsene Person kniet zwischen zwei Geschwisterkindern auf einem Teppich,
-> eine ruhige Hand auf jeder Schulter, entspannte Haltung, deeskalierend.
+> Vater kniet zwischen zwei Geschwisterkindern auf einem hellen Teppich, eine
+> ruhige Hand auf jeder Schulter, warme entspannte Stimmung.
 
 ### Silo 3: Gefühle und Selbstregulation
 
 **`selbstregulation-kind.webp`**
-> Kind sitzt allein auf einer breiten Fensterbank und sortiert konzentriert
-> kleine Gegenstände, ruhiges Tageslicht von außen.
+> Kind sitzt konzentriert auf einer sonnigen Fensterbank und sortiert kleine
+> Gegenstände, warmes Licht, Zimmerpflanze daneben.
 
 **`ko-regulation.webp`**
-> Erwachsene Person hält ein weinendes Kleinkind eng an sich, Wange an dessen
-> Kopf, Augen geschlossen, sehr ruhig, warmes Licht.
+> Mutter hält ihr Kleinkind eng im Arm, Wange an dessen Kopf, Augen geschlossen,
+> sehr weiches goldenes Fensterlicht.
 
 **`wutanfall-begleiten.webp`**
-> Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, eine erwachsene Person
-> sitzt ruhig in kurzer Entfernung daneben und wartet, nicht bedrängend.
+> Helles Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, die Mutter sitzt
+> ruhig und geduldig daneben, warmes Nachmittagslicht.
 
 **`frustrationstoleranz-kind.webp`**
-> Kind versucht konzentriert, einen Reißverschluss zu schließen, eine erwachsene
-> Person sitzt daneben und greift bewusst nicht ein, Hände im Schoß.
+> Kind versucht konzentriert einen Reißverschluss zu schließen, die Mutter sitzt
+> lächelnd daneben und lässt es machen, sonniger Flur.
 
 **`kind-beruhigt-sich-nicht.webp`**
-> Abgedunkeltes Zimmer, ein Kind liegt zusammengerollt am Boden, eine erwachsene
-> Person sitzt mit Abstand an der Wand, sehr still, wenig Licht.
+> Warmes ruhiges Zimmer, ein Kind lehnt erschöpft an der Schulter eines
+> Elternteils, beide sitzen am Boden, weiches goldenes Licht.
 
 **`gefuehle-benennen.webp`**
-> Erwachsene Person und Kind sitzen Stirn an Stirn auf dem Sofa, leises
-> Gespräch, weiches Nachmittagslicht.
+> Mutter und Kind sitzen Stirn an Stirn auf dem sonnigen Sofa, leises Gespräch,
+> beide lächeln leicht.
 
 **`wann-wutanfall-nicht-normal.webp`**
-> Helles ruhiges Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind auf
-> dem Schoß, sachlich und freundlich, keine Dramatik.
+> Helles freundliches Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind
+> auf dem Schoß, beide entspannt, viel Tageslicht.
 
 **`wutanfall-in-der-oeffentlichkeit.webp`**
-> Supermarktgang von hinten fotografiert, eine erwachsene Person in der Hocke
-> bei einem Kind, andere Menschen weit unscharf im Hintergrund.
+> Heller Supermarktgang, eine Mutter geht bei ihrem Kind in die Hocke und
+> spricht ruhig mit ihm, freundliche Stimmung, andere Menschen weit unscharf.
 
 ### Silo 4: Schlaf und Abend
 
 **`schlaf-als-fuehrungsaufgabe.webp`**
-> Kinderzimmer am Abend, eine erwachsene Person steht in der halboffenen Tür,
-> warmes Licht aus dem Flur, das Kind liegt schon im Bett.
+> Kinderzimmer am Abend, warmes goldenes Licht aus dem Flur, die Mutter steht
+> lächelnd in der halboffenen Tür, das Kind liegt zufrieden im Bett.
 
 **`einschlafbegleitung-wie-lange.webp`**
-> Erwachsene Person sitzt im Halbdunkel am Bettrand, das Kind ist fast
-> eingeschlafen, nur eine kleine Lampe brennt.
+> Mutter sitzt im warmen Lampenlicht am Bettrand, das Kind ist fast
+> eingeschlafen, honigfarbene ruhige Stimmung.
 
 **`einschlafbegleitung-macht-wuetend.webp`**
-> Dunkles Kinderzimmer, eine erwachsene Person sitzt auf dem Boden an die Wand
-> gelehnt, Kopf zurückgelegt, erschöpft, das Kinderbett unscharf daneben.
+> Kinderzimmer im warmen Abendlicht, eine Mutter sitzt entspannt am Boden an das
+> Bett gelehnt, Hörstöpsel im Ohr, gelassener Moment.
 
 **`abendroutine-die-haelt.webp`**
-> Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die Zähne,
-> eine erwachsene Person steht ruhig daneben, warmes Licht.
+> Helles Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die
+> Zähne, die Mutter steht lächelnd daneben, warmes Licht.
 
 **`kind-steht-abends-immer-auf.webp`**
-> Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der beleuchtete
-> Flur, davor das dunkle Wohnzimmer.
+> Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der warm
+> beleuchtete Flur, freundliche gemütliche Abendstimmung.
 
 **`kind-will-nur-mit-mama-einschlafen.webp`**
-> Vater sitzt im Halbdunkel am Kinderbett, das Kind liegt wach und schaut zur
-> Tür, ruhige geduldige Stimmung.
+> Vater sitzt im warmen Lampenlicht am Kinderbett und erzählt etwas, das Kind
+> hört zu, gemütliche goldene Stimmung.
 
 **`mittagsschlaf-wann-vorbei.webp`**
-> Abgedunkeltes Kinderzimmer am Nachmittag, ein Kind liegt wach im Bett, ein
-> heller Lichtstreifen fällt zwischen den Vorhängen hindurch.
+> Kinderzimmer am Nachmittag, ein Kind liegt wach und zufrieden im Bett, warmes
+> Sonnenlicht fällt in breiten Streifen zwischen den Vorhängen hindurch.
 
 ### Silo 5: Für dich als Elternteil
 
 **`elterliche-erschoepfung.webp`**
-> Frau sitzt in der Küche, beide Hände um eine Tasse, Blick aus dem Fenster,
-> Spielzeug am Boden im unscharfen Vordergrund, Morgenlicht.
+> Frau sitzt in warmem Morgenlicht in der Küche, beide Hände um eine Tasse,
+> Blick aus dem Fenster, ruhiger Moment für sich, Zimmerpflanze am Fenster.
 
 **`kind-angeschrien-was-jetzt.webp`**
-> Erwachsene Person und Kind sitzen wieder nebeneinander auf dem Sofa,
-> Schulter an Schulter, ruhige Versöhnung nach einem Sturm.
+> Mutter und Kind sitzen wieder eng nebeneinander auf dem sonnigen Sofa,
+> Schulter an Schulter, versöhnte warme Stimmung.
 
 **`nicht-konsequent-sein-koennen.webp`**
-> Erwachsene Person steht im Flur, eine Hand an der Stirn, im unscharfen
-> Hintergrund ein spielendes Kind, Abendlicht.
+> Frau steht im hellen Flur und atmet einen Moment durch, freundliches
+> nachdenkliches Gesicht, im unscharfen Hintergrund ein spielendes Kind.
 
 **`wenn-ihr-unterschiedlich-erzieht.webp`**
-> Zwei Erwachsene stehen abends in der Küche und sprechen leise miteinander,
-> zugewandt, nur die Dunstabzugslampe brennt.
+> Zwei Erwachsene stehen abends in der warm beleuchteten Küche, zugewandt im
+> Gespräch, entspannte Haltung, gemütliches Licht.
 
 **`ich-mag-mein-kind-gerade-nicht.webp`**
-> Frau sitzt auf einer Treppenstufe im Hausflur, Arme um die Knie, im
-> Hintergrund eine angelehnte Kinderzimmertür, ruhig, nicht dramatisch.
+> Frau sitzt in warmem Licht auf einer Treppenstufe, ruhig und gefasst, im
+> weichen Hintergrund eine angelehnte Kinderzimmertür.
 
 **`eigene-wut-regulieren.webp`**
-> Erwachsene Person steht allein im Flur, eine Hand flach an der Wand, Augen
-> geschlossen, tief ausatmend, gedämpftes Licht.
+> Frau steht am offenen Fenster und atmet tief durch, Sonne im Gesicht, ruhiger
+> gesammelter Moment, helle Wohnung.
 
 **`wo-bleiben-meine-beduerfnisse.webp`**
-> Frau geht allein einen Weg zwischen Bäumen entlang, von hinten fotografiert,
-> frühes Morgenlicht, weiter Raum.
+> Frau geht allein einen sonnigen Weg zwischen Bäumen entlang, warmes
+> Morgenlicht durch die Blätter, freier heller Raum.
 
 ### Silo 6: Übergänge im Familienjahr
 
 **`uebergaenge-begleiten.webp`**
-> Wohnungsflur, ein Kind zieht sich die Schuhe an, eine erwachsene Person steht
-> geduldig daneben und wartet, Jacke schon in der Hand.
+> Sonniger Wohnungsflur, ein Kind zieht sich die Schuhe an, die Mutter wartet
+> geduldig daneben, Jacke über dem Arm.
 
 **`kita-eingewoehnung-kind-weint.webp`**
-> Kita-Garderobe, Mutter kniet vor ihrem Kind, eine Erzieherin steht unscharf
-> im Hintergrund, ruhiger Abschied, Morgenlicht.
+> Helle Kita-Garderobe, eine Mutter kniet vor ihrem Kind und hält beide Hände,
+> warmer zugewandter Abschied, Erzieherin unscharf im Hintergrund.
 
 **`erste-schulwochen.webp`**
-> Kind mit großem Schulranzen geht einen Gehweg entlang, von hinten
-> fotografiert, Herbstlicht, Laub am Boden.
+> Kind mit großem Schulranzen geht einen sonnigen Gehweg entlang, goldenes
+> Herbstlicht, buntes Laub, fröhliche Stimmung.
 
 **`morgens-ohne-geschrei.webp`**
-> Frühstückstisch am frühen Morgen, ein noch verschlafenes Kind sitzt davor,
-> eine erwachsene Person legt Kleidung auf einen Stuhl.
+> Sonniger Frühstückstisch am Morgen, ein Kind sitzt verschlafen davor, die
+> Mutter legt lächelnd Kleidung auf einen Stuhl, warmes Licht.
 
 **`zeitumstellung-mit-kind.webp`**
-> Kinderzimmer im sehr frühen Morgenlicht, ein Kind sitzt wach im Bett, auf dem
-> Nachttisch ein einfacher Wecker, blaue Stunde.
+> Kinderzimmer im ersten warmen Morgenlicht, ein Kind sitzt fröhlich wach im
+> Bett, goldene Sonne fällt durch den Vorhang.
 
 **`geschenke-und-konsum.webp`**
-> Kind sitzt auf dem Wohnzimmerboden vor einem einzigen ausgepackten Geschenk,
-> Papier daneben, ruhige konzentrierte Freude, kein Geschenkeberg.
+> Kind sitzt im warmen Licht auf dem Wohnzimmerboden vor einem einzigen
+> ausgepackten Geschenk, konzentrierte stille Freude, Papier daneben.
 
 **`familienregeln-jahreswechsel.webp`**
-> Küchenwand mit einem Familienkalender, kaltes klares Januarlicht, im
-> unscharfen Vordergrund eine Tasse und ein Stift.
+> Helle Küche im klaren Wintersonnenlicht, ein Familienkalender an der Wand, im
+> unscharfen Vordergrund eine Tasse, freundliche Neuanfang-Stimmung.
 
 **`wenn-oma-anders-erzieht.webp`**
-> Großmutter und Enkelkind sitzen zusammen am Küchentisch, ein Kuchen zwischen
-> ihnen, warmes Licht, vertraute Stimmung.
+> Großmutter und Enkelkind sitzen zusammen am sonnigen Küchentisch, ein Kuchen
+> zwischen ihnen, herzliche warme Stimmung.
 
 ---
 
 ## Umwandeln und ablegen
 
-ChatGPT gibt meist PNG aus. Alles auf einmal umwandeln und in der Größe
-begrenzen, im jeweiligen Ordner:
+ChatGPT gibt meist PNG aus. Alles auf einmal umwandeln und mittig auf das
+richtige Verhältnis schneiden:
 
 ```bash
-cd C:/_timon-claude/projects/sarah-mann-web/public/bilder/artikel && for f in *.png *.jpg; do [ -e "$f" ] || continue; magick "$f" -resize 1600x1067^ -gravity center -extent 1600x1067 -quality 82 "${f%.*}.webp" && rm "$f"; done
+python werkzeuge/bilder-webp.py
 ```
 
-Wenn ImageMagick nicht installiert ist, geht es auch mit Python:
-
-```bash
-cd C:/_timon-claude/projects/sarah-mann-web && python werkzeuge/bilder-webp.py
-```
-
-Danach einmal bauen und pushen, dann sind die Bilder live. Alles, was noch
-fehlt, bleibt einfach leer, die Seite funktioniert vollständig ohne.
+Danach bauen und pushen. Alles, was noch fehlt, bleibt einfach leer, die Seite
+funktioniert vollständig ohne.
