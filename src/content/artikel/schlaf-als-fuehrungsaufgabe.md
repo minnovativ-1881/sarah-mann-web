@@ -159,3 +159,14 @@ Rechne damit, dass die ersten zwei bis drei Abende **schlechter** werden. Dein K
 Nach etwa einer bis zwei Wochen ist der Abend in aller Regel deutlich kürzer. Nicht weil dein Kind resigniert hat, sondern weil es nicht mehr herausfinden muss, woran es ist.
 
 **Und wenn du nur eine Sache mitnimmst:** Entscheide vorher, was gilt. Nicht im Zimmer, nicht um halb acht, nicht wenn du müde bist. Sondern vorher, wenn du klar denken kannst. Fast alles andere folgt daraus.
+
+## Der Abend im Einzelnen
+
+Zu den einzelnen Stellen, an denen der Abend hakt, gibt es jeweils einen eigenen Text:
+
+- [Die Abendroutine, die auch mit mehreren Kindern trägt](/wissen/abendroutine-die-haelt/), der Ablauf, der auch mit mehreren Kindern trägt
+- [Warum mich das Einschlafbegleiten so wütend macht](/wissen/einschlafbegleitung-macht-wuetend/), warum das Begleiten so wütend macht
+- [Einschlafbegleitung: wie lange ist normal?](/wissen/einschlafbegleitung-wie-lange/), was normal ist und was zu lang
+- [Der Nochmal-Kreislauf am Abend](/wissen/kind-steht-abends-immer-auf/), der Nochmal-Kreislauf und wie er endet
+- [Wenn nur eine Person geht](/wissen/kind-will-nur-mit-mama-einschlafen/), wenn nur eine Person geht
+- [Mittagsschlaf: wann er endet und was danach kommt](/wissen/mittagsschlaf-wann-vorbei/), der unterschätzte Hebel für den Abend

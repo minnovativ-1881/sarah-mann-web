@@ -161,3 +161,15 @@ Was sich verändert:
 Der letzte Punkt ist der schönste. Wenn ein Kind anfängt, den Übergang selbst zu strukturieren, hat es genau das übernommen, was du ihm hundertmal vorgemacht hast.
 
 Und das ist am Ende der Sinn der ganzen Mühe. Wir übernehmen die Struktur so lange, bis unser Kind sie selbst tragen kann.
+
+## Die Übergänge im Einzelnen
+
+Zu den einzelnen Übergängen gibt es jeweils einen eigenen Text:
+
+- [Die ersten Schulwochen, ohne dass alle zusammenbrechen](/wissen/erste-schulwochen/), die ersten Wochen nach dem Schulstart
+- [Der Reset für den Familienalltag](/wissen/familienregeln-jahreswechsel/), der Reset für den Alltag
+- [Wie viele Geschenke braucht ein Kind?](/wissen/geschenke-und-konsum/), wie viele Geschenke ein Kind braucht
+- [Dein Kind weint beim Abgeben. Und du gehst trotzdem.](/wissen/kita-eingewoehnung-kind-weint/), der Moment an der Kita-Tür
+- [Der Morgen, der ohne Geschrei funktioniert](/wissen/morgens-ohne-geschrei/), der Familienmorgen, der hält
+- [Wenn die Großeltern anders erziehen](/wissen/wenn-oma-anders-erzieht/), wenn die Großeltern anders erziehen
+- [Zeitumstellung mit Kind: die vier Tage davor](/wissen/zeitumstellung-mit-kind/), die vier Tage vor der Umstellung

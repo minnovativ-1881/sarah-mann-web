@@ -164,3 +164,15 @@ Stell dir ein Geländer an einer Treppe vor. Dein Kind wird diese Treppe eines T
 **Wir geben Kindern zuerst unsere Ruhe, damit daraus irgendwann ihre eigene werden kann.**
 
 Und das ist am Ende der Sinn von Führung überhaupt: nicht, dass ein Kind immer geführt wird, sondern dass es irgendwann sich selbst führen kann.
+
+## Die einzelnen Situationen
+
+Für die Momente, in denen das konkret wird, gibt es jeweils einen eigenen Text:
+
+- [Warum Frust dazugehört](/wissen/frustrationstoleranz-kind/), warum Frust dazugehört
+- [Wie Kinder Worte für Gefühle finden](/wissen/gefuehle-benennen/), wie Kinder Worte für Gefühle finden
+- [Wenn gar nichts mehr hilft](/wissen/kind-beruhigt-sich-nicht/), wenn gar nichts mehr hilft
+- [Dein Kind kann sich noch nicht beruhigen. Deshalb tust du es.](/wissen/ko-regulation/), wie Beruhigung von außen funktioniert
+- [Wann Wutanfälle nicht mehr normal sind](/wissen/wann-wutanfall-nicht-normal/), wann ein Gespräch mit der Ärztin sinnvoll ist
+- [Was in der Hochphase eines Wutanfalls wirkt](/wissen/wutanfall-begleiten/), was in der Hochphase wirkt
+- [Wenn alle schauen](/wissen/wutanfall-in-der-oeffentlichkeit/), wenn alle schauen

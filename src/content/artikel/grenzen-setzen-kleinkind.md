@@ -178,3 +178,17 @@ Dann fang bitte nicht mit allem gleichzeitig an. Das scheitert immer, und danach
 **Und rechne mit ein paar anstrengenden Tagen.** Dein Kind hat gelernt, dass der Ernstfall spät kommt, und wird prüfen, ob das noch stimmt. Dieses Prüfen ist kein Rückschlag. Es ist der Beweis, dass es die Veränderung bemerkt hat.
 
 Nach etwa einer bis zwei Wochen wird es in aller Regel deutlich ruhiger. Nicht weil dein Kind aufgegeben hat, sondern weil es nicht mehr herausfinden muss, woran es ist.
+
+## Die einzelnen Fragen dazu
+
+Zu den einzelnen Situationen, in denen sich das entscheidet, gibt es jeweils einen eigenen Text:
+
+- [Ich sage es zehnmal nett. Und dann schreie ich.](/wissen/kind-hoert-nicht-trotz-konsequenz/), wenn du es zehnmal sagst und dann laut wirst
+- [Wenn dein Kind haut](/wissen/kind-schlaegt-und-haut/), was in dem Moment wirklich hilft
+- [Bei allen anderen klappt es. Nur bei dir nicht.](/wissen/kind-testet-grenzen-nur-bei-mir/), warum es ausgerechnet bei dir schwierig ist
+- [Konsequenz oder Strafe: der Unterschied, den kaum jemand erklärt](/wissen/konsequenz-oder-strafe/), die drei Prüffragen, die es unterscheiden
+- [Machtkampf mit dem Kleinkind: was von zwei bis sechs passiert](/wissen/machtkampf-kleinkind/), was von zwei bis sechs dahintersteckt
+- [Nachgeben oder durchhalten?](/wissen/nachgeben-oder-durchhalten/), wann Nachgeben in Ordnung ist und wann nicht
+- [Wenn jedes Nein wehtut](/wissen/nein-sagen-ohne-schlechtes-gewissen/), wenn jedes Nein innerlich zieht
+- [Wenn Erklären nicht mehr reicht](/wissen/wenn-die-grenze-ueberschritten-ist/), was im Moment danach wirkt
+- [Wie viele Regeln braucht ein Kind?](/wissen/wie-viele-regeln-braucht-ein-kind/), warum weniger Regeln klarer sind

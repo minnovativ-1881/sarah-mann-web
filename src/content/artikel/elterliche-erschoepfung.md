@@ -151,3 +151,14 @@ Dieser Text ist ein Orientierungstext, keine Diagnose. Es gibt Signale, bei dene
 Der letzte Punkt ist besonders wichtig. Dieser Gedanke fühlt sich wie eine Erkenntnis an und ist ein Symptom. Wenn er da ist, sprich mit deiner Hausärztin oder einer Beratungsstelle. Nicht irgendwann, sondern diese Woche.
 
 Und das Wichtigste zum Schluss: Erschöpfung ist kein Urteil über deine Liebe zu deinem Kind. Sie ist eine Rechnung über die Belastung, die du getragen hast. Rechnungen kann man verändern. Urteile nicht.
+
+## Was dazugehört
+
+Die Seite, die dich selbst betrifft, hat mehrere Gesichter:
+
+- [Bevor du dein Kind regulierst](/wissen/eigene-wut-regulieren/), was im Moment selbst funktioniert
+- [Der Satz, den kaum jemand ausspricht](/wissen/ich-mag-mein-kind-gerade-nicht/), der Satz, den kaum jemand ausspricht
+- [Du hast dein Kind angeschrien. Und weinst seitdem.](/wissen/kind-angeschrien-was-jetzt/), die vier Schritte danach
+- [Ich schaffe es einfach nicht, konsequent zu sein](/wissen/nicht-konsequent-sein-koennen/), warum Vorsätze daran scheitern
+- [Wenn ihr unterschiedlich erzieht](/wissen/wenn-ihr-unterschiedlich-erzieht/), der Abgleich zu zweit
+- [Und wo bleiben deine Bedürfnisse?](/wissen/wo-bleiben-meine-beduerfnisse/), bedürfnisorientiert, ohne auszubrennen

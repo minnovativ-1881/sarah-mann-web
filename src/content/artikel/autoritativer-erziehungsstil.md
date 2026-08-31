@@ -196,3 +196,15 @@ Sag es einmal freundlich und geh dann ins Handeln, statt es ein zweites, drittes
 Und rechne damit, dass dein Kind das prüft. Ein paar Tage lang wird es wahrscheinlich anstrengender, bevor es leichter wird. Das ist kein Rückschlag. Das ist der Test, ob die Grenze wirklich steht.
 
 Und noch etwas: Nichts davon bedeutet, dass eine einzige Entscheidung dein Kind für immer prägt. Zum Glück nicht. Es geht um Muster, um tausende kleine Momente, um das, was dein Kind immer wieder erlebt. Nicht um eine einzelne Nacht.
+
+## Wo das im Alltag weitergeht
+
+Dieser Text ist der Überblick. Für die Fragen, die daraus folgen, gibt es jeweils einen eigenen:
+
+- [Autoritativ oder autoritär? Ein Buchstabe, zwei Welten](/wissen/autoritativ-oder-autoritaer/), der Unterschied, den ein einziger Buchstabe verdeckt
+- [Bedürfnis oder Wunsch? Die Unterscheidung, die alles leichter macht](/wissen/beduerfnis-oder-wunsch/), wann etwas ein Bedürfnis ist und wann ein Wunsch
+- [Bedürfnisorientiert am Limit: Was an der Kritik dran ist](/wissen/beduerfnisorientierte-erziehung-kritik/), was an der Kritik tatsächlich dran ist
+- [Die vier Erziehungsstile, für Eltern erklärt](/wissen/erziehungsstile-fuer-eltern/), die vier Stile, wie sie mittwochs um halb acht aussehen
+- [Gentle Parenting und Grenzen: geht das zusammen?](/wissen/gentle-parenting-und-grenzen/), ob beides zusammengeht
+- [Das Pendel: warum Eltern heute so unsicher sind](/wissen/warum-eltern-heute-unsicher-sind/), warum diese Elterngeneration so unsicher ist
+- [Was Kindern wirklich Sicherheit gibt](/wissen/was-kinder-sicher-macht/), die vier Dinge, aus denen Sicherheit entsteht
