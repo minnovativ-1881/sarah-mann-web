@@ -1,6 +1,9 @@
 # Bild-Prompts für sarahmann.de
 
-60 Bilder: 48 Artikel, 6 Silo-Bänder, 6 Test-Kacheln.
+72 Bilder: 58 Artikel, 7 Silo-Bänder, 7 Test-Kacheln.
+
+**Silo 7 ist noch offen**, alles davor ist geliefert und eingebaut. Die zwölf
+fehlenden Prompts stehen unten.
 
 **So funktioniert es:** Bild erzeugen, umbenennen nach dem angegebenen Dateinamen,
 in den passenden Ordner legen. Mehr nicht. Die Seite findet die Datei von selbst,
@@ -334,3 +337,83 @@ python werkzeuge/bilder-webp.py
 
 Danach bauen und pushen. Alles, was noch fehlt, bleibt einfach leer, die Seite
 funktioniert vollständig ohne.
+
+---
+
+## Silo 7: Wenn alles zu viel wird
+
+Neue Sparte für Kinder, die mehr wahrnehmen und schneller an ihre Grenze
+kommen. Zwölf Bilder: zehn Artikel, ein Band, eine Test-Kachel.
+
+**Zusätzlich zu den drei Regeln oben gilt hier besonders:** Kein Bild zeigt ein
+Kind im Ausnahmezustand. Diese Sparte handelt von Überlastung, und genau
+deshalb dürfen die Bilder sie nicht vorführen. Sie zeigen den Moment davor oder
+den Moment danach, und immer ein Kind, das sich selbst helfen kann oder
+begleitet wird.
+
+### Das Band
+
+**`reizueberflutung.webp`** (16:9, in `public/bilder/silos/`)
+> Helles ruhiges Wohnzimmer am späten Nachmittag, ein Kind sitzt entspannt
+> allein in einer weichen Kissenecke am großen Fenster, Sonne fällt in breiten
+> Streifen über den Holzboden, sehr viel Luft und Ruhe im Bild, wenig Möbel.
+
+### Die Test-Kachel
+
+**`reizprofil-test.webp`** (3:2, 1200 × 800, in `public/bilder/tests/`)
+> Kind sitzt auf einem hellen Teppich und sortiert konzentriert Kastanien und
+> Steine in kleine Holzschalen, ruhige Hände im warmen Licht, im Hintergrund
+> unscharf ein sonniges Fenster.
+
+### Die zehn Artikel
+
+**`kind-staendig-ueberdreht.webp`**
+> Kind rennt barfuß über eine sonnige Wiese im Garten, viel Bewegung und
+> Lebensfreude, warmes Gegenlicht, im unscharfen Hintergrund eine Terrasse mit
+> Kissen und einer Decke.
+
+**`kind-rastet-nach-kita-und-schule-aus.webp`**
+> Heller Wohnungsflur am Nachmittag, ein Kind ist gerade angekommen und lehnt
+> sich an seine Mutter, die Jacke noch halb an, der Ranzen liegt am Boden,
+> ruhiger Moment des Ankommens im warmen Licht.
+
+**`meltdown-oder-trotzanfall.webp`**
+> Wohnzimmerboden im Nachmittagslicht, eine Mutter sitzt mit etwas Abstand
+> ruhig neben ihrem Kind auf dem Teppich, das Kind lehnt entspannt an einem
+> großen Kissen, geduldige stille Nähe ohne Berührung.
+
+**`kind-haelt-sich-die-ohren-zu.webp`**
+> Kind sitzt entspannt mit einem Kapselgehörschutz in einer hellen Leseecke und
+> blättert in einem Bilderbuch, zufriedene ruhige Haltung, weiche Kissen,
+> Sonnenlicht auf dem Boden.
+
+**`kind-will-sich-nicht-anziehen.webp`**
+> Helles Kinderzimmer am Vormittag, ein Kind sitzt auf dem Boden und zieht sich
+> in aller Ruhe Socken an, die Mutter kniet geduldig daneben, die Kleidung
+> liegt geordnet auf einem kleinen Hocker.
+
+**`waehlerisches-kind-essen.webp`**
+> Sonniger Frühstückstisch mit mehreren kleinen Schälchen, ein Kind greift
+> entspannt nach einem Stück Obst, die Mutter isst nebenher und schaut nicht
+> hin, ganz unangestrengte Stimmung.
+
+**`kind-will-nicht-mehr-zur-schule.webp`**
+> Kinderzimmer im weichen Morgenlicht, eine Mutter sitzt neben ihrem Kind auf
+> der Bettkante, beide ruhig und ohne Eile, der gepackte Schulranzen steht
+> daneben.
+
+**`gefuehlsstark-oder-adhs.webp`**
+> Kind sitzt konzentriert auf dem Wohnzimmerboden und baut mit Holzklötzen,
+> ganz in die Sache versunken, warmes Licht auf den Händen, die Mutter im
+> unscharfen Hintergrund auf dem Sofa.
+
+**`aussagen-statt-aufforderungen.webp`**
+> Mutter und Kind stehen nebeneinander am großen Fenster und schauen zusammen
+> nach draußen, die Mutter zeigt auf etwas, beide in dieselbe Richtung
+> gewandt, ruhige gemeinsame Aufmerksamkeit.
+
+**`elterngespraech-kind-faellt-auf.webp`**
+> Zwei Erwachsene sitzen einander zugewandt an einem hellen Holztisch, ein
+> aufgeschlagenes Heft und zwei Tassen zwischen ihnen, ruhiges sachliches
+> Gespräch auf Augenhöhe, sonniger Raum mit einer Zimmerpflanze, kein Kind im
+> Bild.
