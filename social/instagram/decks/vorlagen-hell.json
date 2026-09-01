@@ -6,25 +6,26 @@
     {
       "typ": "hook",
       "eyebrow": "Wie klar ist dein Nein",
-      "titel": "Dein Kind hört nicht auf dich. Es hat nur *mitgezählt.*"
+      "titel": "Dein Kind hört nicht auf dich. *Es hat mitgezählt.*",
+      "unter": "Beim dritten Mal gibst du nach. Manchmal. Genau das merkt es sich."
     },
     {
       "typ": "wende",
       "eyebrow": "Was wirklich passiert",
-      "titel": "Beim dritten Mal gibst du nach. *Manchmal.*",
-      "text": "Und genau das ist die Information. Dein Kind lernt daraus nicht, dass es kein Ja gibt. Es lernt, wie lange es dauert."
+      "titel": "Es lernt nicht, dass es kein Ja gibt. Es lernt, *wie lange es dauert.*",
+      "text": "Das ist kein Ungehorsam. Das ist eine völlig zutreffende Beobachtung, und jeder erwachsene Mensch würde daraus dasselbe schließen."
     },
     {
       "typ": "punkt",
       "nummer": "01",
-      "titel": "Das ist keine Frechheit",
-      "text": "Es ist eine völlig zutreffende Beobachtung. Jeder erwachsene Mensch würde an dieser Stelle dasselbe tun."
+      "titel": "Strenger werden hilft nicht",
+      "text": "Was hilft, ist weniger anzukündigen und das dann auch einzuhalten. Lieber drei Regeln, die stehen, als zwanzig, die wandern."
     },
     {
       "typ": "punkt",
       "nummer": "02",
-      "titel": "Strenger werden hilft nicht",
-      "text": "Was hilft, ist weniger anzukündigen und das dann auch einzuhalten. Lieber drei Regeln, die stehen, als zwanzig, die wandern."
+      "titel": "Am Abend kippt es am schnellsten",
+      "text": "Nicht weil dein Kind abends schwieriger ist. Sondern weil von deiner Kraft nichts mehr übrig ist. Das ist ein Kraftproblem, kein Erziehungsproblem."
     },
     {
       "typ": "punkt",

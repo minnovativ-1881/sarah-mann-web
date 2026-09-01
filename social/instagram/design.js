@@ -41,8 +41,18 @@ const LOGO = {
  *       einen weissen Rand, die Maske ist deshalb neu aufgebaut.
  */
 const FOTO = {
-  rund: alsDatenUri("fotos/sarah-rund.png", "png"),
+  // Gegenlaeufig: das Foto auf Creme kommt auf die dunkle Folie, das Foto auf
+  // Petrol auf die helle. So entsteht eine Scheibe mit Kontrast statt eines
+  // Bildes, das in der Flaeche verschwindet.
+  kreisAufDunkel: alsDatenUri("fotos/sarah-kreis-hell.png", "png"),
+  kreisAufHell: alsDatenUri("fotos/sarah-kreis-dunkel.png", "png"),
   frei: alsDatenUri("fotos/sarah-freisteller.png", "png"),
+};
+
+/** Handgezeichneter Wischpfeil, je Variante in der lesbaren Farbe. */
+const PFEIL = {
+  hell: alsDatenUri("pfeile/pfeil-hell.png", "png"),
+  dunkel: alsDatenUri("pfeile/pfeil-petrol.png", "png"),
 };
 
 const MARKE = {
@@ -74,6 +84,8 @@ function palette(variante) {
       kastenGrund: "rgba(255,255,255,0.10)",
       kastenRand: "rgba(255,255,255,0.34)",
       logo: LOGO.dunkel,
+      kreis: FOTO.kreisAufDunkel,
+      pfeil: PFEIL.hell,
     };
   }
   return {
@@ -85,6 +97,8 @@ function palette(variante) {
     kastenGrund: "rgba(19,107,115,0.06)",
     kastenRand: "rgba(19,107,115,0.30)",
     logo: LOGO.hell,
+    kreis: FOTO.kreisAufHell,
+    pfeil: PFEIL.dunkel,
   };
 }
 
@@ -118,8 +132,8 @@ function rahmen(p, inhalt, fuss) {
         display:flex;align-items:flex-end;justify-content:space-between}
   .nummer{font-size:22px;letter-spacing:.22em;color:${p.textLeise};font-weight:400}
   .logo{height:62px;opacity:1}
-  .rund{width:452px;height:452px;border-radius:50%;display:block;
-        border:2px solid ${p.linie}}
+  .rund{width:470px;height:470px;border-radius:50%;display:block}
+  .pfeil{height:64px;width:auto;display:block}
   .frei{position:absolute;right:40px;bottom:0;height:742px;width:auto}
 </style></head><body>
 <div class="buehne">${inhalt}</div>
@@ -136,7 +150,7 @@ function fussleiste(p, folie) {
     : folie.zaehler
     ? `<span class="nummer">${folie.zaehler}</span>`
     : folie.wisch
-      ? `<span class="nummer">weiterwischen &nbsp;&rsaquo;</span>`
+      ? `<img class="pfeil" src="${p.pfeil}" alt="weiterwischen">`
       : "";
   if (!links && !rechts) return "";
   return `<div class="fuss">${links || "<span></span>"}${rechts}</div>`;
@@ -193,7 +207,7 @@ const TYPEN = {
   person(folie, p) {
     return `
       <div style="margin:auto 0;text-align:center">
-        <img class="rund" style="margin:0 auto" src="${FOTO.rund}" alt="Sarah Mann">
+        <img class="rund" style="margin:0 auto" src="${p.kreis}" alt="Sarah Mann">
         <p class="eyebrow" style="margin-top:46px">${folie.eyebrow || "Wer das schreibt"}</p>
         <h2 class="titel" style="font-size:64px;line-height:1.1;margin-top:16px">Sarah Mann</h2>
         <p class="text" style="margin-top:20px">${

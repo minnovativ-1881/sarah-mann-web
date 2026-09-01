@@ -6,26 +6,26 @@
     {
       "typ": "hook",
       "eyebrow": "Der Unterschied, den kaum jemand erklärt",
-      "titel": "Die stille Treppe ist *keine Konsequenz.*",
-      "unter": "Sie ist eine Strafe. Auch wenn sie freundlich klingt."
+      "titel": "Kein Nachtisch, weil das Gemüse liegen blieb? *Das ist eine Strafe.*",
+      "unter": "Und fast jede Familie macht es. Auch die sanften."
     },
     {
       "typ": "wende",
       "eyebrow": "Woran es liegt",
       "titel": "Nicht der Ton entscheidet. Sondern der *Zusammenhang.*",
-      "text": "Eine Konsequenz hat mit der Sache zu tun. Eine Strafe soll unangenehm sein, damit ein Kind etwas lernt. Das ist ein Unterschied, den Kinder sofort spüren."
+      "text": "Eine Konsequenz hat mit der Sache zu tun. Eine Strafe soll unangenehm sein, damit ein Kind etwas lernt. Freundlich vorgetragen bleibt sie eine Strafe."
     },
     {
       "typ": "punkt",
       "nummer": "01",
-      "titel": "Kein Hörspiel, weil nicht aufgeräumt wurde",
-      "text": "Aufräumen und Hörspiel haben nichts miteinander zu tun. Sobald der Zusammenhang fehlt, wird aus der Konsequenz Druck."
+      "titel": "Nachtisch gegen Gemüse",
+      "text": "Das macht aus Essen einen Handel. Und es formt das Verhältnis zum Essen länger, als dir lieb ist."
     },
     {
       "typ": "punkt",
       "nummer": "02",
-      "titel": "Kein Nachtisch, weil das Gemüse liegen blieb",
-      "text": "Das macht aus Essen einen Handel. Und es formt das Verhältnis zum Essen länger, als dir lieb ist."
+      "titel": "Kein Hörspiel, weil nicht aufgeräumt wurde",
+      "text": "Aufräumen und Hörspiel haben nichts miteinander zu tun. Ohne Zusammenhang lernt dein Kind nur, wer am längeren Hebel sitzt."
     },
     {
       "typ": "punkt",
@@ -37,6 +37,10 @@
       "typ": "zitat",
       "titel": "Wer Sand wirft, macht eine Pause vom Sandkasten.",
       "text": "Das schützt die anderen und hat mit der Sache zu tun. Genau das ist eine Konsequenz."
+    },
+    {
+      "typ": "person",
+      "eyebrow": "Wer das schreibt"
     },
     {
       "typ": "cta",

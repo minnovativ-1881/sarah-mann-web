@@ -62,19 +62,29 @@ Betonung pro Folie, sonst verpufft sie.
 Der Zähler unten rechts und die Logo-Signatur unten links entstehen von selbst.
 Folie 1 bekommt statt des Zählers den Hinweis zum Weiterwischen.
 
-## Sarahs Fotos
+## Sarahs Fotos und die Pfeile
 
-Zwei Dateien in `fotos/`:
+In `fotos/` liegen die Kreise, in `pfeile/` die Wischpfeile. Beide werden je
+Variante automatisch gewählt, es gibt dafür nichts einzustellen.
 
-- `sarah-rund.png` ist ein Kreisausschnitt direkt aus dem Foto. Ein Kreis hat
-  keinen Saum, deshalb funktioniert er auf hell **und** auf dunkel.
-- `sarah-freisteller.png` ist die freigestellte Halbfigur.
+Die Kreise sind **gegenläufig** zugeordnet:
 
-**Der Freisteller darf nur auf helle Folien.** Im Haar stecken helle Reste des
-ursprünglichen Fotohintergrunds. Auf Creme sieht man sie nicht, auf Petrol
-schon, und zwar deutlich. Der Renderer bricht deshalb mit einer Meldung ab,
-wenn `portraet` in einem dunklen Deck steht. Für eine dunkle Folie mit Sarah
-nimmt man `person`.
+- dunkle Folie bekommt `sarah-kreis-hell.png`, also das Foto auf Creme
+- helle Folie bekommt `sarah-kreis-dunkel.png`, also das Foto auf Petrol
+
+So entsteht eine Scheibe mit Kontrast. Würde man gleichfarbig zuordnen, ginge
+der Kreis in der Fläche unter. Und weil die Fotos schon auf der Markenfläche
+aufgenommen sind, gibt es keine Freistellungskante, um die man sich kümmern
+müsste.
+
+`sarah-freisteller.png` ist die freigestellte Halbfigur für den Typ `portraet`.
+**Nur auf hellen Folien.** Im Haar stecken helle Reste des ursprünglichen
+Fotohintergrunds, auf Petrol sieht man sie deutlich. Der Renderer bricht mit
+einer Meldung ab, wenn `portraet` in einem dunklen Deck steht.
+
+Der Pfeil steht auf Folie 1 unten rechts, 64 px hoch, in Weiß auf dunkel und in
+Petrol auf hell. Er ersetzt den Zähler, denn auf der ersten Folie weiß noch
+niemand, dass es weitergeht.
 
 Ein Gesicht gehört auf Folie 1 oder auf die vorletzte Folie, nicht auf beide.
 
@@ -102,17 +112,28 @@ Ohne Argument werden alle Decks gerendert. Die PNG landen in
 
 ## Hooks
 
-Der Hook entscheidet alles. Die Regel für diesen Kanal: **eine Behauptung, die
-dem Gefühl der Leserin widerspricht, und die sie trotzdem sofort versteht.**
+Der Hook entscheidet alles. Die Prüffrage ist hart und einfach:
 
-Was funktioniert:
+> **Erkennt sie sich in der ersten Zeile wieder, ohne nachzudenken?**
 
-- „Die stille Treppe ist keine Konsequenz."
-- „Dein Kind hört nicht auf dich. Es hat nur mitgezählt."
-- „Kein Nachtisch, weil das Gemüse liegen blieb. Das ist eine Strafe."
+Wenn die Zeile einen Fachbegriff braucht, um zu wirken, ist sie zu schwach.
+„Die stille Treppe ist keine Konsequenz" fällt genau darüber: Wer den
+Unterschied noch nicht kennt, wischt weiter. Es muss eine Szene sein, die
+gestern in der Küche stattgefunden hat.
+
+Fünf Muster, die tragen:
+
+| Muster | Beispiel |
+|---|---|
+| **Der Spiegel** | „Du sagst es dreimal. Beim vierten Mal wirst du laut." |
+| **Das Urteil** | „Kein Nachtisch, weil das Gemüse liegen blieb? Das ist eine Strafe." |
+| **Der verbotene Satz** | „Ich mag mein Kind gerade nicht." |
+| **Die Umkehrung** | „Dein Kind hört nicht auf dich. Es hat mitgezählt." |
+| **Die Zahl** | „Zwanzig Regeln. Und keine davon gilt." |
 
 Was nicht funktioniert: Fragen ohne Reibung, Ratgeber-Ton, alles mit
-„5 Tipps für". Und keine Gedankenstriche im Text.
+„5 Tipps für", und jede Zeile, die erst eine Erklärung braucht. Keine
+Gedankenstriche im Text.
 
 Der Stoff kommt aus den Artikeln. Jede FAQ-Frage, jede Tabelle und jeder
 Zwischentitel auf der Website ist ein Karussell-Kandidat. Das Feld `quelle` im
