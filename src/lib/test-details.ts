@@ -25,6 +25,69 @@ export type FrageDetail = {
 };
 
 export const TEST_DETAILS: Record<string, FrageDetail[]> = {
+  /* ----------------------------- Reizprofil ------------------------------ */
+  "reizprofil-test": [
+    {
+      kopf: "Auf dem Spielplatz",
+      bereich: "Bewegung und Ausdauer",
+      stark: "Dein Kind holt sich draußen viel Bewegung. Das ist keine Unruhe, sondern sein Weg, in Balance zu bleiben. Nutze das gezielt vor schwierigen Situationen.",
+      schwach: "Bewegung ist bei deinem Kind kein Ventil. Wenn es überdreht ist, hilft ihm der Spielplatz eher nicht weiter.",
+    },
+    {
+      kopf: "Wenn es dich begrüßt",
+      bereich: "Druck und Berührung",
+      stark: "Dein Kind sucht festen Körperkontakt. Genau darüber beruhigt es sich am schnellsten: fest drücken, eine schwere Decke, gegen deine Hände schieben.",
+      schwach: "Dein Kind sucht Berührung eher vorsichtig. Aufgedrängte Nähe im Ausnahmezustand kann bei ihm nach hinten losgehen.",
+    },
+    {
+      kopf: "Am Tisch",
+      bereich: "Stillsitzen",
+      stark: "Dein Kind braucht Bewegung, um sich zu konzentrieren. Kippeln und Wippen sind bei ihm keine Respektlosigkeit, sondern Regulierung.",
+      schwach: "Stillsitzen fällt deinem Kind nicht schwer. Wenn es am Tisch trotzdem hakt, liegt das eher am Essen selbst als am Sitzen.",
+    },
+    {
+      kopf: "Der Geräuschpegel",
+      bereich: "Eigene Geräusche",
+      stark: "Dein Kind macht selbst viel Geräusch. Es erzeugt damit Input, den es braucht. Ständiges Ermahnen zur Ruhe nimmt ihm ein Regulierungsmittel weg.",
+      schwach: "Dein Kind ist von sich aus leise. Wenn es plötzlich lauter wird, ist das oft ein Vorzeichen von Überlastung.",
+    },
+    {
+      kopf: "Nach einem Kindergeburtstag",
+      bereich: "Nach dem Trubel",
+      stark: "Dein Kind fährt nach Trubel eher hoch als runter. Plane deshalb bewusst einen leeren Puffer danach ein, auch wenn es protestiert.",
+      schwach: "Dein Kind ist nach Trubel erschöpft und zeigt das auch. Das macht es dir leichter, den richtigen Moment zum Aussteigen zu erkennen.",
+    },
+    {
+      kopf: "Beim Anziehen",
+      bereich: "Kleidung auf der Haut",
+      stark: "Kleidung ist bei deinem Kind ein echtes Thema. Nähte und Etiketten sind für es körperlich unangenehm, nicht eingebildet. Nahtlose Socken und herausgetrennte Etiketten lösen erstaunlich viele Morgenkonflikte.",
+      schwach: "Kleidung ist bei euch unproblematisch. Ein Streit beim Anziehen hat dann meistens mit dem Übergang zu tun, nicht mit dem Stoff.",
+    },
+    {
+      kopf: "Laute Geräusche",
+      bereich: "Hören",
+      stark: "Dein Kind reagiert stark auf Geräusche. Gehörschutz für laute Orte ist keine Verhätschelung, sondern ein Werkzeug, das viele Ausbrüche verhindert.",
+      schwach: "Geräusche belasten dein Kind wenig. Laute Orte sind für euch nicht der Auslöser.",
+    },
+    {
+      kopf: "Auf dem Teller",
+      bereich: "Essen und Konsistenzen",
+      stark: "Essen ist bei deinem Kind eine Wahrnehmungsfrage, keine Erziehungsfrage. Druck am Tisch verengt die Auswahl langfristig, statt sie zu erweitern.",
+      schwach: "Beim Essen ist dein Kind offen. Das ist eine Baustelle weniger, als viele Familien in eurer Lage haben.",
+    },
+    {
+      kopf: "Im Supermarkt",
+      bereich: "Volle Orte",
+      stark: "Volle Orte sind für dein Kind harte Arbeit. Kurz halten, vorher ankündigen, hinterher Puffer einplanen. Und wenn es geht, ohne Kind einkaufen.",
+      schwach: "Volle Orte machen deinem Kind wenig aus. Der Supermarkt ist bei euch nicht die Problemstelle.",
+    },
+    {
+      kopf: "Haare und Nägel",
+      bereich: "Pflege am Körper",
+      stark: "Pflegesituationen sind bei deinem Kind besonders heikel. Ankündigen, in kleinen Schritten arbeiten und dem Kind so viel Kontrolle wie möglich lassen, senkt den Widerstand deutlich.",
+      schwach: "Haare und Nägel sind bei euch kein Kampfplatz.",
+    },
+  ],
   /* ------------------------------ Eltern-Test ----------------------------- */
   "eltern-test": [
     {
@@ -336,6 +399,18 @@ export const TEST_DETAILS: Record<string, FrageDetail[]> = {
 export type AchsenStufe = "hoch" | "mittel" | "niedrig";
 
 export const ACHSEN_TEXTE: Record<string, Record<string, Record<AchsenStufe, string>>> = {
+  "reizprofil-test": {
+    suchen: {
+      hoch: "Dein Kind sucht aktiv nach Input. Es braucht Bewegung, Druck und Tempo, um sich selbst zu spüren und in Balance zu bleiben.",
+      mittel: "Dein Kind sucht in manchen Situationen Input, in anderen nicht. Das ist völlig normal und macht euren Alltag berechenbarer als bei ausgeprägten Profilen.",
+      niedrig: "Dein Kind sucht wenig zusätzlichen Input. Auspowern als Rezept wird bei euch eher nicht funktionieren.",
+    },
+    meiden: {
+      hoch: "Dein Kind nimmt viel wahr und kommt schnell an seine Grenze. Für euch gilt fast immer: weniger statt mehr.",
+      mittel: "Dein Kind reagiert auf manche Reize empfindlich, auf andere nicht. Es lohnt sich, genau hinzusehen, welcher Sinn betroffen ist.",
+      niedrig: "Dein Kind ist gegenüber Reizen robust. Überlastung durch Geräusche, Licht oder Menschen ist bei euch unwahrscheinlich.",
+    },
+  },
   "eltern-test": {
     waerme: {
       hoch: "Deine Wärme ist hoch. Dein Kind erlebt dich als jemanden, bei dem es mit allem ankommen darf, auch mit den unbequemen Gefühlen.",

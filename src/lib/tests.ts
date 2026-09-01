@@ -429,9 +429,11 @@ import {
   abendTest,
   neinTest,
 } from "./tests-weitere";
+import { reizTest } from "./tests-reize";
 
 export const TESTS: Test[] = [
   elternTyp,
+  reizTest,
   neinTest,
   bedWunsch,
   konsequenzOderStrafe,

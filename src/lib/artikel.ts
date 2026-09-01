@@ -36,6 +36,12 @@ export const SILOS = {
     beschreibung:
       "Erschöpfung, Zweifel und die eigene Wut. Denn Führung fängt nicht beim Kind an.",
   },
+  reizueberflutung: {
+    slug: "reizueberflutung",
+    name: "Wenn alles zu viel wird",
+    beschreibung:
+      "Kinder, die mehr wahrnehmen und schneller an ihre Grenze kommen: was dahintersteckt und was im Alltag wirklich hilft.",
+  },
   uebergaenge: {
     slug: "uebergaenge",
     name: "Übergänge im Familienjahr",
