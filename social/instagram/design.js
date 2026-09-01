@@ -76,7 +76,7 @@ function palette(variante) {
       // saehe die Folie schwarz aus und die Marke waere weg.
       grund: `linear-gradient(160deg, ${MARKE.petrolHell} 0%, ${MARKE.petrolMittel} 100%)`,
       text: MARKE.weiss,
-      textLeise: "rgba(255,255,255,0.78)",
+      textLeise: "rgba(255,255,255,0.88)",
       // Taupe kommt auf dem hellen Ende des Verlaufs nur auf 2:1 und ist dort
       // nicht mehr lesbar. Warmer Sand steht bei 4,7 bis 8,9.
       akzent: MARKE.sand,
@@ -91,7 +91,7 @@ function palette(variante) {
   return {
     grund: MARKE.creme,
     text: MARKE.ink,
-    textLeise: "rgba(28,27,24,0.72)",
+    textLeise: "rgba(28,27,24,0.82)",
     akzent: MARKE.petrol,
     linie: MARKE.haarlinie,
     kastenGrund: "rgba(19,107,115,0.06)",
