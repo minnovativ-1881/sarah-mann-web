@@ -5,6 +5,7 @@ beschreibung: 'Der Morgen ist der Übergang mit dem meisten Zeitdruck und den we
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
 datum: '2026-08-31'
+bildPosition: 'center 0%'
 lesezeit: 12
 test: abend-test
 verwandt:

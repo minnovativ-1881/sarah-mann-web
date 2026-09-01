@@ -1,6 +1,6 @@
-# E-Mail-Vorlagen für die sechs Tests
+# E-Mail-Vorlagen für die Tests
 
-Stand 01.09.2026. Eine Vorlage pro Test. Sie unterscheiden sich nur in drei
+Stand 01.09.2026. Eine Vorlage pro Test, sieben Stück. Sie unterscheiden sich nur in drei
 Dingen: Betreff, Einstiegssatz und die Nummer des Ergebnisfeldes.
 
 ## Wie es zusammenspielt
@@ -22,6 +22,7 @@ Name mehr, sonst stünde er zweimal kurz hintereinander.
 | Konsequenz oder Strafe | `%Subscriber:CustomField1001160%` |
 | Abend-Test | `%Subscriber:CustomField1001161%` |
 | Kraft-Test | `%Subscriber:CustomField1001162%` |
+| Reizprofil-Test | `%Subscriber:CustomField1001171%` |
 
 ---
 
@@ -198,6 +199,36 @@ Mama von sieben und zertifizierte Babyschlafberaterin
 
 PS: Falls du dich danach schlecht gefühlt hast, weil du laut geworden bist:
 https://www.sarahmann.de/wissen/kind-angeschrien-was-jetzt/
+```
+
+---
+
+## 7. Reizprofil-Test
+
+**Betreff:** Dein Ergebnis: Sucht dein Kind Reize oder flieht es vor ihnen
+**Vorschautext:** Motor, Antenne oder beides zugleich.
+
+```
+%Subscriber:CustomField150205% %Subscriber:CustomFieldFirstName%,
+
+zehn ganz normale Alltagssituationen, und am Ende steht etwas, das viele Eltern
+zum ersten Mal einordnen können. Hier ist deine Auswertung.
+
+%Subscriber:CustomField1001171%
+
+Zwei Dinge dazu. Erstens: Das ist keine Diagnose und soll auch keine sein. Es
+ist eine Beschreibung, wie dein Kind Reize verarbeitet. Zweitens erklärt genau
+das, warum sich Ratschläge für euch so oft widersprochen haben. Was einem Kind
+hilft, das Input sucht, macht es bei einem Kind, das zu viel abbekommt, oft
+schlimmer.
+
+Von Herzen,
+Sarah
+
+Mama von sieben und zertifizierte Babyschlafberaterin
+
+PS: Der Artikel für die Tage, an denen dein Kind einfach nicht runterkommt:
+https://www.sarahmann.de/wissen/kind-staendig-ueberdreht/
 ```
 
 ---

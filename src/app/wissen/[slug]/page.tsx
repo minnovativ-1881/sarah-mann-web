@@ -207,7 +207,7 @@ export default async function ArtikelSeite({ params }: Props) {
           </div>
         </header>
 
-        <ArtikelHeroBild src={a.bild} alt={a.bildAlt} />
+        <ArtikelHeroBild src={a.bild} alt={a.bildAlt} position={a.bildPosition} />
 
         {/* Text */}
         <div className="section-padding bg-cream">

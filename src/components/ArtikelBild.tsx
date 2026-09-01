@@ -18,9 +18,12 @@ import Image from "next/image";
 export function ArtikelHeroBild({
   src,
   alt,
+  position = "center 18%",
 }: {
   src?: string;
   alt?: string;
+  /** Nur setzen, wenn der Standardwert einen Kopf anschneidet. */
+  position?: string;
 }) {
   if (!src) return null;
   return (
@@ -31,7 +34,7 @@ export function ArtikelHeroBild({
         fill
         sizes="100vw"
         priority
-        style={{ objectFit: "cover", objectPosition: "center 18%" }}
+        style={{ objectFit: "cover", objectPosition: position }}
       />
       {/* Sehr dezent, damit der Uebergang zur Textspalte nicht hart bricht */}
       <div

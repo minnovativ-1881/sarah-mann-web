@@ -68,6 +68,11 @@ export type ArtikelMeta = {
   lesezeit: number;
   bild?: string;
   bildAlt?: string;
+  /**
+   * Bildausschnitt des Kopfbilds, z. B. "center 4%".
+   * Nur noetig, wenn der Standardwert den Kopf einer Person anschneidet.
+   */
+  bildPosition?: string;
   /** Slugs verwandter Artikel. Ohne Angabe wird nach Silo verlinkt. */
   verwandt?: string[];
   /** Slug des passenden Tests, falls vorhanden. */
@@ -101,6 +106,7 @@ function leseDatei(datei: string): Artikel | null {
     // existiert. Ein bild: im Frontmatter hat Vorrang, ist aber nicht noetig.
     bild: data.bild ?? findeBild("artikel", slug),
     bildAlt: data.bildAlt ?? data.titel,
+    bildPosition: data.bildPosition,
     verwandt: data.verwandt,
     test: data.test,
     faq: data.faq,

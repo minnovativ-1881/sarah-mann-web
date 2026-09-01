@@ -5,6 +5,7 @@ beschreibung: 'Warum ein kurzer, verlässlicher Abschied liebevoller ist als ein
 eyebrow: 'Der Moment an der Kita-Tür'
 silo: uebergaenge
 datum: '2026-08-30'
+bildPosition: 'center 4%'
 lesezeit: 12
 test: eltern-test
 verwandt:
