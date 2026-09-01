@@ -22,14 +22,27 @@ const path = require("node:path");
  * Basispfad. Ein relativer Bildpfad bliebe still leer, und genau das faellt
  * auf einem fertigen Post erst auf, wenn er online ist.
  */
-function alsDatenUri(datei) {
+function alsDatenUri(datei, typ = "webp") {
   const roh = fs.readFileSync(path.join(__dirname, datei));
-  return `data:image/webp;base64,${roh.toString("base64")}`;
+  return `data:image/${typ};base64,${roh.toString("base64")}`;
 }
 
 const LOGO = {
-  hell: alsDatenUri("logo-nav.webp"),
-  dunkel: alsDatenUri("logo-nav-light.webp"),
+  hell: alsDatenUri("logo-nav.webp", "webp"),
+  dunkel: alsDatenUri("logo-nav-light.webp", "webp"),
+};
+
+/**
+ * Sarahs Fotos.
+ *
+ * rund: Kreisausschnitt direkt aus dem Foto. Bewusst kein Freisteller, denn
+ *       ein Kreis hat keinen Saum, den man auf Petrol sehen koennte.
+ * frei: Freisteller fuer die Portraetfolie. Die mitgelieferte Datei hatte
+ *       einen weissen Rand, die Maske ist deshalb neu aufgebaut.
+ */
+const FOTO = {
+  rund: alsDatenUri("fotos/sarah-rund.png", "png"),
+  frei: alsDatenUri("fotos/sarah-freisteller.png", "png"),
 };
 
 const MARKE = {
@@ -105,6 +118,9 @@ function rahmen(p, inhalt, fuss) {
         display:flex;align-items:flex-end;justify-content:space-between}
   .nummer{font-size:22px;letter-spacing:.22em;color:${p.textLeise};font-weight:400}
   .logo{height:62px;opacity:1}
+  .rund{width:452px;height:452px;border-radius:50%;display:block;
+        border:2px solid ${p.linie}}
+  .frei{position:absolute;right:40px;bottom:0;height:742px;width:auto}
 </style></head><body>
 <div class="buehne">${inhalt}</div>
 ${fuss}
@@ -115,7 +131,9 @@ function fussleiste(p, folie) {
   const links = folie.logo === false
     ? ""
     : `<img class="logo" src="${p.logo}" alt="">`;
-  const rechts = folie.zaehler
+  const rechts = folie.typ === "portraet"
+    ? ""
+    : folie.zaehler
     ? `<span class="nummer">${folie.zaehler}</span>`
     : folie.wisch
       ? `<span class="nummer">weiterwischen &nbsp;&rsaquo;</span>`
@@ -168,6 +186,49 @@ const TYPEN = {
       </div>`;
   },
 
+  /**
+   * Sarah selbst. Bei einer Personenmarke hebt ein Gesicht die Verweildauer,
+   * und der Leser merkt sich, von wem der Gedanke kam.
+   */
+  person(folie, p) {
+    return `
+      <div style="margin:auto 0;text-align:center">
+        <img class="rund" style="margin:0 auto" src="${FOTO.rund}" alt="Sarah Mann">
+        <p class="eyebrow" style="margin-top:46px">${folie.eyebrow || "Wer das schreibt"}</p>
+        <h2 class="titel" style="font-size:64px;line-height:1.1;margin-top:16px">Sarah Mann</h2>
+        <p class="text" style="margin-top:20px">${
+          folie.text ||
+          "Pädagogin. Zertifizierte Babyschlafberaterin.<br>Mutter von sieben Kindern."
+        }</p>
+      </div>`;
+  },
+
+  /**
+   * Hook mit Gesicht. Der Freisteller laeuft unten aus dem Bild heraus, der
+   * Text bleibt oben im sicheren Bereich.
+   */
+  portraet(folie, p, variante) {
+    // Nur auf hellen Folien. Der Freisteller hat im Haar helle Reste des
+    // urspruenglichen Hintergrunds. Auf Creme sieht man sie nicht, auf Petrol
+    // schon, und zwar deutlich. Auf dunklen Folien nimmt man person, der
+    // Kreisausschnitt hat das Problem gar nicht erst.
+    if (variante === "dunkel") {
+      throw new Error(
+        'Folientyp "portraet" gibt es nur in der hellen Variante. ' +
+          'Fuer eine dunkle Folie mit Sarah bitte "person" nehmen.',
+      );
+    }
+    // Der Text steht oben, das Foto laeuft unten aus dem Bild. Beides
+    // ueberschneidet sich nicht: die Schrift endet, bevor das Foto anfaengt.
+    return `
+      <img class="frei" src="${FOTO.frei}" alt="Sarah Mann">
+      <div style="position:relative;z-index:1">
+        ${folie.eyebrow ? `<p class="eyebrow" style="margin-bottom:30px">${folie.eyebrow}</p>` : ""}
+        <h1 class="titel" style="font-size:70px;line-height:1.1">${betonen(folie.titel, p)}</h1>
+        ${folie.text ? `<p class="text" style="margin-top:24px;max-width:640px">${folie.text}</p>` : ""}
+      </div>`;
+  },
+
   /** Letzte Folie: was der Leser jetzt tun soll. */
   cta(folie, p) {
     const kasten = folie.stichwort
@@ -199,7 +260,7 @@ function folieHtml(folie, variante) {
   const p = palette(variante);
   const bauer = TYPEN[folie.typ];
   if (!bauer) throw new Error(`Unbekannter Folientyp: ${folie.typ}`);
-  return rahmen(p, bauer(folie, p), fussleiste(p, folie));
+  return rahmen(p, bauer(folie, p, variante), fussleiste(p, folie));
 }
 
 module.exports = { folieHtml, MARKE, palette };

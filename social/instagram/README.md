@@ -44,7 +44,7 @@ der Post auch im 1:1-Zuschnitt des Explore-Feeds funktioniert. Details im Skill
 **Upload direkt in der Instagram-App.** Die Meta Business Suite beschneidet 3:4
 gelegentlich noch.
 
-## Die fünf Folientypen
+## Die sieben Folientypen
 
 | Typ | Wofür | Felder |
 |---|---|---|
@@ -52,6 +52,8 @@ gelegentlich noch.
 | `wende` | die Kehrtwende danach | `eyebrow`, `titel`, `text` |
 | `punkt` | ein Gedanke pro Folie, durchnummeriert | `nummer`, `titel`, `text` |
 | `zitat` | ein Satz, der für sich steht | `titel`, `text` |
+| `portraet` | Hook mit Sarah, **nur hell** | `eyebrow`, `titel`, `text` |
+| `person` | wer das schreibt, rundes Foto | `eyebrow`, `text` |
 | `cta` | letzte Folie | `eyebrow`, `titel`, `text`, `stichwort` oder `bio` |
 
 Ein `*Wort*` im Titel wird kursiv und in der Akzentfarbe gesetzt. Genau eine
@@ -59,6 +61,22 @@ Betonung pro Folie, sonst verpufft sie.
 
 Der Zähler unten rechts und die Logo-Signatur unten links entstehen von selbst.
 Folie 1 bekommt statt des Zählers den Hinweis zum Weiterwischen.
+
+## Sarahs Fotos
+
+Zwei Dateien in `fotos/`:
+
+- `sarah-rund.png` ist ein Kreisausschnitt direkt aus dem Foto. Ein Kreis hat
+  keinen Saum, deshalb funktioniert er auf hell **und** auf dunkel.
+- `sarah-freisteller.png` ist die freigestellte Halbfigur.
+
+**Der Freisteller darf nur auf helle Folien.** Im Haar stecken helle Reste des
+ursprünglichen Fotohintergrunds. Auf Creme sieht man sie nicht, auf Petrol
+schon, und zwar deutlich. Der Renderer bricht deshalb mit einer Meldung ab,
+wenn `portraet` in einem dunklen Deck steht. Für eine dunkle Folie mit Sarah
+nimmt man `person`.
+
+Ein Gesicht gehört auf Folie 1 oder auf die vorletzte Folie, nicht auf beide.
 
 ## Ein Karussell bauen
 
@@ -126,7 +144,5 @@ gezogen hat:
 
 ## Was als Nächstes dazukommt
 
-- Ein Folientyp mit Sarahs Foto. Ein Gesicht auf der ersten oder letzten Folie
-  hebt die Verweildauer deutlich, und die Marke ist eine Personenmarke.
 - Anbindung an Buffer, damit die fertigen Folien direkt in die Warteschlange
   wandern. Der Schlüssel liegt bereits in `zugaenge-sarahmann.env`.

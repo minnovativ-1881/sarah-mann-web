@@ -1,0 +1,24 @@
+{
+  "titel": "Vorlagen mit Foto",
+  "variante": "hell",
+  "quelle": "Musterfolien",
+  "folien": [
+    {
+      "typ": "portraet",
+      "eyebrow": "Sieben Kinder, ein Prinzip",
+      "titel": "Wärme und Klarheit sind *kein Widerspruch.*",
+      "text": "Sie sind zwei Hälften derselben Sache."
+    },
+    {
+      "typ": "person",
+      "eyebrow": "Wer das schreibt"
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Kostenlos, in zwei Minuten",
+      "titel": "Wo stehst du gerade zwischen *beidem?*",
+      "text": "Acht Situationen aus dem Familienalltag. Am Ende weißt du es.",
+      "stichwort": "TYP"
+    }
+  ]
+}

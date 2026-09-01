@@ -1,0 +1,17 @@
+{
+  "titel": "Vorlagen mit Foto, dunkel",
+  "variante": "dunkel",
+  "quelle": "Musterfolien",
+  "folien": [
+    {
+      "typ": "hook",
+      "eyebrow": "Sieben Kinder, ein Prinzip",
+      "titel": "Wärme und Klarheit sind *kein Widerspruch.*",
+      "unter": "Sie sind zwei Hälften derselben Sache."
+    },
+    {
+      "typ": "person",
+      "eyebrow": "Wer das schreibt"
+    }
+  ]
+}
