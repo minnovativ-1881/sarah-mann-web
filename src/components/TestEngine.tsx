@@ -166,7 +166,7 @@ export default function TestEngine({ test }: { test: Test }) {
           typ: erg.key,
           ergebnis: erg.name,
           unter: erg.unter,
-          html: ergebnisHtml(test, aus, vorname),
+          html: ergebnisHtml(test, aus),
           klartext: ergebnisText(test, aus),
           punkte: aus.gesamt,
           maximum: aus.max,

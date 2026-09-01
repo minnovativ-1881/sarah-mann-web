@@ -153,12 +153,11 @@ function esc(s: string): string {
  * Geht so, wie sie ist, in ein KlickTipp-Feld. Die E-Mail muss nur noch den
  * Platzhalter setzen. Bewusst ohne Klassen und ohne externes CSS, damit es in
  * jedem Mailprogramm ankommt; nur inline-styles, die überall funktionieren.
+ *
+ * Ohne Anrede: die kommt aus der Vorlage in KlickTipp, sonst steht der Name
+ * zweimal kurz hintereinander in der Mail.
  */
-export function ergebnisHtml(
-  test: Test,
-  a: Auswertung,
-  vorname?: string,
-): string {
+export function ergebnisHtml(test: Test, a: Auswertung): string {
   const p = "margin:0 0 14px;line-height:1.55;";
   const h3 = "margin:26px 0 10px;font-size:17px;line-height:1.3;color:#136B73;";
   const li = "margin:0 0 10px;line-height:1.5;";
@@ -174,10 +173,6 @@ export function ergebnisHtml(
   teile.push(
     `<p style="${p}font-size:17px;color:#136B73;">${esc(a.ergebnis.unter)}</p>`,
   );
-
-  if (vorname) {
-    teile.push(`<p style="${p}">${esc(vorname)}, hier ist deine Auswertung.</p>`);
-  }
 
   teile.push(`<p style="${p}">${esc(a.ergebnis.text)}</p>`);
 
