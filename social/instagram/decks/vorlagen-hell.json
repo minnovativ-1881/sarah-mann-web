@@ -1,0 +1,47 @@
+{
+  "titel": "Dein Kind hört nicht",
+  "variante": "hell",
+  "quelle": "/wissen/nein-sagen-ohne-schlechtes-gewissen/",
+  "folien": [
+    {
+      "typ": "hook",
+      "eyebrow": "Wie klar ist dein Nein",
+      "titel": "Dein Kind hört nicht auf dich. Es hat nur *mitgezählt.*"
+    },
+    {
+      "typ": "wende",
+      "eyebrow": "Was wirklich passiert",
+      "titel": "Beim dritten Mal gibst du nach. *Manchmal.*",
+      "text": "Und genau das ist die Information. Dein Kind lernt daraus nicht, dass es kein Ja gibt. Es lernt, wie lange es dauert."
+    },
+    {
+      "typ": "punkt",
+      "nummer": "01",
+      "titel": "Das ist keine Frechheit",
+      "text": "Es ist eine völlig zutreffende Beobachtung. Jeder erwachsene Mensch würde an dieser Stelle dasselbe tun."
+    },
+    {
+      "typ": "punkt",
+      "nummer": "02",
+      "titel": "Strenger werden hilft nicht",
+      "text": "Was hilft, ist weniger anzukündigen und das dann auch einzuhalten. Lieber drei Regeln, die stehen, als zwanzig, die wandern."
+    },
+    {
+      "typ": "punkt",
+      "nummer": "03",
+      "titel": "Eine einzige Sache reicht",
+      "text": "Such dir eine aus, bei der ab jetzt nicht mehr verhandelt wird. Rechne mit ein paar anstrengenden Tagen. Das Prüfen ist der Beweis, dass es angekommen ist."
+    },
+    {
+      "typ": "zitat",
+      "titel": "Ein klares Nein ist leichter auszuhalten als ein Vielleicht, das jeden Tag anders aussieht."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Kostenlos, in zwei Minuten",
+      "titel": "Wie klar ist dein Nein *gerade wirklich?*",
+      "text": "Sieben Situationen, in denen sich zeigt, ob deine Grenze steht oder wandert.",
+      "stichwort": "NEIN"
+    }
+  ]
+}

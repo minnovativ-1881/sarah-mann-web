@@ -15,3 +15,6 @@ out/
 # Zugangsdaten, niemals ins Repo
 zugaenge-*.env
 *.secret
+
+# Gerenderte Karussell-Folien, entstehen aus den Decks neu
+social/instagram/export/
