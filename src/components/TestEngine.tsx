@@ -1,30 +1,10 @@
 "use client";
 import { useState } from "react";
-import type { Test, Ergebnis } from "@/lib/tests";
+import type { Test } from "@/lib/tests";
+import { werteAus, ergebnisHtml, ergebnisText } from "@/lib/auswertung";
 
 const box = "bg-cream p-8 lg:p-12 border-2 border-terra";
 const schatten = { boxShadow: "0 24px 60px rgba(19,107,115,0.18)" };
-
-function ermittleErgebnis(test: Test, punkte: Record<string, number>): Ergebnis {
-  if (test.art === "matrix") {
-    const lage: Record<string, "hoch" | "niedrig"> = {};
-    for (const a of test.achsen) {
-      lage[a.key] =
-        (punkte[a.key] ?? 0) >= (a.schwelle ?? Math.ceil(a.max * 0.67))
-          ? "hoch"
-          : "niedrig";
-    }
-    const treffer = test.ergebnisse.find((e) =>
-      e.lage ? Object.entries(e.lage).every(([k, v]) => lage[k] === v) : false,
-    );
-    return treffer ?? test.ergebnisse[test.ergebnisse.length - 1];
-  }
-  const summe = Object.values(punkte).reduce((a, b) => a + b, 0);
-  const treffer = test.ergebnisse.find(
-    (e) => summe >= (e.von ?? 0) && summe <= (e.bis ?? Number.MAX_SAFE_INTEGER),
-  );
-  return treffer ?? test.ergebnisse[test.ergebnisse.length - 1];
-}
 
 export default function TestEngine({ test }: { test: Test }) {
   const [schritt, setSchritt] = useState(0);
@@ -156,11 +136,11 @@ export default function TestEngine({ test }: { test: Test }) {
   }
 
   /* --------------------------- Auswertung --------------------------- */
-  const punkte: Record<string, number> = {};
-  test.fragen.forEach((f, i) => {
-    punkte[f.achse] = (punkte[f.achse] ?? 0) + (werte[i] ?? 0);
-  });
-  const erg = ermittleErgebnis(test, punkte);
+  // Die volle Auswertung, nicht nur der Name des Feldes: Achsen einzeln,
+  // stärkste und schwächste Bereiche, Schritte. Genau das geht als fertiges
+  // HTML nach KlickTipp, damit die E-Mail nur noch den Platzhalter setzt.
+  const aus = werteAus(test, werte);
+  const erg = aus.ergebnis;
 
   /* --------------------- Schranke vor dem Ergebnis ------------------- */
   if (!freigegeben) {
@@ -185,7 +165,12 @@ export default function TestEngine({ test }: { test: Test }) {
           test: test.slug,
           typ: erg.key,
           ergebnis: erg.name,
-          punkte,
+          unter: erg.unter,
+          html: ergebnisHtml(test, aus, vorname),
+          klartext: ergebnisText(test, aus),
+          punkte: aus.gesamt,
+          maximum: aus.max,
+          prozent: aus.prozent,
         });
       } catch {
         /* absichtlich still */
@@ -310,7 +295,12 @@ async function eintragen(daten: {
   test: string;
   typ: string;
   ergebnis: string;
-  punkte: Record<string, number>;
+  unter: string;
+  html: string;
+  klartext: string;
+  punkte: number;
+  maximum: number;
+  prozent: number;
 }) {
   await fetch("/api/eintrag/", {
     method: "POST",
