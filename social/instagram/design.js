@@ -205,15 +205,22 @@ const TYPEN = {
    * und der Leser merkt sich, von wem der Gedanke kam.
    */
   person(folie, p) {
+    // "Hallo, ich bin" laeuft direkt in den Namen, das liest sich wie ein
+    // Mensch. Eine Bildunterschrift wie "Wer das schreibt" waere ein Etikett.
     return `
       <div style="margin:auto 0;text-align:center">
         <img class="rund" style="margin:0 auto" src="${p.kreis}" alt="Sarah Mann">
-        <p class="eyebrow" style="margin-top:46px">${folie.eyebrow || "Wer das schreibt"}</p>
-        <h2 class="titel" style="font-size:64px;line-height:1.1;margin-top:16px">Sarah Mann</h2>
-        <p class="text" style="margin-top:20px">${
+        <p class="eyebrow" style="margin-top:46px">${folie.eyebrow || "Hallo, ich bin"}</p>
+        <h2 class="titel" style="font-size:64px;line-height:1.1;margin-top:14px">Sarah Mann</h2>
+        <p class="text" style="margin-top:18px">${
           folie.text ||
-          "Pädagogin. Zertifizierte Babyschlafberaterin.<br>Mutter von sieben Kindern."
+          "Pädagogin, Babyschlafberaterin<br>und Mutter von sieben Kindern."
         }</p>
+        ${
+          folie.haltung
+            ? `<p class="text" style="margin-top:26px;max-width:720px;margin-left:auto;margin-right:auto">${folie.haltung}</p>`
+            : ""
+        }
       </div>`;
   },
 
@@ -243,30 +250,52 @@ const TYPEN = {
       </div>`;
   },
 
-  /** Letzte Folie: was der Leser jetzt tun soll. */
+  /**
+   * Die letzte Folie. Sie muss die ganze Arbeit machen: sagen, was es gibt,
+   * was der Leser davon hat, und was er dafuer tun muss. Die alte Fassung
+   * hat nur nach dem Stichwort gefragt und den Nutzen weggelassen.
+   */
   cta(folie, p) {
+    const nutzen = (folie.nutzen || [])
+      .map(
+        (n) => `<li style="display:flex;gap:18px;margin-bottom:16px;align-items:flex-start">
+                  <span style="flex:0 0 auto;width:22px;height:1px;background:${p.akzent};
+                               margin-top:22px;opacity:.9"></span>
+                  <span style="font-size:31px;line-height:1.42;color:${p.textLeise};
+                               font-weight:300">${n}</span>
+                </li>`,
+      )
+      .join("");
+
     const kasten = folie.stichwort
-      ? `<div style="margin-top:44px;border:1px solid ${p.kastenRand};background:${p.kastenGrund};
-                     padding:38px 44px">
-           <p class="text" style="color:${p.text};font-size:32px;line-height:1.45">
-             Schreib <strong style="font-weight:500;color:${p.akzent};letter-spacing:.06em">
-             ${folie.stichwort}</strong> in die Kommentare,<br>dann schicke ich dir den Link.
+      ? `<div style="margin-top:38px;border:1px solid ${p.kastenRand};background:${p.kastenGrund};
+                     padding:34px 40px">
+           <p style="font-size:31px;line-height:1.45;color:${p.text};font-weight:300">
+             Schreib <strong style="font-weight:500;color:${p.akzent};letter-spacing:.08em">
+             ${folie.stichwort}</strong> in die Kommentare.<br>
+             Dann schicke ich dir den Test als Nachricht.
            </p>
          </div>`
       : folie.bio
-        ? `<div style="margin-top:44px;border:1px solid ${p.kastenRand};background:${p.kastenGrund};
-                       padding:38px 44px">
-             <p class="text" style="color:${p.text};font-size:32px;line-height:1.45">${folie.bio}</p>
+        ? `<div style="margin-top:38px;border:1px solid ${p.kastenRand};background:${p.kastenGrund};
+                       padding:34px 40px">
+             <p style="font-size:31px;line-height:1.45;color:${p.text};font-weight:300">${folie.bio}</p>
            </div>`
         : "";
+
+    // Oben ausgerichtet statt mittig: der Block ist hoch, mittig gesetzt
+    // saehe die Folie unten gedraengt und oben leer aus.
     return `
-      <div style="margin:auto 0">
-        <p class="eyebrow" style="margin-bottom:30px">${folie.eyebrow || "Kostenlos, ohne Anmeldung"}</p>
-        <h2 class="titel" style="font-size:68px;line-height:1.14">${betonen(folie.titel, p)}</h2>
-        ${folie.text ? `<p class="text" style="margin-top:26px">${folie.text}</p>` : ""}
+      <div style="margin-top:30px">
+        <p class="eyebrow" style="margin-bottom:26px">${folie.eyebrow || "Der kostenlose Test"}</p>
+        <h2 class="titel" style="font-size:64px;line-height:1.14">${betonen(folie.titel, p)}</h2>
+        ${nutzen ? `<ul style="margin-top:30px;list-style:none">${nutzen}</ul>` : ""}
         ${kasten}
+        <p style="margin-top:22px;font-size:24px;letter-spacing:.04em;color:${p.textLeise};
+                  font-weight:300">${folie.fuss || "Zwei Minuten. Kostenlos. Ohne Anmeldung."}</p>
       </div>`;
   },
+
 };
 
 /** Baut das HTML einer Folie. */

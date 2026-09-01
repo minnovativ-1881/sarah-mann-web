@@ -39,10 +39,15 @@
     },
     {
       "typ": "cta",
-      "eyebrow": "Kostenlos, in zwei Minuten",
-      "titel": "Wie klar ist dein Nein *gerade wirklich?*",
-      "text": "Sieben Situationen, in denen sich zeigt, ob deine Grenze steht oder wandert.",
-      "stichwort": "NEIN"
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Finde heraus, wo dein Nein *wirklich steht.*",
+      "nutzen": [
+        "Sieben Situationen aus deinem Alltag, keine Theorie",
+        "Am Ende weißt du, an welcher Stelle es bei euch kippt",
+        "Dazu drei Schritte, die du ab morgen umsetzen kannst"
+      ],
+      "stichwort": "ANKER",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
     }
   ]
 }

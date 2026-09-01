@@ -11,14 +11,19 @@
     },
     {
       "typ": "person",
-      "eyebrow": "Wer das schreibt"
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
     },
     {
       "typ": "cta",
-      "eyebrow": "Kostenlos, in zwei Minuten",
-      "titel": "Wo stehst du gerade zwischen *beidem?*",
-      "text": "Acht Situationen aus dem Familienalltag. Am Ende weißt du es.",
-      "stichwort": "TYP"
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Wo stehst du gerade zwischen *Wärme und Klarheit?*",
+      "nutzen": [
+        "Acht Situationen aus dem Familienalltag, in zwei Minuten",
+        "Am Ende weißt du, welche der beiden Seiten bei dir zu kurz kommt",
+        "Dazu die zwei Schritte, die genau dort am meisten bringen"
+      ],
+      "stichwort": "KOMPASS",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
     }
   ]
 }

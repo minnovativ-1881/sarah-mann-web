@@ -40,14 +40,19 @@
     },
     {
       "typ": "person",
-      "eyebrow": "Wer das schreibt"
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
     },
     {
       "typ": "cta",
-      "eyebrow": "Kostenlos, in zwei Minuten",
-      "titel": "Wie sicher siehst du den *Unterschied?*",
-      "text": "Acht Situationen aus dem ganz normalen Alltag. Am Ende weißt du, wo es bei dir rutscht.",
-      "stichwort": "STRAFE"
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Findest du den Unterschied *in deinem eigenen Alltag?*",
+      "nutzen": [
+        "Acht Situationen, wie sie bei euch jede Woche vorkommen",
+        "Am Ende siehst du, welche zwei Sätze bei dir zur Strafe werden",
+        "Dazu eine Antwort, die stattdessen passt, für jede davon"
+      ],
+      "stichwort": "LEUCHTTURM",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
     }
   ]
 }

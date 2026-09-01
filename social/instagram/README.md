@@ -139,29 +139,93 @@ Der Stoff kommt aus den Artikeln. Jede FAQ-Frage, jede Tabelle und jeder
 Zwischentitel auf der Website ist ein Karussell-Kandidat. Das Feld `quelle` im
 Deck hält fest, woher es stammt.
 
-## Der CTA
+### Der Vorrat
 
-Aktuell steht auf der letzten Folie ein Stichwort. Das ist bewusst so, weil ein
-Link in der Bio bei einem neuen Konto fast nichts bringt und ein Kommentar
-zusätzlich die Reichweite hebt.
+Zwanzig geprüfte Hooks, jeder aus einem vorhandenen Artikel. Wer ein Karussell
+baut, nimmt hier einen und schreibt den Rest darum herum.
 
-Damit das Stichwort automatisch beantwortet wird, braucht es ein Werkzeug für
-Instagram-Automationen, zum Beispiel ManyChat. Buffer kann das nicht, Buffer
-plant nur die Posts. Bis das steht, geht auch die Variante mit `bio` statt
-`stichwort`, dann verweist die Folie auf den Link im Profil.
+**Der Spiegel**
 
-Ein Stichwort pro Test, damit man später sieht, welcher Post welchen Test
-gezogen hat:
+1. „Du sagst es dreimal. Beim vierten Mal wirst du laut. Und danach hasst du dich dafür." · `kind-angeschrien-was-jetzt`
+2. „Es ist 19:40. Ihr seid beim dritten Buch. Und du hattest eins gesagt." · `abendroutine-die-haelt`
+3. „Du stehst an der Kasse, dein Kind schreit, und alle schauen." · `wutanfall-in-der-oeffentlichkeit`
+4. „Zehn Minuten für zwei Socken. Und die Schuhe habt ihr noch nicht mal angefangen." · `kind-will-sich-nicht-anziehen`
+5. „Bei allen anderen klappt es. Nur bei dir nicht." · `kind-testet-grenzen-nur-bei-mir`
 
-| Test | Stichwort |
-|---|---|
-| Eltern-Test | TYP |
-| Wie klar ist dein Nein | NEIN |
-| Bedürfnis oder Wunsch | WUNSCH |
-| Konsequenz oder Strafe | STRAFE |
-| Abend-Test | ABEND |
-| Kraft-Test | KRAFT |
-| Reizprofil | REIZ |
+**Das Urteil**
+
+6. „Kein Nachtisch, weil das Gemüse liegen blieb? Das ist eine Strafe." · `konsequenz-oder-strafe`
+7. „Die stille Treppe erzieht nicht. Sie schickt dein Kind allein in seinen schwersten Moment." · `konsequenz-oder-strafe`
+8. „Zwanzig Regeln. Und keine davon gilt." · `wie-viele-regeln-braucht-ein-kind`
+9. „Du hast zu wenig Grenzen? Nein. Du hast zu viele angekündigt." · `nicht-konsequent-sein-koennen`
+
+**Der verbotene Satz**
+
+10. „Ich mag mein Kind gerade nicht." · `ich-mag-mein-kind-gerade-nicht`
+11. „Manchmal bin ich froh, wenn es endlich schläft. Und schäme mich dafür." · `elterliche-erschoepfung`
+12. „Ich wollte nie so eine Mutter werden. Heute war ich genau die." · `eigene-wut-regulieren`
+13. „Und wo bleiben eigentlich meine Bedürfnisse?" · `wo-bleiben-meine-beduerfnisse`
+
+**Die Umkehrung**
+
+14. „Dein Kind hört nicht auf dich. Es hat mitgezählt." · `nein-sagen-ohne-schlechtes-gewissen`
+15. „Überdreht heißt nicht zu viel Energie. Es heißt zu wenig Bremse." · `kind-staendig-ueberdreht`
+16. „Ein Trotzanfall will etwas. Ein Meltdown will nichts." · `meltdown-oder-trotzanfall`
+17. „Dein Kind rastet zu Hause aus, weil es sich den ganzen Tag zusammengerissen hat." · `kind-rastet-nach-kita-und-schule-aus`
+18. „Manchmal ist es kein Trotz. Manchmal tut die Socke wirklich weh." · `kind-will-sich-nicht-anziehen`
+
+**Die Zahl**
+
+19. „Drei Regeln, die stehen, sind mehr wert als zwanzig, die wandern." · `wie-viele-regeln-braucht-ein-kind`
+20. „Zwei Minuten früher ankündigen sparen dir zwanzig Minuten Streit." · `uebergaenge-begleiten`
+
+## Die letzte Folie
+
+Sie muss die ganze Arbeit allein machen: sagen, dass es einen Test gibt, was
+der Leser davon hat, und was er dafür tun muss. Deshalb hat sie drei
+Nutzen-Zeilen, nicht nur eine Aufforderung.
+
+Die drei Zeilen folgen immer demselben Bauplan:
+
+1. **Was es ist.** „Sieben Situationen aus deinem Alltag, keine Theorie."
+2. **Was am Ende dasteht.** „Am Ende weißt du, an welcher Stelle es bei euch kippt."
+3. **Was du damit machst.** „Dazu drei Schritte, die du ab morgen umsetzen kannst."
+
+Darunter der Stichwort-Kasten und eine letzte Zeile, die den Einwand wegnimmt:
+„Zwei Minuten. Kostenlos. Ohne Anmeldung."
+
+## Die Stichwörter
+
+Ein Stichwort pro Test. Zwei Anforderungen, die zusammen knifflig sind: Es muss
+positiv klingen, und es darf in einem normalen Kommentar praktisch nie
+vorkommen, sonst verschickt ManyChat die Nachricht ungewollt.
+
+Genau daran scheitern Wörter aus dem Thema. „Klarheit", „Abend" oder „Kraft"
+schreibt jemand ohne jede Absicht unter einen Beitrag, und schon läuft die
+Automation. Deshalb sind es **Gegenstände**: positiv besetzt, leicht zu tippen,
+und niemand schreibt sie zufällig unter einen Erziehungsbeitrag.
+
+| Test | Stichwort | Warum |
+|---|---|---|
+| Eltern-Test | **KOMPASS** | wo stehe ich gerade |
+| Wie klar ist dein Nein | **ANKER** | eine Grenze, die hält |
+| Bedürfnis oder Wunsch | **WAAGE** | abwägen, was wirklich fehlt |
+| Konsequenz oder Strafe | **LEUCHTTURM** | Orientierung statt Druck |
+| Abend-Test | **HAFEN** | wo der Tag ankommt |
+| Kraft-Test | **QUELLE** | woher deine Kraft kommt |
+| Reizprofil | **ANTENNE** | wie viel dein Kind mitbekommt |
+
+Zahlen im Stichwort brauchen wir dadurch nicht. Sie machen es nur schwerer zu
+tippen und sehen auf der Folie schlechter aus.
+
+In ManyChat auf **enthält** stellen, nicht auf **exakt**. Die Leute schreiben
+„Anker bitte" oder „ANKER 🙏", und das soll auch auslösen. Und falls doch
+einmal etwas falsch auslöst, ist der Schaden klein: Es geht eine freundliche
+Nachricht mit einem kostenlosen Test raus.
+
+Buffer plant nur die Posts, die Automation kann es nicht. Bis ManyChat steht,
+nimmt man `bio` statt `stichwort`, dann verweist die Folie auf den Link im
+Profil.
 
 ## Was als Nächstes dazukommt
 
