@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { alleArtikel, artikelUrl, SITE_URL } from "@/lib/artikel";
+import { alleArtikel, artikelUrl, siloUrl, SILOS, SITE_URL, type SiloSlug } from "@/lib/artikel";
 import { TESTS, testUrl } from "@/lib/tests";
 
 export const dynamic = "force-static";
@@ -24,6 +24,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Die sechs Themenseiten stehen zwischen Uebersicht und Artikel und sind
+  // fuer die interne Struktur wichtiger als ein einzelner Artikel.
+  const silos: MetadataRoute.Sitemap = (Object.keys(SILOS) as SiloSlug[]).map((s) => ({
+    url: `${SITE_URL}${siloUrl(s)}`,
+    lastModified: heute,
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
   const tests: MetadataRoute.Sitemap = TESTS.map((t) => ({
     url: `${SITE_URL}${testUrl(t.slug)}`,
     lastModified: heute,
@@ -31,5 +40,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  return [...statisch, ...artikel, ...tests];
+  return [...statisch, ...silos, ...artikel, ...tests];
 }

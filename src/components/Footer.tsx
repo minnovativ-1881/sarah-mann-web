@@ -1,12 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import { SILOS, siloUrl, type SiloSlug } from "@/lib/artikel";
 
 export default function Footer() {
+  const silos = Object.keys(SILOS) as SiloSlug[];
+
   return (
     <footer className="bg-midnight text-cream/50">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Top */}
-        <div className="py-16 grid md:grid-cols-4 gap-12 border-b border-cream/10">
+        <div className="py-16 grid md:grid-cols-2 lg:grid-cols-5 gap-12 border-b border-cream/10">
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="inline-block mb-6 group" aria-label="Sarah Mann, zur Startseite">
@@ -24,6 +27,23 @@ export default function Footer() {
             </p>
           </div>
 
+          {/* Themen */}
+          <div>
+            <p className="text-overline text-cream/30 mb-5">Themen</p>
+            <ul className="space-y-3 text-sm">
+              {silos.map((s) => (
+                <li key={s}>
+                  <Link
+                    href={siloUrl(s)}
+                    className="text-cream/50 hover:text-cream transition-colors link-underline font-normal"
+                  >
+                    {SILOS[s].name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           {/* Nav */}
           <div>
             <p className="text-overline text-cream/30 mb-5">Navigation</p>
@@ -32,7 +52,7 @@ export default function Footer() {
                 { label: "Wissen", href: "/wissen/" },
                 { label: "Tests", href: "/tests/" },
                 { label: "Das Konzept", href: "/balanced-parenting/" },
-                { label: "Über Sarah", href: "/#ueber-sarah" },
+                { label: "Über Sarah", href: "/ueber-sarah/" },
                 { label: "Kontakt", href: "/#kontakt" },
               ].map((item) => (
                 <li key={item.href}>

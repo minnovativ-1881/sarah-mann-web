@@ -11,6 +11,13 @@ import AboutSection from "@/components/AboutSection";
 import CTASection from "@/components/CTASection";
 import KontaktSection from "@/components/KontaktSection";
 import Footer from "@/components/Footer";
+import {
+  SchnellZugriff,
+  ThemenWegweiser,
+  TestWegweiser,
+  NeueArtikel,
+} from "@/components/Wegweiser";
+import { alleArtikel } from "@/lib/artikel";
 
 /**
  * Person und WebSite als strukturierte Daten.
@@ -52,6 +59,8 @@ const startJsonLd = {
 };
 
 export default function Home() {
+  const neueste = alleArtikel().slice(0, 3);
+
   return (
     <>
       <Navbar />
@@ -61,6 +70,7 @@ export default function Home() {
       />
       <main>
         <Hero />
+        <SchnellZugriff />
         <ImageBand
           src="/bilder/geborgen.webp"
           alt="Mutter umarmt ihr Kind auf dem Sofa, warmes Licht"
@@ -78,7 +88,16 @@ export default function Home() {
         />
         <MethodeSection />
         <QuizTeaser />
+        <TestWegweiser ausser="eltern-test" hintergrund="bg-cream-dark" mitBild={false} />
+        {/* Text zwischen den Kachelbloecken, sonst wird die Startseite ein Raster */}
         <ExpertiseSection />
+        <ThemenWegweiser
+          eyebrow="Der Wissensbereich"
+          ueberschrift="Wo es im Alltag knirscht"
+          einleitung="Zu jedem Thema gibt es eine eigene Seite mit allen Artikeln und dem Test, der am besten dazu passt."
+          hintergrund="bg-cream-dark"
+        />
+        <NeueArtikel artikel={neueste} hintergrund="bg-cream" />
         <ImageBand
           src="/bilder/schlaf.webp"
           alt="Mutter am Bett ihres schlafenden Kindes im warmen Nachtlicht"

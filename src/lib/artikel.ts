@@ -213,3 +213,19 @@ export function slugify(input: string): string {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
 }
+
+/** Übersichtsseite eines Silos. Liegt bewusst unter /wissen/. */
+export function siloUrl(silo: SiloSlug): string {
+  return `/wissen/${silo}/`;
+}
+
+/**
+ * Ist dieser Slug ein Silo und kein Artikel?
+ *
+ * Silo- und Artikelseiten teilen sich die Route /wissen/<slug>/, damit die
+ * Adressen kurz bleiben. Es gibt keine Überschneidung: kein Artikel heißt wie
+ * ein Silo.
+ */
+export function istSiloSlug(slug: string): slug is SiloSlug {
+  return Object.prototype.hasOwnProperty.call(SILOS, slug);
+}

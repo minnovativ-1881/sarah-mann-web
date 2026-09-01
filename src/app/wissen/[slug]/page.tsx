@@ -8,29 +8,71 @@ import ArtikelBody from "@/components/ArtikelBody";
 import {
   Inhaltsverzeichnis,
   FaqBlock,
-  TestHinweis,
+  ArtikelTest,
   VerwandteArtikel,
   AutorinBox,
   Brotkrumen,
 } from "@/components/ArtikelExtras";
+import SiloSeite from "@/components/SiloSeite";
 import {
   alleArtikel,
   artikelNachSlug,
+  artikelImSilo,
+  istSiloSlug,
   verwandteArtikel,
   ueberschriften,
   artikelUrl,
+  siloUrl,
+  findeBild,
   SILOS,
   SITE_URL,
+  type SiloSlug,
 } from "@/lib/artikel";
 
 type Props = { params: Promise<{ slug: string }> };
 
+/**
+ * Diese Route bedient zwei Dinge: die 48 Artikel und die sechs
+ * Themenseiten. Beide liegen unter /wissen/<slug>/, damit die Adressen kurz
+ * bleiben. Kein Artikel heisst wie ein Silo, deshalb ist die Zuordnung
+ * eindeutig.
+ */
 export function generateStaticParams() {
-  return alleArtikel().map((a) => ({ slug: a.slug }));
+  return [
+    ...(Object.keys(SILOS) as SiloSlug[]).map((slug) => ({ slug })),
+    ...alleArtikel().map((a) => ({ slug: a.slug })),
+  ];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
+
+  if (istSiloSlug(slug)) {
+    const silo = SILOS[slug];
+    const url = `${SITE_URL}${siloUrl(slug)}`;
+    const bild = findeBild("silos", slug);
+    return {
+      title: `${silo.name}: ${artikelImSilo(slug).length} Artikel | Sarah Mann`,
+      description: silo.beschreibung,
+      alternates: { canonical: url },
+      openGraph: {
+        title: silo.name,
+        description: silo.beschreibung,
+        url,
+        type: "website",
+        locale: "de_DE",
+        images: bild
+          ? [{ url: `${SITE_URL}${bild}` }]
+          : [{ url: `${SITE_URL}/bilder/og-standard.jpg`, width: 1200, height: 630 }],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: silo.name,
+        description: silo.beschreibung,
+      },
+    };
+  }
+
   const a = artikelNachSlug(slug);
   if (!a) return {};
   const url = `${SITE_URL}${artikelUrl(a.slug)}`;
@@ -63,6 +105,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ArtikelSeite({ params }: Props) {
   const { slug } = await params;
+  if (istSiloSlug(slug)) return <SiloSeite silo={slug} />;
+
   const a = artikelNachSlug(slug);
   if (!a) notFound();
 
@@ -97,7 +141,13 @@ export default async function ArtikelSeite({ params }: Props) {
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Start", item: SITE_URL },
           { "@type": "ListItem", position: 2, name: "Wissen", item: `${SITE_URL}/wissen/` },
-          { "@type": "ListItem", position: 3, name: a.titel, item: url },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: silo.name,
+            item: `${SITE_URL}${siloUrl(a.silo)}`,
+          },
+          { "@type": "ListItem", position: 4, name: a.titel, item: url },
         ],
       },
       ...(a.faq?.length
@@ -131,7 +181,7 @@ export default async function ArtikelSeite({ params }: Props) {
               punkte={[
                 { href: "/", label: "Start" },
                 { href: "/wissen/", label: "Wissen" },
-                { label: silo.name },
+                { href: siloUrl(a.silo), label: silo.name },
               ]}
             />
             {a.eyebrow && (
@@ -164,7 +214,7 @@ export default async function ArtikelSeite({ params }: Props) {
           <div className="max-w-3xl mx-auto px-6 lg:px-12">
             <Inhaltsverzeichnis punkte={toc} />
             <ArtikelBody inhalt={a.inhalt} />
-            {a.test && <TestHinweis slug={a.test} />}
+            {a.test && <ArtikelTest slug={a.test} />}
             <FaqBlock faq={a.faq ?? []} />
             <AutorinBox />
           </div>

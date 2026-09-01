@@ -6,6 +6,7 @@ eyebrow: 'Der Moment danach'
 silo: eltern
 datum: '2026-08-30'
 lesezeit: 11
+test: kraft-test
 verwandt:
   - kind-hoert-nicht-trotz-konsequenz
   - autoritativer-erziehungsstil

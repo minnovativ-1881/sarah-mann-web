@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { KachelBild } from "@/components/ArtikelBild";
+import TestEngine from "@/components/TestEngine";
 import { SILOS, artikelUrl, type Artikel } from "@/lib/artikel";
 import { testNachSlug, testUrl } from "@/lib/tests";
 
@@ -58,19 +59,34 @@ export function FaqBlock({
   );
 }
 
-/* ------------------------------ Test-Hinweis ------------------------------ */
+/* -------------------------------- Der Test -------------------------------- */
 
-export function TestHinweis({ slug }: { slug: string }) {
+/**
+ * Der passende Test, direkt im Artikel.
+ *
+ * Frueher stand hier nur ein Kasten mit einem Link. Wer den Artikel liest,
+ * soll den Test aber ohne Seitenwechsel machen koennen: der Moment der
+ * Bereitschaft ist genau hier, nicht einen Klick spaeter. Die Maschine zeigt
+ * immer nur eine Frage, deshalb steht auch bei siebzehn Artikeln mit
+ * demselben Test kein doppelter Textblock in der Seite.
+ */
+export function ArtikelTest({ slug }: { slug: string }) {
   const test = testNachSlug(slug);
   if (!test) return null;
   return (
-    <aside className="my-12 bg-cream-dark border-l-2 border-terra p-8 lg:p-10">
-      <p className="text-overline text-terra mb-3">{test.eyebrow}</p>
+    <aside className="my-16 pt-12 border-t-2 border-terra">
+      <p className="text-overline text-terra mb-4">{test.eyebrow}</p>
       <h3 className="font-serif text-deep text-2xl lg:text-3xl mb-4">{test.titel}</h3>
-      <p className="text-deep/80 leading-relaxed mb-7 max-w-xl">{test.intro}</p>
-      <Link href={testUrl(test.slug)} className="btn-primary">
-        Test starten, {test.dauer}
-      </Link>
+      <p className="text-deep/80 leading-relaxed mb-9">{test.intro}</p>
+      <TestEngine test={test} />
+      <p className="text-deep/50 text-sm mt-6">
+        <Link
+          href={testUrl(test.slug)}
+          className="underline underline-offset-4 hover:text-terra transition-colors"
+        >
+          Lieber auf einer eigenen Seite? Hier entlang.
+        </Link>
+      </p>
     </aside>
   );
 }
