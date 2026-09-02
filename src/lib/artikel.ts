@@ -226,6 +226,29 @@ export function slugify(input: string): string {
     .replace(/(^-|-$)/g, "");
 }
 
+/**
+ * Kleine Zahlen als Wort.
+ *
+ * Im Fliesstext stand an mehreren Stellen fest "sechs Themen". Als das
+ * siebte dazukam, war die Seite an drei Stellen falsch, ohne dass es
+ * jemandem aufgefallen waere. Jetzt rechnet sie es aus.
+ */
+const ZAHLWOERTER = [
+  "null", "ein", "zwei", "drei", "vier", "fünf", "sechs", "sieben",
+  "acht", "neun", "zehn", "elf", "zwölf",
+];
+
+export function zahlwort(n: number): string {
+  return ZAHLWOERTER[n] ?? String(n);
+}
+
+/** Wie viele Silos es gibt, in denen auch Artikel stehen. */
+export function siloAnzahl(): number {
+  return (Object.keys(SILOS) as SiloSlug[]).filter(
+    (s) => artikelImSilo(s).length > 0,
+  ).length;
+}
+
 /** Übersichtsseite eines Silos. Liegt bewusst unter /wissen/. */
 export function siloUrl(silo: SiloSlug): string {
   return `/wissen/${silo}/`;

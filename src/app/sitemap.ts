@@ -24,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // Die sechs Themenseiten stehen zwischen Uebersicht und Artikel und sind
+  // Die Themenseiten stehen zwischen Uebersicht und Artikel und sind
   // fuer die interne Struktur wichtiger als ein einzelner Artikel.
   const silos: MetadataRoute.Sitemap = (Object.keys(SILOS) as SiloSlug[]).map((s) => ({
     url: `${SITE_URL}${siloUrl(s)}`,

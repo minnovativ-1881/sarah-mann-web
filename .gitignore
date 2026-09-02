@@ -18,3 +18,4 @@ zugaenge-*.env
 
 # Gerenderte Karussell-Folien, entstehen aus den Decks neu
 social/instagram/export/
+__pycache__/

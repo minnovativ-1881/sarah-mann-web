@@ -3,6 +3,8 @@ import { KachelBild } from "@/components/ArtikelBild";
 import {
   SILOS,
   artikelImSilo,
+  siloAnzahl,
+  zahlwort,
   artikelUrl,
   findeBild,
   siloUrl,
@@ -24,7 +26,7 @@ import { TESTS, testUrl } from "@/lib/tests";
 
 export function ThemenWegweiser({
   ueberschrift = "Wo möchtest du anfangen?",
-  eyebrow = "Die sechs Themen",
+  eyebrow,
   einleitung,
   hintergrund = "bg-cream",
 }: {
@@ -34,11 +36,12 @@ export function ThemenWegweiser({
   hintergrund?: string;
 }) {
   const silos = Object.keys(SILOS) as SiloSlug[];
+  const beschriftung = eyebrow ?? `Die ${zahlwort(siloAnzahl())} Themen`;
   return (
     <section className={`section-padding ${hintergrund}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         <div className="max-w-2xl mb-12">
-          <p className="text-overline text-terra mb-6">{eyebrow}</p>
+          <p className="text-overline text-terra mb-6">{beschriftung}</p>
           <h2
             className="font-serif text-deep"
             style={{ fontSize: "clamp(2rem, 4vw, 3.2rem)", lineHeight: 1.1 }}

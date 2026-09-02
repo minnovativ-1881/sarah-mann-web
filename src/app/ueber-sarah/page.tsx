@@ -4,7 +4,15 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Brotkrumen } from "@/components/ArtikelExtras";
-import { alleArtikel, artikelUrl, SILOS, SITE_URL, type SiloSlug } from "@/lib/artikel";
+import {
+  alleArtikel,
+  artikelUrl,
+  siloAnzahl,
+  zahlwort,
+  SILOS,
+  SITE_URL,
+  type SiloSlug,
+} from "@/lib/artikel";
 import { TESTS, testUrl } from "@/lib/tests";
 
 export const metadata: Metadata = {
@@ -177,7 +185,8 @@ export default function UeberSarahSeite() {
             Worüber ich schreibe
           </h2>
           <p className="text-deep/75 leading-relaxed mb-8">
-            {artikel.length} Artikel in sechs Bereichen, dazu {TESTS.length}{" "}
+            {artikel.length} Artikel in {zahlwort(siloAnzahl())} Bereichen, dazu{" "}
+            {TESTS.length}{" "}
             kostenlose Tests.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">

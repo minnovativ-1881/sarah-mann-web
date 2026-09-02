@@ -227,7 +227,60 @@ Buffer plant nur die Posts, die Automation kann es nicht. Bis ManyChat steht,
 nimmt man `bio` statt `stichwort`, dann verweist die Folie auf den Link im
 Profil.
 
+## Ab in die Warteschlange
+
+```bash
+python social/instagram/buffer.py vorlagen-hell
+python social/instagram/buffer.py vorlagen-hell --wann "2026-09-05 09:00"
+python social/instagram/buffer.py vorlagen-hell --entwurf
+python social/instagram/buffer.py vorlagen-hell --nur-bilder
+```
+
+Ohne Angabe landet der Beitrag in der Buffer-Warteschlange. `--wann` setzt
+einen festen Termin in **Israel-Zeit**, das Skript rechnet um. `--entwurf`
+legt ihn nur als Entwurf ab.
+
+Das Deck braucht dafür zwei Felder:
+
+```json
+{
+  "caption": "Der Text unter dem Beitrag …",
+  "ersterKommentar": "#erziehung #elternsein …"
+}
+```
+
+Ohne `caption` bricht das Skript ab. Ein Beitrag ohne Text soll nicht
+versehentlich rausgehen.
+
+### Was dabei passiert
+
+1. Die PNG aus `export/<deck>/` werden als JPEG nach `public/social/<deck>/`
+   gelegt, 1080 × 1440, rund 60 KB pro Folie.
+2. Der Ordner wird committet und gepusht.
+3. Das Skript wartet, bis Vercel die erste Folie ausliefert.
+4. Buffer legt den Beitrag mit allen Folien an.
+
+Der Umweg über die Website hat einen Grund: Buffer nimmt Bilder **nur als
+öffentliche Adresse** entgegen, einen Upload gibt es in der API nicht. Die
+Folien sind ohnehin öffentliche Werbebilder, und nebenbei entsteht unter
+`/social/` ein Archiv aller Karussells.
+
+### Drei Dinge, die beim Bauen aufgefallen sind
+
+- **Der alte Buffer-Zugang ist tot.** Die REST-API unter
+  `api.bufferapp.com` weist den Schlüssel ab, sie wird im Februar 2027
+  abgeschaltet. Es läuft über GraphQL auf `https://api.buffer.com/`.
+- **Instagram kennt keinen Beitragstyp „carousel".** Gültig sind `post`,
+  `story` und `reel`. Ein Karussell ist ein ganz normaler `post` mit mehreren
+  Bildern. Höchstens zehn, danach lehnt Instagram ab.
+- **Ein echter Erstkommentar braucht einen bezahlten Buffer-Tarif.** Deshalb
+  hängt das Skript die Hashtags an den Text an, getrennt durch drei Punkte in
+  eigenen Zeilen. Sieht im Feed fast gleich aus.
+
+Kanal und Organisation stehen fest im Skript, es gibt genau einen
+Instagram-Kanal: `sarahmann2202`, Typ Business, verbunden.
+
 ## Was als Nächstes dazukommt
 
-- Anbindung an Buffer, damit die fertigen Folien direkt in die Warteschlange
-  wandern. Der Schlüssel liegt bereits in `zugaenge-sarahmann.env`.
+- Die Automation für die Stichwörter, siehe oben. Ohne sie läuft der CTA ins
+  Leere.

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Brotkrumen } from "@/components/ArtikelExtras";
 import { ThemenWegweiser, NeueArtikel, ArtikelVerzeichnis } from "@/components/Wegweiser";
-import { alleArtikel, artikelUrl, SITE_URL } from "@/lib/artikel";
+import { alleArtikel, artikelUrl, siloAnzahl, zahlwort, SITE_URL } from "@/lib/artikel";
 
 export const metadata: Metadata = {
   title: "Wissen: Erziehung mit Wärme und Klarheit | Sarah Mann",
@@ -17,12 +17,13 @@ export const metadata: Metadata = {
  *
  * Vorher standen hier zuerst die Tests (die es unter /tests/ schon gibt) und
  * darunter alle 48 Artikel als Kacheln. Das waren siebzehn Bildschirme.
- * Jetzt ist die Seite ein Verteiler: sechs Themen, die neuesten Artikel, dann
+ * Jetzt ist die Seite ein Verteiler: die Themen, die neuesten Artikel, dann
  * das vollständige Verzeichnis als Textliste. Die Tests sind raus, sie haben
  * ihren eigenen Bereich und stecken zusätzlich in jedem Artikel.
  */
 export default function WissenSeite() {
   const artikel = alleArtikel();
+  const themen = siloAnzahl();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -73,13 +74,14 @@ export default function WissenSeite() {
           <p className="text-deep/75 leading-relaxed mt-8 max-w-2xl" style={{ fontSize: "1.2rem" }}>
             Kein Ratgeber-Stapel und keine Tippliste. Sondern der eine Gedanke,
             durchbuchstabiert bis in die Momente, in denen es schwierig wird.
-            {artikel.length > 0 && ` Aktuell ${artikel.length} Artikel in sechs Themen.`}
+            {artikel.length > 0 &&
+              ` Aktuell ${artikel.length} Artikel in ${zahlwort(themen)} Themen.`}
           </p>
         </div>
       </header>
 
       <ThemenWegweiser
-        eyebrow="Die sechs Themen"
+        eyebrow={`Die ${zahlwort(themen)} Themen`}
         ueberschrift="Wo möchtest du anfangen?"
         einleitung="Jedes Thema hat eine eigene Seite mit allen Artikeln dazu und dem Test, der am besten passt."
         hintergrund="bg-cream"
