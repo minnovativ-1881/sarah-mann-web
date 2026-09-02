@@ -42,6 +42,18 @@ export const SILOS = {
     beschreibung:
       "Kinder, die mehr wahrnehmen und schneller an ihre Grenze kommen: was dahintersteckt und was im Alltag wirklich hilft.",
   },
+  geschwister: {
+    slug: "geschwister",
+    name: "Geschwister unter einem Dach",
+    beschreibung:
+      "Streit, Eifersucht und die Frage, wie man zwei oder sieben Kindern gerecht wird, ohne allen dasselbe zu geben.",
+  },
+  charakter: {
+    slug: "charakter",
+    name: "Was dein Kind stark macht",
+    beschreibung:
+      "Mut, Durchhalten, Ehrlichkeit und ein Selbstwert, der nicht am Lob hängt. Der einzige Bereich hier, der nicht von einem Problem ausgeht.",
+  },
   uebergaenge: {
     slug: "uebergaenge",
     name: "Übergänge im Familienjahr",

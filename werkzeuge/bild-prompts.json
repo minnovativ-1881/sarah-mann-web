@@ -49,6 +49,13 @@
     "szene": "Helles ruhiges Wohnzimmer am späten Nachmittag, ein Kind sitzt entspannt allein in einer weichen Kissenecke am großen Fenster, Sonne fällt in breiten Streifen über den Holzboden, sehr viel Luft und Ruhe im Bild, wenig Möbel."
   },
   {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "geschwister.webp",
+    "szene": "Drei Kinder unterschiedlichen Alters sitzen nebeneinander auf einem hellen Sofa und schauen gemeinsam in ein aufgeschlagenes Buch, warmes Tageslicht von der Seite, entspannte Nähe ohne Pose, viel Luft im Bild."
+  },
+  {
     "gruppe": "Test-Kacheln",
     "ordner": "tests",
     "format": "1200 x 800 (3:2)",
@@ -502,5 +509,61 @@
     "format": "1600 x 1067 (3:2)",
     "datei": "elterngespraech-kind-faellt-auf.webp",
     "szene": "Zwei Erwachsene sitzen einander zugewandt an einem hellen Holztisch, ein aufgeschlagenes Heft und zwei Tassen zwischen ihnen, ruhiges sachliches Gespräch auf Augenhöhe, sonniger Raum mit einer Zimmerpflanze, kein Kind im Bild."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "geschwisterstreit-was-tun.webp",
+    "szene": "Zwei Kinder im Vorschulalter sitzen auf einem hellen Teppich, zwischen ihnen ein einzelnes Holzspielzeug, beide greifen danach, angespannte Körperhaltung, im unscharfen Hintergrund eine erwachsene Person, die ruhig zuschaut und nicht eingreift."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "eifersucht-auf-das-baby.webp",
+    "szene": "Eine Mutter sitzt in einem hellen Wohnzimmer mit einem Säugling auf dem Arm, daneben steht ein etwa dreijähriges Kind dicht bei ihr und schaut das Baby an, die Mutter hat eine Hand nach dem größeren Kind ausgestreckt, weiches Tageslicht."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "gerechtigkeit-unter-geschwistern.webp",
+    "szene": "Zwei Kinder an einem hellen Holztisch, vor jedem ein Teller mit unterschiedlichem Inhalt, eines schaut prüfend auf den Teller des anderen, ruhige Alltagsszene am Vormittag, Sonnenlicht auf der Tischplatte."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wenn-eines-mehr-braucht.webp",
+    "szene": "Ein Elternteil kniet im Vordergrund bei einem weinenden Kleinkind und tröstet es, im weichen Hintergrund sitzt ein älteres Kind allein am Fenster und malt, heller Raum, beide Kinder gut erkennbar."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "mittelkind.webp",
+    "szene": "Drei Geschwister laufen auf einem sonnigen Feldweg, das größte vorn, das kleinste an der Hand eines Erwachsenen, das mittlere Kind geht ein Stück versetzt für sich, warmes Nachmittagslicht, weite Landschaft."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "aeltestes-kind-verantwortung.webp",
+    "szene": "Ein etwa achtjähriges Kind hält die Hand eines Kleinkindes auf einem sonnigen Gehweg, aufmerksamer, etwas zu ernster Gesichtsausdruck des größeren Kindes, im Hintergrund unscharf eine erwachsene Person in kurzer Entfernung."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "geschwister-schlichten-oder-nicht.webp",
+    "szene": "Ein Elternteil geht in einem hellen Kinderzimmer zwischen zwei streitenden Kindern in die Hocke, offene ruhige Handhaltung, spricht zu beiden gleichzeitig, kein Kind wird festgehalten, freundliches Tageslicht."
+  },
+  {
+    "gruppe": "Silo 8: Geschwister unter einem Dach",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "geschwister-teilen-lernen.webp",
+    "szene": "Ein Kind spielt konzentriert mit einem Holzbagger auf dem Teppich, dicht daneben sitzt ein jüngeres Kind und wartet sichtbar ungeduldig, ein Erwachsener sitzt beim wartenden Kind auf dem Boden, heller ruhiger Raum."
   }
 ]
