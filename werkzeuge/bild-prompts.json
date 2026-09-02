@@ -56,6 +56,13 @@
     "szene": "Drei Kinder unterschiedlichen Alters sitzen nebeneinander auf einem hellen Sofa und schauen gemeinsam in ein aufgeschlagenes Buch, warmes Tageslicht von der Seite, entspannte Nähe ohne Pose, viel Luft im Bild."
   },
   {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "charakter.webp",
+    "szene": "Ein Kind steht im hellen Garten auf einem umgedrehten Holzkasten und breitet die Arme aus, um die Balance zu halten, konzentriert und zufrieden, ein Erwachsener steht in einigen Schritten Entfernung und schaut zu, ohne die Hände auszustrecken, warmes Nachmittagslicht."
+  },
+  {
     "gruppe": "Test-Kacheln",
     "ordner": "tests",
     "format": "1200 x 800 (3:2)",
@@ -565,5 +572,61 @@
     "format": "1600 x 1067 (3:2)",
     "datei": "geschwister-teilen-lernen.webp",
     "szene": "Ein Kind spielt konzentriert mit einem Holzbagger auf dem Teppich, dicht daneben sitzt ein jüngeres Kind und wartet sichtbar ungeduldig, ein Erwachsener sitzt beim wartenden Kind auf dem Boden, heller ruhiger Raum."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "selbstwert-staerken-kind.webp",
+    "szene": "Ein etwa fünfjähriges Kind schmiert sich in einer hellen Küche selbst ein Brot, Krümel und Butter auf dem Holztisch, konzentrierter zufriedener Gesichtsausdruck, im unscharfen Hintergrund ein Erwachsener, der nicht eingreift, Vormittagslicht."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "richtig-loben.webp",
+    "szene": "Ein Erwachsener sitzt neben einem Kind an einem hellen Tisch und schaut aufmerksam auf dessen Zeichnung, deutet auf eine bestimmte Stelle im Bild, das Kind erklärt gerade etwas, ruhige gemeinsame Aufmerksamkeit, weiches Tageslicht."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "mut-bei-kindern.webp",
+    "szene": "Ein Kind steht am Fuß einer Spielplatzleiter und schaut nach oben, eine Hand schon am Holm, zögernd aber entschlossen, ein Erwachsener steht in einigen Schritten Abstand am Boden und schaut ruhig zu, sonniger Vormittag."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "resilienz-kind.webp",
+    "szene": "Ein Erwachsener und ein Kind sitzen nebeneinander auf einer Türschwelle im Freien, das Kind lehnt an der Schulter des Erwachsenen, beide schauen ruhig nach vorn, warmes spätes Nachmittagslicht, unaufgeregte Verbundenheit."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-gibt-schnell-auf.webp",
+    "szene": "Ein umgefallener Holzklötzchenturm auf einem hellen Teppich, daneben sitzt ein Kind mit hängenden Schultern, ein Erwachsener sitzt in Ruhe daneben auf dem Boden, die Hände im Schoß, greift nicht ein, freundlicher heller Raum."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "ehrlichkeit-kind-luegt.webp",
+    "szene": "Ein Erwachsener kniet in einem hellen Flur auf Augenhöhe vor einem etwa fünfjährigen Kind, ruhiges sachliches Gespräch, das Kind schaut zur Seite, keine Strenge und kein Zeigefinger, weiches Tageslicht."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "dankbarkeit-lernen.webp",
+    "szene": "Ein Kind überreicht einer älteren Frau ein selbst eingepacktes kleines Geschenk in einem hellen Wohnzimmer, beide lächeln, ein einzelnes Päckchen und kein Geschenkeberg, warmes ruhiges Licht."
+  },
+  {
+    "gruppe": "Silo 9: Was dein Kind stark macht",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-vergleicht-sich.webp",
+    "szene": "Ein Schulkind sitzt an einem hellen Tisch vor zwei nebeneinandergelegten eigenen Zeichnungen aus verschiedenen Zeiten und betrachtet sie, ein Erwachsener sitzt daneben und schaut mit, ruhiger konzentrierter Moment, Tageslicht vom Fenster."
   }
 ]
