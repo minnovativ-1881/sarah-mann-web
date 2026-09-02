@@ -125,7 +125,7 @@ Fünf Muster, die tragen:
 
 | Muster | Beispiel |
 |---|---|
-| **Der Spiegel** | „Du sagst es dreimal. Beim vierten Mal wirst du laut." |
+| **Der Spiegel** | „Heute, 7:50 Uhr. Ich habe dreimal gesagt: Schuhe an." |
 | **Das Urteil** | „Kein Nachtisch, weil das Gemüse liegen blieb? Das ist eine Strafe." |
 | **Der verbotene Satz** | „Ich mag mein Kind gerade nicht." |
 | **Die Umkehrung** | „Dein Kind hört nicht auf dich. Es hat mitgezählt." |
@@ -141,43 +141,16 @@ Deck hält fest, woher es stammt.
 
 ### Der Vorrat
 
-Zwanzig geprüfte Hooks, jeder aus einem vorhandenen Artikel. Wer ein Karussell
-baut, nimmt hier einen und schreibt den Rest darum herum.
+**40 fertige Einstiege stehen in `hooks.md`**, jeder als Paar aus Folie 1 und
+Folie 2, sortiert nach Silo und mit dem Artikel, aus dem er stammt. Wer ein
+Karussell baut, nimmt dort ein Paar und schreibt den Rest darum herum.
 
-**Der Spiegel**
+Der Bauplan dieser Paare: Folie 1 spricht in ihrer Stimme, meist in der Ichform
+und mit einer Uhrzeit. Folie 2 antwortet ihr in der Duform und nimmt der Szene
+die Schuld. Erst erkannt werden, dann verstanden werden.
 
-1. „Du sagst es dreimal. Beim vierten Mal wirst du laut. Und danach hasst du dich dafür." · `kind-angeschrien-was-jetzt`
-2. „Es ist 19:40. Ihr seid beim dritten Buch. Und du hattest eins gesagt." · `abendroutine-die-haelt`
-3. „Du stehst an der Kasse, dein Kind schreit, und alle schauen." · `wutanfall-in-der-oeffentlichkeit`
-4. „Zehn Minuten für zwei Socken. Und die Schuhe habt ihr noch nicht mal angefangen." · `kind-will-sich-nicht-anziehen`
-5. „Bei allen anderen klappt es. Nur bei dir nicht." · `kind-testet-grenzen-nur-bei-mir`
-
-**Das Urteil**
-
-6. „Kein Nachtisch, weil das Gemüse liegen blieb? Das ist eine Strafe." · `konsequenz-oder-strafe`
-7. „Die stille Treppe erzieht nicht. Sie schickt dein Kind allein in seinen schwersten Moment." · `konsequenz-oder-strafe`
-8. „Zwanzig Regeln. Und keine davon gilt." · `wie-viele-regeln-braucht-ein-kind`
-9. „Du hast zu wenig Grenzen? Nein. Du hast zu viele angekündigt." · `nicht-konsequent-sein-koennen`
-
-**Der verbotene Satz**
-
-10. „Ich mag mein Kind gerade nicht." · `ich-mag-mein-kind-gerade-nicht`
-11. „Manchmal bin ich froh, wenn es endlich schläft. Und schäme mich dafür." · `elterliche-erschoepfung`
-12. „Ich wollte nie so eine Mutter werden. Heute war ich genau die." · `eigene-wut-regulieren`
-13. „Und wo bleiben eigentlich meine Bedürfnisse?" · `wo-bleiben-meine-beduerfnisse`
-
-**Die Umkehrung**
-
-14. „Dein Kind hört nicht auf dich. Es hat mitgezählt." · `nein-sagen-ohne-schlechtes-gewissen`
-15. „Überdreht heißt nicht zu viel Energie. Es heißt zu wenig Bremse." · `kind-staendig-ueberdreht`
-16. „Ein Trotzanfall will etwas. Ein Meltdown will nichts." · `meltdown-oder-trotzanfall`
-17. „Dein Kind rastet zu Hause aus, weil es sich den ganzen Tag zusammengerissen hat." · `kind-rastet-nach-kita-und-schule-aus`
-18. „Manchmal ist es kein Trotz. Manchmal tut die Socke wirklich weh." · `kind-will-sich-nicht-anziehen`
-
-**Die Zahl**
-
-19. „Drei Regeln, die stehen, sind mehr wert als zwanzig, die wandern." · `wie-viele-regeln-braucht-ein-kind`
-20. „Zwei Minuten früher ankündigen sparen dir zwanzig Minuten Streit." · `uebergaenge-begleiten`
+Zwei Beispiele liegen als Decks bereit:
+`decks/beispiel-einstieg-hell.json` und `decks/beispiel-einstieg-dunkel.json`.
 
 ## Die letzte Folie
 
