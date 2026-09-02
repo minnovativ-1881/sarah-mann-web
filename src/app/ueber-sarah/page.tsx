@@ -7,18 +7,18 @@ import { Brotkrumen } from "@/components/ArtikelExtras";
 import {
   alleArtikel,
   artikelUrl,
-  siloAnzahl,
-  zahlwort,
+  siloUrl,
+  testFuerSilo,
   SILOS,
   SITE_URL,
   type SiloSlug,
 } from "@/lib/artikel";
-import { TESTS, testUrl } from "@/lib/tests";
+import { testNachSlug, testUrl } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Über Sarah Mann: Pädagogin und Mutter von sieben Kindern",
   description:
-    "Wer hinter sarahmann.de steht: Pädagogin, zertifizierte Babyschlafberaterin, seit über fünfzehn Jahren in der Beratung und Mutter von sieben Kindern.",
+    "Wer hinter sarahmann.de steht: Pädagogin mit Master of Education, zertifizierte Babyschlafberaterin, seit acht Jahren in der Beratung und Mutter von sieben Kindern.",
   alternates: { canonical: `${SITE_URL}/ueber-sarah/` },
   openGraph: {
     title: "Über Sarah Mann",
@@ -59,7 +59,12 @@ export default function UeberSarahSeite() {
         name: "Sarah Mann",
         jobTitle: "Pädagogin und zertifizierte Babyschlafberaterin",
         description:
-          "Pädagogin, zertifizierte Babyschlafberaterin und Mutter von sieben Kindern. Begleitet seit über fünfzehn Jahren Familien in Schlafberatung und Erziehungsfragen.",
+          "Pädagogin mit Master of Education, zertifizierte Babyschlafberaterin und Mutter von sieben Kindern. Begleitet seit acht Jahren Familien in Schlafberatung und Erziehungsfragen.",
+        hasCredential: {
+          "@type": "EducationalOccupationalCredential",
+          credentialCategory: "degree",
+          name: "Master of Education",
+        },
         url: `${SITE_URL}/ueber-sarah/`,
         image: `${SITE_URL}/bilder/og-sarah.jpg`,
         knowsAbout: [
@@ -121,8 +126,8 @@ export default function UeberSarahSeite() {
                 Sarah Mann
               </h1>
               <p className="text-deep/75 leading-relaxed mt-6" style={{ fontSize: "1.15rem" }}>
-                Pädagogin, zertifizierte Babyschlafberaterin und Mutter von
-                sieben Kindern.
+                Pädagogin mit Master of Education, zertifizierte
+                Babyschlafberaterin und Mutter von sieben Kindern.
               </p>
             </div>
           </div>
@@ -133,11 +138,11 @@ export default function UeberSarahSeite() {
         <div className="max-w-3xl mx-auto px-6 lg:px-12">
           <div className="space-y-6 text-deep/85 leading-relaxed" style={{ fontSize: "1.08rem" }}>
             <p>
-              Seit über fünfzehn Jahren begleite ich Familien in der
-              Schlafberatung und in Erziehungsfragen. In dieser Zeit habe ich
-              sehr viele Abende gehört, die ähnlich klangen: Eltern, die alles
-              richtig machen wollen, es freundlich erklären, geduldig bleiben,
-              und trotzdem abends laut werden.
+              Seit acht Jahren begleite ich Familien in der Schlafberatung und
+              in Erziehungsfragen. Eigene Kinder habe ich seit sechzehn Jahren.
+              In dieser Zeit habe ich sehr viele Abende gehört, die ähnlich
+              klangen: Eltern, die alles richtig machen wollen, es freundlich
+              erklären, geduldig bleiben, und trotzdem abends laut werden.
             </p>
             <p>
               Was diesen Eltern fehlte, war nie die Liebe. Es war das Geländer.
@@ -146,7 +151,7 @@ export default function UeberSarahSeite() {
               Ich schreibe hier über den Weg dazwischen. Nicht über Strenge, und
               nicht über die Auflösung jeder Struktur. Sondern über die
               Kombination, die in der Forschung seit sechzig Jahren am besten
-              abschneidet: viel Wärme und viel klare Orientierung, gleichzeitig.
+              abschneidet: Gleichzeitig viel Wärme und viel klare Orientierung.
             </p>
           </div>
 
@@ -168,10 +173,23 @@ export default function UeberSarahSeite() {
               <strong className="font-medium text-deep">Haim Omer</strong>.
             </p>
             <p>
-              Praktisch stütze ich mich auf sieben eigene Kinder. Das ist keine
-              Qualifikation im formalen Sinn, und es ist der Grund, warum in
-              meinen Texten wenig steht, was an einem müden Dienstagabend nicht
-              funktioniert. Was hier steht, musste bei uns halten.
+              Praktisch stütze ich mich auf vier Dinge. Auf ein pädagogisches
+              Studium, abgeschlossen mit dem{" "}
+              <strong className="font-medium text-deep">
+                Master of Education
+              </strong>
+              . Auf sehr viele Beratungsgespräche mit Familien, in denen ich
+              gesehen habe, was tatsächlich hilft und was nur gut klingt. Auf
+              sieben eigene Kinder. Und auf den Blick über den eigenen
+              Tellerrand: In anderen Ländern und Kulturen ist vieles
+              selbstverständlich, was bei uns als Erziehungsfrage verhandelt
+              wird, und umgekehrt.
+            </p>
+            <p>
+              Das zusammen ist der Grund, warum in meinen Texten wenig steht,
+              was an einem müden Dienstagabend nicht funktioniert. Was hier
+              steht, musste bei uns halten und bei den Familien, mit denen ich
+              arbeite.
             </p>
             <p className="font-serif italic text-terra text-xl leading-relaxed pt-2">
               Perfektion ist nicht das Ziel. Zuverlässigkeit ist das Ziel.
@@ -185,34 +203,42 @@ export default function UeberSarahSeite() {
             Worüber ich schreibe
           </h2>
           <p className="text-deep/75 leading-relaxed mb-8">
-            {artikel.length} Artikel in {zahlwort(siloAnzahl())} Bereichen, dazu{" "}
-            {TESTS.length}{" "}
-            kostenlose Tests.
+            Jeder Bereich fängt bei einer Situation an, die vermutlich schon
+            einmal bei euch am Tisch saß. Und zu jedem gehört ein kurzer Test,
+            falls du wissen willst, wo ihr gerade steht.
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
             {silos.map((key) => {
-              const anzahl = artikel.filter((a) => a.silo === key).length;
-              if (!anzahl) return null;
+              if (!artikel.some((a) => a.silo === key)) return null;
+              const test = testNachSlug(testFuerSilo(key) ?? "");
               return (
-                <Link
-                  key={key}
-                  href="/wissen/"
-                  className="kachel group p-6"
-                >
-                  <p className="font-serif text-deep text-lg group-hover:text-terra transition-colors">
-                    {SILOS[key].name}
-                  </p>
-                  <p className="text-deep/50 text-xs tracking-wide mt-2">
-                    {anzahl} Artikel
-                  </p>
-                </Link>
+                <div key={key} className="kachel p-6 flex flex-col">
+                  <Link href={siloUrl(key)} className="group">
+                    <p className="font-serif text-deep text-lg group-hover:text-terra transition-colors">
+                      {SILOS[key].name}
+                    </p>
+                    <p className="text-deep/70 text-sm leading-relaxed mt-3">
+                      {SILOS[key].problem}
+                    </p>
+                  </Link>
+                  {test && (
+                    <Link
+                      href={testUrl(test.slug)}
+                      className="mt-5 pt-4 text-sm text-terra hover:text-midnight transition-colors"
+                      style={{ borderTop: "1px solid rgba(19,107,115,0.18)" }}
+                    >
+                      Willst du dich testen? {test.titel}{" "}
+                      <span className="text-deep/45">({test.dauer})</span>
+                    </Link>
+                  )}
+                </div>
               );
             })}
           </div>
 
           <div className="flex flex-wrap gap-4 mt-12">
-            <Link href={testUrl("eltern-test")} className="btn-primary">
-              Den Eltern-Test machen
+            <Link href="/tests/" className="btn-primary">
+              Alle Tests ansehen
             </Link>
             <Link href="/wissen/" className="btn-outline btn-outline-dark">
               Alle Artikel

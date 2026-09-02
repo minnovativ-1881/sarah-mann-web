@@ -1,64 +1,98 @@
-import fs from "node:fs";
+﻿import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 
 export const SITE_URL = "https://www.sarahmann.de";
 
-/** Themen-Silos. Jeder Artikel gehört zu genau einem Silo. */
+/**
+ * Themen-Silos. Jeder Artikel gehört zu genau einem Silo.
+ *
+ * `beschreibung` ist die Katalogzeile: sie sagt, was im Bereich steht.
+ * `problem` ist die Zeile für die Autorinnenseite: sie beschreibt den Abend,
+ * an dem jemand nach so einem Bereich sucht. Eine reine Aufzählung der
+ * Bereichsnamen sagt einem Leser nichts, die Situation dahinter schon.
+ */
 export const SILOS = {
   grundlagen: {
     slug: "grundlagen",
+    test: "eltern-test",
     name: "Die Grundlagen",
     beschreibung:
       "Woher die Idee kommt, dass Kinder Wärme und Klarheit zugleich brauchen, und was daraus für den Alltag folgt.",
+    problem:
+      "Jeder Ratgeber sagt etwas anderes, und keiner davon passt auf dein Kind an einem echten Dienstagabend. Hier steht, was tatsächlich untersucht ist und was daraus für zu Hause folgt.",
   },
   grenzen: {
     slug: "grenzen",
+    test: "wie-klar-ist-dein-nein",
     name: "Grenzen und Führung",
     beschreibung:
-      "Was zwischen Erklären und Schimpfen liegt: wie eine Grenze steht, ohne dass die Wärme verloren geht.",
+      "Was zwischen Erklären und Schimpfen liegt: Wie eine Grenze steht, ohne dass die Wärme verloren geht.",
+    problem:
+      "Du erklärst es zum vierten Mal, freundlich und ruhig, und es passiert nichts. Und irgendwann wirst du doch laut, obwohl du dir genau das nicht vorgenommen hattest.",
   },
   gefuehle: {
     slug: "gefuehle",
+    test: "beduerfnis-oder-wunsch",
     name: "Gefühle und Selbstregulation",
     beschreibung:
       "Wie Kinder lernen, sich selbst zu halten, und was Eltern dafür tun, bevor sie es können.",
+    problem:
+      "Dein Kind kippt in Sekunden, und alles, was du sagst, macht es schlimmer. Wut, Scham, Neid, Enttäuschung: Warum die kommen und was in genau diesem Moment hilft.",
   },
   schlaf: {
     slug: "schlaf",
+    test: "abend-test",
     name: "Schlaf und Abend",
     beschreibung:
       "Der Ort, an dem Führung zum ersten Mal gebraucht wird, und an dem sie am meisten kostet.",
+    problem:
+      "Der Abend zieht sich über Stunden, und am Ende sind alle wütend, obwohl das niemand wollte. Der Schlaf ist die Stelle, an der Klarheit am schwersten fällt und am meisten bringt.",
   },
   eltern: {
     slug: "eltern",
+    test: "kraft-test",
     name: "Für dich als Elternteil",
     beschreibung:
       "Erschöpfung, Zweifel und die eigene Wut. Denn Führung fängt nicht beim Kind an.",
+    problem:
+      "Es liegt nicht daran, dass du zu wenig Geduld hast. Es liegt daran, dass nichts mehr da ist. Über diesen Teil wird selten offen gesprochen, und er entscheidet über den Rest.",
   },
   reizueberflutung: {
     slug: "reizueberflutung",
+    test: "reizprofil-test",
     name: "Wenn alles zu viel wird",
     beschreibung:
-      "Kinder, die mehr wahrnehmen und schneller an ihre Grenze kommen: was dahintersteckt und was im Alltag wirklich hilft.",
+      "Kinder, die mehr wahrnehmen und schneller an ihre Grenze kommen: Was dahintersteckt und was im Alltag wirklich hilft.",
+    problem:
+      "In der Kita hält dein Kind sich zusammen, zu Hause explodiert es. Von außen sieht das nach Erziehungsversagen aus und ist etwas ganz anderes.",
   },
   geschwister: {
     slug: "geschwister",
+    test: "eltern-test",
     name: "Geschwister unter einem Dach",
     beschreibung:
       "Streit, Eifersucht und die Frage, wie man zwei oder sieben Kindern gerecht wird, ohne allen dasselbe zu geben.",
+    problem:
+      "Zwei Kinder, ein Bagger, und du sollst entscheiden, wer im Recht ist. Fünfmal am Tag. Dazu die Frage, wie man mehreren Kindern gerecht wird, ohne allen dasselbe zu geben.",
   },
   charakter: {
     slug: "charakter",
+    test: "konsequenz-oder-strafe",
     name: "Was dein Kind stark macht",
     beschreibung:
       "Mut, Durchhalten, Ehrlichkeit und ein Selbstwert, der nicht am Lob hängt. Der einzige Bereich hier, der nicht von einem Problem ausgeht.",
+    problem:
+      "Der einzige Bereich, der nicht bei einem Problem anfängt, sondern bei dem, was du aufbaust: Selbstwert, Mut, Durchhalten, Ehrlichkeit. Und die Frage, warum Lob dabei fast nichts beiträgt.",
   },
   uebergaenge: {
     slug: "uebergaenge",
+    test: "abend-test",
     name: "Übergänge im Familienjahr",
     beschreibung:
-      "Kita, Schule, Zeitumstellung, Weihnachten: die Momente, in denen Struktur besonders trägt.",
+      "Kita, Schule, Zeitumstellung, Weihnachten: Die Momente, in denen Struktur besonders trägt.",
+    problem:
+      "Kita-Start, Einschulung, Zeitumstellung, Weihnachten. Immer dann, wenn die gewohnte Struktur wackelt, wird der Alltag laut, und meistens war es absehbar.",
   },
 } as const;
 
@@ -174,6 +208,40 @@ export function artikelNachSlug(slug: string): Artikel | undefined {
 
 export function artikelImSilo(silo: SiloSlug): Artikel[] {
   return alleArtikel().filter((a) => a.silo === silo);
+}
+
+/**
+ * Der Test, der zu einem Silo gehört.
+ *
+ * Zuerst die feste Zuordnung aus SILOS. Sie ist nötig, weil die reine
+ * Ableitung nach Häufigkeit den Eltern-Test in vier von neun Bereichen
+ * gewählt hat: Er hängt an 21 Artikeln und gewinnt deshalb fast überall.
+ * Auf der Autorinnenseite stehen alle neun Bereiche untereinander, und
+ * viermal derselbe Test sieht dort nach Verlegenheit aus.
+ *
+ * Die Ableitung bleibt als Rückfall, damit ein neues Silo ohne feste
+ * Zuordnung trotzdem einen sinnvollen Test bekommt.
+ *
+ * Steht hier und nicht in der Silo-Seite, damit Silo-Seite und
+ * Autorinnenseite nicht auseinanderlaufen können.
+ */
+export function testFuerSilo(silo: SiloSlug): string | undefined {
+  const gesetzt = SILOS[silo].test;
+  if (gesetzt) return gesetzt;
+
+  const zaehler = new Map<string, number>();
+  for (const a of artikelImSilo(silo)) {
+    if (a.test) zaehler.set(a.test, (zaehler.get(a.test) ?? 0) + 1);
+  }
+  let bester: string | undefined;
+  let max = 0;
+  for (const [slug, n] of zaehler) {
+    if (n > max) {
+      max = n;
+      bester = slug;
+    }
+  }
+  return bester;
 }
 
 /**

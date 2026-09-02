@@ -10,6 +10,7 @@ import {
   artikelUrl,
   findeBild,
   siloUrl,
+  testFuerSilo,
   SITE_URL,
   type SiloSlug,
 } from "@/lib/artikel";
@@ -25,29 +26,6 @@ export const BILDPOSITION: Record<string, string> = {
   gefuehle: "center 32%",
   uebergaenge: "center 8%",
 };
-
-/**
- * Welcher Test passt zu diesem Silo?
- *
- * Wird aus den Artikeln selbst abgeleitet: der Test, der in diesem Silo am
- * häufigsten zugeordnet ist. So bleibt die Zuordnung automatisch richtig,
- * wenn Artikel dazukommen.
- */
-function testFuerSilo(silo: SiloSlug): string | undefined {
-  const zaehler = new Map<string, number>();
-  for (const a of artikelImSilo(silo)) {
-    if (a.test) zaehler.set(a.test, (zaehler.get(a.test) ?? 0) + 1);
-  }
-  let bester: string | undefined;
-  let max = 0;
-  for (const [slug, n] of zaehler) {
-    if (n > max) {
-      max = n;
-      bester = slug;
-    }
-  }
-  return bester;
-}
 
 export function siloJsonLd(key: SiloSlug) {
   const silo = SILOS[key];
