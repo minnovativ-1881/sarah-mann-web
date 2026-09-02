@@ -1,0 +1,219 @@
+<title>Bildstrecke sarahmann.de</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --grund:#F6F4EF; --flaeche:#FFFFFF; --kante:#E3DFD6; --kante-stark:#CFC9BC;
+  --schrift:#211F1B; --schrift-leise:#6B655C; --schrift-still:#948D82;
+  --petrol:#136B73; --petrol-tief:#0C3A40; --stein:#A89B8C;
+  --erledigt:#EDF2F0; --knopfschrift:#FFFFFF;
+  --serif:"Cormorant Garamond",Georgia,serif;
+  --sans:"Jost","Helvetica Neue",Arial,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --grund:#14150F; --flaeche:#1D1E18; --kante:#2E3029; --kante-stark:#43463C;
+    --schrift:#F0EDE4; --schrift-leise:#A9A398; --schrift-still:#7C766B;
+    --petrol:#5FB3B8; --petrol-tief:#8FCBCE; --stein:#B6A995;
+    --erledigt:#1A2422; --knopfschrift:#11201E;
+  }
+}
+:root[data-theme="dark"]{
+  --grund:#14150F; --flaeche:#1D1E18; --kante:#2E3029; --kante-stark:#43463C;
+  --schrift:#F0EDE4; --schrift-leise:#A9A398; --schrift-still:#7C766B;
+  --petrol:#5FB3B8; --petrol-tief:#8FCBCE; --stein:#B6A995;
+  --erledigt:#1A2422; --knopfschrift:#11201E;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--grund); color:var(--schrift);
+  font-family:var(--sans); font-weight:300; font-size:16px; line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+.huelle{max-width:1180px; margin:0 auto; padding:0 24px 96px}
+
+header.seite{padding:72px 0 40px}
+h1{
+  font-family:var(--serif); font-weight:400; font-size:clamp(2.4rem,5vw,3.8rem);
+  line-height:1.05; margin:0 0 18px; text-wrap:balance; letter-spacing:-.01em;
+}
+h1 em{font-style:italic; color:var(--petrol)}
+.vorspann{max-width:62ch; color:var(--schrift-leise); font-size:1.05rem; margin:0}
+.marke{
+  font-family:var(--sans); font-size:.72rem; letter-spacing:.18em;
+  text-transform:uppercase; color:var(--petrol); margin:0 0 20px;
+}
+
+.stil{background:var(--flaeche); border:1px solid var(--kante); padding:26px}
+.stil h2{
+  font-family:var(--sans); font-weight:500; font-size:.76rem; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--schrift-leise); margin:0 0 14px;
+}
+.stil pre{
+  font-family:var(--mono); font-size:.78rem; line-height:1.7; color:var(--schrift-leise);
+  margin:0; white-space:pre-wrap; max-width:80ch;
+}
+.stil .hinweis{font-size:.88rem; color:var(--schrift-still); margin:16px 0 0; max-width:70ch}
+
+.leiste{
+  position:sticky; top:0; z-index:10; background:var(--grund);
+  border-bottom:1px solid var(--kante); padding:14px 0; margin-top:44px;
+  display:flex; flex-wrap:wrap; gap:14px 26px; align-items:center;
+}
+.zaehler{font-family:var(--mono); font-size:.9rem; font-variant-numeric:tabular-nums}
+.zaehler b{color:var(--petrol); font-weight:500}
+.balken{flex:1; min-width:150px; height:3px; background:var(--kante); position:relative; overflow:hidden}
+.balken i{position:absolute; top:0; bottom:0; left:0; background:var(--petrol); width:0; transition:width .4s ease}
+.leiste button{
+  font-family:var(--sans); font-size:.82rem; color:var(--schrift-leise);
+  background:none; border:1px solid var(--kante-stark); padding:7px 14px; cursor:pointer;
+  transition:color .2s, border-color .2s;
+}
+.leiste button:hover{color:var(--schrift); border-color:var(--schrift-leise)}
+.leiste button:focus-visible,.karte button:focus-visible,.haken:focus-visible{
+  outline:2px solid var(--petrol); outline-offset:2px;
+}
+
+section.gruppe{margin-top:60px}
+section.gruppe > h2{
+  font-family:var(--serif); font-weight:400; font-size:2rem; margin:0 0 8px; letter-spacing:-.005em;
+}
+.gruppenzeile{
+  display:flex; flex-wrap:wrap; gap:6px 20px;
+  font-family:var(--mono); font-size:.73rem; color:var(--schrift-still);
+  padding-bottom:16px; border-bottom:1px solid var(--kante-stark); margin:0;
+}
+
+.karte{
+  display:grid; grid-template-columns:34px 1fr auto; gap:0 20px; align-items:start;
+  padding:22px 0; border-bottom:1px solid var(--kante);
+}
+.karte[data-fertig="ja"]{background:var(--erledigt)}
+.karte[data-fertig="ja"] .szene{color:var(--schrift-still)}
+.karte[data-fertig="ja"] .datei{text-decoration:line-through}
+.haken{
+  appearance:none; -webkit-appearance:none; width:19px; height:19px; margin:4px 0 0 6px;
+  cursor:pointer; border:1px solid var(--kante-stark); background:var(--flaeche);
+  display:grid; place-items:center;
+}
+.haken:checked{background:var(--petrol); border-color:var(--petrol)}
+.haken:checked::after{content:"x"; color:var(--knopfschrift); font-size:11px; line-height:1; font-family:var(--mono)}
+.datei{
+  font-family:var(--mono); font-size:.86rem; font-weight:500; color:var(--petrol);
+  margin:0 0 7px; word-break:break-all;
+}
+.szene{margin:0; max-width:66ch; color:var(--schrift-leise); font-size:.95rem}
+.karte button{
+  font-family:var(--sans); font-size:.8rem; letter-spacing:.02em;
+  background:var(--petrol); color:var(--knopfschrift); border:0; padding:10px 17px;
+  cursor:pointer; white-space:nowrap; transition:background .2s;
+}
+.karte button:hover{background:var(--petrol-tief)}
+.karte button.fertig{background:var(--stein)}
+
+.schluss{margin-top:72px; padding-top:34px; border-top:1px solid var(--kante-stark); max-width:70ch}
+.schluss h2{font-family:var(--serif); font-weight:400; font-size:1.7rem; margin:0 0 14px}
+.schluss p{color:var(--schrift-leise); font-size:.95rem}
+.schluss pre{
+  font-family:var(--mono); font-size:.8rem; background:var(--flaeche);
+  border:1px solid var(--kante); padding:16px; overflow-x:auto; line-height:1.6; margin:18px 0;
+}
+
+@media (max-width:720px){
+  .karte{grid-template-columns:28px 1fr; gap:0 12px}
+  .karte button{grid-column:2; justify-self:start; margin-top:14px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+<div class="huelle">
+<header class="seite">
+  <p class="marke">sarahmann.de &nbsp;&middot;&nbsp; Bildproduktion</p>
+  <h1>{{ZAHLWORT}} Bilder,<br><em>ein Blick.</em></h1>
+  <p class="vorspann">Jede Zeile ergibt ein fertiges Bild. Kopieren, in ChatGPT einf&uuml;gen,
+  Ergebnis unter dem angegebenen Dateinamen in den passenden Ordner legen. Die Website findet
+  die Datei von selbst, eingetragen werden muss nichts.</p>
+</header>
+<div class="stil">
+  <h2>Der Stil-Block, der in jedem Prompt steckt</h2>
+  <pre>Fotorealistische Familienfotografie, 35mm, weiches warmes Sonnenlicht durch ein großes Fenster, späte Nachmittagssonne, helle luftige Wohnung in Creme und hellem Holz, warme Farbpalette aus Creme, Honig, Sand und weichem Grün von Zimmerpflanzen, zarte zugewandte Stimmung, geringe Schärfentiefe mit weichem Bokeh, unscharfe Blätter oder Stoff im Vordergrund, natürliche warme Hauttöne, hell und freundlich, viel Licht.
+
+Vermeide: Text, Schrift, Logos, Wasserzeichen, Illustration, Comic-Stil, Collage, düstere oder graue Bildstimmung, kaltes blaues Licht, harte Schatten, traurige oder leere Gesichter, Unordnung, überfüllte Räume, grelle Buntheit, Werbe-Hochglanz, direkter Blick in die Kamera.</pre>
+  <p class="hinweis">Er steckt in jedem Kopieren-Knopf schon drin, du musst ihn nicht separat
+  einf&uuml;gen. Er sorgt daf&uuml;r, dass die {{ZAHLWORT_KLEIN}} Bilder wie eine Serie wirken und nicht
+  wie ebenso viele Stockfotos.</p>
+</div>
+<div class="leiste">
+  <span class="zaehler"><b id="fertig">0</b> von {{ANZAHL}} erzeugt</span>
+  <span class="balken"><i id="balken"></i></span>
+  <button type="button" id="zuruecksetzen">Fortschritt zur&uuml;cksetzen</button>
+</div>
+<!--BILDER-->
+<div class="schluss">
+  <h2>Wenn die Bilder da sind</h2>
+  <p>ChatGPT gibt meist PNG aus. Ein Aufruf wandelt alles um, schneidet mittig auf das richtige
+  Verh&auml;ltnis und l&ouml;scht die Originale:</p>
+  <pre>python werkzeuge/bilder-webp.py</pre>
+  <p>Danach bauen und pushen. Was noch fehlt, bleibt einfach leer: die Seite funktioniert
+  vollst&auml;ndig, auch wenn erst zehn Bilder da sind.</p>
+</div>
+</div>
+<script>
+(function(){
+  var SP = "bildstrecke.sarahmann";
+  function lade(){ try { return JSON.parse(localStorage.getItem(SP) || "{}"); } catch(e){ return {}; } }
+  function sichere(o){ try { localStorage.setItem(SP, JSON.stringify(o)); } catch(e){} }
+
+  var stand = lade();
+  var haken = Array.prototype.slice.call(document.querySelectorAll(".haken"));
+  var fertigEl = document.getElementById("fertig");
+  var balken = document.getElementById("balken");
+
+  function male(){
+    var n = 0;
+    for (var i = 0; i < haken.length; i++){ if (haken[i].checked) n++; }
+    fertigEl.textContent = n;
+    balken.style.width = (n / haken.length * 100) + "%";
+  }
+
+  haken.forEach(function(h){
+    var k = h.id.slice(2);
+    if (stand[k]) { h.checked = true; h.closest(".karte").dataset.fertig = "ja"; }
+    h.addEventListener("change", function(){
+      h.closest(".karte").dataset.fertig = h.checked ? "ja" : "nein";
+      if (h.checked) { stand[k] = true; } else { delete stand[k]; }
+      sichere(stand); male();
+    });
+  });
+  male();
+
+  document.getElementById("zuruecksetzen").addEventListener("click", function(){
+    haken.forEach(function(h){ h.checked = false; h.closest(".karte").dataset.fertig = "nein"; });
+    stand = {}; sichere(stand); male();
+  });
+
+  document.querySelectorAll(".karte button").forEach(function(b){
+    b.addEventListener("click", function(){
+      var text = b.getAttribute("data-prompt");
+      function gelungen(){
+        b.textContent = "Kopiert";
+        b.classList.add("fertig");
+        setTimeout(function(){ b.textContent = "Prompt kopieren"; b.classList.remove("fertig"); }, 1400);
+      }
+      function ersatz(){
+        var t = document.createElement("textarea");
+        t.value = text; t.style.position = "fixed"; t.style.opacity = "0";
+        document.body.appendChild(t); t.focus(); t.select();
+        try { document.execCommand("copy"); gelungen(); }
+        catch(e){ b.textContent = "Bitte von Hand kopieren"; }
+        document.body.removeChild(t);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(gelungen, ersatz);
+      } else { ersatz(); }
+    });
+  });
+})();
+</script>

@@ -1,422 +1,506 @@
 [
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "grundlagen.webp",
-  "szene": "Helle große Küche am Vormittag, Sonnenlicht liegt auf einem hellen Holztisch, eine Mutter und zwei Kinder frühstücken entspannt, Zimmerpflanze am Fenster, viel Luft und Helligkeit im Bild."
- },
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "grenzen.webp",
-  "szene": "Heller Flur, warme Sonne fällt durch die offene Haustür herein, eine Mutter kniet freundlich vor einem Kleinkind und hilft ihm in die Jacke, beide ruhig und zugewandt."
- },
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "gefuehle.webp",
-  "szene": "Wohnzimmer im goldenen Nachmittagslicht, ein Vater hält sein Kind im Arm auf dem Sofa, Wange an Kopf, sehr weich und warm, unscharfe Pflanze im Vordergrund."
- },
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "schlaf.webp",
-  "szene": "Kinderzimmer in der Dämmerung, eine kleine Nachttischlampe wirft warmes goldenes Licht, eine Mutter sitzt am Bettrand und streicht dem Kind über den Rücken, sanfte honigfarbene Töne."
- },
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "eltern.webp",
-  "szene": "Frau steht am Küchenfenster mit einer Tasse in beiden Händen, Morgensonne im Gesicht, entspannter Moment für sich, weiches Gegenlicht."
- },
- {
-  "gruppe": "Silo-Bänder",
-  "ordner": "silos",
-  "format": "1920 x 1080 (16:9)",
-  "datei": "uebergaenge.webp",
-  "szene": "Haustür von innen gesehen, warmes Herbstlicht strömt herein, ein Kind mit Rucksack geht hinaus, die Mutter steht im Türrahmen und lächelt ihm nach."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "eltern-test.webp",
-  "szene": "Zwei Erwachsene und zwei Kinder am sonnigen Esstisch, lebendiger fröhlicher Alltagsmoment mitten in einer Bewegung, warmes Licht von der Seite."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "wie-klar-ist-dein-nein.webp",
-  "szene": "Mutter kniet im hellen Wohnzimmer vor einem Kleinkind, freundliches ruhiges Gesicht, offene Handfläche, das Kind schaut zu ihr auf, warmes Fensterlicht."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "beduerfnis-oder-wunsch.webp",
-  "szene": "Heller Supermarkt, ein Kind steht vor einem Regal, die Mutter daneben in der Hocke auf Augenhöhe, beide entspannt, freundliche Stimmung."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "konsequenz-oder-strafe.webp",
-  "szene": "Sonnige Küche, ein umgekipptes Glas Wasser auf dem Holzboden, Kind und Mutter wischen zusammen mit einem Tuch auf, beide gelassen, fast heiter."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "abend-test.webp",
-  "szene": "Kinderzimmer im warmen Abendlicht, ein aufgeschlagenes Bilderbuch auf der Bettdecke, eine Hand blättert um, goldene ruhige Stimmung."
- },
- {
-  "gruppe": "Test-Kacheln",
-  "ordner": "tests",
-  "format": "1200 x 800 (3:2)",
-  "datei": "kraft-test.webp",
-  "szene": "Frau sitzt in warmem Morgenlicht auf einer Fensterbank, Tasse in der Hand, entspannt und bei sich, weiches Gegenlicht, Zimmerpflanze daneben."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "autoritativer-erziehungsstil.webp",
-  "szene": "Mutter kniet im sonnigen Flur vor einem vierjährigen Kind, eine Hand auf dessen Schulter, warmer Blickkontakt, beide entspannt."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "autoritativ-oder-autoritaer.webp",
-  "szene": "Vater sitzt im Schneidersitz auf dem hellen Küchenboden, auf Augenhöhe mit einem Vierjährigen, offene freundliche Haltung, Vormittagssonne."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "beduerfnis-oder-wunsch.webp",
-  "szene": "Kleines Kind hält im hellen Supermarkt eine Packung in der Hand, die Mutter daneben in der Hocke, freundlich und gelassen."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "beduerfnisorientierte-erziehung-kritik.webp",
-  "szene": "Frau sitzt in warmem Morgenlicht am Küchentisch mit einer Tasse, ein Kind spielt zufrieden im unscharfen Vordergrund, ruhige helle Stimmung."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "erziehungsstile-fuer-eltern.webp",
-  "szene": "Sonniger Esstisch von schräg oben, zwei Erwachsene und drei Kinder, alle in Bewegung, fröhliches lebendiges Familienbild."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "warum-eltern-heute-unsicher-sind.webp",
-  "szene": "Frau sitzt am Abend mit einem Buch auf dem Sofa, warme Stehlampe daneben, nachdenklich aber entspannt, im Hintergrund eine angelehnte Kinderzimmertür."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "was-kinder-sicher-macht.webp",
-  "szene": "Kind läuft auf einem sonnigen Feldweg voraus und dreht sich lachend nach den Eltern um, goldenes Abendlicht, weites warmes Bild."
- },
- {
-  "gruppe": "Silo 1: Die Grundlagen",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "gentle-parenting-und-grenzen.webp",
-  "szene": "Am Ausgang eines sonnigen Spielplatzes hält eine Mutter freundlich die Hand eines Kleinkindes, beide in Bewegung, warmes Licht durch Blätter."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "grenzen-setzen-kleinkind.webp",
-  "szene": "Vater kniet im hellen Flur vor einem Zweijährigen und hält behutsam dessen Hand, freundliches ruhiges Gesicht, Sonne durch die Tür."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-hoert-nicht-trotz-konsequenz.webp",
-  "szene": "Mutter steht gelassen im Türrahmen eines sonnigen Kinderzimmers, das Kind spielt vertieft am Boden, warmes Nachmittagslicht."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-testet-grenzen-nur-bei-mir.webp",
-  "szene": "Helle Kita-Garderobe beim Abholen, ein Kind schmiegt sich an seine Mutter, sie lächelt, andere Kinder unscharf im warmen Hintergrund."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wenn-die-grenze-ueberschritten-ist.webp",
-  "szene": "Nahaufnahme: eine Erwachsenenhand hält behutsam eine Kinderhand, warmes Sonnenlicht auf der Haut, weicher heller Hintergrund."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "konsequenz-oder-strafe.webp",
-  "szene": "Sonnige Küche, Kind und Mutter wischen gemeinsam verschüttetes Wasser vom Holzboden auf, beide gelassen, fast heiter."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "nachgeben-oder-durchhalten.webp",
-  "szene": "Mutter sitzt auf der Kante eines Kinderbetts im warmen Abendlicht, das Kind streckt die Arme aus, zugewandter ruhiger Moment."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wie-viele-regeln-braucht-ein-kind.webp",
-  "szene": "Helle Küchenwand mit einer kleinen Magnettafel und wenigen handgeschriebenen Zetteln, im unscharfen Vordergrund eine Familie am sonnigen Tisch."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "nein-sagen-ohne-schlechtes-gewissen.webp",
-  "szene": "Mutter in der Hocke vor ihrem Kind im hellen Wohnzimmer, eine Hand auf dessen Rücken, warmes freundliches Gesicht, Sonnenlicht von der Seite."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "machtkampf-kleinkind.webp",
-  "szene": "Dreijähriges Kind sitzt entschlossen mit verschränkten Armen auf dem sonnigen Wohnzimmerboden, die Mutter sitzt gelassen und freundlich daneben."
- },
- {
-  "gruppe": "Silo 2: Grenzen und Führung",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-schlaegt-und-haut.webp",
-  "szene": "Vater kniet zwischen zwei Geschwisterkindern auf einem hellen Teppich, eine ruhige Hand auf jeder Schulter, warme entspannte Stimmung."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "selbstregulation-kind.webp",
-  "szene": "Kind sitzt konzentriert auf einer sonnigen Fensterbank und sortiert kleine Gegenstände, warmes Licht, Zimmerpflanze daneben."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "ko-regulation.webp",
-  "szene": "Mutter hält ihr Kleinkind eng im Arm, Wange an dessen Kopf, Augen geschlossen, sehr weiches goldenes Fensterlicht."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wutanfall-begleiten.webp",
-  "szene": "Helles Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, die Mutter sitzt ruhig und geduldig daneben, warmes Nachmittagslicht."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "frustrationstoleranz-kind.webp",
-  "szene": "Kind versucht konzentriert einen Reißverschluss zu schließen, die Mutter sitzt lächelnd daneben und lässt es machen, sonniger Flur."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-beruhigt-sich-nicht.webp",
-  "szene": "Warmes ruhiges Zimmer, ein Kind lehnt erschöpft an der Schulter eines Elternteils, beide sitzen am Boden, weiches goldenes Licht."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "gefuehle-benennen.webp",
-  "szene": "Mutter und Kind sitzen Stirn an Stirn auf dem sonnigen Sofa, leises Gespräch, beide lächeln leicht."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wann-wutanfall-nicht-normal.webp",
-  "szene": "Helles freundliches Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind auf dem Schoß, beide entspannt, viel Tageslicht."
- },
- {
-  "gruppe": "Silo 3: Gefühle und Selbstregulation",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wutanfall-in-der-oeffentlichkeit.webp",
-  "szene": "Heller Supermarktgang, eine Mutter geht bei ihrem Kind in die Hocke und spricht ruhig mit ihm, freundliche Stimmung, andere Menschen weit unscharf."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "schlaf-als-fuehrungsaufgabe.webp",
-  "szene": "Kinderzimmer am Abend, warmes goldenes Licht aus dem Flur, die Mutter steht lächelnd in der halboffenen Tür, das Kind liegt zufrieden im Bett."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "einschlafbegleitung-wie-lange.webp",
-  "szene": "Mutter sitzt im warmen Lampenlicht am Bettrand, das Kind ist fast eingeschlafen, honigfarbene ruhige Stimmung."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "einschlafbegleitung-macht-wuetend.webp",
-  "szene": "Kinderzimmer im warmen Abendlicht, eine Mutter sitzt entspannt am Boden an das Bett gelehnt, Hörstöpsel im Ohr, gelassener Moment."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "abendroutine-die-haelt.webp",
-  "szene": "Helles Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die Zähne, die Mutter steht lächelnd daneben, warmes Licht."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-steht-abends-immer-auf.webp",
-  "szene": "Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der warm beleuchtete Flur, freundliche gemütliche Abendstimmung."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-will-nur-mit-mama-einschlafen.webp",
-  "szene": "Vater sitzt im warmen Lampenlicht am Kinderbett und erzählt etwas, das Kind hört zu, gemütliche goldene Stimmung."
- },
- {
-  "gruppe": "Silo 4: Schlaf und Abend",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "mittagsschlaf-wann-vorbei.webp",
-  "szene": "Kinderzimmer am Nachmittag, ein Kind liegt wach und zufrieden im Bett, warmes Sonnenlicht fällt in breiten Streifen zwischen den Vorhängen hindurch."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "elterliche-erschoepfung.webp",
-  "szene": "Frau sitzt in warmem Morgenlicht in der Küche, beide Hände um eine Tasse, Blick aus dem Fenster, ruhiger Moment für sich, Zimmerpflanze am Fenster."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kind-angeschrien-was-jetzt.webp",
-  "szene": "Mutter und Kind sitzen wieder eng nebeneinander auf dem sonnigen Sofa, Schulter an Schulter, versöhnte warme Stimmung."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "nicht-konsequent-sein-koennen.webp",
-  "szene": "Frau steht im hellen Flur und atmet einen Moment durch, freundliches nachdenkliches Gesicht, im unscharfen Hintergrund ein spielendes Kind."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wenn-ihr-unterschiedlich-erzieht.webp",
-  "szene": "Zwei Erwachsene stehen abends in der warm beleuchteten Küche, zugewandt im Gespräch, entspannte Haltung, gemütliches Licht."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "ich-mag-mein-kind-gerade-nicht.webp",
-  "szene": "Frau sitzt in warmem Licht auf einer Treppenstufe, ruhig und gefasst, im weichen Hintergrund eine angelehnte Kinderzimmertür."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "eigene-wut-regulieren.webp",
-  "szene": "Frau steht am offenen Fenster und atmet tief durch, Sonne im Gesicht, ruhiger gesammelter Moment, helle Wohnung."
- },
- {
-  "gruppe": "Silo 5: Für dich als Elternteil",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wo-bleiben-meine-beduerfnisse.webp",
-  "szene": "Frau geht allein einen sonnigen Weg zwischen Bäumen entlang, warmes Morgenlicht durch die Blätter, freier heller Raum."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "uebergaenge-begleiten.webp",
-  "szene": "Sonniger Wohnungsflur, ein Kind zieht sich die Schuhe an, die Mutter wartet geduldig daneben, Jacke über dem Arm."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "kita-eingewoehnung-kind-weint.webp",
-  "szene": "Helle Kita-Garderobe, eine Mutter kniet vor ihrem Kind und hält beide Hände, warmer zugewandter Abschied, Erzieherin unscharf im Hintergrund."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "erste-schulwochen.webp",
-  "szene": "Kind mit großem Schulranzen geht einen sonnigen Gehweg entlang, goldenes Herbstlicht, buntes Laub, fröhliche Stimmung."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "morgens-ohne-geschrei.webp",
-  "szene": "Sonniger Frühstückstisch am Morgen, ein Kind sitzt verschlafen davor, die Mutter legt lächelnd Kleidung auf einen Stuhl, warmes Licht."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "zeitumstellung-mit-kind.webp",
-  "szene": "Kinderzimmer im ersten warmen Morgenlicht, ein Kind sitzt fröhlich wach im Bett, goldene Sonne fällt durch den Vorhang."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "geschenke-und-konsum.webp",
-  "szene": "Kind sitzt im warmen Licht auf dem Wohnzimmerboden vor einem einzigen ausgepackten Geschenk, konzentrierte stille Freude, Papier daneben."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "familienregeln-jahreswechsel.webp",
-  "szene": "Helle Küche im klaren Wintersonnenlicht, ein Familienkalender an der Wand, im unscharfen Vordergrund eine Tasse, freundliche Neuanfang-Stimmung."
- },
- {
-  "gruppe": "Silo 6: Übergänge im Familienjahr",
-  "ordner": "artikel",
-  "format": "1600 x 1067 (3:2)",
-  "datei": "wenn-oma-anders-erzieht.webp",
-  "szene": "Großmutter und Enkelkind sitzen zusammen am sonnigen Küchentisch, ein Kuchen zwischen ihnen, herzliche warme Stimmung."
- }
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "grundlagen.webp",
+    "szene": "Helle große Küche am Vormittag, Sonnenlicht liegt auf einem hellen Holztisch, eine Mutter und zwei Kinder frühstücken entspannt, Zimmerpflanze am Fenster, viel Luft und Helligkeit im Bild."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "grenzen.webp",
+    "szene": "Heller Flur, warme Sonne fällt durch die offene Haustür herein, eine Mutter kniet freundlich vor einem Kleinkind und hilft ihm in die Jacke, beide ruhig und zugewandt."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "gefuehle.webp",
+    "szene": "Wohnzimmer im goldenen Nachmittagslicht, ein Vater hält sein Kind im Arm auf dem Sofa, Wange an Kopf, sehr weich und warm, unscharfe Pflanze im Vordergrund."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "schlaf.webp",
+    "szene": "Kinderzimmer in der Dämmerung, eine kleine Nachttischlampe wirft warmes goldenes Licht, eine Mutter sitzt am Bettrand und streicht dem Kind über den Rücken, sanfte honigfarbene Töne."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "eltern.webp",
+    "szene": "Frau steht am Küchenfenster mit einer Tasse in beiden Händen, Morgensonne im Gesicht, entspannter Moment für sich, weiches Gegenlicht."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "uebergaenge.webp",
+    "szene": "Haustür von innen gesehen, warmes Herbstlicht strömt herein, ein Kind mit Rucksack geht hinaus, die Mutter steht im Türrahmen und lächelt ihm nach."
+  },
+  {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "reizueberflutung.webp",
+    "szene": "Helles ruhiges Wohnzimmer am späten Nachmittag, ein Kind sitzt entspannt allein in einer weichen Kissenecke am großen Fenster, Sonne fällt in breiten Streifen über den Holzboden, sehr viel Luft und Ruhe im Bild, wenig Möbel."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "eltern-test.webp",
+    "szene": "Zwei Erwachsene und zwei Kinder am sonnigen Esstisch, lebendiger fröhlicher Alltagsmoment mitten in einer Bewegung, warmes Licht von der Seite."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "wie-klar-ist-dein-nein.webp",
+    "szene": "Mutter kniet im hellen Wohnzimmer vor einem Kleinkind, freundliches ruhiges Gesicht, offene Handfläche, das Kind schaut zu ihr auf, warmes Fensterlicht."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "beduerfnis-oder-wunsch.webp",
+    "szene": "Heller Supermarkt, ein Kind steht vor einem Regal, die Mutter daneben in der Hocke auf Augenhöhe, beide entspannt, freundliche Stimmung."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "konsequenz-oder-strafe.webp",
+    "szene": "Sonnige Küche, ein umgekipptes Glas Wasser auf dem Holzboden, Kind und Mutter wischen zusammen mit einem Tuch auf, beide gelassen, fast heiter."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "abend-test.webp",
+    "szene": "Kinderzimmer im warmen Abendlicht, ein aufgeschlagenes Bilderbuch auf der Bettdecke, eine Hand blättert um, goldene ruhige Stimmung."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "kraft-test.webp",
+    "szene": "Frau sitzt in warmem Morgenlicht auf einer Fensterbank, Tasse in der Hand, entspannt und bei sich, weiches Gegenlicht, Zimmerpflanze daneben."
+  },
+  {
+    "gruppe": "Test-Kacheln",
+    "ordner": "tests",
+    "format": "1200 x 800 (3:2)",
+    "datei": "reizprofil-test.webp",
+    "szene": "Kind sitzt auf einem hellen Teppich und sortiert konzentriert Kastanien und Steine in kleine Holzschalen, ruhige Hände im warmen Licht, im Hintergrund unscharf ein sonniges Fenster."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "autoritativer-erziehungsstil.webp",
+    "szene": "Mutter kniet im sonnigen Flur vor einem vierjährigen Kind, eine Hand auf dessen Schulter, warmer Blickkontakt, beide entspannt."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "autoritativ-oder-autoritaer.webp",
+    "szene": "Vater sitzt im Schneidersitz auf dem hellen Küchenboden, auf Augenhöhe mit einem Vierjährigen, offene freundliche Haltung, Vormittagssonne."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "beduerfnis-oder-wunsch.webp",
+    "szene": "Kleines Kind hält im hellen Supermarkt eine Packung in der Hand, die Mutter daneben in der Hocke, freundlich und gelassen."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "beduerfnisorientierte-erziehung-kritik.webp",
+    "szene": "Frau sitzt in warmem Morgenlicht am Küchentisch mit einer Tasse, ein Kind spielt zufrieden im unscharfen Vordergrund, ruhige helle Stimmung."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "erziehungsstile-fuer-eltern.webp",
+    "szene": "Sonniger Esstisch von schräg oben, zwei Erwachsene und drei Kinder, alle in Bewegung, fröhliches lebendiges Familienbild."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "warum-eltern-heute-unsicher-sind.webp",
+    "szene": "Frau sitzt am Abend mit einem Buch auf dem Sofa, warme Stehlampe daneben, nachdenklich aber entspannt, im Hintergrund eine angelehnte Kinderzimmertür."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "was-kinder-sicher-macht.webp",
+    "szene": "Kind läuft auf einem sonnigen Feldweg voraus und dreht sich lachend nach den Eltern um, goldenes Abendlicht, weites warmes Bild."
+  },
+  {
+    "gruppe": "Silo 1: Die Grundlagen",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "gentle-parenting-und-grenzen.webp",
+    "szene": "Am Ausgang eines sonnigen Spielplatzes hält eine Mutter freundlich die Hand eines Kleinkindes, beide in Bewegung, warmes Licht durch Blätter."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "grenzen-setzen-kleinkind.webp",
+    "szene": "Vater kniet im hellen Flur vor einem Zweijährigen und hält behutsam dessen Hand, freundliches ruhiges Gesicht, Sonne durch die Tür."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-hoert-nicht-trotz-konsequenz.webp",
+    "szene": "Mutter steht gelassen im Türrahmen eines sonnigen Kinderzimmers, das Kind spielt vertieft am Boden, warmes Nachmittagslicht."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-testet-grenzen-nur-bei-mir.webp",
+    "szene": "Helle Kita-Garderobe beim Abholen, ein Kind schmiegt sich an seine Mutter, sie lächelt, andere Kinder unscharf im warmen Hintergrund."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wenn-die-grenze-ueberschritten-ist.webp",
+    "szene": "Nahaufnahme: eine Erwachsenenhand hält behutsam eine Kinderhand, warmes Sonnenlicht auf der Haut, weicher heller Hintergrund."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "konsequenz-oder-strafe.webp",
+    "szene": "Sonnige Küche, Kind und Mutter wischen gemeinsam verschüttetes Wasser vom Holzboden auf, beide gelassen, fast heiter."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "nachgeben-oder-durchhalten.webp",
+    "szene": "Mutter sitzt auf der Kante eines Kinderbetts im warmen Abendlicht, das Kind streckt die Arme aus, zugewandter ruhiger Moment."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wie-viele-regeln-braucht-ein-kind.webp",
+    "szene": "Helle Küchenwand mit einer kleinen Magnettafel und wenigen handgeschriebenen Zetteln, im unscharfen Vordergrund eine Familie am sonnigen Tisch."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "nein-sagen-ohne-schlechtes-gewissen.webp",
+    "szene": "Mutter in der Hocke vor ihrem Kind im hellen Wohnzimmer, eine Hand auf dessen Rücken, warmes freundliches Gesicht, Sonnenlicht von der Seite."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "machtkampf-kleinkind.webp",
+    "szene": "Dreijähriges Kind sitzt entschlossen mit verschränkten Armen auf dem sonnigen Wohnzimmerboden, die Mutter sitzt gelassen und freundlich daneben."
+  },
+  {
+    "gruppe": "Silo 2: Grenzen und Führung",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-schlaegt-und-haut.webp",
+    "szene": "Vater kniet zwischen zwei Geschwisterkindern auf einem hellen Teppich, eine ruhige Hand auf jeder Schulter, warme entspannte Stimmung."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "selbstregulation-kind.webp",
+    "szene": "Kind sitzt konzentriert auf einer sonnigen Fensterbank und sortiert kleine Gegenstände, warmes Licht, Zimmerpflanze daneben."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "ko-regulation.webp",
+    "szene": "Mutter hält ihr Kleinkind eng im Arm, Wange an dessen Kopf, Augen geschlossen, sehr weiches goldenes Fensterlicht."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wutanfall-begleiten.webp",
+    "szene": "Helles Wohnzimmer, ein Kind liegt bäuchlings auf dem Teppich, die Mutter sitzt ruhig und geduldig daneben, warmes Nachmittagslicht."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "frustrationstoleranz-kind.webp",
+    "szene": "Kind versucht konzentriert einen Reißverschluss zu schließen, die Mutter sitzt lächelnd daneben und lässt es machen, sonniger Flur."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-beruhigt-sich-nicht.webp",
+    "szene": "Warmes ruhiges Zimmer, ein Kind lehnt erschöpft an der Schulter eines Elternteils, beide sitzen am Boden, weiches goldenes Licht."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "gefuehle-benennen.webp",
+    "szene": "Mutter und Kind sitzen Stirn an Stirn auf dem sonnigen Sofa, leises Gespräch, beide lächeln leicht."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wann-wutanfall-nicht-normal.webp",
+    "szene": "Helles freundliches Wartezimmer einer Kinderarztpraxis, Mutter mit einem Kind auf dem Schoß, beide entspannt, viel Tageslicht."
+  },
+  {
+    "gruppe": "Silo 3: Gefühle und Selbstregulation",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wutanfall-in-der-oeffentlichkeit.webp",
+    "szene": "Heller Supermarktgang, eine Mutter geht bei ihrem Kind in die Hocke und spricht ruhig mit ihm, freundliche Stimmung, andere Menschen weit unscharf."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "schlaf-als-fuehrungsaufgabe.webp",
+    "szene": "Kinderzimmer am Abend, warmes goldenes Licht aus dem Flur, die Mutter steht lächelnd in der halboffenen Tür, das Kind liegt zufrieden im Bett."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "einschlafbegleitung-wie-lange.webp",
+    "szene": "Mutter sitzt im warmen Lampenlicht am Bettrand, das Kind ist fast eingeschlafen, honigfarbene ruhige Stimmung."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "einschlafbegleitung-macht-wuetend.webp",
+    "szene": "Kinderzimmer im warmen Abendlicht, eine Mutter sitzt entspannt am Boden an das Bett gelehnt, Hörstöpsel im Ohr, gelassener Moment."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "abendroutine-die-haelt.webp",
+    "szene": "Helles Badezimmer, ein Kind putzt auf einem Hocker vor dem Waschbecken die Zähne, die Mutter steht lächelnd daneben, warmes Licht."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-steht-abends-immer-auf.webp",
+    "szene": "Ein Kind im Schlafanzug steht barfuß im Türrahmen, dahinter der warm beleuchtete Flur, freundliche gemütliche Abendstimmung."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-will-nur-mit-mama-einschlafen.webp",
+    "szene": "Vater sitzt im warmen Lampenlicht am Kinderbett und erzählt etwas, das Kind hört zu, gemütliche goldene Stimmung."
+  },
+  {
+    "gruppe": "Silo 4: Schlaf und Abend",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "mittagsschlaf-wann-vorbei.webp",
+    "szene": "Kinderzimmer am Nachmittag, ein Kind liegt wach und zufrieden im Bett, warmes Sonnenlicht fällt in breiten Streifen zwischen den Vorhängen hindurch."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "elterliche-erschoepfung.webp",
+    "szene": "Frau sitzt in warmem Morgenlicht in der Küche, beide Hände um eine Tasse, Blick aus dem Fenster, ruhiger Moment für sich, Zimmerpflanze am Fenster."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-angeschrien-was-jetzt.webp",
+    "szene": "Mutter und Kind sitzen wieder eng nebeneinander auf dem sonnigen Sofa, Schulter an Schulter, versöhnte warme Stimmung."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "nicht-konsequent-sein-koennen.webp",
+    "szene": "Frau steht im hellen Flur und atmet einen Moment durch, freundliches nachdenkliches Gesicht, im unscharfen Hintergrund ein spielendes Kind."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wenn-ihr-unterschiedlich-erzieht.webp",
+    "szene": "Zwei Erwachsene stehen abends in der warm beleuchteten Küche, zugewandt im Gespräch, entspannte Haltung, gemütliches Licht."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "ich-mag-mein-kind-gerade-nicht.webp",
+    "szene": "Frau sitzt in warmem Licht auf einer Treppenstufe, ruhig und gefasst, im weichen Hintergrund eine angelehnte Kinderzimmertür."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "eigene-wut-regulieren.webp",
+    "szene": "Frau steht am offenen Fenster und atmet tief durch, Sonne im Gesicht, ruhiger gesammelter Moment, helle Wohnung."
+  },
+  {
+    "gruppe": "Silo 5: Für dich als Elternteil",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wo-bleiben-meine-beduerfnisse.webp",
+    "szene": "Frau geht allein einen sonnigen Weg zwischen Bäumen entlang, warmes Morgenlicht durch die Blätter, freier heller Raum."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "uebergaenge-begleiten.webp",
+    "szene": "Sonniger Wohnungsflur, ein Kind zieht sich die Schuhe an, die Mutter wartet geduldig daneben, Jacke über dem Arm."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kita-eingewoehnung-kind-weint.webp",
+    "szene": "Helle Kita-Garderobe, eine Mutter kniet vor ihrem Kind und hält beide Hände, warmer zugewandter Abschied, Erzieherin unscharf im Hintergrund."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "erste-schulwochen.webp",
+    "szene": "Kind mit großem Schulranzen geht einen sonnigen Gehweg entlang, goldenes Herbstlicht, buntes Laub, fröhliche Stimmung."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "morgens-ohne-geschrei.webp",
+    "szene": "Sonniger Frühstückstisch am Morgen, ein Kind sitzt verschlafen davor, die Mutter legt lächelnd Kleidung auf einen Stuhl, warmes Licht."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "zeitumstellung-mit-kind.webp",
+    "szene": "Kinderzimmer im ersten warmen Morgenlicht, ein Kind sitzt fröhlich wach im Bett, goldene Sonne fällt durch den Vorhang."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "geschenke-und-konsum.webp",
+    "szene": "Kind sitzt im warmen Licht auf dem Wohnzimmerboden vor einem einzigen ausgepackten Geschenk, konzentrierte stille Freude, Papier daneben."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "familienregeln-jahreswechsel.webp",
+    "szene": "Helle Küche im klaren Wintersonnenlicht, ein Familienkalender an der Wand, im unscharfen Vordergrund eine Tasse, freundliche Neuanfang-Stimmung."
+  },
+  {
+    "gruppe": "Silo 6: Übergänge im Familienjahr",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wenn-oma-anders-erzieht.webp",
+    "szene": "Großmutter und Enkelkind sitzen zusammen am sonnigen Küchentisch, ein Kuchen zwischen ihnen, herzliche warme Stimmung."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-staendig-ueberdreht.webp",
+    "szene": "Kind rennt barfuß über eine sonnige Wiese im Garten, viel Bewegung und Lebensfreude, warmes Gegenlicht, im unscharfen Hintergrund eine Terrasse mit Kissen und einer Decke."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-rastet-nach-kita-und-schule-aus.webp",
+    "szene": "Heller Wohnungsflur am Nachmittag, ein Kind ist gerade angekommen und lehnt sich an seine Mutter, die Jacke noch halb an, der Ranzen liegt am Boden, ruhiger Moment des Ankommens im warmen Licht."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "meltdown-oder-trotzanfall.webp",
+    "szene": "Wohnzimmerboden im Nachmittagslicht, eine Mutter sitzt mit etwas Abstand ruhig neben ihrem Kind auf dem Teppich, das Kind lehnt entspannt an einem großen Kissen, geduldige stille Nähe ohne Berührung."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-haelt-sich-die-ohren-zu.webp",
+    "szene": "Kind sitzt entspannt mit einem Kapselgehörschutz in einer hellen Leseecke und blättert in einem Bilderbuch, zufriedene ruhige Haltung, weiche Kissen, Sonnenlicht auf dem Boden."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-will-sich-nicht-anziehen.webp",
+    "szene": "Helles Kinderzimmer am Vormittag, ein Kind sitzt auf dem Boden und zieht sich in aller Ruhe Socken an, die Mutter kniet geduldig daneben, die Kleidung liegt geordnet auf einem kleinen Hocker."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "waehlerisches-kind-essen.webp",
+    "szene": "Sonniger Frühstückstisch mit mehreren kleinen Schälchen, ein Kind greift entspannt nach einem Stück Obst, die Mutter isst nebenher und schaut nicht hin, ganz unangestrengte Stimmung."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-will-nicht-mehr-zur-schule.webp",
+    "szene": "Kinderzimmer im weichen Morgenlicht, eine Mutter sitzt neben ihrem Kind auf der Bettkante, beide ruhig und ohne Eile, der gepackte Schulranzen steht daneben."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "gefuehlsstark-oder-adhs.webp",
+    "szene": "Kind sitzt konzentriert auf dem Wohnzimmerboden und baut mit Holzklötzen, ganz in die Sache versunken, warmes Licht auf den Händen, die Mutter im unscharfen Hintergrund auf dem Sofa."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "aussagen-statt-aufforderungen.webp",
+    "szene": "Mutter und Kind stehen nebeneinander am großen Fenster und schauen zusammen nach draußen, die Mutter zeigt auf etwas, beide in dieselbe Richtung gewandt, ruhige gemeinsame Aufmerksamkeit."
+  },
+  {
+    "gruppe": "Silo 7: Wenn alles zu viel wird",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "elterngespraech-kind-faellt-auf.webp",
+    "szene": "Zwei Erwachsene sitzen einander zugewandt an einem hellen Holztisch, ein aufgeschlagenes Heft und zwei Tassen zwischen ihnen, ruhiges sachliches Gespräch auf Augenhöhe, sonniger Raum mit einer Zimmerpflanze, kein Kind im Bild."
+  }
 ]
