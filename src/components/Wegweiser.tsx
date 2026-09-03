@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { KachelBild } from "@/components/ArtikelBild";
 import {
   SILOS,
@@ -183,7 +183,7 @@ export function NeueArtikel({
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {artikel.map((a) => (
             <Link key={a.slug} href={artikelUrl(a.slug)} className="kachel group flex flex-col">
-              <KachelBild src={a.bild} alt={a.bildAlt} hoehe="11rem" />
+              <KachelBild src={a.bild} alt={a.bildAlt} hoehe="11rem" position={a.bildPosition} />
               <div className="px-4 pt-6 pb-4 flex flex-col flex-1">
                 <p className="text-overline text-terra/70 mb-4">{SILOS[a.silo].name}</p>
                 <h3 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">

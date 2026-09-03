@@ -6,6 +6,9 @@ eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
 datum: '2026-09-02'
 lesezeit: 10
+# Die Erwachsene lehnt sich von oben ins Bild, ihr Kopf sitzt am oberen
+# Rand. Der Standardausschnitt schneidet ihn an.
+bildPosition: 'center 0%'
 test: eltern-test
 verwandt:
   - selbstwert-staerken-kind

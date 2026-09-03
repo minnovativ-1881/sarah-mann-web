@@ -50,12 +50,17 @@ export function KachelBild({
   src,
   alt,
   hoehe = "12rem",
-  position = "center 42%",
+  position,
 }: {
   src?: string;
   alt?: string;
   hoehe?: string;
-  /** Testfotos sind breiter beschnitten, dort muss der Ausschnitt hoeher sitzen. */
+  /**
+   * Testfotos sind breiter beschnitten, dort muss der Ausschnitt hoeher
+   * sitzen. Artikelkacheln reichen den Wert aus dem Frontmatter durch:
+   * Wer im Kopfbild einen hoeheren Ausschnitt braucht, braucht ihn in der
+   * Kachel erst recht, denn die schneidet noch mehr weg.
+   */
   position?: string;
 }) {
   if (!src) return null;
@@ -67,7 +72,7 @@ export function KachelBild({
         fill
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
         className="transition-transform duration-700 group-hover:scale-105"
-        style={{ objectFit: "cover", objectPosition: position }}
+        style={{ objectFit: "cover", objectPosition: position ?? "center 42%" }}
       />
     </div>
   );

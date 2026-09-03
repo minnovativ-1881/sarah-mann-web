@@ -1,4 +1,4 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TestEngine from "@/components/TestEngine";
@@ -114,7 +114,7 @@ export default function SiloSeite({ silo: key }: { silo: SiloSlug }) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {liste.map((a) => (
               <Link key={a.slug} href={artikelUrl(a.slug)} className="kachel group flex flex-col">
-                <KachelBild src={a.bild} alt={a.bildAlt} />
+                <KachelBild src={a.bild} alt={a.bildAlt} position={a.bildPosition} />
                 <div className="px-4 pt-6 pb-4 flex flex-col flex-1">
                   <h2 className="font-serif text-deep text-xl lg:text-2xl leading-snug mb-3 group-hover:text-terra transition-colors">
                     {a.titel}
