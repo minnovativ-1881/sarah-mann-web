@@ -28,11 +28,11 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci
@@ -52,7 +52,9 @@ jobs:
 
       - name: Stand zurueckschreiben
         run: |
-          if git diff --quiet telegram/zustand.json; then
+          # git status statt git diff: funktioniert auch, wenn die Datei noch
+          # gar nicht existiert, etwa beim ersten Lauf oder im Trockenlauf.
+          if [ -z "$(git status --porcelain telegram/zustand.json)" ]; then
             echo "Nichts gesendet, nichts zu committen."
             exit 0
           fi
