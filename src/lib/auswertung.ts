@@ -18,6 +18,15 @@ import { TEST_DETAILS, ACHSEN_TEXTE, type AchsenStufe } from "@/lib/test-details
  * noch den Platzhalter setzen muss.
  */
 
+/**
+ * Der Telegram-Kanal, auf den die Auswertung am Ende hinweist.
+ *
+ * Steht hier und nicht in der Mailvorlage, weil so jede Auswertung den
+ * Hinweis automatisch mitbringt, auch bei einem neuen Test.
+ */
+const KANAL_URL = "https://t.me/klarefuehrung_volleliebe";
+const KANAL_NAME = "Klare Führung, volle Liebe";
+
 export type BereichsBefund = {
   bereich: string;
   satz: string;
@@ -251,6 +260,16 @@ export function ergebnisHtml(test: Test, a: Auswertung): string {
     `<p style="${p}font-size:14px;color:#6b6b66;">Punkte: ${a.gesamt} von ${a.max} (${a.prozent} Prozent). Der Test ist eine Selbsteinschätzung und keine Diagnose.</p>`,
   );
 
+  // Zwei Saetze zum Telegram-Kanal, ganz am Ende und durch eine Haarlinie
+  // abgesetzt, damit sie als Nachsatz gelesen werden und nicht als Teil der
+  // Auswertung.
+  teile.push(
+    `<p style="margin:26px 0 0;padding-top:16px;border-top:1px solid #E7E4DE;line-height:1.55;">` +
+      `Jeden Tag um 16 Uhr schreibe ich einen kurzen Gedanken in meinen Telegram-Kanal, in sechzig Sekunden gelesen. ` +
+      `Wenn du magst, komm dazu: <a href="${KANAL_URL}" style="color:#136B73;">${KANAL_NAME}</a>.` +
+      `</p>`,
+  );
+
   return teile.join("\n");
 }
 
@@ -295,5 +314,10 @@ export function ergebnisText(test: Test, a: Auswertung): string {
     a.ergebnis.schritte.forEach((s, i) => zeilen.push(`${i + 1}. ${s}`));
   }
   zeilen.push("", `Punkte: ${a.gesamt} von ${a.max} (${a.prozent} Prozent).`);
+  zeilen.push(
+    "",
+    "Jeden Tag um 16 Uhr schreibe ich einen kurzen Gedanken in meinen Telegram-Kanal, in sechzig Sekunden gelesen.",
+    `Wenn du magst, komm dazu: ${KANAL_URL}`,
+  );
   return zeilen.join("\n");
 }
