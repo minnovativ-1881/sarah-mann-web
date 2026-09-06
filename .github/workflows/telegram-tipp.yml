@@ -1,0 +1,63 @@
+name: Telegram-Tagestipp
+
+# Laeuft zweimal, weil GitHub nur UTC kennt: 14:00 UTC ist Sommerzeit 16 Uhr in
+# Berlin, 15:00 UTC ist Winterzeit 16 Uhr. Das Skript prueft selbst, welcher der
+# beiden Laeufe der richtige ist, und bricht beim anderen sofort ab.
+on:
+  schedule:
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      modus:
+        description: "Was soll passieren?"
+        type: choice
+        default: trocken
+        options:
+          - trocken
+          - senden
+
+concurrency:
+  group: telegram-tagestipp
+  cancel-in-progress: false
+
+jobs:
+  tipp:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Beitrag senden
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+        run: |
+          if [ "${{ inputs.modus }}" = "trocken" ]; then
+            node telegram/skripte/posten.mjs --trocken
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            node telegram/skripte/posten.mjs --jetzt
+          else
+            node telegram/skripte/posten.mjs
+          fi
+
+      - name: Stand zurueckschreiben
+        run: |
+          if git diff --quiet telegram/zustand.json; then
+            echo "Nichts gesendet, nichts zu committen."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add telegram/zustand.json
+          git commit -m "Telegram: Tagestipp gesendet"
+          git push
