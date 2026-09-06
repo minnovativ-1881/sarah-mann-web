@@ -44,13 +44,15 @@ der Post auch im 1:1-Zuschnitt des Explore-Feeds funktioniert. Details im Skill
 **Upload direkt in der Instagram-App.** Die Meta Business Suite beschneidet 3:4
 gelegentlich noch.
 
-## Die sieben Folientypen
+## Die neun Folientypen
 
 | Typ | Wofür | Felder |
 |---|---|---|
 | `hook` | Folie 1, die Aussage, die den Daumen stoppt | `eyebrow`, `titel`, `unter` |
 | `wende` | die Kehrtwende danach | `eyebrow`, `titel`, `text` |
 | `punkt` | ein Gedanke pro Folie, durchnummeriert | `nummer`, `titel`, `text` |
+| `gedanke` | eine Folie im laufenden Gedanken, viel Luft | `titel`, `text`, `klein` |
+| `liste` | Aufzählung in der Ichform | `eyebrow`, `titel`, `punkte` |
 | `zitat` | ein Satz, der für sich steht | `titel`, `text` |
 | `portraet` | Hook mit Sarah, **nur hell** | `eyebrow`, `titel`, `text` |
 | `person` | wer das schreibt, rundes Foto | `eyebrow`, `text` |
@@ -151,6 +153,21 @@ die Schuld. Erst erkannt werden, dann verstanden werden.
 
 Zwei Beispiele liegen als Decks bereit:
 `decks/beispiel-einstieg-hell.json` und `decks/beispiel-einstieg-dunkel.json`.
+
+### Der zweite Vorrat: erzählend
+
+`hooks-erzaehlend.md` ist die andere Tonlage. Statt einer harten Aussage in
+zwei Folien läuft dort ein Gedanke über fünf bis sieben Folien, in Sarahs
+eigener Stimme. Sechs Formen mit Beispielen: der laufende Gedanke, die Liste
+aus dem eigenen Leben, der Brief, die abgebrochene Szene, die ehrliche
+Neugierlücke und das Protokoll.
+
+Die Datei hält auch fest, was auf Instagram im deutschen Erziehungsbereich
+gerade tatsächlich läuft, und warum unsere ersten Entwürfe sich generisch
+anfühlen: nicht wegen der Form, sondern weil sie von Erziehung im Allgemeinen
+handeln. Sobald der Text aus Sarahs Haushalt kommt, ist er unverwechselbar.
+
+Beispiel-Decks: `decks/beispiel-gedankengang.json` und `decks/beispiel-liste.json`.
 
 ## Die letzte Folie
 

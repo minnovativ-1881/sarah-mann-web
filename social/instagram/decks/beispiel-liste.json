@@ -1,0 +1,28 @@
+{
+  "titel": "Beispiel: Liste aus dem eigenen Leben",
+  "variante": "hell",
+  "quelle": "/wissen/nein-sagen-ohne-schlechtes-gewissen/",
+  "folien": [
+    {
+      "typ": "liste",
+      "eyebrow": "Diese Woche",
+      "titel": "Dinge, zu denen ich Nein gesagt habe. *Um niemanden zu ärgern.*",
+      "punkte": [
+        "Zum vierten Buch, obwohl das dritte schön war.",
+        "Zum Fernseher vor dem Frühstück.",
+        "Zu einem Nachmittag, an dem noch etwas dazwischengepasst hätte.",
+        "Und einmal zu mir selbst, als ich schon wieder erklären wollte."
+      ]
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Jedes dieser Neins hat *im Bauch gezogen.*",
+      "text": "Nicht bei meinem Kind. Bei mir."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Das Ziehen kommt nicht von ihm.",
+      "text": "Es kommt von einem Satz, den ich selbst als Kind gehört habe. Und der hat mit heute Abend nichts zu tun."
+    }
+  ]
+}

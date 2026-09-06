@@ -201,6 +201,48 @@ const TYPEN = {
   },
 
   /**
+   * Ein Gedanke, der ueber mehrere Folien laeuft.
+   *
+   * Fuer den erzaehlenden Aufbau: sehr wenig Text, viel Luft, kein Eyebrow,
+   * keine Ueberschrift. Der Leser wischt weiter, weil der Gedanke noch nicht
+   * zu Ende ist, nicht weil eine Nummer ihn dazu auffordert.
+   */
+  gedanke(folie, p) {
+    const groesse = folie.klein ? 52 : 66;
+    return `
+      <div style="margin:auto 0">
+        <p class="titel" style="font-size:${groesse}px;line-height:1.3">${betonen(folie.titel, p)}</p>
+        ${folie.text ? `<p class="text" style="margin-top:34px">${folie.text}</p>` : ""}
+      </div>`;
+  },
+
+  /**
+   * Eine Liste aus dem eigenen Leben.
+   *
+   * Keine Ratgeberliste, sondern eine Aufzaehlung in der Ichform. Der Reiz
+   * liegt darin, dass jemand etwas von sich preisgibt, nicht darin, dass
+   * jemand etwas erklaert.
+   */
+  liste(folie, p) {
+    const punkte = (folie.punkte || [])
+      .map(
+        (x) => `<li style="display:flex;gap:20px;margin-bottom:22px;align-items:flex-start">
+                  <span style="flex:0 0 auto;width:20px;height:1px;background:${p.akzent};
+                               margin-top:26px;opacity:.9"></span>
+                  <span style="font-family:'Cormorant Garamond',Georgia,serif;font-size:44px;
+                               line-height:1.24;color:${p.text}">${x}</span>
+                </li>`,
+      )
+      .join("");
+    return `
+      <div style="margin:auto 0">
+        ${folie.eyebrow ? `<p class="eyebrow" style="margin-bottom:26px">${folie.eyebrow}</p>` : ""}
+        ${folie.titel ? `<h2 class="titel" style="font-size:58px;line-height:1.18;margin-bottom:36px">${betonen(folie.titel, p)}</h2>` : ""}
+        <ul style="list-style:none">${punkte}</ul>
+      </div>`;
+  },
+
+  /**
    * Sarah selbst. Bei einer Personenmarke hebt ein Gesicht die Verweildauer,
    * und der Leser merkt sich, von wem der Gedanke kam.
    */
