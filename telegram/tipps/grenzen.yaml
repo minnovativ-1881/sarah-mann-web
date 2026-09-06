@@ -37,6 +37,75 @@
     Hose, welches Buch, in welcher Reihenfolge. Dort dürfen Kinder
     mitentscheiden, und sie sollten es auch.
 
+- id: grenzen-setzen-kleinkind-03
+  artikel: grenzen-setzen-kleinkind
+  titel: Will dein Kind gerade nicht, oder kann es nicht?
+  heikel: false
+  text: |
+    Diese Unterscheidung verändert alles.
+
+    Ein Kind, das müde, hungrig oder überreizt ist, hat keinen Zugriff auf seine
+    Selbstbeherrschung. Sie ist in diesem Moment schlicht nicht verfügbar.
+
+    Wer das mit Unwillen verwechselt, erhöht den Druck und macht es schlimmer.
+
+    Bei „kann nicht“ kommt erst Beruhigung, dann alles andere. Bei „will nicht“
+    hilft Klarheit.
+
+- id: grenzen-setzen-kleinkind-04
+  artikel: grenzen-setzen-kleinkind
+  titel: Der Ablauf, der fast immer funktioniert
+  heikel: false
+  text: |
+    Er ist unspektakulär, und der schwierige Teil ist nicht das Verstehen.
+
+    Einmal sagen. Ruhig, kurz, als Aussage. Nicht als Frage.
+
+    Hingehen. Nicht aus dem Nebenzimmer rufen.
+
+    Handeln. Ein zweites Mal sagen, verbunden mit dem, was du tust: „Ich helfe
+    dir jetzt.“ Und dann hilfst du.
+
+    Das Gefühl anerkennen, ohne die Sache zurückzunehmen. „Du bist wütend, das
+    verstehe ich. Und wir gehen trotzdem.“
+
+    Das ist alles. Schwierig ist nur der Verzicht auf die Wiederholungen drei
+    bis acht.
+
+- id: grenzen-setzen-kleinkind-05
+  artikel: grenzen-setzen-kleinkind
+  titel: Ein einjähriges Kind ist nicht ungehorsam
+  heikel: false
+  text: |
+    Die häufigste Überforderung entsteht, weil von einem Kind etwas erwartet
+    wird, das es entwicklungsbedingt noch nicht leisten kann.
+
+    Ein einjähriges Kind, das zum dritten Mal zur Steckdose krabbelt, hat das
+    Verbot nicht abrufbar. Es erinnert es schlicht nicht.
+
+    In diesem Alter ist die einzige wirksame Grenze eine Steckdosensicherung.
+
+    Zwischen ein und zwei versteht ein Kind ein Nein im Moment, kann den Impuls
+    aber nicht bremsen. Auch dort gilt: handeln statt reden.
+
+- id: grenzen-setzen-kleinkind-06
+  artikel: grenzen-setzen-kleinkind
+  titel: Rechne mit ein paar anstrengenden Tagen
+  heikel: false
+  text: |
+    Wenn du anfängst, eine Grenze wirklich zu halten, wird es zuerst
+    anstrengender, nicht leichter.
+
+    Dein Kind hat gelernt, dass der Ernstfall spät kommt, und wird prüfen, ob
+    das noch stimmt.
+
+    Dieses Prüfen ist kein Rückschlag. Es ist der Beweis, dass es die
+    Veränderung bemerkt hat.
+
+    Nach etwa ein bis zwei Wochen wird es in aller Regel deutlich ruhiger. Nicht
+    weil dein Kind aufgegeben hat, sondern weil es nicht mehr herausfinden muss,
+    woran es ist.
+
 - id: kind-schlaegt-und-haut-01
   artikel: kind-schlaegt-und-haut
   titel: „Sag jetzt Entschuldigung“
@@ -67,3 +136,470 @@
     Das ist mühsam, und es ist der Punkt, an dem sich über Wochen wirklich etwas
     verändert. Der Moment selbst wird gestoppt. Das Muster verändert sich
     woanders.
+
+- id: kind-schlaegt-und-haut-03
+  artikel: kind-schlaegt-und-haut
+  titel: Warum kleine Kinder hauen
+  heikel: true
+  freigegeben: false
+  text: |
+    Es gibt drei Gründe, und keiner davon ist Bosheit.
+
+    Die Worte fehlen. Ein Kind zwischen anderthalb und drei hat viel mehr
+    Gefühle als Sprache. Der Körper ist der schnellste Ausgang.
+
+    Der Impuls lässt sich nicht bremsen. Ein zweijähriges Kind hat nicht
+    entschieden zu hauen. Es hat gehauen, und danach kommt der Gedanke.
+
+    Das Gefühl ist zu groß. Wenn nichts davon herauskann, kommt es körperlich
+    heraus.
+
+    Das Verhalten ist ein Zeichen fehlender Fähigkeiten, nicht ein Ausdruck von
+    Charakter.
+
+- id: kind-schlaegt-und-haut-04
+  artikel: kind-schlaegt-und-haut
+  titel: Mein Kind haut nur mich
+  heikel: false
+  text: |
+    Sehr viele Eltern erleben das. In der Kita nie, bei der Oma nie, zu Hause
+    regelmäßig.
+
+    Das fühlt sich nach fehlendem Respekt an und ist das Gegenteil.
+
+    Ein Kind zeigt das Schwierigste dort, wo es sich am sichersten fühlt. Es
+    hält sich den Vormittag in der Gruppe zusammen, weil es dort wachsamer ist,
+    und lässt zu Hause los.
+
+    Am Vorgehen ändert das nichts. Aber es ändert die Deutung, und die Deutung
+    entscheidet über deinen Ton.
+
+- id: kind-testet-grenzen-nur-bei-mir-01
+  artikel: kind-testet-grenzen-nur-bei-mir
+  titel: „Also bei mir macht er das nie“
+  heikel: false
+  text: |
+    Diesen Satz hören viele Eltern freundlich gesagt, und er setzt trotzdem zu.
+    Wenn es bei allen anderen klappt, liegt es wohl an mir.
+
+    Es ist genau umgekehrt.
+
+    Ein Kind in fremder Umgebung hat eine offene Frage im Kopf: Was passiert
+    hier, wenn ich mich gehen lasse? Es kennt die Antwort nicht, also nimmt es
+    sich zusammen.
+
+    Bei dir ist die Frage längst beantwortet. Dein Kind weiß, dass du bleibst.
+    Deshalb zeigt es dir alles.
+
+    Das ist kein Mangel an Autorität. Es ist das Zeichen, dass du der sichere
+    Ort bist.
+
+- id: kind-testet-grenzen-nur-bei-mir-02
+  artikel: kind-testet-grenzen-nur-bei-mir
+  titel: Die ersten zehn Minuten nach dem Abholen
+  heikel: false
+  text: |
+    Sich zusammenzunehmen kostet Energie. Ein Kind, das sechs oder acht Stunden
+    in einer Gruppe war, hat sie den ganzen Tag ausgegeben. Beim Anstehen. Beim
+    Teilen. Beim Warten. Beim Nicht-Schreien, obwohl es wollte.
+
+    Wenn du es abholst, ist der Vorrat leer. Deshalb kippt es oft schon auf dem
+    Parkplatz.
+
+    Die ersten zehn Minuten entscheiden über den halben Nachmittag. Keine Fragen
+    zum Tag, kein Einkauf hinterher. Ankommen lassen, körperlich nah sein, wenig
+    reden.
+
+- id: kind-testet-grenzen-nur-bei-mir-03
+  artikel: kind-testet-grenzen-nur-bei-mir
+  titel: Dein Kind testet nicht. Es stellt fest.
+  heikel: false
+  text: |
+    Dein Kind sitzt nicht da und überlegt, wie es deine Autorität untergraben
+    könnte. Einen Plan hat es nicht.
+
+    Aber es stellt fest. Immer wieder. Ob heute noch gilt, was gestern galt. Ob
+    das Nein auch beim vierten Mal steht. Ob die Regel auch dann gilt, wenn
+    Besuch da ist.
+
+    Es kann dich nicht fragen. Es muss es erfahren.
+
+    Deine Wahrnehmung stimmt also. Nur die Deutung als Absicht stimmt nicht. Und
+    wenn dein Kind viel prüft, fehlt selten Strenge. Es fehlt Verlässlichkeit.
+
+- id: nein-sagen-ohne-schlechtes-gewissen-01
+  artikel: nein-sagen-ohne-schlechtes-gewissen
+  titel: Enttäuschung ist kein Schaden
+  heikel: false
+  text: |
+    Wenn ein Kind weint, weil es das Eis nicht bekommt, ist nichts kaputt
+    gegangen. Es erlebt gerade ein unangenehmes Gefühl, in Begleitung eines
+    Menschen, der dableibt.
+
+    Genau daraus lernt es, dass unangenehme Gefühle vorbeigehen.
+
+    Ein Kind, das nie enttäuscht wird, hat keine Gelegenheit, das zu lernen.
+
+    Was schadet, ist nicht die Enttäuschung. Es ist, damit allein zu sein.
+
+- id: nein-sagen-ohne-schlechtes-gewissen-02
+  artikel: nein-sagen-ohne-schlechtes-gewissen
+  titel: Ein Nein, das nicht kalt ist
+  heikel: false
+  text: |
+    Beide Hälften im selben Satz. Das ist die ganze Technik.
+
+    „Ich sehe, dass du dir das sehr wünschst. Und wir kaufen es heute nicht.“
+
+    Ohne die erste Hälfte wird es kalt. Ohne die zweite wird es beliebig.
+
+    Dazu drei Kleinigkeiten, die viel ausmachen. Als Aussage formulieren, nicht
+    als Frage. Einmal begründen, nicht dreimal. Und nicht rechtfertigen: Der
+    Unterschied zwischen einer Begründung und einer Rechtfertigung ist, dass die
+    Rechtfertigung um Zustimmung bittet.
+
+- id: nein-sagen-ohne-schlechtes-gewissen-03
+  artikel: nein-sagen-ohne-schlechtes-gewissen
+  titel: „Du bist gemein“
+  heikel: false
+  text: |
+    Dieser Satz trifft viele Eltern hart, obwohl er harmlos ist.
+
+    Ein Kind darf in dem Moment finden, dass du gemein bist. Das ist der einzige
+    Ausdruck, den es für seine Enttäuschung gerade findet.
+
+    Was hilft: nicht widerlegen.
+
+    Nicht „Das ist nicht wahr, ich mache doch so viel für dich“, sondern „Du
+    bist gerade richtig sauer auf mich. Das darfst du sein.“
+
+    Kinder ziehen diese Meinung meistens von selbst zurück, wenn niemand darum
+    kämpft.
+
+- id: wie-viele-regeln-braucht-ein-kind-01
+  artikel: wie-viele-regeln-braucht-ein-kind
+  titel: Zu viele Regeln machen unsicher, nicht sicher
+  heikel: false
+  text: |
+    Regeln zu halten kostet Energie. Bei fünf Regeln reicht sie meistens. Bei
+    fünfundzwanzig reicht sie nie.
+
+    Was dann passiert, ist unvermeidlich: Ein Teil wird gehalten, ein Teil
+    nicht, und welcher Teil, hängt von der Tagesform ab.
+
+    Daraus lernt ein Kind nicht, welche Regeln gelten. Es lernt, dass Regeln
+    unsicher sind.
+
+    Also prüft es. Alle. Immer wieder. Deshalb wird in Familien mit vielen
+    Regeln oft mehr gestritten als in Familien mit wenigen.
+
+- id: wie-viele-regeln-braucht-ein-kind-02
+  artikel: wie-viele-regeln-braucht-ein-kind
+  titel: Der Grund, der keiner ist
+  heikel: false
+  text: |
+    Beobachte eine Woche lang, wie oft du am Tag Nein sagst und worum es geht.
+    Die Liste wird länger, als du denkst.
+
+    Dann sortiere: Sicherheit, Umgang miteinander, Rahmen des Tages. Das bleibt.
+    Bei allem anderen die Frage: Warum eigentlich?
+
+    Bei sehr vielen Regeln lautet die ehrliche Antwort: Weil es bei mir früher
+    so war. Oder weil es unordentlich aussieht. Oder weil ich es einmal spontan
+    gesagt habe und es seitdem gilt.
+
+    Nichts davon ist ein hinreichender Grund.
+
+- id: wie-viele-regeln-braucht-ein-kind-03
+  artikel: wie-viele-regeln-braucht-ein-kind
+  titel: Bei der Oma gilt etwas anderes
+  heikel: false
+  text: |
+    Das ist unproblematisch. Kinder lernen erstaunlich schnell, dass an
+    verschiedenen Orten verschiedene Regeln gelten, und kommen damit gut
+    zurecht.
+
+    Schwierig ist etwas anderes: wenn dieselbe Person je nach Laune
+    unterschiedlich reagiert.
+
+    Unterschiedliche Orte sind kein Problem. Unberechenbare Personen schon.
+
+    Daraus folgt auch der Umgang unter Erwachsenen: nicht versuchen, alle gleich
+    zu machen. Nur nicht die Grenze des anderen vor dem Kind aufheben.
+
+- id: kind-hoert-nicht-trotz-konsequenz-01
+  artikel: kind-hoert-nicht-trotz-konsequenz
+  titel: Der Ernstfall beginnt bei Nummer neun
+  heikel: true
+  freigegeben: false
+  text: |
+    Beim ersten Mal passiert nichts. Beim dritten wirst du deutlicher. Beim
+    siebten sagst du „Jetzt mal wirklich“. Beim neunten wirst du laut, und dann
+    bewegt sich etwas.
+
+    Dein Kind hat daraus etwas gelernt, und zwar völlig zu Recht: Der Ernstfall
+    beginnt bei Nummer neun. Alles davor ist Vorlauf.
+
+    Nicht aus Trotz. Aus Erfahrung.
+
+    Kinder sind sehr gute Beobachter dessen, was tatsächlich passiert, und sehr
+    schlechte Beobachter dessen, was wir gemeint haben.
+
+- id: kind-hoert-nicht-trotz-konsequenz-02
+  artikel: kind-hoert-nicht-trotz-konsequenz
+  titel: Nicht die Lautstärke wirkt
+  heikel: true
+  freigegeben: false
+  text: |
+    Wenn du laut wirst, passieren mehrere Dinge gleichzeitig. Du hörst auf zu
+    verhandeln. Du stehst auf. Du gehst hin. Dein Gesicht sagt: Damit ist
+    Schluss.
+
+    Zum ersten Mal in diesem ganzen Vorgang bist du eindeutig.
+
+    Genau darauf reagiert dein Kind. Nicht auf die Dezibel.
+
+    Das ist die gute Nachricht darin. Eindeutigkeit kannst du auch ruhig
+    herstellen. Sie ist nicht an Lautstärke gebunden, sie ist bisher nur immer
+    erst dort aufgetaucht.
+
+- id: kind-hoert-nicht-trotz-konsequenz-03
+  artikel: kind-hoert-nicht-trotz-konsequenz
+  titel: Wenn du keine Wahl anbieten willst, stell keine Frage
+  heikel: false
+  text: |
+    „Wollen wir jetzt die Zähne putzen?“ ist eine Frage. „Wir putzen jetzt die
+    Zähne“ ist eine Ansage.
+
+    Wenn du keine Wahl anbieten willst, dann stell auch keine. Sonst nimmt dein
+    Kind die Frage ernst und antwortet mit Nein, und dann bist du sauer über
+    eine Antwort, nach der du gefragt hast.
+
+    Und noch ein Punkt aus derselben Familie: Zwischen Ankündigung und Handeln
+    darf nicht zu viel Zeit liegen. Bis zum Abend sind sechs Stunden. Für ein
+    vierjähriges Kind ist das eine Ewigkeit.
+
+- id: machtkampf-kleinkind-01
+  artikel: machtkampf-kleinkind
+  titel: Warum es meistens kein Machtkampf ist
+  heikel: false
+  text: |
+    Ein Machtkampf setzt drei Dinge voraus: einen Plan, das Einkalkulieren der
+    Wirkung auf den anderen, und das Ziel, ihn zu unterwerfen.
+
+    Für alle drei braucht es Hirnfunktionen, die bei einem kleinen Kind noch
+    nicht ausgereift sind. Ein Zweijähriger kann keinen Plan über mehrere
+    Schritte verfolgen. Ein Dreijähriger kann sich nur ansatzweise vorstellen,
+    wie sich sein Verhalten für dich anfühlt.
+
+    Das Wort trifft nicht, was tatsächlich passiert. Und die falsche Deutung
+    führt zu falschen Antworten.
+
+- id: machtkampf-kleinkind-02
+  artikel: machtkampf-kleinkind
+  titel: Warum es sich trotzdem wie ein Kampf anfühlt
+  heikel: false
+  text: |
+    Zwei Dinge kommen zusammen, und beide haben nichts mit der Absicht deines
+    Kindes zu tun.
+
+    Die Ausdauer. Ein Kind kann eine Sache erstaunlich lange verfolgen, weil es
+    kein Zeitgefühl hat und weil ihm nichts anderes im Kopf herumgeht.
+    Erwachsene ermüden schneller. Das erzeugt den Eindruck von Kalkül.
+
+    Und die eigene Vorgeschichte. Viele Erwachsene reagieren auf Widerstand von
+    Kindern heftiger, als die Situation es verlangt, weil sie selbst gelernt
+    haben, dass Widerspruch etwas Bedrohliches ist.
+
+    Wer das bei sich kennt, entscheidet freier.
+
+- id: machtkampf-kleinkind-03
+  artikel: machtkampf-kleinkind
+  titel: Ich muss dich nicht besiegen
+  heikel: false
+  text: |
+    Einen Machtkampf beendet man, indem man ihn nicht führt.
+
+    Eine Grenze muss nicht in dieser Minute akzeptiert werden, um zu gelten.
+    Dein Kind darf protestieren, während du dabeibleibst.
+
+    Der Psychologe Haim Omer beschreibt unter dem Stichwort Neue Autorität eine
+    Form von Führung, die mit Präsenz und Beharrlichkeit arbeitet statt mit
+    Druck. Der Kerngedanke ungefähr: Ich muss dich nicht besiegen. Ich muss nur
+    da sein und bleiben.
+
+    Wer nicht gewinnen muss, muss auch nicht nachlegen.
+
+- id: machtkampf-kleinkind-04
+  artikel: machtkampf-kleinkind
+  titel: Schau auf die Uhr und auf den letzten Snack
+  heikel: false
+  text: |
+    Wenn du mitten in so einer Situation steckst, hilft eine einzige Frage
+    weiter als jede Technik.
+
+    Kann mein Kind gerade nicht, oder will es gerade nicht?
+
+    Bei Kann-nicht hilft Beruhigung, Nähe und weniger Reiz. Bei Will-nicht hilft
+    ruhige Klarheit.
+
+    Und wenn du unsicher bist: Schau auf die Uhr und auf den letzten Snack. Die
+    meisten vermeintlichen Machtkämpfe finden zwischen sechzehn und zwanzig Uhr
+    statt, und das ist kein Zufall.
+
+- id: nachgeben-oder-durchhalten-01
+  artikel: nachgeben-oder-durchhalten
+  titel: Nicht ob du nachgibst, sondern warum
+  heikel: false
+  text: |
+    Ein einzelnes Nachgeben richtet keinen Schaden an. Kein Kind nimmt Schaden
+    davon, dass es einmal ein drittes Buch bekommen hat.
+
+    Was zählt, ist der Grund.
+
+    Weil das Argument überzeugt hat: Dein Kind lernt, dass Argumente wirken.
+    Weil sich die Lage geändert hat: Regeln haben einen Sinn. Weil du vorher zu
+    schnell entschieden hast: Erwachsene korrigieren sich. Alles drei ist gut.
+
+    Weil du keine Kraft mehr hattest: Ausdauer wirkt. Weil das Weinen
+    unerträglich wurde: Lautstärke wirkt. Weil andere zuschauen: Öffentlichkeit
+    wirkt.
+
+- id: nachgeben-oder-durchhalten-02
+  artikel: nachgeben-oder-durchhalten
+  titel: Bei zwölf Minuten passiert etwas
+  heikel: false
+  text: |
+    Ein Kind will etwas, bekommt ein Nein, protestiert. Nach zwei Minuten hört
+    der Protest auf, weil das Nein steht. Beim nächsten Mal dasselbe. Das Kind
+    hat gelernt, dass zwei Minuten nichts bringen.
+
+    Und jetzt der andere Fall: Beim dritten Mal bist du müde und gibst nach
+    zwölf Minuten nach.
+
+    Dein Kind lernt daraus nicht, dass du inkonsequent bist. Es lernt: Bei zwölf
+    Minuten passiert etwas.
+
+    Der Schaden entsteht nicht durch Nachgiebigkeit, sondern durch
+    Unvorhersehbarkeit.
+
+- id: nachgeben-oder-durchhalten-03
+  artikel: nachgeben-oder-durchhalten
+  titel: Seine Meinung ändern, ohne nachzugeben
+  heikel: false
+  text: |
+    Das ist ein Unterschied, den viele Eltern nicht kennen und der viel möglich
+    macht.
+
+    Man darf seine Meinung ändern. Man sollte es sogar, wenn ein Argument
+    überzeugt oder man vorschnell entschieden hat.
+
+    Der Unterschied liegt darin, dass man es benennt: „Du hast recht. Ich habe
+    vorhin nicht daran gedacht, dass du das Bild fertig machen wolltest. Wir
+    machen es anders.“
+
+    Das ist etwas anderes als nach fünfzehn Minuten Geschrei kommentarlos
+    einzuknicken. Im ersten Fall lernt dein Kind, dass Gründe zählen. Im
+    zweiten, dass Ausdauer zählt.
+
+- id: nachgeben-oder-durchhalten-04
+  artikel: nachgeben-oder-durchhalten
+  titel: Und wenn du schon nachgegeben hast?
+  heikel: false
+  text: |
+    Dann ist nichts passiert. Wirklich nichts.
+
+    Ein einzelner Abend verändert kein Muster. Was Muster verändert, ist
+    Wiederholung, und die läuft in beide Richtungen.
+
+    Das heißt praktisch: Du kannst morgen anders anfangen, ohne heute etwas
+    gutzumachen. Kein Gespräch darüber, keine Ankündigung einer neuen Ära.
+    Einfach morgen vorher entscheiden und dann halten.
+
+- id: konsequenz-oder-strafe-01
+  artikel: konsequenz-oder-strafe
+  titel: Die drei Prüffragen
+  heikel: false
+  text: |
+    Fast jede Situation lässt sich mit drei Fragen sortieren.
+
+    Hat es einen echten Zusammenhang zur Sache? Wasser umgekippt, also wischen
+    wir auf. Nicht aufgeräumt, also kein Hörspiel: kein Zusammenhang, nur ein
+    Hebel.
+
+    Kommt es zeitnah? Bei kleinen Kindern heißt zeitnah: jetzt.
+
+    Soll es wehtun? Das ist die ehrlichste Frage. Wenn der Zweck ist, dass es
+    unangenehm wird, ist es eine Strafe. Auch wenn sie freundlich klingt.
+
+- id: konsequenz-oder-strafe-02
+  artikel: konsequenz-oder-strafe
+  titel: Konsequenzen fühlen sich nach zu wenig an
+  heikel: false
+  text: |
+    Wenn man eine Liste echter Konsequenzen durchliest, fällt etwas auf: Sie
+    sind unspektakulär.
+
+    Wasser umgekippt, also wischen wir gemeinsam auf. Sand geworfen, also Pause
+    vom Sandkasten. Beim Anziehen getrödelt, also helfe ich beim Anziehen.
+
+    Das fühlt sich oft an, als würde man zu wenig tun.
+
+    Genau das ist der Punkt. Der Wunsch, dass etwas Größeres passieren müsste,
+    kommt aus dem eigenen Ärger, nicht aus dem Bedarf des Kindes.
+
+- id: konsequenz-oder-strafe-03
+  artikel: konsequenz-oder-strafe
+  titel: Warum die Dosis steigen muss
+  heikel: true
+  freigegeben: false
+  text: |
+    Es hilft nicht, so zu tun, als würden Strafen nichts bewirken. Sie erzeugen
+    Angst, und Angst stoppt Verhalten sofort.
+
+    Nur lernt ein Kind dabei nicht, was richtig gewesen wäre. Daraus folgen drei
+    Dinge.
+
+    Die Dosis muss steigen. Wer mit dem Entzug des Nachtischs anfängt, ist zwei
+    Jahre später beim Handyverbot für eine Woche.
+
+    Das Verhalten verlagert sich dorthin, wo niemand hinschaut. Kinder werden
+    nicht ehrlicher durch Strafen, sondern vorsichtiger.
+
+    Und wer sich vor jemandem in Acht nehmen muss, erzählt ihm irgendwann nichts
+    Wichtiges mehr.
+
+- id: konsequenz-oder-strafe-04
+  artikel: konsequenz-oder-strafe
+  titel: Der Unterschied liegt in einem einzigen Wort
+  heikel: true
+  freigegeben: false
+  text: |
+    Bei der klassischen Auszeit, der stillen Treppe, dem Zimmer ist das Problem
+    nicht die Pause. Eine Pause ist oft genau richtig.
+
+    Das Problem ist das Alleinsein. Ein kleines Kind kann sich noch nicht selbst
+    beruhigen und braucht dafür einen ruhigen Erwachsenen.
+
+    „Geh in dein Zimmer“ gegenüber „Wir gehen kurz raus, ich komme mit.“
+
+    Der Unterschied liegt in einem einzigen Wort, und er ist groß.
+
+- id: konsequenz-oder-strafe-05
+  artikel: konsequenz-oder-strafe
+  titel: Die natürliche Konsequenz und ihre Grenze
+  heikel: false
+  text: |
+    Ein Ratschlag taucht oft auf: Lass die natürliche Folge wirken. Wer die
+    Jacke nicht anzieht, friert.
+
+    Das stimmt manchmal, und es hat zwei Bedingungen.
+
+    Die Folge muss ungefährlich sein. Bei Straße, Herd oder Wasser gibt es keine
+    natürlichen Konsequenzen, sondern nur Schutz.
+
+    Und das Kind muss den Zusammenhang herstellen können. Ein Zweijähriger, der
+    ohne Jacke friert, lernt daraus nichts über Jacken. Er erlebt nur, dass ihm
+    kalt ist und dass niemand geholfen hat.
+
+    Die natürliche Konsequenz ist ein Instrument für ältere Kinder.
