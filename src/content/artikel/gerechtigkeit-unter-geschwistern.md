@@ -1,6 +1,6 @@
 ---
 titel: 'Gerecht heißt nicht gleich'
-seoTitel: 'Geschwister gerecht behandeln: warum gleich nicht gerecht ist'
+seoTitel: 'Geschwister gerecht behandeln: Warum gleich nicht gerecht ist'
 beschreibung: 'Wer allen dasselbe gibt, wird niemandem gerecht. Warum der Vergleich unter Geschwistern nie aufhört, welche Antwort ihn beendet und wo Gleichbehandlung trotzdem richtig ist.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -21,7 +21,7 @@ faq:
   - frage: 'Wie gehe ich mit unterschiedlichen Schlafenszeiten um?'
     antwort: 'Offen und ohne Entschuldigung. Unterschiedliche Zeiten nach Alter sind gut nachvollziehbar, wenn sie verlässlich sind und nicht ausgehandelt werden. Sie werden zum Problem, wenn sie schwanken.'
   - frage: 'Warum vergleichen Geschwister ständig?'
-    antwort: 'Weil sie um dieselbe knappe Ressource konkurrieren: eure Aufmerksamkeit. Der Vergleich ist kein Charakterzug, sondern eine Messmethode. Er hört auf, wenn das Kind sicher ist, dass es genug bekommt, nicht wenn es recht bekommt.'
+    antwort: 'Weil sie um dieselbe knappe Ressource konkurrieren: Eure Aufmerksamkeit. Der Vergleich ist kein Charakterzug, sondern eine Messmethode. Er hört auf, wenn das Kind sicher ist, dass es genug bekommt, nicht wenn es recht bekommt.'
   - frage: 'Darf ich zugeben, dass ein Kind gerade anstrengender ist?'
     antwort: 'Gegenüber dem Partner ja, gegenüber den Kindern nicht in dieser Form. Ein Kind, das hört, dass es das anstrengende ist, übernimmt die Rolle. Beschreibe stattdessen die Situation und nicht das Kind.'
 ---
@@ -84,7 +84,7 @@ Es gibt eine Formulierung, die sehr harmlos klingt und viel Schaden anrichtet, w
 
 Das sind keine Beschreibungen, das sind Zuweisungen. Und Kinder übernehmen sie, weil sie von den wichtigsten Menschen ihres Lebens kommen. Der Wilde wird wilder. Die Sensible traut sich weniger zu. Und der Vernünftige hört auf zu sagen, wenn es ihm schlecht geht, weil das nicht zu seiner Rolle passt.
 
-Der Ausweg ist eine Formulierung, die dieselbe Beobachtung enthält, ohne die Person festzulegen: nicht „du bist“, sondern „gerade ist“. Nicht „der Wilde“, sondern „heute hattest du viel Schwung“.
+Der Ausweg ist eine Formulierung, die dieselbe Beobachtung enthält, ohne die Person festzulegen: Nicht „du bist“, sondern „gerade ist“. Nicht „der Wilde“, sondern „heute hattest du viel Schwung“.
 
 ## Was zu tun ist, wenn ein Kind wirklich mehr braucht
 

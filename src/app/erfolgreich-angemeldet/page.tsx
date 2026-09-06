@@ -4,7 +4,6 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { alleArtikel, artikelUrl, SITE_URL } from "@/lib/artikel";
-import { TESTS, testUrl } from "@/lib/tests";
 
 export const metadata: Metadata = {
   title: "Willkommen, du bist dabei | Sarah Mann",
@@ -64,12 +63,60 @@ export default function AngemeldetSeite() {
             className="text-deep/80 leading-relaxed mt-8 mx-auto"
             style={{ fontSize: "1.15rem", maxWidth: "36rem" }}
           >
-            Dein Ergebnis ist unterwegs in dein Postfach. Und ab morgen früh
-            bekommst du meine Impulse: kurze Gedanken zu dem, was zwischen
-            Erklären und Schimpfen liegt. Wenn dir etwas nicht gefällt, meld dich
-            einfach ab, ein Klick genügt.
+            Deine Auswertung ist schon unterwegs zu dir. Und sie ist deutlich
+            mehr als ein Ergebnisname.
           </p>
-          <p className="font-serif italic text-terra text-lg mt-8">Sarah</p>
+
+          <div className="mx-auto mt-10 text-left" style={{ maxWidth: "32rem" }}>
+            <p className="text-overline text-terra mb-6">
+              Das liegt gleich in deinem Postfach
+            </p>
+            <ul className="grid gap-5">
+              {[
+                [
+                  "Deine Einordnung",
+                  "Wo du gerade stehst, in ganzen Sätzen und in deiner Sprache.",
+                ],
+                [
+                  "Was bei euch schon trägt",
+                  "Die Stellen, an denen du längst richtig liegst. Die sieht man selbst am schlechtesten.",
+                ],
+                [
+                  "Deine nächsten Schritte",
+                  "Konkret genug, dass du heute Abend damit anfangen kannst.",
+                ],
+              ].map(([titel, text]) => (
+                <li key={titel} className="flex gap-4">
+                  <span
+                    aria-hidden
+                    className="flex-shrink-0 mt-2"
+                    style={{ width: "1.25rem", height: "1px", backgroundColor: "#136B73" }}
+                  />
+                  <span>
+                    <strong className="font-medium text-deep">{titel}.</strong>{" "}
+                    <span className="text-deep/75">{text}</span>
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <p
+            className="text-deep/80 leading-relaxed mt-10 mx-auto"
+            style={{ fontSize: "1.15rem", maxWidth: "36rem" }}
+          >
+            Und dann bleiben wir in Kontakt: Ich schreibe dir immer wieder kurze
+            Gedanken dazu, wie Wärme und klare Führung zusammengehen. Aus dem
+            Alltag mit sieben Kindern, und so, dass du sie noch am selben Tag
+            ausprobieren kannst.
+          </p>
+          <p
+            className="text-deep/80 leading-relaxed mt-6 mx-auto"
+            style={{ fontSize: "1.15rem", maxWidth: "36rem" }}
+          >
+            Ich freue mich sehr, dass du dabei bist.
+          </p>
+          <p className="signatur mt-8">Sarah</p>
         </div>
       </header>
 
@@ -87,19 +134,6 @@ export default function AngemeldetSeite() {
                   {a.titel}
                 </p>
                 <p className="text-deep/65 text-sm leading-relaxed">{a.beschreibung}</p>
-              </Link>
-            ))}
-          </div>
-
-          <p className="text-overline text-terra mt-14 mb-6">Oder noch ein Test</p>
-          <div className="flex flex-wrap gap-3">
-            {TESTS.map((t) => (
-              <Link
-                key={t.slug}
-                href={testUrl(t.slug)}
-                className="border border-cream-mid bg-cream px-5 py-3 text-deep/75 text-sm hover:border-terra hover:text-deep transition-colors"
-              >
-                {t.titel}
               </Link>
             ))}
           </div>

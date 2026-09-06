@@ -1,6 +1,6 @@
 ---
 titel: 'Stolz darf man zeigen'
-seoTitel: 'Stolz bei Kindern: warum Angeben kein Erziehungsproblem ist'
+seoTitel: 'Stolz bei Kindern: Warum Angeben kein Erziehungsproblem ist'
 beschreibung: 'Kinder, die stolz auf sich sind, ecken schnell an. Warum Stolz für den Selbstwert gebraucht wird, wo die Grenze zum Herabsetzen verläuft und was Erwachsene falsch machen.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -18,7 +18,7 @@ faq:
   - frage: 'Ab wann empfinden Kinder Stolz?'
     antwort: 'Etwa ab dem zweiten Geburtstag, ungefähr zeitgleich mit Scham. Beide setzen voraus, dass ein Kind sich selbst als jemanden erlebt, der bewertet wird. Stolz ist damit kein Luxusgefühl, sondern Teil der Entwicklung des Selbstbildes.'
   - frage: 'Ist Angeben schlimm?'
-    antwort: 'Meistens nicht. Angeben ist bei Kindern häufig ein Versuch, Zugehörigkeit herzustellen, und es hört von selbst auf, wenn der Selbstwert stabiler wird. Eingreifen lohnt sich an einer Stelle: wenn jemand anderes dafür kleingemacht wird.'
+    antwort: 'Meistens nicht. Angeben ist bei Kindern häufig ein Versuch, Zugehörigkeit herzustellen, und es hört von selbst auf, wenn der Selbstwert stabiler wird. Eingreifen lohnt sich an einer Stelle: Wenn jemand anderes dafür kleingemacht wird.'
   - frage: 'Warum ist „nicht angeben“ eine schwierige Ansage?'
     antwort: 'Weil sie das Gefühl trifft und nicht das Verhalten. Ein Kind hört: Freude über eigenes Können ist unpassend. Besser ist eine Ansage, die nur den einen Punkt betrifft, an dem es kippt, nämlich das Herabsetzen anderer.'
   - frage: 'Wie reagiere ich, wenn mein Kind stolz etwas zeigt?'
@@ -71,7 +71,7 @@ Der Satz trifft nicht den einen Punkt, sondern alles. Was ein Kind hört, ist: F
 
 Manche Kinder lernen daraus, ihren Stolz zu verstecken. Sie sagen später „war Zufall“ oder „hab ich nur geraten“, auch wenn sie hart gearbeitet haben.
 
-Das sieht nach Bescheidenheit aus und ist etwas anderes: die Gewohnheit, eigene Leistung kleinzureden, damit sie niemanden stört.
+Das sieht nach Bescheidenheit aus und ist etwas anderes: Die Gewohnheit, eigene Leistung kleinzureden, damit sie niemanden stört.
 
 Der bessere Satz betrifft nur den kippenden Punkt: „Freu dich ruhig. Aber du musst dafür nicht sagen, dass seiner schlecht ist.“
 
@@ -107,7 +107,7 @@ Was dann hilft, sind Rückmeldungen zum eigenen Fortschritt statt zum Vergleich.
 
 ## Der Satz zum Mitnehmen
 
-Stolz und Scham sind dasselbe Entwicklungsfenster von zwei Seiten. Wer Kindern den Stolz austreibt, lässt ihnen nur die andere Hälfte. Eingreifen lohnt sich an einer einzigen Stelle: wenn jemand anderes dafür kleingemacht wird.
+Stolz und Scham sind dasselbe Entwicklungsfenster von zwei Seiten. Wer Kindern den Stolz austreibt, lässt ihnen nur die andere Hälfte. Eingreifen lohnt sich an einer einzigen Stelle: Wenn jemand anderes dafür kleingemacht wird.
 
 ## Quellen und weiterführende Informationen
 

@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn dein Kind fast nichts isst, hilft Druck am wenigsten.'
-seoTitel: 'Wählerisches Kind: was hinter dem Essverhalten steckt'
+seoTitel: 'Wählerisches Kind: Was hinter dem Essverhalten steckt'
 beschreibung: 'Was normale Wählerischkeit von einer sensorischen Einschränkung unterscheidet, warum Druck die Auswahl verkleinert und ab wann du hinschauen solltest.'
 eyebrow: 'Der Tisch als tägliche Front'
 silo: reizueberflutung
@@ -30,7 +30,7 @@ Der Teller steht da. Dein Kind schaut ihn an und schiebt ihn weg. Es ist derselb
 
 Und du sitzt da mit dieser Mischung aus Sorge und Ärger, die sich beim Essen schneller einstellt als bei jedem anderen Thema. Weil es beim Essen nicht nur ums Essen geht. Es geht ums Versorgen. Und wenn das nicht klappt, trifft es Eltern an einer Stelle, die tiefer sitzt als jede Erziehungsfrage.
 
-## Zuerst die Entlastung: vieles davon ist normal
+## Zuerst die Entlastung: Vieles davon ist normal
 
 Die Ablehnung neuer Speisen ist eine Entwicklungsphase, keine Fehlentwicklung. Sie beginnt meist im zweiten Lebensjahr und hat ihren Höhepunkt zwischen etwa zwei und sechs Jahren.
 
@@ -44,7 +44,7 @@ Begegnung heißt dabei nicht Essen. Es reicht, dass es auf dem Tisch steht. Dass
 
 Bei manchen Kindern geht es nicht um Neues gegen Vertrautes, sondern um bestimmte Eigenschaften, die verlässlich nicht gehen.
 
-Nicht „mag keinen Blumenkohl“, sondern: nichts Matschiges. Nichts mit Stückchen darin. Nichts Vermischtes. Nichts, was sich beim Kauen verändert. Nichts, was riecht. Nichts, was warm ist.
+Nicht „mag keinen Blumenkohl“, sondern: Nichts Matschiges. Nichts mit Stückchen darin. Nichts Vermischtes. Nichts, was sich beim Kauen verändert. Nichts, was riecht. Nichts, was warm ist.
 
 Das ist keine Vorliebe, sondern Wahrnehmung. Für ein Kind, das Konsistenzen sehr genau spürt, ist ein Joghurt mit Fruchtstücken keine Frage des Geschmacks, sondern eine unangenehme Überraschung im Mund. Und dieselbe Überraschung kommt bei jedem Löffel wieder.
 

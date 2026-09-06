@@ -1,6 +1,6 @@
 ---
 titel: 'Mein Kind gibt sofort auf'
-seoTitel: 'Kind gibt schnell auf: was dahintersteckt und was hilft'
+seoTitel: 'Kind gibt schnell auf: Was dahintersteckt und was hilft'
 beschreibung: 'Ein Kind, das beim ersten Widerstand aufhört, ist selten faul. Meist steckt eine von vier Ursachen dahinter, und jede braucht eine andere Antwort.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -95,7 +95,7 @@ Der Zeitpunkt zählt, denn irgendwann wird aus „das ist schwer für mich“ ei
 
 ## Der Satz zum Mitnehmen
 
-Ein Kind, das sofort aufgibt, hat meistens keinen Mangel an Willen, sondern zu viel zu verlieren oder zu wenig übrig. Die wirksamste Hilfe ist unspektakulär: danebenbleiben, ohne die Aufgabe anzufassen.
+Ein Kind, das sofort aufgibt, hat meistens keinen Mangel an Willen, sondern zu viel zu verlieren oder zu wenig übrig. Die wirksamste Hilfe ist unspektakulär: Danebenbleiben, ohne die Aufgabe anzufassen.
 
 ## Quellen und weiterführende Informationen
 

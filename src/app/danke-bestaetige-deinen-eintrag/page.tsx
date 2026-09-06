@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SITE_URL } from "@/lib/artikel";
 
 export const metadata: Metadata = {
-  title: "Fast geschafft: bestätige deinen Eintrag | Sarah Mann",
+  title: "Fast geschafft: Bestätige deinen Eintrag | Sarah Mann",
   description: "Dein Ergebnis wartet. Bestätige noch kurz die E-Mail.",
   robots: { index: false, follow: false },
   alternates: { canonical: `${SITE_URL}/danke-bestaetige-deinen-eintrag/` },

@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import { Cormorant_Garamond, Jost } from "next/font/google";
+﻿import type { Metadata } from "next";
+import { Cormorant_Garamond, Jost, Sacramento } from "next/font/google";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -14,6 +14,23 @@ const jost = Jost({
   subsets: ["latin"],
   weight: ["300", "400", "500"],
   variable: "--font-jost",
+  display: "swap",
+});
+
+/**
+ * Signaturschrift, fuer Sarahs Unterschrift unter persoenlichen Texten.
+ *
+ * Der Logo-Schriftzug ist eine duenne, einlinig gezogene Handschrift ohne
+ * Strichstaerken-Kontrast. Im direkten Vergleich gegen das Logo lag
+ * Sacramento klar vor Allura, das deutlich kontrastreicher zeichnet.
+ *
+ * next/font baut die Schrift mit ein, sie wird also vom eigenen Server
+ * ausgeliefert und nicht bei Google nachgeladen.
+ */
+const signatur = Sacramento({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-signatur",
   display: "swap",
 });
 
@@ -60,7 +77,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="de" className={`${cormorant.variable} ${jost.variable}`}>
+    <html lang="de" className={`${cormorant.variable} ${jost.variable} ${signatur.variable}`}>
       <body className="antialiased">
         {children}
         {/* Besucherzaehlung (eigene Umami-Instanz, cookielos, keine

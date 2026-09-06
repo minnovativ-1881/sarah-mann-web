@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn die Großeltern anders erziehen'
-seoTitel: 'Großeltern erziehen anders: was gilt'
+seoTitel: 'Großeltern erziehen anders: Was gilt'
 beschreibung: 'Bei Oma gelten andere Regeln, und das ist unproblematisch. Wo trotzdem eine Grenze verläuft und wie du sie ziehst, ohne die Beziehung zu belasten.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
@@ -90,7 +90,7 @@ Was in dem Moment hilft, ist wenig und ruhig:
 
 Ein Satz, freundlich, ohne Diskussion. Die Entscheidung bleibt stehen, das Gespräch findet später statt.
 
-Was nicht hilft: die Diskussion vor dem Kind zu führen. Damit wird aus einer Regel ein Machtkampf zwischen Erwachsenen, und das Kind lernt, dass sich Zuschauen lohnt.
+Was nicht hilft: Die Diskussion vor dem Kind zu führen. Damit wird aus einer Regel ein Machtkampf zwischen Erwachsenen, und das Kind lernt, dass sich Zuschauen lohnt.
 
 ## Die kurze Liste
 
@@ -114,7 +114,7 @@ Die rechte Spalte ärgert einen im Einzelfall. Und sie ist der Preis dafür, das
 
 Zum Schluss ein Perspektivwechsel, weil dieses Thema fast immer als Problem behandelt wird.
 
-Ein Kind, das mehrere Erwachsene mit unterschiedlichen Arten erlebt, lernt dabei etwas, das man nicht künstlich herstellen kann: dass Menschen verschieden sind und dass man mit allen zurechtkommen kann.
+Ein Kind, das mehrere Erwachsene mit unterschiedlichen Arten erlebt, lernt dabei etwas, das man nicht künstlich herstellen kann: Dass Menschen verschieden sind und dass man mit allen zurechtkommen kann.
 
 Es lernt, sich auf unterschiedliche Bedingungen einzustellen. Es erlebt eine andere Generation, andere Geschichten, ein anderes Tempo.
 

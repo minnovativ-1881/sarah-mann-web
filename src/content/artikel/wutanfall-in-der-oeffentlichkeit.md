@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn alle schauen'
-seoTitel: 'Wutanfall im Supermarkt: was hilft'
+seoTitel: 'Wutanfall im Supermarkt: Was hilft'
 beschreibung: 'Ein Wutanfall vor Publikum ist derselbe Wutanfall, nur unter Beobachtung. Warum das alles schwerer macht, was praktisch hilft.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -13,7 +13,7 @@ verwandt:
   - nachgeben-oder-durchhalten
 faq:
   - frage: 'Was tue ich bei einem Wutanfall im Supermarkt?'
-    antwort: 'Dasselbe wie zu Hause: runtergehen auf Augenhöhe, wenig sagen, dableiben, ruhig bleiben. Wenn möglich den Ort wechseln, weil weniger Reize helfen. Was nicht hilft, ist schneller zu werden oder nachzugeben, um die Situation zu beenden.'
+    antwort: 'Dasselbe wie zu Hause: Runtergehen auf Augenhöhe, wenig sagen, dableiben, ruhig bleiben. Wenn möglich den Ort wechseln, weil weniger Reize helfen. Was nicht hilft, ist schneller zu werden oder nachzugeben, um die Situation zu beenden.'
   - frage: 'Soll ich mit meinem Kind rausgehen?'
     antwort: 'Wenn es geht, ja. Nicht als Strafe, sondern weil ein ruhigerer Ort die Erregung schneller sinken lässt. Der Einkaufswagen kann stehen bleiben. Ein abgebrochener Einkauf ist billiger als eine eskalierte Situation.'
   - frage: 'Was antworte ich auf Kommentare von Fremden?'
@@ -21,7 +21,7 @@ faq:
   - frage: 'Darf ich nachgeben, damit es aufhört?'
     antwort: 'Du darfst, und es hat Folgen. Ein Kind, das erlebt, dass ein Wutanfall in der Öffentlichkeit Entscheidungen verändert, hat ein sehr wirksames Werkzeug gefunden. Wenn es wirklich nicht anders geht, dann bewusst und nicht als Muster.'
   - frage: 'Wie verhindere ich Wutanfälle beim Einkaufen?'
-    antwort: 'Vor allem durch Zeitpunkt und Vorbereitung: nicht hungrig, nicht müde, nicht zu lang. Und vorher sagen, was gilt, statt im Regal darüber zu verhandeln. Die meisten Zusammenbrüche im Supermarkt sind vorhersehbar.'
+    antwort: 'Vor allem durch Zeitpunkt und Vorbereitung: Nicht hungrig, nicht müde, nicht zu lang. Und vorher sagen, was gilt, statt im Regal darüber zu verhandeln. Die meisten Zusammenbrüche im Supermarkt sind vorhersehbar.'
   - frage: 'Ist es peinlich, wenn mein Kind sich so verhält?'
     antwort: 'Es fühlt sich so an, und es sagt nichts über dich aus. Wutanfälle in diesem Alter sind entwicklungstypisch. Die meisten Menschen im Umfeld haben das selbst erlebt oder erleben es gerade, auch wenn im Moment das Gegenteil zu spüren scheint.'
 ---
@@ -34,9 +34,9 @@ Und genau das verändert etwas, aber nicht beim Kind. Es verändert etwas bei di
 
 ## Was in der Öffentlichkeit anders ist
 
-Für dein Kind: nichts. Es erlebt ein starkes Gefühl, das es nicht steuern kann, und ist damit vollständig beschäftigt. Die Blicke der anderen nimmt es gar nicht wahr.
+Für dein Kind: Nichts. Es erlebt ein starkes Gefühl, das es nicht steuern kann, und ist damit vollständig beschäftigt. Die Blicke der anderen nimmt es gar nicht wahr.
 
-Für dich: drei Dinge auf einmal.
+Für dich: Drei Dinge auf einmal.
 
 **Du bist unter Beobachtung.** Und Beobachtung erhöht bei fast jedem Menschen die Anspannung.
 
@@ -60,7 +60,7 @@ Der Einkaufswagen darf stehen bleiben. Das fühlt sich falsch an und ist die ric
 
 **Dableiben, ruhig bleiben, warten.** Die Kurve läuft so oder so ab. Mehr dazu in [Was in der Hochphase eines Wutanfalls wirkt](/wissen/wutanfall-begleiten/).
 
-## Der wichtigste Trick: die Aufmerksamkeit umlenken
+## Der wichtigste Trick: Die Aufmerksamkeit umlenken
 
 Nicht die deines Kindes. Deine.
 
@@ -72,7 +72,7 @@ Das klingt esoterisch und ist praktisch. Wer aufhört, sich zu beobachten, wird 
 
 ## Was du auf Kommentare antwortest
 
-Am besten: nichts.
+Am besten: Nichts.
 
 Und wenn es sein muss, ein einziger freundlicher Satz, der das Gespräch beendet:
 
@@ -115,7 +115,7 @@ Und der Punkt mit dem Vorher-Sagen ist der wichtigste: Was vor der Tür entschie
 
 ## Was danach hilft
 
-Wenn es vorbei ist, gilt dasselbe wie zu Hause: kurz, ruhig, ohne Auswertung.
+Wenn es vorbei ist, gilt dasselbe wie zu Hause: Kurz, ruhig, ohne Auswertung.
 
 > „Das war anstrengend. Für dich auch.“
 

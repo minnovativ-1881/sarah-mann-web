@@ -9,39 +9,51 @@ const schatten = { boxShadow: "0 24px 60px rgba(19,107,115,0.18)" };
 export default function TestEngine({ test }: { test: Test }) {
   const [schritt, setSchritt] = useState(0);
   const [werte, setWerte] = useState<number[]>([]);
-  const [gezeigt, setGezeigt] = useState<number | null>(null);
+  /** Nur fuer die kurze Bestaetigung nach dem Klick, kein Richtig-Falsch. */
+  const [gewaehlt, setGewaehlt] = useState<number | null>(null);
   const [mail, setMail] = useState("");
   const [vorname, setVorname] = useState("");
   const [freigegeben, setFreigegeben] = useState(false);
   const [sendet, setSendet] = useState(false);
   const [fehler, setFehler] = useState("");
 
+  /**
+   * Eine Antwort, ein Klick.
+   *
+   * Bei den Zuordnungstests stand hier vorher die Aufloesung: Es wurde
+   * angezeigt, welche Antwort richtig gewesen waere, und man musste ein
+   * zweites Mal auf "Weiter" klicken. Beides ist raus. Die Aufloesung gehoert
+   * in die E-Mail, wo Platz fuer eine Erklaerung ist, und ein Klick reicht.
+   *
+   * Was bleibt, ist eine kurze Bestaetigung: Die gewaehlte Antwort leuchtet
+   * einen Moment auf, dann kommt die naechste Frage von selbst. Die
+   * Bestaetigung sagt bewusst nur "angekommen" und nicht "richtig".
+   */
   const antworten = (wert: number, index: number) => {
-    if (test.art === "zuordnung" && gezeigt === null) {
-      setGezeigt(index);
+    if (gewaehlt !== null) return; // zweiter Klick waehrend der Bestaetigung
+    if (test.art !== "zuordnung") {
       setWerte([...werte, wert]);
+      setSchritt(schritt + 1);
       return;
     }
+    setGewaehlt(index);
     setWerte([...werte, wert]);
-    setSchritt(schritt + 1);
-  };
-
-  const weiter = () => {
-    setGezeigt(null);
-    setSchritt(schritt + 1);
+    window.setTimeout(() => {
+      setGewaehlt(null);
+      setSchritt((s) => s + 1);
+    }, 520);
   };
 
   const zurueck = () => {
-    if (schritt <= 0) return;
+    if (schritt <= 0 || gewaehlt !== null) return;
     setWerte(werte.slice(0, -1));
-    setGezeigt(null);
     setSchritt(schritt - 1);
   };
 
   const neu = () => {
     setWerte([]);
     setSchritt(0);
-    setGezeigt(null);
+    setGewaehlt(null);
     setFreigegeben(false);
     setFehler("");
   };
@@ -50,7 +62,7 @@ export default function TestEngine({ test }: { test: Test }) {
   if (schritt < test.fragen.length) {
     const f = test.fragen[schritt];
     const pct = Math.round((schritt / test.fragen.length) * 100);
-    const zeigeAufloesung = test.art === "zuordnung" && gezeigt !== null;
+    const bestaetigt = gewaehlt !== null;
 
     return (
       <div className={box} style={schatten}>
@@ -58,7 +70,7 @@ export default function TestEngine({ test }: { test: Test }) {
           <p className="text-overline text-terra">
             Frage {schritt + 1} von {test.fragen.length}
           </p>
-          {schritt > 0 && !zeigeAufloesung && (
+          {schritt > 0 && !bestaetigt && (
             <button
               onClick={zurueck}
               className="text-deep/45 text-xs tracking-wide hover:text-deep transition-colors"
@@ -82,54 +94,38 @@ export default function TestEngine({ test }: { test: Test }) {
           {f.szenario}
         </p>
 
-        {!zeigeAufloesung ? (
-          <div className="grid gap-3">
-            {f.antworten.map((a, i) => (
+        <div className="grid gap-3">
+          {f.antworten.map((a, i) => {
+            const dieseGewaehlt = i === gewaehlt;
+            return (
               <button
                 key={i}
                 onClick={() => antworten(a.wert, i)}
-                className="text-left border border-cream-mid bg-cream px-6 py-4 text-deep/80 hover:border-terra hover:bg-tint hover:text-deep transition-colors duration-200"
+                disabled={bestaetigt}
+                aria-pressed={dieseGewaehlt}
+                className={`text-left border px-6 py-4 transition-all duration-200 ${
+                  dieseGewaehlt
+                    ? "border-terra bg-tint-dark text-deep"
+                    : bestaetigt
+                      ? "border-cream-mid bg-cream text-deep/30"
+                      : "border-cream-mid bg-cream text-deep/80 hover:border-terra hover:bg-tint hover:text-deep"
+                }`}
+                style={
+                  dieseGewaehlt
+                    ? { boxShadow: "0 0 0 2px rgba(19,107,115,0.35)" }
+                    : undefined
+                }
               >
                 {a.text}
               </button>
-            ))}
-          </div>
-        ) : (
-          <div>
-            <div className="grid gap-3 mb-7">
-              {f.antworten.map((a, i) => {
-                const richtig = a.wert === 1;
-                const gewaehlt = i === gezeigt;
-                return (
-                  <div
-                    key={i}
-                    className={`border px-6 py-4 text-sm ${
-                      richtig
-                        ? "border-terra bg-cream-dark text-deep"
-                        : gewaehlt
-                          ? "border-stone bg-cream text-deep/60"
-                          : "border-cream-mid bg-cream text-deep/40"
-                    }`}
-                  >
-                    {a.text}
-                    {richtig && (
-                      <span className="text-terra text-xs tracking-widest uppercase ml-3">
-                        richtig
-                      </span>
-                    )}
-                  </div>
-                );
-              })}
-            </div>
-            {f.aufloesung && (
-              <p className="text-deep/80 leading-relaxed border-l-2 border-terra pl-5 mb-8">
-                {f.aufloesung}
-              </p>
-            )}
-            <button onClick={weiter} className="btn-primary">
-              {schritt + 1 === test.fragen.length ? "Zum Ergebnis" : "Weiter"}
-            </button>
-          </div>
+            );
+          })}
+        </div>
+        {test.art === "zuordnung" && (
+          <p className="text-deep/45 text-xs leading-relaxed mt-7">
+            Die Auflösung bekommst du am Ende per E-Mail, Situation für
+            Situation und mit Erklärung.
+          </p>
         )}
       </div>
     );

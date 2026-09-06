@@ -17,11 +17,11 @@ faq:
   - frage: 'Braucht ein Kind ständige Nähe, um sich sicher zu fühlen?'
     antwort: 'Nein. Sicherheit entsteht nicht aus Dauerverfügbarkeit, sondern aus Verlässlichkeit. Entscheidend ist nicht, dass immer jemand da ist, sondern dass jemand wiederkommt und dass ein Kind vorhersehen kann, was passiert.'
   - frage: 'Machen Grenzen Kinder unsicher?'
-    antwort: 'Nein, eher umgekehrt. Ein Kind, das weiß, woran es ist, muss nicht ständig prüfen und kann sich entspannen. Unsicher machen nicht die Grenzen, sondern ihre Unberechenbarkeit: wenn dieselbe Sache heute gilt und morgen nicht.'
+    antwort: 'Nein, eher umgekehrt. Ein Kind, das weiß, woran es ist, muss nicht ständig prüfen und kann sich entspannen. Unsicher machen nicht die Grenzen, sondern ihre Unberechenbarkeit: Wenn dieselbe Sache heute gilt und morgen nicht.'
   - frage: 'Wie viel muss ich als Elternteil richtig machen?'
     antwort: 'Weniger, als die meisten denken. Untersuchungen zur Bindungsentwicklung verorten den Anteil gut abgestimmter Momente im Bereich um dreißig Prozent. Wichtiger als Fehlerfreiheit ist die Reparatur danach.'
   - frage: 'Was macht Kinder unsicher?'
-    antwort: 'Vor allem Unberechenbarkeit: wechselnde Regeln, wechselnde Stimmungen, Reaktionen, die nicht zur Situation passen. Dazu kommen Ausschluss und Beschämung, weil sie die Beziehung selbst in Frage stellen, statt nur ein Verhalten zu begrenzen.'
+    antwort: 'Vor allem Unberechenbarkeit: Wechselnde Regeln, wechselnde Stimmungen, Reaktionen, die nicht zur Situation passen. Dazu kommen Ausschluss und Beschämung, weil sie die Beziehung selbst in Frage stellen, statt nur ein Verhalten zu begrenzen.'
   - frage: 'Woran erkenne ich, dass mein Kind sich sicher fühlt?'
     antwort: 'Daran, dass es sich entfernt und wiederkommt. Ein sicheres Kind erkundet die Umgebung, holt sich zwischendurch Rückversicherung und kommt bei Stress zurück. Beides gehört zusammen, das Weggehen genauso wie das Zurückkommen.'
 ---
@@ -60,7 +60,7 @@ Verlässlichkeit wirkt dabei stärker als Strenge. Fünf Regeln, die immer gelte
 
 Die dritte Säule ist die, die am meisten kostet.
 
-Ein kleines Kind kann sich noch nicht selbst beruhigen. Es orientiert sich beim Herunterkommen an einem anderen Menschen: an dessen Stimme, Tempo und Körperhaltung.
+Ein kleines Kind kann sich noch nicht selbst beruhigen. Es orientiert sich beim Herunterkommen an einem anderen Menschen: An dessen Stimme, Tempo und Körperhaltung.
 
 Das heißt umgekehrt: Wenn du hochgehst, geht dein Kind mit. Und wenn du langsamer wirst, wird es langsamer. Diese Übertragung funktioniert in beide Richtungen und ist der Grund, warum deine eigene Verfassung kein Nebenschauplatz ist. Wie das im Wutanfall konkret aussieht, steht in [Dein Kind kann sich noch nicht beruhigen](/wissen/ko-regulation/).
 
@@ -128,7 +128,7 @@ Zum Schluss die praktische Übersetzung, weil die vier Säulen sonst abstrakt bl
 
 **Deine eigene Reserve ist Teil der Ausstattung.** Ein erschöpfter Erwachsener kann keine Ruhe leihen, die er nicht hat. Mehr dazu in [Wenn die Kraft nicht mehr reicht](/wissen/elterliche-erschoepfung/).
 
-**Und nach jedem schwierigen Moment: wiederkommen.** Kurz, ohne großes Gespräch. Das ist der Teil, der zählt.
+**Und nach jedem schwierigen Moment: Wiederkommen.** Kurz, ohne großes Gespräch. Das ist der Teil, der zählt.
 
 Sicherheit ist am Ende nichts Besonderes. Sie ist die Summe vieler gewöhnlicher Tage, an denen ein Kind vorhersehen konnte, was kommt, und an denen jemand wiedergekommen ist.
 

@@ -1,6 +1,6 @@
 ---
-titel: 'Mittagsschlaf: wann er endet und was danach kommt'
-seoTitel: 'Mittagsschlaf: wann hört er auf?'
+titel: 'Mittagsschlaf: Wann er endet und was danach kommt'
+seoTitel: 'Mittagsschlaf: Wann hört er auf?'
 beschreibung: 'Der Mittagsschlaf ist der unterschätzteste Hebel für den Abend. Woran du erkennst, dass er zu lang, zu spät oder vorbei ist.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
@@ -109,7 +109,7 @@ Viele Einrichtungen haben feste Ruhezeiten, was sinnvoll ist. Ob ein Kind darin 
 
 Wenn dein Kind in der Kita bis 14:30 Uhr schläft und zu Hause deshalb um 21 Uhr noch wach ist, ist das ein guter Grund für ein Gespräch. Die meisten Erzieherinnen kennen die Frage und gehen darauf ein.
 
-Was dabei hilft: konkret sein. Nicht „Er soll nicht mehr schlafen“, sondern „Könntet ihr ihn um 13:30 Uhr wecken, damit der Abend bei uns funktioniert.“
+Was dabei hilft: Konkret sein. Nicht „Er soll nicht mehr schlafen“, sondern „Könntet ihr ihn um 13:30 Uhr wecken, damit der Abend bei uns funktioniert.“
 
 ## Warum sich die Mühe lohnt
 

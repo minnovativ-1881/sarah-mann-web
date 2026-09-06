@@ -17,7 +17,7 @@ faq:
   - frage: 'Schadet ein Nein meinem Kind?'
     antwort: 'Nein. Was schadet, sind Kälte, Beschämung und Ausschluss, nicht die Grenze selbst. Ein Kind, das Enttäuschung in Begleitung erlebt, lernt dabei, dass Enttäuschung vorübergeht. Das ist eine der nützlichsten Erfahrungen überhaupt.'
   - frage: 'Wie sage ich Nein, ohne kalt zu wirken?'
-    antwort: 'Indem beide Hälften im selben Satz stehen: das Gefühl anerkennen und die Entscheidung halten. Also: Ich sehe, dass du dir das wünschst, und wir machen es nicht. Ohne die erste Hälfte wird es kalt, ohne die zweite beliebig.'
+    antwort: 'Indem beide Hälften im selben Satz stehen: Das Gefühl anerkennen und die Entscheidung halten. Also: Ich sehe, dass du dir das wünschst, und wir machen es nicht. Ohne die erste Hälfte wird es kalt, ohne die zweite beliebig.'
   - frage: 'Muss ich mein Nein begründen?'
     antwort: 'Einmal kurz, wenn dein Kind alt genug ist. Nicht mehrfach. Lange Begründungen machen aus einer Entscheidung eine Verhandlung, und dein Kind hört heraus, dass du selbst nicht ganz überzeugt bist.'
   - frage: 'Wie viele Neins am Tag sind normal?'
@@ -50,7 +50,7 @@ Das ist kein Charakterfehler und es lässt sich verändern, aber selten allein u
 
 Der zweithäufigste, und der am leichtesten aufzulösen.
 
-Wer selbst eine strenge Erziehung erlebt hat, verbindet mit Grenzen eine bestimmte Erfahrung: laute Stimme, Kälte, kein Widerspruch. Und will das seinem Kind nicht antun.
+Wer selbst eine strenge Erziehung erlebt hat, verbindet mit Grenzen eine bestimmte Erfahrung: Laute Stimme, Kälte, kein Widerspruch. Und will das seinem Kind nicht antun.
 
 Nur ist das eine Verwechslung. Was in dieser Erinnerung wehgetan hat, war nicht die Grenze. Es waren die Kälte und die Beschämung, die dazukamen.
 
@@ -102,7 +102,7 @@ Dieser Satz trifft viele Eltern hart, obwohl er harmlos ist.
 
 Ein Kind darf in dem Moment finden, dass du gemein bist. Das ist der einzige Ausdruck, den es für seine Enttäuschung gerade findet.
 
-Was hilft: nicht widerlegen.
+Was hilft: Nicht widerlegen.
 
 Nicht: „Das ist nicht wahr, ich mache doch so viel für dich.“
 Sondern: „Du bist gerade richtig sauer auf mich. Das darfst du sein.“
@@ -137,7 +137,7 @@ Nicht alles auf einmal. Nimm dir eine Situation vor, in der dir das Nein besonde
 
 **Bleib dabei, während dein Kind protestiert.** Nicht erklären, nicht überreden, nicht trösten im Sinne von wegmachen. Einfach dableiben.
 
-**Und danach: normal weitermachen.** Kein Nachgespräch, keine Wiedergutmachung. Ein Nein braucht keine Entschuldigung.
+**Und danach: Normal weitermachen.** Kein Nachgespräch, keine Wiedergutmachung. Ein Nein braucht keine Entschuldigung.
 
 Nach ein paar Wochen fällt vielen Eltern auf, dass das Ziehen im Bauch nachlässt. Nicht weil sie härter geworden wären, sondern weil sie hundertmal erlebt haben, dass nichts kaputtgeht.
 

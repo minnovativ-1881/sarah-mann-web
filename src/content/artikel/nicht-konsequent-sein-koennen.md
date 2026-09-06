@@ -13,7 +13,7 @@ verwandt:
   - kind-hoert-nicht-trotz-konsequenz
 faq:
   - frage: 'Warum schaffe ich es nicht, konsequent zu sein?'
-    antwort: 'Fast nie wegen fehlendem Willen. Meist liegt es an einem von vier Gründen: zu wenig Reserve, zu viele Regeln, Angst vor der Reaktion des Kindes, oder daran, dass die Entscheidung erst im Moment fällt. Für jeden dieser Gründe gibt es eine andere Lösung, und keine davon heißt, sich mehr vorzunehmen.'
+    antwort: 'Fast nie wegen fehlendem Willen. Meist liegt es an einem von vier Gründen: Zu wenig Reserve, zu viele Regeln, Angst vor der Reaktion des Kindes, oder daran, dass die Entscheidung erst im Moment fällt. Für jeden dieser Gründe gibt es eine andere Lösung, und keine davon heißt, sich mehr vorzunehmen.'
   - frage: 'Ist Konsequenz dasselbe wie Strenge?'
     antwort: 'Nein. Konsequenz heißt, dass eine Regel verlässlich gilt. Strenge heißt, dass viele Regeln gelten und Verstöße unangenehm werden. Man kann sehr wenige Regeln haben und trotzdem völlig verlässlich sein, und genau das ist meistens die bessere Kombination.'
   - frage: 'Wie viele Regeln sollte ich haben, damit ich sie halten kann?'

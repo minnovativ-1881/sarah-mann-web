@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn Erklären nicht mehr reicht'
-seoTitel: 'Kind hält sich nicht an Regeln: was hilft'
+seoTitel: 'Kind hält sich nicht an Regeln: Was hilft'
 beschreibung: 'Alle erklären, warum Strafen schaden. Kaum jemand sagt, was man stattdessen tut, wenn die Grenze gerade überschritten wurde.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
@@ -15,7 +15,7 @@ faq:
   - frage: 'Was tue ich, wenn mein Kind sich nicht an Regeln hält?'
     antwort: 'Zuerst prüfen, ob es gerade nicht kann oder nicht will. Bei Überforderung hilft nur Beruhigung. Beim Nichtwollen hilft, hinzugehen und die Grenze körperlich durchzusetzen, ruhig und ohne Erklärung. Reden ist in diesem Moment das schwächste Werkzeug, das du hast.'
   - frage: 'Wie setze ich eine Grenze durch, ohne mein Kind festzuhalten?'
-    antwort: 'Oft geht es ohne. Die Situation verändern wirkt meist schneller als das Kind zu verändern: den Gegenstand wegnehmen, den Raum wechseln, dazwischengehen. Festhalten ist nur bei Gefahr nötig, sollte sanft sein und niemals als Bestrafung dienen.'
+    antwort: 'Oft geht es ohne. Die Situation verändern wirkt meist schneller als das Kind zu verändern: Den Gegenstand wegnehmen, den Raum wechseln, dazwischengehen. Festhalten ist nur bei Gefahr nötig, sollte sanft sein und niemals als Bestrafung dienen.'
   - frage: 'Soll ich meinem Kind erklären, warum die Regel gilt?'
     antwort: 'Ja, aber nicht im Moment der Überschreitung. In hoher Erregung kommt keine Erklärung an, das ist keine Trotzhaltung, sondern eine Frage der Hirnentwicklung. Erklärt wird vorher, in einem ruhigen Moment, und danach, wenn wieder Ruhe eingekehrt ist.'
   - frage: 'Was ist der Unterschied zwischen Präsenz und Strenge?'
@@ -23,7 +23,7 @@ faq:
   - frage: 'Was mache ich, wenn ich in dem Moment selbst wütend werde?'
     antwort: 'Langsamer und leiser werden statt schneller und lauter. Das ist gegen jeden Instinkt und deshalb schwer. Wenn du merkst, dass es dir entgleitet, ist es besser, die Situation kurz zu unterbrechen, als sie in Lautstärke zu beenden. Ankündigen, dass du gleich wiederkommst, ist keine Niederlage.'
   - frage: 'Muss ich immer sofort reagieren?'
-    antwort: 'Bei Sicherheit und bei Verletzung ja, sofort. Bei allem anderen ist eine kurze Pause fast immer besser als eine schnelle Reaktion. Wer drei Sekunden wartet, entscheidet anders als wer sofort loslegt, und diese drei Sekunden sind der wirksamste Trick in diesem ganzen Bereich.'
+    antwort: 'Bei Sicherheit und bei Verletzung sofort. Bei allem anderen ist eine kurze Pause fast immer besser als eine schnelle Reaktion. Wer drei Sekunden wartet, entscheidet anders als wer sofort loslegt, und diese drei Sekunden sind der wirksamste Trick in diesem ganzen Bereich.'
 ---
 
 Es gibt eine Lücke in fast jedem modernen Erziehungsratgeber, und sie sitzt genau an der wichtigsten Stelle.
@@ -34,7 +34,7 @@ Und dann kommt der Moment, in dem das Kind die Regel bricht, obwohl es sie kennt
 
 Über diesen Moment steht selten etwas. Deshalb dieser Text.
 
-## Die erste Frage: kann nicht oder will nicht?
+## Die erste Frage: Kann nicht oder will nicht?
 
 Bevor du irgendetwas tust, gibt es eine Unterscheidung, die alles Weitere bestimmt.
 

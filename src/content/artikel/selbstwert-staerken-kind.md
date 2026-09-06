@@ -1,6 +1,6 @@
 ---
 titel: 'Selbstwert entsteht nicht durch Lob'
-seoTitel: 'Selbstwert beim Kind stärken: was wirklich wirkt'
+seoTitel: 'Selbstwert beim Kind stärken: Was wirklich wirkt'
 beschreibung: 'Selbstwert wächst aus zwei Quellen, und Lob gehört zu keiner von beiden. Woraus er tatsächlich entsteht, was ihn im Alltag untergräbt und was du morgen anders machen kannst.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -40,7 +40,7 @@ Die zweite heißt Wirksamkeit. Sie beantwortet die Frage: Kann ich etwas bewirke
 
 Beide zusammen tragen. Fehlt die Zugehörigkeit, entsteht ein Kind, das leistet, um dazuzugehören. Fehlt die Wirksamkeit, entsteht ein Kind, das geliebt wird und sich trotzdem für unfähig hält.
 
-Auffällig ist, was in dieser Aufzählung nicht vorkommt: die Meinung anderer Leute.
+Auffällig ist, was in dieser Aufzählung nicht vorkommt: Die Meinung anderer Leute.
 
 ## Warum Lob die falsche Baustelle ist
 
@@ -62,7 +62,7 @@ Das ist kein Argument gegen freundliche Worte. Es ist ein Argument dafür, sie n
 
 Die mittlere Zeile ist die, an der Erwachsene am häufigsten scheitern. Ein Fehler, der sofort korrigiert wird, war keiner. Er war eine Vorführung dessen, wie es richtig geht.
 
-## Der unterschätzte Punkt: tatsächlich machen lassen
+## Der unterschätzte Punkt: Tatsächlich machen lassen
 
 Wirksamkeit lässt sich nicht erzählen. Ein Kind muss etwas getan haben, damit es weiß, dass es etwas tun kann.
 

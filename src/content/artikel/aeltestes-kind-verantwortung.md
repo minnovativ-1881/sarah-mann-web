@@ -1,6 +1,6 @@
 ---
 titel: 'Du bist doch die Große'
-seoTitel: 'Ältestes Kind: zu viel Verantwortung erkennen'
+seoTitel: 'Ältestes Kind: Zu viel Verantwortung erkennen'
 beschreibung: 'Der Satz rutscht schnell heraus und wirkt jahrelang nach. Woran du merkst, dass dein ältestes Kind zu viel trägt, und wie du Verantwortung gibst, ohne sie zur Last zu machen.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister

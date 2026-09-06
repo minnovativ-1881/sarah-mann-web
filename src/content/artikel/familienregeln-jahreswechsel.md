@@ -1,6 +1,6 @@
 ---
 titel: 'Der Reset für den Familienalltag'
-seoTitel: 'Familienregeln aufstellen: der Reset'
+seoTitel: 'Familienregeln aufstellen: Der Reset'
 beschreibung: 'Zwischen den Jahren ist der beste Zeitpunkt, den Familienalltag zu sortieren. Warum Ausmisten mehr bringt als neue Regeln zu erfinden.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
@@ -26,7 +26,7 @@ faq:
     antwort: 'Das ist der Normalfall bei zu vielen Änderungen auf einmal. Besser ist, mit einer einzigen Sache anzufangen und sie vier Wochen laufen zu lassen. Ein Reset, der eine Sache verändert, ist mehr wert als einer, der zehn vornimmt.'
 ---
 
-Es gibt zwei Zeitpunkte im Jahr, an denen Familien von selbst über ihren Alltag nachdenken: zum Schuljahresbeginn und zwischen den Jahren.
+Es gibt zwei Zeitpunkte im Jahr, an denen Familien von selbst über ihren Alltag nachdenken: Zum Schuljahresbeginn und zwischen den Jahren.
 
 Der zweite ist der bessere. Der Alltag ist unterbrochen, es ist ruhiger als sonst, und man hat gerade zwei Wochen lang gesehen, was funktioniert und was nicht.
 
@@ -34,7 +34,7 @@ Nur führt dieser Impuls meistens in die falsche Richtung.
 
 ## Der übliche Fehler
 
-Er lautet: neue Regeln aufstellen.
+Er lautet: Neue Regeln aufstellen.
 
 Ein Plan wird gemacht, ein Plakat gemalt, gute Vorsätze werden formuliert. Bildschirmzeit, Aufräumen, freundlicher Ton, mehr Bewegung.
 
@@ -93,7 +93,7 @@ Ein Beispiel, wie so eine Liste aussehen kann:
 
 Sechs Punkte. Und dann gelten sie wirklich, jeden Tag, auch bei Besuch, auch wenn jemand müde ist.
 
-Das ist der eigentliche Sinn der Übung: nicht weniger Klarheit, sondern mehr, weil sie jetzt zu leisten ist.
+Das ist der eigentliche Sinn der Übung: Nicht weniger Klarheit, sondern mehr, weil sie jetzt zu leisten ist.
 
 ## Wo Kinder mitreden
 

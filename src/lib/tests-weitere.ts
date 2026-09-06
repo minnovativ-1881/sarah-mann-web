@@ -76,7 +76,7 @@ export const konsequenzOderStrafe: Test = {
         { text: "Strafe", wert: 0 },
       ],
       aufloesung:
-        "Konsequenz, und zwar eine natürliche. Die Zeit ist einfach weg, das musst du nicht herstellen. Wichtig: vorher ankündigen und danach nicht nachtreten mit „Siehst du, hätte ich dir ja gesagt.“",
+        "Konsequenz, und zwar eine natürliche. Die Zeit ist einfach weg, das musst du nicht herstellen. Wichtig: Vorher ankündigen und danach nicht nachtreten mit „Siehst du, hätte ich dir ja gesagt.“",
     },
     {
       kopf: "Ohne Nachtisch",
@@ -120,7 +120,7 @@ export const konsequenzOderStrafe: Test = {
       key: "sicher",
       name: "Du siehst den Unterschied klar",
       unter: "Alle acht Situationen richtig eingeordnet.",
-      text: "Du erkennst zuverlässig, ob es einen echten Zusammenhang zur Sache gibt oder ob nur Druck aufgebaut wird. Die eigentliche Arbeit liegt für dich woanders: dabei zu bleiben, wenn es anstrengend wird, statt in der Erschöpfung doch zur schnellen Drohung zu greifen. Fast alle Strafen entstehen nicht aus Überzeugung, sondern aus Müdigkeit. Deshalb ist der beste Schutz gegen Strafen keine bessere Haltung, sondern genug Kraft.",
+      text: "Du erkennst zuverlässig, ob es einen echten Zusammenhang zur Sache gibt oder ob nur Druck aufgebaut wird. Die eigentliche Arbeit liegt für dich woanders: Dabei zu bleiben, wenn es anstrengend wird, statt in der Erschöpfung doch zur schnellen Drohung zu greifen. Fast alle Strafen entstehen nicht aus Überzeugung, sondern aus Müdigkeit. Deshalb ist der beste Schutz gegen Strafen keine bessere Haltung, sondern genug Kraft.",
       schritte: [
         "Leg dir für die zwei bis drei Situationen, die bei euch regelmäßig eskalieren, vorher eine echte Konsequenz zurecht. Dann musst du im Moment nicht erfinden.",
         "Wenn dir doch eine Strafe herausrutscht, nimm sie zurück. Das schwächt dich nicht, es zeigt deinem Kind, dass Worte etwas gelten.",

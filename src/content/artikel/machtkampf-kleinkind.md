@@ -1,6 +1,6 @@
 ---
-titel: 'Machtkampf mit dem Kleinkind: was von zwei bis sechs passiert'
-seoTitel: 'Machtkampf mit dem Kind: was dahintersteckt'
+titel: 'Machtkampf mit dem Kleinkind: Was von zwei bis sechs passiert'
+seoTitel: 'Machtkampf mit dem Kind: Was dahintersteckt'
 beschreibung: 'Was wie ein Machtkampf aussieht, ist meistens keiner. Was in welchem Alter tatsächlich dahintersteckt, von zwei bis sechs, und was in jeder Phase hilft.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
@@ -34,7 +34,7 @@ Nur trifft der Begriff nicht, was tatsächlich passiert. Und die falsche Deutung
 
 ## Warum es meistens kein Machtkampf ist
 
-Ein Machtkampf setzt drei Dinge voraus: einen Plan, das Einkalkulieren der Wirkung auf den anderen, und das Ziel, ihn zu unterwerfen.
+Ein Machtkampf setzt drei Dinge voraus: Einen Plan, das Einkalkulieren der Wirkung auf den anderen, und das Ziel, ihn zu unterwerfen.
 
 Für alle drei braucht es Hirnfunktionen, die bei einem kleinen Kind noch nicht ausgereift sind. Ein Zweijähriger kann keinen Plan über mehrere Schritte verfolgen. Ein Dreijähriger kann sich nur ansatzweise vorstellen, wie sich sein Verhalten für dich anfühlt.
 

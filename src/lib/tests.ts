@@ -188,7 +188,7 @@ const elternTyp: Test = {
       key: "herz",
       name: "Viel Herz, noch wenig Klarheit",
       unter: "Deine Wärme steht. Was fehlt, ist das Geländer.",
-      text: "Du bist zugewandt, und das ist mehr wert, als du vielleicht denkst. Was in schwierigen Momenten fehlt, ist die ruhige Führung: das Nein, das nicht wackelt. Und das Verblüffende ist, dass dein Kind daran nicht leidet, sondern sich daran festhalten kann. Ein klares Nein ist für ein Kind leichter auszuhalten als ein Vielleicht, das jeden Tag anders aussieht.",
+      text: "Du bist zugewandt, und das ist mehr wert, als du vielleicht denkst. Was in schwierigen Momenten fehlt, ist die ruhige Führung: Das Nein, das nicht wackelt. Und das Verblüffende ist, dass dein Kind daran nicht leidet, sondern sich daran festhalten kann. Ein klares Nein ist für ein Kind leichter auszuhalten als ein Vielleicht, das jeden Tag anders aussieht.",
       schritte: [
         "Such dir für diese Woche genau eine Sache aus, bei der du nicht mehr verhandelst. Eine reicht.",
         "Sag sie einmal freundlich und dann nicht mehr. Nicht lauter, nicht öfter, sondern einmal und dann ins Handeln.",
@@ -224,7 +224,7 @@ const elternTyp: Test = {
     {
       frage: "Was misst dieser Erziehungsstil-Test eigentlich?",
       antwort:
-        "Er misst zwei Dinge getrennt voneinander: wie viel Wärme dein Kind bei dir erlebt und wie viel klare Orientierung. Genau diese beiden Achsen hat die Psychologin Diana Baumrind in den Sechzigerjahren beschrieben, und die Erziehungsforschung arbeitet bis heute damit.",
+        "Er misst zwei Dinge getrennt voneinander: Wie viel Wärme dein Kind bei dir erlebt und wie viel klare Orientierung. Genau diese beiden Achsen hat die Psychologin Diana Baumrind in den Sechzigerjahren beschrieben, und die Erziehungsforschung arbeitet bis heute damit.",
     },
     {
       frage: "Gibt es ein richtiges Ergebnis?",
@@ -271,7 +271,7 @@ const bedWunsch: Test = {
         { text: "Wunsch", wert: 0 },
       ],
       aufloesung:
-        "Bedürfnis. Nähe beim Einschlafen ist ein echtes Bedürfnis, besonders bei kleinen Kindern. Wie du es erfüllst, ist allerdings verhandelbar: dableiben, kurz zurückkommen, die Tür offen lassen. Das Bedürfnis gilt, die Form bestimmst du.",
+        "Bedürfnis. Nähe beim Einschlafen ist ein echtes Bedürfnis, besonders bei kleinen Kindern. Wie du es erfüllst, ist allerdings verhandelbar: Dableiben, kurz zurückkommen, die Tür offen lassen. Das Bedürfnis gilt, die Form bestimmst du.",
     },
     {
       kopf: "Der zweite Nachtisch",
@@ -327,7 +327,7 @@ const bedWunsch: Test = {
         { text: "Wunsch", wert: 0 },
       ],
       aufloesung:
-        "Bedürfnis. Sich nachts zu vergewissern, dass jemand da ist, gehört zur normalen Entwicklung. Die Frage ist nicht, ob du reagierst, sondern wie: ruhig, kurz, verlässlich, immer gleich.",
+        "Bedürfnis. Sich nachts zu vergewissern, dass jemand da ist, gehört zur normalen Entwicklung. Die Frage ist nicht, ob du reagierst, sondern wie: Ruhig, kurz, verlässlich, immer gleich.",
     },
     {
       kopf: "Der Fernseher",
@@ -357,7 +357,7 @@ const bedWunsch: Test = {
       key: "sicher",
       name: "Du unterscheidest sicher",
       unter: "Alle acht Situationen richtig eingeordnet.",
-      text: "Du trennst Bedürfnis und Wunsch sehr klar. Das ist die eigentliche Kunst der bedürfnisorientierten Haltung, und genau daran scheitert sie im Alltag am häufigsten. Deine Aufgabe ist deshalb weniger das Erkennen als das Aushalten: bei einem Wunsch freundlich Nein zu sagen und die Enttäuschung stehen zu lassen, ohne sie wegzureden. Enttäuschung ist unangenehm, aber sie ist nicht schädlich. Sie ist sogar der Ort, an dem Kinder lernen, dass Gefühle vorbeigehen.",
+      text: "Du trennst Bedürfnis und Wunsch sehr klar. Das ist die eigentliche Kunst der bedürfnisorientierten Haltung, und genau daran scheitert sie im Alltag am häufigsten. Deine Aufgabe ist deshalb weniger das Erkennen als das Aushalten: Bei einem Wunsch freundlich Nein zu sagen und die Enttäuschung stehen zu lassen, ohne sie wegzureden. Enttäuschung ist unangenehm, aber sie ist nicht schädlich. Sie ist sogar der Ort, an dem Kinder lernen, dass Gefühle vorbeigehen.",
       schritte: [
         "Sag bei einem Wunsch einmal freundlich Nein und bleib dann daneben stehen, statt zu erklären.",
         "Wenn dein Kind heftig reagiert, prüf nicht die Entscheidung, sondern begleite das Gefühl. Beides gleichzeitig geht.",
@@ -369,7 +369,7 @@ const bedWunsch: Test = {
       key: "meist",
       name: "Du liegst fast immer richtig",
       unter: "Sechs oder sieben Treffer.",
-      text: "Du hast ein sicheres Gespür, und an ein oder zwei Stellen rutscht die Unterscheidung. Das passiert fast immer an derselben Sorte Situation: dort, wo ein Wunsch besonders heftig vorgetragen wird. Die Lautstärke sagt nichts darüber, ob etwas ein Bedürfnis ist. Ein Kind kann wegen eines Wunsches genauso verzweifelt weinen wie wegen eines echten Mangels, weil es den Unterschied selbst noch nicht kennt. Das ist deine Aufgabe, nicht seine.",
+      text: "Du hast ein sicheres Gespür, und an ein oder zwei Stellen rutscht die Unterscheidung. Das passiert fast immer an derselben Sorte Situation: Dort, wo ein Wunsch besonders heftig vorgetragen wird. Die Lautstärke sagt nichts darüber, ob etwas ein Bedürfnis ist. Ein Kind kann wegen eines Wunsches genauso verzweifelt weinen wie wegen eines echten Mangels, weil es den Unterschied selbst noch nicht kennt. Das ist deine Aufgabe, nicht seine.",
       schritte: [
         "Nimm dir die Situationen vor, die unten stehen. Meist reicht es, sie einmal in Ruhe zu Ende zu denken.",
         "Wenn du im Moment unsicher bist, frag dich: Was fehlt meinem Kind, wenn ich das jetzt nicht gebe? Bleibt ein Mangel oder eine Enttäuschung?",

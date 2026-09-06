@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn morgens nichts mehr geht: Anforderungen senken ist keine Kapitulation.'
-seoTitel: 'Kind verweigert die Schule: was dahintersteckt und was hilft'
+seoTitel: 'Kind verweigert die Schule: Was dahintersteckt und was hilft'
 beschreibung: 'Warum Durchsetzen bei einem überlasteten Kind das Gegenteil bewirkt, wie du vier sehr verschiedene Ursachen unterscheidest und wie man Anforderungen bewusst senkt, ohne aufzugeben.'
 eyebrow: 'Der Morgen, an dem es kippt'
 silo: reizueberflutung
@@ -21,7 +21,7 @@ faq:
   - frage: 'Ist das nicht einfach Nachgeben?'
     antwort: 'Nein, weil der Unterschied im Grund liegt. Nachgeben heißt: Die Anforderung fällt, weil das Kind laut genug protestiert. Anforderungen senken heißt: Du entscheidest bewusst, was gerade tragbar ist, und behältst die Führung über das Wieviel. Der Unterschied ist für dein Kind spürbar, weil im einen Fall der Protest entscheidet und im anderen du.'
   - frage: 'Wie lange darf mein Kind zu Hause bleiben?'
-    antwort: 'So kurz wie möglich. Je länger ein Kind fehlt, desto schwerer wird die Rückkehr, das ist fachlich gut belegt. Deshalb ist das Ziel nie ein längerer Rückzug, sondern eine reduzierte Anwesenheit: zwei Stunden statt sechs, ein Fach statt aller, mit Absprache statt heimlich. Und immer mit der Schule abgestimmt, nicht an ihr vorbei.'
+    antwort: 'So kurz wie möglich. Je länger ein Kind fehlt, desto schwerer wird die Rückkehr, das ist fachlich gut belegt. Deshalb ist das Ziel nie ein längerer Rückzug, sondern eine reduzierte Anwesenheit: Zwei Stunden statt sechs, ein Fach statt aller, mit Absprache statt heimlich. Und immer mit der Schule abgestimmt, nicht an ihr vorbei.'
   - frage: 'Wann brauche ich professionelle Hilfe?'
     antwort: 'Sofort, wenn dein Kind über Hoffnungslosigkeit spricht, sich selbst verletzt, über Wochen kaum noch aus dem Bett kommt oder wenn Mobbing im Spiel ist. Zeitnah, wenn das Fehlen mehr als ein paar Tage anhält. Erste Adressen sind Schulsozialarbeit, Erziehungsberatungsstelle, Kinderärztin und die Kinder- und Jugendpsychiatrie.'
 ---
@@ -39,7 +39,7 @@ Ein Kind, das nicht zur Schule geht, kann sehr Verschiedenes meinen. Fachleute u
 | | Was dahintersteckt | Woran du es erkennst | Was hilft |
 |---|---|---|---|
 | **Trennungsangst** | Die Angst gilt nicht der Schule, sondern dem Weggehen von zu Hause. Oft ist eine Sorge um einen Elternteil im Spiel | Zu Hause geht es dem Kind gut, sobald es bleiben darf. Es fragt viel, wo du bist und wann du zurückkommst | Freundliche, verlässliche Rückführung. Hier ist Nachgeben tatsächlich der falsche Weg, es verstärkt die Angst |
-| **Angst vor der Schule** | Eine konkrete Sache macht Angst: eine Lehrkraft, das Vorlesen, der Sportunterricht, andere Kinder | Das Kind kann oft benennen, was es fürchtet, wenn man geduldig fragt. Am Wochenende ist es entspannt | Die konkrete Ursache angehen, in Absprache mit der Schule. Schrittweise Annäherung |
+| **Angst vor der Schule** | Eine konkrete Sache macht Angst: Eine Lehrkraft, das Vorlesen, der Sportunterricht, andere Kinder | Das Kind kann oft benennen, was es fürchtet, wenn man geduldig fragt. Am Wochenende ist es entspannt | Die konkrete Ursache angehen, in Absprache mit der Schule. Schrittweise Annäherung |
 | **Überlastung** | Der Tag kostet mehr Kraft, als vorhanden ist. Reizfülle, Konzentration, soziale Anforderungen, alles gleichzeitig | Kein bestimmter Auslöser. Nachmittags Zusammenbrüche, abends Erschöpfung, in den Ferien deutliche Erholung | Anforderungen senken, befristet und abgestimmt. Hier macht Druck alles schlimmer |
 | **Vermeidung ohne Angst** | Das Kind bleibt lieber weg, ohne dass Angst oder Überlastung dahintersteht | Es geht ihm gut, sobald es nicht hingehen muss. Es ist unternehmungslustig, sucht andere Beschäftigung | Klare Führung und verlässliche Struktur. Hier ist Konsequenz richtig |
 
@@ -75,11 +75,11 @@ Der Vergleich, der es am besten trifft: Wenn ein Läufer sich den Knöchel verst
 
 ## Die drei Regeln, ohne die es doch Nachgeben wird
 
-**Erstens: absichtlich.** Du entscheidest vorher, was wegfällt, nicht im Streit am Morgen. Ein Satz wie „diese Woche gehst du zu vier Stunden, wir haben das mit Frau K. besprochen“ ist etwas völlig anderes als ein Nachgeben um sieben Uhr fünfundvierzig.
+**Erstens: Absichtlich.** Du entscheidest vorher, was wegfällt, nicht im Streit am Morgen. Ein Satz wie „diese Woche gehst du zu vier Stunden, wir haben das mit Frau K. besprochen“ ist etwas völlig anderes als ein Nachgeben um sieben Uhr fünfundvierzig.
 
-**Zweitens: befristet.** Mit Datum. „Bis zu den Herbstferien“, „für zwei Wochen, dann schauen wir gemeinsam“. Ohne Frist wird aus einer Entlastung ein neuer Normalzustand, und der ist schwer wieder aufzulösen.
+**Zweitens: Befristet.** Mit Datum. „Bis zu den Herbstferien“, „für zwei Wochen, dann schauen wir gemeinsam“. Ohne Frist wird aus einer Entlastung ein neuer Normalzustand, und der ist schwer wieder aufzulösen.
 
-**Drittens: mit Rückweg.** Bevor gesenkt wird, ist klar, wie wieder aufgebaut wird. In kleinen Schritten, mit festen Zeitpunkten. Das gehört ins selbe Gespräch, nicht in ein späteres.
+**Drittens: Mit Rückweg.** Bevor gesenkt wird, ist klar, wie wieder aufgebaut wird. In kleinen Schritten, mit festen Zeitpunkten. Das gehört ins selbe Gespräch, nicht in ein späteres.
 
 Und eine vierte Regel, die eigentlich die wichtigste ist: **abgestimmt mit der Schule, nie an ihr vorbei.** Es besteht Schulpflicht, und Fehlen ohne Absprache bringt Familien in Schwierigkeiten, die sie zusätzlich zum eigentlichen Problem nicht brauchen. Die Schulsozialarbeit ist dabei fast immer die beste erste Adresse: Sie kennt die Wege, sie vermittelt zwischen allen Beteiligten und sie ist niedrigschwelliger als jedes offizielle Verfahren.
 
@@ -89,9 +89,9 @@ Nicht alles auf einmal. Gezielt das, was am teuersten ist.
 
 Die Stundenzahl, befristet und abgesprochen. Die Hausaufgaben, in Menge oder Zeit begrenzt, mit einer Notiz an die Lehrkraft. Nachmittagstermine, alle, sofort. Der Schulweg, wenn er selbst schon anstrengend ist. Der Nachmittag in der Betreuung, wenn es dort besonders laut ist. Erwartungen an das Sozialleben, also Kindergeburtstage und Verabredungen, für eine Weile.
 
-Und zu Hause: alles, was Übergänge kompliziert macht. Weniger Programm, mehr Vorhersehbarkeit, feste Abläufe.
+Und zu Hause: Alles, was Übergänge kompliziert macht. Weniger Programm, mehr Vorhersehbarkeit, feste Abläufe.
 
-Was **nicht** gesenkt wird: die Beziehung, die Grundregeln des Zusammenlebens und die Erwartung, dass gemeinsam an einer Lösung gearbeitet wird. Ein Kind, das entlastet wird, ist nicht aus der Verantwortung entlassen. Es bekommt nur eine Last abgenommen, die es gerade nicht tragen kann.
+Was **nicht** gesenkt wird: Die Beziehung, die Grundregeln des Zusammenlebens und die Erwartung, dass gemeinsam an einer Lösung gearbeitet wird. Ein Kind, das entlastet wird, ist nicht aus der Verantwortung entlassen. Es bekommt nur eine Last abgenommen, die es gerade nicht tragen kann.
 
 ## Was parallel laufen muss
 

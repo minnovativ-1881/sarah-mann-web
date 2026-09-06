@@ -1,6 +1,6 @@
----
-titel: 'Gentle Parenting und Grenzen: geht das zusammen?'
-seoTitel: 'Gentle Parenting und Grenzen: geht das?'
+﻿---
+titel: 'Gentle Parenting und Grenzen: Geht das zusammen?'
+seoTitel: 'Gentle Parenting und Grenzen: Geht das?'
 beschreibung: 'Gentle Parenting hat kein Grenzenproblem, sondern ein Übersetzungsproblem. Was der Ansatz tatsächlich sagt, wo er im Alltag kippt und wie beides zusammengeht.'
 eyebrow: 'Die Grundlagen'
 silo: grundlagen
@@ -30,7 +30,7 @@ Es gibt eine Frage, die in Elternforen regelmäßig auftaucht und selten befried
 
 Wenn ich Gentle Parenting mache, darf ich dann überhaupt noch Grenzen setzen?
 
-Die kurze Antwort lautet: ja, ausdrücklich. Die längere Antwort erklärt, warum trotzdem so viele Eltern das Gegenteil erleben.
+Die kurze Antwort lautet: Ja, ausdrücklich. Die längere Antwort erklärt, warum trotzdem so viele Eltern das Gegenteil erleben.
 
 ## Was der Ansatz tatsächlich sagt
 
@@ -40,11 +40,11 @@ Gentle Parenting ist kein einheitliches Lehrgebäude, sondern ein Sammelbegriff.
 - Verzicht auf Strafen und Beschämung
 - Gefühle des Kindes ernst nehmen
 - Verhalten als Kommunikation verstehen
-- **Und: klare, verlässliche Grenzen**
+- **Und: Klare, verlässliche Grenzen**
 
 Der letzte Punkt steht in praktisch jeder Darstellung. Er wird nur deutlich seltener zitiert als die anderen.
 
-**Was der Ansatz ablehnt, ist nicht die Grenze. Es ist die Art, wie sie durchgesetzt wurde: mit Strafe, Beschämung und Angst.**
+**Was der Ansatz ablehnt, ist nicht die Grenze. Es ist die Art, wie sie durchgesetzt wurde: Mit Strafe, Beschämung und Angst.**
 
 Das ist eine wichtige Unterscheidung, und sie geht in der Alltagsübersetzung fast immer verloren.
 
@@ -60,13 +60,13 @@ Und genau dort steht man mittwochs um halb acht mit leeren Händen. Man hat es f
 
 Was jetzt?
 
-Ohne eine Antwort auf diese Frage bleiben nur zwei Möglichkeiten: weiter wiederholen, bis man laut wird. Oder nachgeben.
+Ohne eine Antwort auf diese Frage bleiben nur zwei Möglichkeiten: Weiter wiederholen, bis man laut wird. Oder nachgeben.
 
 **Beides sieht von außen aus wie Grenzenlosigkeit und ist in Wahrheit eine Lücke im Werkzeugkasten.**
 
 Wie die Antwort auf diesen Moment aussieht, steht in [Wenn Erklären nicht mehr reicht](/wissen/wenn-die-grenze-ueberschritten-ist/).
 
-## Die zweite Lücke: die Formulierung selbst
+## Die zweite Lücke: Die Formulierung selbst
 
 Es gibt noch einen praktischen Punkt, der viel erklärt.
 
@@ -98,7 +98,7 @@ Und die Entscheidung bleibt trotzdem stehen.
 
 Beide Hälften im selben Satz. Lässt man die erste weg, wird es kalt. Lässt man die zweite weg, wird es beliebig.
 
-Das ist keine Erfindung und auch kein Kompromiss zwischen zwei Lagern. Es ist genau die Kombination, die in der Forschung zu Erziehungsstilen seit Jahrzehnten am besten abschneidet: viel Wärme und viel klare Orientierung, gleichzeitig. Ausführlich steht das in [Autoritativ erziehen](/wissen/autoritativer-erziehungsstil/).
+Das ist keine Erfindung und auch kein Kompromiss zwischen zwei Lagern. Es ist genau die Kombination, die in der Forschung zu Erziehungsstilen seit Jahrzehnten am besten abschneidet: Gleichzeitig viel Wärme und viel klare Orientierung. Ausführlich steht das in [Autoritativ erziehen](/wissen/autoritativer-erziehungsstil/).
 
 ## Was oft mit Gentle Parenting verwechselt wird
 
@@ -116,7 +116,7 @@ Es gibt eine Kritik an diesem Ansatz, die man nicht wegdiskutieren sollte, weil 
 
 Die freundliche Version verlangt von Erwachsenen deutlich mehr als die strenge. Mehr Zeit, mehr Erklärung, mehr Selbstbeherrschung, mehr Aushalten.
 
-Und sie wurde einer Generation vorgelegt, die weniger Unterstützung hat als jede vorher: kaum Hilfe im Haus, beide berufstätig, wenig Puffer.
+Und sie wurde einer Generation vorgelegt, die weniger Unterstützung hat als jede vorher: Kaum Hilfe im Haus, beide berufstätig, wenig Puffer.
 
 Wenn ein Ansatz unter realen Bedingungen nicht durchhaltbar ist, ist das keine Charakterfrage der Eltern. Es ist ein Problem des Ansatzes.
 

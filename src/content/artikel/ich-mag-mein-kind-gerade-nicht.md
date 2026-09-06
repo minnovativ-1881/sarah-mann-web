@@ -19,7 +19,7 @@ faq:
   - frage: 'Merkt mein Kind das?'
     antwort: 'Kinder spüren Anspannung, aber sie lesen keine Gedanken. Was ankommt, ist dein Verhalten, nicht dein inneres Empfinden. Ein Elternteil, das sich innerlich distanziert fühlt und trotzdem verlässlich handelt, ist für ein Kind ein verlässliches Elternteil.'
   - frage: 'Was hilft, wenn die Distanz nicht weggeht?'
-    antwort: 'Drei Dinge: echte Erholung, weil das Gefühl fast immer an Erschöpfung hängt. Kurze gemeinsame Zeit ohne Anforderung, weil Zuneigung über gemeinsame Erfahrung zurückkommt und nicht über Vorsätze. Und mit einem Menschen darüber sprechen, weil es in der Isolation wächst.'
+    antwort: 'Drei Dinge: Echte Erholung, weil das Gefühl fast immer an Erschöpfung hängt. Kurze gemeinsame Zeit ohne Anforderung, weil Zuneigung über gemeinsame Erfahrung zurückkommt und nicht über Vorsätze. Und mit einem Menschen darüber sprechen, weil es in der Isolation wächst.'
   - frage: 'Wann sollte ich mir Hilfe holen?'
     antwort: 'Wenn das Gefühl über Monate anhält, wenn du gar keine Freude mehr an deinem Kind empfindest, wenn Gedanken kommen, die dich erschrecken, oder wenn du merkst, dass du dich zurückziehst. Das gehört in ein Gespräch mit der Hausärztin oder einer Erziehungsberatungsstelle.'
   - frage: 'Ist das dasselbe wie eine Wochenbettdepression?'
@@ -88,7 +88,7 @@ Ein paar Dinge, die Eltern in diesem Zustand über sich denken und die nicht sti
 
 ### Erholung, vor allem anderen
 
-Weil das Gefühl fast immer daran hängt. Nicht ein Abend, sondern etwas, das sich wiederholt: ein fester Nachmittag pro Woche, an dem jemand anders zuständig ist. Eine Nacht durchschlafen. Ein paar Stunden allein sein, ohne Aufgabe.
+Weil das Gefühl fast immer daran hängt. Nicht ein Abend, sondern etwas, das sich wiederholt: Ein fester Nachmittag pro Woche, an dem jemand anders zuständig ist. Eine Nacht durchschlafen. Ein paar Stunden allein sein, ohne Aufgabe.
 
 Wer erwartet, dass Zuneigung durch Vorsätze zurückkommt, wartet vergeblich. Sie kommt zurück, wenn Reserve da ist.
 
@@ -98,7 +98,7 @@ Nicht der große Ausflug, nicht der aufwendige Nachmittag. Fünfzehn Minuten, in
 
 Das ist wirksamer als jedes Programm, weil Zuneigung über gemeinsame Erfahrung entsteht und nicht über gute Absicht. Und weil in einer konfliktreichen Phase die schönen Momente schlicht selten geworden sind.
 
-Praktisch: eine Sache am Tag, die keinem Ziel dient. Nebeneinander etwas anschauen. Ein Spiel, bei dem niemand etwas lernt.
+Praktisch: Eine Sache am Tag, die keinem Ziel dient. Nebeneinander etwas anschauen. Ein Spiel, bei dem niemand etwas lernt.
 
 ### Darüber sprechen
 

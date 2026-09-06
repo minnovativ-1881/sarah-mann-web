@@ -81,7 +81,7 @@ Das ist der wichtigste Punkt. Manchmal hört ein Kind sehr gut und **kann** trot
 
 Es hilft ungemein, diese beiden Dinge zu unterscheiden: Will mein Kind gerade nicht, oder kann es gerade nicht? Bei „will nicht“ braucht es Klarheit. Bei „kann nicht“ braucht es zuerst Beruhigung. Wenn man das verwechselt, wird jede Maßnahme falsch.
 
-## Was stattdessen wirkt: einmal sagen, dann handeln
+## Was stattdessen wirkt: Einmal sagen, dann handeln
 
 Der Wechsel ist unspektakulär und ziemlich anstrengend, weil er von dir mehr verlangt als vom Kind.
 
@@ -91,7 +91,7 @@ Der Wechsel ist unspektakulär und ziemlich anstrengend, weil er von dir mehr ve
 
 **Sag es ein zweites und letztes Mal, verbunden mit dem, was du tust.** „Ich helfe dir jetzt dabei.“ Und dann hilfst du tatsächlich. Freundlich, ohne Ärger, ohne Vortrag.
 
-Das ist der ganze Trick, und er fühlt sich am Anfang seltsam an, weil man das Gefühl hat, dem Kind etwas wegzunehmen. In Wahrheit nimmst du ihm etwas ab: die Unklarheit darüber, was jetzt eigentlich gilt.
+Das ist der ganze Trick, und er fühlt sich am Anfang seltsam an, weil man das Gefühl hat, dem Kind etwas wegzunehmen. In Wahrheit nimmst du ihm etwas ab: Die Unklarheit darüber, was jetzt eigentlich gilt.
 
 | Statt | Besser |
 |---|---|
@@ -113,7 +113,7 @@ Was danach hilft, ist ziemlich schlicht. Geh noch einmal hin. Sag, dass du laut 
 
 Damit lernt dein Kind zwei Dinge gleichzeitig, die beide wertvoll sind: Erwachsene machen Fehler und stehen dazu. Und eine Entscheidung kippt nicht, nur weil es laut wurde.
 
-Was hier für den einzelnen Moment gilt, gilt für den ganzen Bereich: wie viele
+Was hier für den einzelnen Moment gilt, gilt für den ganzen Bereich: Wie viele
 Regeln ein Kind überhaupt braucht, was in welchem Alter möglich ist und wie eine
 Grenze im Alltag steht, steht in
 [Grenzen, die halten, ohne dass du hart wirst](/wissen/grenzen-setzen-kleinkind/).

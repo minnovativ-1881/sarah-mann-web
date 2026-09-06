@@ -1,6 +1,6 @@
 ---
 titel: 'Wie Kinder Worte für Gefühle finden'
-seoTitel: 'Gefühle benennen mit Kindern: wann es wirkt'
+seoTitel: 'Gefühle benennen mit Kindern: Wann es wirkt'
 beschreibung: 'Gefühle zu benennen hilft, aber nicht in jedem Moment. Warum es im Wutanfall nichts bringt, wann der richtige Zeitpunkt ist und wie man es sagt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -19,7 +19,7 @@ faq:
   - frage: 'Was, wenn mein Kind widerspricht?'
     antwort: 'Dann hat es recht, und das ist gut. Ein Kind, das sagt: Ich bin nicht traurig, ich bin wütend, hat gerade eine feinere Unterscheidung getroffen als du. Nicht darauf beharren, sondern die Korrektur annehmen.'
   - frage: 'Wie viele Gefühlswörter braucht ein Kind?'
-    antwort: 'Am Anfang reichen vier bis fünf: wütend, traurig, ängstlich, froh, enttäuscht. Erst wenn diese sitzen, lohnen sich feinere Unterscheidungen. Zu viele Begriffe auf einmal überfordern und werden nicht benutzt.'
+    antwort: 'Am Anfang reichen vier bis fünf: Wütend, traurig, ängstlich, froh, enttäuscht. Erst wenn diese sitzen, lohnen sich feinere Unterscheidungen. Zu viele Begriffe auf einmal überfordern und werden nicht benutzt.'
   - frage: 'Klingt das nicht künstlich?'
     antwort: 'Wenn man es als Formel benutzt, ja. Kinder merken den Unterschied zwischen einer echten Beobachtung und einer eingeübten Technik sofort. Kurz, beiläufig und ohne Frage am Ende funktioniert besser als jede vollständige Ich-Botschaft.'
   - frage: 'Hilft ein Gefühlsposter oder ein Gefühlsbuch?'
@@ -83,9 +83,9 @@ Das passiert, und es ist ein gutes Zeichen.
 
 Wenn ein Kind korrigiert, hat es gerade eine feinere Unterscheidung getroffen als du. Genau das war das Ziel.
 
-Was hilft: die Korrektur annehmen. „Ah, wütend. Verstehe.“
+Was hilft: Die Korrektur annehmen. „Ah, wütend. Verstehe.“
 
-Was nicht hilft: beharren. „Doch, du bist auch ein bisschen traurig.“ Damit lernt ein Kind, dass sein eigenes Erleben nicht zählt, und das ist das Gegenteil von dem, was wir wollen.
+Was nicht hilft: Beharren. „Doch, du bist auch ein bisschen traurig.“ Damit lernt ein Kind, dass sein eigenes Erleben nicht zählt, und das ist das Gegenteil von dem, was wir wollen.
 
 ## Womit man anfängt
 
@@ -99,9 +99,9 @@ Nicht mit fünfzehn Begriffen. Vier bis fünf reichen, und sie sollten die häuf
 
 Der letzte ist besonders nützlich, weil er im Alltag ständig vorkommt und weil er etwas anderes meint als Wut oder Traurigkeit. Ein Kind, das seine Enttäuschung benennen kann, kommt oft ganz ohne Zusammenbruch aus.
 
-Erst wenn diese fünf sitzen, lohnen sich feinere Unterscheidungen: eifersüchtig, überfordert, aufgeregt, einsam.
+Erst wenn diese fünf sitzen, lohnen sich feinere Unterscheidungen: Eifersüchtig, überfordert, aufgeregt, einsam.
 
-## Der wirksamste Weg: über die eigenen Gefühle sprechen
+## Der wirksamste Weg: Über die eigenen Gefühle sprechen
 
 Das ist der Punkt, der in Ratgebern selten vorkommt und der am meisten bringt.
 

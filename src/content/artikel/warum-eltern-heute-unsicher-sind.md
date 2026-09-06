@@ -1,5 +1,5 @@
 ---
-titel: 'Das Pendel: warum Eltern heute so unsicher sind'
+titel: 'Das Pendel: Warum Eltern heute so unsicher sind'
 seoTitel: 'Warum Eltern heute so unsicher sind'
 beschreibung: 'Erziehungsstile schlagen von einem Extrem ins andere. Wie Deutschland von der Strenge zur Bedürfnisorientierung kam.'
 eyebrow: 'Die Grundlagen'
@@ -44,7 +44,7 @@ In Deutschland lässt sich das gut nachzeichnen. Die Strenge war real und sie wa
 
 Das ist keine ferne Geschichte. Viele der heutigen Großeltern haben das selbst erlebt.
 
-Die Gegenbewegung war deshalb notwendig. Sie hat Kindern etwas gegeben, das ihnen jahrzehntelang gefehlt hat: dass ihre Gefühle zählen, dass sie gefragt werden, dass sie nicht gebrochen werden sollen.
+Die Gegenbewegung war deshalb notwendig. Sie hat Kindern etwas gegeben, das ihnen jahrzehntelang gefehlt hat: Dass ihre Gefühle zählen, dass sie gefragt werden, dass sie nicht gebrochen werden sollen.
 
 **Nur bleibt ein Pendel selten in der Mitte stehen.**
 
@@ -59,7 +59,7 @@ Und jetzt stehen Eltern zwischen zwei Sätzen, die beide vernünftig klingen und
 
 ## Warum die Mitte so schwer zu halten ist
 
-Man könnte meinen, die Lösung sei einfach: beides.
+Man könnte meinen, die Lösung sei einfach: Beides.
 
 Das stimmt sogar. In der Forschung zu Erziehungsstilen zeigt sich seit Jahrzehnten dasselbe Muster: Kindern geht es im Durchschnitt dort am besten, wo viel Wärme und viel klare Orientierung zusammenkommen. Der ganze Hintergrund steht in [Autoritativ erziehen](/wissen/autoritativer-erziehungsstil/).
 
@@ -67,7 +67,7 @@ Nur ist das im Alltag deutlich anstrengender als eine der beiden Seiten allein.
 
 **Wer nur streng ist, muss nur eine Sache tun.** Regel durchsetzen. Fertig.
 **Wer nur weich ist, muss auch nur eine Sache tun.** Trösten. Fertig.
-**Wer beides gleichzeitig macht, muss in jedem Konflikt zwei Bewegungen ausführen**, die sich anfühlen, als würden sie einander widersprechen: das Gefühl gelten lassen und die Sache trotzdem gelten lassen.
+**Wer beides gleichzeitig macht, muss in jedem Konflikt zwei Bewegungen ausführen**, die sich anfühlen, als würden sie einander widersprechen: Das Gefühl gelten lassen und die Sache trotzdem gelten lassen.
 
 Das kostet mehr Kraft. Und Kraft ist genau das, was in dieser Lebensphase knapp ist.
 

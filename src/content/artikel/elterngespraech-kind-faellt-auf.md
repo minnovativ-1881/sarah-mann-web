@@ -1,6 +1,6 @@
 ---
 titel: 'Das Gespräch, in dem es um dein Kind geht, und du sitzt auf der Anklagebank.'
-seoTitel: 'Elterngespräch Kita oder Schule: wenn dein Kind auffällt'
+seoTitel: 'Elterngespräch Kita oder Schule: Wenn dein Kind auffällt'
 beschreibung: 'Wie du dich auf ein Gespräch über dein Kind vorbereitest, aus Bewertungen Beobachtungen machst und was du über Nachteilsausgleich wissen solltest.'
 eyebrow: 'Wenn die Einrichtung um ein Gespräch bittet'
 silo: reizueberflutung
@@ -17,7 +17,7 @@ faq:
   - frage: 'Was sage ich, wenn die Erzieherin sagt, mein Kind sei auffällig?'
     antwort: 'Frag nach der Situation, nicht nach der Bewertung. "Können Sie mir eine Situation von gestern beschreiben?" bringt euch beide weiter als jede Diskussion über das Wort auffällig. Aus einer Situation lässt sich etwas ableiten, aus einer Bewertung nicht. Und du erfährst dabei, ob es um bestimmte Zeiten, Orte oder Übergänge geht.'
   - frage: 'Was ist ein Nachteilsausgleich und wer bekommt ihn?'
-    antwort: 'Ein Nachteilsausgleich verändert nicht die Anforderung, sondern die Bedingungen: mehr Zeit bei Arbeiten, ein ruhigerer Platz, größere Schrift, Pausen. Die Regelungen sind Ländersache. Für den erstmaligen Antrag wird häufig ein ärztliches Attest verlangt, aber nicht überall, und bei Schwierigkeiten im Lesen, Schreiben oder Rechnen genügt vielerorts die schulische Feststellung.'
+    antwort: 'Ein Nachteilsausgleich verändert nicht die Anforderung, sondern die Bedingungen: Mehr Zeit bei Arbeiten, ein ruhigerer Platz, größere Schrift, Pausen. Die Regelungen sind Ländersache. Für den erstmaligen Antrag wird häufig ein ärztliches Attest verlangt, aber nicht überall, und bei Schwierigkeiten im Lesen, Schreiben oder Rechnen genügt vielerorts die schulische Feststellung.'
   - frage: 'Brauche ich für Unterstützung in der Schule eine Diagnose?'
     antwort: 'Für einen förmlichen Nachteilsausgleich je nach Bundesland ja. Für pädagogische Maßnahmen nein. Ein ruhigerer Sitzplatz, Gehörschutz im Flur, ein Signal zum Rausgehen, eine kürzere Aufgabenmenge: All das kann eine Lehrkraft sofort und ohne jeden Antrag umsetzen, wenn sie den Sinn versteht. Dort anzufangen ist fast immer der schnellere Weg.'
   - frage: 'Was tue ich, wenn die Schule nicht mitzieht?'
@@ -71,7 +71,7 @@ Der Unterschied ist nicht der Ton, sondern die Prüfbarkeit. Über eine Bewertun
 
 ## Was du mitbringen solltest
 
-**Deine eigenen Beobachtungen, aufgeschrieben.** Zwei bis vier Wochen vorher notieren: wann es schwierig wird, was unmittelbar davor war, wie lange es dauert, was danach hilft. Zwei Sätze pro Tag reichen. Diese Notizen sind im Gespräch mehr wert als jede Erinnerung, und sie verhindern, dass ihr über Eindrücke redet statt über Tatsachen.
+**Deine eigenen Beobachtungen, aufgeschrieben.** Zwei bis vier Wochen vorher notieren: Wann es schwierig wird, was unmittelbar davor war, wie lange es dauert, was danach hilft. Zwei Sätze pro Tag reichen. Diese Notizen sind im Gespräch mehr wert als jede Erinnerung, und sie verhindern, dass ihr über Eindrücke redet statt über Tatsachen.
 
 **Was zu Hause schon funktioniert.** Das ist der stärkste Beitrag, den du liefern kannst, und der am häufigsten vergessene. „Bei uns hilft es, wenn wir Übergänge fünf Minuten vorher ankündigen“ ist ein Angebot und keine Forderung. Es zeigt außerdem, dass du arbeitest, und das verändert die Stimmung im Raum sofort.
 
@@ -89,7 +89,7 @@ Vergleiche mit anderen Kindern. Sie führen nirgendwohin.
 
 Vorwürfe an die Einrichtung, auch wenn sie berechtigt sind. Wenn tatsächlich etwas schiefläuft, gehört das in ein eigenes Gespräch mit der Leitung, nicht in dieses.
 
-## Nach dem Gespräch: die kurze Mail
+## Nach dem Gespräch: Die kurze Mail
 
 Der Schritt, den fast niemand macht und der am meisten bringt.
 
@@ -97,7 +97,7 @@ Schick am selben oder nächsten Tag eine kurze, freundliche Mail: Worüber ihr g
 
 Das ist kein Misstrauen, sondern Sorgfalt. Es hält fest, was sonst nach zwei Wochen unterschiedlich erinnert wird, und es sorgt dafür, dass Verabredungen tatsächlich stattfinden. Wenn es später doch schwierig wird, hast du eine Grundlage statt eines Gefühls.
 
-## Nachteilsausgleich: was das ist und was nicht
+## Nachteilsausgleich: Was das ist und was nicht
 
 Ein Nachteilsausgleich verändert **nicht die Anforderung**, sondern die **Bedingungen**, unter denen ein Kind sie erfüllt. Der Lernstoff bleibt derselbe, die Note bleibt vergleichbar.
 
@@ -121,7 +121,7 @@ Es gibt Einrichtungen, die nicht mitziehen. Dann gilt eine Reihenfolge, und man 
 
 Erst noch einmal mündlich, mit Bezug auf die letzte Verabredung. Dann schriftlich an die Schulleitung, sachlich und ohne Vorwurf. Danach je nach Bundesland Beratungslehrkraft, Schulpsychologischer Dienst, Schulamt oder Kita-Fachberatung.
 
-Und parallel, von Anfang an: die **Erziehungsberatungsstelle**. Sie ist kostenlos, unabhängig von einer Diagnose, in jeder Stadt vorhanden, und sie kennt die Wege in eurem Bundesland besser als jeder Artikel. Die meisten Familien gehen dort viel zu spät hin.
+Und parallel, von Anfang an: Die **Erziehungsberatungsstelle**. Sie ist kostenlos, unabhängig von einer Diagnose, in jeder Stadt vorhanden, und sie kennt die Wege in eurem Bundesland besser als jeder Artikel. Die meisten Familien gehen dort viel zu spät hin.
 
 ## Und der Satz, der dich durch das Gespräch trägt
 

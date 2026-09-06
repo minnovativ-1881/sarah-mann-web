@@ -65,7 +65,7 @@ Der zweitpraktischste ist der Blick. Ein Kind im Trotzanfall kontrolliert die Wi
 
 ## Warum die Verwechslung so teuer ist
 
-Die gängigen Ratschläge für Trotzanfälle sind gut und richtig: ruhig bleiben, bei der Entscheidung bleiben, nicht diskutieren, den Sturm aushalten, danach in Beziehung gehen. Genau so lernt ein Kind, dass ein Nein steht und die Liebe trotzdem bleibt.
+Die gängigen Ratschläge für Trotzanfälle sind gut und richtig: Ruhig bleiben, bei der Entscheidung bleiben, nicht diskutieren, den Sturm aushalten, danach in Beziehung gehen. Genau so lernt ein Kind, dass ein Nein steht und die Liebe trotzdem bleibt.
 
 Wendet man dieselben Ratschläge auf einen Meltdown an, passiert etwas anderes.
 

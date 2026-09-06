@@ -11,7 +11,7 @@ verwandt:
   - autoritativer-erziehungsstil
 faq:
   - frage: 'Was ist der Unterschied zwischen einem Bedürfnis und einem Wunsch?'
-    antwort: 'Ein Bedürfnis ist etwas, das ein Kind zum gesunden Aufwachsen braucht: Nähe, Schlaf, Essen, Sicherheit, Zugehörigkeit, Bewegung, Selbstwirksamkeit. Es ist nicht verhandelbar. Ein Wunsch ist eine konkrete Vorstellung davon, wie etwas gerade sein soll: das zweite Eis, noch eine Folge, dieses eine Spielzeug. Wünsche darf ein Kind haben, und Eltern dürfen sie ablehnen.'
+    antwort: 'Ein Bedürfnis ist etwas, das ein Kind zum gesunden Aufwachsen braucht: Nähe, Schlaf, Essen, Sicherheit, Zugehörigkeit, Bewegung, Selbstwirksamkeit. Es ist nicht verhandelbar. Ein Wunsch ist eine konkrete Vorstellung davon, wie etwas gerade sein soll: Das zweite Eis, noch eine Folge, dieses eine Spielzeug. Wünsche darf ein Kind haben, und Eltern dürfen sie ablehnen.'
   - frage: 'Heißt bedürfnisorientierte Erziehung, dass ich jeden Wunsch erfüllen muss?'
     antwort: 'Nein. Bedürfnisorientiert heißt, die Bedürfnisse des Kindes ernst zu nehmen, nicht jeden Wunsch zu erfüllen. Diese Verwechslung ist der häufigste Grund, warum sich der Ansatz für viele Familien uferlos anfühlt und Eltern dabei ausbrennen.'
   - frage: 'Woran erkenne ich im Moment, ob es ein Bedürfnis oder ein Wunsch ist?'
@@ -63,7 +63,7 @@ Und das ist der entscheidende Unterschied. **Enttäuschung ist unangenehm, aber 
 
 | Situation | Was es ist | Worauf es ankommt |
 |---|---|---|
-| Beim Einschlafen soll jemand dableiben | **Bedürfnis** | Nähe beim Einschlafen ist echt. Die Form ist verhandelbar: dableiben, kurz zurückkommen, Tür offen |
+| Beim Einschlafen soll jemand dableiben | **Bedürfnis** | Nähe beim Einschlafen ist echt. Die Form ist verhandelbar: Dableiben, kurz zurückkommen, Tür offen |
 | Das zweite Eis | Wunsch | Der Hunger ist gestillt. Das Nein gilt dem Eis, nicht dem Gefühl |
 | Sich nicht anschnallen wollen | Wunsch | Sicherheit ist nicht verhandelbar. Grenze halten, Wut begleiten |
 | Klammern nach der Kita | **Bedürfnis** | Wiederanschluss. Zehn ungeteilte Minuten wirken besser als eine Stunde nebenher |

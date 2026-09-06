@@ -1,6 +1,6 @@
 ---
 titel: 'Das Kind in der Mitte'
-seoTitel: 'Mittelkind: was dran ist am Mittelkind-Syndrom'
+seoTitel: 'Mittelkind: Was dran ist am Mittelkind-Syndrom'
 beschreibung: 'Das Mittelkind gilt als übersehen. Was an der Geburtsreihenfolge wirklich belegt ist, was daran Mythos ist und welche zwei Dinge in der Mitte tatsächlich schwerer sind.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -23,7 +23,7 @@ faq:
   - frage: 'Was ist mit dem mittleren Kind bei mehr als drei Kindern?'
     antwort: 'Bei vier und mehr Kindern lösen sich die klassischen Positionen auf. Es bilden sich meist Paare oder kleine Gruppen nach Alter, und die Frage nach der Mitte stellt sich anders. Der Kern bleibt: Jedes Kind braucht eine eigene Erfahrung mit dir.'
   - frage: 'Mein Mittelkind fühlt sich benachteiligt. Was tue ich?'
-    antwort: 'Nicht widerlegen. Ein Kind, dem man beweist, dass sein Gefühl falsch ist, fühlt sich zweimal übergangen. Nimm das Gefühl an und ändere die Struktur: eine feste Zeit, eine eigene Sache, ein Bereich, in dem es zuerst drankommt.'
+    antwort: 'Nicht widerlegen. Ein Kind, dem man beweist, dass sein Gefühl falsch ist, fühlt sich zweimal übergangen. Nimm das Gefühl an und ändere die Struktur: Eine feste Zeit, eine eigene Sache, ein Bereich, in dem es zuerst drankommt.'
 ---
 
 Über das erste Kind gibt es Fotoalben. Über das letzte gibt es Geschichten. Über das Kind in der Mitte gibt es einen Begriff, der nach Diagnose klingt: Mittelkind-Syndrom.
@@ -85,7 +85,7 @@ Manche Mittelkinder sprechen es aus. „Ihr habt mich weniger lieb.“ „Bei mi
 
 Der Reflex ist, es zu widerlegen. Das ist verständlich und macht es schlimmer, denn ein Kind, dem man beweist, dass sein Gefühl falsch ist, fühlt sich zweimal übergangen.
 
-Besser ist eine Antwort in zwei Schritten. Erst das Gefühl annehmen: „Das fühlt sich für dich so an. Das ist ein blödes Gefühl.“ Dann die Struktur ändern, nicht das Argument: eine feste Zeit, eine eigene Sache, ein Bereich, in dem dieses Kind zuerst drankommt.
+Besser ist eine Antwort in zwei Schritten. Erst das Gefühl annehmen: „Das fühlt sich für dich so an. Das ist ein blödes Gefühl.“ Dann die Struktur ändern, nicht das Argument: Eine feste Zeit, eine eigene Sache, ein Bereich, in dem dieses Kind zuerst drankommt.
 
 Worte überzeugen hier niemanden. Wiederholte Erfahrungen schon.
 
@@ -99,7 +99,7 @@ Deshalb ist gerade in großen Familien die verabredete Einzelzeit kein Luxus, so
 
 ## Der Satz zum Mitnehmen
 
-Das Mittelkind hat kein Syndrom. Es hat zwei Lücken: keine Zeit allein und keine eigene Rolle. Beide lassen sich schließen, und zwar nicht mit einem Etikett, sondern mit einem Termin und einer eigenen Sache.
+Das Mittelkind hat kein Syndrom. Es hat zwei Lücken: Keine Zeit allein und keine eigene Rolle. Beide lassen sich schließen, und zwar nicht mit einem Etikett, sondern mit einem Termin und einer eigenen Sache.
 
 ## Quellen und weiterführende Informationen
 

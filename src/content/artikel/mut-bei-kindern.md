@@ -1,6 +1,6 @@
 ---
 titel: 'Mut ist nicht Angstlosigkeit'
-seoTitel: 'Mut bei Kindern fördern: was zurückhaltende Kinder brauchen'
+seoTitel: 'Mut bei Kindern fördern: Was zurückhaltende Kinder brauchen'
 beschreibung: 'Ein mutiges Kind hat keine Angst weniger, es geht nur trotzdem los. Warum Anschieben das Gegenteil bewirkt und welcher Weg vorsichtige Kinder tatsächlich weiterbringt.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -19,7 +19,7 @@ faq:
   - frage: 'Soll ich mein Kind zu etwas überreden?'
     antwort: 'Nein. Überredung verlagert die Entscheidung zu dir, und der Mut, der dabei entsteht, gehört dann auch dir. Beschreibe stattdessen die Lage nüchtern, biete einen kleineren ersten Schritt an und lass die Entscheidung beim Kind.'
   - frage: 'Was ist mit „Stell dich nicht so an“?'
-    antwort: 'Der Satz erhöht den Druck und senkt die Bereitschaft. Er sagt dem Kind, dass sein Gefühl unangemessen ist, und damit hat es zwei Probleme statt einem: die Sache selbst und die Bewertung dafür, dass es sie schwierig findet.'
+    antwort: 'Der Satz erhöht den Druck und senkt die Bereitschaft. Er sagt dem Kind, dass sein Gefühl unangemessen ist, und damit hat es zwei Probleme statt einem: Die Sache selbst und die Bewertung dafür, dass es sie schwierig findet.'
   - frage: 'Hilft es, wenn ich selbst Angst zeige?'
     antwort: 'Es hilft, wenn du zeigst, wie du damit umgehst. Kinder lernen Mut stark am Modell. Ein Erwachsener, der sagt, dass ihm etwas unangenehm ist, und es dann trotzdem tut, ist die wirksamste Lektion, die es gibt.'
   - frage: 'Wann ist es mehr als Vorsicht?'
@@ -80,7 +80,7 @@ Wichtig ist nur, wer die Stufenhöhe bestimmt. Wenn das Kind die nächste Stufe 
 
 Kinder lernen Mut vor allem daran, wie Erwachsene mit Unangenehmem umgehen. Und zwar nicht daran, dass diese furchtlos wirken.
 
-Am wirksamsten ist der umgekehrte Fall: ein Erwachsener, der ausspricht, dass ihm etwas unangenehm ist, und es dann tut.
+Am wirksamsten ist der umgekehrte Fall: Ein Erwachsener, der ausspricht, dass ihm etwas unangenehm ist, und es dann tut.
 
 „Ich rufe da jetzt an, und ehrlich gesagt habe ich keine Lust darauf.“ Und dann anrufen.
 

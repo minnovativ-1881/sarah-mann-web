@@ -15,7 +15,7 @@ faq:
   - frage: 'Warum will sich mein Kind nicht anziehen?'
     antwort: 'Dahinter stecken meistens zwei sehr verschiedene Gründe. Entweder geht es um Selbstbestimmung, dann will dein Kind entscheiden, was und wann es anzieht. Oder es geht um Sensorik, dann ist die Kleidung auf der Haut tatsächlich unangenehm bis schmerzhaft. Beides sieht gleich aus und braucht das Gegenteil voneinander.'
   - frage: 'Woran erkenne ich, ob es Trotz oder Sensorik ist?'
-    antwort: 'An drei Dingen. Bei Selbstbestimmung wechselt das Problem: Heute ist es die Hose, morgen die Jacke, und mit einer Auswahl von zwei Möglichkeiten ist es meistens gelöst. Bei Sensorik bleibt es gleich: immer dasselbe Teil, dieselbe Stelle, dieselbe Naht. Und dein Kind zieht sich unter Umständen mitten am Tag um oder rutscht ständig an der Kleidung herum.'
+    antwort: 'An drei Dingen. Bei Selbstbestimmung wechselt das Problem: Heute ist es die Hose, morgen die Jacke, und mit einer Auswahl von zwei Möglichkeiten ist es meistens gelöst. Bei Sensorik bleibt es gleich: Immer dasselbe Teil, dieselbe Stelle, dieselbe Naht. Und dein Kind zieht sich unter Umständen mitten am Tag um oder rutscht ständig an der Kleidung herum.'
   - frage: 'Mein Kind erträgt keine Socken. Was hilft?'
     antwort: 'Erstens nahtlose Socken, es gibt sie inzwischen überall. Zweitens die Socke auf links tragen, sodass die Naht außen liegt, das ist der billigste Test überhaupt. Drittens Material wechseln, oft ist es der Kunstfaseranteil. Und wenn ein Paar funktioniert, kauf davon fünf. Das ist keine Schrulle, das erspart euch fünf Konflikte pro Woche.'
   - frage: 'Soll ich mein Kind einfach anziehen, wenn wir spät dran sind?'
@@ -44,7 +44,7 @@ Für Kinder, die viel wahrnehmen, ist Kleidung kein Hintergrundgefühl, sondern 
 
 | | Selbstbestimmung | Sensorik |
 |---|---|---|
-| Was abgelehnt wird | Wechselt: heute die Hose, morgen die Jacke | Bleibt gleich: immer dasselbe Teil, dieselbe Stelle |
+| Was abgelehnt wird | Wechselt: Heute die Hose, morgen die Jacke | Bleibt gleich: Immer dasselbe Teil, dieselbe Stelle |
 | Auswahl von zwei Dingen | Löst das Problem meistens sofort | Ändert nichts, wenn beide Sachen unangenehm sind |
 | Wenn es angezogen ist | Ist die Sache erledigt | Zupft, rutscht, zieht, zieht sich später um |
 | Der Ton | Trotzig, kämpferisch, herausfordernd | Verzweifelt, panisch, manchmal in Tränen |
@@ -82,7 +82,7 @@ Was wirkt, ist die Kleidung zu ändern, nicht das Kind.
 
 ## Die drei härtesten Fälle
 
-**Die Winterjacke.** Dick, schwer, einengend, dazu meistens rascheliges Material. Für ein Kind, das Enge schlecht erträgt, ist sie das unangenehmste Kleidungsstück des Jahres. Was hilft: dünnere Schichten statt einer dicken Jacke, Fleece statt Nylon, und die Jacke erst kurz vor der Tür anziehen statt im warmen Flur.
+**Die Winterjacke.** Dick, schwer, einengend, dazu meistens rascheliges Material. Für ein Kind, das Enge schlecht erträgt, ist sie das unangenehmste Kleidungsstück des Jahres. Was hilft: Dünnere Schichten statt einer dicken Jacke, Fleece statt Nylon, und die Jacke erst kurz vor der Tür anziehen statt im warmen Flur.
 
 **Die Regenhose und der Matschanzug.** Sie werden in der Kita täglich verlangt und stehen oft am Ende einer langen Kette von Anziehschritten. Hier lohnt sich das Gespräch mit der Einrichtung: Manche Kinder schaffen es, wenn sie fünf Minuten früher anfangen dürfen, andere, wenn sie es draußen anziehen dürfen statt in der vollen Garderobe.
 

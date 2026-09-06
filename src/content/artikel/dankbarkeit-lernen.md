@@ -1,6 +1,6 @@
 ---
 titel: 'Dankbarkeit kann man nicht verlangen'
-seoTitel: 'Dankbarkeit lernen: warum „sag mal danke“ nicht reicht'
+seoTitel: 'Dankbarkeit lernen: Warum „sag mal danke“ nicht reicht'
 beschreibung: 'Das erzwungene Danke bringt Höflichkeit hervor, aber keine Dankbarkeit. Was Kinder tatsächlich brauchen, um Wert zu erkennen, und ab wann sie es überhaupt können.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -13,13 +13,13 @@ verwandt:
   - kind-vergleicht-sich
 faq:
   - frage: 'Ab wann können Kinder dankbar sein?'
-    antwort: 'Höflichkeitsformeln lernen sie ab etwa zwei Jahren. Echte Dankbarkeit setzt mehr voraus: zu verstehen, dass jemand sich entschieden hat, etwas zu geben, und dass es ihn etwas gekostet hat. Das entwickelt sich meist zwischen fünf und sieben Jahren.'
+    antwort: 'Höflichkeitsformeln lernen sie ab etwa zwei Jahren. Echte Dankbarkeit setzt mehr voraus: Zu verstehen, dass jemand sich entschieden hat, etwas zu geben, und dass es ihn etwas gekostet hat. Das entwickelt sich meist zwischen fünf und sieben Jahren.'
   - frage: 'Soll ich mein Kind zum Danke sagen anhalten?'
     antwort: 'Als Umgangsform ja, das gehört dazu wie Grüßen. Nur solltest du es nicht mit Dankbarkeit verwechseln. Das eine ist eine soziale Regel, das andere ein Gefühl, und Gefühle lassen sich nicht anordnen.'
   - frage: 'Warum ist mein Kind nach Geschenken oft unzufrieden?'
     antwort: 'Weil Menge den Wert des Einzelnen senkt. Wer sechs Päckchen öffnet, bewertet jedes einzelne im Vergleich zu den anderen. Das ist keine Undankbarkeit, sondern eine sehr normale Reaktion auf eine Situation, die Erwachsene hergestellt haben.'
   - frage: 'Wie fördere ich Dankbarkeit im Alltag?'
-    antwort: 'Über drei Dinge: sichtbar machen, wer hinter etwas steckt, dem Kind selbst Gelegenheiten zum Geben verschaffen, und Wünsche nicht sofort erfüllen. Ohne Wartezeit gibt es keinen Moment, in dem etwas als wertvoll erlebt wird.'
+    antwort: 'Über drei Dinge: Sichtbar machen, wer hinter etwas steckt, dem Kind selbst Gelegenheiten zum Geben verschaffen, und Wünsche nicht sofort erfüllen. Ohne Wartezeit gibt es keinen Moment, in dem etwas als wertvoll erlebt wird.'
   - frage: 'Ist ein Dankbarkeitsritual sinnvoll?'
     antwort: 'Wenn es freiwillig bleibt, ja. Eine kurze Runde am Abend, in der jeder eine gute Sache des Tages nennt, funktioniert in vielen Familien. Sobald sie zur Pflichtübung wird, kippt sie und erzeugt Floskeln.'
   - frage: 'Mein Kind will ständig mehr. Was mache ich?'
@@ -44,7 +44,7 @@ Alle drei zusammen entwickeln sich meist zwischen fünf und sieben Jahren, bei m
 
 ## Warum das erzwungene Danke wenig bringt
 
-Ein Danke auf Kommando bringt drei Dinge hervor: eine Formel, eine kurze Peinlichkeit und die Erleichterung der Erwachsenen.
+Ein Danke auf Kommando bringt drei Dinge hervor: Eine Formel, eine kurze Peinlichkeit und die Erleichterung der Erwachsenen.
 
 Was es nicht hervorbringt, ist der Gedanke, dass sich jemand etwas überlegt hat.
 
@@ -68,7 +68,7 @@ Die zweite Zeile ist die unangenehmste und die wirksamste. Ohne Wartezeit gibt e
 
 ## Der Geschenkeberg
 
-Es gibt eine Situation, in der fast alle Kinder undankbar wirken, und sie ist von Erwachsenen hergestellt: viele Geschenke gleichzeitig.
+Es gibt eine Situation, in der fast alle Kinder undankbar wirken, und sie ist von Erwachsenen hergestellt: Viele Geschenke gleichzeitig.
 
 Wer sechs Päckchen vor sich hat, bewertet jedes im Vergleich zu den anderen. Das ist keine Charakterfrage, sondern die normale Folge davon, dass Menge den Wert des Einzelnen senkt.
 
@@ -78,7 +78,7 @@ Das kostet nichts und ändert die Szene deutlich.
 
 ## Geben können, nicht nur bekommen
 
-Es gibt einen Weg zur Dankbarkeit, der von der anderen Seite kommt: selbst etwas geben.
+Es gibt einen Weg zur Dankbarkeit, der von der anderen Seite kommt: Selbst etwas geben.
 
 Ein Kind, das ein Geschenk ausgesucht, bezahlt oder gebastelt hat und dann zusieht, wie sich jemand darüber freut, versteht auf einmal etwas über die Seite des Gebens.
 

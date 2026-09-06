@@ -30,7 +30,7 @@ Es gibt in der deutschen Erziehungsdebatte eine Verkürzung, die viel Schaden an
 
 Bedürfnisorientiert.
 
-Gemeint war damit ursprünglich, dass in einer Familie die Bedürfnisse aller Beteiligten zählen. Geworden ist daraus in der Praxis: die Bedürfnisse des Kindes zuerst, die der Eltern zuletzt, wenn überhaupt noch Zeit ist.
+Gemeint war damit ursprünglich, dass in einer Familie die Bedürfnisse aller Beteiligten zählen. Geworden ist daraus in der Praxis: Die Bedürfnisse des Kindes zuerst, die der Eltern zuletzt, wenn überhaupt noch Zeit ist.
 
 Diese Verkürzung ist keine Lehre, sondern ein Missverständnis. Und sie ist einer der Hauptgründe, warum eine ganze Generation engagierter Eltern erschöpft ist.
 
@@ -52,7 +52,7 @@ Es gibt einen Unterschied, der in dieser Debatte fast immer untergeht, und mit i
 
 Ein Bedürfnis ist etwas, das ein Mensch braucht: Nähe, Schlaf, Sicherheit, Essen, das Gefühl zu zählen. Bedürfnisse sind nicht verhandelbar.
 
-Ein Wunsch ist die konkrete Form, in der ein Bedürfnis gerade auftritt: dieses Eis, dieser Fernsehfilm, diese Person, dieser Moment. Wünsche sind verhandelbar.
+Ein Wunsch ist die konkrete Form, in der ein Bedürfnis gerade auftritt: Dieses Eis, dieser Fernsehfilm, diese Person, dieser Moment. Wünsche sind verhandelbar.
 
 Und daraus folgt der wichtigste Satz:
 
@@ -85,7 +85,7 @@ Der Unterschied ist nicht die Menge. Es ist die Verlässlichkeit. Auf einen fest
 
 Die praktische Frage lautet: Wie sagt man das einem Kind?
 
-Die Antwort ist dieselbe wie bei jeder Grenze: als Aussage über dich, nicht als Urteil über das Kind.
+Die Antwort ist dieselbe wie bei jeder Grenze: Als Aussage über dich, nicht als Urteil über das Kind.
 
 > „Ich brauche jetzt fünf Minuten Ruhe. Danach bin ich wieder da.“
 

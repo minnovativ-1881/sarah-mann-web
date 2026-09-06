@@ -13,9 +13,9 @@ verwandt:
   - grenzen-setzen-kleinkind
 faq:
   - frage: 'Warum tun sich Kinder mit Übergängen so schwer?'
-    antwort: 'Weil ein Übergang zwei Leistungen gleichzeitig verlangt: etwas Angenehmes beenden und sich auf etwas Unbekanntes einstellen. Beides braucht Selbstregulation, und die ist bei kleinen Kindern kaum vorhanden. Dazu kommt, dass Kinder kein verlässliches Zeitgefühl haben und ein Ende deshalb wie ein Überfall wirkt.'
+    antwort: 'Weil ein Übergang zwei Leistungen gleichzeitig verlangt: Etwas Angenehmes beenden und sich auf etwas Unbekanntes einstellen. Beides braucht Selbstregulation, und die ist bei kleinen Kindern kaum vorhanden. Dazu kommt, dass Kinder kein verlässliches Zeitgefühl haben und ein Ende deshalb wie ein Überfall wirkt.'
   - frage: 'Wie kündige ich einen Wechsel richtig an?'
-    antwort: 'Konkret statt zeitlich. Fünf Minuten sagen einem Vierjährigen nichts. Besser ist eine Menge, die er sehen kann: noch zweimal rutschen, bis das Lied zu Ende ist, noch eine Seite. Und die Ankündigung sollte einmal kommen, nicht dreimal, sonst wird sie selbst zur Verhandlung.'
+    antwort: 'Konkret statt zeitlich. Fünf Minuten sagen einem Vierjährigen nichts. Besser ist eine Menge, die er sehen kann: Noch zweimal rutschen, bis das Lied zu Ende ist, noch eine Seite. Und die Ankündigung sollte einmal kommen, nicht dreimal, sonst wird sie selbst zur Verhandlung.'
   - frage: 'Mein Kind weint jeden Morgen an der Kita-Tür. Ist das normal?'
     antwort: 'In den meisten Fällen ja, besonders in den ersten Wochen und nach Pausen. Entscheidend ist nicht, ob dein Kind beim Abschied weint, sondern ob es sich danach beruhigen lässt. Frag im Zweifel nach, wie lange es dauert, bis dein Kind wieder im Spiel ist.'
   - frage: 'Warum klappt der Wechsel manchmal und manchmal nicht?'
@@ -44,7 +44,7 @@ Für ein kleines Kind sind das drei Anforderungen gleichzeitig:
 
 **Einen Impuls bremsen.** Nämlich den, weiterzumachen.
 
-Alle drei hängen an derselben Fähigkeit: der Selbstregulation. Und die ist bei kleinen Kindern noch kaum vorhanden. Was in welchem Alter überhaupt geht, steht in [Wie Kinder lernen, sich selbst zu halten](/wissen/selbstregulation-kind/).
+Alle drei hängen an derselben Fähigkeit: Der Selbstregulation. Und die ist bei kleinen Kindern noch kaum vorhanden. Was in welchem Alter überhaupt geht, steht in [Wie Kinder lernen, sich selbst zu halten](/wissen/selbstregulation-kind/).
 
 Ein Kind, das beim Verlassen des Spielplatzes zusammenbricht, ist deshalb nicht ungezogen. Es macht gerade drei Dinge auf einmal, von denen es keines gut kann.
 
@@ -54,7 +54,7 @@ Es gibt einen Grund, warum die klassische Ankündigung so oft nicht funktioniert
 
 „Wir gehen in fünf Minuten.“
 
-Fünf Minuten sind für ein vierjähriges Kind keine Information. Kinder entwickeln erst im Grundschulalter ein einigermaßen verlässliches Gefühl für Zeitspannen. Vorher ist eine Minute genau so lang wie eine halbe Stunde: unbekannt.
+Fünf Minuten sind für ein vierjähriges Kind keine Information. Kinder entwickeln erst im Grundschulalter ein einigermaßen verlässliches Gefühl für Zeitspannen. Vorher ist eine Minute genau so lang wie eine halbe Stunde: Unbekannt.
 
 Und damit wird die Ankündigung wirkungslos. Das Ende kommt trotzdem wie aus dem Nichts.
 
@@ -76,7 +76,7 @@ Und noch etwas: **Einmal ankündigen, nicht dreimal.** Wer dreimal ankündigt, h
 
 Beide brauchen dasselbe Grundprinzip, aber unterschiedlich viel Zeit.
 
-**Kleine Übergänge** sind die alltäglichen: aufhören, wechseln, losgehen. Sie kommen zwanzigmal am Tag vor und werden vor allem durch Wiederholung leichter. Was gestern genauso lief wie heute, kostet weniger Kraft.
+**Kleine Übergänge** sind die alltäglichen: Aufhören, wechseln, losgehen. Sie kommen zwanzigmal am Tag vor und werden vor allem durch Wiederholung leichter. Was gestern genauso lief wie heute, kostet weniger Kraft.
 
 **Große Übergänge** sind Kita, Schule, Umzug, ein Geschwisterkind. Sie dauern Wochen, manchmal Monate, und sie folgen einem eigenen Muster:
 
@@ -94,7 +94,7 @@ Wie das konkret an der Kita-Tür aussieht, steht in [Wenn dein Kind an der Kita-
 
 ## Warum Kinder Bekanntes brauchen und keine Erklärungen
 
-Es gibt einen gut gemeinten Reflex, der bei Übergängen wenig bringt: das ausführliche Vorbereitungsgespräch.
+Es gibt einen gut gemeinten Reflex, der bei Übergängen wenig bringt: Das ausführliche Vorbereitungsgespräch.
 
 Wir erklären, was passieren wird, warum es schön wird und dass alles gut sein wird. Und das Kind hört zu, nickt und ist am nächsten Morgen genauso überfordert.
 
@@ -172,7 +172,7 @@ Zu den einzelnen Übergängen gibt es jeweils einen eigenen Text:
 - [Dein Kind weint beim Abgeben. Und du gehst trotzdem.](/wissen/kita-eingewoehnung-kind-weint/), der Moment an der Kita-Tür
 - [Der Morgen, der ohne Geschrei funktioniert](/wissen/morgens-ohne-geschrei/), der Familienmorgen, der hält
 - [Wenn die Großeltern anders erziehen](/wissen/wenn-oma-anders-erzieht/), wenn die Großeltern anders erziehen
-- [Zeitumstellung mit Kind: die vier Tage davor](/wissen/zeitumstellung-mit-kind/), die vier Tage vor der Umstellung
+- [Zeitumstellung mit Kind: Die vier Tage davor](/wissen/zeitumstellung-mit-kind/), die vier Tage vor der Umstellung
 
 ## Quellen und weiterführende Informationen
 

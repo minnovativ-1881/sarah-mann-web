@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn die Kraft nicht mehr reicht'
-seoTitel: 'Als Eltern erschöpft: was wirklich hilft'
+seoTitel: 'Als Eltern erschöpft: Was wirklich hilft'
 beschreibung: 'Elterliche Erschöpfung ist kein Charakterfehler und geht nicht durch einen Wellness-Abend weg.'
 eyebrow: 'Der Leitfaden'
 silo: eltern
@@ -13,13 +13,13 @@ verwandt:
   - autoritativer-erziehungsstil
 faq:
   - frage: 'Was ist elterliche Erschöpfung?'
-    antwort: 'Ein Zustand anhaltender Überlastung durch die Elternrolle, der sich in drei Dingen zeigt: tiefe Müdigkeit, die durch Schlaf nicht mehr weggeht, innere Distanz zum eigenen Kind, und das Gefühl, den eigenen Ansprüchen nicht mehr zu genügen. Sie unterscheidet sich von normaler Müdigkeit dadurch, dass Erholung nicht mehr wirkt.'
+    antwort: 'Ein Zustand anhaltender Überlastung durch die Elternrolle, der sich in drei Dingen zeigt: Tiefe Müdigkeit, die durch Schlaf nicht mehr weggeht, innere Distanz zum eigenen Kind, und das Gefühl, den eigenen Ansprüchen nicht mehr zu genügen. Sie unterscheidet sich von normaler Müdigkeit dadurch, dass Erholung nicht mehr wirkt.'
   - frage: 'Wie merke ich, dass es mehr als normale Müdigkeit ist?'
     antwort: 'Am besten an einem Wochenende. Wenn zwei ruhige Tage spürbar etwas ändern, ist es Müdigkeit. Wenn du am Montag genauso leer bist wie am Freitag, ist es etwas anderes. Ein zweites Zeichen ist innere Distanz: Du funktionierst, aber du spürst dein Kind nicht mehr richtig.'
   - frage: 'Bin ich eine schlechte Mutter, wenn ich erschöpft bin?'
     antwort: 'Nein. Erschöpfung entsteht nicht durch mangelnde Liebe, sondern durch zu lange Belastung ohne ausreichende Entlastung. Sie trifft besonders oft die Eltern, die sich besonders viel Mühe geben, weil hoher Anspruch und wenig Unterstützung die ungünstigste Kombination sind.'
   - frage: 'Was hilft wirklich gegen elterliche Erschöpfung?'
-    antwort: 'Vor allem drei Dinge: echte Entlastung durch andere Menschen, weniger Entscheidungen pro Tag, und ein niedrigerer Anspruch an dich selbst. Was nicht hilft, sind einzelne Wellness-Abende. Sie sind angenehm, ändern aber nichts an der Ursache.'
+    antwort: 'Vor allem drei Dinge: Echte Entlastung durch andere Menschen, weniger Entscheidungen pro Tag, und ein niedrigerer Anspruch an dich selbst. Was nicht hilft, sind einzelne Wellness-Abende. Sie sind angenehm, ändern aber nichts an der Ursache.'
   - frage: 'Wie kann ich ruhig bleiben, wenn ich völlig leer bin?'
     antwort: 'Gar nicht zuverlässig, und das ist der wichtigste Punkt. Ruhe ist keine Willensleistung, sondern hängt an deiner Reserve. Wer dauerhaft leer ist, wird laut, egal wie sehr er sich vornimmt, es nicht zu werden. Deshalb liegt die Lösung nicht in mehr Selbstbeherrschung, sondern in mehr Erholung.'
   - frage: 'Wann sollte ich mir Hilfe holen?'
@@ -110,7 +110,7 @@ Das heißt nicht, dass zwei Drittel egal wären. Es heißt, dass ein Kind viel m
 
 Ich weiß, wie zynisch dieser Punkt klingt, wenn ein Kind nachts wach ist. Trotzdem gehört er dazu, weil bei Schlafmangel als Erstes die Selbstbeherrschung zusammenbricht.
 
-Wo es irgendwie geht: eine halbe Stunde früher ins Bett, bewusst statt zufällig. Nicht, weil das die Lösung wäre, sondern weil dreißig Minuten in dieser Rechnung viel sind.
+Wo es irgendwie geht: Eine halbe Stunde früher ins Bett, bewusst statt zufällig. Nicht, weil das die Lösung wäre, sondern weil dreißig Minuten in dieser Rechnung viel sind.
 
 ### Und was nicht hilft
 
@@ -134,7 +134,7 @@ Wenn du bis hierher gelesen hast und denkst, dass nichts davon in deinen Alltag 
 
 **Nimm dir eine Woche und streich eine Sache.** Irgendetwas, das du regelmäßig tust, weil es sich gehört, und das niemand vermissen würde. Der aufwendige Nachmittag. Die selbstgemachte Sache. Der Anspruch, dass die Wohnung abends aufgeräumt ist.
 
-**Und bitte einen einzigen Menschen um eine einzige konkrete Hilfe.** Nicht allgemein, sondern konkret: einen Nachmittag, eine Abholung, einen Einkauf. Konkrete Bitten werden viel häufiger erfüllt als allgemeine.
+**Und bitte einen einzigen Menschen um eine einzige konkrete Hilfe.** Nicht allgemein, sondern konkret: Einen Nachmittag, eine Abholung, einen Einkauf. Konkrete Bitten werden viel häufiger erfüllt als allgemeine.
 
 Mehr nicht, für den Anfang. Wer erschöpft ist, kann kein Umbauprogramm stemmen, und ein gescheitertes Programm macht es schlimmer.
 

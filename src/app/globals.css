@@ -82,6 +82,16 @@ body {
   margin: 1.5rem 0;
 }
 
+/* Sarahs Unterschrift unter persoenlichen Texten, in der Schrift des Logos.
+   Die Signaturschrift hat sehr lange Unterlaengen, deshalb eine eigene
+   Zeilenhoehe statt der geerbten. */
+.signatur {
+  font-family: var(--font-signatur), "Segoe Script", cursive;
+  color: var(--olive);
+  line-height: 1.15;
+  font-size: clamp(2.6rem, 6vw, 3.6rem);
+}
+
 /* Scroll reveal - JS controlled */
 .reveal {
   opacity: 0;

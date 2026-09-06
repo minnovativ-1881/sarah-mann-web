@@ -1,6 +1,6 @@
 ---
-titel: 'Zeitumstellung mit Kind: die vier Tage davor'
-seoTitel: 'Zeitumstellung mit Kind: der Plan'
+titel: 'Zeitumstellung mit Kind: Die vier Tage davor'
+seoTitel: 'Zeitumstellung mit Kind: Der Plan'
 beschreibung: 'Am 25. Oktober 2026 wird zurückgestellt. Warum Kinder eine Stunde mehr Schlaf nicht einfach mitnehmen, welcher Plan funktioniert und was zu tun ist.'
 eyebrow: 'Übergänge im Familienjahr'
 silo: uebergaenge
@@ -42,7 +42,7 @@ Ein Erwachsener kann sich über diese innere Uhr hinwegsetzen, weil er weiß, da
 
 Deshalb wirkt die Herbstumstellung bei Kindern nicht als geschenkte Stunde, sondern als verlorene.
 
-## Der Plan: vier Tage, vier Viertelstunden
+## Der Plan: Vier Tage, vier Viertelstunden
 
 Die wirksamste Methode ist unspektakulär und funktioniert bei den meisten Kindern.
 
@@ -60,7 +60,7 @@ Entscheidend ist ein Punkt, der oft übersehen wird: **Nicht nur die Schlafensze
 
 Also auch das Frühstück, den Mittagsschlaf, das Abendessen und den Beginn der Abendroutine. Die innere Uhr orientiert sich an all diesen Ankern. Wer nur das Zubettgehen verschiebt, bekommt ein müdes Kind, das trotzdem zur alten Zeit aufwacht.
 
-Wenn vier Tage nicht möglich sind, geht auch die kürzere Variante: zwei Tage zu je 30 Minuten. Etwas holpriger, aber besser als nichts.
+Wenn vier Tage nicht möglich sind, geht auch die kürzere Variante: Zwei Tage zu je 30 Minuten. Etwas holpriger, aber besser als nichts.
 
 ## Was mit dem Licht zu tun ist
 

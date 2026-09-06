@@ -1,6 +1,6 @@
 ---
 titel: 'Die ersten Schulwochen, ohne dass alle zusammenbrechen'
-seoTitel: 'Schulanfang: die ersten Wochen begleiten'
+seoTitel: 'Schulanfang: Die ersten Wochen begleiten'
 beschreibung: 'Warum Schulkinder in den ersten Wochen zu Hause aus allen Nähten platzen, was ein Nachmittag aushält und welche vier Dinge den Unterschied machen.'
 eyebrow: 'Schulstart'
 silo: uebergaenge
@@ -19,7 +19,7 @@ faq:
   - frage: 'Wie viele Nachmittagstermine verträgt ein Erstklässler?'
     antwort: 'In den ersten Wochen möglichst keine oder höchstens einen pro Woche. Ein Schulkind hat seinen Vorrat am Vormittag aufgebraucht. Jeder zusätzliche Termin geht auf Kosten des Abends, und der Abend ist ohnehin die schwierigste Zeit des Tages.'
   - frage: 'Mein Kind sagt, es will nicht mehr in die Schule. Was tun?'
-    antwort: 'Erst zuhören, ohne sofort zu widersprechen oder zu beruhigen. Danach konkret nachfragen, was genau schwer ist: der Weg, eine Person, eine Situation, der Lärm. Meist steckt etwas Kleines dahinter, das sich lösen lässt. Hält die Ablehnung über Wochen an oder kommen körperliche Beschwerden dazu, gehört das Thema zur Lehrkraft und gegebenenfalls zur Kinderärztin.'
+    antwort: 'Erst zuhören, ohne sofort zu widersprechen oder zu beruhigen. Danach konkret nachfragen, was genau schwer ist: Der Weg, eine Person, eine Situation, der Lärm. Meist steckt etwas Kleines dahinter, das sich lösen lässt. Hält die Ablehnung über Wochen an oder kommen körperliche Beschwerden dazu, gehört das Thema zur Lehrkraft und gegebenenfalls zur Kinderärztin.'
   - frage: 'Soll ich bei den Hausaufgaben danebensitzen?'
     antwort: 'Am Anfang ja, aber als Anwesenheit, nicht als Kontrolle. Ein Erstklässler braucht meist jemanden im Raum, um überhaupt anzufangen. Was er nicht braucht, ist eine Korrektur nach jedem Wort. Fehler dürfen stehen bleiben, sie gehören der Lehrkraft.'
   - frage: 'Wie kriegen wir die Morgen ruhiger hin?'
@@ -71,7 +71,7 @@ Das ist die wirksamste Maßnahme und die unpopulärste, weil im September alle K
 
 Ein Erstklässler hat seinen Vorrat am Vormittag aufgebraucht. Was danach kommt, geht auf Reserve. Und wer die Reserve nachmittags verbraucht, hat abends nichts mehr, und der Abend ist ohnehin die schwierigste Zeit.
 
-In den ersten sechs Wochen: möglichst kein Termin, höchstens einer pro Woche. Der Sportkurs läuft nicht weg.
+In den ersten sechs Wochen: Möglichst kein Termin, höchstens einer pro Woche. Der Sportkurs läuft nicht weg.
 
 Was ein Kind stattdessen braucht, ist unstrukturierte Zeit. Nichts müssen, niemand, der etwas will. Das sieht nach Nichtstun aus und ist Erholung.
 

@@ -1,6 +1,6 @@
 ---
 titel: 'Was Kinder wieder aufstehen lässt'
-seoTitel: 'Resilienz bei Kindern: die Faktoren, die tatsächlich belegt sind'
+seoTitel: 'Resilienz bei Kindern: Die Faktoren, die tatsächlich belegt sind'
 beschreibung: 'Resilienz ist kein Charakterzug, den ein Kind hat oder nicht hat. Der wichtigste Schutzfaktor ist erstaunlich unspektakulär, und er ist herstellbar.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -17,7 +17,7 @@ faq:
   - frage: 'Was ist der wichtigste Schutzfaktor?'
     antwort: 'Mindestens eine stabile, verlässliche Beziehung zu einem Erwachsenen. Das ist der Faktor, der in der Forschung immer wieder als der stärkste auftaucht, und er ist nicht an Geld, Bildung oder Wohnort gebunden.'
   - frage: 'Kann man Resilienz trainieren?'
-    antwort: 'Nicht als Übung, aber die Bedingungen lassen sich herstellen: verlässliche Beziehung, Erfahrungen von Wirksamkeit, ein vorhersehbarer Alltag und die Erlaubnis, Belastung zu zeigen. Resilienz ist die Folge davon, nicht das Trainingsziel.'
+    antwort: 'Nicht als Übung, aber die Bedingungen lassen sich herstellen: Verlässliche Beziehung, Erfahrungen von Wirksamkeit, ein vorhersehbarer Alltag und die Erlaubnis, Belastung zu zeigen. Resilienz ist die Folge davon, nicht das Trainingsziel.'
   - frage: 'Muss ein Kind Schwierigkeiten erleben, um stark zu werden?'
     antwort: 'Es muss Schwierigkeiten in bewältigbarer Größe erleben, und zwar mit Begleitung. Belastung ohne Begleitung stärkt nicht, sie zermürbt. Der Unterschied liegt nicht in der Menge der Schwierigkeiten, sondern darin, ob jemand daneben steht.'
   - frage: 'Sind manche Kinder von Natur aus widerstandsfähiger?'
@@ -74,7 +74,7 @@ Deshalb ist absichtliches Härten keine Resilienzförderung. Es ist der Versuch,
 
 In vielen Familien gibt es ein Kind, von dem alle sagen, es stecke alles weg. Es beschwert sich nicht, es funktioniert, es macht keine Umstände.
 
-Manchmal ist das Temperament. Manchmal ist es etwas anderes: ein Kind, das gelernt hat, dass Belastung zeigen nichts bringt.
+Manchmal ist das Temperament. Manchmal ist es etwas anderes: Ein Kind, das gelernt hat, dass Belastung zeigen nichts bringt.
 
 Der Unterschied lässt sich nicht an der Oberfläche erkennen, wohl aber an einer Frage: Erzählt dieses Kind auch von Dingen, die schiefgehen? Wenn immer nur Gutes kommt, lohnt es sich, genauer hinzuschauen.
 

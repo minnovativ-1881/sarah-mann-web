@@ -66,7 +66,7 @@ Wenn die rechte Spalte häufiger zutrifft, lohnt es sich, aktiv zu werden. Nicht
 
 Das Kind, das gerade weniger bekommt, braucht keine Erklärung und keinen Ausgleich. Es braucht Verlässlichkeit.
 
-Konkret heißt das: eine Zeit mit dir, die im Kalender steht, einen Namen hat und nicht ausfällt. Auch nicht, wenn es ein schwieriger Tag war. Besonders dann nicht.
+Konkret heißt das: Eine Zeit mit dir, die im Kalender steht, einen Namen hat und nicht ausfällt. Auch nicht, wenn es ein schwieriger Tag war. Besonders dann nicht.
 
 Zwanzig Minuten am Samstag, die wirklich stattfinden, wirken mehr als eine Stunde, die zweimal von drei Malen verschoben wird. Nicht wegen der Menge, sondern weil Verlässlichkeit die Botschaft ist.
 

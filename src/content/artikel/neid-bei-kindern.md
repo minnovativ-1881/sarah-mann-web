@@ -1,6 +1,6 @@
 ---
 titel: 'Der hat mehr als ich'
-seoTitel: 'Neid bei Kindern: was dahintersteckt und was hilft'
+seoTitel: 'Neid bei Kindern: Was dahintersteckt und was hilft'
 beschreibung: 'Neid ist unangenehm anzuhören und ein normales Gefühl. Warum Ausgleichen es verstärkt, was ein Kind eigentlich fragt und welche Antwort tatsächlich wirkt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -15,7 +15,7 @@ faq:
   - frage: 'Ist Neid bei Kindern normal?'
     antwort: 'Ja. Neid setzt voraus, dass ein Kind vergleichen kann, und diese Fähigkeit entwickelt sich etwa ab dem fünften Lebensjahr. Er ist unangenehm anzuhören und entwicklungspsychologisch unauffällig.'
   - frage: 'Soll ich ausgleichen, wenn mein Kind neidisch ist?'
-    antwort: 'Möglichst nicht. Wer jeden Neid ausgleicht, bestätigt die Rechnung dahinter: dass Gleichheit der Maßstab ist. Danach wird jede Ungleichheit zum Anlass, und die Liste wird länger statt kürzer.'
+    antwort: 'Möglichst nicht. Wer jeden Neid ausgleicht, bestätigt die Rechnung dahinter: Dass Gleichheit der Maßstab ist. Danach wird jede Ungleichheit zum Anlass, und die Liste wird länger statt kürzer.'
   - frage: 'Was fragt ein neidisches Kind eigentlich?'
     antwort: 'Meist nicht nach dem Gegenstand, sondern nach seinem Platz: Zähle ich hier genauso viel? Deshalb wirkt eine Antwort auf diese Frage besser als der Gegenstand selbst.'
   - frage: 'Wie reagiere ich auf „Der hat mehr als ich“?'
@@ -80,7 +80,7 @@ Der zweite Teil ist der wichtigere. Er sagt: Dein Wunsch ist angekommen, auch we
 
 ## Die Wunschliste
 
-Ein Werkzeug, das in vielen Familien mehr bewirkt als jede Erklärung: ein Zettel, auf dem Wünsche aufgeschrieben werden.
+Ein Werkzeug, das in vielen Familien mehr bewirkt als jede Erklärung: Ein Zettel, auf dem Wünsche aufgeschrieben werden.
 
 Wenn ein Wunsch kommt, wird er notiert. Nicht diskutiert, nicht bewertet, nur aufgeschrieben. Zum Geburtstag und zu Weihnachten wird die Liste angeschaut.
 
@@ -94,7 +94,7 @@ Unter Geschwistern ist Neid häufiger, weil der Vergleich täglich stattfindet u
 
 Hier wiegt die Frage nach dem eigenen Platz besonders schwer, und der Gegenstand ist besonders unwichtig. Ein Kind, das protestiert, weil der Bruder länger aufbleiben darf, protestiert selten gegen die Uhrzeit.
 
-Was hier hilft, ist nicht Gleichbehandlung, sondern etwas Eigenes: eine Zeit, ein Vorrecht, eine Sache, die nur diesem Kind gehört und die nichts mit dem Geschwisterkind zu tun hat.
+Was hier hilft, ist nicht Gleichbehandlung, sondern etwas Eigenes: Eine Zeit, ein Vorrecht, eine Sache, die nur diesem Kind gehört und die nichts mit dem Geschwisterkind zu tun hat.
 
 ## Der Satz zum Mitnehmen
 

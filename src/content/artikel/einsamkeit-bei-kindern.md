@@ -1,6 +1,6 @@
 ---
 titel: 'Mein Kind hat niemanden'
-seoTitel: 'Einsamkeit bei Kindern: erkennen und begleiten'
+seoTitel: 'Einsamkeit bei Kindern: Erkennen und begleiten'
 beschreibung: 'Wenn ein Kind sagt, dass es keine Freunde hat, greifen Eltern schnell ein. Warum organisierte Kontakte selten helfen und was den Unterschied zwischen Alleinsein und Einsamkeit ausmacht.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -30,7 +30,7 @@ Es gibt einen Satz, der Eltern sofort in Bewegung setzt: „Ich hab niemanden zu
 
 Der erste Impuls ist, das Problem zu lösen. Verabredungen organisieren, einen Verein suchen, mit anderen Eltern sprechen.
 
-**Der zweite Impuls wäre besser: erst herausfinden, was das Kind meint.**
+**Der zweite Impuls wäre besser: Erst herausfinden, was das Kind meint.**
 
 ## Zwei Dinge, die verwechselt werden
 
@@ -67,13 +67,13 @@ Die dritte Zeile wird häufig falsch behandelt. Ein Kind, das systematisch ausge
 
 ## Warum Menge nicht hilft
 
-Der häufigste Lösungsversuch ist mehr: mehr Verabredungen, mehr Vereine, mehr Gelegenheiten.
+Der häufigste Lösungsversuch ist mehr: Mehr Verabredungen, mehr Vereine, mehr Gelegenheiten.
 
 Freundschaft entsteht aber nicht aus Menge, sondern aus Wiederholung. Zwei Kinder werden Freunde, weil sie sich oft sehen, dieselben Dinge tun und einander vertraut werden.
 
 Deshalb bringt eine wöchentliche Gruppe, in der immer dieselben Kinder sind, meistens mehr als zehn einzelne Nachmittage mit zehn verschiedenen Kindern.
 
-Und deshalb ist die schmale Lösung oft die richtige: ein Kind, ein Nachmittag, immer wieder.
+Und deshalb ist die schmale Lösung oft die richtige: Ein Kind, ein Nachmittag, immer wieder.
 
 ## Ein Freund reicht
 
@@ -89,7 +89,7 @@ Das Ziel ist deshalb nicht, dass ein Kind dazugehört. Das Ziel ist ein Mensch.
 
 Solange draußen nichts trägt, ist zu Hause der Ort, an dem ein Kind Zugehörigkeit erlebt.
 
-Praktisch heißt das: eine verlässliche Zeit mit dir, in der nichts anderes läuft. Ein Ort in der Familie, an dem das Kind gebraucht wird. Und Gespräche, die nicht mit „Wie war es heute?“ anfangen, sondern mit etwas, das keine Bilanz verlangt.
+Praktisch heißt das: Eine verlässliche Zeit mit dir, in der nichts anderes läuft. Ein Ort in der Familie, an dem das Kind gebraucht wird. Und Gespräche, die nicht mit „Wie war es heute?“ anfangen, sondern mit etwas, das keine Bilanz verlangt.
 
 Kinder erzählen selten auf Nachfrage. Sie erzählen nebenbei, beim Autofahren, beim Abwasch, im Dunkeln vor dem Einschlafen.
 

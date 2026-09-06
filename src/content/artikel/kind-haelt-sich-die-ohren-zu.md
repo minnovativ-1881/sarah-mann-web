@@ -1,6 +1,6 @@
----
+﻿---
 titel: 'Wenn dein Kind sich die Ohren zuhält, hilft es sich gerade selbst.'
-seoTitel: 'Kind hält sich die Ohren zu: was dahintersteckt und was hilft'
+seoTitel: 'Kind hält sich die Ohren zu: Was dahintersteckt und was hilft'
 beschreibung: 'Warum manche Kinder Geräusche körperlich schwerer aushalten, welche drei Formen es gibt und warum Gehörschutz keine Verhätschelung ist.'
 eyebrow: 'Die unterschätzte Selbsthilfe'
 silo: reizueberflutung
@@ -44,7 +44,7 @@ Und deshalb ist das Ohrenzuhalten nicht das Problem, sondern die Lösung, die de
 
 ## Warum Geräusche bei manchen Kindern anders ankommen
 
-Hören ist nicht nur eine Frage der Lautstärke, sondern der Verarbeitung. Ein Gehirn muss ständig entscheiden, welche Geräusche wichtig sind und welche in den Hintergrund gehören: das Brummen des Kühlschranks, die Straße draußen, die anderen Kinder im Raum, das Kratzen des Stuhls.
+Hören ist nicht nur eine Frage der Lautstärke, sondern der Verarbeitung. Ein Gehirn muss ständig entscheiden, welche Geräusche wichtig sind und welche in den Hintergrund gehören: Das Brummen des Kühlschranks, die Straße draußen, die anderen Kinder im Raum, das Kratzen des Stuhls.
 
 Bei manchen Kindern funktioniert diese Sortierung weniger stark. Dann steht alles gleichzeitig im Vordergrund. Was für dich Hintergrundrauschen ist, ist für dein Kind eine Wand aus Geräuschen, durch die es hindurch zuhören soll.
 
@@ -64,7 +64,7 @@ Und es gibt einen vierten Fall, der in keine dieser Kategorien passt und trotzde
 
 Wenn dein Kind sich in dem Moment die Ohren zuhält, in dem du oder jemand anderes laut wird, dann ist das kein Trotz. Es ist das ehrlichste Feedback, das du bekommen kannst.
 
-## Was zuerst zu tun ist: das Gehör prüfen lassen
+## Was zuerst zu tun ist: Das Gehör prüfen lassen
 
 Das klingt widersinnig, ist aber der wichtigste erste Schritt.
 
@@ -76,7 +76,7 @@ Ein Hörtest bei der Kinderärztin oder beim HNO-Arzt ist schnell gemacht. Er sc
 
 **Gehörschutz, und zwar ohne schlechtes Gewissen.** Das ist der wirksamste einzelne Schritt, und er wird am häufigsten aus falschem Ehrgeiz unterlassen. Ein Kind, das im Schulflur Kopfhörer tragen darf, verbraucht seine Kraft nicht mehr fürs Aushalten und hat sie für den Unterricht übrig. Sinnvoll sind Modelle, die gleichmäßig dämpfen, sodass Sprache verständlich bleibt und nur der Pegel sinkt. Ein Kind, das nichts mehr versteht, fühlt sich schnell ausgeschlossen.
 
-**Vorwarnen, immer.** „Ich mache jetzt den Mixer an.“ „Gleich kommt der Händetrockner.“ Ein angekündigtes Geräusch ist ein anderes Geräusch als ein plötzliches. Vorhersagbarkeit senkt die Reaktion oft um mehr als die Hälfte, und sie kostet dich nichts.
+**Immer vorwarnen.** „Ich mache jetzt den Mixer an.“ „Gleich kommt der Händetrockner.“ Ein angekündigtes Geräusch ist ein anderes Geräusch als ein plötzliches. Vorhersagbarkeit senkt die Reaktion oft um mehr als die Hälfte, und sie kostet dich nichts.
 
 **Kontrolle abgeben, wo es geht.** Dein Kind darf den Staubsauger selbst einschalten. Es darf entscheiden, wann der Mixer läuft. Wer den Knopf hat, hat weniger Angst. Das ist einer der zuverlässigsten Tricks überhaupt.
 

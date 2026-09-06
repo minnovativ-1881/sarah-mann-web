@@ -1,6 +1,6 @@
 ---
 titel: 'Grenzen, die halten, ohne dass du hart wirst'
-seoTitel: 'Grenzen setzen beim Kleinkind: der Leitfaden'
+seoTitel: 'Grenzen setzen beim Kleinkind: Der Leitfaden'
 beschreibung: 'Wie viele Grenzen ein Kleinkind wirklich braucht, wie eine Grenze im Alltag steht und was zu tun ist, wenn sie überschritten wird.'
 eyebrow: 'Der Leitfaden'
 silo: grenzen
@@ -17,7 +17,7 @@ faq:
   - frage: 'Wie viele Regeln braucht ein Kleinkind?'
     antwort: 'Deutlich weniger, als die meisten Familien haben. Eine Handvoll, die wirklich immer gilt, gibt mehr Orientierung als zwanzig, von denen die Hälfte je nach Tagesform ausgesetzt wird. Sinnvoll sind Regeln in drei Bereichen: Sicherheit, Umgang miteinander und der Tagesrhythmus.'
   - frage: 'Was tue ich, wenn mein Kind die Grenze trotzdem überschreitet?'
-    antwort: 'Handeln statt reden. Eine Grenze, die nur aus Worten besteht, ist keine. Geh hin, sei körperlich präsent und setz die Grenze freundlich durch, etwa indem du die Hand festhältst oder das Kind aus der Situation begleitest. Und danach: das Gefühl anerkennen, ohne die Entscheidung zurückzunehmen.'
+    antwort: 'Handeln statt reden. Eine Grenze, die nur aus Worten besteht, ist keine. Geh hin, sei körperlich präsent und setz die Grenze freundlich durch, etwa indem du die Hand festhältst oder das Kind aus der Situation begleitest. Und danach: Das Gefühl anerkennen, ohne die Entscheidung zurückzunehmen.'
   - frage: 'Schaden Grenzen der Bindung zu meinem Kind?'
     antwort: 'Nein. Es ist eher umgekehrt. Ein Kind, das weiß, woran es ist, muss nicht ständig prüfen und kann sich entspannen. Kinder in verlässlichen Verhältnissen tragen offenbar sogar eine niedrigere Grundanspannung durch ihren Alltag. Was der Bindung schadet, ist nicht die Grenze, sondern Kälte und Beschämung dabei.'
   - frage: 'Warum funktionieren Grenzen bei uns nicht?'
@@ -56,7 +56,7 @@ Wer nur Bitten formuliert, muss sie wiederholen. Und Wiederholungen sind der zuv
 
 ## Wie viele Grenzen ein Kind braucht
 
-Diese Frage wird in fast jedem Ratgeber mit demselben Halbsatz abgetan: so wenige wie möglich. Das hilft niemandem, weil es keine Zahl und keine Ordnung gibt.
+Diese Frage wird in fast jedem Ratgeber mit demselben Halbsatz abgetan: So wenige wie möglich. Das hilft niemandem, weil es keine Zahl und keine Ordnung gibt.
 
 Deshalb hier ein brauchbarer Rahmen. Es gibt drei Bereiche, in denen Grenzen wirklich nötig sind:
 
@@ -99,7 +99,7 @@ Es gibt einen Ablauf, der fast immer funktioniert, und er ist unspektakulär.
 
 Das ist alles. Der schwierige Teil ist nicht das Verstehen, sondern der Verzicht auf die Wiederholungen drei bis acht.
 
-Denn jede Wiederholung bringt deinem Kind etwas bei: dass der Ernstfall später beginnt. Wer neunmal etwas sagt und beim neunten Mal laut wird, hat seinem Kind beigebracht, achtmal nicht hinzuhören. Ausführlich steht das in [Ich sage es zehnmal nett. Und dann schreie ich.](/wissen/kind-hoert-nicht-trotz-konsequenz/)
+Denn jede Wiederholung bringt deinem Kind etwas bei: Dass der Ernstfall später beginnt. Wer neunmal etwas sagt und beim neunten Mal laut wird, hat seinem Kind beigebracht, achtmal nicht hinzuhören. Ausführlich steht das in [Ich sage es zehnmal nett. Und dann schreie ich.](/wissen/kind-hoert-nicht-trotz-konsequenz/)
 
 ## Was tun, wenn die Grenze überschritten wird?
 
@@ -149,7 +149,7 @@ Und daraus folgt etwas Praktisches: Wenn dein Kind viel prüft, fehlt selten Str
 
 Warum das ausgerechnet bei dir am stärksten passiert, steht in [Bei allen anderen klappt es. Nur bei dir nicht.](/wissen/kind-testet-grenzen-nur-bei-mir/)
 
-## Grenzen und Bindung: der hartnäckigste Irrtum
+## Grenzen und Bindung: Der hartnäckigste Irrtum
 
 Viele Eltern haben Angst, dass Grenzen die Beziehung beschädigen. Diese Angst ist verständlich, und sie stimmt nicht.
 
@@ -186,8 +186,8 @@ Zu den einzelnen Situationen, in denen sich das entscheidet, gibt es jeweils ein
 - [Ich sage es zehnmal nett. Und dann schreie ich.](/wissen/kind-hoert-nicht-trotz-konsequenz/), wenn du es zehnmal sagst und dann laut wirst
 - [Wenn dein Kind haut](/wissen/kind-schlaegt-und-haut/), was in dem Moment wirklich hilft
 - [Bei allen anderen klappt es. Nur bei dir nicht.](/wissen/kind-testet-grenzen-nur-bei-mir/), warum es ausgerechnet bei dir schwierig ist
-- [Konsequenz oder Strafe: der Unterschied, den kaum jemand erklärt](/wissen/konsequenz-oder-strafe/), die drei Prüffragen, die es unterscheiden
-- [Machtkampf mit dem Kleinkind: was von zwei bis sechs passiert](/wissen/machtkampf-kleinkind/), was von zwei bis sechs dahintersteckt
+- [Konsequenz oder Strafe: Der Unterschied, den kaum jemand erklärt](/wissen/konsequenz-oder-strafe/), die drei Prüffragen, die es unterscheiden
+- [Machtkampf mit dem Kleinkind: Was von zwei bis sechs passiert](/wissen/machtkampf-kleinkind/), was von zwei bis sechs dahintersteckt
 - [Nachgeben oder durchhalten?](/wissen/nachgeben-oder-durchhalten/), wann Nachgeben in Ordnung ist und wann nicht
 - [Wenn jedes Nein wehtut](/wissen/nein-sagen-ohne-schlechtes-gewissen/), wenn jedes Nein innerlich zieht
 - [Wenn Erklären nicht mehr reicht](/wissen/wenn-die-grenze-ueberschritten-ist/), was im Moment danach wirkt

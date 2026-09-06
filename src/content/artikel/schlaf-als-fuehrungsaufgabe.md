@@ -1,6 +1,6 @@
 ---
 titel: 'Warum der Abend zeigt, wie es tagsüber läuft'
-seoTitel: 'Schlaf und Erziehung: was der Abend zeigt'
+seoTitel: 'Schlaf und Erziehung: Was der Abend zeigt'
 beschreibung: 'Der Abend ist keine eigene Baustelle, sondern der Ort, an dem sich zeigt, wie klar der Tag war.'
 eyebrow: 'Der Leitfaden'
 silo: schlaf
@@ -15,7 +15,7 @@ faq:
   - frage: 'Warum eskaliert bei uns immer der Abend?'
     antwort: 'Weil abends drei Dinge zusammentreffen: Dein Kind hat den ganzen Tag Selbstbeherrschung verbraucht, deine eigene Geduld ist am Ende, und der Abend verlangt genau die Klarheit, die tagsüber vielleicht gefehlt hat. Der Abend ist deshalb selten die Ursache, sondern der Ort, an dem sich alles zeigt.'
   - frage: 'Ist Struktur beim Schlafen dasselbe wie Schlaftraining?'
-    antwort: 'Nein, und diese Verwechslung ist der Grund, warum viele Eltern jede Form von Ablauf ablehnen. Struktur heißt: verlässliche Reihenfolge, verlässliche Zeiten, verlässliche Begleitung. Sie sagt nichts darüber, ob ein Kind allein einschlafen muss. Ein Kind kann in Begleitung einschlafen und trotzdem einen klaren Rahmen haben.'
+    antwort: 'Nein, und diese Verwechslung ist der Grund, warum viele Eltern jede Form von Ablauf ablehnen. Struktur heißt: Verlässliche Reihenfolge, verlässliche Zeiten, verlässliche Begleitung. Sie sagt nichts darüber, ob ein Kind allein einschlafen muss. Ein Kind kann in Begleitung einschlafen und trotzdem einen klaren Rahmen haben.'
   - frage: 'Wie viele Nochmal-Wünsche sind normal?'
     antwort: 'Ein paar gehören dazu. Problematisch wird es, wenn sie sich jeden Abend weiter ausdehnen. Das passiert nicht, weil das Kind fordernder wird, sondern weil unklar ist, wo der Abend endet. Ein vorher festgelegter Abschluss beendet den Kreislauf meist innerhalb weniger Tage.'
   - frage: 'Mein Kind will nur mit mir einschlafen. Was tun?'
@@ -38,7 +38,7 @@ Das ist er nicht. Der Abend ist der Ort, an dem sich zeigt, wie klar der Tag war
 
 Drei Dinge treffen zwischen achtzehn und zwanzig Uhr aufeinander, und jedes einzelne wäre schon genug.
 
-**Dein Kind hat seinen Vorrat aufgebraucht.** Selbstbeherrschung verbraucht Energie, und ein Kind hat den ganzen Tag daran gezogen: in der Kita nicht gehauen, gewartet, sich an Regeln gehalten, Frust ausgehalten. Am Abend ist dieser Vorrat leer. Das ist keine Willensfrage.
+**Dein Kind hat seinen Vorrat aufgebraucht.** Selbstbeherrschung verbraucht Energie, und ein Kind hat den ganzen Tag daran gezogen: In der Kita nicht gehauen, gewartet, sich an Regeln gehalten, Frust ausgehalten. Am Abend ist dieser Vorrat leer. Das ist keine Willensfrage.
 
 **Deine eigene Geduld ist ebenfalls am Ende.** Und das ist entscheidend, weil dein Kind sich am Abend an dir orientiert, wie an jedem anderen Punkt des Tages auch. Nur bist du jetzt selbst dünnhäutig.
 
@@ -50,13 +50,13 @@ Deshalb ist der Abend kein eigenes Problem. Er ist ein Vergrößerungsglas.
 
 Bevor ich weitergehe, muss ich etwas ansprechen, sonst liest sich alles Folgende falsch.
 
-In Deutschland ist das Wort Struktur beim Thema Babyschlaf verbrannt. Der Grund heißt Annette Kast-Zahn, „Jedes Kind kann schlafen lernen“, seit 1995 in Hunderttausenden Haushalten, und das darin empfohlene Vorgehen ist genau das, was viele Eltern heute nicht mehr wollen: ein Kind allein weinen lassen, nach Uhrzeit hineingehen, warten, bis es aufhört.
+In Deutschland ist das Wort Struktur beim Thema Babyschlaf verbrannt. Der Grund heißt Annette Kast-Zahn, „Jedes Kind kann schlafen lernen“, seit 1995 in Hunderttausenden Haushalten, und das darin empfohlene Vorgehen ist genau das, was viele Eltern heute nicht mehr wollen: Ein Kind allein weinen lassen, nach Uhrzeit hineingehen, warten, bis es aufhört.
 
 Ich vertrete das nicht. Ich habe sieben Kinder ins Bett gebracht, und ich habe kein einziges davon allein weinen lassen.
 
 Aber ich möchte auch nicht in die Gegenrichtung, in der es überhaupt keinen Rahmen mehr gibt und jeder Abend neu ausgehandelt wird. Denn das ist für Kinder nicht entspannter, sondern anstrengender.
 
-**Struktur und Alleinlassen sind zwei völlig verschiedene Dinge.** Struktur heißt: verlässliche Reihenfolge, verlässliche Zeiten, ein verlässliches Ende. Sie sagt nichts darüber, ob dein Kind allein einschläft.
+**Struktur und Alleinlassen sind zwei völlig verschiedene Dinge.** Struktur heißt: Verlässliche Reihenfolge, verlässliche Zeiten, ein verlässliches Ende. Sie sagt nichts darüber, ob dein Kind allein einschläft.
 
 | | Struktur | Schlaftraining nach altem Muster |
 |---|---|---|
@@ -126,7 +126,7 @@ Das ist der Teil, den fast niemand erwartet.
 
 **Wie oft du nachgegeben hast.** Nicht weil Nachgeben schlimm wäre, sondern weil dein Kind daraus lernt, wie lange etwas dauert. Wer tagsüber beim fünften Nachfragen einknickt, bekommt abends das fünfte Nachfragen.
 
-**Wie klar der Tag strukturiert war.** Kinder, die in verlässlichen Abläufen leben, tragen offenbar eine niedrigere Grundanspannung durch den Tag. Und eine niedrigere Grundanspannung heißt: mehr Reserve am Abend.
+**Wie klar der Tag strukturiert war.** Kinder, die in verlässlichen Abläufen leben, tragen offenbar eine niedrigere Grundanspannung durch den Tag. Und eine niedrigere Grundanspannung heißt: Mehr Reserve am Abend.
 
 **Und wie viel echte Nähe es gab.** Ein Kind, dessen Bedürfnis nach Kontakt tagsüber nicht gedeckt wurde, holt es sich abends. Immer. Das ist die zuverlässigste Regel, die ich in dem ganzen Bereich kenne.
 
@@ -166,10 +166,10 @@ Zu den einzelnen Stellen, an denen der Abend hakt, gibt es jeweils einen eigenen
 
 - [Die Abendroutine, die auch mit mehreren Kindern trägt](/wissen/abendroutine-die-haelt/), der Ablauf, der auch mit mehreren Kindern trägt
 - [Warum mich das Einschlafbegleiten so wütend macht](/wissen/einschlafbegleitung-macht-wuetend/), warum das Begleiten so wütend macht
-- [Einschlafbegleitung: wie lange ist normal?](/wissen/einschlafbegleitung-wie-lange/), was normal ist und was zu lang
+- [Einschlafbegleitung: Wie lange ist normal?](/wissen/einschlafbegleitung-wie-lange/), was normal ist und was zu lang
 - [Der Nochmal-Kreislauf am Abend](/wissen/kind-steht-abends-immer-auf/), der Nochmal-Kreislauf und wie er endet
 - [Wenn nur eine Person geht](/wissen/kind-will-nur-mit-mama-einschlafen/), wenn nur eine Person geht
-- [Mittagsschlaf: wann er endet und was danach kommt](/wissen/mittagsschlaf-wann-vorbei/), der unterschätzte Hebel für den Abend
+- [Mittagsschlaf: Wann er endet und was danach kommt](/wissen/mittagsschlaf-wann-vorbei/), der unterschätzte Hebel für den Abend
 
 ## Quellen und weiterführende Informationen
 

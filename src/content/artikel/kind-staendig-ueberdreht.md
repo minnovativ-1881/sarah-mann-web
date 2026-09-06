@@ -1,6 +1,6 @@
 ---
 titel: 'Überdreht heißt nicht zu viel Energie. Es heißt zu wenig Bremse.'
-seoTitel: 'Kind ständig überdreht: was dahintersteckt und was hilft'
+seoTitel: 'Kind ständig überdreht: Was dahintersteckt und was hilft'
 beschreibung: 'Warum ein überdrehtes Kind nicht mehr Auspowern braucht, wie du Überlastung von Übermut unterscheidest und was in welcher Situation wirklich funktioniert.'
 eyebrow: 'Der häufigste Denkfehler bei überdrehten Kindern'
 silo: reizueberflutung
@@ -17,16 +17,16 @@ faq:
   - frage: 'Ist überdreht dasselbe wie hyperaktiv?'
     antwort: 'Nein. Überdrehtheit ist ein vorübergehender Zustand, der einen erkennbaren Auslöser hat und wieder abklingt, wenn die Reize weniger werden. Hyperaktivität im Sinne von ADHS ist ein durchgehendes Muster über viele Monate, das in verschiedenen Lebensbereichen auftritt und nicht an bestimmte Situationen gebunden ist. Ein überdrehtes Kind ist nach einem ruhigen Wochenende wieder ansprechbar.'
   - frage: 'Hilft Auspowern bei einem überdrehten Kind?'
-    antwort: 'Es kommt darauf an, welches Kind du vor dir hast. Kinder, die Reize suchen, brauchen tatsächlich oft erst kräftige Bewegung, bevor sie herunterkommen: rennen, klettern, schaukeln, tragen. Kinder, die Reize eher meiden, werden durch mehr Input noch überdrehter. Bei ihnen wirkt Reduzieren: weniger Licht, weniger Geräusch, weniger Menschen, weniger Sprache.'
+    antwort: 'Es kommt darauf an, welches Kind du vor dir hast. Kinder, die Reize suchen, brauchen tatsächlich oft erst kräftige Bewegung, bevor sie herunterkommen: Rennen, klettern, schaukeln, tragen. Kinder, die Reize eher meiden, werden durch mehr Input noch überdrehter. Bei ihnen wirkt Reduzieren: Weniger Licht, weniger Geräusch, weniger Menschen, weniger Sprache.'
   - frage: 'Warum dreht mein Kind abends auf, wenn es müde ist?'
     antwort: 'Weil Müdigkeit das Erregungsfenster verkleinert. Ein müdes Nervensystem verträgt weniger und kippt schneller nach oben statt nach unten. Was wie ein zweiter Frühling aussieht, ist meistens Übermüdung. Deshalb hilft abends nicht später ins Bett, sondern früher, und vor allem eine Abwärtskurve über die letzte Stunde.'
   - frage: 'Woran erkenne ich, dass mein Kind gleich kippt?'
-    antwort: 'Fast jedes Kind hat verlässliche Vorzeichen: die Stimme wird höher oder lauter, die Bewegungen werden fahriger, es lacht schriller als sonst, es rempelt an, es hört Ansprache nicht mehr, es wechselt alle paar Sekunden die Beschäftigung. Wer diese Zeichen kennt, hat ein Zeitfenster von einigen Minuten, in dem Eingreifen noch leicht ist.'
+    antwort: 'Fast jedes Kind hat verlässliche Vorzeichen: Die Stimme wird höher oder lauter, die Bewegungen werden fahriger, es lacht schriller als sonst, es rempelt an, es hört Ansprache nicht mehr, es wechselt alle paar Sekunden die Beschäftigung. Wer diese Zeichen kennt, hat ein Zeitfenster von einigen Minuten, in dem Eingreifen noch leicht ist.'
   - frage: 'Wann sollte ich mit einem überdrehten Kind zum Arzt?'
     antwort: 'Wenn der Zustand fast täglich auftritt und über Monate nicht weniger wird, wenn dein Kind auch in ruhigen Phasen und in den Ferien nicht herunterkommt, wenn Schlafen dauerhaft nicht gelingt, wenn es in Kita oder Schule deutlich auffällt oder wenn es selbst darunter leidet. Dann geht es nicht um ein Etikett, sondern um Abklärung und Unterstützung.'
 ---
 
-„Der hat einfach zu viel Energie.“ Diesen Satz hören Eltern von überdrehten Kindern ständig. Von der Nachbarin, von der Schwiegermutter, manchmal von der Erzieherin. Und der Ratschlag, der immer hinterherkommt, lautet: mehr auspowern.
+„Der hat einfach zu viel Energie.“ Diesen Satz hören Eltern von überdrehten Kindern ständig. Von der Nachbarin, von der Schwiegermutter, manchmal von der Erzieherin. Und der Ratschlag, der immer hinterherkommt, lautet: Mehr auspowern.
 
 Bei manchen Kindern funktioniert das. Bei vielen macht es alles schlimmer, und niemand versteht warum.
 
@@ -57,7 +57,7 @@ Und viele Kinder sind beides, je nach Sinn. Ein Kind kann Bewegung suchen und Ge
 | | Reizsucher | Reizmeider |
 |---|---|---|
 | Zeigt sich durch | Rennen, Rempeln, festes Drücken, laute Stimme, ständiges Anfassen | Ohren zuhalten, Rückzug, Ekel vor Konsistenzen, Probleme mit Kleidung |
-| Wenn überdreht, hilft | Kräftige Bewegung: klettern, schaukeln, tragen, Trampolin, Ringen | Reduzieren: Licht dimmen, Musik aus, in ein anderes Zimmer, weniger Worte |
+| Wenn überdreht, hilft | Kräftige Bewegung: Klettern, schaukeln, tragen, Trampolin, Ringen | Reduzieren: Licht dimmen, Musik aus, in ein anderes Zimmer, weniger Worte |
 | Macht es schlimmer | Stillsitzen erzwingen | Noch ein Spielplatz, noch ein Besuch, noch eine Anregung |
 | Typischer Irrtum der Umgebung | „Der ist einfach ungezogen“ | „Die stellt sich an“ |
 
@@ -69,7 +69,7 @@ Aus dem, was Eltern tatsächlich suchen, ergibt sich ein sehr klares Muster. Es 
 
 **Nach Kita und Schule.** Der häufigste Fall überhaupt, und der am meisten missverstandene. Dazu gibt es einen eigenen Text: [Dein Kind hält sich den ganzen Tag zusammen](/wissen/kind-rastet-nach-kita-und-schule-aus/).
 
-**Bei Besuch.** Fremde Menschen im eigenen Zuhause sind für ein reizoffenes Kind eine Doppelbelastung: viel Input, und der Rückzugsort ist besetzt. Was Erwachsene als Angeben deuten, ist meistens Überforderung.
+**Bei Besuch.** Fremde Menschen im eigenen Zuhause sind für ein reizoffenes Kind eine Doppelbelastung: Viel Input, und der Rückzugsort ist besetzt. Was Erwachsene als Angeben deuten, ist meistens Überforderung.
 
 **Abends.** Der Klassiker, und der größte Irrtum. Ein Kind, das abends aufdreht, ist selten wach. Es ist übermüdet. Müdigkeit verkleinert das Fenster, und ein kleines Fenster kippt nach oben statt nach unten.
 
@@ -85,7 +85,7 @@ Fast jedes Kind kündigt an, dass es gleich kippt. Nur achtet kaum jemand darauf
 
 Typisch sind: Die Stimme wird höher oder deutlich lauter. Das Lachen klingt schriller als sonst. Die Bewegungen werden fahrig, das Kind stößt an Möbel und rempelt Menschen an. Es wechselt alle paar Sekunden die Beschäftigung. Es reagiert nicht mehr, wenn man es beim Namen ruft. Manche Kinder werden auffällig albern, andere plötzlich streitlustig.
 
-Wenn du diese Zeichen kennst, hast du ein Zeitfenster von wenigen Minuten. In diesem Fenster reicht oft eine Kleinigkeit: rausgehen, das Zimmer wechseln, etwas zu trinken, die Musik ausmachen, ein paar Minuten Ringen auf dem Teppich.
+Wenn du diese Zeichen kennst, hast du ein Zeitfenster von wenigen Minuten. In diesem Fenster reicht oft eine Kleinigkeit: Rausgehen, das Zimmer wechseln, etwas zu trinken, die Musik ausmachen, ein paar Minuten Ringen auf dem Teppich.
 
 Danach reicht keine Kleinigkeit mehr. Deshalb ist das Erkennen der Vorzeichen der wirksamste Einzelschritt in diesem ganzen Thema. Es lohnt sich, zwei Wochen lang aufzuschreiben, wann es kippt und was kurz davor war. Fast alle Eltern finden dabei ein Muster, das sie vorher nicht gesehen haben.
 
@@ -101,7 +101,7 @@ Wenn es schon zu spät ist und dein Kind über dem Fenster ist, gilt eine Reihen
 
 **Etwas trinken und essen.** Überdrehte Kinder spüren Hunger und Durst schlecht. Ein leerer Magen macht jeden Zustand heftiger.
 
-**Kräftige Bewegung anbieten, wenn es ein Reizsucher ist.** Nicht toben lassen im Sinne von noch mehr Chaos, sondern gezielt: eine Kiste tragen, sich in eine Decke wickeln lassen, gegen deine Hände drücken. Widerstand beruhigt viele Kinder schneller als Streicheln.
+**Kräftige Bewegung anbieten, wenn es ein Reizsucher ist.** Nicht toben lassen im Sinne von noch mehr Chaos, sondern gezielt: Eine Kiste tragen, sich in eine Decke wickeln lassen, gegen deine Hände drücken. Widerstand beruhigt viele Kinder schneller als Streicheln.
 
 **Nicht in diesem Moment erziehen.** Die Regel gilt weiter, aber sie wird später besprochen. Wer über dem Fenster ist, lernt nichts.
 

@@ -15,9 +15,9 @@ faq:
   - frage: 'Warum steht mein Kind abends immer wieder auf?'
     antwort: 'Meistens nicht aus Trotz, sondern weil unklar ist, wo der Abend endet. Ein Kind, das nicht weiß, wann Schluss ist, muss es herausfinden, und der einzige Weg dafür ist Nachfragen. Dazu kommen oft eine zu frühe Schlafenszeit oder zu viel Reiz in der letzten Stunde.'
   - frage: 'Wie viele Nochmal-Wünsche soll ich erfüllen?'
-    antwort: 'Ein paar gehören dazu, aber sie sollten vorher feststehen statt im Moment entschieden zu werden. Ein sichtbarer Abschluss wirkt besser als eine Zahl: derselbe Satz, dieselbe Geste, jeden Abend an derselben Stelle. Danach folgt keine Verhandlung mehr.'
+    antwort: 'Ein paar gehören dazu, aber sie sollten vorher feststehen statt im Moment entschieden zu werden. Ein sichtbarer Abschluss wirkt besser als eine Zahl: Derselbe Satz, dieselbe Geste, jeden Abend an derselben Stelle. Danach folgt keine Verhandlung mehr.'
   - frage: 'Soll ich mein Kind einfach ignorieren, wenn es wieder aufsteht?'
-    antwort: 'Nein. Ignorieren ist eine Form von Ausschluss und wirkt bei kleinen Kindern meist eskalierend. Besser ist eine ruhige, wortarme, immer gleiche Reaktion: hingehen, zurückbegleiten, ein kurzer Satz, wieder rausgehen. Freundlich, aber ohne neuen Inhalt.'
+    antwort: 'Nein. Ignorieren ist eine Form von Ausschluss und wirkt bei kleinen Kindern meist eskalierend. Besser ist eine ruhige, wortarme, immer gleiche Reaktion: Hingehen, zurückbegleiten, ein kurzer Satz, wieder rausgehen. Freundlich, aber ohne neuen Inhalt.'
   - frage: 'Wie lange dauert es, bis das aufhört?'
     antwort: 'In der Regel sieben bis vierzehn Tage. Die ersten zwei bis drei Abende werden oft schlechter, weil dein Kind prüft, ob der neue Rahmen wirklich steht. Wer nach zwei Abenden aufgibt, hat nur das Prüfen erlebt und nie die Wirkung.'
   - frage: 'Mein Kind sagt, es hat Angst. Ist das eine Ausrede?'
@@ -28,7 +28,7 @@ faq:
 
 Es gibt am Abend eine Szene, die in sehr vielen Familien fast identisch abläuft.
 
-Das Kind liegt im Bett. Die Tür geht zu. Und dann: noch einmal Wasser. Noch einmal aufs Klo. Noch einmal in den Arm. Noch eine Frage. Noch das Kuscheltier, das unter dem Bett liegt.
+Das Kind liegt im Bett. Die Tür geht zu. Und dann: Noch einmal Wasser. Noch einmal aufs Klo. Noch einmal in den Arm. Noch eine Frage. Noch das Kuscheltier, das unter dem Bett liegt.
 
 Und das Erstaunliche daran ist, dass es jeden Abend ein bisschen länger dauert als am Abend davor.
 
@@ -68,7 +68,7 @@ Der Abend braucht einen sichtbaren letzten Punkt. Nicht eine Uhrzeit, denn die k
 
 Immer derselbe Satz. Immer dieselbe Geste. Immer an derselben Stelle.
 
-Bei uns war es jahrelang dasselbe: das Licht in eine bestimmte Position drehen, eine Hand auf den Rücken, ein Satz. Danach wurde nicht mehr geredet.
+Bei uns war es jahrelang dasselbe: Das Licht in eine bestimmte Position drehen, eine Hand auf den Rücken, ein Satz. Danach wurde nicht mehr geredet.
 
 Was diesen Abschluss ausmacht:
 
@@ -103,7 +103,7 @@ Der Punkt ist die Langeweile. Jedes Mal dasselbe, ohne Wärmeverlust und ohne ne
 
 Ein Kind, das sagt, es habe Angst, sagt oft die Wahrheit. Abendliche Ängste treten bei vielen Kindern ab etwa drei Jahren auf und sind eine normale Entwicklungserscheinung.
 
-Der Umgang damit ist trotzdem derselbe: ernst nehmen, ohne den Abend neu zu öffnen.
+Der Umgang damit ist trotzdem derselbe: Ernst nehmen, ohne den Abend neu zu öffnen.
 
 Was hilft:
 
@@ -112,7 +112,7 @@ Was hilft:
 - Ein festes Wiederkommen in kurzen Abständen, angekündigt und eingehalten
 - Tagsüber darüber reden, nicht nachts
 
-Was nicht hilft: ein weiteres langes Gespräch im Dunkeln. Es beruhigt selten und öffnet den Abend wieder.
+Was nicht hilft: Ein weiteres langes Gespräch im Dunkeln. Es beruhigt selten und öffnet den Abend wieder.
 
 ## Warum die ersten Abende schlimmer werden
 

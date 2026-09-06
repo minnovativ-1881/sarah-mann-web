@@ -1,6 +1,6 @@
 ---
-titel: 'Einschlafbegleitung: wie lange ist normal?'
-seoTitel: 'Einschlafbegleitung: wie lange ist normal?'
+titel: 'Einschlafbegleitung: Wie lange ist normal?'
+seoTitel: 'Einschlafbegleitung: Wie lange ist normal?'
 beschreibung: 'Bis wann Kinder Begleitung beim Einschlafen brauchen, wie lange ein Abend dauern darf und woran du erkennst, dass nicht die Begleitung das Problem ist.'
 eyebrow: 'Schlaf und Abend'
 silo: schlaf
@@ -15,7 +15,7 @@ faq:
   - frage: 'Bis wann ist Einschlafbegleitung normal?'
     antwort: 'Es gibt kein Alter, ab dem sie aufhören müsste. Viele Kinder brauchen im Kindergartenalter noch Begleitung, manche bis in die Grundschule. Entscheidend ist nicht das Alter, sondern ob der Abend für alle Beteiligten tragbar ist.'
   - frage: 'Wie lange sollte das Einschlafen dauern?'
-    antwort: 'Zehn bis dreißig Minuten sind üblich. Wenn es regelmäßig eine Stunde oder länger dauert, ist meist etwas anderes die Ursache: eine zu frühe Schlafenszeit, zu viel Reiz davor oder ein fehlendes Ende. An diesen drei Punkten lässt sich fast immer etwas ändern.'
+    antwort: 'Zehn bis dreißig Minuten sind üblich. Wenn es regelmäßig eine Stunde oder länger dauert, ist meist etwas anderes die Ursache: Eine zu frühe Schlafenszeit, zu viel Reiz davor oder ein fehlendes Ende. An diesen drei Punkten lässt sich fast immer etwas ändern.'
   - frage: 'Ist Einschlafbegleitung eine schlechte Angewohnheit?'
     antwort: 'Nein. Sie ist eine von mehreren normalen Formen, wie Kinder in den Schlaf finden. Zu einem Problem wird sie erst, wenn sie so lange dauert oder so eng an eine Person gebunden ist, dass der Alltag darunter leidet.'
   - frage: 'Wie kann ich die Begleitung verkürzen?'
@@ -63,7 +63,7 @@ Die letzte Zeile ist wichtig. Wenn das Einschlafen regelmäßig eine Stunde daue
 
 **Die Schlafenszeit ist zu früh.** Das ist die häufigste und die am meisten übersehene. Ein Kind, das seit vierzig Minuten im Bett liegt und fröhlich erzählt, singt oder herumturnt, ist nicht bockig. Es ist noch nicht müde.
 
-Die Lösung ist paradox und wirkt oft sofort: die Schlafenszeit um zwanzig bis dreißig Minuten nach hinten schieben. Das verkürzt den Abend häufig dramatisch, weil das Kind mit echtem Schlafdruck ins Bett geht.
+Die Lösung ist paradox und wirkt oft sofort: Die Schlafenszeit um zwanzig bis dreißig Minuten nach hinten schieben. Das verkürzt den Abend häufig dramatisch, weil das Kind mit echtem Schlafdruck ins Bett geht.
 
 **Zu viel Reiz in der letzten Stunde.** Nicht nur Bildschirme. Auch Toben, Besuch, ein aufregendes Spiel oder ein Streit kurz davor wirken nach. Ein Kind braucht ungefähr eine Stunde, um von hoher Erregung herunterzukommen.
 
@@ -85,7 +85,7 @@ Und wenn du es dann noch willst, geht es in kleinen Schritten.
 
 **Nicht mehrere Dinge gleichzeitig.** Kein Kita-Start, kein Umzug, keine Krankheit, kein neues Geschwisterkind in derselben Woche.
 
-**Ein Schritt, dann eine Woche warten.** Zum Beispiel: erst nicht mehr im Bett liegen, sondern daneben sitzen. Nach einer Woche: etwas weiter weg. Nach einer Woche: an der Tür.
+**Ein Schritt, dann eine Woche warten.** Zum Beispiel: Erst nicht mehr im Bett liegen, sondern daneben sitzen. Nach einer Woche: Etwas weiter weg. Nach einer Woche: An der Tür.
 
 **Ankündigen, was passiert.** „Ich sitze heute hier auf dem Stuhl. Ich bleibe da.“
 
@@ -117,7 +117,7 @@ Zwei Kinder gleichzeitig zu begleiten funktioniert selten gut. Sie halten sich g
 
 Was funktioniert: **staffeln.** Das Kind, das leichter einschläft, geht etwas später ins Bett. Oder das schwierigere bekommt zuerst zehn Minuten allein.
 
-Und wenn zwei Erwachsene da sind: aufteilen, auch unregelmäßig.
+Und wenn zwei Erwachsene da sind: Aufteilen, auch unregelmäßig.
 
 ## Der Satz, der am meisten entlastet
 

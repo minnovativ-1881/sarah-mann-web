@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn dein Kind haut'
-seoTitel: 'Kind haut: was in dem Moment hilft'
+seoTitel: 'Kind haut: Was in dem Moment hilft'
 beschreibung: 'Warum kleine Kinder hauen, was in dem Moment wirkt, warum die Entschuldigung erzwungen nichts bringt und wie du das Muster über Wochen veränderst.'
 eyebrow: 'Grenzen und Führung'
 silo: grenzen
@@ -17,7 +17,7 @@ faq:
   - frage: 'Was mache ich in dem Moment, wenn mein Kind haut?'
     antwort: 'Die Hand ruhig festhalten und einen kurzen Satz sagen: Ich lasse nicht zu, dass du haust. Dann die Situation verändern, also Abstand herstellen oder den Raum wechseln. Handeln wirkt, Reden nicht, weil in hoher Erregung keine Erklärung ankommt.'
   - frage: 'Soll ich mein Kind zur Entschuldigung auffordern?'
-    antwort: 'Eine erzwungene Entschuldigung lernt nichts über Mitgefühl, sondern nur, dass ein Wort Konsequenzen abwendet. Wirksamer ist Wiedergutmachung: nachschauen, ob es dem anderen gut geht, ein Kühlpad holen, dableiben. Freiwillige Entschuldigungen kommen später von selbst.'
+    antwort: 'Eine erzwungene Entschuldigung lernt nichts über Mitgefühl, sondern nur, dass ein Wort Konsequenzen abwendet. Wirksamer ist Wiedergutmachung: Nachschauen, ob es dem anderen gut geht, ein Kühlpad holen, dableiben. Freiwillige Entschuldigungen kommen später von selbst.'
   - frage: 'Mein Kind haut nur mich. Was heißt das?'
     antwort: 'In der Regel, dass du der sicherste Mensch bist. Kinder zeigen das Schwierigste dort, wo sie sich am wenigsten fürchten müssen. Das ist unangenehm und gleichzeitig ein Vertrauenszeichen, kein Zeichen von fehlendem Respekt.'
   - frage: 'Ab welchem Alter hört das auf?'

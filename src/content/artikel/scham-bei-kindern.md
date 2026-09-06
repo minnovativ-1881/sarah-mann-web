@@ -1,6 +1,6 @@
 ---
 titel: 'Das Gefühl, das kein Kind zeigt'
-seoTitel: 'Scham bei Kindern: erkennen und richtig darauf reagieren'
+seoTitel: 'Scham bei Kindern: Erkennen und richtig darauf reagieren'
 beschreibung: 'Scham sieht aus wie Trotz, Frechheit oder Wut und wird deshalb fast immer falsch behandelt. Woran du sie erkennst und was in genau diesem Moment hilft.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -15,7 +15,7 @@ faq:
   - frage: 'Ab wann empfinden Kinder Scham?'
     antwort: 'Etwa ab dem zweiten Geburtstag, sobald ein Kind sich selbst als jemanden erlebt, der von außen betrachtet wird. Scham gehört damit zu den späteren Gefühlen und setzt ein Selbstbild voraus.'
   - frage: 'Woran erkenne ich Scham bei meinem Kind?'
-    antwort: 'An einer Bewegung weg von dir statt zu dir: wegdrehen, Gesicht verstecken, aus dem Raum gehen. Und an plötzlicher Härte, die nicht zur Situation passt. Ein Kind in Wut will etwas erreichen. Ein Kind in Scham will verschwinden.'
+    antwort: 'An einer Bewegung weg von dir statt zu dir: Wegdrehen, Gesicht verstecken, aus dem Raum gehen. Und an plötzlicher Härte, die nicht zur Situation passt. Ein Kind in Wut will etwas erreichen. Ein Kind in Scham will verschwinden.'
   - frage: 'Was ist der Unterschied zwischen Scham und Schuld?'
     antwort: 'Schuld bezieht sich auf eine Handlung: Ich habe etwas Falsches getan. Scham bezieht sich auf die Person: Ich bin falsch. Schuld führt zu Wiedergutmachung, Scham führt zu Verstecken oder Angriff.'
   - frage: 'Was sage ich, wenn mein Kind sich schämt?'
@@ -56,7 +56,7 @@ Schuld und Scham werden oft in einen Topf geworfen und sind zwei verschiedene Di
 
 Schuld sagt: Ich habe etwas Falsches getan. Sie ist unangenehm und führt zu etwas: Entschuldigen, Aufräumen, Wiedergutmachen.
 
-Scham sagt: Ich bin falsch. Und daraus folgt nichts Konstruktives, denn man kann die eigene Person nicht aufräumen. Es bleiben zwei Wege: verstecken oder angreifen.
+Scham sagt: Ich bin falsch. Und daraus folgt nichts Konstruktives, denn man kann die eigene Person nicht aufräumen. Es bleiben zwei Wege: Verstecken oder angreifen.
 
 Deshalb ist es keine Kleinigkeit, ob ein Satz die Handlung oder das Kind meint.
 
@@ -67,7 +67,7 @@ Deshalb ist es keine Kleinigkeit, ob ein Satz die Handlung oder das Kind meint.
 
 Scham entsteht selten aus der Sache selbst. Sie entsteht daraus, dass jemand zusieht.
 
-Die häufigsten Auslöser im Familienalltag sind übersichtlich: ein Missgeschick vor anderen, eine Ermahnung mit Publikum, ein Vergleich mit einem Geschwisterkind, ein Nachfragen, obwohl schon klar ist, was passiert ist, und Nachahmung des kindlichen Verhaltens durch Erwachsene, auch die freundlich gemeinte.
+Die häufigsten Auslöser im Familienalltag sind übersichtlich: Ein Missgeschick vor anderen, eine Ermahnung mit Publikum, ein Vergleich mit einem Geschwisterkind, ein Nachfragen, obwohl schon klar ist, was passiert ist, und Nachahmung des kindlichen Verhaltens durch Erwachsene, auch die freundlich gemeinte.
 
 Alle fünf haben dasselbe gemeinsam: Das Kind wird zum Gegenstand der Aufmerksamkeit anderer.
 

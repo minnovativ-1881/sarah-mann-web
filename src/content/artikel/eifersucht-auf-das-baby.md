@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn das große Kind plötzlich wieder klein sein will'
-seoTitel: 'Eifersucht auf das Baby: was wirklich hilft'
+seoTitel: 'Eifersucht auf das Baby: Was wirklich hilft'
 beschreibung: 'Nuckeln, einnässen, Babysprache: Rückschritte nach der Geburt eines Geschwisterchens sind kein Rückfall, sondern eine Frage. Was dahintersteckt und was in den ersten Monaten hilft.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -91,7 +91,7 @@ Der Umgang damit ist zweigeteilt und beides gilt gleichzeitig:
 
 Die Eifersucht ist am größten, solange das Baby nur nimmt und nichts zurückgibt. Sie ändert sich in dem Moment, in dem es anfängt, das große Kind anzulachen, ihm hinterherzuschauen, über seine Grimassen zu lachen.
 
-Ab da bekommt das große Kind etwas, das ihm sonst niemand gibt: jemanden, der es bewundert.
+Ab da bekommt das große Kind etwas, das ihm sonst niemand gibt: Jemanden, der es bewundert.
 
 Diesen Moment kann man nicht herbeiführen. Man kann ihm nur die Zeit lassen, die er braucht, und in der Zwischenzeit dafür sorgen, dass niemand verloren geht.
 

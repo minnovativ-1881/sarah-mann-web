@@ -1,4 +1,4 @@
-import ImageSlot from "@/components/ImageSlot";
+﻿import ImageSlot from "@/components/ImageSlot";
 
 const gedanken = [
   "Ich kann nicht mehr.",
@@ -65,7 +65,7 @@ export default function StimmenSection() {
               </p>
               <p>
                 Dir wurde ein Erziehungsmodell verkauft, das nur eine Richtung kennt:
-                das Kind zuerst, immer. Spiegle seine Gefühle, erfülle seine
+                immer das Kind zuerst. Spiegle seine Gefühle, erfülle seine
                 Bedürfnisse, erkläre jede Grenze, bleib geduldig. Und wenn es nicht
                 funktioniert, dann warst du eben noch nicht geduldig genug.
               </p>

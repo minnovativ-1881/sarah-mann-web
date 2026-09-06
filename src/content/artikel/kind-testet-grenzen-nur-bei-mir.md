@@ -101,7 +101,7 @@ Fast immer erklären zwei Dinge den Unterschied, und beide haben nichts mit Char
 
 **Zweitens die eigene Kraft.** Ruhigbleiben ist eine Leistung, die Energie kostet. Wer frisch dazukommt, hat mehr davon.
 
-Was dagegen wirklich hilft: euch auf wenige Regeln zu einigen, die bei beiden gelten. Und Unterschiede unter vier Augen zu klären, nicht vor dem Kind. Denn ein Kind, das erlebt, dass Eltern sich vor ihm widersprechen, prüft danach umso mehr. Nicht aus Berechnung, sondern weil die Lage tatsächlich unklar geworden ist.
+Was dagegen wirklich hilft: Euch auf wenige Regeln zu einigen, die bei beiden gelten. Und Unterschiede unter vier Augen zu klären, nicht vor dem Kind. Denn ein Kind, das erlebt, dass Eltern sich vor ihm widersprechen, prüft danach umso mehr. Nicht aus Berechnung, sondern weil die Lage tatsächlich unklar geworden ist.
 
 ## Drei Situationen, in denen es besonders auffällt
 

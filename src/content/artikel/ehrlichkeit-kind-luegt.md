@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn dein Kind lügt'
-seoTitel: 'Kind lügt: was normal ist und wie du reagierst'
+seoTitel: 'Kind lügt: Was normal ist und wie du reagierst'
 beschreibung: 'Die erste Lüge ist ein Entwicklungsschritt, kein Charakterfehler. Warum harte Strafen die Lügen vermehren und mit welchem Satz du das Zugeben leicht machst.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -13,7 +13,7 @@ verwandt:
   - wenn-die-grenze-ueberschritten-ist
 faq:
   - frage: 'Ab wann lügen Kinder?'
-    antwort: 'Erste Lügen tauchen typischerweise zwischen drei und vier Jahren auf. Sie setzen eine anspruchsvolle Fähigkeit voraus: zu verstehen, dass der andere etwas nicht weiß, was man selbst weiß. Deshalb ist die erste Lüge entwicklungspsychologisch ein Fortschritt.'
+    antwort: 'Erste Lügen tauchen typischerweise zwischen drei und vier Jahren auf. Sie setzen eine anspruchsvolle Fähigkeit voraus: Zu verstehen, dass der andere etwas nicht weiß, was man selbst weiß. Deshalb ist die erste Lüge entwicklungspsychologisch ein Fortschritt.'
   - frage: 'Ist Lügen ein schlechtes Zeichen?'
     antwort: 'Im Kleinkind- und Vorschulalter fast nie. Aufmerksam werden sollte man, wenn ein Kind ohne erkennbaren Anlass lügt, wenn es die Lügen selbst nicht mehr überblickt oder wenn zusätzlich Sachen verschwinden oder Verletzungen erklärt werden müssen.'
   - frage: 'Wie soll ich reagieren, wenn mein Kind lügt?'
@@ -60,7 +60,7 @@ Die Gründe sind übersichtlich, und keiner davon heißt Bosheit.
 
 Diese Frage stellt man fast immer dann, wenn man die Antwort schon kennt. Und aus Sicht des Kindes ist sie keine Frage, sondern eine Öffnung.
 
-Es steht vor einer Wahl: zugeben und die Folge tragen, oder es versuchen. Und die Versuchung ist umso größer, je unangenehmer die erwartete Folge ist.
+Es steht vor einer Wahl: Zugeben und die Folge tragen, oder es versuchen. Und die Versuchung ist umso größer, je unangenehmer die erwartete Folge ist.
 
 Wer die Antwort kennt, sollte deshalb nicht fragen, sondern feststellen.
 
@@ -72,7 +72,7 @@ Damit gibt es nichts zu entscheiden. Die Situation wird bearbeitet, ohne dass ei
 
 Es liegt nahe, auf Lügen hart zu reagieren, damit sie aufhören. Der Effekt ist gegenläufig.
 
-Je härter die Folge der Wahrheit, desto größer der Gewinn einer gelungenen Lüge. Kinder in strengen Umgebungen lügen nicht seltener, sie lügen besser: früher, glatter und mit weniger Anzeichen.
+Je härter die Folge der Wahrheit, desto größer der Gewinn einer gelungenen Lüge. Kinder in strengen Umgebungen lügen nicht seltener, sie lügen besser: Früher, glatter und mit weniger Anzeichen.
 
 | Erhöht Lügen | Senkt Lügen |
 |---|---|
@@ -98,7 +98,7 @@ Der Unterschied darf klein sein. Er muss nur verlässlich sein. Kinder rechnen s
 
 Kinder registrieren erstaunlich genau, wann Erwachsene es mit der Wahrheit nicht so nehmen. Der Anruf, bei dem gesagt wird, man sei krank. Die Ausrede an der Tür. Das Versprechen, das nie eingelöst wird.
 
-Wirksamer als jede Ermahnung ist deshalb der umgekehrte Fall: ein Erwachsener, der einen eigenen Fehler ausspricht.
+Wirksamer als jede Ermahnung ist deshalb der umgekehrte Fall: Ein Erwachsener, der einen eigenen Fehler ausspricht.
 
 „Ich habe vorhin gesagt, ich hätte das aufgeräumt. Stimmt nicht, ich hatte es vergessen.“
 

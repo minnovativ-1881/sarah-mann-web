@@ -19,14 +19,14 @@ faq:
   - frage: 'Ab wann lohnt sich eine Abendroutine?'
     antwort: 'Von Anfang an, nur sieht sie in jedem Alter anders aus. Bei einem Baby ist es eine sehr kurze, immer gleiche Abfolge. Je älter ein Kind wird, desto mehr Bausteine kommen dazu, und desto wichtiger wird der klare Abschluss.'
   - frage: 'Wie mache ich das mit mehreren Kindern?'
-    antwort: 'Gestaffelt statt parallel. Zwei Kinder gleichzeitig zu begleiten funktioniert selten, weil sie sich gegenseitig wach halten und beide halbe Aufmerksamkeit bekommen. Besser: unterschiedliche Zeiten oder ein gemeinsamer Teil und danach kurze Einzelzeit.'
+    antwort: 'Gestaffelt statt parallel. Zwei Kinder gleichzeitig zu begleiten funktioniert selten, weil sie sich gegenseitig wach halten und beide halbe Aufmerksamkeit bekommen. Besser: Unterschiedliche Zeiten oder ein gemeinsamer Teil und danach kurze Einzelzeit.'
   - frage: 'Muss die Routine jeden Abend gleich sein?'
     antwort: 'Die Reihenfolge ja, die Uhrzeit nicht unbedingt. Eine Routine wirkt über die Wiedererkennbarkeit, nicht über die Uhr. Deshalb funktioniert sie auch im Urlaub und bei Besuch, wenn man die Abfolge beibehält.'
   - frage: 'Was mache ich, wenn die Routine plötzlich nicht mehr wirkt?'
-    antwort: 'Meist hat sich etwas anderes verändert: der Mittagsschlaf, die Kita-Zeiten, ein Entwicklungsschritt, eine Erkrankung. Bevor du den Ablauf umbaust, lohnt ein Blick auf die Schlafenszeit. Sehr oft ist ein Kind schlicht aus seinem alten Rhythmus herausgewachsen.'
+    antwort: 'Meist hat sich etwas anderes verändert: Der Mittagsschlaf, die Kita-Zeiten, ein Entwicklungsschritt, eine Erkrankung. Bevor du den Ablauf umbaust, lohnt ein Blick auf die Schlafenszeit. Sehr oft ist ein Kind schlicht aus seinem alten Rhythmus herausgewachsen.'
 ---
 
-Es gibt eine Vorstellung von Abendroutine, die in vielen Ratgebern steht und im echten Leben nicht funktioniert: ein Zeitplan mit Uhrzeiten.
+Es gibt eine Vorstellung von Abendroutine, die in vielen Ratgebern steht und im echten Leben nicht funktioniert: Ein Zeitplan mit Uhrzeiten.
 
 19:00 Abendessen. 19:20 Baden. 19:40 Buch. 20:00 Licht aus.
 
@@ -44,7 +44,7 @@ An dem Abend, an dem der Kindergarten später aufhört, das Essen anbrennt oder 
 | Abschluss | Immer derselbe Satz, dieselbe Geste | Der Punkt, an dem der Abend endet |
 | Begleitung | Da sein, ohne Programm | Ankommen, nichts Neues mehr |
 
-Die Reihenfolge ist wichtiger als jede Uhrzeit, weil sie einem Kind sagt, wo es gerade ist. Ein Kind, das im Schlafanzug ist, weiß: gleich kommt das Buch. Und nach dem Buch kommt der Abschluss.
+Die Reihenfolge ist wichtiger als jede Uhrzeit, weil sie einem Kind sagt, wo es gerade ist. Ein Kind, das im Schlafanzug ist, weiß: Gleich kommt das Buch. Und nach dem Buch kommt der Abschluss.
 
 Das ist Vorhersehbarkeit, und Vorhersehbarkeit ist im Kern das, was ein Abend leisten muss.
 
@@ -64,7 +64,7 @@ Ein guter Abschluss ist:
 - **Freundlich**, nicht streng.
 - **Und danach folgt nichts Neues mehr.** Kein Lied, kein Gespräch, keine Frage.
 
-Bei uns war es jahrelang dasselbe: das Licht in eine bestimmte Position drehen, eine Hand auf den Rücken, ein Satz. Danach wurde nicht mehr geredet.
+Bei uns war es jahrelang dasselbe: Das Licht in eine bestimmte Position drehen, eine Hand auf den Rücken, ein Satz. Danach wurde nicht mehr geredet.
 
 Ein Kind, das diesen Punkt kennt, hört auf zu prüfen. Nicht weil es aufgegeben hat, sondern weil es die Antwort hat.
 
@@ -78,7 +78,7 @@ Deshalb: **Wie viele Bücher es gibt, entscheidest du am Nachmittag, nicht im Be
 
 Zwei Bücher, entschieden am Nachmittag, sind ein Rahmen. Zwei Bücher, entschieden im Bett, sind ein Angebot, über das man reden kann.
 
-Dasselbe gilt für alles andere: wie viele Nochmal-Wünsche, ob noch getrunken wird, ob das Licht anbleibt. Warum das der eigentliche Kern der Sache ist, steht in [Warum der Abend zeigt, wie es tagsüber läuft](/wissen/schlaf-als-fuehrungsaufgabe/).
+Dasselbe gilt für alles andere: Wie viele Nochmal-Wünsche, ob noch getrunken wird, ob das Licht anbleibt. Warum das der eigentliche Kern der Sache ist, steht in [Warum der Abend zeigt, wie es tagsüber läuft](/wissen/schlaf-als-fuehrungsaufgabe/).
 
 ## Die Stunde davor
 
@@ -88,7 +88,7 @@ Ein Kind braucht ungefähr eine Stunde, um von hoher Erregung herunterzukommen. 
 
 Ungünstig sind in dieser Zeit: Bildschirme, Toben, Besuch, aufregende Spiele, Streitthemen, große Gespräche.
 
-Günstig sind: gedämpftes Licht, ruhige Beschäftigung, wenig Neues.
+Günstig sind: Gedämpftes Licht, ruhige Beschäftigung, wenig Neues.
 
 Das ist kein Verbot von Spaß am Abend. Es ist eine Beobachtung darüber, was danach passiert.
 

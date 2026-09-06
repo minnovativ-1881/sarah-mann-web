@@ -23,7 +23,7 @@ faq:
   - frage: 'An wen wende ich mich zuerst?'
     antwort: 'An die Kinderärztin. Sie kennt euer Kind, kann Häufiges ausschließen und bei Bedarf weiterverweisen, etwa an eine Frühförderstelle, eine Erziehungsberatungsstelle oder eine sozialpädiatrische Einrichtung. Der Weg beginnt nicht bei einer Spezialdiagnostik.'
   - frage: 'Was sage ich beim Arzttermin?'
-    antwort: 'Am besten Konkretes: wie oft, wie lang, wann am Tag, was vorausging, wie es endet. Ein Protokoll über zwei Wochen ist dabei wertvoller als jede Beschreibung aus dem Gedächtnis, weil es Muster sichtbar macht.'
+    antwort: 'Am besten Konkretes: Wie oft, wie lang, wann am Tag, was vorausging, wie es endet. Ein Protokoll über zwei Wochen ist dabei wertvoller als jede Beschreibung aus dem Gedächtnis, weil es Muster sichtbar macht.'
 ---
 
 Es gibt eine Frage, die sich viele Eltern stellen und selten aussprechen, weil sie sich anfühlt, als würde man dem eigenen Kind etwas unterstellen.
@@ -104,7 +104,7 @@ Wenn du einen Termin machst, lohnt sich Vorbereitung. Nicht damit es offiziell w
 
 **Führe zwei Wochen lang ein kurzes Protokoll.** Für jeden Zusammenbruch: Datum, Uhrzeit, Dauer, was vorher war, wie er endete.
 
-Zwei Wochen reichen, und das Ergebnis überrascht die meisten Eltern. Sehr oft zeigt sich ein Muster, das im Alltag unsichtbar war: immer nach der Kita. Immer vor dem Essen. Immer an den Tagen ohne Mittagsschlaf.
+Zwei Wochen reichen, und das Ergebnis überrascht die meisten Eltern. Sehr oft zeigt sich ein Muster, das im Alltag unsichtbar war: Immer nach der Kita. Immer vor dem Essen. Immer an den Tagen ohne Mittagsschlaf.
 
 Manchmal löst sich das Problem allein dadurch.
 
@@ -116,7 +116,7 @@ Von dort kann es weitergehen zu einer Frühförderstelle, einer Erziehungsberatu
 
 **Und ein Wort dazu, weil es viele Eltern zögern lässt:** Ein Termin ist keine Diagnose und keine Vorentscheidung. Er ist eine Frage. Sehr oft lautet die Antwort, dass alles im Rahmen liegt, und diese Auskunft ist ihren Aufwand wert.
 
-Wenn tatsächlich etwas gefunden wird, gilt in fast allen Fällen: früher ist deutlich besser. Nicht, weil es dann dramatischer wäre, sondern weil der Alltag für alle leichter wird, sobald man weiß, womit man es zu tun hat.
+Wenn tatsächlich etwas gefunden wird, gilt in fast allen Fällen: Früher ist deutlich besser. Nicht, weil es dann dramatischer wäre, sondern weil der Alltag für alle leichter wird, sobald man weiß, womit man es zu tun hat.
 
 ## Quellen und weiterführende Informationen
 

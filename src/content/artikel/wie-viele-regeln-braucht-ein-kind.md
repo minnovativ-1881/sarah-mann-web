@@ -94,7 +94,7 @@ Nicht auf einmal. Ein Systemwechsel wirkt für ein Kind wie ein Kontrollverlust 
 
 **Nimm dir eine Woche und beobachte.** Notier dir, wie oft du am Tag Nein sagst und worum es geht. Die Liste wird länger, als du denkst.
 
-**Sortiere danach.** Sicherheit, Umgang, Rahmen: bleibt. Alles andere: Warum eigentlich?
+**Sortiere danach.** Sicherheit, Umgang, Rahmen: Bleibt. Alles andere: Warum eigentlich?
 
 Bei sehr vielen Regeln lautet die ehrliche Antwort: Weil es bei mir früher so war. Oder: Weil es unordentlich aussieht. Oder: Weil ich es einmal spontan gesagt habe und es seitdem gilt.
 
@@ -118,7 +118,7 @@ Ein Punkt, der viele Eltern beschäftigt: Bei der Oma gilt etwas anderes. In der
 
 Das ist unproblematisch. Kinder lernen erstaunlich schnell, dass an verschiedenen Orten verschiedene Regeln gelten, und sie kommen damit gut zurecht.
 
-Schwierig ist etwas anderes: wenn **dieselbe Person** je nach Laune unterschiedlich reagiert. Unterschiedliche Orte sind kein Problem. Unberechenbare Personen schon.
+Schwierig ist etwas anderes: Wenn **dieselbe Person** je nach Laune unterschiedlich reagiert. Unterschiedliche Orte sind kein Problem. Unberechenbare Personen schon.
 
 Und daraus folgt auch der Umgang unter Erwachsenen: Nicht versuchen, alle gleich zu machen. Nur nicht die Grenze des anderen vor dem Kind aufheben. Uneinigkeit gehört unter Erwachsene, nicht in die Situation.
 

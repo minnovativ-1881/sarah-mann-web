@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn ihr unterschiedlich erzieht'
-seoTitel: 'Eltern uneinig in der Erziehung: was tun'
+seoTitel: 'Eltern uneinig in der Erziehung: Was tun'
 beschreibung: 'Unterschiedliche Erwachsene sind kein Problem für Kinder. Was tatsächlich schadet, wo die Grenze verläuft und wie ein Abgleich zu zweit funktioniert.'
 eyebrow: 'Für dich als Elternteil'
 silo: eltern
@@ -36,7 +36,7 @@ In dieser Allgemeinheit ist er falsch, und er richtet Schaden an, weil er aus je
 
 Kinder kommen mit unterschiedlichen Erwachsenen gut zurecht. Erstaunlich gut sogar.
 
-Bei der Oma gelten andere Regeln als zu Hause. In der Kita wieder andere. Bei der Tagesmutter, im Sportverein, bei den Nachbarn: überall etwas anderes.
+Bei der Oma gelten andere Regeln als zu Hause. In der Kita wieder andere. Bei der Tagesmutter, im Sportverein, bei den Nachbarn: Überall etwas anderes.
 
 Und Kinder lernen das erstaunlich schnell. Ein Vierjähriger weiß genau, dass es bei Oma Kekse gibt und zu Hause nicht.
 
@@ -135,7 +135,7 @@ Dasselbe, verstärkt.
 
 Zwei Haushalte mit unterschiedlichen Regeln sind für ein Kind gut zu verkraften, solange jeder in sich verlässlich ist. Kinder unterscheiden das schneller, als Erwachsene glauben.
 
-Was belastet, ist etwas anderes: die Abwertung des anderen Haushalts vor dem Kind. Damit gerät ein Kind in einen Loyalitätskonflikt, und der ist deutlich schwerer als jede unterschiedliche Bettzeit.
+Was belastet, ist etwas anderes: Die Abwertung des anderen Haushalts vor dem Kind. Damit gerät ein Kind in einen Loyalitätskonflikt, und der ist deutlich schwerer als jede unterschiedliche Bettzeit.
 
 Der Satz, der hier trägt: **Bei Papa gelten andere Regeln. Das ist in Ordnung.**
 

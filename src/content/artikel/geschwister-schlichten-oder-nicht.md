@@ -1,6 +1,6 @@
 ---
 titel: 'Einmischen oder rausbleiben?'
-seoTitel: 'Geschwisterstreit schlichten: wann eingreifen, wann nicht'
+seoTitel: 'Geschwisterstreit schlichten: Wann eingreifen, wann nicht'
 beschreibung: 'Zwischen Wegsehen und Schiedsrichterin liegt der Weg, der wirklich funktioniert. Die vier Fragen, die entscheiden, und die drei Sätze, mit denen du begleitest, ohne zu urteilen.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -13,7 +13,7 @@ verwandt:
   - kind-schlaegt-und-haut
 faq:
   - frage: 'Soll ich Geschwisterstreit immer schlichten?'
-    antwort: 'Nein. Wer jeden Streit schlichtet, nimmt Kindern die Übung und macht sich unentbehrlich. Wer nie eingreift, überlässt das Feld dem Stärkeren. Der Weg dazwischen ist begleiten: die Anliegen übersetzen und die Lösung den Kindern lassen.'
+    antwort: 'Nein. Wer jeden Streit schlichtet, nimmt Kindern die Übung und macht sich unentbehrlich. Wer nie eingreift, überlässt das Feld dem Stärkeren. Der Weg dazwischen ist begleiten: Die Anliegen übersetzen und die Lösung den Kindern lassen.'
   - frage: 'Wie finde ich heraus, wer angefangen hat?'
     antwort: 'Gar nicht, und der Versuch schadet. Die Versionen widersprechen sich immer, und wer gewinnt, lernt, dass Anklagen sich lohnt. Springe die Schuldfrage über und arbeite nur mit dem, was jetzt gebraucht wird.'
   - frage: 'Wann muss ich sofort eingreifen?'
@@ -46,7 +46,7 @@ Beide haben recht, und beide sind unbrauchbar, solange nicht dazugesagt wird, wa
 
 ## Warum die Schuldfrage nicht weiterführt
 
-Der erste Impuls ist fast immer derselbe: herausfinden, wer angefangen hat.
+Der erste Impuls ist fast immer derselbe: Herausfinden, wer angefangen hat.
 
 Das scheitert aus drei Gründen. Die Versionen stimmen nie überein, und beide Kinder erzählen wahrheitsgemäß, was sie erlebt haben. Der Anfang liegt fast immer weiter zurück, als beide zugeben. Und das Kind, dem geglaubt wird, lernt, dass Anklagen sich lohnt.
 
@@ -95,7 +95,7 @@ Was stattdessen geht, ist die Situation beenden, ohne jemanden zu verurteilen. D
 
 ## Der Satz zum Mitnehmen
 
-Zwischen Wegsehen und Richten liegt der Weg, der tatsächlich etwas beibringt: beide Anliegen aussprechen, das Problem benennen, die Lösung ihnen lassen. Dein Ziel ist nicht ein gerechtes Urteil. Dein Ziel ist, dass sie das irgendwann ohne dich können.
+Zwischen Wegsehen und Richten liegt der Weg, der tatsächlich etwas beibringt: Beide Anliegen aussprechen, das Problem benennen, die Lösung ihnen lassen. Dein Ziel ist nicht ein gerechtes Urteil. Dein Ziel ist, dass sie das irgendwann ohne dich können.
 
 ## Quellen und weiterführende Informationen
 

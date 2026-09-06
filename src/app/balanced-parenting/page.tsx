@@ -7,13 +7,13 @@ import { SITE_URL } from "@/lib/artikel";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Balanced Parenting: das Konzept | Sarah Mann",
+  title: "Balanced Parenting: Das Konzept | Sarah Mann",
   description:
     "Der Mittelweg zwischen Erschöpfung und Entfremdung: viel Wärme und viel Klarheit zugleich. Was hinter dem Konzept steckt und was es im Alltag bedeutet.",
   // Ohne eigenen Canonical erbt die Seite den der Startseite und rankt nie.
   alternates: { canonical: "/balanced-parenting/" },
   openGraph: {
-    title: "Balanced Parenting: das Konzept",
+    title: "Balanced Parenting: Das Konzept",
     description: "Viel Wärme und viel Klarheit zugleich. Was das im Alltag bedeutet.",
     url: "/balanced-parenting/",
     type: "article",
@@ -45,7 +45,7 @@ const principles = [
   {
     title: "Selbstregulation statt Abhängigkeit",
     content:
-      "Kinder sollen lernen, ihre Gefühle selbst zu regulieren — nicht immer auf externe Auflösung warten. Co-Regulation bedeutet: der ruhige Anker sein, nicht der Mitreißende. Das Kind reguliert sich an meiner Ruhe.",
+      "Kinder sollen lernen, ihre Gefühle selbst zu regulieren — nicht immer auf externe Auflösung warten. Co-Regulation bedeutet: Der ruhige Anker sein, nicht der Mitreißende. Das Kind reguliert sich an meiner Ruhe.",
   },
 ];
 
@@ -54,7 +54,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      headline: "Balanced Parenting: viel Wärme und viel Klarheit zugleich",
+      headline: "Balanced Parenting: Viel Wärme und viel Klarheit zugleich",
       description:
         "Der Mittelweg zwischen Erschöpfung und Entfremdung: viel Wärme und viel Klarheit zugleich.",
       inLanguage: "de-DE",

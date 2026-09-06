@@ -1,6 +1,6 @@
 ---
 titel: 'Wer den ganzen Tag Befehle gibt, entwertet den einen, der zählt.'
-seoTitel: 'Kind reagiert nicht auf Aufforderungen: anders sagen statt lauter'
+seoTitel: 'Kind reagiert nicht auf Aufforderungen: Anders sagen statt lauter'
 beschreibung: 'Warum manche Kinder bei jeder Aufforderung dichtmachen, wie eine Feststellung stattdessen wirkt und wann eine klare Ansage trotzdem die richtige Wahl ist.'
 eyebrow: 'Das Werkzeug mit der schnellsten Wirkung'
 silo: reizueberflutung
@@ -23,7 +23,7 @@ faq:
   - frage: 'Funktioniert das bei jedem Kind?'
     antwort: 'Es hilft fast allen Kindern und wirkt besonders stark bei Kindern, die viel wahrnehmen, schnell überlastet sind oder stark auf ihre Selbstbestimmung achten. Bei Kindern, die klare Ansagen problemlos umsetzen, ändert es wenig. Schaden tut es nie.'
   - frage: 'Wie fange ich damit an?'
-    antwort: 'Nimm dir eine einzige Situation vor, am besten eine, die täglich wiederkommt: der Morgen, das Aufräumen, der Weg zum Tisch. Formuliere für diese eine Situation drei Sätze um und behalte sie zwei Wochen bei. Alles gleichzeitig umzustellen funktioniert nicht, weil dir mitten im Alltag die alten Sätze schneller herausrutschen.'
+    antwort: 'Nimm dir eine einzige Situation vor, am besten eine, die täglich wiederkommt: Der Morgen, das Aufräumen, der Weg zum Tisch. Formuliere für diese eine Situation drei Sätze um und behalte sie zwei Wochen bei. Alles gleichzeitig umzustellen funktioniert nicht, weil dir mitten im Alltag die alten Sätze schneller herausrutschen.'
 ---
 
 Zieh die Schuhe an. Komm zum Essen. Räum das weg. Zieh die Jacke an. Beeil dich. Hör auf damit. Setz dich hin. Mach das aus. Komm jetzt.
@@ -40,13 +40,13 @@ Bei vielen Kindern ist das völlig unproblematisch. Bei manchen löst schon die 
 
 Dafür gibt es zwei Gründe, und beide haben nichts mit Ungehorsam zu tun.
 
-**Der erste ist Kapazität.** Ein Kind, das überlastet ist, kann nicht sofort umschalten. Eine Aufforderung verlangt genau das: sofort aufhören, sofort umsteuern, sofort etwas anderes tun. Wenn dafür gerade keine Kraft da ist, kommt keine Reaktion. Nicht aus Trotz, sondern weil nichts kommt.
+**Der erste ist Kapazität.** Ein Kind, das überlastet ist, kann nicht sofort umschalten. Eine Aufforderung verlangt genau das: Sofort aufhören, sofort umsteuern, sofort etwas anderes tun. Wenn dafür gerade keine Kraft da ist, kommt keine Reaktion. Nicht aus Trotz, sondern weil nichts kommt.
 
 **Der zweite ist Autonomie.** Manche Kinder achten sehr genau darauf, ob sie noch selbst entscheiden. Bei ihnen erzeugt jede Anweisung reflexhaft Gegendruck, und je mehr Anweisungen kommen, desto mehr Gegendruck.
 
-In beiden Fällen ist die naheliegende Reaktion der Erwachsenen dieselbe: lauter, deutlicher, mit Nachdruck. Und in beiden Fällen macht sie es schlimmer.
+In beiden Fällen ist die naheliegende Reaktion der Erwachsenen dieselbe: Lauter, deutlicher, mit Nachdruck. Und in beiden Fällen macht sie es schlimmer.
 
-## Der Trick: den Schluss dem Kind überlassen
+## Der Trick: Den Schluss dem Kind überlassen
 
 Es gibt eine Alternative, die im englischsprachigen Raum ein Standardwerkzeug ist und im deutschen Elternalltag praktisch nicht vorkommt. Sie ist so einfach, dass sie zuerst nach nichts aussieht.
 
@@ -85,7 +85,7 @@ Eine Feststellung setzt keine Frist. Sie erlaubt zwei Sekunden Denkzeit, bevor e
 
 Dazu kommt: Eine Feststellung enthält keine Bewertung. „Zieh endlich die Schuhe an“ enthält den Vorwurf, es zu lange nicht getan zu haben. „Deine Schuhe stehen noch da“ enthält ihn nicht. Wer ohnehin am Rand seiner Kraft ist, reagiert auf Vorwürfe empfindlicher als auf Anforderungen.
 
-## Der zweite Fehler: die getarnte Aufforderung
+## Der zweite Fehler: Die getarnte Aufforderung
 
 Es gibt eine Zwischenform, die viele Eltern benutzen und die schlechter funktioniert als beides.
 
@@ -131,7 +131,7 @@ Nimm dir **eine** Situation, die jeden Tag wiederkommt. Der Morgen. Das Aufräum
 
 Und erwarte nicht, dass dein Kind sofort springt. Am Anfang passiert häufig gar nichts, weil dein Kind noch darauf wartet, dass die eigentliche Aufforderung kommt. Das legt sich nach ein paar Tagen.
 
-Wenn nichts passiert, wiederhol die Feststellung einmal und geh dann ins Handeln, freundlich und ohne mehr Worte: hingehen, Schuhe hinstellen, dabeibleiben. Nicht lauter werden. Handeln ersetzt Wiederholen.
+Wenn nichts passiert, wiederhol die Feststellung einmal und geh dann ins Handeln, freundlich und ohne mehr Worte: Hingehen, Schuhe hinstellen, dabeibleiben. Nicht lauter werden. Handeln ersetzt Wiederholen.
 
 ## Der Satz, der bleibt
 

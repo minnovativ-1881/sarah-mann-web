@@ -1,6 +1,6 @@
 ---
 titel: 'Dein Kind hält sich den ganzen Tag zusammen. Zu Hause fällt es auseinander.'
-seoTitel: 'Kind rastet nach Kita oder Schule aus: die Heimkehr-Entladung'
+seoTitel: 'Kind rastet nach Kita oder Schule aus: Die Heimkehr-Entladung'
 beschreibung: 'Warum manche Kinder in der Kita tadellos funktionieren und zu Hause explodieren, und was in den ersten zwanzig Minuten nach dem Ankommen wirklich hilft.'
 eyebrow: 'Warum es ausgerechnet bei dir passiert'
 silo: reizueberflutung
@@ -23,7 +23,7 @@ faq:
   - frage: 'Warum trifft es meistens die Mutter?'
     antwort: 'Weil sie in den meisten Familien die Person ist, die abholt, und weil sie in der Regel der sicherste Mensch im Leben des Kindes ist. Kinder entladen sich dort, wo die Beziehung stabil genug ist, um es auszuhalten. Das fühlt sich ungerecht an und ist gleichzeitig das größte Kompliment, das ein Kind machen kann.'
   - frage: 'Soll ich mein Kind gleich nach dem Abholen nach dem Tag fragen?'
-    antwort: 'Besser nicht. Eine Frage wie "Wie war es heute?" verlangt genau die Leistung, für die gerade keine Kraft mehr da ist: erinnern, sortieren, formulieren. Viele Kinder erzählen von selbst, sobald sie versorgt und angekommen sind, oft erst Stunden später beim Spielen oder abends im Bett.'
+    antwort: 'Besser nicht. Eine Frage wie "Wie war es heute?" verlangt genau die Leistung, für die gerade keine Kraft mehr da ist: Erinnern, sortieren, formulieren. Viele Kinder erzählen von selbst, sobald sie versorgt und angekommen sind, oft erst Stunden später beim Spielen oder abends im Bett.'
 ---
 
 Du holst dein Kind ab. Die Erzieherin sagt: „Ein völlig unauffälliger Tag, alles prima.“ Dein Kind kommt auf dich zu, und zwei Minuten später liegt es schreiend auf dem Parkplatz, weil du die falsche Jacke dabeihast.
@@ -46,7 +46,7 @@ Stell dir ein Konto vor, von dem den ganzen Vormittag abgehoben wird. Jedes Stil
 
 Und dann geht die Tür auf, und da stehst du.
 
-In dem Moment, in dem dein Kind dich sieht, meldet sein Nervensystem: sicher. Und wo es sicher ist, muss nichts mehr gehalten werden. Das Konto ist leer, die Kontrolle fällt weg, und alles, was den ganzen Tag zurückgehalten wurde, kommt auf einmal heraus.
+In dem Moment, in dem dein Kind dich sieht, meldet sein Nervensystem: Sicher. Und wo es sicher ist, muss nichts mehr gehalten werden. Das Konto ist leer, die Kontrolle fällt weg, und alles, was den ganzen Tag zurückgehalten wurde, kommt auf einmal heraus.
 
 Wir nennen das die **Heimkehr-Entladung**.
 
@@ -71,7 +71,7 @@ Nicht jeder Wutanfall am Nachmittag ist eine Heimkehr-Entladung. Der Unterschied
 | Heimkehr-Entladung | Ein gewöhnlicher Konflikt |
 |---|---|
 | Beginnt in den ersten Minuten nach dem Ankommen | Beginnt an einer konkreten Sache, egal zu welcher Uhrzeit |
-| Der Anlass steht in keinem Verhältnis: falscher Becher, falsche Jacke | Der Anlass ist nachvollziehbar: es gibt kein Eis, der Bildschirm geht aus |
+| Der Anlass steht in keinem Verhältnis: Falscher Becher, falsche Jacke | Der Anlass ist nachvollziehbar: Es gibt kein Eis, der Bildschirm geht aus |
 | Passiert an den meisten Tagen ungefähr gleich | Passiert unregelmäßig |
 | Nachgeben hilft nicht, es geht trotzdem weiter | Nachgeben würde helfen, deshalb ist Nachgeben hier auch die falsche Lösung |
 | Danach ist das Kind erschöpft, oft anhänglich | Danach ist das Kind wieder normal ansprechbar |
@@ -96,9 +96,9 @@ Die ersten zwanzig Minuten entscheiden über den ganzen Nachmittag. Und die Ding
 
 **Den Vorwurf aushalten.** „Du bist die schlimmste Mama“ ist in diesem Moment kein Urteil über dich. Es ist der Satz eines Kindes, dessen Kraft aufgebraucht ist und das weiß, dass diese Beziehung das aushält.
 
-Und was nicht hilft, obwohl es naheliegt: die Situation in dem Moment erziehen zu wollen. Ein leeres Konto lernt nichts. Die Regel, dass man die Mutter nicht anschreit, gilt weiter, aber sie wird nicht in der Sekunde durchgesetzt, in der niemand zuhören kann. Sie wird später besprochen, wenn wieder jemand da ist, der zuhören kann.
+Und was nicht hilft, obwohl es naheliegt: Die Situation in dem Moment erziehen zu wollen. Ein leeres Konto lernt nichts. Die Regel, dass man die Mutter nicht anschreit, gilt weiter, aber sie wird nicht in der Sekunde durchgesetzt, in der niemand zuhören kann. Sie wird später besprochen, wenn wieder jemand da ist, der zuhören kann.
 
-Das ist der Unterschied, um den es hier geht. Die Grenze verschwindet nicht. Sie wartet auf den richtigen Moment. Wer in der Entladung erzieht, verliert beides: den Nachmittag und die Grenze.
+Das ist der Unterschied, um den es hier geht. Die Grenze verschwindet nicht. Sie wartet auf den richtigen Moment. Wer in der Entladung erzieht, verliert beides: Den Nachmittag und die Grenze.
 
 ## Warum ausgerechnet du
 
@@ -130,7 +130,7 @@ Wenn dein eigenes Konto das Problem ist, und das ist häufiger, als irgendjemand
 
 Wenn du dir ein einziges Bild merken willst, dann dieses.
 
-Dein Kind trägt den ganzen Tag einen Rucksack. Da kommt alles hinein, was nicht rausdurfte: der Ärger über das Kind, das gedrängelt hat. Die Enttäuschung, nicht drangekommen zu sein. Der Lärm im Flur. Die Angst vor der Vorlesestunde.
+Dein Kind trägt den ganzen Tag einen Rucksack. Da kommt alles hinein, was nicht rausdurfte: Der Ärger über das Kind, das gedrängelt hat. Die Enttäuschung, nicht drangekommen zu sein. Der Lärm im Flur. Die Angst vor der Vorlesestunde.
 
 Den ganzen Tag trägt es diesen Rucksack, ohne dass es jemand sieht. Und an eurer Tür lässt es ihn fallen.
 

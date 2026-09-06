@@ -1,6 +1,6 @@
 ---
 titel: 'Teilen kann man nicht erzwingen'
-seoTitel: 'Kind will nicht teilen: warum Zwang nicht hilft'
+seoTitel: 'Kind will nicht teilen: Warum Zwang nicht hilft'
 beschreibung: 'Ein Kind, das zum Teilen gezwungen wird, lernt nicht Großzügigkeit, sondern Verlust. Was Teilen entwicklungspsychologisch voraussetzt und welche Regel im Alltag tatsächlich funktioniert.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -13,7 +13,7 @@ verwandt:
   - frustrationstoleranz-kind
 faq:
   - frage: 'Ab wann können Kinder teilen?'
-    antwort: 'Erste freiwillige Ansätze zeigen sich um den zweiten Geburtstag, verlässlich wird es meist erst zwischen vier und sechs Jahren. Vorher fehlt die Voraussetzung: zu verstehen, dass das Ding zurückkommt und dass der andere dasselbe fühlt wie man selbst.'
+    antwort: 'Erste freiwillige Ansätze zeigen sich um den zweiten Geburtstag, verlässlich wird es meist erst zwischen vier und sechs Jahren. Vorher fehlt die Voraussetzung: Zu verstehen, dass das Ding zurückkommt und dass der andere dasselbe fühlt wie man selbst.'
   - frage: 'Soll ich mein Kind zum Teilen zwingen?'
     antwort: 'Nein. Ein Kind, dem der Gegenstand weggenommen wird, erlebt keinen großzügigen Moment, sondern einen Verlust. Es lernt dabei nichts über Teilen, sondern nur, dass Besitz unsicher ist. Häufig hält es danach seine Sachen fester als vorher.'
   - frage: 'Was mache ich stattdessen im Streitfall?'
@@ -42,7 +42,7 @@ Dann kommt jemand, der lauter ist als du, und ein Erwachsener nimmt dir die Sach
 
 Aus deiner Sicht ist das kein Akt der Großzügigkeit. Es ist eine Enteignung, und sie wird damit begründet, dass du älter bist oder dass der andere weint.
 
-Was du daraus lernst, ist nicht Teilen. Es ist: Was ich habe, kann mir jederzeit genommen werden. Und die vernünftige Reaktion darauf heißt: festhalten.
+Was du daraus lernst, ist nicht Teilen. Es ist: Was ich habe, kann mir jederzeit genommen werden. Und die vernünftige Reaktion darauf heißt: Festhalten.
 
 ## Was Teilen voraussetzt
 
@@ -79,7 +79,7 @@ Die Regel funktioniert nur mit einer Ergänzung, und ohne die scheitert sie.
 
 Das wartende Kind wird nicht allein gelassen. Es bekommt Gesellschaft, während es wartet.
 
-Praktisch heißt das: bei ihm bleiben, das Gefühl benennen, die Zeit sichtbar machen. „Du willst den Bagger auch. Das ist gerade richtig blöd. Er ist noch dran, danach bist du dran. Ich bleib solange bei dir.“
+Praktisch heißt das: Bei ihm bleiben, das Gefühl benennen, die Zeit sichtbar machen. „Du willst den Bagger auch. Das ist gerade richtig blöd. Er ist noch dran, danach bist du dran. Ich bleib solange bei dir.“
 
 Ein Kind, das beim Warten begleitet wird, hält es um ein Vielfaches länger aus als eines, dem man nur sagt, es solle warten. Das ist kein Trick. Das ist Ko-Regulation.
 

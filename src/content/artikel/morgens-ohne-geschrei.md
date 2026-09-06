@@ -103,7 +103,7 @@ Es wird haken, und dann gelten dieselben Regeln wie bei jedem Übergang.
 
 Ein eigener Punkt, weil dahinter manchmal mehr steckt.
 
-Wenn ein Kind über Wochen morgens weint, sich weigert oder über Bauchweh klagt, das am Wochenende verschwindet, ist das ein Signal. Meistens hat es mit dem Ziel zu tun und nicht mit dem Morgen: etwas in der Kita, etwas in der Schule, ein Kind, eine Situation.
+Wenn ein Kind über Wochen morgens weint, sich weigert oder über Bauchweh klagt, das am Wochenende verschwindet, ist das ein Signal. Meistens hat es mit dem Ziel zu tun und nicht mit dem Morgen: Etwas in der Kita, etwas in der Schule, ein Kind, eine Situation.
 
 Dann hilft kein besserer Ablauf, sondern ein Gespräch. Erst mit dem Kind, konkret nachfragend statt allgemein, danach mit der Einrichtung. Wie man dieses Gespräch führt, steht in [Die ersten Schulwochen](/wissen/erste-schulwochen/).
 

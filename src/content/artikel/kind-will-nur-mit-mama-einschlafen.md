@@ -30,7 +30,7 @@ Es gibt eine Situation, die in sehr vielen Familien für viel Erschöpfung sorgt
 
 Ein Kind schläft ausschließlich mit einer Person ein. Mit der anderen nicht. Nicht bei Müdigkeit, nicht bei gutem Zureden, nicht nach einem schönen Tag.
 
-Für die eine Person heißt das: kein einziger freier Abend, seit Monaten. Für die andere: das Gefühl, nicht gebraucht zu werden.
+Für die eine Person heißt das: Kein einziger freier Abend, seit Monaten. Für die andere: Das Gefühl, nicht gebraucht zu werden.
 
 Beides ist anstrengend, und beides beruht auf einem Missverständnis.
 
@@ -40,9 +40,9 @@ Es ist keine Ablehnung. Und es ist auch keine Aussage darüber, wer die bessere 
 
 Es ist eine **erlernte Verknüpfung**.
 
-Das Gehirn eines kleinen Kindes speichert sehr zuverlässig, welche Bedingungen zum Einschlafen gehören. Ein bestimmtes Kuscheltier. Ein bestimmtes Lied. Eine bestimmte Position. Und eben auch: eine bestimmte Person.
+Das Gehirn eines kleinen Kindes speichert sehr zuverlässig, welche Bedingungen zum Einschlafen gehören. Ein bestimmtes Kuscheltier. Ein bestimmtes Lied. Eine bestimmte Position. Und eben auch: Eine bestimmte Person.
 
-Diese Verknüpfung entsteht durch Wiederholung, nicht durch Präferenz. Sie entsteht meist in einer Phase, in der es gar nicht anders ging: beim Stillen, bei einer Krankheit, in einer Zeit, in der eine Person abends nicht zu Hause war.
+Diese Verknüpfung entsteht durch Wiederholung, nicht durch Präferenz. Sie entsteht meist in einer Phase, in der es gar nicht anders ging: Beim Stillen, bei einer Krankheit, in einer Zeit, in der eine Person abends nicht zu Hause war.
 
 Und danach bleibt sie, weil sie sich jeden Abend selbst bestätigt.
 
@@ -87,7 +87,7 @@ Wer es eilig hat, kann Schritte überspringen. Wer es ruhig will, nimmt sich zwe
 
 Ab Schritt drei ist das entscheidend. Ein Kind, das die gewohnte Person nebenan hört, hat einen Grund weiterzurufen.
 
-Das klingt hart und ist praktisch. Ein Spaziergang, ein Einkauf, ein Abend bei einer Freundin: irgendetwas, das aus dem Haus führt.
+Das klingt hart und ist praktisch. Ein Spaziergang, ein Einkauf, ein Abend bei einer Freundin: Irgendetwas, das aus dem Haus führt.
 
 ### Den richtigen Zeitpunkt wählen
 

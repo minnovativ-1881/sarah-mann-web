@@ -1,6 +1,6 @@
 ---
 titel: 'Das Lob, das nach hinten losgeht'
-seoTitel: 'Kinder richtig loben: warum „gut gemacht“ zu wenig ist'
+seoTitel: 'Kinder richtig loben: Warum „gut gemacht“ zu wenig ist'
 beschreibung: 'Manches Lob macht Kinder mutiger, anderes vorsichtiger. Der Unterschied liegt an einer einzigen Stelle, und er ist im Alltag leicht umzusetzen.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -15,9 +15,9 @@ faq:
   - frage: 'Ist Loben schädlich?'
     antwort: 'Nein, aber es kommt darauf an, was gelobt wird. Lob für eine Eigenschaft macht Kinder vorsichtiger, weil sie diese Eigenschaft dann verteidigen müssen. Lob für das, was sie getan haben, macht sie mutiger, weil das Tun in ihrer Hand liegt.'
   - frage: 'Was ist der Unterschied zwischen Person- und Prozesslob?'
-    antwort: 'Personlob beschreibt, wie das Kind ist: klug, brav, musikalisch. Prozesslob beschreibt, was es gemacht hat: lange drangeblieben, eine andere Lösung probiert, nochmal angefangen. Der zweite Typ lässt sich wiederholen, der erste nicht.'
+    antwort: 'Personlob beschreibt, wie das Kind ist: Klug, brav, musikalisch. Prozesslob beschreibt, was es gemacht hat: Lange drangeblieben, eine andere Lösung probiert, nochmal angefangen. Der zweite Typ lässt sich wiederholen, der erste nicht.'
   - frage: 'Warum wird ein gelobtes Kind vorsichtiger?'
-    antwort: 'Weil es etwas zu verlieren hat. Wer für Klugsein gelobt wird, riskiert bei einer schweren Aufgabe den Titel. Die sichere Strategie heißt dann: leichte Aufgaben wählen. Genau das beobachtet man in Untersuchungen zu Lob und Aufgabenwahl.'
+    antwort: 'Weil es etwas zu verlieren hat. Wer für Klugsein gelobt wird, riskiert bei einer schweren Aufgabe den Titel. Die sichere Strategie heißt dann: Leichte Aufgaben wählen. Genau das beobachtet man in Untersuchungen zu Lob und Aufgabenwahl.'
   - frage: 'Soll ich gar nicht mehr „toll gemacht“ sagen?'
     antwort: 'Doch, das darf vorkommen, es trägt nur nichts. Es ist ein freundliches Geräusch. Wenn du etwas bewirken willst, sag stattdessen einen Satz, der beschreibt, was du gesehen hast.'
   - frage: 'Was mache ich, wenn etwas misslungen ist?'
@@ -40,7 +40,7 @@ Sie klingen ähnlich freundlich. Sie wirken gegensätzlich.
 
 Wer für eine Eigenschaft gelobt wird, bekommt einen Titel. Und wer einen Titel hat, kann ihn verlieren.
 
-Für ein Kind, das als klug gilt, ist eine schwierige Aufgabe damit ein Risiko. Klappt sie nicht, steht der Titel in Frage. Die sichere Strategie liegt auf der Hand: eine leichtere Aufgabe wählen.
+Für ein Kind, das als klug gilt, ist eine schwierige Aufgabe damit ein Risiko. Klappt sie nicht, steht der Titel in Frage. Die sichere Strategie liegt auf der Hand: Eine leichtere Aufgabe wählen.
 
 Genau das beobachtet man in Untersuchungen zu Lob und Aufgabenwahl. Kinder, die für ihre Fähigkeit gelobt wurden, greifen anschließend häufiger zur einfachen Aufgabe. Kinder, die für ihre Anstrengung gelobt wurden, greifen häufiger zur schweren.
 

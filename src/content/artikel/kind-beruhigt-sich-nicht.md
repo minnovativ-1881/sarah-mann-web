@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn gar nichts mehr hilft'
-seoTitel: 'Kind lässt sich nicht beruhigen: was tun'
+seoTitel: 'Kind lässt sich nicht beruhigen: Was tun'
 beschreibung: 'Manche Zusammenbrüche gehen über den normalen Wutanfall hinaus. Woran du sie erkennst, was in dieser Situation noch wirkt.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -17,7 +17,7 @@ faq:
   - frage: 'Was ist der Unterschied zwischen einem Wutanfall und einer Überlastung?'
     antwort: 'Ein Wutanfall hat einen Auslöser und eine Forderung dahinter. Eine Überlastung hat oft einen winzigen Auslöser und keine Forderung, dauert länger und lässt sich durch Nachgeben nicht beenden. Der zweite Fall braucht Ruhe, nicht Klarheit.'
   - frage: 'Soll ich mein Kind allein lassen, wenn nichts mehr hilft?'
-    antwort: 'Nein, aber du kannst Abstand halten. Der Unterschied ist wichtig: im Raum bleiben, ohne zu bedrängen, ist etwas anderes als hinauszugehen. Manche Kinder brauchen körperlichen Abstand und trotzdem Anwesenheit.'
+    antwort: 'Nein, aber du kannst Abstand halten. Der Unterschied ist wichtig: Im Raum bleiben, ohne zu bedrängen, ist etwas anderes als hinauszugehen. Manche Kinder brauchen körperlichen Abstand und trotzdem Anwesenheit.'
   - frage: 'Wie lange darf so ein Zustand dauern?'
     antwort: 'Bis etwa zwanzig Minuten ist es in Ausnahmefällen noch im Rahmen. Regelmäßig deutlich längere Zusammenbrüche, besonders wenn sie mehrmals pro Woche auftreten, gehören besprochen, zuerst mit der Kinderärztin.'
   - frage: 'Was mache ich, wenn ich selbst nicht mehr kann?'
@@ -67,7 +67,7 @@ Die Liste ist noch kürzer als bei einem gewöhnlichen Wutanfall, und sie ist un
 
 ## Der Punkt, an dem viele Eltern etwas falsch machen
 
-Es gibt einen sehr verbreiteten Reflex in dieser Situation: mehr zu versuchen.
+Es gibt einen sehr verbreiteten Reflex in dieser Situation: Mehr zu versuchen.
 
 Man hat es mit Nähe probiert, jetzt probiert man Abstand. Man hat es mit Reden probiert, jetzt probiert man Singen. Dann Ablenkung. Dann das Angebot, rauszugehen.
 
@@ -109,7 +109,7 @@ Es gibt einen Punkt, an dem der wichtigste Rat nicht dem Kind gilt, sondern dir.
 
 Das ist kein Alleinlassen im problematischen Sinn. Es ist eine kurze, angekündigte Unterbrechung, gefolgt von einer Rückkehr.
 
-Und wenn ein zweiter Erwachsener da ist: übergeben. Ohne schlechtes Gewissen. Ein frischer Mensch wirkt in dieser Situation besser als ein erschöpfter, der sich zusammenreißt.
+Und wenn ein zweiter Erwachsener da ist: Übergeben. Ohne schlechtes Gewissen. Ein frischer Mensch wirkt in dieser Situation besser als ein erschöpfter, der sich zusammenreißt.
 
 ## Wann es zur Ärztin gehört
 

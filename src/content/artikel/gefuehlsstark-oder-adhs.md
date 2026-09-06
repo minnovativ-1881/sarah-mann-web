@@ -17,18 +17,18 @@ faq:
   - frage: 'Was ist der Unterschied zwischen Gefühlsstärke und ADHS?'
     antwort: 'Der Unterschied liegt nicht in der Intensität, sondern in Durchgängigkeit und Beeinträchtigung. Ein temperamentvolles Kind zeigt sein Temperament situationsabhängig und kommt in ruhigen Phasen zurück. Für eine ADHS-Diagnose müssen die Merkmale über mindestens sechs Monate bestehen, in mehreren Lebensbereichen auftreten, also zu Hause und in Kita oder Schule, und das Kind in seinem Alltag deutlich beeinträchtigen.'
   - frage: 'Kann ein Kind gleichzeitig hochsensibel sein und ADHS haben?'
-    antwort: 'Ja, und das ist häufiger, als lange angenommen wurde. Reizempfindlichkeit gehört bei vielen Kindern mit ADHS zum Bild dazu. Die beiden Konzepte schließen sich nicht aus, sie beschreiben unterschiedliche Ebenen: das eine ein Persönlichkeitsmerkmal, das andere eine klinische Diagnose.'
+    antwort: 'Ja, und das ist häufiger, als lange angenommen wurde. Reizempfindlichkeit gehört bei vielen Kindern mit ADHS zum Bild dazu. Die beiden Konzepte schließen sich nicht aus, sie beschreiben unterschiedliche Ebenen: Das eine ein Persönlichkeitsmerkmal, das andere eine klinische Diagnose.'
   - frage: 'Ab welchem Alter kann ADHS festgestellt werden?'
     antwort: 'Eine sichere Diagnose ist in der Regel erst ab dem Schulalter möglich, weil sich viele Merkmale vorher nicht von normaler Entwicklung unterscheiden lassen. Bei sehr deutlicher Ausprägung wird auch früher abgeklärt. Wichtig ist: Der Weg zur Abklärung darf früher beginnen als die Diagnose, denn die Wartezeiten sind lang.'
   - frage: 'Bringt eine Diagnose überhaupt etwas?'
     antwort: 'Sie ist kein Etikett, sondern ein Schlüssel. Erst mit einer Diagnose öffnen sich Nachteilsausgleich in der Schule, bestimmte Therapien und Eingliederungshilfen. Wer sich nur fragt, ob eine Diagnose zur Identität des Kindes passt, übersieht die praktische Seite. Umgekehrt gilt: Ohne Diagnose ist trotzdem alles erlaubt, was zu Hause hilft.'
   - frage: 'Was mache ich in der Wartezeit auf einen Termin?'
-    antwort: 'Zwei Dinge. Erstens dokumentieren: zwei bis vier Wochen aufschreiben, wann es schwierig wird, was vorher war und wie lange es dauert. Das ist beim Termin mehr wert als jede Erinnerung. Zweitens den Alltag anpassen, ohne auf ein Ergebnis zu warten. Alles, was einem reizoffenen Kind hilft, hilft auch ohne Diagnose.'
+    antwort: 'Zwei Dinge. Erstens dokumentieren: Zwei bis vier Wochen aufschreiben, wann es schwierig wird, was vorher war und wie lange es dauert. Das ist beim Termin mehr wert als jede Erinnerung. Zweitens den Alltag anpassen, ohne auf ein Ergebnis zu warten. Alles, was einem reizoffenen Kind hilft, hilft auch ohne Diagnose.'
 ---
 
 Es gibt einen Punkt, an dem fast alle Eltern in dieser Lage landen. Meistens nachts, meistens mit dem Handy in der Hand.
 
-Man hat ein Buch über gefühlsstarke Kinder gelesen und vieles wiedererkannt. Dann einen Artikel über Hochsensibilität und wieder vieles wiedererkannt. Dann eine ADHS-Symptomliste, und plötzlich passt auch die. Und irgendwann tippt man die Frage ein, die tausende Eltern jeden Monat eintippen: gefühlsstark oder ADHS.
+Man hat ein Buch über gefühlsstarke Kinder gelesen und vieles wiedererkannt. Dann einen Artikel über Hochsensibilität und wieder vieles wiedererkannt. Dann eine ADHS-Symptomliste, und plötzlich passt auch die. Und irgendwann tippt man die Frage ein, die tausende Eltern jeden Monat eintippen: Gefühlsstark oder ADHS.
 
 Diese Frage hat keine Antwort, und zwar nicht, weil es zu schwierig wäre. Sondern weil sie zwei Dinge gegeneinanderstellt, die gar nicht auf derselben Ebene liegen.
 
@@ -36,7 +36,7 @@ Diese Frage hat keine Antwort, und zwar nicht, weil es zu schwierig wäre. Sonde
 
 | Begriff | Woher er kommt | Ist das eine Diagnose? | Was er beschreibt |
 |---|---|---|---|
-| Gefühlsstark | Von der Autorin Nora Imlau im deutschen Sprachraum eingeführt | Nein | Kinder, die alle Gefühle intensiver erleben: mehr Freude, mehr Wut, mehr Trauer |
+| Gefühlsstark | Von der Autorin Nora Imlau im deutschen Sprachraum eingeführt | Nein | Kinder, die alle Gefühle intensiver erleben: Mehr Freude, mehr Wut, mehr Trauer |
 | Hochsensibel | Von der Psychologin Elaine Aron in den neunziger Jahren beschrieben | Nein, ein Persönlichkeitsmerkmal | Kinder, die Reize tiefer verarbeiten und schneller an ihre Grenze kommen |
 | High Need | Vom Kinderarzt William Sears geprägt | Nein | Babys und Kleinkinder mit sehr hohem Bedürfnis nach Nähe und Begleitung |
 | Wild | Von der Autorin Inke Hummel für laute, lebhafte Kinder verwendet | Nein | Kinder mit viel Bewegungsdrang und großer Lautstärke |
@@ -63,7 +63,7 @@ Zwischen beidem sitzen Eltern und sollen sich entscheiden, obwohl sie gar nichts
 
 Fachleute schauen bei einer Abklärung nicht darauf, wie heftig ein Kind reagiert. Sie schauen auf drei andere Dinge, und diese drei kannst du selbst beobachten, ohne irgendetwas zu diagnostizieren.
 
-**Erstens: Wo?** Ein temperamentvolles Kind zeigt sein Temperament dort, wo es sich sicher fühlt, oder dort, wo eine bestimmte Situation es überfordert. Ein Kind mit ADHS zeigt seine Merkmale in mehreren Lebensbereichen: zu Hause **und** in Kita oder Schule **und** bei Oma. Wenn dein Kind nur bei dir explodiert und die Erzieherin nichts bemerkt, ist das ein wichtiger Hinweis, und zwar in Richtung Erschöpfung nach dem Zusammenreißen, nicht in Richtung Diagnose. Warum das so ist, steht in [Dein Kind hält sich den ganzen Tag zusammen](/wissen/kind-rastet-nach-kita-und-schule-aus/).
+**Erstens: Wo?** Ein temperamentvolles Kind zeigt sein Temperament dort, wo es sich sicher fühlt, oder dort, wo eine bestimmte Situation es überfordert. Ein Kind mit ADHS zeigt seine Merkmale in mehreren Lebensbereichen: Zu Hause **und** in Kita oder Schule **und** bei Oma. Wenn dein Kind nur bei dir explodiert und die Erzieherin nichts bemerkt, ist das ein wichtiger Hinweis, und zwar in Richtung Erschöpfung nach dem Zusammenreißen, nicht in Richtung Diagnose. Warum das so ist, steht in [Dein Kind hält sich den ganzen Tag zusammen](/wissen/kind-rastet-nach-kita-und-schule-aus/).
 
 **Zweitens: Wie lange?** Für eine ADHS-Diagnose müssen die Merkmale über mindestens sechs Monate bestehen. Eine schwierige Phase nach der Einschulung, nach einem Umzug, nach der Geburt eines Geschwisterkindes ist keine Diagnose. Sie ist eine schwierige Phase.
 
@@ -80,9 +80,9 @@ Eine Diagnose ist kein Urteil über den Charakter deines Kindes. Sie ist ein Sch
 - Nachteilsausgleich in der Schule, also zum Beispiel mehr Zeit bei Arbeiten oder ein ruhigerer Platz
 - Ergotherapie, Lerntherapie und andere Leistungen, die ohne Diagnose privat bezahlt werden müssten
 - Eingliederungshilfe und Schulbegleitung in schwereren Fällen
-- Und, oft unterschätzt: eine gemeinsame Sprache mit Kita und Schule, die verhindert, dass dein Kind als faul oder frech einsortiert wird
+- Und, oft unterschätzt: Eine gemeinsame Sprache mit Kita und Schule, die verhindert, dass dein Kind als faul oder frech einsortiert wird
 
-Was eine Diagnose nicht bringt: eine Erklärung für alles. Ein Kind mit ADHS ist immer noch dieses Kind mit diesem Humor und diesen Interessen. Die Diagnose beschreibt einen Teil, nicht die Person.
+Was eine Diagnose nicht bringt: Eine Erklärung für alles. Ein Kind mit ADHS ist immer noch dieses Kind mit diesem Humor und diesen Interessen. Die Diagnose beschreibt einen Teil, nicht die Person.
 
 Und was ausdrücklich auch ohne Diagnose gilt: Alles, was einem reizoffenen Kind guttut, darfst du sofort tun. Du brauchst keine Erlaubnis, um Termine auszudünnen, einen Rückzugsort einzurichten oder die Nachmittage anders zu takten.
 

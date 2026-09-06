@@ -1,6 +1,6 @@
 ---
 titel: 'Wie viel Geschwisterstreit normal ist'
-seoTitel: 'Geschwisterstreit: wie viel normal ist und wann du eingreifst'
+seoTitel: 'Geschwisterstreit: Wie viel normal ist und wann du eingreifst'
 beschreibung: 'Geschwister streiten im Schnitt mehrmals pro Stunde. Warum das kein Erziehungsfehler ist, wo die Grenze zwischen Streit und Übergriff verläuft und wann du dich einmischst.'
 eyebrow: 'Geschwister unter einem Dach'
 silo: geschwister
@@ -23,7 +23,7 @@ faq:
   - frage: 'Wie gehe ich mit Petzen um?'
     antwort: 'Unterscheide zwei Sorten. Wer Hilfe holt, weil jemand in Gefahr ist oder ihm etwas passiert, macht das Richtige und braucht dafür Anerkennung. Wer meldet, um den anderen in Schwierigkeiten zu bringen, bekommt eine ruhige Rückfrage: Was brauchst du gerade? Damit fällt der Anreiz weg.'
   - frage: 'Ab wann können Kinder Streit selbst lösen?'
-    antwort: 'Ansätze davon zeigen sich ab etwa vier Jahren, verlässlich wird es meist zwischen sechs und acht. Vorher braucht es Begleitung, und zwar nicht als Urteil, sondern als Übersetzung: was der eine will, was der andere will, und wie beides zusammengeht.'
+    antwort: 'Ansätze davon zeigen sich ab etwa vier Jahren, verlässlich wird es meist zwischen sechs und acht. Vorher braucht es Begleitung, und zwar nicht als Urteil, sondern als Übersetzung: Was der eine will, was der andere will, und wie beides zusammengeht.'
 ---
 
 Es gibt eine Zahl, die viele Eltern beim ersten Hören nicht glauben. In Beobachtungsstudien, in denen Forscherinnen Familien mit mehreren kleinen Kindern über Stunden begleitet haben, kommen Geschwister im Kindergartenalter auf mehrere Konflikte pro Stunde gemeinsam verbrachter Zeit.
@@ -56,7 +56,7 @@ Streit ist das Lernfeld. Übergriffe sind es nicht, und dort gehört eine erwach
 
 Viele Eltern beobachten dasselbe: Sobald sie den Raum verlassen, wird es leiser. Kommen sie zurück, geht es los.
 
-Das ist kein Zufall und keine Provokation. Solange jemand im Raum ist, der urteilen könnte, verändert sich die Lage. Es lohnt sich dann, lauter zu klagen als der andere, denn wer zuerst und überzeugender klagt, bekommt womöglich recht. Ohne Publikum entfällt dieser Weg, und die Kinder müssen den anderen nehmen: sich einigen.
+Das ist kein Zufall und keine Provokation. Solange jemand im Raum ist, der urteilen könnte, verändert sich die Lage. Es lohnt sich dann, lauter zu klagen als der andere, denn wer zuerst und überzeugender klagt, bekommt womöglich recht. Ohne Publikum entfällt dieser Weg, und die Kinder müssen den anderen nehmen: Sich einigen.
 
 Daraus folgt keine Empfehlung, die Kinder allein zu lassen. Aber eine Haltung: Anwesend sein, ohne Schiedsrichterin zu sein.
 
@@ -72,7 +72,7 @@ Erst wenn nach zwei Minuten nichts davon passiert ist, wird es deine Sache.
 
 ## Wenn du eingreifst, sei kein Gericht
 
-Der häufigste Fehler ist gut gemeint: herausfinden, wer angefangen hat.
+Der häufigste Fehler ist gut gemeint: Herausfinden, wer angefangen hat.
 
 Das führt fast nie zu etwas. Erstens stimmen die beiden Versionen nie überein. Zweitens lernt das Kind, das gewinnt, dass sich Anklagen lohnt, und das Kind, das verliert, dass es hier keine Gerechtigkeit gibt. Beides macht den nächsten Streit wahrscheinlicher.
 

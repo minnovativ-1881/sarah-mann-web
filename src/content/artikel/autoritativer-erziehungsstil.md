@@ -1,6 +1,6 @@
----
+﻿---
 titel: 'Autoritativ erziehen: Was „warm und klar“ im Alltag wirklich heißt'
-seoTitel: 'Autoritativer Erziehungsstil: einfach erklärt'
+seoTitel: 'Autoritativer Erziehungsstil: Einfach erklärt'
 beschreibung: 'Der autoritative Erziehungsstil verbindet viel Wärme mit klarer Führung. Was das im Alltag heißt und warum er nichts mit autoritär zu tun hat.'
 eyebrow: 'Die Grundlage'
 silo: grundlagen
@@ -11,11 +11,11 @@ verwandt:
   - beduerfnis-oder-wunsch
 faq:
   - frage: 'Was ist der autoritative Erziehungsstil?'
-    antwort: 'Der autoritative Erziehungsstil verbindet zwei Dinge, die viele für Gegensätze halten: viel Wärme und viel klare Führung. Eltern gehen liebevoll auf die Gefühle ihres Kindes ein und halten trotzdem an dem fest, was gerade gilt. Die Psychologin Diana Baumrind hat das Muster in den Sechzigerjahren beschrieben, nachdem sie über hundert Vorschulkinder in ihrem Alltag beobachtet hatte.'
+    antwort: 'Der autoritative Erziehungsstil verbindet zwei Dinge, die viele für Gegensätze halten: Viel Wärme und viel klare Führung. Eltern gehen liebevoll auf die Gefühle ihres Kindes ein und halten trotzdem an dem fest, was gerade gilt. Die Psychologin Diana Baumrind hat das Muster in den Sechzigerjahren beschrieben, nachdem sie über hundert Vorschulkinder in ihrem Alltag beobachtet hatte.'
   - frage: 'Was ist der Unterschied zwischen autoritativ und autoritär?'
-    antwort: 'Die beiden Wörter klingen fast gleich und meinen das Gegenteil voneinander. Autoritär heißt vereinfacht: viel Kontrolle, wenig Wärme, also „ich bestimme, du gehorchst“. Autoritativ heißt: viel Wärme und viel Führung zugleich, also „ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen“. Der Unterschied liegt nicht in der Klarheit, sondern darin, ob die Beziehung dabei warm bleibt.'
+    antwort: 'Die beiden Wörter klingen fast gleich und meinen das Gegenteil voneinander. Autoritär heißt vereinfacht: Viel Kontrolle, wenig Wärme, also „ich bestimme, du gehorchst“. Autoritativ heißt: Viel Wärme und viel Führung zugleich, also „ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen“. Der Unterschied liegt nicht in der Klarheit, sondern darin, ob die Beziehung dabei warm bleibt.'
   - frage: 'Welche vier Erziehungsstile gibt es?'
-    antwort: 'Aus den beiden Achsen Wärme und Führung ergeben sich vier Kombinationen: viel Wärme und wenig Führung (permissiv), wenig Wärme und viel Führung (autoritär), wenig von beidem (vernachlässigend) und viel von beidem (autoritativ). Baumrind selbst beschrieb zunächst drei Muster, das vierte kam 1983 durch Maccoby und Martin dazu.'
+    antwort: 'Aus den beiden Achsen Wärme und Führung ergeben sich vier Kombinationen: Viel Wärme und wenig Führung (permissiv), wenig Wärme und viel Führung (autoritär), wenig von beidem (vernachlässigend) und viel von beidem (autoritativ). Baumrind selbst beschrieb zunächst drei Muster, das vierte kam 1983 durch Maccoby und Martin dazu.'
   - frage: 'Ist der autoritative Erziehungsstil wissenschaftlich der beste?'
     antwort: 'Über die Jahrzehnte zeigt sich immer wieder ein ähnliches Muster: Kinder, die viel Wärme und zugleich klare Orientierung erleben, kommen im Durchschnitt besser zurecht. Eine große Auswertung von über vierhundert Studien fand diesen Zusammenhang in allen untersuchten Weltregionen. Das sind allerdings Zusammenhänge, keine Garantien. Es gibt keine Formel, die festlegt, wie ein Kind wird.'
   - frage: 'Ist autoritativ dasselbe wie bedürfnisorientiert?'
@@ -133,10 +133,10 @@ Hier sind konkrete Situationen, jeweils in drei Varianten. Nicht, um dich zu bew
 
 *Warm und klar:* Später hingehen. „Ich war eben laut. Das tut mir leid, das hattest du nicht verdient. Bei der Sache selbst bleibt es trotzdem.“
 
-Fällt dir das Muster auf? In der warmen und klaren Variante taucht fast immer ein **und** auf. Das Gefühl gilt, und die Sache gilt auch. Beides ist wahr, gleichzeitig.
+Fällt dir das Muster auf? In der warmen und klaren Variante taucht fast immer ein **und** auf. Das Gefühl gilt, und die Sache gilt auch. Beides ist gleichzeitig wahr.
 
 Drei Fragen tauchen an dieser Stelle regelmäßig auf, und jede hat einen eigenen
-Text: der Unterschied zu [autoritär](/wissen/autoritativ-oder-autoritaer/), den ein
+Text: Der Unterschied zu [autoritär](/wissen/autoritativ-oder-autoritaer/), den ein
 einziger Buchstabe verdeckt. Die Frage, wann etwas ein Bedürfnis ist und wann ein
 [Wunsch](/wissen/beduerfnis-oder-wunsch/). Und was an der
 [Kritik an der bedürfnisorientierten Erziehung](/wissen/beduerfnisorientierte-erziehung-kritik/)
@@ -205,8 +205,8 @@ Dieser Text ist der Überblick. Für die Fragen, die daraus folgen, gibt es jewe
 - [Bedürfnis oder Wunsch? Die Unterscheidung, die alles leichter macht](/wissen/beduerfnis-oder-wunsch/), wann etwas ein Bedürfnis ist und wann ein Wunsch
 - [Bedürfnisorientiert am Limit: Was an der Kritik dran ist](/wissen/beduerfnisorientierte-erziehung-kritik/), was an der Kritik tatsächlich dran ist
 - [Die vier Erziehungsstile, für Eltern erklärt](/wissen/erziehungsstile-fuer-eltern/), die vier Stile, wie sie mittwochs um halb acht aussehen
-- [Gentle Parenting und Grenzen: geht das zusammen?](/wissen/gentle-parenting-und-grenzen/), ob beides zusammengeht
-- [Das Pendel: warum Eltern heute so unsicher sind](/wissen/warum-eltern-heute-unsicher-sind/), warum diese Elterngeneration so unsicher ist
+- [Gentle Parenting und Grenzen: Geht das zusammen?](/wissen/gentle-parenting-und-grenzen/), ob beides zusammengeht
+- [Das Pendel: Warum Eltern heute so unsicher sind](/wissen/warum-eltern-heute-unsicher-sind/), warum diese Elterngeneration so unsicher ist
 - [Was Kindern wirklich Sicherheit gibt](/wissen/was-kinder-sicher-macht/), die vier Dinge, aus denen Sicherheit entsteht
 
 ## Quellen und weiterführende Informationen

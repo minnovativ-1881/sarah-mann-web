@@ -14,7 +14,7 @@ export const reizTest: Test = {
   slug: "reizprofil-test",
   art: "matrix",
   titel: "Sucht dein Kind Reize oder flieht es vor ihnen?",
-  seoTitel: "Reizprofil-Test für Kinder: sucht oder meidet dein Kind Reize?",
+  seoTitel: "Reizprofil-Test für Kinder: Sucht oder meidet dein Kind Reize?",
   eyebrow: "Der kostenlose Reiz-Test",
   intro:
     "Zehn ganz normale Alltagssituationen. Am Ende siehst du, ob dein Kind eher Input sucht, eher zu viel davon abbekommt oder beides zugleich. Das ist keine Diagnose, aber es erklärt, warum manche Tipps bei euch funktionieren und andere alles schlimmer machen.",
@@ -145,9 +145,9 @@ export const reizTest: Test = {
       key: "motor",
       name: "Dein Kind ist ein Motor",
       unter: "Es sucht Input, um sich selbst zu spüren.",
-      text: "Dein Kind braucht mehr Bewegung, mehr Druck und mehr Tempo als andere, um in Balance zu bleiben. Was von außen oft als Ungezogenheit gelesen wird, ist in Wahrheit ein Suchen: nach festem Griff, nach Höhe, nach Geschwindigkeit. Wenn es diesen Input nicht bekommt, holt es ihn sich selbst, und dann sieht es aus wie Rempeln, Toben und Nicht-hören-Können. Der wichtigste Satz für euch lautet deshalb: erst bewegen, dann reden. Ein Motor kommt nicht durch Stillsitzen herunter, sondern durch kräftige Arbeit.",
+      text: "Dein Kind braucht mehr Bewegung, mehr Druck und mehr Tempo als andere, um in Balance zu bleiben. Was von außen oft als Ungezogenheit gelesen wird, ist in Wahrheit ein Suchen: Nach festem Griff, nach Höhe, nach Geschwindigkeit. Wenn es diesen Input nicht bekommt, holt es ihn sich selbst, und dann sieht es aus wie Rempeln, Toben und Nicht-hören-Können. Der wichtigste Satz für euch lautet deshalb: Erst bewegen, dann reden. Ein Motor kommt nicht durch Stillsitzen herunter, sondern durch kräftige Arbeit.",
       schritte: [
-        "Bau vor schwierigen Situationen kräftige Bewegung ein: rennen, klettern, tragen, gegen deine Hände drücken. Zehn Minuten reichen oft.",
+        "Bau vor schwierigen Situationen kräftige Bewegung ein: Rennen, klettern, tragen, gegen deine Hände drücken. Zehn Minuten reichen oft.",
         "Setz auf Widerstand statt auf Streicheln. Fest drücken, in eine Decke wickeln, eine schwere Kiste tragen beruhigt Motoren schneller als sanfte Berührung.",
         "Erwarte Stillsitzen nicht dort, wo es nicht nötig ist. Kippeln am Tisch ist keine Respektlosigkeit, sondern Regulierung.",
       ],
@@ -157,7 +157,7 @@ export const reizTest: Test = {
       key: "antenne",
       name: "Dein Kind ist eine Antenne",
       unter: "Es bekommt mehr mit, als es verarbeiten kann.",
-      text: "Dein Kind nimmt Geräusche, Berührungen, Gerüche und Stimmungen stärker wahr als die meisten. Das ist keine Empfindlichkeit im Sinne von Anstellen, sondern eine andere Grundeinstellung der Wahrnehmung. Der Preis dafür ist, dass ganz normale Orte anstrengend sind: der Supermarkt, der Turnraum, der Geburtstag. Für euch gilt deshalb oft das Gegenteil dessen, was man Eltern gewöhnlich rät. Nicht mehr Programm, sondern weniger. Nicht auspowern, sondern reduzieren.",
+      text: "Dein Kind nimmt Geräusche, Berührungen, Gerüche und Stimmungen stärker wahr als die meisten. Das ist keine Empfindlichkeit im Sinne von Anstellen, sondern eine andere Grundeinstellung der Wahrnehmung. Der Preis dafür ist, dass ganz normale Orte anstrengend sind: Der Supermarkt, der Turnraum, der Geburtstag. Für euch gilt deshalb oft das Gegenteil dessen, was man Eltern gewöhnlich rät. Nicht mehr Programm, sondern weniger. Nicht auspowern, sondern reduzieren.",
       schritte: [
         "Nimm bei den ersten Anzeichen von Überlastung etwas weg statt etwas hinzuzufügen: Licht dimmen, Musik aus, Raum wechseln, weniger sprechen.",
         "Richte einen Rückzugsort ein, den dein Kind selbst aufsuchen darf. Eine Höhle, ein Zelt, eine Ecke mit Kissen. Kein Strafort, sondern ein eigener Ort.",

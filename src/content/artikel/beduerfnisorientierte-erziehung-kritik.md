@@ -1,6 +1,6 @@
 ---
 titel: 'Bedürfnisorientiert am Limit: Was an der Kritik dran ist'
-seoTitel: 'Bedürfnisorientierte Erziehung: die Kritik'
+seoTitel: 'Bedürfnisorientierte Erziehung: Die Kritik'
 beschreibung: 'Was an der Kritik an bedürfnisorientierter Erziehung berechtigt ist, was nicht, und wo im Alltag die eine Verwechslung passiert, an der alles hängt.'
 eyebrow: 'Eine faire Zwischenbilanz'
 silo: grundlagen
@@ -18,7 +18,7 @@ faq:
   - frage: 'Warum funktioniert bedürfnisorientierte Erziehung bei uns nicht?'
     antwort: 'Sehr häufig, weil zwei verschiedene Dinge in einen Topf geworfen werden. Bedürfnisse sind nicht verhandelbar, Wünsche schon. Wer beides gleich behandelt, landet zwangsläufig bei Erschöpfung, weil Wünsche unbegrenzt sind und Bedürfnisse nicht.'
   - frage: 'Bedeutet Kritik an der Bedürfnisorientierung, dass man wieder strenger werden soll?'
-    antwort: 'Nein, und das ist die wichtigste Klarstellung. Die Antwort auf ein Zuviel an Nachgiebigkeit ist nicht ein Zurück zur Strenge. Zwischen beidem liegt eine dritte Möglichkeit: viel Wärme und zugleich klare Führung. Das ist keine Abschwächung, sondern beides mit voller Kraft.'
+    antwort: 'Nein, und das ist die wichtigste Klarstellung. Die Antwort auf ein Zuviel an Nachgiebigkeit ist nicht ein Zurück zur Strenge. Zwischen beidem liegt eine dritte Möglichkeit: Viel Wärme und zugleich klare Führung. Das ist keine Abschwächung, sondern beides mit voller Kraft.'
   - frage: 'Was ist mit den Bedürfnissen der Eltern?'
     antwort: 'Sie gehören dazu. Schlaf, in Ruhe essen, Zeit zu zweit sind keine Belohnungen, die man sich verdienen muss. Ein erschöpfter Mensch kann nicht ruhig bleiben, und Ruhe ist das Wichtigste, was ein Kind in einem schwierigen Moment braucht. Elterliche Erholung ist Teil der Aufgabe, nicht die Pause davon.'
   - frage: 'Wie erkenne ich, ob wir in die Falle geraten sind?'
@@ -45,7 +45,7 @@ Die Kritik richtet sich nicht dagegen. Sie richtet sich gegen etwas anderes.
 
 Wenn man sich anschaut, was Fachleute sagen, geht es fast nie um den Kern, sondern um vier konkrete Punkte.
 
-**Erstens: Der Begriff ist unscharf.** Die Entwicklungspsychologin Stefanie Höhl von der Universität Wien weist darauf hin, dass „bedürfnisorientierte Erziehung“ kein wissenschaftlich definiertes Konzept ist. Er wird oft mit der Bindungstheorie gleichgesetzt, obwohl diese etwas anderes beschreibt: verlässliche, feinfühlige Fürsorge, nicht die Erfüllung jedes Wunsches.
+**Erstens: Der Begriff ist unscharf.** Die Entwicklungspsychologin Stefanie Höhl von der Universität Wien weist darauf hin, dass „bedürfnisorientierte Erziehung“ kein wissenschaftlich definiertes Konzept ist. Er wird oft mit der Bindungstheorie gleichgesetzt, obwohl diese etwas anderes beschreibt: Verlässliche, feinfühlige Fürsorge, nicht die Erfüllung jedes Wunsches.
 
 **Zweitens: Bedürfnisse und Wünsche werden vermischt.** Das halte ich für den Kern des Problems, und dazu gleich mehr.
 
@@ -92,11 +92,11 @@ Und **du selbst kommst nicht mehr vor**. Nicht im Kalender, nicht beim Essen, ni
 
 Wenn alle drei zutreffen, liegt das Problem nicht bei deiner Geduld. Es liegt an einer Definition, die dich strukturell überfordert.
 
-## Und die Antwort ist nicht: wieder strenger werden
+## Und die Antwort ist nicht: Wieder strenger werden
 
 Das ist mir sehr wichtig, weil die öffentliche Debatte an dieser Stelle gerne kippt.
 
-Wenn eine Bewegung zu weit in eine Richtung gegangen ist, gibt es immer die Versuchung, das Pendel einfach zurückschwingen zu lassen. Also: mehr Härte, mehr Durchgreifen, „Kinder brauchen wieder klare Ansagen“.
+Wenn eine Bewegung zu weit in eine Richtung gegangen ist, gibt es immer die Versuchung, das Pendel einfach zurückschwingen zu lassen. Also: Mehr Härte, mehr Durchgreifen, „Kinder brauchen wieder klare Ansagen“.
 
 Das wäre ein Rückschritt, und zwar ein teurer. Die Vorstellung, Kinder bräuchten vor allem Härte, hat in Deutschland viel Schaden angerichtet, und sie hat nichts mit dem zu tun, worum es hier geht.
 
@@ -153,7 +153,7 @@ Und wie eine Grenze dabei konkret gehalten wird, in
 
 Ich schreibe das nicht als jemand, der von außen auf eine Bewegung schaut. Vieles von dem, was heute bedürfnisorientiert heißt, halte ich für richtig, und ich möchte keinen Schritt davon zurück.
 
-Was ich mir wünsche, ist etwas anderes: dass die Vollversion wieder sichtbar wird. Die, in der Bedürfnisse ernst genommen werden und Führung trotzdem erlaubt ist. Die, in der Eltern vorkommen.
+Was ich mir wünsche, ist etwas anderes: Dass die Vollversion wieder sichtbar wird. Die, in der Bedürfnisse ernst genommen werden und Führung trotzdem erlaubt ist. Die, in der Eltern vorkommen.
 
 Denn die aktuelle Debatte hat ein Risiko. Wenn niemand die Vollversion beschreibt, gewinnen am Ende diejenigen, die einfach zurück zur Strenge wollen. Und das wäre für die Kinder das schlechteste aller möglichen Ergebnisse.
 

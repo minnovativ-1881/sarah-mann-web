@@ -36,6 +36,8 @@ export type Auswertung = {
   achsenSaetze: string[];
   staerken: BereichsBefund[];
   schwaechen: BereichsBefund[];
+  /** Die Rohantworten, fuer die Situation-fuer-Situation-Aufloesung. */
+  werte: number[];
 };
 
 /** Höchster erreichbarer Wert einer einzelnen Frage. */
@@ -135,6 +137,7 @@ export function werteAus(test: Test, werte: number[]): Auswertung {
     achsenSaetze,
     staerken,
     schwaechen,
+    werte,
   };
 }
 
@@ -185,40 +188,54 @@ export function ergebnisHtml(test: Test, a: Auswertung): string {
     );
   }
 
-  if (a.staerken.length) {
+  // Zuordnungstests bekommen statt der Kurzlisten die vollstaendige
+  // Aufloesung. Seit die Antworten waehrend des Tests nicht mehr verraten
+  // werden, ist das der eigentliche Grund, die Mail zu oeffnen.
+  if (test.art === "zuordnung") {
+    // Bewusst knapp ausgezeichnet: Das Ganze muss in ein KlickTipp-Feld mit
+    // 6000 Zeichen passen. Das Szenario steht deshalb nicht noch einmal da,
+    // die Überschrift der Situation genügt als Erinnerung, und die Auflösung
+    // benennt die Situation ohnehin.
+    teile.push(`<h3 style="${h3}">Die Auflösung, Situation für Situation</h3>`);
     teile.push(
-      `<h3 style="${h3}">${
-        test.art === "zuordnung"
-          ? "Das hast du sicher erkannt"
-          : "Das trägt bei euch schon"
-      }</h3>`,
+      test.fragen
+        .map((f, i) => {
+          const m = maxWert(f);
+          const loesung = f.antworten.find((x) => x.wert === m);
+          const marke =
+            (a.werte[i] ?? 0) === m
+              ? `<span style="color:#136B73;">Das hattest du</span>`
+              : `<span style="color:#A8845C;">Das war andersherum</span>`;
+          return `<p style="margin:0 0 13px;line-height:1.5;"><strong>${esc(f.kopf)}:</strong> ${
+            loesung ? esc(loesung.text) + " &nbsp;·&nbsp; " : ""
+          }${marke}<br>${esc(f.aufloesung ?? "")}</p>`;
+        })
+        .join(""),
     );
-    teile.push(
-      `<ul style="margin:0 0 14px;padding-left:20px;">${a.staerken
-        .map(
-          (s) =>
-            `<li style="${li}"><strong>${esc(s.bereich)}.</strong> ${esc(s.satz)}</li>`,
-        )
-        .join("")}</ul>`,
-    );
-  }
+  } else {
+    if (a.staerken.length) {
+      teile.push(`<h3 style="${h3}">Das trägt bei euch schon</h3>`);
+      teile.push(
+        `<ul style="margin:0 0 14px;padding-left:20px;">${a.staerken
+          .map(
+            (s) =>
+              `<li style="${li}"><strong>${esc(s.bereich)}.</strong> ${esc(s.satz)}</li>`,
+          )
+          .join("")}</ul>`,
+      );
+    }
 
-  if (a.schwaechen.length) {
-    teile.push(
-      `<h3 style="${h3}">${
-        test.art === "zuordnung"
-          ? "Diese Stellen sind bei dir gerutscht"
-          : "Hier lohnt sich dein nächster Blick"
-      }</h3>`,
-    );
-    teile.push(
-      `<ul style="margin:0 0 14px;padding-left:20px;">${a.schwaechen
-        .map(
-          (s) =>
-            `<li style="${li}"><strong>${esc(s.bereich)}.</strong> ${esc(s.satz)}</li>`,
-        )
-        .join("")}</ul>`,
-    );
+    if (a.schwaechen.length) {
+      teile.push(`<h3 style="${h3}">Hier lohnt sich dein nächster Blick</h3>`);
+      teile.push(
+        `<ul style="margin:0 0 14px;padding-left:20px;">${a.schwaechen
+          .map(
+            (s) =>
+              `<li style="${li}"><strong>${esc(s.bereich)}.</strong> ${esc(s.satz)}</li>`,
+          )
+          .join("")}</ul>`,
+      );
+    }
   }
 
   if (a.ergebnis.schritte?.length) {
@@ -249,23 +266,29 @@ export function ergebnisText(test: Test, a: Auswertung): string {
     zeilen.push("", "Deine beiden Achsen einzeln:");
     a.achsenSaetze.forEach((s) => zeilen.push(`- ${s}`));
   }
-  if (a.staerken.length) {
-    zeilen.push(
-      "",
-      test.art === "zuordnung"
-        ? "Das hast du sicher erkannt:"
-        : "Das trägt bei euch schon:",
-    );
-    a.staerken.forEach((s) => zeilen.push(`- ${s.bereich}: ${s.satz}`));
-  }
-  if (a.schwaechen.length) {
-    zeilen.push(
-      "",
-      test.art === "zuordnung"
-        ? "Diese Stellen sind gerutscht:"
-        : "Hier lohnt der nächste Blick:",
-    );
-    a.schwaechen.forEach((s) => zeilen.push(`- ${s.bereich}: ${s.satz}`));
+  if (test.art === "zuordnung") {
+    zeilen.push("", "Die Auflösung, Situation für Situation:");
+    test.fragen.forEach((f, i) => {
+      const m = maxWert(f);
+      const richtig = (a.werte[i] ?? 0) === m;
+      const loesung = f.antworten.find((x) => x.wert === m);
+      zeilen.push(
+        "",
+        `${f.kopf} — ${richtig ? "Richtig zugeordnet" : "Hier lag es andersherum"}`,
+        f.szenario,
+      );
+      if (loesung) zeilen.push(`Richtig ist: ${loesung.text}`);
+      if (f.aufloesung) zeilen.push(f.aufloesung);
+    });
+  } else {
+    if (a.staerken.length) {
+      zeilen.push("", "Das trägt bei euch schon:");
+      a.staerken.forEach((s) => zeilen.push(`- ${s.bereich}: ${s.satz}`));
+    }
+    if (a.schwaechen.length) {
+      zeilen.push("", "Hier lohnt der nächste Blick:");
+      a.schwaechen.forEach((s) => zeilen.push(`- ${s.bereich}: ${s.satz}`));
+    }
   }
   if (a.ergebnis.schritte?.length) {
     zeilen.push("", "Deine nächsten Schritte:");

@@ -1,6 +1,6 @@
 ---
 titel: 'Was in der Hochphase eines Wutanfalls wirkt'
-seoTitel: 'Wutanfall begleiten: was wirklich wirkt'
+seoTitel: 'Wutanfall begleiten: Was wirklich wirkt'
 beschreibung: 'In der Hochphase kommt keine Erklärung an. Was stattdessen wirkt, warum Leiserwerden stärker ist als Lauterwerden und wie das Gespräch danach aussieht.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -50,7 +50,7 @@ Fast jeder Wutanfall folgt derselben Kurve. Es hilft sehr, sie zu kennen, weil j
 
 | Phase | Was zu sehen ist | Was jetzt richtig ist |
 |---|---|---|
-| Anstieg | Quengeln, Anspannung, letzte Warnung | Jetzt noch: benennen, ablenken, Nähe anbieten |
+| Anstieg | Quengeln, Anspannung, letzte Warnung | Jetzt noch: Benennen, ablenken, Nähe anbieten |
 | Hochphase | Schreien, Treten, kein Kontakt möglich | Wenig sagen, dableiben, ruhig bleiben |
 | Abklingen | Weinen wird weicher, sucht Blickkontakt | Nähe anbieten, immer noch wenig reden |
 | Erschöpfung | Anlehnen, still werden, manchmal einschlafen | Trösten, dableiben |
@@ -90,7 +90,7 @@ Genauso wichtig wie die kurze Liste oben.
 
 Der letzte Punkt braucht eine Erläuterung, weil er oft missverstanden wird.
 
-Nachgeben beendet den Anfall sofort, und deshalb ist die Versuchung groß. Nur lernt ein Kind daraus etwas Ungünstiges: dass ein Zusammenbruch Entscheidungen verändert. Das ist ein sehr wirksames Werkzeug, und Kinder benutzen wirksame Werkzeuge.
+Nachgeben beendet den Anfall sofort, und deshalb ist die Versuchung groß. Nur lernt ein Kind daraus etwas Ungünstiges: Dass ein Zusammenbruch Entscheidungen verändert. Das ist ein sehr wirksames Werkzeug, und Kinder benutzen wirksame Werkzeuge.
 
 **Der Ausweg ist nicht Härte, sondern die Trennung von Gefühl und Sache.** Das Gefühl darf vollständig gelten. Die Entscheidung bleibt.
 
@@ -104,7 +104,7 @@ Manche Kinder brauchen in der Hochphase Körperkontakt und beruhigen sich damit 
 
 Beides ist normal, und beides kann sich mit dem Alter ändern.
 
-Was immer funktioniert, ist ein **Angebot statt einer Handlung**: in der Nähe sein, eine Hand hinhalten, nicht greifen. Wenn dein Kind kommt, kommt es.
+Was immer funktioniert, ist ein **Angebot statt einer Handlung**: In der Nähe sein, eine Hand hinhalten, nicht greifen. Wenn dein Kind kommt, kommt es.
 
 Festhalten ist nur nötig, wenn es sich oder andere verletzen würde, und sollte dann so sanft wie möglich sein und niemals als Bestrafung wirken.
 
@@ -112,7 +112,7 @@ Festhalten ist nur nötig, wenn es sich oder andere verletzen würde, und sollte
 
 Und zwar wirklich danach, nicht im Abklingen. Ein Kind, das gerade aufgehört hat zu weinen, ist noch nicht bereit für ein Gespräch.
 
-Wenn es so weit ist, gilt: kurz.
+Wenn es so weit ist, gilt: Kurz.
 
 **Benennen, was war.** „Du warst sehr wütend, weil du noch bleiben wolltest.“
 
@@ -120,7 +120,7 @@ Wenn es so weit ist, gilt: kurz.
 
 **Und die Sache nicht zurücknehmen.** „Und wir mussten trotzdem gehen.“
 
-Was nicht hilft: eine Lehre ziehen, eine Entschuldigung verlangen, den Vorfall auswerten. Ein Kind lernt aus einem Wutanfall nichts über Selbstbeherrschung. Es lernt etwas darüber, ob man mit ihm auch dann noch verbunden bleibt, wenn es außer sich ist.
+Was nicht hilft: Eine Lehre ziehen, eine Entschuldigung verlangen, den Vorfall auswerten. Ein Kind lernt aus einem Wutanfall nichts über Selbstbeherrschung. Es lernt etwas darüber, ob man mit ihm auch dann noch verbunden bleibt, wenn es außer sich ist.
 
 ## Wenn du selbst kippst
 

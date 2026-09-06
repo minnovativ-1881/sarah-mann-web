@@ -13,13 +13,13 @@ verwandt:
   - ko-regulation
 faq:
   - frage: 'Warum werde ich bei meinem Kind so schnell wütend?'
-    antwort: 'Meist wegen dreier Faktoren zusammen: leere Reserve, ein Gefühl von Kontrollverlust und manchmal eine eigene Vorgeschichte, die mitschwingt. Wut bei Eltern ist normal. Was sich verändern lässt, sind die Bedingungen, unter denen sie entsteht.'
+    antwort: 'Meist wegen dreier Faktoren zusammen: Leere Reserve, ein Gefühl von Kontrollverlust und manchmal eine eigene Vorgeschichte, die mitschwingt. Wut bei Eltern ist normal. Was sich verändern lässt, sind die Bedingungen, unter denen sie entsteht.'
   - frage: 'Wie kann ich in dem Moment ruhig bleiben?'
     antwort: 'Langsamer und leiser werden statt schneller und lauter. Das ist gegen jeden Instinkt und wirkt am stärksten. Wenn du merkst, dass es kippt, ist eine angekündigte Unterbrechung von zwei Minuten besser als jede Reaktion aus dem Vollen.'
   - frage: 'Ist es schlimm, wenn ich manchmal schreie?'
     antwort: 'Ein lauter Moment richtet keinen dauerhaften Schaden an, wenn danach eine Reparatur folgt. Schädlich wird es, wenn es zum Muster wird oder wenn nach dem Lautwerden nie Kontakt hergestellt wird.'
   - frage: 'Hilft Zählen bis zehn?'
-    antwort: 'Weniger als gedacht, weil die Wut schneller da ist als der Vorsatz. Wirksamer ist, den Körper zu verändern: sich hinsetzen, ausatmen, den Raum wechseln. Der Körper ist in diesem Moment leichter zu steuern als die Gedanken.'
+    antwort: 'Weniger als gedacht, weil die Wut schneller da ist als der Vorsatz. Wirksamer ist, den Körper zu verändern: Sich hinsetzen, ausatmen, den Raum wechseln. Der Körper ist in diesem Moment leichter zu steuern als die Gedanken.'
   - frage: 'Wann sollte ich mir Hilfe holen?'
     antwort: 'Wenn du regelmäßig die Kontrolle verlierst, wenn du Angst vor dir selbst hast, wenn du dein Kind schon einmal grob angefasst hast oder wenn die Wut über Monate zunimmt. Das gehört in ein Gespräch mit der Hausärztin oder einer Erziehungsberatungsstelle.'
   - frage: 'Warum trifft es immer das Kind und nie andere?'
@@ -36,9 +36,9 @@ Dieser Text handelt davon. Nicht davon, dass man sie nicht haben sollte, sondern
 
 Wut bei Eltern ist normal. Sie kommt bei fast allen vor, und sie sagt nichts über die Liebe zum Kind aus.
 
-Was sie aussagt, ist etwas anderes: dass eine Grenze erreicht ist. Meistens eine körperliche.
+Was sie aussagt, ist etwas anderes: Dass eine Grenze erreicht ist. Meistens eine körperliche.
 
-Deshalb funktioniert der übliche Ansatz nicht. Der übliche Ansatz lautet: sich vornehmen, ruhiger zu sein. Und der scheitert zuverlässig, weil Vorsätze in dem Moment nicht abrufbar sind, in dem man sie bräuchte.
+Deshalb funktioniert der übliche Ansatz nicht. Der übliche Ansatz lautet: Sich vornehmen, ruhiger zu sein. Und der scheitert zuverlässig, weil Vorsätze in dem Moment nicht abrufbar sind, in dem man sie bräuchte.
 
 **Ruhe ist keine Willensleistung. Sie hängt an der Reserve.**
 
@@ -54,7 +54,7 @@ Es gibt drei Zeitpunkte, und sie sind unterschiedlich wirksam.
 
 Die meisten Eltern arbeiten ausschließlich am mittleren Punkt und wundern sich, dass es nicht reicht.
 
-## Vorher: die Bedingungen
+## Vorher: Die Bedingungen
 
 Hier liegt der eigentliche Hebel, und er ist unspektakulär.
 
@@ -66,9 +66,9 @@ Hier liegt der eigentliche Hebel, und er ist unspektakulär.
 
 **Und die Auslöser kennen.** Fast jede Familie hat drei oder vier Situationen, in denen es regelmäßig eskaliert. Der Morgen. Das Anziehen. Der Abend. Der Supermarkt.
 
-Diese Situationen lassen sich verändern: mehr Zeit einplanen, vorher entscheiden, was gilt, den Zeitpunkt verschieben. Wer weiß, wo es knallt, kann dort ansetzen, statt an sich selbst zu arbeiten.
+Diese Situationen lassen sich verändern: Mehr Zeit einplanen, vorher entscheiden, was gilt, den Zeitpunkt verschieben. Wer weiß, wo es knallt, kann dort ansetzen, statt an sich selbst zu arbeiten.
 
-## Im Moment: den Körper verändern, nicht die Gedanken
+## Im Moment: Den Körper verändern, nicht die Gedanken
 
 Wenn die Wut schon da ist, sind Gedanken schlecht steuerbar. Der Körper ist es besser.
 
@@ -76,7 +76,7 @@ Wenn die Wut schon da ist, sind Gedanken schlecht steuerbar. Der Körper ist es 
 
 **Hinsetzen.** Wut braucht Aufrichtung. Wer sitzt, ist weniger im Angriffsmodus.
 
-**Leiser werden.** Das ist gegen jeden Instinkt und wirkt am stärksten, in beide Richtungen: bei dir und bei deinem Kind. Warum das so ist, steht in [Dein Kind kann sich noch nicht beruhigen](/wissen/ko-regulation/).
+**Leiser werden.** Das ist gegen jeden Instinkt und wirkt am stärksten, in beide Richtungen: Bei dir und bei deinem Kind. Warum das so ist, steht in [Dein Kind kann sich noch nicht beruhigen](/wissen/ko-regulation/).
 
 **Langsamer werden.** Bewegungen, Sprache, Tempo. Hektik ist ansteckend, Langsamkeit auch.
 
@@ -96,7 +96,7 @@ Zwei Minuten im Flur. Atmen. Zurück.
 
 Das fühlt sich an wie Versagen und ist eine gute Entscheidung. Ein Kind kann zwei Minuten Warten verkraften. An einen lauten Satz erinnert es sich länger.
 
-Und es lernt dabei etwas Nützliches: dass man sich zurückziehen kann, wenn es zu viel wird, und dass man wiederkommt.
+Und es lernt dabei etwas Nützliches: Dass man sich zurückziehen kann, wenn es zu viel wird, und dass man wiederkommt.
 
 **Wichtig ist das Wiederkommen.** Ohne die Rückkehr wird aus einer Unterbrechung ein Rückzug, und ein Rückzug wirkt wie Ausschluss.
 

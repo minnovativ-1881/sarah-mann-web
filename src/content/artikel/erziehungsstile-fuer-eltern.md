@@ -13,9 +13,9 @@ verwandt:
   - warum-eltern-heute-unsicher-sind
 faq:
   - frage: 'Welche vier Erziehungsstile gibt es?'
-    antwort: 'Autoritär, autoritativ, permissiv und vernachlässigend. Sie ergeben sich aus zwei Achsen: wie viel Wärme ein Kind erlebt und wie viel klare Orientierung. Autoritativ ist die Kombination aus viel Wärme und viel Orientierung.'
+    antwort: 'Autoritär, autoritativ, permissiv und vernachlässigend. Sie ergeben sich aus zwei Achsen: Wie viel Wärme ein Kind erlebt und wie viel klare Orientierung. Autoritativ ist die Kombination aus viel Wärme und viel Orientierung.'
   - frage: 'Welcher Erziehungsstil ist der beste?'
-    antwort: 'In der Forschung schneidet der autoritative Stil über Jahrzehnte hinweg am günstigsten ab: die Kombination aus viel Wärme und viel klarer Orientierung. Das gilt im Durchschnitt und über viele Studien, nicht als Garantie für den Einzelfall.'
+    antwort: 'In der Forschung schneidet der autoritative Stil über Jahrzehnte hinweg am günstigsten ab: Die Kombination aus viel Wärme und viel klarer Orientierung. Das gilt im Durchschnitt und über viele Studien, nicht als Garantie für den Einzelfall.'
   - frage: 'Woher kommt die Einteilung in Erziehungsstile?'
     antwort: 'Von der Psychologin Diana Baumrind, die in den 1960er Jahren Familien beobachtete statt sie zu befragen. Später wurde ihr Modell von Eleanor Maccoby und John Martin um einen vierten Stil ergänzt, den vernachlässigenden.'
   - frage: 'Kann ich mehrere Stile gleichzeitig haben?'
@@ -110,8 +110,8 @@ Und das ist eine praktisch nützliche Information. Wer unter Druck ins Autoritä
 |---|---|
 | Wird laut, wenn es schnell gehen muss | Gibt nach, wenn das Kind weint |
 | Droht, um die Sache zu beenden | Erklärt fünfmal statt einmal zu handeln |
-| Braucht: früher handeln, weniger reden | Braucht: vorher entscheiden, dann halten |
-| Braucht: mehr eigene Reserve | Braucht: aushalten dürfen, dass es unangenehm wird |
+| Braucht: Früher handeln, weniger reden | Braucht: Vorher entscheiden, dann halten |
+| Braucht: Mehr eigene Reserve | Braucht: Aushalten dürfen, dass es unangenehm wird |
 
 Interessanterweise ist bei beiden ein Punkt derselbe: **die eigene Reserve**. Ein erschöpfter Mensch kippt, in welche Richtung auch immer.
 
@@ -129,10 +129,10 @@ Wenn du wissen willst, wo du stehst, hilft weniger eine Selbsteinschätzung als 
 
 Denk an die letzten drei Konflikte. Was ist mit dem Gefühl deines Kindes passiert, und was mit der Sache?
 
-- Gefühl weg, Sache durchgesetzt: eher autoritär
-- Gefühl gilt, Sache aufgegeben: eher permissiv
-- Beides gehalten: autoritativ
-- Nichts von beidem: dann geht es meistens nicht um Erziehung, sondern um Erschöpfung
+- Gefühl weg, Sache durchgesetzt: Eher autoritär
+- Gefühl gilt, Sache aufgegeben: Eher permissiv
+- Beides gehalten: Autoritativ
+- Nichts von beidem: Dann geht es meistens nicht um Erziehung, sondern um Erschöpfung
 
 Und das Letzte ist häufiger, als in Lehrbüchern steht.
 

@@ -1,6 +1,6 @@
 ---
 titel: 'Wenn etwas ausfällt'
-seoTitel: 'Enttäuschung bei Kindern: begleiten statt wegmachen'
+seoTitel: 'Enttäuschung bei Kindern: Begleiten statt wegmachen'
 beschreibung: 'Der Ausflug fällt aus, und das Kind bricht zusammen. Warum Trösten mit einem Ersatz die Enttäuschung verlängert und welche drei Schritte sie tatsächlich abkürzen.'
 eyebrow: 'Gefühle und Selbstregulation'
 silo: gefuehle
@@ -36,7 +36,7 @@ Für Erwachsene ist das schwer nachvollziehbar, weil die Sache aus ihrer Sicht k
 
 ## Warum ein ausgefallener Ausflug so schwer wiegt
 
-Ein Erwachsener, dem etwas abgesagt wird, hat sofort einen Gedanken parat: nächste Woche.
+Ein Erwachsener, dem etwas abgesagt wird, hat sofort einen Gedanken parat: Nächste Woche.
 
 Diesen Gedanken hat ein vierjähriges Kind nicht. Zukunft ist für kleine Kinder kein verlässlicher Ort, sondern eine Behauptung von jemandem. „Wir machen das nächste Woche“ ist für sie kein Trost, sondern eine Information über etwas, das nicht existiert.
 

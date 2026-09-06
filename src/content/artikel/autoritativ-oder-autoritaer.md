@@ -12,7 +12,7 @@ verwandt:
   - beduerfnis-oder-wunsch
 faq:
   - frage: 'Was ist der Unterschied zwischen autoritativ und autoritär?'
-    antwort: 'Autoritär heißt: viel Kontrolle, wenig Wärme. Die Regel steht über der Beziehung, Gehorsam ist das Ziel. Autoritativ heißt: viel Wärme und viel Führung zugleich. Die Beziehung trägt, und die Richtung ist trotzdem klar. Beide sind klar, aber nur einer ist dabei warm.'
+    antwort: 'Autoritär heißt: Viel Kontrolle, wenig Wärme. Die Regel steht über der Beziehung, Gehorsam ist das Ziel. Autoritativ heißt: Viel Wärme und viel Führung zugleich. Die Beziehung trägt, und die Richtung ist trotzdem klar. Beide sind klar, aber nur einer ist dabei warm.'
   - frage: 'Ist autoritativ einfach eine mildere Form von autoritär?'
     antwort: 'Nein, das ist ein verbreitetes Missverständnis. Es ist kein abgeschwächtes Autoritär, sondern eine eigene Kombination. Autoritativ ist bei den Anforderungen genauso hoch wie autoritär, unterscheidet sich aber grundlegend in der Wärme und darin, dass Gefühle und Erklärungen Platz haben.'
   - frage: 'Woher kommen diese Begriffe?'
@@ -35,9 +35,9 @@ Hier ist der Unterschied, so klar ich ihn machen kann.
 
 ## Die kurze Antwort
 
-**Autoritär** heißt vereinfacht: viel Kontrolle, wenig Wärme. *Ich bestimme, du gehorchst.*
+**Autoritär** heißt vereinfacht: Viel Kontrolle, wenig Wärme. *Ich bestimme, du gehorchst.*
 
-**Autoritativ** heißt: viel Wärme und viel Führung zugleich. *Ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen.*
+**Autoritativ** heißt: Viel Wärme und viel Führung zugleich. *Ich sehe dich, ich liebe dich, und ich weiß, wohin wir gehen.*
 
 Beide sind klar. Nur einer ist dabei warm.
 
@@ -105,7 +105,7 @@ Führung heißt hier nicht, ein Kind zu brechen. Führung heißt, ihm die Last a
 
 ## Was die Forschung dazu sagt
 
-Über die Jahrzehnte zeigt sich immer wieder ein ähnliches Muster. Kinder, die viel Wärme und zugleich klare Orientierung erleben, kommen im Durchschnitt besser zurecht: emotional, sozial, in der Schule und im Umgang mit sich selbst.
+Über die Jahrzehnte zeigt sich immer wieder ein ähnliches Muster. Kinder, die viel Wärme und zugleich klare Orientierung erleben, kommen im Durchschnitt besser zurecht: Emotional, sozial, in der Schule und im Umgang mit sich selbst.
 
 Eine große Auswertung von über vierhundert Studien fand diesen Zusammenhang in jeder untersuchten Weltregion. Es ist also offenbar nichts, was nur zu einer bestimmten Kultur passt.
 

@@ -17,7 +17,7 @@ faq:
   - frage: 'Warum wird mein Kind beim Auspacken quengelig?'
     antwort: 'Weil Auspacken ein Reiz nach dem anderen ist und kleine Kinder Reize schlecht sortieren können. Jedes neue Päckchen unterbricht das gerade begonnene Erleben. Das Ergebnis ist Überreizung, die von außen wie Undankbarkeit aussieht.'
   - frage: 'Wie gehe ich mit Großeltern um, die zu viel schenken?'
-    antwort: 'Früh, konkret und ohne Vorwurf. Ein Wunsch nach einem größeren gemeinsamen Geschenk oder nach einem Erlebnis statt vieler Kleinigkeiten funktioniert besser als eine Bitte um weniger. Wichtig ist der Zeitpunkt: im Oktober, nicht im Dezember.'
+    antwort: 'Früh, konkret und ohne Vorwurf. Ein Wunsch nach einem größeren gemeinsamen Geschenk oder nach einem Erlebnis statt vieler Kleinigkeiten funktioniert besser als eine Bitte um weniger. Wichtig ist der Zeitpunkt: Im Oktober, nicht im Dezember.'
   - frage: 'Soll mein Kind einen Wunschzettel schreiben?'
     antwort: 'Ja, das ist sinnvoll, weil es das Wünschen vom Bekommen trennt. Nützlich ist die Regel, dass nicht alles vom Zettel kommt. Dann bleibt Wünschen ein schöner Vorgang, ohne zur Bestellung zu werden.'
   - frage: 'Ist es schlimm, wenn mein Kind sich nicht bedankt?'
@@ -70,7 +70,7 @@ Und was oft mehr bringt als jede Zahl: **nacheinander auspacken, mit Pausen dazw
 Hier hilft eine Unterscheidung, die in vielen Situationen mit Kindern trägt.
 
 Ein **Bedürfnis** ist etwas, das ein Kind braucht: Aufmerksamkeit, das Gefühl zu zählen, gemeinsame Zeit, Freude.
-Ein **Wunsch** ist die Form, in der das Bedürfnis gerade auftritt: dieses Spielzeug, diese Marke, dieses Ding aus dem Video.
+Ein **Wunsch** ist die Form, in der das Bedürfnis gerade auftritt: Dieses Spielzeug, diese Marke, dieses Ding aus dem Video.
 
 Und daraus folgt der Satz, der in der Vorweihnachtszeit am meisten entlastet:
 

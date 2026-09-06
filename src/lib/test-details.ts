@@ -36,7 +36,7 @@ export const TEST_DETAILS: Record<string, FrageDetail[]> = {
     {
       kopf: "Wenn es dich begrüßt",
       bereich: "Druck und Berührung",
-      stark: "Dein Kind sucht festen Körperkontakt. Genau darüber beruhigt es sich am schnellsten: fest drücken, eine schwere Decke, gegen deine Hände schieben.",
+      stark: "Dein Kind sucht festen Körperkontakt. Genau darüber beruhigt es sich am schnellsten: Fest drücken, eine schwere Decke, gegen deine Hände schieben.",
       schwach: "Dein Kind sucht Berührung eher vorsichtig. Aufgedrängte Nähe im Ausnahmezustand kann bei ihm nach hinten losgehen.",
     },
     {
@@ -256,7 +256,7 @@ export const TEST_DETAILS: Record<string, FrageDetail[]> = {
       kopf: "Deine Geduld",
       bereich: "Wann der Faden reißt",
       stark: "Deine Geduld hält bis in die schwierigen Stunden hinein.",
-      schwach: "Dein Faden reißt an einer vorhersehbaren Stelle. Das ist eine gute Nachricht: was vorhersehbar ist, lässt sich vorbereiten.",
+      schwach: "Dein Faden reißt an einer vorhersehbaren Stelle. Das ist eine gute Nachricht: Was vorhersehbar ist, lässt sich vorbereiten.",
     },
     {
       kopf: "Zeit für dich",
@@ -406,7 +406,7 @@ export const ACHSEN_TEXTE: Record<string, Record<string, Record<AchsenStufe, str
       niedrig: "Dein Kind sucht wenig zusätzlichen Input. Auspowern als Rezept wird bei euch eher nicht funktionieren.",
     },
     meiden: {
-      hoch: "Dein Kind nimmt viel wahr und kommt schnell an seine Grenze. Für euch gilt fast immer: weniger statt mehr.",
+      hoch: "Dein Kind nimmt viel wahr und kommt schnell an seine Grenze. Für euch gilt fast immer: Weniger statt mehr.",
       mittel: "Dein Kind reagiert auf manche Reize empfindlich, auf andere nicht. Es lohnt sich, genau hinzusehen, welcher Sinn betroffen ist.",
       niedrig: "Dein Kind ist gegenüber Reizen robust. Überlastung durch Geräusche, Licht oder Menschen ist bei euch unwahrscheinlich.",
     },

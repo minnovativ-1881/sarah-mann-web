@@ -1,6 +1,6 @@
 ---
 titel: 'Dein Kind kann sich noch nicht beruhigen. Deshalb tust du es.'
-seoTitel: 'Ko-Regulation: wie Kinder sich beruhigen'
+seoTitel: 'Ko-Regulation: Wie Kinder sich beruhigen'
 beschreibung: 'Ko-Regulation heißt, dass ein Kind sich an deiner Ruhe orientiert, bis es das selbst kann.'
 eyebrow: 'Bevor ein Kind es selbst kann'
 silo: gefuehle
@@ -22,7 +22,7 @@ faq:
   - frage: 'Was ist, wenn ich selbst nicht ruhig bin?'
     antwort: 'Dann ist deine erste Aufgabe deine eigene Regulation, nicht die deines Kindes. Ein paar tiefe Ausatmungen, kurz ans Fenster, ein Schluck Wasser. Das ist kein Ausweichen, sondern die Voraussetzung. Man kann niemanden zu einer Ruhe führen, die man selbst gerade nicht hat.'
   - frage: 'Verwöhne ich mein Kind, wenn ich es immer beruhige?'
-    antwort: 'Nein. Ein Kind, das verlässlich Unterstützung beim Beruhigen erfährt, lernt Regulation schneller, nicht langsamer. Was Kinder abhängig macht, ist nicht die Unterstützung, sondern Unvorhersehbarkeit: wenn sie nie wissen, ob jemand kommt.'
+    antwort: 'Nein. Ein Kind, das verlässlich Unterstützung beim Beruhigen erfährt, lernt Regulation schneller, nicht langsamer. Was Kinder abhängig macht, ist nicht die Unterstützung, sondern Unvorhersehbarkeit: Wenn sie nie wissen, ob jemand kommt.'
 ---
 
 Es gibt einen Satz, den viele Eltern gehört haben und der so gut wie nie erklärt wird: *Kinder müssen lernen, sich selbst zu beruhigen.*
@@ -41,7 +41,7 @@ An deiner Stimme. An deinem Tempo. An deiner Atmung, deiner Körperhaltung, dein
 
 Das ist Ko-Regulation. Zwei Nervensysteme, von denen eines das andere trägt, bis es selbst tragen kann.
 
-Und über Jahre wird daraus etwas Eigenes. Was ein Kind tausendfach von außen erlebt hat, wird irgendwann innen verfügbar. Genau so lernt ein Mensch, sich selbst zu beruhigen: indem er lange genug mit jemandem beruhigt wurde.
+Und über Jahre wird daraus etwas Eigenes. Was ein Kind tausendfach von außen erlebt hat, wird irgendwann innen verfügbar. Genau so lernt ein Mensch, sich selbst zu beruhigen: Indem er lange genug mit jemandem beruhigt wurde.
 
 ## Das große Missverständnis
 

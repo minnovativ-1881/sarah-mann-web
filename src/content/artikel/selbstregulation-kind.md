@@ -17,7 +17,7 @@ faq:
   - frage: 'Ab wann kann sich ein Kind selbst regulieren?'
     antwort: 'Das ist kein Schalter, sondern eine lange Entwicklung. Kleinkinder brauchen fast immer Unterstützung. Im Kindergartenalter gelingen erste eigene Schritte bei kleinen Ärgernissen. Im Grundschulalter klappt es in vertrauten Situationen zunehmend, bei Müdigkeit und Überraschungen aber weiterhin nicht.'
   - frage: 'Wie fördere ich die Selbstregulation meines Kindes?'
-    antwort: 'Vor allem durch fünf Dinge: verlässliche Abläufe, deine eigene Ruhe im schwierigen Moment, das Benennen von Gefühlen, zumutbare Frustration in kleinen Dosen und ausreichend Schlaf. Übungen und Spiele helfen ergänzend, aber sie ersetzen keinen dieser fünf Punkte.'
+    antwort: 'Vor allem durch fünf Dinge: Verlässliche Abläufe, deine eigene Ruhe im schwierigen Moment, das Benennen von Gefühlen, zumutbare Frustration in kleinen Dosen und ausreichend Schlaf. Übungen und Spiele helfen ergänzend, aber sie ersetzen keinen dieser fünf Punkte.'
   - frage: 'Lernt mein Kind Selbstregulation, wenn ich es allein lasse?'
     antwort: 'Nein. Diese Vorstellung hält sich hartnäckig, aber Selbstregulation entsteht nicht durch Alleinsein. Sie entsteht daraus, dass ein Kind oft genug mit einem ruhigen Erwachsenen gemeinsam beruhigt wurde. Was ein Kind tausendfach von außen erlebt hat, wird irgendwann innen verfügbar.'
   - frage: 'Warum kann mein Kind sich zu Hause weniger beherrschen als in der Kita?'
@@ -71,7 +71,7 @@ Das ist nicht, wie es funktioniert.
 
 Ein kleines Kind, das allein mit einem starken Gefühl bleibt, lernt nicht, sich zu regulieren. Es hört irgendwann auf, weil die Erregung von selbst nachlässt oder weil es aufgibt. Beides ist kein Lernvorgang.
 
-Was tatsächlich passiert, ist umgekehrt. Ein Kind orientiert sich beim Beruhigen an einem anderen Menschen: an deiner Stimme, deinem Tempo, deiner Körperhaltung. Fachleute nennen das Ko-Regulation.
+Was tatsächlich passiert, ist umgekehrt. Ein Kind orientiert sich beim Beruhigen an einem anderen Menschen: An deiner Stimme, deinem Tempo, deiner Körperhaltung. Fachleute nennen das Ko-Regulation.
 
 Und über Jahre wird daraus etwas Eigenes. Was ein Kind tausendfach von außen erlebt hat, wird irgendwann innen verfügbar.
 
@@ -113,7 +113,7 @@ Frustrationstoleranz kann man nicht erklären. Man kann sie nur üben, und dafü
 
 Der Turm fällt um. Das Puzzleteil passt nicht. Es muss warten, bis das Geschwisterkind fertig ist. Der Reflex vieler Eltern ist, das schnell zu beheben. Verständlich, und es nimmt dem Kind die Übung weg.
 
-Die Kunst liegt in der Dosierung: klein genug, dass es zu schaffen ist, groß genug, dass es etwas kostet. Und du bleibst dabei, statt es abzunehmen.
+Die Kunst liegt in der Dosierung: Klein genug, dass es zu schaffen ist, groß genug, dass es etwas kostet. Und du bleibst dabei, statt es abzunehmen.
 
 > Sicherheit heißt nicht, dass ein Kind niemals Frust erlebt. Sicherheit heißt, dass es Frust erleben darf, ohne damit allein zu sein.
 
@@ -135,7 +135,7 @@ Die Fortschritte sind subtil:
 - Es kündigt sein Gefühl an, statt sofort zu explodieren.
 - Es hält kleine Wartezeiten aus, die vorher unmöglich waren.
 
-Was dagegen kein guter Maßstab ist: ob dein Kind sich in der Kita zusammennimmt. Denn dort gibt es meist mehr Struktur und weniger Sicherheit, sich gehen zu lassen. Die Rechnung kommt dann zu Hause.
+Was dagegen kein guter Maßstab ist: Ob dein Kind sich in der Kita zusammennimmt. Denn dort gibt es meist mehr Struktur und weniger Sicherheit, sich gehen zu lassen. Die Rechnung kommt dann zu Hause.
 
 ## Wann man genauer hinschauen sollte
 
@@ -163,7 +163,7 @@ Stell dir ein Geländer an einer Treppe vor. Dein Kind wird diese Treppe eines T
 
 **Wir geben Kindern zuerst unsere Ruhe, damit daraus irgendwann ihre eigene werden kann.**
 
-Und das ist am Ende der Sinn von Führung überhaupt: nicht, dass ein Kind immer geführt wird, sondern dass es irgendwann sich selbst führen kann.
+Und das ist am Ende der Sinn von Führung überhaupt: Nicht, dass ein Kind immer geführt wird, sondern dass es irgendwann sich selbst führen kann.
 
 ## Die einzelnen Situationen
 

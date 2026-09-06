@@ -1,5 +1,5 @@
 ---
-titel: 'Konsequenz oder Strafe: der Unterschied, den kaum jemand erklärt'
+titel: 'Konsequenz oder Strafe: Der Unterschied, den kaum jemand erklärt'
 seoTitel: 'Konsequenz oder Strafe? Drei Prüffragen'
 beschreibung: 'Fast jeder Ratgeber sagt, Strafen seien schlecht und Konsequenzen gut. Fast keiner erklärt, woran man sie unterscheidet.'
 eyebrow: 'Grenzen und Führung'
@@ -43,7 +43,7 @@ Nicht aufgeräumt, also gibt es abends kein Hörspiel. Kein Zusammenhang, nur ei
 
 **2. Kommt es zeitnah?**
 
-Bei kleinen Kindern heißt zeitnah: jetzt. Eine Folge, die morgen eintritt, hat für einen Dreijährigen nichts mit dem heutigen Ereignis zu tun. Sie kommt bei ihm als willkürlich an.
+Bei kleinen Kindern heißt zeitnah: Jetzt. Eine Folge, die morgen eintritt, hat für einen Dreijährigen nichts mit dem heutigen Ereignis zu tun. Sie kommt bei ihm als willkürlich an.
 
 **3. Soll es wehtun?**
 

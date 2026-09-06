@@ -1,6 +1,6 @@
 ---
 titel: 'Der andere kann das besser'
-seoTitel: 'Kind vergleicht sich ständig: was dahintersteckt und was hilft'
+seoTitel: 'Kind vergleicht sich ständig: Was dahintersteckt und was hilft'
 beschreibung: 'Vergleichen ist ein normaler Entwicklungsschritt und wird zum Problem, wenn es der einzige Maßstab bleibt. Wie du einen zweiten Maßstab aufbaust, den dein Kind selbst kontrollieren kann.'
 eyebrow: 'Was dein Kind stark macht'
 silo: charakter
@@ -101,7 +101,7 @@ Dann geht es nicht mehr um Einordnung, sondern um das Selbstbild, und dafür loh
 
 ## Der Satz zum Mitnehmen
 
-Ein Kind, das sich nur an anderen misst, hängt an einem Wert, den es nicht beeinflussen kann. Der Ausweg ist kein Widerspruch, sondern ein zweiter Maßstab: sein eigenes Vorher, sichtbar aufbewahrt.
+Ein Kind, das sich nur an anderen misst, hängt an einem Wert, den es nicht beeinflussen kann. Der Ausweg ist kein Widerspruch, sondern ein zweiter Maßstab: Sein eigenes Vorher, sichtbar aufbewahrt.
 
 ## Quellen und weiterführende Informationen
 

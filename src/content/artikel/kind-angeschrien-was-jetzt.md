@@ -1,6 +1,6 @@
 ---
 titel: 'Du hast dein Kind angeschrien. Und weinst seitdem.'
-seoTitel: 'Kind angeschrien: die vier Schritte danach'
+seoTitel: 'Kind angeschrien: Die vier Schritte danach'
 beschreibung: 'Was nach einem lauten Moment tatsächlich hilft, warum Wiedergutmachung wichtiger ist als Fehlerfreiheit und wie du aus der Schuldspirale wieder herauskommst.'
 eyebrow: 'Der Moment danach'
 silo: eltern
@@ -14,7 +14,7 @@ faq:
   - frage: 'Ich habe mein Kind angeschrien. Habe ich ihm geschadet?'
     antwort: 'Ein einzelner lauter Moment schadet einem Kind nicht. Was zählt, ist das Muster über Monate und Jahre und vor allem, ob danach eine Wiedergutmachung stattfindet. Kinder brauchen keine fehlerfreien Eltern. Sie brauchen Eltern, die zurückkommen.'
   - frage: 'Was sage ich meinem Kind nach dem Schreien?'
-    antwort: 'Vier Dinge, kurz und in dieser Reihenfolge: benennen, was passiert ist, es bedauern, ohne Erklärung hinterherzuschieben, das Gefühl des Kindes anerkennen, und die Sache selbst nicht zurücknehmen. Also: „Ich war laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei der Sache bleibt es trotzdem.“'
+    antwort: 'Vier Dinge, kurz und in dieser Reihenfolge: Benennen, was passiert ist, es bedauern, ohne Erklärung hinterherzuschieben, das Gefühl des Kindes anerkennen, und die Sache selbst nicht zurücknehmen. Also: „Ich war laut. Das tut mir leid, das hattest du nicht verdient. Du bist erschrocken. Und bei der Sache bleibt es trotzdem.“'
   - frage: 'Soll ich mich bei meinem Kind entschuldigen?'
     antwort: 'Ja, aber für das Wie, nicht für das Was. Entschuldige dich dafür, dass du laut geworden bist, nicht dafür, dass du eine Grenze gesetzt hast. Sonst lernt dein Kind, dass Grenzen verhandelbar werden, wenn genug Aufregung entsteht.'
   - frage: 'Warum raste ich immer abends aus?'
@@ -57,7 +57,7 @@ Nicht: „Es ist eskaliert.“ Nicht: „Wir hatten beide einen schlechten Momen
 
 > „Das tut mir leid. Das hattest du nicht verdient.“
 
-Und jetzt der schwerste Teil: kein *weil* danach. Kein „aber ich hatte auch einen anstrengenden Tag“, kein „du hast mich ja auch dreimal ignoriert“.
+Und jetzt der schwerste Teil: Kein *weil* danach. Kein „aber ich hatte auch einen anstrengenden Tag“, kein „du hast mich ja auch dreimal ignoriert“.
 
 Sobald eine Erklärung kommt, wird aus der Entschuldigung eine Rechtfertigung, und dein Kind hört den zweiten Teil. Die Erklärung ist für dich, nicht für dein Kind.
 
@@ -100,7 +100,7 @@ Ein Kind, dessen Eltern manchmal laut werden und danach verlässlich zurückkomm
 
 Das ist keine Beschönigung. Es ist der Grund, warum Wiedergutmachung in der Bindungsforschung so einen hohen Stellenwert hat. Nicht als Trostpflaster, sondern als eigenständige, wertvolle Erfahrung.
 
-## Der zweite Teil: die Stelle davor
+## Der zweite Teil: Die Stelle davor
 
 Wiedergutmachung repariert. Aber sie ändert nicht, warum es passiert ist. Und meistens passiert es nicht zufällig.
 
