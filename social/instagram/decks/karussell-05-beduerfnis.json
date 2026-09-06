@@ -1,0 +1,50 @@
+{
+  "titel": "Das dritte Eis",
+  "variante": "dunkel",
+  "quelle": "/wissen/beduerfnis-oder-wunsch/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Mein Kind will das dritte Eis. Und ich weiß nicht, ob ich gerade *hart oder vernünftig bin.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Diese Unsicherheit hat einen Grund."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "In fast allen Ratgebern heißt beides Bedürfnis.",
+      "text": "Nähe und Süßes. Schlaf und Fernsehen. Alles gleich wichtig, alles gleich dringend."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Wer das glaubt, kann irgendwann nichts mehr ablehnen.",
+      "text": "Und genau deshalb fühlt sich bedürfnisorientiert für so viele uferlos an."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Eine einzige Frage räumt das auf.",
+      "text": "Was bleibt, wenn ich es nicht gebe? Ein Mangel oder eine Enttäuschung?"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Enttäuschung ist unangenehm. *Schädlich ist sie nicht.*"
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Bedürfnis oder Wunsch? *Wie sicher bist du gerade?*",
+      "nutzen": [
+        "Acht Situationen, in denen die Unterscheidung zählt",
+        "Am Ende siehst du, an welchen Stellen sie bei dir rutscht",
+        "Dazu die Auflösung für jede einzelne davon"
+      ],
+      "stichwort": "WAAGE",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

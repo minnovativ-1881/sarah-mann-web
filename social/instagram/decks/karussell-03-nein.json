@@ -1,0 +1,49 @@
+{
+  "titel": "Ich sage Nein und warte, dass es aufhört wehzutun",
+  "variante": "dunkel",
+  "quelle": "/wissen/nein-sagen-ohne-schlechtes-gewissen/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Ich sage Nein. Und warte darauf, dass es *aufhört wehzutun.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Nicht meinem Kind. *Mir.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Beim ersten Mal geht es. Beim zweiten auch."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Beim dritten Mal fange ich an zu erklären."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Und Erklären ist an dieser Stelle schon Verhandeln.",
+      "text": "Mein Kind hört dabei nicht die Gründe. Es hört, dass die Sache noch offen ist."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Das Ziehen im Bauch kommt nicht von ihm.",
+      "text": "Es kommt von einem Satz, den ich selbst als Kind gehört habe. Und der hat mit heute Abend nichts zu tun."
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Finde heraus, wo dein Nein *wirklich steht.*",
+      "nutzen": [
+        "Sieben Situationen aus deinem Alltag, keine Theorie",
+        "Am Ende weißt du, an welcher Stelle deine Grenze wandert",
+        "Dazu drei Schritte, die du ab morgen umsetzen kannst"
+      ],
+      "stichwort": "ANKER",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

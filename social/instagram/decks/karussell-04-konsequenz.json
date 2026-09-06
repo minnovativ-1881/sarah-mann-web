@@ -1,0 +1,49 @@
+{
+  "titel": "Dann gibt es keinen Nachtisch",
+  "variante": "hell",
+  "quelle": "/wissen/konsequenz-oder-strafe/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Ich habe heute gesagt: dann gibt es keinen Nachtisch. *Und mich sofort geärgert.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Nicht weil es zu hart war."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Sondern weil Gemüse und Nachtisch nichts miteinander zu tun haben."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Mein Kind lernt daraus nichts über Essen.",
+      "text": "Es lernt, wer am längeren Hebel sitzt."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Der Unterschied zwischen Konsequenz und Strafe ist nicht der Ton. *Es ist der Zusammenhang.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Wer Sand wirft, macht eine Pause vom Sandkasten.",
+      "text": "Das hat miteinander zu tun. Der Nachtisch nicht."
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Erkennst du den Unterschied *in deinem eigenen Alltag?*",
+      "nutzen": [
+        "Acht Situationen, wie sie bei euch jede Woche vorkommen",
+        "Am Ende siehst du, welche Sätze bei dir zur Strafe werden",
+        "Dazu eine Antwort, die stattdessen passt, für jede davon"
+      ],
+      "stichwort": "LEUCHTTURM",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

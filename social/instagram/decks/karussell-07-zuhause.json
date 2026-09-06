@@ -1,0 +1,48 @@
+{
+  "titel": "In der Kita vorbildlich",
+  "variante": "dunkel",
+  "quelle": "/wissen/kind-rastet-nach-kita-und-schule-aus/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "In der Kita ist mein Kind *vorbildlich.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Freundlich, ruhig, kooperativ. Das höre ich jedes Mal beim Abholen."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Zu Hause reicht dann eine falsche Gabel."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Lange dachte ich, ich mache etwas falsch, *was dort offenbar niemand falsch macht.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Es ist genau andersherum.",
+      "text": "Es hat sich acht Stunden zusammengerissen und lässt bei mir los, weil bei mir sicher ist."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Das ist anstrengend. *Und es ist ein Kompliment.*"
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Sucht dein Kind Reize *oder flieht es vor ihnen?*",
+      "nutzen": [
+        "Zehn Alltagssituationen, drei Minuten, keine Diagnose",
+        "Am Ende weißt du, ob dein Kind Reize sucht oder meidet",
+        "Dazu die Empfehlungen, die zu genau diesem Profil passen"
+      ],
+      "stichwort": "ANTENNE",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

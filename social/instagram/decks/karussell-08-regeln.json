@@ -1,0 +1,49 @@
+{
+  "titel": "Sieben Kinder, drei Regeln",
+  "variante": "hell",
+  "quelle": "/wissen/wie-viele-regeln-braucht-ein-kind/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Bei sieben Kindern lernt man eine Sache *sehr schnell.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Regeln, die man nicht halten kann, sind keine Regeln."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Sie sind Sätze, die im Raum stehen und langsam verblassen."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Die meisten Familien haben zwanzig bis dreißig davon, ohne es zu wissen.",
+      "text": "Und könnten keine fünf aufzählen. Die Kinder auch nicht."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Also probieren die Kinder aus, welche gerade gelten. *Jeden Tag neu.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Drei Regeln, die stehen, geben mehr Orientierung als dreißig, die wandern.",
+      "text": "Alles andere darf verhandelt werden. Offen, und ohne schlechtes Gewissen."
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Welcher Eltern-Typ *bist du gerade?*",
+      "nutzen": [
+        "Acht Situationen aus dem Familienalltag, in zwei Minuten",
+        "Am Ende weißt du, wo du zwischen Wärme und Klarheit stehst",
+        "Dazu die zwei Schritte, die genau dort am meisten bringen"
+      ],
+      "stichwort": "KOMPASS",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

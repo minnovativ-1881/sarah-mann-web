@@ -1,0 +1,48 @@
+{
+  "titel": "Ein Kind, das sich selbst vertraut, ist unbequemer",
+  "variante": "hell",
+  "quelle": "/wissen/was-kinder-sicher-macht/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Ein Kind, das sich selbst vertraut, ist *unbequemer.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Es braucht fünf Minuten für etwas, das ich in zehn Sekunden erledigt hätte."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Es will heute keinen Abschiedskuss geben."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Es findet einen Sturz schlimm, obwohl ich längst entschieden habe, dass nichts passiert ist."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Und jedes Mal schaut es kurz zu mir.",
+      "text": "Darf ich meiner eigenen Wahrnehmung trauen? Oder wird sie jetzt korrigiert?"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Selbstvertrauen wächst nicht aus Lob. *Es wächst aus diesen winzigen Antworten.*"
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Wo stehst du zwischen *Wärme und Klarheit?*",
+      "nutzen": [
+        "Acht Situationen aus dem Familienalltag, in zwei Minuten",
+        "Am Ende weißt du, welche der beiden Seiten bei dir zu kurz kommt",
+        "Dazu die Stelle, an der du am schnellsten etwas änderst"
+      ],
+      "stichwort": "KOMPASS",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "titel": "Wach und schon leer",
+  "variante": "hell",
+  "quelle": "/wissen/elterliche-erschoepfung/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Heute, 6:40 Uhr. *Ich bin wach und schon leer.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Und ich weiß jetzt schon, wie der Tag laufen wird."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Nicht weil meine Kinder heute schwierig sind."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Sondern weil Ruhigbleiben eine Leistung ist. *Und Leistung kostet Energie.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Wer keine hat, kann nicht ruhig bleiben.",
+      "text": "Egal wie sehr sie ihr Kind liebt. Das ist keine Charakterfrage."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Deshalb hilft an solchen Tagen kein besserer Vorsatz.",
+      "text": "Sondern eine einzige Sache weniger."
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Wie viel Kraft hast du *gerade wirklich?*",
+      "nutzen": [
+        "Acht Fragen, die dir sonst niemand stellt",
+        "Am Ende weißt du, wie viel Reserve wirklich da ist",
+        "Dazu die Entlastung, die an deiner Stelle am meisten bringt"
+      ],
+      "stichwort": "QUELLE",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "titel": "Abends bin ich eine andere Mutter",
+  "variante": "dunkel",
+  "quelle": "/wissen/schlaf-als-fuehrungsaufgabe/",
+  "folien": [
+    {
+      "typ": "hook",
+      "titel": "Abends bin ich eine andere Mutter als *morgens um neun.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Nicht schlechter. *Nur leer.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Morgens sage ich einmal etwas und bleibe dabei."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Abends sage ich dreimal etwas. Und gebe beim vierten Mal nach."
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Mein Kind ist abends nicht schwieriger. *Ich bin abends nur billiger zu haben.*"
+    },
+    {
+      "typ": "gedanke",
+      "titel": "Deshalb steht bei uns fest, was abends gilt.",
+      "text": "Entschieden wird das um vier. Nicht um halb neun. Eine Entscheidung, die schon getroffen ist, kostet keine Kraft mehr."
+    },
+    {
+      "typ": "person",
+      "haltung": "Ich schreibe über Erziehung mit Wärme und Klarheit. Beides zugleich, nicht nacheinander."
+    },
+    {
+      "typ": "cta",
+      "eyebrow": "Der kostenlose Test",
+      "titel": "Wie verlässlich ist *euer Abend gerade?*",
+      "nutzen": [
+        "Sieben Situationen, wie sie bei euch jeden Abend vorkommen",
+        "Am Ende weißt du, an welcher Stelle der Abend kippt",
+        "Dazu die zwei Schritte, die genau dort am meisten bringen"
+      ],
+      "stichwort": "HAFEN",
+      "fuss": "Zwei Minuten. Kostenlos. Ohne Anmeldung."
+    }
+  ]
+}
