@@ -153,7 +153,7 @@
   artikel: meltdown-oder-trotzanfall
   titel: Warum die Verwechslung so teuer ist
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Die üblichen Ratschläge für Trotzanfälle sind richtig: ruhig bleiben, bei
     der Entscheidung bleiben, nicht diskutieren.
@@ -171,7 +171,7 @@
   artikel: meltdown-oder-trotzanfall
   titel: Die Grenze verschwindet nicht, sie verschiebt sich
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn ein Kind im Meltdown schlägt oder tritt, ist das nicht in Ordnung. Es
     bleibt nicht in Ordnung, nur weil es nicht anders konnte.
@@ -319,7 +319,7 @@
   artikel: kind-haelt-sich-die-ohren-zu
   titel: Zuerst das Gehör prüfen lassen
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Das klingt widersinnig und ist der wichtigste erste Schritt.
 
@@ -500,7 +500,7 @@
   artikel: gefuehlsstark-oder-adhs
   titel: Die Frage ist falsch gestellt
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Gefühlsstark, hochsensibel, High Need: Das sind Beschreibungen. Sie sagen,
     wie ein Kind ist, und sie geben Eltern Sprache. Gemessen, abgegrenzt und
@@ -518,7 +518,7 @@
   artikel: gefuehlsstark-oder-adhs
   titel: Wo, wie lange, wie sehr
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Fachleute schauen bei einer Abklärung nicht darauf, wie heftig ein Kind
     reagiert. Sie schauen auf drei andere Dinge, und die kannst du selbst
@@ -538,7 +538,7 @@
   artikel: gefuehlsstark-oder-adhs
   titel: Wann die Antwort „Termin machen“ lautet
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Ein Kind, das lebhaft, laut und intensiv ist, aber Freunde hat, gern in die
     Schule geht und sich selbst mag, braucht keinen Termin.
@@ -644,7 +644,7 @@
   artikel: kind-will-nicht-mehr-zur-schule
   titel: Warum sich beide Ratschläge falsch anfühlen
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Du stehst im Flur mit dem Ranzen in der Hand und weißt nicht, ob du jetzt
     streng sein sollst oder nachgiebig. Was immer du tust, es fühlt sich falsch
@@ -663,7 +663,7 @@
   artikel: kind-will-nicht-mehr-zur-schule
   titel: Die Ferienfrage
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Der Test, der am meisten verrät: Erholt sich dein Kind in den Ferien
     deutlich und kippt in der ersten Schulwoche wieder?
@@ -679,7 +679,7 @@
   artikel: kind-will-nicht-mehr-zur-schule
   titel: Druck erhöht die Anforderung, nicht die Kapazität
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn ein Kind überlastet ist, dann nicht, weil es nicht will. Sondern weil
     das, was verlangt wird, mehr kostet, als es aufbringen kann.

@@ -60,7 +60,7 @@
   artikel: autoritativer-erziehungsstil
   titel: Führung heißt nicht, ein Kind zu brechen
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Weil das Feld empfindlich ist, gehört die Abgrenzung dazu.
 
@@ -462,7 +462,7 @@
   artikel: beduerfnisorientierte-erziehung-kritik
   titel: Die Antwort ist nicht, wieder strenger zu werden
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn eine Bewegung zu weit in eine Richtung gegangen ist, gibt es immer die
     Versuchung, das Pendel einfach zurückschwingen zu lassen.

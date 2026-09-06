@@ -22,7 +22,7 @@
   artikel: schlaf-als-fuehrungsaufgabe
   titel: Struktur und Alleinlassen sind zwei verschiedene Dinge
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     In Deutschland ist das Wort Struktur beim Thema Schlaf verbrannt, und die
     Gründe dafür sind gut.
@@ -52,7 +52,7 @@
   artikel: schlaf-als-fuehrungsaufgabe
   titel: Warum Einschlafbegleitung so wütend macht
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Viele Eltern schämen sich dafür. Sie sitzen neben einem müden kleinen
     Menschen, der nichts Böses tut, und spüren Aggression aufsteigen.
@@ -365,7 +365,7 @@
   artikel: einschlafbegleitung-macht-wuetend
   titel: Fünf Gründe, und keiner davon bist du
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Du bist festgesetzt. Für den Körper ist erzwungene Bewegungsunfähigkeit ein
     Stressreiz.
@@ -386,7 +386,7 @@
   artikel: einschlafbegleitung-macht-wuetend
   titel: Rausgehen ist besser als laut werden
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Es gibt einen Punkt, an dem nichts mehr hilft, weil die Wut schon da ist.
 

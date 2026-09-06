@@ -4,7 +4,7 @@
   artikel: eigene-wut-regulieren
   titel: Die angekündigte Unterbrechung
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn du merkst, dass du die Kontrolle verlierst, ist Rausgehen besser als
     Lautwerden.
@@ -24,7 +24,7 @@
   artikel: eigene-wut-regulieren
   titel: Ruhe ist keine Willensleistung
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Der übliche Ansatz lautet: sich vornehmen, ruhiger zu sein. Und er scheitert
     zuverlässig, weil Vorsätze in dem Moment nicht abrufbar sind, in dem man sie
@@ -60,7 +60,7 @@
   artikel: eigene-wut-regulieren
   titel: Der Punkt, der unangenehm zu lesen ist
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Fast niemand schreit seinen Chef an. Auch nicht bei großer Erschöpfung. Auch
     nicht bei Provokation.
@@ -79,7 +79,7 @@
   artikel: elterliche-erschoepfung
   titel: Müdigkeit geht weg. Das ist der ganze Unterschied.
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn ein ruhiges Wochenende spürbar etwas ändert, war es Müdigkeit. Wenn du
     am Montagmorgen genauso leer aufwachst wie am Freitagabend, ist es etwas
@@ -164,7 +164,7 @@
   artikel: elterliche-erschoepfung
   titel: Wann es zur Ärztin gehört
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Es gibt Signale, bei denen fachliche Hilfe angebracht ist.
 
@@ -183,7 +183,7 @@
   artikel: kind-angeschrien-was-jetzt
   titel: Ein lauter Moment macht kein Kind kaputt
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Kinder sind keine empfindlichen Apparate, bei denen eine falsche Reaktion
     einen Schalter umlegt. Was ein Kind prägt, sind Muster. Tausende kleine
@@ -201,7 +201,7 @@
   artikel: kind-angeschrien-was-jetzt
   titel: Kein „weil“ hinterher
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     „Das tut mir leid. Das hattest du nicht verdient.“
 
@@ -217,7 +217,7 @@
   artikel: kind-angeschrien-was-jetzt
   titel: Entschuldige dich für das Wie, nicht für das Was
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Das ist der Punkt, an dem viele Eltern aus Schuldgefühl zu weit gehen. Man
     hat geschrien, fühlt sich schlecht, und dann darf das Kind doch noch die
@@ -304,7 +304,7 @@
   artikel: nicht-konsequent-sein-koennen
   titel: Der Denkfehler, der dazwischen sitzt
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Viele Eltern sagen etwas fünfmal, achtmal, zehnmal, werden dann laut und
     schließen daraus, sie seien nicht konsequent genug.
@@ -321,7 +321,7 @@
   artikel: ich-mag-mein-kind-gerade-nicht
   titel: Zuneigung schwankt. Bindung nicht.
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     „Ich weiß, das darf man nicht sagen. Aber ich mag mein Kind gerade nicht
     besonders.“
@@ -340,7 +340,7 @@
   artikel: ich-mag-mein-kind-gerade-nicht
   titel: Zuerst geht die Wärme
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Zuneigung braucht Reserve. Wer über Monate zu wenig geschlafen hat, zu wenig
     allein war und zu viel getragen hat, verliert als Erstes die weichen

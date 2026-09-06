@@ -158,7 +158,7 @@
   artikel: kind-beruhigt-sich-nicht
   titel: Wann es in eine Untersuchung gehört
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Manches gehört nicht in einen Ratgebertext, sondern zur Kinderärztin. Ein
     Gespräch ist sinnvoll, wenn Zusammenbrüche regelmäßig deutlich länger als
@@ -361,7 +361,7 @@
   artikel: selbstregulation-kind
   titel: Der Irrtum vom Alleinlernen
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Eine Vorstellung hält sich hartnäckig: Ein Kind lerne, sich selbst zu
     beruhigen, wenn man es damit allein lässt.
@@ -566,7 +566,7 @@
   artikel: wann-wutanfall-nicht-normal
   titel: Was bei Wutanfällen im üblichen Rahmen liegt
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Die meisten Anfälle liegen zwischen anderthalb und vier Jahren, mit einem
     Höhepunkt bei zwei bis drei. Mehrere pro Woche sind üblich, in schwierigen
@@ -584,7 +584,7 @@
   artikel: wann-wutanfall-nicht-normal
   titel: Der wichtigste einzelne Hinweis
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Wenn die Anfälle mit dem Alter zunehmen statt abzunehmen.
 
@@ -601,7 +601,7 @@
   artikel: wann-wutanfall-nicht-normal
   titel: Drei Dinge, die zuerst geprüft gehören
   heikel: true
-  freigegeben: false
+  freigegeben: true
   text: |
     Bevor man an etwas Größeres denkt, stecken sehr oft drei gut behandelbare
     Dinge dahinter.
