@@ -1,12 +1,15 @@
 /**
- * Der taegliche Versand. Laeuft in GitHub Actions, funktioniert aber genauso
+ * Der Versand. Laeuft stuendlich in GitHub Actions, funktioniert aber genauso
  * lokal.
  *
- *   node telegram/skripte/posten.mjs              scharf, nur um 16 Uhr Berlin
- *   node telegram/skripte/posten.mjs --jetzt      scharf, ohne Uhrzeitpruefung
+ *   node telegram/skripte/posten.mjs              scharf, nur wenn ein Termin faellig ist
+ *   node telegram/skripte/posten.mjs --jetzt      scharf, ohne Ruecksicht auf den Zeitplan
  *   node telegram/skripte/posten.mjs --trocken    zeigt nur an, sendet nichts
  *   node telegram/skripte/posten.mjs --test       sendet, ohne den Stand zu aendern
  *   ... --test --position=2                       erzwingt eine Position im Zyklus
+ *
+ * Wann gesendet wird, entscheidet zeitplan.mjs: zwei bis drei Beitraege pro
+ * Woche, an zufaelligen Tagen zwischen 7 und 22 Uhr.
  *
  * Braucht TELEGRAM_BOT_TOKEN in der Umgebung. TELEGRAM_ADMIN_CHAT_ID ist
  * optional und bekommt eine Nachricht, wenn der Vorrat zur Neige geht.
@@ -16,6 +19,7 @@ import { writeFileSync, readFileSync } from "node:fs";
 import { join, basename } from "node:path";
 import { TELEGRAM, KANAL, ladeArtikel, ladeTests, ladeTipps, ladeJson } from "./daten.mjs";
 import { baueBeitrag, baueTastatur, teilenLink, ZYKLUS_LAENGE } from "./beitrag.mjs";
+import { berlinJetzt, sollSenden } from "./zeitplan.mjs";
 
 const argumente = process.argv.slice(2);
 const hat = (name) => argumente.includes(name);
@@ -24,7 +28,7 @@ const trocken = hat("--trocken");
 // Ein Testlauf sendet wirklich, schreibt aber nichts fort. Damit laesst sich der
 // Kanal ausprobieren, ohne Beitraege aus dem Vorrat zu verbrauchen.
 const test = hat("--test");
-const ohneUhrzeit = hat("--jetzt") || trocken || test;
+const ohneZeitplan = hat("--jetzt") || trocken || test;
 
 const erzwungenePosition = Number(
   argumente.find((a) => a.startsWith("--position="))?.split("=")[1] ?? NaN,
@@ -42,34 +46,9 @@ if (!token && !trocken) {
   process.exit(1);
 }
 
-/* ------------------------------------------------------------- Uhrzeit */
+/* ------------------------------------------------------------- Zeitplan */
 
-/** Datum und Stunde in Berlin, unabhaengig von der Zeitzone des Rechners. */
-function berlin() {
-  const teile = new Intl.DateTimeFormat("de-DE", {
-    timeZone: "Europe/Berlin",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-    hour: "2-digit",
-    hour12: false,
-  }).formatToParts(new Date());
-
-  const feld = (typ) => teile.find((t) => t.type === typ).value;
-  return {
-    datum: `${feld("year")}-${feld("month")}-${feld("day")}`,
-    stunde: Number(feld("hour")),
-  };
-}
-
-const jetzt = berlin();
-
-if (!ohneUhrzeit && jetzt.stunde !== 16) {
-  console.log(`In Berlin ist es ${jetzt.stunde} Uhr, nicht 16. Nichts zu tun.`);
-  process.exit(0);
-}
-
-/* --------------------------------------------------------------- Auswahl */
+const jetzt = berlinJetzt();
 
 const artikel = ladeArtikel();
 const tests = ladeTests();
@@ -82,10 +61,25 @@ if (plan.length === 0) {
   process.exit(1);
 }
 
-if (!test && zustand.gesendet.at(-1)?.datum === jetzt.datum) {
+const gesendeteDaten = zustand.gesendet.map((e) => e.datum);
+
+if (!ohneZeitplan) {
+  const entscheidung = sollSenden(jetzt, gesendeteDaten);
+  console.log(`Zeitplan: ${entscheidung.grund}`);
+  if (!entscheidung.senden) {
+    console.log("Kein Termin faellig. Nichts zu tun.");
+    process.exit(0);
+  }
+}
+
+// Auch von Hand nie zweimal am selben Tag, damit ein versehentlicher zweiter
+// Aufruf nicht gleich zwei Beitraege verbraucht.
+if (!test && !trocken && gesendeteDaten.includes(jetzt.datum)) {
   console.log(`Heute (${jetzt.datum}) ging schon etwas raus. Nichts zu tun.`);
   process.exit(0);
 }
+
+/* --------------------------------------------------------------- Auswahl */
 
 const bereitsGesendet = new Set(zustand.gesendet.map((e) => e.id));
 const zurueckgestellt = [];

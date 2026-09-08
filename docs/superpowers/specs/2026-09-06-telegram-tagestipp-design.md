@@ -5,10 +5,11 @@ Status: freigegeben
 
 ## Zweck
 
-Jeden Tag gegen 16 Uhr geht im Telegram-Kanal "Klare Führung. Volle Liebe."
+Zwei bis drei Mal pro Woche geht im Telegram-Kanal "Klare Führung. Volle Liebe."
 (`@klarefuehrung_volleliebe`) ein kurzer Beitrag raus: ein Mini-Tipp aus einem
 Artikel von sarahmann.de, dazu das Bild des Artikels und ein wechselnder
-Handlungsaufruf. Der Ablauf ist vollautomatisch, niemand muss dafür online sein.
+Handlungsaufruf. An zufaelligen Tagen zu zufaelligen Uhrzeiten zwischen 7 und
+22 Uhr. Der Ablauf ist vollautomatisch, niemand muss dafür online sein.
 
 ## Inhalt
 
@@ -72,11 +73,25 @@ Datensatz eines Beitrags:
         ...
       heikel: false
 
-## Täglicher Ablauf
+## Ablauf
 
-Der Job startet um 14:00 und 15:00 UTC. Er prüft selbst, ob es in Berlin gerade
-16 Uhr ist, und bricht sonst ab. Damit stimmt die Uhrzeit über die
-Zeitumstellung hinweg.
+Der Job startet stündlich zwischen 5:00 und 21:00 UTC, was Berlin von 6 bis 23
+Uhr abdeckt, im Sommer wie im Winter.
+
+Ob gesendet wird, entscheidet der Wochenplan in `zeitplan.mjs`: Aus der
+Kalenderwoche werden zwei oder drei Termine abgeleitet, jeder an einem
+zufälligen Wochentag zu einer zufälligen Stunde zwischen 7 und 21 Uhr. Der
+Zufall ist aus der Kalenderwoche abgeleitet und damit über alle Läufe derselben
+Woche stabil.
+
+Ein Termin gilt als fällig, sobald seine Stunde erreicht oder überschritten ist,
+nicht nur exakt zu ihr. Verglichen wird die Zahl der bisher fälligen Termine
+gegen die Zahl der in dieser Woche gesendeten Beiträge. Damit holt ein
+verspäteter Lauf einen verpassten Termin von selbst nach.
+
+Diese Bauart ist eine Reaktion auf die Praxis: GitHub startete die
+zeitgesteuerten Läufe dieses Repos zwei bis fünf Stunden zu spät. Die erste
+Fassung prüfte auf eine feste Stunde und sendete deshalb nie.
 
 1. Prüfen, ob heute schon etwas rausging (verhindert Doppelversand)
 2. Nächsten Beitrag aus dem Plan nehmen, nicht freigegebene heikle überspringen
@@ -84,8 +99,8 @@ Zeitumstellung hinweg.
 4. `sendPhoto` an den Kanal, Bild als URL von sarahmann.de
 5. `zustand.json` fortschreiben und ins Repo committen
 
-Weder Vercel noch GitHub garantieren eine minutengenaue Ausführung. Geplant ist
-"gegen 16 Uhr", Abweichungen von einigen Minuten sind normal.
+Eine minutengenaue Ausführung ist mit GitHub nicht zu haben und hier auch nicht
+gewollt. Die Streuung ist Teil des Entwurfs.
 
 ## Bilder
 
@@ -101,7 +116,8 @@ Position rückt nicht vor, der Beitrag geht am nächsten Tag raus. Verpasste Tag
 werden nicht nachgeholt: ein Tag Lücke ist besser als zwei Beiträge auf einmal.
 
 Fällt der Vorrat unter 30 Beiträge, schickt der Bot eine private Nachricht an
-Timon. Das lässt einen Monat Zeit zum Nachlegen.
+Timon. Bei zwei bis drei Beiträgen pro Woche reichen die 314 Beiträge rund zwei
+Jahre.
 
 ## Zugangsdaten
 

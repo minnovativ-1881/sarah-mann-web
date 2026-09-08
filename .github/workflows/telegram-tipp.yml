@@ -1,12 +1,17 @@
-name: Telegram-Tagestipp
+name: Telegram-Beitrag
 
-# Laeuft zweimal, weil GitHub nur UTC kennt: 14:00 UTC ist Sommerzeit 16 Uhr in
-# Berlin, 15:00 UTC ist Winterzeit 16 Uhr. Das Skript prueft selbst, welcher der
-# beiden Laeufe der richtige ist, und bricht beim anderen sofort ab.
+# Stuendlich, nicht zu einer festen Uhrzeit.
+#
+# Grund: GitHub startet zeitgesteuerte Jobs teils mehrere Stunden zu spaet. Ein
+# Job, der auf eine bestimmte Stunde prueft, geht dabei jedes Mal leer aus.
+# Genau das ist hier anfangs passiert.
+#
+# 5 bis 21 Uhr UTC deckt Berlin von 6 bis 23 Uhr ab, im Sommer wie im Winter.
+# Ob wirklich gesendet wird, entscheidet der Wochenplan im Skript: zwei bis drei
+# Beitraege pro Woche, an zufaelligen Tagen zwischen 7 und 22 Uhr.
 on:
   schedule:
-    - cron: "0 14 * * *"
-    - cron: "0 15 * * *"
+    - cron: "0 5-21 * * *"
   workflow_dispatch:
     inputs:
       modus:
