@@ -63,6 +63,13 @@
     "szene": "Ein Kind steht im hellen Garten auf einem umgedrehten Holzkasten und breitet die Arme aus, um die Balance zu halten, konzentriert und zufrieden, ein Erwachsener steht in einigen Schritten Entfernung und schaut zu, ohne die Hände auszustrecken, warmes Nachmittagslicht."
   },
   {
+    "gruppe": "Silo-Bänder",
+    "ordner": "silos",
+    "format": "1920 x 1080 (16:9)",
+    "datei": "familie.webp",
+    "szene": "Eine ganze Familie sitzt am hellen Holztisch beim Abendessen, zwei Erwachsene und drei Kinder, Schüsseln in der Mitte, alle in ein Gespräch vertieft, warmes Abendlicht vom Fenster, unaufgeräumt und echt."
+  },
+  {
     "gruppe": "Test-Kacheln",
     "ordner": "tests",
     "format": "1200 x 800 (3:2)",
@@ -663,5 +670,75 @@
     "format": "1600 x 1067 (3:2)",
     "datei": "kind-vergleicht-sich.webp",
     "szene": "Ein Schulkind sitzt an einem hellen Tisch vor zwei nebeneinandergelegten eigenen Zeichnungen aus verschiedenen Zeiten und betrachtet sie, ein Erwachsener sitzt daneben und schaut mit, ruhiger konzentrierter Moment, Tageslicht vom Fenster."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "kind-darf-unzufrieden-sein.webp",
+    "szene": "Ein Kind sitzt mit verschränkten Armen und abgewandtem Gesicht auf einer Treppenstufe, ein Erwachsener sitzt zwei Stufen tiefer ruhig daneben und schaut nach vorn, kein Trost, kein Streit, helles Tageslicht im Flur."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "familie-dreht-sich-um-ein-kind.webp",
+    "szene": "Ein helles Wohnzimmer aus leichter Distanz, ein Kind im Mittelpunkt auf dem Sofa, zwei Erwachsene und ein weiteres Kind sitzen etwas abseits am Rand des Raumes und schauen zu ihm hin, ruhige Szene, warmes Licht, spürbare Schieflage in der Anordnung."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "paarbeziehung-nach-kindern.webp",
+    "szene": "Zwei Erwachsene sitzen abends nebeneinander auf einem Sofa, zwischen ihnen liegt ein Kalender und ein Stift, beide schauen darauf statt einander an, gedämpftes Lampenlicht, aufgeräumt und still."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wer-schlaeft-wo.webp",
+    "szene": "Blick vom dunklen Flur in ein Schlafzimmer, in dem eine erwachsene Person und zwei Kinder in einem breiten Bett schlafen, im Vordergrund eine offene Tür zu einem zweiten Zimmer mit einem einzelnen bezogenen Bett, sehr weiches Nachtlicht."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "mental-load-verteilen.webp",
+    "szene": "Eine Küchenwand mit Familienkalender, Zetteln, Einkaufsliste und Terminen, davor steht eine erwachsene Person und schaut darauf, Hand am Kinn, Morgenlicht, nur eine Person im Bild."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "verantwortung-im-haushalt.webp",
+    "szene": "Ein etwa achtjähriges Kind räumt allein die Spülmaschine aus und stellt Teller in den Schrank, konzentriert und selbstverständlich, kein Erwachsener im Bild, helle aufgeräumte Küche am Vormittag."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "wenn-helfen-im-weg-steht.webp",
+    "szene": "Ein Kind kämpft im Flur mit dem Reißverschluss seiner Jacke, eine erwachsene Person steht daneben, die Hände bewusst in den Taschen, schaut ruhig zu, warmes Licht von der Haustür."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "zeit-zu-zweit-im-alltag.webp",
+    "szene": "Zwei Erwachsene sitzen spät abends nebeneinander auf dem Küchenboden an die Schränke gelehnt, jeder mit einer Tasse, entspanntes Gespräch, im Hintergrund die dunkle Wohnung, warmes kleines Licht."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "ein-elternteil-ist-immer-dran.webp",
+    "szene": "Ein Kind klammert sich an eine erwachsene Person und streckt die Arme nach ihr aus, während die zweite erwachsene Person daneben steht und wartet, ruhige alltägliche Szene in einem hellen Wohnraum, niemand wirkt verärgert."
+  },
+  {
+    "gruppe": "Silo 10: Familie in Balance",
+    "ordner": "artikel",
+    "format": "1600 x 1067 (3:2)",
+    "datei": "gemeinsame-familienzeit.webp",
+    "szene": "Fünf Personen an einem gedeckten Küchentisch, Schüsseln werden herumgereicht, ein Kind erzählt und alle hören hin, kein Bildschirm im Bild, warmes Abendlicht, lebendige unaufgeräumte Stimmung."
   }
 ]

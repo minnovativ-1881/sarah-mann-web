@@ -104,9 +104,44 @@ export default function MethodeSection() {
           <p className="text-deep/70 text-base mt-10 max-w-3xl leading-relaxed font-normal">
             Verbinden und Zurückfinden sind die volle Liebe. Entscheiden und Handeln
             sind die klare Führung. Und das Handeln sieht in jedem Alter anders aus:
-            beim Kleinkind heißt es begleiten, beim Schulkind die natürliche Folge
+            Beim Kleinkind heißt es begleiten, beim Schulkind die natürliche Folge
             wirken lassen, beim Teenager die Vereinbarung.
           </p>
+
+          {/* Die zwei Haltungen ueber den Schritten.
+              Die vier Schritte beschreiben den einzelnen Moment. Zutrauen und
+              Familie als System beschreiben, wovon dieser Moment ausgeht. Ohne
+              sie liest sich die Methode wie eine Konflikttechnik, und genau das
+              ist sie nicht. */}
+          <div className="mt-16 pt-12 border-t border-cream-mid">
+            <p className="text-overline text-terra mb-8">
+              Was über den vier Schritten steht
+            </p>
+            <div className="grid md:grid-cols-2 gap-10 lg:gap-16">
+              <div>
+                <h3 className="font-serif text-deep text-2xl mb-4">Zutrauen</h3>
+                <p className="text-deep/80 leading-relaxed">
+                  Ein Kind darf warten, enttäuscht sein, etwas selbst versuchen
+                  und dabei scheitern. Wer ein Kind vor jeder Schwierigkeit
+                  bewahrt, nimmt ihm die Erfahrung, dass es Schwierigkeiten
+                  bewältigen kann. Zutrauen ist kein Gegenteil von Fürsorge,
+                  sondern ihre reifere Form.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-serif text-deep text-2xl mb-4">
+                  Familie als System
+                </h3>
+                <p className="text-deep/80 leading-relaxed">
+                  Eine Familie funktioniert nicht dadurch gut, dass ein Kind
+                  immer möglichst zufrieden ist. Geschwister zählen, Eltern
+                  zählen, und die Beziehung der Erwachsenen zueinander zählt
+                  auch. Was dauerhaft um ein einziges Mitglied herum gebaut ist,
+                  trägt am Ende niemanden mehr.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

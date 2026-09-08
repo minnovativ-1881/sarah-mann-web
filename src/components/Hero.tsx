@@ -77,10 +77,14 @@ export default function Hero() {
 
             {/* Stats */}
             <div className="flex gap-8 sm:gap-12 mt-16 pt-10 border-t border-deep/10">
+              {/* Nur belegbare Zahlen. Vorher stand hier "15+ Jahre Erfahrung"
+                  und "1.000+ Familien begleitet". Beides passte nicht: Die
+                  Beratung laeuft seit acht Jahren, eigene Kinder seit sechzehn,
+                  und die Zahl der begleiteten Familien ist nicht belegt. */}
               {[
-                { num: "15+", label: "Jahre Erfahrung" },
-                { num: "7", label: "eigene Kinder" },
-                { num: "1.000+", label: "Familien begleitet" },
+                { num: "8", label: "Jahre Beratung" },
+                { num: "16", label: "Jahre eigene Kinder" },
+                { num: "7", label: "Kinder im Haus" },
               ].map((stat) => (
                 <div key={stat.label}>
                   <div className="font-serif text-terra" style={{ fontSize: "2.25rem", lineHeight: 1, fontWeight: 300 }}>

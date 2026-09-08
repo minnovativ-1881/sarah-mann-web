@@ -38,9 +38,14 @@ const principles = [
       "Das kindliche Gehirn braucht Orientierung. Wenn das Kind weiß, was als Nächstes kommt, sinkt die kognitive Belastung. Energie, die sonst ins Testen geht, steht für Lernen, Spielen und Wachsen zur Verfügung.",
   },
   {
-    title: "Elterliche Autonomie",
+    title: "Zutrauen",
     content:
-      "Eltern sind Teil des Systems, nicht nur Dienstleister. Ein erschöpftes Elternteil führt schlechter. Eigene Grenzen, eigene Bedürfnisse, eigene Ressourcen zu haben ist keine Schwäche — es ist Voraussetzung.",
+      "Ein Kind darf warten, enttäuscht sein, etwas allein versuchen und dabei scheitern. Wer jede Schwierigkeit abnimmt, nimmt auch die Erfahrung weg, dass man Schwierigkeiten bewältigen kann. Aus Zutrauen wachsen Selbstständigkeit und Widerstandskraft, nicht aus Schonung.",
+  },
+  {
+    title: "Familie als System",
+    content:
+      "Eine Familie funktioniert nicht dadurch gut, dass ein Kind immer möglichst zufrieden ist. Eltern sind Teil des Systems, nicht nur Dienstleister, und ein erschöpftes Elternteil führt schlechter. Geschwister zählen, und die Beziehung der Erwachsenen zueinander zählt auch. Was dauerhaft um ein einziges Mitglied herum gebaut wird, trägt am Ende niemanden mehr.",
   },
   {
     title: "Selbstregulation statt Abhängigkeit",

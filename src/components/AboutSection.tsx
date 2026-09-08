@@ -1,9 +1,9 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Image from "next/image";
 
 const credentials = [
   { label: "Pädagogin", detail: "Wissenschaftliche Basis" },
-  { label: "Babyschlafberaterin", detail: "15+ Jahre Praxis" },
+  { label: "Babyschlafberaterin", detail: "8 Jahre Praxis" },
   { label: "Mutter von 7", detail: "Alle Phasen aus erster Hand" },
   { label: "Klare Führung", detail: "Volle Liebe" },
 ];
@@ -38,7 +38,7 @@ export default function AboutSection() {
               </div>
             </div>
             <p className="font-serif text-deep/70 italic text-sm leading-relaxed mt-6 max-w-sm">
-              &bdquo;Mit sieben Kindern und f&uuml;nfzehn Jahren
+              &bdquo;Mit sieben Kindern und acht Jahren
               Beratungspraxis habe ich gelernt: Perfektion ist nicht das
               Ziel. Zuverl&auml;ssigkeit ist das Ziel.&ldquo;
             </p>
@@ -59,9 +59,9 @@ export default function AboutSection() {
             <div className="space-y-5 body-text text-deep/85 mt-8">
               <p>
                 Sarah Mann ist P&auml;dagogin, Babyschlafberaterin und Mutter
-                von sieben Kindern. Seit &uuml;ber f&uuml;nfzehn Jahren
-                begleitet sie Familien in der Schlafberatung und
-                Erziehungsbegleitung.
+                von sieben Kindern. Seit acht Jahren begleitet sie Familien
+                in der Schlafberatung und in Erziehungsfragen, eigene Kinder
+                hat sie seit sechzehn Jahren.
               </p>
               <p>
                 Sie verbindet wissenschaftliche Fundierung (Baumrind, Bowlby,

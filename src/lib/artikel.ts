@@ -58,6 +58,15 @@ export const SILOS = {
     problem:
       "Es liegt nicht daran, dass du zu wenig Geduld hast. Es liegt daran, dass nichts mehr da ist. Über diesen Teil wird selten offen gesprochen, und er entscheidet über den Rest.",
   },
+  familie: {
+    slug: "familie",
+    test: "kraft-test",
+    name: "Familie in Balance",
+    beschreibung:
+      "Die Ebene über der Erziehung: Paarbeziehung, Aufgabenverteilung und die Frage, wie viel Platz ein einzelnes Kind im Familienleben bekommen darf.",
+    problem:
+      "Zwei Kinder im Elternbett, einer schläft im Gästezimmer, und niemand weiß mehr, wann ihr zuletzt ein Gespräch ohne Organisation geführt habt. Eine Familie funktioniert nicht dadurch gut, dass ein Kind immer möglichst zufrieden ist.",
+  },
   reizueberflutung: {
     slug: "reizueberflutung",
     test: "reizprofil-test",
