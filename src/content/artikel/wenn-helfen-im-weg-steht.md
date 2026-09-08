@@ -1,4 +1,4 @@
----
+﻿---
 titel: 'Wenn Helfen dem Kind im Weg steht'
 seoTitel: 'Überbehütung erkennen: Wann Helfen dem Kind schadet'
 beschreibung: 'Die meisten Eltern helfen zu früh, nicht zu wenig. Woran du erkennst, dass du eine Erfahrung wegnimmst, und die Sekundenregel, die im Alltag den Unterschied macht.'
@@ -6,6 +6,9 @@ eyebrow: 'Familie in Balance'
 silo: familie
 datum: '2026-09-08'
 lesezeit: 11
+# Die Erwachsene steht aufrecht im Flur, ihr Kopf sitzt weit oben.
+# Ohne diesen Wert fehlt er in der Kachel.
+bildPosition: 'center 18%'
 test: beduerfnis-oder-wunsch
 verwandt:
   - verantwortung-im-haushalt

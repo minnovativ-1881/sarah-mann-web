@@ -1,4 +1,4 @@
----
+﻿---
 titel: 'Dein Kind darf unzufrieden sein'
 seoTitel: 'Kind ist unzufrieden: Wann du nichts falsch gemacht hast'
 beschreibung: 'Die Unzufriedenheit deines Kindes ist keine Rückmeldung über deine Erziehung. Warum dieser eine Gedanke mehr entlastet als jede Technik und wo die Grenze dazu verläuft.'
@@ -6,6 +6,9 @@ eyebrow: 'Familie in Balance'
 silo: familie
 datum: '2026-09-08'
 lesezeit: 11
+# Das Kind sitzt hoch auf der Treppenstufe. Im Kopfbild passt der
+# Standard, die Kachel schneidet aber mehr weg und koepft es.
+bildPosition: 'center 18%'
 test: kraft-test
 verwandt:
   - familie-dreht-sich-um-ein-kind

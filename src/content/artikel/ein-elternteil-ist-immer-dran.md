@@ -1,4 +1,4 @@
----
+﻿---
 titel: 'Immer dieselbe Person'
 seoTitel: 'Kind will nur einen Elternteil: Wie ihr die Rollen ausgleicht'
 beschreibung: 'In vielen Familien ist einer zuständig und der andere Ersatz. Warum das selten am Kind liegt, was es mit beiden Erwachsenen macht und wie sich die Verteilung tatsächlich ändert.'
@@ -6,6 +6,9 @@ eyebrow: 'Familie in Balance'
 silo: familie
 datum: '2026-09-08'
 lesezeit: 11
+# Der zweite Erwachsene steht rechts am oberen Bildrand, sein Kopf
+# wird vom Standardausschnitt angeschnitten.
+bildPosition: 'center 0%'
 test: eltern-test
 verwandt:
   - familie-dreht-sich-um-ein-kind
