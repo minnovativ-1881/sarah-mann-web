@@ -7,6 +7,14 @@
       "silo": "gefuehle",
       "cta": "artikel",
       "nachricht": 12
+    },
+    {
+      "datum": "2026-09-10",
+      "id": "aussagen-statt-aufforderungen-01",
+      "artikel": "aussagen-statt-aufforderungen",
+      "silo": "reizueberflutung",
+      "cta": "weiterleiten",
+      "nachricht": 14
     }
   ]
 }
