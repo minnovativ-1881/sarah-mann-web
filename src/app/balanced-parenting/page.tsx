@@ -153,7 +153,7 @@ export default function BalancedParentingPage() {
                   neurobiologisch erklärt. Das Ergebnis ist immer das gleiche:
                 </p>
                 <p className="text-deep font-normal text-lg">
-                  Hohe Wärme und hohe Anforderungen. Beides. Gleichzeitig.
+                  Hohe Wärme und hohe Anforderungen, von denselben Eltern im selben Alltag.
                 </p>
               </div>
             </div>

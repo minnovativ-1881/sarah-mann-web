@@ -140,9 +140,10 @@ export default function UeberSarahSeite() {
             <p>
               Seit acht Jahren begleite ich Familien in der Schlafberatung und
               in Erziehungsfragen. Eigene Kinder habe ich seit sechzehn Jahren.
-              In dieser Zeit habe ich sehr viele Abende gehört, die ähnlich
-              klangen: Eltern, die alles richtig machen wollen, es freundlich
-              erklären, geduldig bleiben, und trotzdem abends laut werden.
+              Viele Eltern haben mir in dieser Zeit von ihren Abenden erzählt,
+              und diese Erzählungen ähneln sich sehr: Sie wollen alles richtig
+              machen, erklären freundlich, bleiben lange geduldig und werden am
+              Ende trotzdem laut.
             </p>
             <p>
               Was diesen Eltern fehlte, war nie die Liebe. Es war das Geländer.

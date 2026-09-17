@@ -57,10 +57,10 @@ export default function ConceptSection() {
               wirklich brauchen.
             </h2>
             <p className="body-text text-deep/85">
-              Die wissenschaftlich am besten bestätigte Antwort auf die Frage,
-              was Kinder wirklich brauchen. Hohe Wärme{" "}
-              <em className="font-serif text-terra not-italic">und</em> hohe
-              Klarheit. Beides. Gleichzeitig.
+              Die Antwort ist gut erforscht und einfacher, als sie sich im
+              Alltag anfühlt: Dein Kind braucht deine Wärme{" "}
+              <em className="font-serif text-terra not-italic">und</em> deine
+              Klarheit. Erst zusammen geben sie ihm Halt.
             </p>
           </div>
           <div className="divider-terra mt-10" />

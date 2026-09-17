@@ -40,7 +40,7 @@ Dein Kind hat gerade wirklich Trennungsschmerz. Das ist kein Theater, kein Manip
 
 **Und** es ist trotzdem richtig, dass du gehst.
 
-Beides gilt. Gleichzeitig. Genau das macht diesen Moment so anstrengend, denn unser Gefühl sagt uns: Wenn es weh tut, muss ich es beenden. Bei einem Kind, das sich den Kopf gestoßen hat, stimmt das auch. Hier nicht.
+Beides gilt zur selben Zeit, und genau das macht diesen Moment so anstrengend, denn unser Gefühl sagt uns: Wenn es weh tut, muss ich es beenden. Bei einem Kind, das sich den Kopf gestoßen hat, stimmt das auch. Hier nicht.
 
 ## Der Unterschied zwischen Bedürfnis und Wunsch
 
