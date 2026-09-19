@@ -23,6 +23,14 @@
       "silo": "grenzen",
       "cta": "test",
       "nachricht": 15
+    },
+    {
+      "datum": "2026-09-19",
+      "id": "abendroutine-die-haelt-01",
+      "artikel": "abendroutine-die-haelt",
+      "silo": "schlaf",
+      "cta": "verwandt",
+      "nachricht": 16
     }
   ]
 }
