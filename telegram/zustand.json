@@ -31,6 +31,14 @@
       "silo": "schlaf",
       "cta": "verwandt",
       "nachricht": 16
+    },
+    {
+      "datum": "2026-09-20",
+      "id": "dankbarkeit-lernen-01",
+      "artikel": "dankbarkeit-lernen",
+      "silo": "charakter",
+      "cta": "weiterleiten-reaktion",
+      "nachricht": 17
     }
   ]
 }
