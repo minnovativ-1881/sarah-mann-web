@@ -39,6 +39,14 @@
       "silo": "charakter",
       "cta": "weiterleiten-reaktion",
       "nachricht": 17
+    },
+    {
+      "datum": "2026-09-21",
+      "id": "eigene-wut-regulieren-01",
+      "artikel": "eigene-wut-regulieren",
+      "silo": "eltern",
+      "cta": "test",
+      "nachricht": 18
     }
   ]
 }
