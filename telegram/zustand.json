@@ -47,6 +47,14 @@
       "silo": "eltern",
       "cta": "test",
       "nachricht": 18
+    },
+    {
+      "datum": "2026-09-22",
+      "id": "aeltestes-kind-verantwortung-01",
+      "artikel": "aeltestes-kind-verantwortung",
+      "silo": "geschwister",
+      "cta": "artikel",
+      "nachricht": 19
     }
   ]
 }
