@@ -55,6 +55,14 @@
       "silo": "geschwister",
       "cta": "artikel",
       "nachricht": 19
+    },
+    {
+      "datum": "2026-09-24",
+      "id": "autoritativ-oder-autoritaer-01",
+      "artikel": "autoritativ-oder-autoritaer",
+      "silo": "grundlagen",
+      "cta": "weiterleiten",
+      "nachricht": 20
     }
   ]
 }
