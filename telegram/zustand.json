@@ -63,6 +63,14 @@
       "silo": "grundlagen",
       "cta": "weiterleiten",
       "nachricht": 20
+    },
+    {
+      "datum": "2026-09-29",
+      "id": "erste-schulwochen-01",
+      "artikel": "erste-schulwochen",
+      "silo": "uebergaenge",
+      "cta": "test",
+      "nachricht": 21
     }
   ]
 }
