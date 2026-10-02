@@ -71,6 +71,14 @@
       "silo": "uebergaenge",
       "cta": "test",
       "nachricht": 21
+    },
+    {
+      "datum": "2026-10-02",
+      "id": "enttaeuschung-aushalten-01",
+      "artikel": "enttaeuschung-aushalten",
+      "silo": "gefuehle",
+      "cta": "verwandt",
+      "nachricht": 22
     }
   ]
 }
