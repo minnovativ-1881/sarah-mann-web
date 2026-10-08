@@ -79,6 +79,14 @@
       "silo": "gefuehle",
       "cta": "verwandt",
       "nachricht": 22
+    },
+    {
+      "datum": "2026-10-08",
+      "id": "elterngespraech-kind-faellt-auf-01",
+      "artikel": "elterngespraech-kind-faellt-auf",
+      "silo": "reizueberflutung",
+      "cta": "weiterleiten-reaktion",
+      "nachricht": 23
     }
   ]
 }
