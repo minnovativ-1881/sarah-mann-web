@@ -87,6 +87,14 @@
       "silo": "reizueberflutung",
       "cta": "weiterleiten-reaktion",
       "nachricht": 23
+    },
+    {
+      "datum": "2026-10-10",
+      "id": "kind-hoert-nicht-trotz-konsequenz-01",
+      "artikel": "kind-hoert-nicht-trotz-konsequenz",
+      "silo": "grenzen",
+      "cta": "test",
+      "nachricht": 24
     }
   ]
 }
