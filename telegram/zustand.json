@@ -95,6 +95,14 @@
       "silo": "grenzen",
       "cta": "test",
       "nachricht": 24
+    },
+    {
+      "datum": "2026-10-16",
+      "id": "einschlafbegleitung-macht-wuetend-01",
+      "artikel": "einschlafbegleitung-macht-wuetend",
+      "silo": "schlaf",
+      "cta": "artikel",
+      "nachricht": 25
     }
   ]
 }
