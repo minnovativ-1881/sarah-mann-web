@@ -103,6 +103,14 @@
       "silo": "schlaf",
       "cta": "artikel",
       "nachricht": 25
+    },
+    {
+      "datum": "2026-10-17",
+      "id": "frustrationstoleranz-kind-01",
+      "artikel": "frustrationstoleranz-kind",
+      "silo": "gefuehle",
+      "cta": "weiterleiten",
+      "nachricht": 26
     }
   ]
 }
