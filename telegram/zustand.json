@@ -111,6 +111,14 @@
       "silo": "gefuehle",
       "cta": "weiterleiten",
       "nachricht": 26
+    },
+    {
+      "datum": "2026-10-21",
+      "id": "ehrlichkeit-kind-luegt-01",
+      "artikel": "ehrlichkeit-kind-luegt",
+      "silo": "charakter",
+      "cta": "test",
+      "nachricht": 27
     }
   ]
 }
