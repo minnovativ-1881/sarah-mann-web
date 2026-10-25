@@ -119,6 +119,14 @@
       "silo": "charakter",
       "cta": "test",
       "nachricht": 27
+    },
+    {
+      "datum": "2026-10-25",
+      "id": "elterliche-erschoepfung-01",
+      "artikel": "elterliche-erschoepfung",
+      "silo": "eltern",
+      "cta": "verwandt",
+      "nachricht": 28
     }
   ]
 }
