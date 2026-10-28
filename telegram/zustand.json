@@ -127,6 +127,14 @@
       "silo": "eltern",
       "cta": "verwandt",
       "nachricht": 28
+    },
+    {
+      "datum": "2026-10-28",
+      "id": "eifersucht-auf-das-baby-01",
+      "artikel": "eifersucht-auf-das-baby",
+      "silo": "geschwister",
+      "cta": "weiterleiten-reaktion",
+      "nachricht": 29
     }
   ]
 }
