@@ -135,6 +135,14 @@
       "silo": "geschwister",
       "cta": "weiterleiten-reaktion",
       "nachricht": 29
+    },
+    {
+      "datum": "2026-10-30",
+      "id": "autoritativer-erziehungsstil-01",
+      "artikel": "autoritativer-erziehungsstil",
+      "silo": "grundlagen",
+      "cta": "test",
+      "nachricht": 30
     }
   ]
 }
