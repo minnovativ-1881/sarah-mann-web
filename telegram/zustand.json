@@ -143,6 +143,14 @@
       "silo": "grundlagen",
       "cta": "test",
       "nachricht": 30
+    },
+    {
+      "datum": "2026-11-03",
+      "id": "familienregeln-jahreswechsel-01",
+      "artikel": "familienregeln-jahreswechsel",
+      "silo": "uebergaenge",
+      "cta": "artikel",
+      "nachricht": 31
     }
   ]
 }
