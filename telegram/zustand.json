@@ -151,6 +151,14 @@
       "silo": "uebergaenge",
       "cta": "artikel",
       "nachricht": 31
+    },
+    {
+      "datum": "2026-11-04",
+      "id": "gefuehlsstark-oder-adhs-01",
+      "artikel": "gefuehlsstark-oder-adhs",
+      "silo": "reizueberflutung",
+      "cta": "weiterleiten",
+      "nachricht": 32
     }
   ]
 }
