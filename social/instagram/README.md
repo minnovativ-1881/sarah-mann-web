@@ -169,6 +169,18 @@ handeln. Sobald der Text aus Sarahs Haushalt kommt, ist er unverwechselbar.
 
 Beispiel-Decks: `decks/beispiel-gedankengang.json` und `decks/beispiel-liste.json`.
 
+### Der dritte Vorrat: Zahlen
+
+`../statistiken-reels.md` ist die Zahlensammlung. Geprüfte Statistiken zu
+allen sieben Silos, jede mit Quelle, Jahr, Stichprobe und einer Einstufung,
+wie belastbar sie ist. Dazu eine Sperrliste mit Zahlen, die in
+Eltern-Accounts ständig kursieren und der Prüfung nicht standhalten, sowie
+fünfzehn Story-Umfragen, die aus einer Forschungszahl eine eigene machen.
+
+Regel für die Zahlen: **Die Zahl ist nie der Hook, sie ist die Wende.** Erst
+die Szene auf Folie 1, dann die Zahl auf Folie 2. Und die Quelle immer im
+Text nennen, nicht als Fußnote.
+
 ## Die letzte Folie
 
 Sie muss die ganze Arbeit allein machen: sagen, dass es einen Test gibt, was
