@@ -1,0 +1,8 @@
+{
+  "voice_id": "REJHCJAXPaPT3ZXhOrax",
+  "name": "Sarah - Babyschlafberaterin (Professional Voice Clone)",
+  "model": "eleven_v4",
+  "stability": 0.0,
+  "similarity": 0.9,
+  "praefix": "[warm, lively and conversational, like talking to a tired friend at the kitchen table, natural changes in pace and pitch]"
+}

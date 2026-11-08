@@ -19,3 +19,10 @@ zugaenge-*.env
 # Gerenderte Karussell-Folien, entstehen aus den Decks neu
 social/instagram/export/
 __pycache__/
+
+# Reels: Videos und Arbeitskopien entstehen neu; Stimmaufnahmen (audio/) bleiben drin, die kosten Credits
+social/reels/projekt/renders/
+social/reels/projekt/snapshots/
+social/reels/projekt/bilder/
+social/reels/projekt/index.html
+social/reels/projekt/compositions/

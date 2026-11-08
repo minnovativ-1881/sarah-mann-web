@@ -1,0 +1,460 @@
+[
+  {
+    "id": "z01-weitergabe",
+    "titel": "Ich werde nie wie meine Eltern",
+    "variante": "dunkel",
+    "quelle": "Uniklinik Ulm / UNICEF 2025 · repräsentativ, 2.530 Befragte",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Du hast dir geschworen: Ich werde nie so wie meine Eltern.",
+        "zeige": "Ich werde *nie* so wie meine Eltern.",
+        "bild": "artikel/eigene-wut-regulieren.webp",
+        "fokus": "62%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Die Uniklinik Ulm hat dazu mit UNICEF über zweitausendfünfhundert Menschen in ganz Deutschland befragt.",
+        "zeige": "2.530 Menschen. *Ganz Deutschland.*",
+        "bild": "artikel/wenn-oma-anders-erzieht.webp",
+        "fokus": "45%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Wer als Kind angeschrien, eingesperrt oder mit Schweigen bestraft wurde, bestraft heute selbst zu zwei Dritteln genauso.",
+        "zahl": "2 von 3",
+        "zeige": "bestrafen ihr Kind so, wie sie selbst bestraft wurden.",
+        "bild": "artikel/scham-bei-kindern.webp",
+        "fokus": "30%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Bei allen anderen sind es rund fünf Prozent.",
+        "zahl": 5,
+        "einheit": "%",
+        "zeige": "bei denen, die das *nicht* erlebt haben.",
+        "bild": "artikel/ko-regulation.webp",
+        "fokus": "50%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Das ist keine Charakterschwäche. Es ist ein Muster. Und ein Muster kann man sehen lernen.",
+        "zeige": "Kein Charakterfehler. *Ein Muster.*",
+        "bild": "artikel/warum-eltern-heute-unsicher-sind.webp",
+        "fokus": "38%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Wenn dir in einem schweren Moment plötzlich der Satz deiner Mutter rausrutscht, und du dich danach schämst:",
+        "zeige": "Wenn dir plötzlich *der Satz deiner Mutter* rausrutscht.",
+        "bild": "artikel/kind-darf-unzufrieden-sein.webp",
+        "fokus": "35%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Leuchtturm in die Kommentare. Dann schicke ich dir meinen Test. Er zeigt dir, wo bei dir Konsequenz aufhört und Strafe anfängt. Zwei Minuten, kostenlos.",
+        "zeige": "Schreib *LEUCHTTURM* in die Kommentare.",
+        "klein": "Der Test: Wo hört Konsequenz auf, wo fängt Strafe an? 2 Minuten, kostenlos."
+      }
+    ],
+    "caption": "Zwei von drei. So viele Eltern, die als Kind angeschrien, eingesperrt oder mit Schweigen bestraft wurden, bestrafen ihre eigenen Kinder heute genauso. Bei allen anderen sind es rund fünf Prozent.\n\nDas sagt eine repräsentative Befragung der Uniklinik Ulm mit UNICEF Deutschland, 2.530 Menschen, Anfang 2025.\n\nDas ist keine Charakterschwäche. Es ist ein Muster, und ein Muster kann man sehen lernen.\n\nWenn dir in einem schweren Moment plötzlich der Satz deiner Mutter rausrutscht: Schreib LEUCHTTURM in die Kommentare, dann schicke ich dir meinen Test. Er zeigt dir, wo bei dir Konsequenz aufhört und Strafe anfängt. Zwei Minuten, kostenlos.\n\n#erziehung #elternsein #konsequenz #grenzensetzen #familienalltag #kindererziehung #klarheitundwärme"
+  },
+  {
+    "id": "z02-seit-2000",
+    "titel": "Bis 2000 war der Klaps erlaubt",
+    "variante": "hell",
+    "quelle": "Uniklinik Ulm / UNICEF · Befragungen 2001 bis 2025",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Bis zum Jahr zweitausend hatten Eltern in Deutschland ein Züchtigungsrecht. Ein Klaps war erlaubt.",
+        "zeige": "Bis 2000 war der Klaps in Deutschland *erlaubt.*",
+        "bild": "hand-in-hand.webp",
+        "fokus": "45%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Erst im November zweitausend kam ins Gesetz: Kinder haben ein Recht auf gewaltfreie Erziehung.",
+        "zeige": "Erst seit November 2000: *Recht auf gewaltfreie Erziehung.*",
+        "bild": "artikel/was-kinder-sicher-macht.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ein Jahr später hielten trotzdem noch drei von vier Menschen den Klaps für angebracht.",
+        "zahl": 76.4,
+        "nachkomma": 1,
+        "einheit": "%",
+        "zeige": "hielten den Klaps 2001 noch für angebracht.",
+        "bild": "artikel/dankbarkeit-lernen.webp",
+        "fokus": "55%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Heute ist es nicht einmal mehr jeder Dritte.",
+        "zahl": 30.9,
+        "nachkomma": 1,
+        "einheit": "%",
+        "zeige": "sind es heute.",
+        "bild": "augenhoehe.webp",
+        "fokus": "50%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Unsere Generation erzieht anders als jede vor ihr. Und zwar ohne Vorbild.",
+        "zeige": "Wir erziehen *ohne Vorbild.*",
+        "bild": "artikel/gentle-parenting-und-grenzen.webp",
+        "fokus": "60%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Und genau deshalb fühlt es sich so oft wie Raten an: Wie setze ich Grenzen, ohne hart zu werden?",
+        "zeige": "Wie setze ich Grenzen, *ohne hart zu werden?*",
+        "bild": "artikel/grenzen-setzen-kleinkind.webp",
+        "fokus": "55%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Kompass in die Kommentare. Dann schicke ich dir meinen Test. Er zeigt dir, wo du gerade zwischen Wärme und Klarheit stehst. Zwei Minuten, kostenlos.",
+        "zeige": "Schreib *KOMPASS* in die Kommentare.",
+        "klein": "Wärme und Klarheit: Wo stehst du gerade? 2 Minuten, kostenlos."
+      }
+    ],
+    "caption": "Bis zum Jahr 2000 hatten Eltern in Deutschland ein Züchtigungsrecht. Erst seit dem 8. November 2000 steht im Gesetz: Kinder haben ein Recht auf gewaltfreie Erziehung.\n\n2001 hielten trotzdem noch 76,4 Prozent den Klaps für angebracht. Heute sind es 30,9 Prozent. (Uniklinik Ulm mit UNICEF, Befragungen 2001 bis 2025)\n\nUnsere Generation erzieht anders als jede vor ihr. Und zwar ohne Vorbild. Deshalb fühlt es sich so oft wie Raten an.\n\nWie setze ich Grenzen, ohne hart zu werden? Schreib KOMPASS in die Kommentare, dann schicke ich dir meinen Test. Er zeigt dir, wo du gerade zwischen Wärme und Klarheit stehst.\n\n#erziehung #gewaltfreieerziehung #elternsein #grenzensetzen #familienalltag #kindererziehung #klarheitundwärme"
+  },
+  {
+    "id": "z03-angeschrien",
+    "titel": "Hast du dein Kind schon mal angeschrien?",
+    "variante": "dunkel",
+    "quelle": "Uniklinik Ulm / UNICEF 2025 · repräsentative Befragung",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Hast du dein Kind schon mal angeschrien?",
+        "zeige": "Hast du dein Kind schon mal *angeschrien?*",
+        "bild": "artikel/morgens-ohne-geschrei.webp",
+        "fokus": "30%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Genau das hat eine große Befragung in ganz Deutschland wissen wollen.",
+        "zeige": "Eine große Befragung. *Ganz Deutschland.*",
+        "bild": "artikel/kind-hoert-nicht-trotz-konsequenz.webp",
+        "fokus": "60%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Ja gesagt hat gut jeder Vierte.",
+        "zahl": 26.3,
+        "nachkomma": 1,
+        "einheit": "%",
+        "zeige": "sagen: Ja, habe ich schon.",
+        "bild": "artikel/einschlafbegleitung-macht-wuetend.webp",
+        "fokus": "55%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und sechzehn Prozent finden Anschreien sogar in Ordnung.",
+        "zahl": 16.1,
+        "nachkomma": 1,
+        "einheit": "%",
+        "zeige": "halten Anschreien für angemessen.",
+        "bild": "artikel/nachgeben-oder-durchhalten.webp",
+        "fokus": "45%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Jetzt du. Ganz ehrlich, nur für dich: Wie oft war es diese Woche?",
+        "zeige": "Und du? *Ganz ehrlich.*",
+        "bild": "artikel/ich-mag-mein-kind-gerade-nicht.webp",
+        "fokus": "38%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Meistens passiert es beim dritten Nein. Dann, wenn das erste nicht gehalten hat.",
+        "zeige": "Es passiert meistens *beim dritten Nein.*",
+        "bild": "artikel/machtkampf-kleinkind.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Anker in die Kommentare. Dann schicke ich dir meinen Test. Er zeigt dir, ob dein Nein steht oder wandert. Zwei Minuten, kostenlos.",
+        "zeige": "Schreib *ANKER* in die Kommentare.",
+        "klein": "Steht dein Nein oder wandert es? 2 Minuten, kostenlos."
+      }
+    ],
+    "caption": "26,3 Prozent sagen: Ja, ich habe mein Kind schon angeschrien. 16,1 Prozent halten Anschreien sogar für angemessen. (Repräsentative Befragung der Uniklinik Ulm mit UNICEF Deutschland, Anfang 2025)\n\nJetzt du. Ganz ehrlich, nur für dich: Wie oft war es diese Woche?\n\nMeistens passiert es beim dritten Nein. Dann, wenn das erste nicht gehalten hat.\n\nSchreib ANKER in die Kommentare, dann schicke ich dir meinen Test. Er zeigt dir, ob dein Nein steht oder wandert. Zwei Minuten, kostenlos.\n\n#erziehung #neinsagen #grenzensetzen #elternsein #familienalltag #kindererziehung #klarheitundwärme"
+  },
+  {
+    "id": "z04-schlaf",
+    "titel": "Sechs Jahre bis zum alten Schlaf",
+    "variante": "hell",
+    "quelle": "Richter u. a., Sleep 2019 · SOEP, 4.659 Eltern",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Du denkst, sobald das Baby durchschläft, schläfst du auch wieder wie früher?",
+        "zeige": "Wann schläfst du wieder *wie früher?*",
+        "bild": "silos/schlaf.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Forscher haben dafür fast fünftausend Mütter und Väter über Jahre begleitet.",
+        "zeige": "4.659 Eltern. *Über Jahre* begleitet.",
+        "bild": "artikel/einschlafbegleitung-wie-lange.webp",
+        "fokus": "55%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In den ersten drei Monaten fehlt Müttern jede Nacht rund eine Stunde Schlaf.",
+        "zahl": 60,
+        "einheit": "Min.",
+        "zeige": "weniger Schlaf für Mütter. *Jede Nacht.*",
+        "bild": "artikel/eifersucht-auf-das-baby.webp",
+        "fokus": "50%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und selbst wenn das Kind vier bis sechs Jahre alt ist, sind es immer noch zwanzig Minuten.",
+        "zahl": 20,
+        "einheit": "Min.",
+        "zeige": "fehlen noch, wenn das Kind *sechs* ist.",
+        "bild": "artikel/kind-steht-abends-immer-auf.webp",
+        "fokus": "60%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Und das Erstaunliche: Geld hat daran nichts geändert. Und auch nicht, ob man allein erzieht oder zu zweit.",
+        "zeige": "Geld half nicht. *Zu zweit* auch nicht.",
+        "bild": "artikel/wer-schlaeft-wo.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Wenn du abends nur noch funktionierst, und jedes Einschlafen eine Stunde dauert:",
+        "zeige": "Wenn jedes Einschlafen *eine Stunde* dauert.",
+        "bild": "artikel/schlaf-als-fuehrungsaufgabe.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Hafen in die Kommentare. Dann schicke ich dir meinen Test. Er zeigt dir, an welcher Stelle euer Abend kippt. Zwei Minuten, kostenlos.",
+        "zeige": "Schreib *HAFEN* in die Kommentare.",
+        "klein": "Wo kippt euer Abend? 7 Situationen, 2 Minuten, kostenlos."
+      }
+    ],
+    "caption": "Eine Stunde. So viel Schlaf fehlt Müttern in den ersten drei Monaten nach der Geburt, jede Nacht. Ist das Kind vier bis sechs Jahre alt, sind es immer noch 20 Minuten.\n\nDas zeigt eine Langzeitauswertung mit 4.659 Müttern und Vätern aus dem Sozio-oekonomischen Panel (Richter u. a., Sleep 2019). Einkommen und Familienform machten keinen Unterschied.\n\nWenn du abends nur noch funktionierst und jedes Einschlafen eine Stunde dauert: Schreib HAFEN in die Kommentare, dann schicke ich dir meinen Test. Er zeigt dir, an welcher Stelle euer Abend kippt.\n\n#schlaf #einschlafen #abendroutine #elternsein #müdemama #familienalltag #klarheitundwärme"
+  },
+  {
+    "id": "z05-fair",
+    "titel": "Ist bei uns alles fair verteilt?",
+    "variante": "dunkel",
+    "quelle": "hkk / forsa 2025 · 1.002 Mütter, 502 Väter",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Frag heute Abend mal deinen Partner: Ist bei uns eigentlich alles fair verteilt?",
+        "zeige": "Ist bei uns eigentlich *alles fair verteilt?*",
+        "bild": "artikel/zeit-zu-zweit-im-alltag.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Genau das hat forsa über tausendfünfhundert Mütter und Väter gefragt.",
+        "zeige": "1.504 Eltern. *Dieselbe Frage.*",
+        "bild": "artikel/elterngespraech-kind-faellt-auf.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Zweiundachtzig Prozent der Väter sagen: Ja, fair.",
+        "zahl": 82,
+        "einheit": "%",
+        "zeige": "der Väter sagen: Ja, fair.",
+        "bild": "artikel/wenn-ihr-unterschiedlich-erzieht.webp",
+        "fokus": "50%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Bei den Müttern sind es einundsechzig.",
+        "zahl": 61,
+        "einheit": "%",
+        "zeige": "der Mütter sehen das genauso.",
+        "bild": "artikel/mental-load-verteilen.webp",
+        "fokus": "30%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Und die Arzttermine? Hat in neunzig Prozent der Familien die Mutter im Kopf.",
+        "zahl": 90,
+        "einheit": "%",
+        "zeige": "der Arzttermine: *bei der Mutter.*",
+        "bild": "artikel/kind-will-sich-nicht-anziehen.webp",
+        "fokus": "45%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Ihr lebt in derselben Familie. Und seht zwei völlig verschiedene.",
+        "zeige": "Dieselbe Familie. *Zwei Wahrheiten.*",
+        "bild": "artikel/paarbeziehung-nach-kindern.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Wenn du morgens schon müde bist, bevor der Tag überhaupt angefangen hat:",
+        "zeige": "Müde, *bevor der Tag beginnt?*",
+        "bild": "silos/eltern.webp",
+        "fokus": "38%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Quelle in die Kommentare. Dann schicke ich dir acht Fragen, die dir sonst niemand stellt. Am Ende weißt du, wie viel Kraft wirklich noch da ist.",
+        "zeige": "Schreib *QUELLE* in die Kommentare.",
+        "klein": "Wie viel Reserve ist noch da? 8 Fragen, kostenlos."
+      }
+    ],
+    "caption": "82 Prozent der Väter finden die Aufgabenverteilung in ihrer Familie fair. Von den Müttern sagen das 61 Prozent. Und die Arzttermine haben in 90 Prozent der Familien die Mütter im Kopf.\n\nDas zeigt eine repräsentative Befragung von forsa für die hkk, 1.002 Mütter und 502 Väter, Oktober 2025.\n\nIhr lebt in derselben Familie und seht zwei völlig verschiedene.\n\nWenn du morgens schon müde bist, bevor der Tag angefangen hat: Schreib QUELLE in die Kommentare, dann schicke ich dir acht Fragen, die dir sonst niemand stellt. Am Ende weißt du, wie viel Kraft wirklich noch da ist.\n\n#mentalload #elternsein #mamaalltag #erschöpfung #familienalltag #partnerschaft #klarheitundwärme"
+  },
+  {
+    "id": "z06-burnout",
+    "titel": "Ausgebrannt liegt nicht an dir",
+    "variante": "hell",
+    "quelle": "Roskam u. a., Affective Science 2021 · 17.409 Eltern, 42 Länder",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Wenn du als Mama ausgebrannt bist, liegt das an dir. Denkst du.",
+        "zeige": "Ausgebrannt? *Liegt an dir.* Denkst du.",
+        "bild": "artikel/elterliche-erschoepfung.webp",
+        "fokus": "45%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Eine Studie hat über siebzehntausend Eltern in zweiundvierzig Ländern befragt.",
+        "zeige": "17.409 Eltern. *42 Länder.*",
+        "bild": "draussen.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In manchen Ländern waren weniger als zwei Prozent der Eltern ausgebrannt.",
+        "zahl": "unter 2",
+        "einheit": "%",
+        "zeige": "in manchen Ländern.",
+        "bild": "artikel/gemeinsame-familienzeit.webp",
+        "fokus": "50%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "zahl",
+        "sprich": "In den USA bis zu acht Prozent.",
+        "zahl": 8,
+        "einheit": "%",
+        "zeige": "in den USA.",
+        "bild": "artikel/ein-elternteil-ist-immer-dran.webp",
+        "fokus": "45%",
+        "quelle_zeigen": false
+      },
+      {
+        "typ": "text",
+        "sprich": "Und der Unterschied hing nicht am Geld. Und auch nicht an den Stunden mit den Kindern.",
+        "zeige": "Nicht am Geld. *Nicht an den Stunden.*",
+        "bild": "artikel/familie-dreht-sich-um-ein-kind.webp",
+        "fokus": "55%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Am stärksten hing er daran, wie sehr in einem Land jeder für sich allein kämpft.",
+        "zeige": "Wie sehr jeder *für sich allein* kämpft.",
+        "bild": "artikel/wo-bleiben-meine-beduerfnisse.webp",
+        "fokus": "38%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Wenn du gerade denkst, du musst dich einfach mehr zusammenreißen:",
+        "zeige": "Du musst dich *nur mehr zusammenreißen?*",
+        "bild": "artikel/nicht-konsequent-sein-koennen.webp",
+        "fokus": "40%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Quelle in die Kommentare. Dann schicke ich dir acht Fragen, die dir sonst niemand stellt. Am Ende weißt du, wie viel Kraft wirklich noch da ist.",
+        "zeige": "Schreib *QUELLE* in die Kommentare.",
+        "klein": "Wie viel Reserve ist noch da? 8 Fragen, kostenlos."
+      }
+    ],
+    "caption": "17.409 Eltern in 42 Ländern. In manchen Ländern waren weniger als zwei Prozent ausgebrannt, in den USA bis zu acht Prozent.\n\nDer Unterschied hing nicht am Einkommen und nicht an den Stunden mit den Kindern. Am stärksten hing er daran, wie individualistisch ein Land ist: wie sehr jeder für sich allein kämpft. (Roskam u. a., Affective Science 2021)\n\nAusgebrannt sein ist kein persönliches Versagen.\n\nWenn du gerade denkst, du musst dich einfach mehr zusammenreißen: Schreib QUELLE in die Kommentare, dann schicke ich dir acht Fragen, die dir sonst niemand stellt.\n\n#elternburnout #erschöpfung #mamaalltag #elternsein #familienalltag #selbstfürsorge #klarheitundwärme"
+  },
+  {
+    "id": "z07-tablet",
+    "titel": "Jedes fünfte Kleinkind hat ein eigenes Tablet",
+    "variante": "dunkel",
+    "quelle": "miniKIM-Studie 2023 · Kinder von 2 bis 5 Jahren",
+    "szenen": [
+      {
+        "typ": "hook",
+        "sprich": "Jedes fünfte Kleinkind in Deutschland hat ein eigenes Tablet.",
+        "zeige": "Jedes 5. Kleinkind hat *ein eigenes Tablet.*",
+        "bild": "artikel/kind-haelt-sich-die-ohren-zu.webp",
+        "fokus": "55%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Das zeigt die miniKIM-Studie über Kinder zwischen zwei und fünf Jahren.",
+        "zeige": "Kinder von *2 bis 5* Jahren.",
+        "bild": "silos/geschwister.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "zahl",
+        "sprich": "Vier- und Fünfjährige schauen im Schnitt zweiundsiebzig Minuten am Tag.",
+        "zahl": 72,
+        "einheit": "Min.",
+        "zeige": "Bildschirm am Tag, mit 4 und 5 Jahren.",
+        "bild": "artikel/kind-staendig-ueberdreht.webp",
+        "fokus": "50%",
+        "quelle_zeigen": true
+      },
+      {
+        "typ": "text",
+        "sprich": "Die Weltgesundheitsorganisation empfiehlt bis vier Jahre höchstens eine Stunde.",
+        "zeige": "Die WHO sagt: *höchstens 60.*",
+        "bild": "artikel/selbstregulation-kind.webp",
+        "fokus": "45%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Und eine Studie aus Kanada fand einen Kreis: Mehr Bildschirm mit dreieinhalb, mehr Wutausbrüche mit viereinhalb. Und die führten wieder zu mehr Tablet.",
+        "zeige": "Mehr Tablet. Mehr Wut. *Mehr Tablet.*",
+        "bild": "artikel/meltdown-oder-trotzanfall.webp",
+        "fokus": "45%"
+      },
+      {
+        "typ": "text",
+        "sprich": "Wenn das Tablet der einzige Moment am Tag ist, in dem es ruhig wird:",
+        "zeige": "Wenn nur das Tablet *Ruhe* bringt.",
+        "bild": "artikel/wutanfall-begleiten.webp",
+        "fokus": "50%"
+      },
+      {
+        "typ": "cta",
+        "sprich": "Schreib Antenne in die Kommentare. Dann schicke ich dir meinen Reizprofil-Test. Zehn Alltagssituationen, drei Minuten, keine Diagnose.",
+        "zeige": "Schreib *ANTENNE* in die Kommentare.",
+        "klein": "Wie viel Reiz verträgt dein Kind? 3 Minuten, kostenlos."
+      }
+    ],
+    "caption": "Jedes fünfte Kind zwischen zwei und fünf Jahren hat in Deutschland ein eigenes Tablet. Vier- und Fünfjährige schauen im Schnitt 72 Minuten am Tag. (miniKIM-Studie 2023)\n\nDie WHO empfiehlt für Kinder bis vier Jahre höchstens eine Stunde.\n\nUnd eine Studie aus Kanada fand einen Kreis: mehr Bildschirmzeit mit dreieinhalb, mehr Wutausbrüche mit viereinhalb, und die wiederum mehr Tablet mit fünfeinhalb. (JAMA Pediatrics 2024, 315 Familien)\n\nWenn das Tablet der einzige Moment am Tag ist, in dem es ruhig wird: Schreib ANTENNE in die Kommentare, dann schicke ich dir meinen Reizprofil-Test. Zehn Alltagssituationen, drei Minuten, keine Diagnose.\n\n#bildschirmzeit #reizüberflutung #kleinkind #elternsein #familienalltag #kindererziehung #klarheitundwärme"
+  }
+]
