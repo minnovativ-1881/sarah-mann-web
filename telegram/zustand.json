@@ -159,6 +159,14 @@
       "silo": "reizueberflutung",
       "cta": "weiterleiten",
       "nachricht": 32
+    },
+    {
+      "datum": "2026-11-10",
+      "id": "kind-schlaegt-und-haut-01",
+      "artikel": "kind-schlaegt-und-haut",
+      "silo": "grenzen",
+      "cta": "test",
+      "nachricht": 33
     }
   ]
 }
