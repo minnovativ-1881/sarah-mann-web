@@ -167,6 +167,14 @@
       "silo": "grenzen",
       "cta": "test",
       "nachricht": 33
+    },
+    {
+      "datum": "2026-11-12",
+      "id": "gefuehle-benennen-01",
+      "artikel": "gefuehle-benennen",
+      "silo": "gefuehle",
+      "cta": "verwandt",
+      "nachricht": 34
     }
   ]
 }
