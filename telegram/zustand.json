@@ -175,6 +175,14 @@
       "silo": "gefuehle",
       "cta": "verwandt",
       "nachricht": 34
+    },
+    {
+      "datum": "2026-11-16",
+      "id": "einschlafbegleitung-wie-lange-01",
+      "artikel": "einschlafbegleitung-wie-lange",
+      "silo": "schlaf",
+      "cta": "weiterleiten-reaktion",
+      "nachricht": 35
     }
   ]
 }
