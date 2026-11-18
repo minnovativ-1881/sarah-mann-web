@@ -183,6 +183,14 @@
       "silo": "schlaf",
       "cta": "weiterleiten-reaktion",
       "nachricht": 35
+    },
+    {
+      "datum": "2026-11-18",
+      "id": "kind-gibt-schnell-auf-01",
+      "artikel": "kind-gibt-schnell-auf",
+      "silo": "charakter",
+      "cta": "test",
+      "nachricht": 36
     }
   ]
 }
