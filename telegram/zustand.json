@@ -191,6 +191,14 @@
       "silo": "charakter",
       "cta": "test",
       "nachricht": 36
+    },
+    {
+      "datum": "2026-11-19",
+      "id": "kind-beruhigt-sich-nicht-01",
+      "artikel": "kind-beruhigt-sich-nicht",
+      "silo": "gefuehle",
+      "cta": "artikel",
+      "nachricht": 37
     }
   ]
 }
